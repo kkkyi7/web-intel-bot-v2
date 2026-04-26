@@ -1,14 +1,14 @@
-name: Daily Brief (dry-run · Phase 1)
+name: Daily Brief (Phase 2 · 真发邮件)
 
-# Phase 1：每天定时跑，但只做 dry-run（不发邮件）。
-# Phase 2 验证 OK 后，把命令里的 --dry-run 去掉 + 加 SMTP secrets。
+# Phase 2：每天 9:30 真跑 + 真发邮件。
+# 出问题想紧急回 Phase 1（不发邮件）→ 把下面 run 命令加上 --dry-run 即可。
 
 on:
   # 北京时间 9:30 = UTC 1:30
   schedule:
     - cron: "30 1 * * *"
 
-  # 网页上手动触发按钮（你想随时跑就有的）
+  # 网页上手动触发按钮
   workflow_dispatch:
 
 jobs:
@@ -37,18 +37,26 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r 04-采集脚本/requirements.txt
 
-      - name: 跑 Brief（dry-run · agent-mode · 不发邮件）
+      - name: 跑 Brief（agent-mode · 真发邮件）
         env:
+          # ===== LLM =====
           LLM_PROVIDER: deepseek
           LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
-          # YouTube API key（可选，没有就只抓不到 YouTube）
+          # ===== YouTube（可选）=====
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+          # ===== SMTP 邮件 =====
+          SMTP_HOST: ${{ secrets.SMTP_HOST }}
+          SMTP_PORT: ${{ secrets.SMTP_PORT }}
+          SMTP_USER: ${{ secrets.SMTP_USER }}
+          SMTP_PASS: ${{ secrets.SMTP_PASS }}
+          MAIL_FROM: ${{ secrets.SMTP_USER }}
+          MAIL_TO: ${{ secrets.MAIL_TO }}
         run: |
           cd 04-采集脚本
-          python daily_digest.py --dry-run --max-per-topic 3 --no-cache --agent-mode
+          python daily_digest.py --max-per-topic 3 --no-cache --agent-mode
 
-      - name: 上传生成的 HTML 给你下载（保留 7 天）
-        if: always()  # 即使前面挂了也上传，方便排错
+      - name: 上传 HTML 备份给你（artifact · 保留 7 天）
+        if: always()  # 即使发邮件挂了也上传 HTML，方便看
         uses: actions/upload-artifact@v4
         with:
           name: digest-${{ github.run_number }}
