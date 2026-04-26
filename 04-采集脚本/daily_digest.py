@@ -497,21 +497,17 @@ def fetch_rss(topic, rss_config, keywords_cn=None):
     return all_out
 
 
-# ========== 大模型摘要（科普版 Prompt）==========
-SUMMARY_PROMPT = """你要帮 KIzty 读这条内容。
-KIzty 的身份（非常重要，决定你的讲解角度）：
-  - 23 岁，刚入职场 1 年多
-  - 在做供应链 APS（高级排程）SaaS 的产品/解决方案岗
-  - 正在学 AI，是个感兴趣但基础薄弱的小白
-  - 对生物学、心理学完全零基础，但很好奇
-  - 关心世界大事、经济、中美关系
-  - 语气偏好：口语、大白话、能用例子就用例子
+# ========== 大模型摘要（科普版 Prompt · v2.5 · 个性化身份卡）==========
+SUMMARY_PROMPT = """你要帮订阅者读这条内容。
 
-这条内容属于【{topic}】方向。请根据方向选择最合适的讲解角度：
-  - 供应链：对 KIzty 的 APS 产品工作有没有启发 / 客户能不能聊
-  - AI大事：KIzty 在学 AI，要帮他看懂这件事重要在哪，跟他之前听过的概念怎么对应
-  - 世界时事：帮他把前因后果、影响面讲清楚，不要只复述新闻标题
-  - 生物学 / 心理学：用仓库、电商、排队、分拣等他熟悉的场景比喻机制
+【订阅者的身份卡】（决定你写【对你有啥用】的角度）
+{user_profile}
+
+这条内容属于【{topic}】方向。
+**所有【对你有啥用】的判断必须基于上面身份卡**——不是给"普通人"写，是给这个具体的人写。
+
+【内容黑名单】（命中下面任一就在【相关性评分】给 1-2 分，提示是垃圾）
+{blacklist}
 
 严格按下面 8 个段落输出，每段必须以【xxx】开头，保持顺序。
 不要寒暄、不要总评、不要 Markdown 符号、不要 emoji。
@@ -749,18 +745,53 @@ def _llm_delay():
     return _llm_min_interval()
 
 
+def _build_user_profile_text():
+    """从 config.yaml 的 subscriber_profile 构造文本，注入 SUMMARY_PROMPT。
+
+    每个客户配自己的 subscriber_profile → 自己的【对你有啥用】角度。
+    """
+    profile = (CONFIG.get("subscriber_profile") or {})
+    if not profile:
+        return "（订阅者没填身份卡，按通用读者角度写）", "无"
+
+    name = profile.get("name", "订阅者")
+    role = (profile.get("role") or "").strip()
+    company = (profile.get("company") or "").strip()
+    current_focus = (profile.get("current_focus") or "").strip()
+    interests = profile.get("interests") or []
+    blacklist = profile.get("blacklist") or []
+
+    lines = [f"姓名：{name}"]
+    if role:
+        lines.append(f"职业：{role}")
+    if company:
+        lines.append(f"所在公司：{company}")
+    if current_focus:
+        lines.append(f"今年最想突破：{current_focus}")
+    if interests:
+        lines.append(f"长期关心方向：{', '.join(interests)}")
+
+    profile_text = "\n".join(lines)
+    blacklist_text = "、".join(blacklist) if blacklist else "无"
+
+    return profile_text, blacklist_text
+
+
 def summarize(item):
     """调 LLM 拿科普版摘要，带 429 指数退避重试。"""
     body = (item.get("body") or "").strip()
     if len(body) < 50:
         body = (body + " " + item.get("title", ""))[:200]
 
-    # v2：告诉 LLM 这条是国内源还是海外源，避免对中文原标题多此一举的翻译
+    # v2：告诉 LLM 这条是国内源还是海外源
     region = item.get("region", "intl")
     if region == "cn":
         region_desc = "🇨🇳 国内源（中文原生内容）。原标题已经是中文，【中文标题】原样复制即可，不要改写、不要扩写。"
     else:
         region_desc = "🌐 海外源（标题和正文通常是英文）。【中文标题】按规则翻译，保留 GPT / Claude / 公司名等专有名词为英文。"
+
+    # v2.5：注入订阅者身份卡 + 黑名单
+    user_profile, blacklist = _build_user_profile_text()
 
     prompt = SUMMARY_PROMPT.format(
         title=item.get("title", ""),
@@ -771,6 +802,8 @@ def summarize(item):
         url=item.get("url", ""),
         body=body[:3500],
         region_desc=region_desc,
+        user_profile=user_profile,
+        blacklist=blacklist,
     )
     max_tokens = 1800
     last_err = None
@@ -2029,11 +2062,12 @@ def render_html(all_items, date_str, total_duration=0, has_audio=False, top3_hea
             chapter_id = it.get("_chapter_id") or _chapter_id_for_item(it)
             anchor = _html.escape(chapter_id)
 
+            # v2.5：href 改成原文 URL，邮件 / 浏览器点都跳到原文（页内 anchor 在邮件客户端不工作）
             headline_cards.append(
-                f'<a class="headline-card" href="#{anchor}">'
+                f'<a class="headline-card" href="{url}" target="_blank" rel="noopener">'
                 f'<div class="headline-topic">{_html.escape(topic)}</div>'
                 f'<div class="headline-title">{_html.escape(cn_title)}</div>'
-                f'<div class="headline-meta">{meta_line}</div>'
+                f'<div class="headline-meta">{meta_line} · 点开原文 →</div>'
                 f'</a>'
             )
 
@@ -2470,20 +2504,10 @@ def send_email(html_body, date_str, html_path=None, audio_path=None,
         except Exception as e:
             print(f"  ⚠️ MP3 附件打包失败: {e}")
 
-    # ---- 附件 2：留个 HTML 备份（可选，方便存档；若不想要也无所谓） ----
-    if html_path and Path(html_path).exists():
-        try:
-            html_attach_name = f"digest_{date_str}.html"
-            with open(html_path, "rb") as f:
-                html_part = MIMEApplication(f.read(), _subtype="octet-stream")
-            html_part.add_header("Content-Type", 'text/html; charset="utf-8"')
-            html_part.add_header(
-                "Content-Disposition", "attachment",
-                filename=html_attach_name,
-            )
-            msg.attach(html_part)
-        except Exception as e:
-            print(f"  ⚠️ HTML 附件打包失败（不影响主流程）: {e}")
+    # ---- 不再挂 HTML 附件（v2.5 改 · 2026-04-26）----
+    # 原因：邮件正文已经是完整 HTML 渲染，再挂一个 .html 附件 = 内容重复，
+    # 用户在手机邮箱里要往下划很多才能看到附件，体验差。
+    # html_path 仍然保留在本地存档（05-数据样本/），需要时可手动找。
 
     try:
         if SMTP_PORT == 465:
