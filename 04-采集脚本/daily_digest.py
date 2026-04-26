@@ -1509,6 +1509,58 @@ def _format_summary(text):
     return "\n".join(html_out)
 
 
+def _format_summary_lite(text):
+    """精简版（v2.6 路径 1 · 邮件正文专用）：只渲染【相关性评分】+【一句话】两段。
+    完整版渲染走 _format_summary，作为 .html 附件挂在邮件里。
+    用户在邮件里看精简卡片，需要细节时点附件。
+    """
+    if not text:
+        return ""
+    import html as _html
+
+    KEEP = ("相关性评分", "一句话讲清楚它在说啥")
+    cleaned = text
+    ALL_SECTIONS = (
+        "中文标题", "口播版", "相关性评分", "一句话讲清楚它在说啥",
+        "详细讲给你听", "对你有啥用", "关键术语小词典", "想深入可以搜",
+    )
+    for name in ALL_SECTIONS:
+        if name in KEEP:
+            continue
+        cleaned = re.sub(
+            r"【" + re.escape(name) + r"】.*?(?=【|$)",
+            "",
+            cleaned,
+            flags=re.DOTALL,
+        )
+    cleaned = cleaned.strip()
+
+    safe = _html.escape(cleaned)
+    mapping = [
+        ("相关性评分", "sec-score"),
+        ("一句话讲清楚它在说啥", "sec-tldr"),
+    ]
+    pattern = r"【(" + "|".join(re.escape(k) for k, _ in mapping) + r")】"
+    parts = re.split(pattern, safe)
+    if len(parts) <= 1:
+        return "<div class='raw'>" + safe.replace("\n", "<br>") + "</div>"
+    html_out = []
+    i = 1
+    while i < len(parts):
+        label = parts[i]
+        body = parts[i + 1] if i + 1 < len(parts) else ""
+        cls = dict(mapping).get(label, "sec-other")
+        body_html = body.strip().replace("\n", "<br>")
+        html_out.append(
+            f"<div class='sec {cls}'>"
+            f"<div class='sec-label'>【{label}】</div>"
+            f"<div class='sec-body'>{body_html}</div>"
+            f"</div>"
+        )
+        i += 2
+    return "\n".join(html_out)
+
+
 def _audio_to_data_url(audio_path):
     """把 MP3 文件读出来 base64 编码成 data URL。
     这样可以把音频整个嵌进 HTML，单文件就能播放（适合发邮件附件）。
@@ -1665,12 +1717,14 @@ def _humanize_time_cn(raw):
     return dt_local.strftime("%Y-%m-%d")
 
 
-def render_html(all_items, date_str, total_duration=0, has_audio=False, top3_headlines=None):
+def render_html(all_items, date_str, total_duration=0, has_audio=False, top3_headlines=None, lite=False):
     """生成 HTML 简报（Apple 极简风 · 邮件正文版）。
 
     - total_duration：总音频时长（秒），用于 Hero 卡副标题
     - has_audio：是否有 MP3 附件，决定要不要在 Hero 提示"戳附件听播客"
     - top3_headlines：LLM 选出的 Top3 头条 list[{topic, item}]，None 则不渲染头条区
+    - lite：精简版（v2.6 路径 1）。True = 邮件正文用，每条只显示 评分+一句话+"看完整版→点附件"。
+            False = 完整版（默认），作为 .html 附件挂在邮件里。
 
     注意：邮件客户端（iOS Mail / Gmail / 网易邮箱）会把 <script> 和 <audio>
     全砍掉，所以这里就不再渲染播放器 UI。音频走真附件（send_email 里
@@ -1913,6 +1967,25 @@ def render_html(all_items, date_str, total_duration=0, has_audio=False, top3_hea
     }
     .item-link:hover{text-decoration:underline;}
 
+    /* ========== Lite 模式（v2.6 邮件正文专用） ========== */
+    /* 不用 details，全部展开但每条只有 评分+一句话+"看完整版"提示 */
+    .item-lite{padding:0;}
+    .item-lite .sum-lite{
+      padding:16px 20px 8px;
+      display:flex; align-items:flex-start; gap:12px;
+      border-bottom:1px solid var(--divider);
+    }
+    .item-lite .item-body{padding:14px 20px 18px;}
+    .lite-hint{
+      margin-top:10px; padding:10px 14px;
+      background:var(--accent-soft); border-radius:10px;
+      font-size:13px; color:#0a5bc4; line-height:1.55;
+    }
+    .lite-hint code{
+      background:rgba(0,0,0,.06); padding:1px 6px; border-radius:4px;
+      font-size:12px; font-family:"SF Mono","Menlo","Consolas",monospace;
+    }
+
     .sec{
       margin:10px 0; padding:12px 14px; border-radius:10px;
       font-size:14px; line-height:1.6;
@@ -2018,7 +2091,19 @@ def render_html(all_items, date_str, total_duration=0, has_audio=False, top3_hea
         published = _html.escape(published_human)
         meta_parts = [p for p in [source, author, published] if p]
         meta_line = " · ".join(meta_parts)
-        summary_html = _format_summary(summary_raw)
+
+        # v2.6 路径 1：lite 模式 = 邮件正文，每条只 评分+一句话+"看完整版"提示
+        if lite:
+            summary_html = _format_summary_lite(summary_raw)
+            full_hint = (
+                '<div class="lite-hint">'
+                f'📎 看完整版（详细 / 对你有啥用 / 术语 / 想深入）→ '
+                f'戳邮件附件 <code>digest_{date_str}.html</code>'
+                '</div>'
+            )
+        else:
+            summary_html = _format_summary(summary_raw)
+            full_hint = ""
 
         if same_title:
             title_block = f'<div class="sum-title">{title_cn}</div>'
@@ -2026,6 +2111,25 @@ def render_html(all_items, date_str, total_duration=0, has_audio=False, top3_hea
             title_block = (
                 f'<div class="sum-title-cn">{title_cn}</div>'
                 f'<div class="sum-title-en">{title_en}</div>'
+            )
+
+        # lite 模式：用 div 替代 details，默认全展开（精简版本来就短，不需要折叠 → 也避免邮件客户端折叠 details）
+        if lite:
+            return (
+                f'<div class="item item-lite" id="{_html.escape(chapter_id)}">'
+                f'<div class="sum sum-lite">'
+                f'<div class="score-chip">{score}</div>'
+                f'<div class="sum-main">'
+                f'{title_block}'
+                f'<div class="sum-meta">{meta_line}</div>'
+                f'</div>'
+                f'</div>'
+                f'<div class="item-body">'
+                f'<a class="item-link" href="{url}" target="_blank" rel="noopener">{url}</a>'
+                f'{summary_html}'
+                f'{full_hint}'
+                f'</div>'
+                f'</div>'
             )
         return (
             f'<details class="item" id="{_html.escape(chapter_id)}" data-chapter-id="{_html.escape(chapter_id)}">'
@@ -2504,10 +2608,24 @@ def send_email(html_body, date_str, html_path=None, audio_path=None,
         except Exception as e:
             print(f"  ⚠️ MP3 附件打包失败: {e}")
 
-    # ---- 不再挂 HTML 附件（v2.5 改 · 2026-04-26）----
-    # 原因：邮件正文已经是完整 HTML 渲染，再挂一个 .html 附件 = 内容重复，
-    # 用户在手机邮箱里要往下划很多才能看到附件，体验差。
-    # html_path 仍然保留在本地存档（05-数据样本/），需要时可手动找。
+    # ---- 附件 2：完整版 HTML（v2.6 路径 1 · 2026-04-27 改回）----
+    # 原因：邮件正文是 lite 版（每条只有 评分+一句话），点附件能看完整版（详细/对你有啥用/术语/想深入）。
+    # 解决了 iOS Mail 截断 details 的问题。
+    if html_path and Path(html_path).exists():
+        html_attach_name = f"digest_{date_str}.html"
+        try:
+            with open(html_path, "rb") as f:
+                html_part = MIMEApplication(f.read(), _subtype="html")
+            html_part.add_header("Content-Type", "text/html; charset=utf-8")
+            html_part.add_header(
+                "Content-Disposition", "attachment",
+                filename=html_attach_name,
+            )
+            msg.attach(html_part)
+            html_size_mb = Path(html_path).stat().st_size / 1024 / 1024
+            print(f"  📎 附 HTML（完整版）：{html_attach_name} ({html_size_mb:.2f} MB)")
+        except Exception as e:
+            print(f"  ⚠️ HTML 附件打包失败: {e}")
 
     try:
         if SMTP_PORT == 465:
@@ -2880,19 +2998,35 @@ def main():
     else:
         print("⏭️  已跳过 Top3 头条（--no-planner）")
 
-    html = render_html(
+    # v2.6 路径 1：渲染两版 HTML
+    #   - full：完整版（详细 / 对你有啥用 / 术语 / 想深入 全有），存档 + 作邮件附件
+    #   - lite：精简版（每条只 评分+一句话），作邮件正文（解决 iOS Mail 截断 details 问题）
+    html_full = render_html(
         all_items, date_str,
         total_duration=total_duration,
         has_audio=has_audio,
         top3_headlines=top3_headlines,
+        lite=False,
+    )
+    html_lite = render_html(
+        all_items, date_str,
+        total_duration=total_duration,
+        has_audio=has_audio,
+        top3_headlines=top3_headlines,
+        lite=True,
     )
     html_path = archive_dir / "digest.html"
     with open(html_path, "w", encoding="utf-8") as f:
-        f.write(html)
+        f.write(html_full)
+    html_lite_path = archive_dir / "digest_lite.html"
+    with open(html_lite_path, "w", encoding="utf-8") as f:
+        f.write(html_lite)
     print(f"\n📁 存档: {archive_dir}")
-    print(f"🌐 HTML: {html_path}")
+    print(f"🌐 HTML（完整版）: {html_path}")
+    print(f"🌐 HTML（精简版 · 邮件正文）: {html_lite_path}")
     html_size_mb = html_path.stat().st_size / 1024 / 1024
-    print(f"📦 HTML 大小: {html_size_mb:.2f} MB（纯正文，无嵌入音频）")
+    html_lite_size_mb = html_lite_path.stat().st_size / 1024 / 1024
+    print(f"📦 完整版: {html_size_mb:.2f} MB / 精简版: {html_lite_size_mb:.2f} MB")
     if has_audio:
         mp3_size_mb = audio_path.stat().st_size / 1024 / 1024
         print(f"🎧 MP3：{audio_path.name}（{mp3_size_mb:.2f} MB）将作为附件发出，"
@@ -2902,9 +3036,9 @@ def main():
         print("\n🧪 dry-run 模式，不发邮件。")
     else:
         send_email(
-            html, date_str,
-            html_path=html_path,
-            audio_path=audio_path,        # 直接挂 MP3 当附件
+            html_lite, date_str,             # 正文 = 精简版
+            html_path=html_path,             # 附件 = 完整版（send_email 内部读 html_path 挂上）
+            audio_path=audio_path,           # MP3 也挂附件
             total_duration=total_duration,
         )
 
