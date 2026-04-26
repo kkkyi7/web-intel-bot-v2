@@ -1968,22 +1968,42 @@ def render_html(all_items, date_str, total_duration=0, has_audio=False, top3_hea
     .item-link:hover{text-decoration:underline;}
 
     /* ========== Lite 模式（v2.6 邮件正文专用） ========== */
-    /* 不用 details，全部展开但每条只有 评分+一句话+"看完整版"提示 */
-    .item-lite{padding:0;}
+    /* 目标：一眼看到接下来要看哪几件事 → 紧凑、目录感、色块缩小 */
+    .item-lite{padding:0; margin-bottom:6px;}
     .item-lite .sum-lite{
-      padding:16px 20px 8px;
-      display:flex; align-items:flex-start; gap:12px;
-      border-bottom:1px solid var(--divider);
+      padding:10px 14px 6px;
+      display:flex; align-items:flex-start; gap:10px;
     }
-    .item-lite .item-body{padding:14px 20px 18px;}
-    .lite-hint{
-      margin-top:10px; padding:10px 14px;
-      background:var(--accent-soft); border-radius:10px;
-      font-size:13px; color:#0a5bc4; line-height:1.55;
+    .item-lite .score-chip{
+      width:26px; height:26px; font-size:12px;
     }
-    .lite-hint code{
-      background:rgba(0,0,0,.06); padding:1px 6px; border-radius:4px;
-      font-size:12px; font-family:"SF Mono","Menlo","Consolas",monospace;
+    .item-lite .sum-title{
+      font-size:15px; line-height:1.35; margin:0 0 2px;
+    }
+    .item-lite .sum-meta{
+      font-size:11px;
+    }
+    .item-body-lite{padding:4px 14px 12px;}
+    .item-body-lite .sec{
+      margin:6px 0; padding:8px 10px; border-radius:8px;
+      font-size:13px; line-height:1.5;
+    }
+    .item-body-lite .sec-label{
+      font-size:10px; margin-bottom:3px;
+    }
+
+    /* Top3 lite：去 meta，加 tldr 一句话；卡片缩小一半 */
+    .headline-lite{padding:10px 12px !important;}
+    .headline-lite .headline-topic{
+      font-size:10px; margin-bottom:2px;
+    }
+    .headline-lite .headline-title{
+      font-size:14px; line-height:1.3; margin-bottom:4px;
+    }
+    .headline-tldr{
+      font-size:12px; color:var(--text-2); line-height:1.45;
+      display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical;
+      overflow:hidden;
     }
 
     .sec{
@@ -2071,6 +2091,15 @@ def render_html(all_items, date_str, total_duration=0, has_audio=False, top3_hea
             '系统播放器会自动启动，可锁屏 / 后台听通勤。'
             '</p>'
         )
+    # v2.6 lite：在 Hero 加一条总提示，告知"看完整版去点附件"，
+    # 这样每条 brief 卡片就不需要再重复说一遍了
+    if lite:
+        player_html += (
+            '<p class="hero-hint">'
+            '📎 <b>看完整版（详细 / 对你有啥用 / 术语 / 想深入）</b>：戳邮件附件 '
+            f'<code>digest_{date_str}.html</code>'
+            '</p>'
+        )
     player_html += '</div>'
 
     # ----- 辅助：把一条 item 渲染成 <details> HTML 片段 -----
@@ -2092,20 +2121,17 @@ def render_html(all_items, date_str, total_duration=0, has_audio=False, top3_hea
         meta_parts = [p for p in [source, author, published] if p]
         meta_line = " · ".join(meta_parts)
 
-        # v2.6 路径 1：lite 模式 = 邮件正文，每条只 评分+一句话+"看完整版"提示
+        # v2.6 路径 1：lite 模式 = 邮件正文，每条只 评分+一句话
+        # （Hero 区已经统一提示"看完整版→点附件"，每条不再重复说）
         if lite:
             summary_html = _format_summary_lite(summary_raw)
-            full_hint = (
-                '<div class="lite-hint">'
-                f'📎 看完整版（详细 / 对你有啥用 / 术语 / 想深入）→ '
-                f'戳邮件附件 <code>digest_{date_str}.html</code>'
-                '</div>'
-            )
         else:
             summary_html = _format_summary(summary_raw)
-            full_hint = ""
 
-        if same_title:
+        # lite 模式：英文副标题去掉，标题始终用中文（更紧凑、目录感更强）
+        if lite:
+            title_block = f'<div class="sum-title">{title_cn}</div>'
+        elif same_title:
             title_block = f'<div class="sum-title">{title_cn}</div>'
         else:
             title_block = (
@@ -2114,6 +2140,7 @@ def render_html(all_items, date_str, total_duration=0, has_audio=False, top3_hea
             )
 
         # lite 模式：用 div 替代 details，默认全展开（精简版本来就短，不需要折叠 → 也避免邮件客户端折叠 details）
+        # 不再渲染 URL（点开正文页是冗余）+ 不再渲染 lite-hint（hero 已说一次）
         if lite:
             return (
                 f'<div class="item item-lite" id="{_html.escape(chapter_id)}">'
@@ -2124,10 +2151,8 @@ def render_html(all_items, date_str, total_duration=0, has_audio=False, top3_hea
                 f'<div class="sum-meta">{meta_line}</div>'
                 f'</div>'
                 f'</div>'
-                f'<div class="item-body">'
-                f'<a class="item-link" href="{url}" target="_blank" rel="noopener">{url}</a>'
+                f'<div class="item-body item-body-lite">'
                 f'{summary_html}'
-                f'{full_hint}'
                 f'</div>'
                 f'</div>'
             )
@@ -2163,21 +2188,35 @@ def render_html(all_items, date_str, total_duration=0, has_audio=False, top3_hea
             published_human = _humanize_time_cn(it.get("published", ""))
             meta_parts = [p for p in [source, _html.escape(published_human)] if p]
             meta_line = " · ".join(meta_parts)
-            chapter_id = it.get("_chapter_id") or _chapter_id_for_item(it)
-            anchor = _html.escape(chapter_id)
 
-            # v2.5：href 改成原文 URL，邮件 / 浏览器点都跳到原文（页内 anchor 在邮件客户端不工作）
-            headline_cards.append(
-                f'<a class="headline-card" href="{url}" target="_blank" rel="noopener">'
-                f'<div class="headline-topic">{_html.escape(topic)}</div>'
-                f'<div class="headline-title">{_html.escape(cn_title)}</div>'
-                f'<div class="headline-meta">{meta_line} · 点开原文 →</div>'
-                f'</a>'
-            )
+            # v2.6：lite 模式下，Top3 卡片不显示 meta + "点开原文"，
+            # 改成显示 LLM 提取的"一句话"，让用户一眼看到这条新闻在说啥
+            if lite:
+                tldr = _html.escape(_extract_tldr(it.get("summary", ""), max_chars=70))
+                headline_cards.append(
+                    f'<a class="headline-card headline-lite" href="{url}" target="_blank" rel="noopener">'
+                    f'<div class="headline-topic">{_html.escape(topic)}</div>'
+                    f'<div class="headline-title">{_html.escape(cn_title)}</div>'
+                    f'<div class="headline-tldr">{tldr}</div>'
+                    f'</a>'
+                )
+            else:
+                # 完整版（HTML 附件）：保留 meta + "点开原文"
+                headline_cards.append(
+                    f'<a class="headline-card" href="{url}" target="_blank" rel="noopener">'
+                    f'<div class="headline-topic">{_html.escape(topic)}</div>'
+                    f'<div class="headline-title">{_html.escape(cn_title)}</div>'
+                    f'<div class="headline-meta">{meta_line} · 点开原文 →</div>'
+                    f'</a>'
+                )
 
+        headlines_title = (
+            '📰 今日头条' if lite
+            else '📰 今日头条 · LLM 跨主题精选'
+        )
         headlines_html = (
             '<div class="headlines">'
-            '<div class="headlines-title">📰 今日头条 · LLM 跨主题精选</div>'
+            f'<div class="headlines-title">{headlines_title}</div>'
             '<div class="headlines-cards">'
             + "".join(headline_cards) +
             '</div></div>'
@@ -2291,6 +2330,21 @@ def _extract_title_cn(summary_text, fallback_title=""):
     if not raw:
         return (fallback_title or "").strip()
     return raw
+
+
+def _extract_tldr(summary_text, max_chars=80):
+    """从摘要里抽【一句话讲清楚它在说啥】，给 Top3 卡片用。
+    超过 max_chars 自动截断 + 加 …
+    """
+    bag = _parse_summary_sections(summary_text)
+    tldr = (bag.get("一句话讲清楚它在说啥", "") or "").strip()
+    if not tldr:
+        return ""
+    # 只取第一段
+    tldr = tldr.split("\n")[0].strip()
+    if len(tldr) > max_chars:
+        tldr = tldr[:max_chars].rstrip() + "…"
+    return tldr
 
 
 def _extract_spoken(summary_text):
