@@ -1,0 +1,57 @@
+name: Daily Brief (dry-run · Phase 1)
+
+# Phase 1：每天定时跑，但只做 dry-run（不发邮件）。
+# Phase 2 验证 OK 后，把命令里的 --dry-run 去掉 + 加 SMTP secrets。
+
+on:
+  # 北京时间 9:30 = UTC 1:30
+  schedule:
+    - cron: "30 1 * * *"
+
+  # 网页上手动触发按钮（你想随时跑就有的）
+  workflow_dispatch:
+
+jobs:
+  brief:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    # 强制 UTF-8（中文不乱码）
+    env:
+      PYTHONIOENCODING: utf-8
+      LANG: C.UTF-8
+      LC_ALL: C.UTF-8
+
+    steps:
+      - name: 拉代码
+        uses: actions/checkout@v4
+
+      - name: 装 Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+
+      - name: 装依赖
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r 04-采集脚本/requirements.txt
+
+      - name: 跑 Brief（dry-run · agent-mode · 不发邮件）
+        env:
+          LLM_PROVIDER: deepseek
+          LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
+          # YouTube API key（可选，没有就只抓不到 YouTube）
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+        run: |
+          cd 04-采集脚本
+          python daily_digest.py --dry-run --max-per-topic 3 --no-cache --agent-mode
+
+      - name: 上传生成的 HTML 给你下载（保留 7 天）
+        if: always()  # 即使前面挂了也上传，方便排错
+        uses: actions/upload-artifact@v4
+        with:
+          name: digest-${{ github.run_number }}
+          path: 05-数据样本/**/digest.html
+          if-no-files-found: warn
+          retention-days: 7
