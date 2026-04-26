@@ -1,0 +1,44 @@
+# ============================================================
+# .gitignore for web-intel-bot-v2
+# 2026-04-26 · 防 .env / 大文件 / 临时数据被上传到 GitHub
+# ============================================================
+
+# ⚠️ 敏感文件（API key + 邮箱密码）—— 绝对不能 push
+.env
+.env.*
+!.env.template
+
+# Python 缓存
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# 代码备份（本地恢复用，不需要历史化）
+*.bak
+*.bak_*
+**/daily_digest.py.bak_*
+
+# 历史跑过的数据（每天新生成 MP3 几十 MB，会让仓库膨胀）
+05-数据样本/
+**/audio/
+**/*.mp3
+voice-samples/
+
+# 临时 / 日志
+*.tmp
+*.log
+06-定时日志/
+
+# IDE
+.vscode/
+.idea/
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# Cowork 工作文件（不应该跨越项目同步）
+*待填.md
+Day*-进度卡-*.md

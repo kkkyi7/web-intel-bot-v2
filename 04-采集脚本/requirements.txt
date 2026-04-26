@@ -1,0 +1,14 @@
+# 核心依赖（必装）
+requests>=2.31.0
+PyYAML>=6.0
+python-dotenv>=1.0.0
+youtube-transcript-api>=0.6.2
+
+# LLM 客户端（二选一或都装）
+# - 用 DeepSeek/Qwen/Kimi/GLM/通义 等国产模型：装 openai
+# - 用 Claude API：装 anthropic
+openai>=1.40.0
+anthropic>=0.40.0
+edge-tts
+mutagen>=1.47.0
+feedparser>=6.0.10

@@ -1,0 +1,457 @@
+# ============================================================
+# web-intel-bot v2 · 主题与数据源配置
+# ============================================================
+# 相比 v1 新增：
+#   - 每个主题下加 keywords_cn（中文关键词，给国内源预过滤用）
+#   - 每个主题下 sources.rss 数组，每条带 region: cn
+#   - 海外源（youtube / reddit / arxiv / pubmed）不显式写 region，
+#     fetcher 里默认打 region: intl
+# ============================================================
+
+# 相关性评分阈值（低于此值的不进最终 Brief）
+min_score: 5
+
+# 每个源（RSS）最多抓多少条用于去噪/过滤
+rss_fetch_limit_default: 10
+
+topics:
+
+  # ========== 主题 1：供应链 / APS（本职方向）==========
+  供应链:
+    keywords:
+      - "advanced planning and scheduling"
+      - "supply chain optimization"
+      - "APS planning"
+      - "demand forecasting"
+      - "multi-echelon inventory"
+      - "digital supply chain"
+      - "production scheduling"
+      - "inventory optimization"
+      - "S&OP planning"
+      - "supply chain digital twin"
+
+    # ⭐ v2 新增：中文关键词，给国内源过滤用
+    keywords_cn:
+      - 供应链
+      - 排产
+      - APS
+      - 高级计划
+      - 智能制造
+      - 工业软件
+      - 生产调度
+      - 工业互联网
+      - 工业 4.0
+      - 数字化转型
+      - 制造业
+
+    sources:
+      youtube:
+        limit: 12
+        hours_back: 72
+        langs:
+          - lang: en
+            region: US
+          - lang: zh
+            region: CN
+
+      reddit:
+        subreddits:
+          - supplychain
+          - logistics
+          - OperationsResearch
+          - manufacturing
+        limit_per_sub: 5
+        time_range: week
+
+      arxiv:
+        limit: 6
+        days_back: 14
+
+      # ⭐ v2 新增：国内 RSS
+      rss:
+        - name: "36氪"
+          url: "https://36kr.com/feed"
+          region: cn
+          limit: 12
+        - name: "InfoQ 中文"
+          url: "https://www.infoq.cn/feed"
+          region: cn
+          limit: 10
+
+  # ========== 主题 2：AI 大事（你正在学 AI，高优先级）==========
+  AI大事:
+    keywords:
+      - "Claude"
+      - "ChatGPT"
+      - "GPT-5"
+      - "LLM"
+      - "large language model"
+      - "Anthropic"
+      - "OpenAI"
+      - "Gemini"
+      - "DeepSeek"
+      - "AI agent"
+      - "multimodal AI"
+      - "AI reasoning"
+      - "RAG"
+      - "AGI"
+
+    keywords_cn:
+      - 大模型
+      - AI
+      - 人工智能
+      - 智能体
+      - Agent
+      - Claude
+      - GPT
+      - 千问
+      - 通义
+      - 豆包
+      - Kimi
+      - DeepSeek
+      - 文心
+      - 多模态
+      - 开源模型
+      - 推理模型
+      - RAG
+
+    sources:
+      youtube:
+        limit: 12
+        hours_back: 48
+        langs:
+          - lang: en
+            region: US
+          - lang: zh
+            region: CN
+
+      reddit:
+        subreddits:
+          - singularity
+          - LocalLLaMA
+          - ClaudeAI
+          - OpenAI
+          - artificial
+          - MachineLearning
+        limit_per_sub: 5
+        time_range: day
+
+      arxiv:
+        limit: 8
+        days_back: 7
+
+      # ⭐ v2 新增
+      rss:
+        # 机器之心 RSS 官方地址失效，Day 3 换 RSSHub 或自建
+        # - name: "机器之心"
+        #   url: "https://www.jiqizhixin.com/rss"
+        #   region: cn
+        #   limit: 15
+        - name: "36氪"
+          url: "https://36kr.com/feed"
+          region: cn
+          limit: 12
+        - name: "InfoQ 中文"
+          url: "https://www.infoq.cn/feed"
+          region: cn
+          limit: 10
+        - name: "少数派"
+          url: "https://sspai.com/feed"
+          region: cn
+          limit: 8
+        - name: "GitHub Trending"   # 2026-04-24 KIzty 要求加（"想看最新开源啥"）
+          url: "https://mshibanami.github.io/GitHubTrendingRSS/daily/all.xml"
+          region: intl
+          limit: 10
+          bypass_proxy: true        # github.io 国内能直连，绕过本机 Clash 代理
+
+  # ========== 主题 3：世界时事（v2.1 重写：用大事信号词 + 权威时政源）==========
+  世界时事:
+    keywords:
+      # 中美博弈 / 大国关系
+      - "US China"
+      - "export controls"
+      - "tariffs"
+      - "chip ban"
+      - "sanctions"
+      - "decoupling"
+      # 地缘冲突
+      - "Russia Ukraine"
+      - "Israel Gaza"
+      - "Taiwan Strait"
+      - "South China Sea"
+      - "Middle East crisis"
+      # 全球经济
+      - "Federal Reserve"
+      - "interest rate"
+      - "inflation"
+      - "recession"
+      - "oil price"
+      - "OPEC"
+      # AI / 科技政策
+      - "EU AI Act"
+      - "AI regulation"
+      - "AI executive order"
+      # 国际组织
+      - "G20 summit"
+      - "G7 summit"
+      - "BRICS"
+      - "NATO"
+
+    keywords_cn:
+      # 中美 / 大国博弈
+      - 中美
+      - 贸易战
+      - 关税
+      - 出口管制
+      - 芯片
+      - 制裁
+      - 脱钩
+      # 地缘冲突
+      - 俄乌
+      - 乌克兰
+      - 以色列
+      - 加沙
+      - 台海
+      - 南海
+      - 朝鲜
+      - 中东
+      # 全球经济
+      - 美联储
+      - 加息
+      - 降息
+      - 通胀
+      - 衰退
+      - 油价
+      - 人民币
+      - 汇率
+      - 美元
+      # AI / 科技政策
+      - AI 监管
+      - AI 法案
+      - 算法备案
+      - 数据安全
+      - 出口禁令
+      # 国内政策
+      - 政策
+      - 财政
+      - 央行
+      - 产业政策
+      - 外资
+      # 国际组织
+      - G20
+      - G7
+      - 金砖
+      - 北约
+      - 联合国
+      - 峰会
+      - 外交部
+
+    sources:
+      youtube:
+        limit: 10
+        hours_back: 24
+        langs:
+          - lang: en
+            region: US
+
+      reddit:
+        subreddits:
+          - worldnews
+          - geopolitics
+          - news
+          - Economics
+          - InternationalPolitics
+        limit_per_sub: 5
+        time_range: day
+
+      rss:
+        # v2.1：权威时政源走 RSSHub 镜像（rsshub.app 被公共实例限流返回 403）
+        # rsshub.rssforever.com 是国内友好的镜像，相对稳定
+        # 如果三个 RSSHub 源都挂，36氪 会兜住（limit 低一点，关键词过滤后基本都是时政相关）
+        - name: "澎湃新闻"
+          url: "https://rsshub.rssforever.com/thepaper/featured"
+          region: cn
+          limit: 15
+        - name: "财新网"
+          url: "https://rsshub.rssforever.com/caixin/latest"
+          region: cn
+          limit: 10
+        - name: "观察者网"
+          url: "https://rsshub.rssforever.com/guancha/headline"
+          region: cn
+          limit: 10
+        - name: "36氪（兜底）"
+          url: "https://36kr.com/feed"
+          region: cn
+          limit: 5
+
+  # ========== 主题 4：生物学 ==========
+  生物学:
+    keywords:
+      - "single cell sequencing"
+      - "CRISPR"
+      - "epigenetics"
+      - "longevity"
+      - "neuroscience"
+      - "gut microbiome"
+      - "cancer immunotherapy"
+      - "aging biology"
+
+    keywords_cn:
+      - 生物
+      - 基因
+      - 细胞
+      - 脑科学
+      - 神经
+      - 衰老
+      - 长寿
+      - 肠道菌群
+      - CRISPR
+      - 免疫
+      - 癌症
+      - 健康
+
+    sources:
+      youtube:
+        limit: 6
+        hours_back: 72
+        langs:
+          - lang: en
+            region: US
+
+      reddit:
+        subreddits:
+          - biology
+          - neuroscience
+          - longevity
+          - medicine
+        limit_per_sub: 3
+        time_range: week
+
+      pubmed:
+        limit: 6
+        days_back: 7
+
+      arxiv:
+        limit: 3
+        days_back: 14
+
+      rss:
+        # 机器之心失效，生物学栏目暂时只靠海外源；Day 3 找替代
+        # - name: "机器之心"
+        #   url: "https://www.jiqizhixin.com/rss"
+        #   region: cn
+        #   limit: 8
+
+  # ========== 主题 5：心理学 ==========
+  心理学:
+    keywords:
+      - "cognitive science"
+      - "decision making"
+      - "behavioral economics"
+      - "metacognition"
+      - "emotion regulation"
+      - "habit formation"
+      - "attention"
+      - "working memory"
+
+    keywords_cn:
+      - 心理
+      - 认知
+      - 情绪
+      - 注意力
+      - 习惯
+      - 决策
+      - 行为经济学
+      - 焦虑
+      - 抑郁
+      - 冥想
+      - 元认知
+      - 自我
+
+    sources:
+      youtube:
+        limit: 6
+        hours_back: 72
+        langs:
+          - lang: en
+            region: US
+
+      reddit:
+        subreddits:
+          - psychology
+          - cognitivescience
+          - behaviorism
+          - productivity
+        limit_per_sub: 3
+        time_range: week
+
+      pubmed:
+        limit: 5
+        days_back: 7
+
+      rss:
+        - name: "少数派"
+          url: "https://sspai.com/feed"
+          region: cn
+          limit: 10
+
+  # ========== 主题 6：变现路径（2026-04-24 新增 · 个人 IP / 副业方向）==========
+  变现路径:
+    keywords:
+      - "creator economy"
+      - "personal brand building"
+      - "AI side hustle"
+      - "solopreneur"
+      - "indie hacker"
+      - "content monetization"
+      - "micro SaaS"
+      - "digital product launch"
+      - "passive income AI"
+      - "knowledge economy"
+
+    keywords_cn:
+      - 个人 IP
+      - 副业
+      - 副业项目
+      - 变现
+      - 变现渠道
+      - AI 创业
+      - 独立开发者
+      - 自媒体
+      - 知识付费
+      - 内容创业
+      - 被动收入
+      - 搞钱
+      - 数字游民
+      - 生财有术
+
+    sources:
+      youtube:
+        limit: 8
+        hours_back: 72
+        langs:
+          - lang: en
+            region: US
+          - lang: zh
+            region: CN
+
+      reddit:
+        subreddits:
+          - Entrepreneur
+          - SideProject
+          - SaaS
+          - indiehackers
+        limit_per_sub: 5
+        time_range: week
+
+      rss:
+        - name: "少数派"
+          url: "https://sspai.com/feed"
+          region: cn
+          limit: 10
+        - name: "36氪"
+          url: "https://36kr.com/feed"
+          region: cn
+          limit: 10
