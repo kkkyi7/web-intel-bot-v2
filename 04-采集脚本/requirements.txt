@@ -12,3 +12,5 @@ anthropic>=0.40.0
 edge-tts
 mutagen>=1.47.0
 feedparser>=6.0.10
+# v2.6 · CSS 内联（邮件附件被网页邮箱在线预览时 <style> 会被砍 → 必须 inline）
+premailer>=3.10.0

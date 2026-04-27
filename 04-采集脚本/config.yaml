@@ -166,7 +166,7 @@ topics:
         limit: 8
         days_back: 7
 
-      # ⭐ v2 新增
+      # ⭐ v2 新增；2026-04-27 加冗余源（cloud 拉国内 RSS 经常超时，多一个少一个 0 国内的概率）
       rss:
         # 机器之心 RSS 官方地址失效，Day 3 换 RSSHub 或自建
         # - name: "机器之心"
@@ -185,6 +185,11 @@ topics:
           url: "https://sspai.com/feed"
           region: cn
           limit: 8
+        # v2.6.1 加 · 2026-04-27 · 国内 AI 媒体冗余源（前面 3 个在 cloud 经常超时）
+        - name: "量子位"
+          url: "https://www.qbitai.com/feed"
+          region: cn
+          limit: 10
         - name: "GitHub Trending"   # 2026-04-24 KIzty 要求加（"想看最新开源啥"）
           url: "https://mshibanami.github.io/GitHubTrendingRSS/daily/all.xml"
           region: intl
