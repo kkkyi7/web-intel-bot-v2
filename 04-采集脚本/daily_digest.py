@@ -1731,6 +1731,28 @@ def _humanize_time_cn(raw):
     return dt_local.strftime("%Y-%m-%d")
 
 
+def _expand_css_vars(css):
+    """展开 :root 里定义的 CSS 变量到全局 var() 引用处。
+    背景：v2.6.1 加 premailer 做 CSS 内联，但 premailer 用的 cssutils
+    不支持 CSS Custom Properties（var(--xxx)），会把所有用到 var() 的规则
+    当 invalid 丢弃 → 内联出来几乎是空的 → 163 网页版砍 <style> 后裸文本。
+    解法：把 :root 里所有 --xxx: yyy 在 CSS 字符串里全局替换 var(--xxx) → yyy。
+    浏览器对展开后的 CSS 完全兼容（颜色值通用）。
+    """
+    root_match = re.search(r":root\s*\{([^}]+)\}", css)
+    if not root_match:
+        return css
+    vars_block = root_match.group(1)
+    var_map = {}
+    for m in re.finditer(r"--([\w-]+)\s*:\s*([^;]+);", vars_block):
+        var_map[m.group(1).strip()] = m.group(2).strip()
+    if not var_map:
+        return css
+    def _replace(m):
+        return var_map.get(m.group(1), m.group(0))
+    return re.sub(r"var\(--([\w-]+)\)", _replace, css)
+
+
 def render_html(all_items, date_str, total_duration=0, has_audio=False, top3_headlines=None, lite=False):
     """生成 HTML 简报（Apple 极简风 · 邮件正文版）。
 
@@ -2089,6 +2111,12 @@ def render_html(all_items, date_str, total_duration=0, has_audio=False, top3_hea
       transition:width .15s linear;
     }
     """
+
+    # v2.6.2：展开 :root 里的 CSS 变量。
+    # cssutils（premailer 用的）不支持 var(--xxx)，会把所有用变量的规则当 invalid 丢掉，
+    # 导致内联出的 inline style 几乎是空的 → 163 砍 <style> 后裸文本。
+    # 浏览器对展开后的具体颜色值完全兼容，所以这里全局展开是无害的。
+    css = _expand_css_vars(css)
 
     # ----- Hero（极简 · 无控件） -----
     player_html = (
