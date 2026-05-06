@@ -53,13 +53,16 @@ jobs:
           MAIL_TO: ${{ secrets.MAIL_TO }}
         run: |
           cd 04-采集脚本
-          python daily_digest.py --max-per-topic 3 --no-cache --agent-mode
+          python daily_digest.py --profile kizty --max-per-topic 3 --no-cache --agent-mode
 
       - name: 上传 HTML 备份给你（artifact · 保留 7 天）
         if: always()  # 即使发邮件挂了也上传 HTML，方便看
         uses: actions/upload-artifact@v4
         with:
           name: digest-${{ github.run_number }}
-          path: 05-数据样本/**/digest.html
+          path: |
+            05-数据样本/**/digest.html
+            05-数据样本/**/digest_lite.html
+            05-数据样本/**/items.json
           if-no-files-found: warn
           retention-days: 7

@@ -26,6 +26,11 @@ __pycache__/
 **/*.mp3
 voice-samples/
 
+# 客户 profile（姓名 / 公司 / 邮箱 / 关注点），默认不入库
+04-采集脚本/profiles/*.yaml
+!04-采集脚本/profiles/ai_pm_demo.yaml
+!04-采集脚本/profiles/kizty.yaml
+
 # 临时 / 日志
 *.tmp
 *.log

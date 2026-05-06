@@ -57,6 +57,9 @@ except ImportError:
 
 # ========== 配置加载 ==========
 SCRIPT_DIR = Path(__file__).parent.resolve()
+PROFILES_DIR = SCRIPT_DIR / "profiles"
+ACTIVE_PROFILE_SLUG = ""
+ACTIVE_PROFILE = {}
 load_dotenv(SCRIPT_DIR / ".env")
 
 try:
@@ -73,6 +76,71 @@ SMTP_USER = os.environ.get("SMTP_USER", "").strip()
 SMTP_PASS = os.environ.get("SMTP_PASS", "").strip()
 MAIL_FROM = os.environ.get("MAIL_FROM", SMTP_USER).strip()
 MAIL_TO = os.environ.get("MAIL_TO", SMTP_USER).strip()
+
+
+def _coerce_list(value):
+    """Profile YAML 里允许 list 或换行文本，统一转成干净 list。"""
+    if value is None:
+        return []
+    if isinstance(value, list):
+        return [str(x).strip() for x in value if str(x).strip()]
+    if isinstance(value, str):
+        return [x.strip(" -\t") for x in value.splitlines() if x.strip(" -\t")]
+    return [str(value).strip()] if str(value).strip() else []
+
+
+def _load_profile(slug):
+    """读取 profiles/{slug}.yaml；slug 只允许简单文件名，避免误读路径。"""
+    safe_slug = re.sub(r"[^a-zA-Z0-9_-]", "", slug or "")
+    if not safe_slug:
+        raise ValueError("--profile 不能为空，且只能包含英文、数字、下划线和短横线")
+    path = PROFILES_DIR / f"{safe_slug}.yaml"
+    if not path.exists():
+        raise FileNotFoundError(f"找不到 profile: {path}")
+    with open(path, "r", encoding="utf-8") as f:
+        data = yaml.safe_load(f) or {}
+    if not isinstance(data, dict):
+        raise ValueError(f"profile 必须是 YAML 对象: {path}")
+    data["_slug"] = safe_slug
+    data["_path"] = str(path)
+    return data
+
+
+def _apply_profile(profile):
+    """把客户 profile 注入现有单用户 pipeline，保持未传 --profile 时完全兼容。"""
+    global ACTIVE_PROFILE, ACTIVE_PROFILE_SLUG
+
+    if not profile:
+        ACTIVE_PROFILE = {}
+        ACTIVE_PROFILE_SLUG = ""
+        return
+
+    ACTIVE_PROFILE = dict(profile)
+    ACTIVE_PROFILE_SLUG = profile.get("_slug", "")
+
+    subscriber = {
+        "name": profile.get("name") or "订阅者",
+        "role": profile.get("role") or "",
+        "company": profile.get("company_context") or profile.get("company") or "",
+        "current_focus": profile.get("current_focus") or "",
+        "interests": _coerce_list(profile.get("interests")),
+        "blacklist": _coerce_list(profile.get("blacklist")),
+        "tone": profile.get("tone") or "",
+    }
+    CONFIG["subscriber_profile"] = subscriber
+
+    topic_priority = _coerce_list(profile.get("topic_priority"))
+    if topic_priority:
+        CONFIG["topic_priority"] = topic_priority
+        # Agent 模式仍沿用"必跑 + 可选"结构：客户最关心的前三个先稳稳跑出来。
+        CONFIG["must_run_topics"] = topic_priority[:3]
+
+    print(f"👤 Profile: {ACTIVE_PROFILE_SLUG or subscriber['name']} → {subscriber['name']}")
+
+
+def _active_mail_to():
+    """本次运行的收件人。profile 优先，但不改全局 MAIL_TO。"""
+    return (ACTIVE_PROFILE.get("mail_to") or MAIL_TO or "").strip()
 
 # ---- TTS 播客风参数（可 .env 覆盖）----
 TTS_VOICE = os.environ.get("TTS_VOICE", "zh-CN-XiaoxiaoNeural").strip()
@@ -533,7 +601,7 @@ SUMMARY_PROMPT = """你要帮订阅者读这条内容。
     → 输出 "OpenAI 发布 GPT-5，编程能力大幅升级"
 
 【相关性评分】只输出一个 1-10 的整数。
-  - 9-10 = 对 KIzty 的工作/学习/视野直接有帮助
+  - 9-10 = 对这位订阅者的工作/学习/视野直接有帮助
   - 6-8  = 相关方向，有启发但不直接
   - 3-5  = 擦边，只有个别概念能用
   - 1-2  = 基本无关
@@ -555,16 +623,16 @@ SUMMARY_PROMPT = """你要帮订阅者读这条内容。
   - 英文术语 / 中文翻译：大白话解释（不超过 30 字）
   如果没有术语就写"无特殊术语"。
 
-【对你有啥用】针对 KIzty 的身份，写 2-3 条具体启发。要具体，别说"开阔视野"这种废话：
+【对你有啥用】针对这位订阅者的身份，写 2-3 条具体启发。要具体，别说"开阔视野"这种废话：
   - 供应链 → "这个思路能不能搬到排产算法里" / "下次跟客户聊 XX 可以提"
   - AI大事 → "这改变了你之前对 XX 的理解" / "可以在 Claude/Cursor 里试试这个"
   - 世界时事 → "这对 A 股/中美贸易/你所在行业意味着什么"
   - 生物/心理 → "这颠覆了你对 XX 的认知" / "可以用在自己身上"
 
-【想深入可以搜】给 2-3 个具体的中文或英文搜索关键词，方便 KIzty 顺着查下去。
+【想深入可以搜】给 2-3 个具体的中文或英文搜索关键词，方便订阅者顺着查下去。
 
 【口播版】把这条内容改写成一段 200-280 字的播客口播稿，专门给 TTS 念出来用。要求：
-  - 主持人形象：23 岁年轻男声（云希声音），跟 KIzty 同龄，是他的"同辈博主朋友"
+  - 主持人形象：像一个懂 AI 产品的同事朋友，语气自然、清楚、不过度营销
   - 不要客套寒暄，不要"大家好我是 XX"，开口就给信息
   - 用短句、口语连接词（"然后"、"问题来了"、"说白了"、"咱们做产品的"），不要书面语
   - 数字用中文念法（"快了三倍"，不要"3x"）；保留 GPT-5 / Claude / Tesla 这种业内人都念英文的词
@@ -587,19 +655,17 @@ SUMMARY_PROMPT = """你要帮订阅者读这条内容。
 
 
 # ========== Agent Decision Prompt（v4.1 · 强化"敢 done"）==========
-AGENT_DECISION_PROMPT = """你是 KIzty 每日 Brief 的 agent。
+AGENT_DECISION_PROMPT = """你是订阅者每日 Brief 的 agent。
+
+【订阅者画像】
+{profile_context}
+
+【订阅者主题优先级】
+{topic_priority}
 
 【核心原则 · 反复强调】
 **质量 > 数量**。Brief 不是越多越好。**你的目标是 2-4 个高质量主题**，不是 6 个。
 **敢于 done**——已完成 ≥3 个主题且基本能用就该 done，不要因为 pending 还有主题就强迫自己跑完。
-
-【主题默认优先级】（高 → 低）
-1. 世界时事
-2. AI大事（信息差）
-3. 变现路径（副业 / IP / 独立开发）
-4. 心理学
-5. 供应链
-6. 生物学
 
 【动态规则】
 - AI 大事出现 GPT/Claude/Gemini/DeepSeek 新模型发布 / 重大事件 → 升第 1
@@ -638,7 +704,10 @@ AGENT_DECISION_PROMPT = """你是 KIzty 每日 Brief 的 agent。
 
 
 # ========== Source Quota Prompt（v3.1 · LLM 决定每源占几个席位）==========
-SOURCE_QUOTA_PROMPT = """你是 KIzty 的每日 Brief 内容编辑。
+SOURCE_QUOTA_PROMPT = """你是订阅者的每日 Brief 内容编辑。
+
+【订阅者画像】
+{profile_context}
 
 【主题】：{topic}
 
@@ -648,10 +717,10 @@ SOURCE_QUOTA_PROMPT = """你是 KIzty 的每日 Brief 内容编辑。
 【任务】：决定 {total_quota} 个最终席位**在每个源之间怎么分配**。
 
 【判断标准】（按重要性优先）
-1. **质量密度**：哪个源里今天的内容更值得 KIzty 看（不是数量多就给多）
+1. **质量密度**：哪个源里今天的内容更值得订阅者看（不是数量多就给多）
 2. **时效性**：今天哪个源里有更紧迫 / 更新的事
 3. **多样性**：尽量不要全来自一个源（每个有抓到的源至少给 1 席，除非席位不够）
-4. **KIzty 偏好**：他喜欢"信息差"内容（GitHub Trending、独立开发者、新模型发布），讨厌泛流量新闻
+4. **个人偏好**：优先贴合订阅者画像、主题优先级和黑名单，避免泛流量新闻
 
 【输出 JSON】（key 是源名，value 是席位数；所有 value 加起来 = {total_quota}）
 例：{{"YouTube": 1, "Reddit": 0, "arXiv": 1, "GitHub Trending": 2, "36氪": 1}}
@@ -661,13 +730,16 @@ SOURCE_QUOTA_PROMPT = """你是 KIzty 的每日 Brief 内容编辑。
 
 
 # ========== Headline Prompt（v3 · LLM 选今日头条 Top3）==========
-HEADLINE_PROMPT = """你是 KIzty 的每日 Brief 总编辑。
+HEADLINE_PROMPT = """你是订阅者的每日 Brief 总编辑。
+
+【订阅者画像】
+{profile_context}
 
 今天抓取并摘要后的所有条目列在下面。请从中选出 3 条**最值得放到邮件最顶部"今日头条"区**的内容。
 
 【判断标准】（按重要性优先）
 1. **影响力大**：行业 / 全球 / 国家级别的事件
-2. **跟 KIzty 关心的话题贴近**：AI（模型发布、agent）/ 变现路径（独立开发者、副业）/ 世界时事（中美、地缘、经济）
+2. **跟订阅者关心的话题贴近**：优先选择能服务其工作场景、关注主题和近期目标的内容
 3. **时效性新**：最近 24 小时发生的优先
 4. **跨主题分布**：3 条尽量不全来自同一个主题
 
@@ -683,18 +755,17 @@ HEADLINE_PROMPT = """你是 KIzty 的每日 Brief 总编辑。
 """
 
 
-# ========== Planner Prompt（KIzty 2026-04-24 自填）==========
-PLANNER_PROMPT = """你是 KIzty 的每日学习 Brief 的内容总编辑。
+# ========== Planner Prompt（profile-aware）==========
+PLANNER_PROMPT = """你是订阅者每日学习 Brief 的内容总编辑。
 
-KIzty 是 23 岁的 APS 产品经理 + AI 小白 + 正在做个人 IP 的 23 岁小牛马。
+【订阅者画像】
+{profile_context}
 
-他的 6 个主题按【默认优先级】排（高 → 低）：
-1. 世界时事（大事、地缘、经济）
-2. AI大事（信息差、模型发布、agent 进展）
-3. 变现路径（副业、IP、独立开发者、AI 变现）
-4. 心理学（长期兴趣）
-5. 供应链（本职工作）
-6. 生物学
+【订阅者主题优先级】（高 → 低）
+{topic_priority}
+
+注意：今天实际能跑的主题以下方"今天能跑的主题是"为准。
+对于"今天能跑"里出现但主题优先级没列出的主题，按主题名字和订阅者画像判断合理位置。
 
 【动态调整规则】
 当其它所有的类别发生的事是轰动世界的事时，自动放在最前面
@@ -774,6 +845,7 @@ def _build_user_profile_text():
     current_focus = (profile.get("current_focus") or "").strip()
     interests = profile.get("interests") or []
     blacklist = profile.get("blacklist") or []
+    tone = (profile.get("tone") or "").strip()
 
     lines = [f"姓名：{name}"]
     if role:
@@ -784,11 +856,37 @@ def _build_user_profile_text():
         lines.append(f"今年最想突破：{current_focus}")
     if interests:
         lines.append(f"长期关心方向：{', '.join(interests)}")
+    if tone:
+        lines.append(f"输出语气：{tone}")
 
     profile_text = "\n".join(lines)
     blacklist_text = "、".join(blacklist) if blacklist else "无"
 
     return profile_text, blacklist_text
+
+
+def _profile_prompt_context():
+    """给 Planner / Agent / Headline / Quota 用的紧凑画像文本。"""
+    profile_text, blacklist_text = _build_user_profile_text()
+    return f"{profile_text}\n黑名单：{blacklist_text}"
+
+
+def _profile_topic_priority_text(available_topics=None):
+    priority = _coerce_list(CONFIG.get("topic_priority"))
+    if available_topics:
+        priority = [t for t in priority if t in available_topics]
+    if not priority:
+        priority = list(available_topics or CONFIG.get("topics", {}).keys())
+    return "\n".join(f"{i + 1}. {topic}" for i, topic in enumerate(priority)) or "按配置顺序"
+
+
+def _ordered_candidate_topics(topics_cfg, topic_filter=""):
+    """按 profile.topic_priority 排 topic，未列出的主题跟在后面。"""
+    base = [t for t in topics_cfg.keys() if not topic_filter or topic_filter == t]
+    priority = _coerce_list(CONFIG.get("topic_priority"))
+    ordered = [t for t in priority if t in base]
+    ordered += [t for t in base if t not in ordered]
+    return ordered
 
 
 def summarize(item):
@@ -881,7 +979,11 @@ def plan_today_topics(available_topics):
     if not available_topics or len(available_topics) <= 1:
         return list(available_topics)
 
-    prompt = PLANNER_PROMPT.format(topics_list=", ".join(available_topics))
+    prompt = PLANNER_PROMPT.format(
+        profile_context=_profile_prompt_context(),
+        topic_priority=_profile_topic_priority_text(available_topics),
+        topics_list=", ".join(available_topics),
+    )
 
     try:
         _acquire_llm_slot()
@@ -970,6 +1072,7 @@ def plan_source_quota(topic_name, items, total_quota):
     breakdown_text = "\n".join(breakdown_lines)
 
     prompt = SOURCE_QUOTA_PROMPT.format(
+        profile_context=_profile_prompt_context(),
         topic=topic_name,
         sources_breakdown=breakdown_text,
         total_quota=total_quota,
@@ -1169,7 +1272,11 @@ def ask_agent_next_step(pending, completed):
     state_lines.append(f"【待办主题】{', '.join(pending) if pending else '（已无待办）'}")
     state_summary = "\n".join(state_lines)
 
-    prompt = AGENT_DECISION_PROMPT.format(state_summary=state_summary)
+    prompt = AGENT_DECISION_PROMPT.format(
+        profile_context=_profile_prompt_context(),
+        topic_priority=_profile_topic_priority_text(pending),
+        state_summary=state_summary,
+    )
 
     try:
         _acquire_llm_slot()
@@ -1204,27 +1311,46 @@ def ask_agent_next_step(pending, completed):
         return {"action": "done"}
 
 
-# Hybrid 模式（2026-04-26 KIzty 指令）：
-#   - 前 3 个必跑（无论 agent 怎么想，直接执行）
-#   - 后面让 agent 决定跑或不跑剩下主题
-MUST_RUN_TOPICS = ["AI大事", "世界时事", "变现路径"]
+# Hybrid 模式（v2.6.3 解锁可配置）：
+#   - 必跑列表从 config.yaml 的 must_run_topics 读（默认还是这 3 个）
+#   - 可选主题数上限从 config.yaml 的 optional_topics_cap 读（默认 2）
+#   - 加新主题（X 博主 / 英文新闻 等）时：config.yaml 改 must_run_topics 即可，不改代码
+_DEFAULT_MUST_RUN = ["AI大事", "世界时事", "变现路径"]
+_DEFAULT_OPTIONAL_CAP = 2
+
+
+def _get_must_run_topics():
+    """从 config.yaml 读必跑主题列表，没配则回退默认。"""
+    return CONFIG.get("must_run_topics") or _DEFAULT_MUST_RUN
+
+
+def _get_optional_cap():
+    """从 config.yaml 读可选主题最大跑数，没配则回退默认。"""
+    try:
+        return int(CONFIG.get("optional_topics_cap", _DEFAULT_OPTIONAL_CAP))
+    except (TypeError, ValueError):
+        return _DEFAULT_OPTIONAL_CAP
 
 
 def agent_loop(topics_cfg, args, cache, max_per_topic_default, min_score):
     """LLM-driven 主循环 · Hybrid 设计。
 
-    Phase 1：必跑主题（MUST_RUN_TOPICS 里凡是配置存在的，按顺序全跑）
+    Phase 1：必跑主题（config.yaml 的 must_run_topics 里凡是配置存在的，按顺序全跑）
     Phase 2：LLM 决定剩余可选主题（fetch / done）
 
     返回 dict[topic_name -> items]
     """
-    candidate = [t for t in topics_cfg.keys() if not args.topic or args.topic == t]
+    candidate = _ordered_candidate_topics(topics_cfg, args.topic)
     pending = list(candidate)
     completed = {}
     max_steps = 12
 
+    # v2.6.3 · 必跑列表 + 可选 cap 都从 config.yaml 读（不再硬编码）
+    must_run_topics_list = _get_must_run_topics()
+    optional_cap = _get_optional_cap()
+
     # ===== Phase 1：必跑主题（不问 LLM） =====
-    must_run = [t for t in MUST_RUN_TOPICS if t in pending]
+    must_run = [t for t in must_run_topics_list if t in pending]
     optional = [t for t in pending if t not in must_run]
 
     print(f"\n🤖 进入 Agent 模式（候选 {len(pending)} 个 = 必跑 {len(must_run)} + 可选 {len(optional)}）")
@@ -1247,10 +1373,14 @@ def agent_loop(topics_cfg, args, cache, max_per_topic_default, min_score):
 
     print(f"\n🤖 必跑完成 {len(completed)} 个 → 进入 LLM 决策阶段（可选 {len(optional)} 个）")
 
+    # v2.6.3 · 硬规则 cap 动态化：必跑全部跑 + 最多再跑 optional_cap 个可选
+    hard_cap = len(must_run) + optional_cap
+    print(f"   ⚙️  硬规则 cap = {hard_cap}（必跑 {len(must_run)} + 可选最多 {optional_cap}）")
+
     for step in range(1, max_steps + 1):
-        # 硬规则兜底：已完成 ≥5 强制 done（必跑3 + 可选最多再 2）
-        if len(completed) >= 5:
-            print(f"\n🛑 硬规则触发：已完成 {len(completed)} 主题 ≥5，强制 done")
+        # 硬规则兜底：已完成 ≥ hard_cap 强制 done
+        if len(completed) >= hard_cap:
+            print(f"\n🛑 硬规则触发：已完成 {len(completed)} 主题 ≥ {hard_cap}（cap），强制 done")
             break
 
         print(f"\n--- 第 {step} 步 · 让 agent 决策（可选阶段）---")
@@ -1326,7 +1456,10 @@ def pick_top3_headlines(all_items):
         lines.append(f"[{i}] {c['topic']} · 评分 {c['score']} · {c['cn_title']}")
     candidates_text = "\n".join(lines)
 
-    prompt = HEADLINE_PROMPT.format(candidates=candidates_text)
+    prompt = HEADLINE_PROMPT.format(
+        profile_context=_profile_prompt_context(),
+        candidates=candidates_text,
+    )
 
     try:
         _acquire_llm_slot()
@@ -2465,8 +2598,9 @@ def _build_intro_text(all_items, date_str):
     total = sum(len(v) for v in all_items.values())
     topic_count = len([k for k, v in all_items.items() if v])
     today_human = date_str.replace("-", "年", 1).replace("-", "月") + "日"
+    name = (CONFIG.get("subscriber_profile") or {}).get("name") or "朋友"
     return (
-        f"早上好，KIzty。这是 {today_human} 的每日学习简报。"
+        f"早上好，{name}。这是 {today_human} 的每日学习简报。"
         f"今天为你筛选了 {total} 条值得看的内容，覆盖 {topic_count} 个方向。我们开始。"
     )
 
@@ -2664,7 +2798,8 @@ def send_email(html_body, date_str, html_path=None, audio_path=None,
     audio_path：MP3 文件路径，传了就作为独立附件挂上
     total_duration：总秒数，写在主题里让收件人一眼看到时长
     """
-    if not (SMTP_HOST and SMTP_USER and SMTP_PASS and MAIL_TO):
+    mail_to = _active_mail_to()
+    if not (SMTP_HOST and SMTP_USER and SMTP_PASS and mail_to):
         print("  ⚠️ SMTP 配置不完整，跳过发邮件")
         return False
 
@@ -2681,7 +2816,7 @@ def send_email(html_body, date_str, html_path=None, audio_path=None,
     msg = MIMEMultipart("mixed")
     msg["Subject"] = subject
     msg["From"] = formataddr(("每日学习 Brief", MAIL_FROM))
-    msg["To"] = MAIL_TO
+    msg["To"] = mail_to
 
     # ---- 正文：直接放完整 HTML（邮件客户端会内联渲染） ----
     body_html = html_body or ""
@@ -2728,15 +2863,15 @@ def send_email(html_body, date_str, html_path=None, audio_path=None,
             ctx = ssl.create_default_context()
             with smtplib.SMTP_SSL(SMTP_HOST, SMTP_PORT, context=ctx, timeout=60) as s:
                 s.login(SMTP_USER, SMTP_PASS)
-                s.sendmail(MAIL_FROM, [MAIL_TO], msg.as_string())
+                s.sendmail(MAIL_FROM, [mail_to], msg.as_string())
         else:
             with smtplib.SMTP(SMTP_HOST, SMTP_PORT, timeout=60) as s:
                 s.ehlo()
                 s.starttls(context=ssl.create_default_context())
                 s.ehlo()
                 s.login(SMTP_USER, SMTP_PASS)
-                s.sendmail(MAIL_FROM, [MAIL_TO], msg.as_string())
-        print(f"  ✅ 邮件已发送到 {MAIL_TO}")
+                s.sendmail(MAIL_FROM, [mail_to], msg.as_string())
+        print(f"  ✅ 邮件已发送到 {mail_to}")
         return True
     except Exception as e:
         print(f"  ⚠️ 发邮件失败: {e}")
@@ -2858,6 +2993,8 @@ def _load_summary_cache(days_back=7):
     cache = {}
     stale_skipped = 0
     archive_root = SCRIPT_DIR.parent / "05-数据样本"
+    if ACTIVE_PROFILE_SLUG and (archive_root / ACTIVE_PROFILE_SLUG).exists():
+        archive_root = archive_root / ACTIVE_PROFILE_SLUG
     if not archive_root.exists():
         return cache
     try:
@@ -2897,6 +3034,8 @@ def _load_summary_cache(days_back=7):
 
 def main():
     parser = argparse.ArgumentParser(description="每日学习 Brief 生成器")
+    parser.add_argument("--profile", default="",
+                        help="读取 profiles/<slug>.yaml，把客户画像/主题优先级/收件邮箱注入本次运行")
     parser.add_argument("--dry-run", action="store_true", help="只抓取+摘要，不发邮件")
     parser.add_argument("--no-email", action="store_true", help="同 --dry-run")
     parser.add_argument("--topic", default="", help="只跑指定主题（例如：供应链 / 生物 / 心理）")
@@ -2922,6 +3061,13 @@ def main():
                         help="TTS 风格（预留，目前 edge-tts 支持不稳，主要靠 voice+rate）。可填 chat / cheerful / gentle 等。")
     args = parser.parse_args()
 
+    if args.profile:
+        try:
+            _apply_profile(_load_profile(args.profile))
+        except Exception as e:
+            print(f"❌ Profile 加载失败: {e}")
+            sys.exit(1)
+
     dry = args.dry_run or args.no_email
     date_str = datetime.now().strftime("%Y-%m-%d")
 
@@ -2944,7 +3090,7 @@ def main():
         _agent_mode_used = False
 
     # ==== Planner：让 LLM 决定今天的主题跑序（v3 新增）====
-    candidate_topics = [t for t in topics_cfg.keys() if not args.topic or args.topic == t]
+    candidate_topics = _ordered_candidate_topics(topics_cfg, args.topic)
     if args.no_planner or len(candidate_topics) <= 1:
         # 单主题或用户禁用就不调 Planner，按 config 顺序
         topic_order = candidate_topics
@@ -3059,7 +3205,10 @@ def main():
         print(f"  ✨ 筛出 {len(scored)} 条（阈值 {min_score}）")
         all_items[topic_name] = scored
 
-    archive_dir = SCRIPT_DIR.parent / "05-数据样本" / date_str
+    archive_base = SCRIPT_DIR.parent / "05-数据样本"
+    if ACTIVE_PROFILE_SLUG:
+        archive_base = archive_base / ACTIVE_PROFILE_SLUG
+    archive_dir = archive_base / date_str
     archive_dir.mkdir(parents=True, exist_ok=True)
     with open(archive_dir / "items.json", "w", encoding="utf-8") as f:
         json.dump(all_items, f, ensure_ascii=False, indent=2)

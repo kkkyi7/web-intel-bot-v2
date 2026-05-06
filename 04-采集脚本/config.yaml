@@ -14,6 +14,20 @@ min_score: 5
 # 每个源（RSS）最多抓多少条用于去噪/过滤
 rss_fetch_limit_default: 10
 
+# v2.6.3 · 必跑主题（解锁原本写死的 6 个主题限制）
+# 凡是这个列表里的主题名，每天都会强制跑（不让 LLM 决策跳过）
+# 加新主题（X 博主 / 英文新闻 等）时：在 topics: 下加配置 → 想必跑就加进这个列表
+# 可选主题（不在这个列表里的）由 LLM 决定要不要跑
+must_run_topics:
+  - AI大事
+  - 世界时事
+  - 变现路径
+
+# v2.6.3 · 可选主题的最大跑数（必跑之外，LLM 最多再跑几个 optional）
+# 默认 2（KIzty 的原设定：必跑 3 + 最多再 2 = 总 5）
+# 加新主题想多跑：把这个调大；想保守：调小
+optional_topics_cap: 2
+
 # ============================================================
 # 订阅者身份卡（v2.5 新增 · LLM 写【对你有啥用】时基于这个）
 # ============================================================
@@ -486,3 +500,168 @@ topics:
           url: "https://36kr.com/feed"
           region: cn
           limit: 10
+
+  # ========== AI 产品人模板：竞品动态 ==========
+  竞品动态:
+    keywords:
+      - "AI product launch"
+      - "AI product update"
+      - "product roadmap"
+      - "pricing update"
+      - "new AI feature"
+      - "agent platform"
+      - "developer tool launch"
+      - "Product Hunt AI"
+      - "SaaS competitor"
+      - "AI workspace"
+
+    keywords_cn:
+      - AI 产品
+      - 产品发布
+      - 新功能
+      - 竞品
+      - 路线图
+      - 定价
+      - 智能体平台
+      - 开发者工具
+      - 效率工具
+      - 工作流
+
+    sources:
+      youtube:
+        limit: 8
+        hours_back: 72
+        langs:
+          - lang: en
+            region: US
+
+      reddit:
+        subreddits:
+          - ProductManagement
+          - SaaS
+          - artificial
+          - LocalLLaMA
+        limit_per_sub: 4
+        time_range: week
+
+      rss:
+        - name: "Product Hunt"
+          url: "https://www.producthunt.com/feed"
+          region: intl
+          limit: 12
+        - name: "36氪"
+          url: "https://36kr.com/feed"
+          region: cn
+          limit: 10
+        - name: "少数派"
+          url: "https://sspai.com/feed"
+          region: cn
+          limit: 10
+
+  # ========== AI 产品人模板：产品增长 ==========
+  产品增长:
+    keywords:
+      - "product led growth"
+      - "PLG"
+      - "user activation"
+      - "user retention"
+      - "growth experiment"
+      - "onboarding"
+      - "pricing strategy"
+      - "conversion rate"
+      - "B2B SaaS growth"
+      - "AI product growth"
+
+    keywords_cn:
+      - 产品增长
+      - 用户增长
+      - 激活
+      - 留存
+      - 转化率
+      - 定价策略
+      - 商业化
+      - onboarding
+      - 增长实验
+      - B2B SaaS
+
+    sources:
+      youtube:
+        limit: 8
+        hours_back: 96
+        langs:
+          - lang: en
+            region: US
+
+      reddit:
+        subreddits:
+          - ProductManagement
+          - startups
+          - SaaS
+          - Entrepreneur
+        limit_per_sub: 4
+        time_range: week
+
+      rss:
+        - name: "Lenny's Newsletter"
+          url: "https://www.lennysnewsletter.com/feed"
+          region: intl
+          limit: 10
+        - name: "少数派"
+          url: "https://sspai.com/feed"
+          region: cn
+          limit: 10
+        - name: "36氪"
+          url: "https://36kr.com/feed"
+          region: cn
+          limit: 10
+
+  # ========== AI 产品人模板：个人效率 ==========
+  个人效率:
+    keywords:
+      - "AI productivity"
+      - "personal knowledge management"
+      - "PKM"
+      - "workflow automation"
+      - "note taking"
+      - "task management"
+      - "calendar automation"
+      - "AI assistant workflow"
+      - "Cursor workflow"
+      - "Claude workflow"
+
+    keywords_cn:
+      - AI 效率
+      - 个人知识管理
+      - 工作流
+      - 自动化
+      - 笔记
+      - 任务管理
+      - 时间管理
+      - Cursor
+      - Claude
+      - 效率工具
+
+    sources:
+      youtube:
+        limit: 8
+        hours_back: 96
+        langs:
+          - lang: en
+            region: US
+          - lang: zh
+            region: CN
+
+      reddit:
+        subreddits:
+          - productivity
+          - Notion
+          - ObsidianMD
+          - ClaudeAI
+        limit_per_sub: 4
+        time_range: week
+
+      rss:
+        - name: "少数派"
+          url: "https://sspai.com/feed"
+          region: cn
+          limit: 12
