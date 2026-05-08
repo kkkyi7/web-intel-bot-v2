@@ -23,7 +23,8 @@ must_run_topics:
   - AI大事
   - 世界时事
   - 变现路径
-  - 技术圈     # v2.8 · KIzty 自评 must-have
+  - 技术圈     # v2.8 · KIzty 自评 must-have（HN 热门讨论）
+  - GitHub 动态  # v3.3 · 6 大类 × ~3 个 repo 的 release 监控（独立主题防冲淡其他）
 
 # v2.6.3 · 可选主题的最大跑数（必跑之外，LLM 最多再跑几个 optional）
 # 默认 2（KIzty 的原设定：必跑 3 + 最多再 2 = 总 5）
@@ -503,11 +504,12 @@ topics:
           region: cn
           limit: 10
 
-  # ========== 主题 7：技术圈（v2.8 新增 · HackerNews 精华 + v3.2 GitHub Release）==========
+  # ========== 主题 7：技术圈（v2.8 · HackerNews 精华）==========
   # KIzty 自评 must-have。HN top story 按 score 过滤，不依赖 keywords。
   # 抓 top 5 顶层评论喂 LLM，让 summary 能反映社区视角（"为什么这条值得看"）。
+  # v3.3：GitHub Release 已移到独立主题「GitHub 动态」（防互相冲淡）
   技术圈:
-    keywords: []        # HN/GitHub 不靠关键词，按 score / release 时间自筛
+    keywords: []        # HN 不靠关键词，按 score 自筛
     keywords_cn: []
 
     sources:
@@ -518,18 +520,46 @@ topics:
         fetch_top_comments: 5        # 每 story 抓 top 5 顶层评论喂 LLM
         hours_back: 48               # 48 小时内的 story 才算"新"
 
-      # v3.2 · 订阅工具新版本通知（API 限速：带 GITHUB_TOKEN 5000/h）
-      # 增删 repo 直接改下面 list；想停掉这个源 enabled: false
+  # ========== 主题 8：GitHub 动态（v3.3 新增 · 6 大类工具 release 监控）==========
+  # 独立主题防止 release 冲淡技术圈 / AI大事 等核心主题。
+  # 6 大类 × 3-4 个 repo = 20 个，按 KIzty 实际方向（AI 学习 + 副业 / 独立开发）选
+  # days_back=1 = 仅 24 小时内的 release（更严，避免老 release 反复进 brief）
+  # 想增删 repo 直接改下面 list；想暂停整个主题 enabled: false 或从 must_run 移除
+  GitHub 动态:
+    keywords: []        # 按 release 时间自筛
+    keywords_cn: []
+
+    sources:
       github_releases:
         enabled: true
-        days_back: 2                 # 只看 2 天内的 release（防老 release 反复进 brief）
+        days_back: 1               # 24h 内的 release
         repos:
-          - anthropics/claude-code        # 你在用的 CLI
-          - getcursor/cursor              # 你在用的编辑器
-          - anthropics/anthropic-cookbook # 学 Claude API
-          - openai/openai-python          # DeepSeek 兼容这个 SDK
-          - ollama/ollama                 # 本地 LLM 部署
-          - ggerganov/llama.cpp           # 本地 LLM 推理
+          # 1. AI 模型 / SDK
+          - huggingface/transformers
+          - anthropics/anthropic-sdk-python
+          - openai/openai-python
+          - google/generative-ai-python
+          # 2. Agent 工程（你方向）
+          - langchain-ai/langchain
+          - microsoft/autogen
+          - crewAIInc/crewAI
+          - mem0ai/mem0
+          # 3. 编辑器 / 日常工具
+          - anthropics/claude-code
+          - getcursor/cursor
+          - microsoft/vscode
+          # 4. 生产力 / PKM
+          - logseq/logseq
+          - siyuan-note/siyuan
+          - AppFlowy-IO/AppFlowy
+          # 5. 副业 / 独立开发
+          - calcom/cal.com
+          - supabase/supabase
+          - vercel/next.js
+          # 6. 向量库 / RAG
+          - weaviate/weaviate
+          - qdrant/qdrant
+          - chroma-core/chroma
 
   # ========== AI 产品人模板：竞品动态 ==========
   竞品动态:
