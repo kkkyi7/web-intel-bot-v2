@@ -503,11 +503,11 @@ topics:
           region: cn
           limit: 10
 
-  # ========== 主题 7：技术圈（v2.8 新增 · HackerNews 精华）==========
+  # ========== 主题 7：技术圈（v2.8 新增 · HackerNews 精华 + v3.2 GitHub Release）==========
   # KIzty 自评 must-have。HN top story 按 score 过滤，不依赖 keywords。
   # 抓 top 5 顶层评论喂 LLM，让 summary 能反映社区视角（"为什么这条值得看"）。
   技术圈:
-    keywords: []        # HN 不靠关键词，按 score 自筛
+    keywords: []        # HN/GitHub 不靠关键词，按 score / release 时间自筛
     keywords_cn: []
 
     sources:
@@ -517,6 +517,19 @@ topics:
         min_score: 200               # ≥200 分才进 brief（HN 当前热度的中等阈值）
         fetch_top_comments: 5        # 每 story 抓 top 5 顶层评论喂 LLM
         hours_back: 48               # 48 小时内的 story 才算"新"
+
+      # v3.2 · 订阅工具新版本通知（API 限速：带 GITHUB_TOKEN 5000/h）
+      # 增删 repo 直接改下面 list；想停掉这个源 enabled: false
+      github_releases:
+        enabled: true
+        days_back: 2                 # 只看 2 天内的 release（防老 release 反复进 brief）
+        repos:
+          - anthropics/claude-code        # 你在用的 CLI
+          - getcursor/cursor              # 你在用的编辑器
+          - anthropics/anthropic-cookbook # 学 Claude API
+          - openai/openai-python          # DeepSeek 兼容这个 SDK
+          - ollama/ollama                 # 本地 LLM 部署
+          - ggerganov/llama.cpp           # 本地 LLM 推理
 
   # ========== AI 产品人模板：竞品动态 ==========
   竞品动态:

@@ -70,6 +70,8 @@ jobs:
           SMTP_PASS: ${{ secrets.SMTP_PASS }}
           MAIL_FROM: ${{ secrets.SMTP_USER }}
           MAIL_TO: ${{ secrets.MAIL_TO }}
+          # v3.2 · GitHub Release API 限速：用 Actions 内置 GITHUB_TOKEN 提到 5000/h
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           cd 04-采集脚本
           # v2.8.2 · max-per-topic 3 → 10（不再硬限条数，让优质内容都进 brief，靠 min_score=6 把关质量）

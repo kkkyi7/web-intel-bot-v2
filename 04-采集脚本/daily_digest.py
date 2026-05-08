@@ -556,6 +556,75 @@ def fetch_hackernews(topic, fetch_top_stories=30, min_score=200,
     return out
 
 
+# ========== 抓取：GitHub Releases（v3.2 · 抄自 Horizon-main/src/scrapers/github.py）==========
+# 为啥：HN 主题信噪比高但"工具发版"信号弱（HN 不会每个 release 都上首页）
+# Horizon 用 GitHub API 抓订阅 repo 的 release，作为"技术圈"主题的补充源
+def fetch_github_releases(topic, repos, days_back=2):
+    """抓配置的 repo 列表里最近 days_back 天的 release。
+
+    Args:
+        repos: ["anthropics/claude-code", "getcursor/cursor", ...]
+        days_back: 几天内的 release 才算新（默认 2 天，避免老 release 反复进 brief）
+
+    GitHub API：未带 token 限速 60/h；带 GITHUB_TOKEN（Actions 自动注入）5000/h
+    """
+    if not repos:
+        return []
+
+    cutoff_ts = (datetime.now(timezone.utc) - timedelta(days=days_back)).timestamp()
+    headers = dict(HTTP_HEADERS)
+    headers["Accept"] = "application/vnd.github.v3+json"
+    gh_token = os.getenv("GITHUB_TOKEN", "").strip()
+    if gh_token:
+        headers["Authorization"] = f"token {gh_token}"
+
+    out = []
+    for repo_full in repos:
+        if not repo_full or "/" not in repo_full:
+            continue
+        owner, name = repo_full.split("/", 1)
+        url = f"https://api.github.com/repos/{owner}/{name}/releases"
+        try:
+            r = requests.get(url, headers=headers, params={"per_page": 5}, timeout=15)
+            r.raise_for_status()
+            releases = r.json() or []
+        except Exception as e:
+            print(f"  ⚠️ GitHub Release 失败 [{repo_full}]: {type(e).__name__}: {e}")
+            continue
+
+        for rel in releases:
+            published = rel.get("published_at") or rel.get("created_at") or ""
+            if not published:
+                continue
+            try:
+                pub_ts = datetime.fromisoformat(published.replace("Z", "+00:00")).timestamp()
+            except Exception:
+                continue
+            if pub_ts < cutoff_ts:
+                continue
+
+            tag = rel.get("tag_name", "")
+            release_name = rel.get("name") or tag
+            body = (rel.get("body") or "").strip()
+            # release notes 可能很长，截 2000 字喂 LLM 够用
+            if len(body) > 2000:
+                body = body[:1997] + "..."
+
+            out.append({
+                "source": "GitHubRelease",
+                "topic": topic,
+                "region": "intl",
+                "title": f"{repo_full} 发布 {release_name}",
+                "author": rel.get("author", {}).get("login", "") or repo_full,
+                "published": published,
+                "url": rel.get("html_url", f"https://github.com/{repo_full}/releases/tag/{tag}"),
+                "body": body or f"{repo_full} 发布新版本 {release_name}（无 release notes）",
+            })
+
+    print(f"  ✅ GitHub Releases: {len(out)} 条（{len(repos)} 个仓库 · {days_back} 天内）")
+    return out
+
+
 # ========== 跨源去重（v2.9 · 抄自 Horizon-main/src/ai/prompts.py TOPIC_DEDUP_*）==========
 # 为啥：同事件不同源会重复进 brief（典型例子：36氪 + 观察者网都报"九峰山 eVTOL 试飞"）
 # 怎么做：① URL hash 直接合并同链接 ② LLM 判语义重复（同事件不同源/不同主题）
@@ -1693,6 +1762,15 @@ def _run_topic_through_summary(topic_name, cfg, args, max_per_topic_default, cac
             min_score=hn_cfg.get("min_score", 200),
             fetch_top_comments=hn_cfg.get("fetch_top_comments", 5),
             hours_back=hn_cfg.get("hours_back", 48),
+        )
+
+    # v3.2 · GitHub Release（订阅工具新版本）
+    gh_cfg = sources.get("github_releases")
+    if gh_cfg and gh_cfg.get("enabled", True):
+        raw += fetch_github_releases(
+            topic_name,
+            repos=gh_cfg.get("repos") or [],
+            days_back=gh_cfg.get("days_back", 2),
         )
 
     rss_cfg = sources.get("rss")
@@ -3717,6 +3795,15 @@ def main():
                 min_score=hn_cfg.get("min_score", 200),
                 fetch_top_comments=hn_cfg.get("fetch_top_comments", 5),
                 hours_back=hn_cfg.get("hours_back", 48),
+            )
+
+        # GitHub Release（v3.2 · 订阅工具新版本）
+        gh_cfg = sources.get("github_releases")
+        if gh_cfg and gh_cfg.get("enabled", True):
+            raw += fetch_github_releases(
+                topic_name,
+                repos=gh_cfg.get("repos") or [],
+                days_back=gh_cfg.get("days_back", 2),
             )
 
         # RSS（v2 新增：国内源）
