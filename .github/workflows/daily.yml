@@ -72,7 +72,8 @@ jobs:
           MAIL_TO: ${{ secrets.MAIL_TO }}
         run: |
           cd 04-采集脚本
-          python daily_digest.py --profile kizty --max-per-topic 3 --no-cache --agent-mode
+          # v2.8.2 · max-per-topic 3 → 10（不再硬限条数，让优质内容都进 brief，靠 min_score=6 把关质量）
+          python daily_digest.py --profile kizty --max-per-topic 10 --no-cache --agent-mode
 
       - name: 上传 HTML 备份给你（artifact · 保留 7 天）
         if: always()  # 即使发邮件挂了也上传 HTML，方便看
