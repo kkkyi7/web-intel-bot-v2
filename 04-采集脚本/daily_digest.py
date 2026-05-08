@@ -556,6 +556,137 @@ def fetch_hackernews(topic, fetch_top_stories=30, min_score=200,
     return out
 
 
+# ========== 跨源去重（v2.9 · 抄自 Horizon-main/src/ai/prompts.py TOPIC_DEDUP_*）==========
+# 为啥：同事件不同源会重复进 brief（典型例子：36氪 + 观察者网都报"九峰山 eVTOL 试飞"）
+# 怎么做：① URL hash 直接合并同链接 ② LLM 判语义重复（同事件不同源/不同主题）
+def dedup_cross_source(all_items):
+    """跨主题去重，返回 (deduped_dict, num_removed)。
+
+    步骤：
+    1. URL hash dedup：同 URL 直接合并到 score 最高那条
+    2. LLM 语义 dedup：调一次 LLM 判跨源跨主题重复
+    """
+    # 1. flatten + 标记原主题
+    flat = []
+    for topic, items in all_items.items():
+        for it in items:
+            flat.append({**it, '_topic': topic})
+
+    if len(flat) < 2:
+        return all_items, 0
+
+    # 2. URL hash dedup（保留 score 最高那条）
+    by_url = {}
+    no_url = []
+    for it in flat:
+        url = (it.get('url') or '').strip()
+        if not url:
+            no_url.append(it)
+            continue
+        by_url.setdefault(url, []).append(it)
+
+    flat_after_url = list(no_url)
+    dropped_url = 0
+    for url, group in by_url.items():
+        if len(group) > 1:
+            best = max(group, key=lambda x: x.get('score', 0))
+            flat_after_url.append(best)
+            dropped_url += len(group) - 1
+        else:
+            flat_after_url.append(group[0])
+    if dropped_url:
+        print(f"  🔀 URL 哈希去重：移除 {dropped_url} 条（同链接）")
+
+    # 3. LLM 语义 dedup（同事件不同源 → 留 score 最高）
+    dropped_llm = 0
+    flat_final = flat_after_url
+    if len(flat_after_url) >= 4:
+        try:
+            # 按 score 降序，让 LLM 把高分留下（first index = primary）
+            flat_sorted = sorted(flat_after_url, key=lambda x: -x.get('score', 0))
+            items_text = '\n'.join(
+                f"[{i}] [{it['_topic']}] [{it.get('source', '?')}] "
+                f"{(it.get('title') or '').strip()[:90]} | score {it.get('score', 0)}"
+                for i, it in enumerate(flat_sorted)
+            )
+            prompt = (
+                "You are a news deduplication assistant. Identify groups of news items "
+                "that cover the EXACT SAME real-world event, release, or announcement.\n\n"
+                "Rules:\n"
+                "- Group items ONLY if they report on the identical event\n"
+                "- Items about the same product/company but different events are NOT duplicates\n"
+                "  (e.g. \"GPT-5 released\" vs \"GPT-5 jailbroken\" → separate)\n"
+                "- Cross-topic duplicates ARE the goal (same event in 供应链 + 世界时事 → group)\n"
+                "- Err on the side of keeping items separate when unsure\n\n"
+                "Items (sorted by score descending; first index in each group = primary to keep):\n"
+                f"{items_text}\n\n"
+                "Return ONLY a JSON object listing groups with 2+ duplicates. "
+                "If no duplicates, return {\"duplicates\": []}\n\n"
+                "Format:\n"
+                "{\"duplicates\": [[<primary_idx>, <dup_idx>, ...], ...]}"
+            )
+
+            _acquire_llm_slot()
+            if LLM_PROVIDER == "anthropic":
+                resp = _llm_client.messages.create(
+                    model=LLM_MODEL,
+                    max_tokens=400,
+                    messages=[{"role": "user", "content": prompt}],
+                )
+                text = resp.content[0].text.strip()
+            else:
+                resp = _llm_client.chat.completions.create(
+                    model=LLM_MODEL,
+                    max_tokens=400,
+                    temperature=0.0,  # dedup 判断要稳定
+                    messages=[{"role": "user", "content": prompt}],
+                )
+                text = resp.choices[0].message.content.strip()
+
+            # 剥 ```json ... ``` 包裹
+            text = re.sub(r'^```(?:json)?\s*', '', text)
+            text = re.sub(r'\s*```$', '', text)
+            data = json.loads(text)
+            dup_groups = data.get('duplicates', []) or []
+
+            to_drop = set()
+            for group in dup_groups:
+                if isinstance(group, list) and len(group) >= 2:
+                    for idx in group[1:]:
+                        if isinstance(idx, int) and 0 <= idx < len(flat_sorted):
+                            to_drop.add(idx)
+
+            flat_final = [it for i, it in enumerate(flat_sorted) if i not in to_drop]
+            dropped_llm = len(to_drop)
+            if dropped_llm:
+                # 打印哪些被合了，方便排查
+                for group in dup_groups:
+                    if len(group) >= 2:
+                        primary = flat_sorted[group[0]]
+                        print(f"  🔀 LLM 合并 {len(group)} 条 → 保留 [{primary['_topic']}] "
+                              f"{(primary.get('title') or '')[:50]}")
+                        for idx in group[1:]:
+                            if 0 <= idx < len(flat_sorted):
+                                dup = flat_sorted[idx]
+                                print(f"        ✗ 移除 [{dup['_topic']}] "
+                                      f"{(dup.get('title') or '')[:50]}")
+        except Exception as e:
+            print(f"  ⚠️ LLM 跨源去重失败（保留所有 URL 去重后的条目）: {type(e).__name__}: {e}")
+            flat_final = flat_after_url
+
+    # 4. 收回 dict[topic -> items]
+    out = {topic: [] for topic in all_items.keys()}
+    for it in flat_final:
+        topic = it.pop('_topic')
+        if topic in out:
+            out[topic].append(it)
+
+    # 每个主题内按 score 重新排
+    for topic in out:
+        out[topic].sort(key=lambda x: x.get('score', 0), reverse=True)
+
+    return out, dropped_url + dropped_llm
+
 
 # ========== 抓取：国内 RSS（v2 新增）==========
 def fetch_rss(topic, rss_config, keywords_cn=None):
@@ -3375,6 +3506,21 @@ def main():
         archive_base = archive_base / ACTIVE_PROFILE_SLUG
     archive_dir = archive_base / date_str
     archive_dir.mkdir(parents=True, exist_ok=True)
+    # 先存原始 items.json（去重前），方便日后排查
+    with open(archive_dir / "items_raw.json", "w", encoding="utf-8") as f:
+        json.dump(all_items, f, ensure_ascii=False, indent=2)
+
+    # v2.9 · 跨源去重（URL hash + LLM 语义）
+    # 在 archive 之后、TTS / top3 / render 之前
+    raw_total = sum(len(v) for v in all_items.values())
+    if raw_total >= 4:
+        print(f"\n🔀 跨源去重（{raw_total} 条 → ?）…")
+        all_items, dedup_removed = dedup_cross_source(all_items)
+        if dedup_removed:
+            print(f"  ✨ 去重后保留 {sum(len(v) for v in all_items.values())} 条（移除 {dedup_removed} 条）")
+        else:
+            print(f"  ✓ 没发现重复（{raw_total} 条全保留）")
+    # 写最终（去重后）items.json，供下游 TTS / render
     with open(archive_dir / "items.json", "w", encoding="utf-8") as f:
         json.dump(all_items, f, ensure_ascii=False, indent=2)
 
