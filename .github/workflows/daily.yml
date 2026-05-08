@@ -16,6 +16,10 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 30
 
+    # gh-pages 部署需要 contents: write 推 gh-pages 分支（v2.7 · 抄自 Horizon-main/.github/workflows/daily-summary.yml）
+    permissions:
+      contents: write
+
     # 强制 UTF-8（中文不乱码）
     env:
       PYTHONIOENCODING: utf-8
@@ -66,3 +70,36 @@ jobs:
             05-数据样本/**/items.json
           if-no-files-found: warn
           retention-days: 7
+
+      # v2.7 · 抄自 Horizon-main/.github/workflows/daily-summary.yml @ peaceiris/actions-gh-pages
+      # 把 digest.html 推到 gh-pages 分支，解决 163/Outlook 在线预览砍 inline CSS 的问题
+      # 客户邮件里点链接 → 浏览器开 GitHub Pages → CSS 完美渲染
+      - name: 准备 Pages 内容（只 HTML，不带 MP3 / items.json）
+        if: success()
+        run: |
+          set -e
+          rm -rf _pages
+          mkdir -p _pages
+          if [ -d "05-数据样本" ]; then
+            cd 05-数据样本
+            find . -name 'digest*.html' -print0 | while IFS= read -r -d '' f; do
+              rel="${f#./}"
+              target="../_pages/${rel}"
+              mkdir -p "$(dirname "$target")"
+              cp "$f" "$target"
+              echo "  staged: $rel"
+            done
+          else
+            echo "⚠️  05-数据样本/ 不存在，跳过 Pages 部署"
+          fi
+
+      - name: 部署到 GitHub Pages（gh-pages 分支 · 累积保留历史）
+        if: success() && hashFiles('_pages/**/digest*.html') != ''
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./_pages
+          publish_branch: gh-pages
+          keep_files: true             # 累积历史，不覆盖之前的 brief
+          enable_jekyll: false         # 纯静态 HTML，不要 Jekyll 处理（避免奇怪的渲染）
+          commit_message: "📝 daily digest · run #${{ github.run_number }}"

@@ -1886,7 +1886,7 @@ def _expand_css_vars(css):
     return re.sub(r"var\(--([\w-]+)\)", _replace, css)
 
 
-def render_html(all_items, date_str, total_duration=0, has_audio=False, top3_headlines=None, lite=False):
+def render_html(all_items, date_str, total_duration=0, has_audio=False, top3_headlines=None, lite=False, pages_url=""):
     """生成 HTML 简报（Apple 极简风 · 邮件正文版）。
 
     - total_duration：总音频时长（秒），用于 Hero 卡副标题
@@ -2275,6 +2275,16 @@ def render_html(all_items, date_str, total_duration=0, has_audio=False, top3_hea
             f'<code>digest_{date_str}.html</code>'
             '</p>'
         )
+        # v2.7 · 抄自 Horizon · GitHub Pages 浏览器版 URL
+        # 用途：163/Outlook 在线预览砍 inline CSS → 客户点这个链接 → 浏览器渲染完美
+        if pages_url:
+            safe_url = _html.escape(pages_url, quote=True)
+            player_html += (
+                '<p class="hero-hint">'
+                '📖 <b>或直接浏览器看（CSS 完整渲染 / 手机电脑都美）</b>：'
+                f'<a href="{safe_url}" target="_blank" rel="noopener">点这里打开</a>'
+                '</p>'
+            )
     player_html += '</div>'
 
     # ----- 辅助：把一条 item 渲染成 <details> HTML 片段 -----
@@ -3243,6 +3253,12 @@ def main():
     else:
         print("⏭️  已跳过 Top3 头条（--no-planner）")
 
+    # v2.7 · GitHub Pages 浏览器版 URL（只给 lite 邮件正文用）
+    # 路径模式：https://<user>.github.io/<repo>/[<profile>/]<date>/digest.html
+    # 仓库 public，profile/date 已确认不敏感
+    _pages_profile_part = f"{ACTIVE_PROFILE_SLUG}/" if ACTIVE_PROFILE_SLUG else ""
+    pages_url_for_lite = f"https://kkkyi7.github.io/web-intel-bot-v2/{_pages_profile_part}{date_str}/digest.html"
+
     # v2.6 路径 1：渲染两版 HTML
     #   - full：完整版（详细 / 对你有啥用 / 术语 / 想深入 全有），存档 + 作邮件附件
     #   - lite：精简版（每条只 评分+一句话），作邮件正文（解决 iOS Mail 截断 details 问题）
@@ -3259,6 +3275,7 @@ def main():
         has_audio=has_audio,
         top3_headlines=top3_headlines,
         lite=True,
+        pages_url=pages_url_for_lite,
     )
 
     # v2.6.1：full HTML 做 CSS 内联，解决 163 / Outlook 等网页邮箱在线预览砍 <style> 的问题
