@@ -1714,8 +1714,9 @@ def _run_topic_through_summary(topic_name, cfg, args, max_per_topic_default, cac
 
     sources = cfg.get("sources", {}) or {}
 
-    # v2.8：hackernews 源按 score 过滤、不需要 keywords，所以这里放行
-    if not kws and not sources.get("hackernews"):
+    # v3.3：放行所有"按 score / 时间自筛"的源（hackernews / github_releases / 未来类似的）
+    # 这些源不需要 keywords 预过滤，跟传统的 youtube/reddit/rss 关键词检索机制不同
+    if not kws and not (sources.get("hackernews") or sources.get("github_releases")):
         print(f"  ⚠️ 主题 {topic_name} 没配关键词，跳过。")
         return [], 0
 
@@ -3742,8 +3743,8 @@ def main():
 
         sources = cfg.get("sources", {}) or {}
 
-        # v2.8：hackernews 源按 score 过滤、不需要 keywords，所以这里放行
-        if not kws and not sources.get("hackernews"):
+        # v3.3：放行所有"按 score / 时间自筛"的源（hackernews / github_releases / 未来类似的）
+        if not kws and not (sources.get("hackernews") or sources.get("github_releases")):
             print(f"  ⚠️ 主题 {topic_name} 没配关键词，跳过。")
             all_items[topic_name] = []
             continue
