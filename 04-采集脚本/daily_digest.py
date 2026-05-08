@@ -132,8 +132,13 @@ def _apply_profile(profile):
     topic_priority = _coerce_list(profile.get("topic_priority"))
     if topic_priority:
         CONFIG["topic_priority"] = topic_priority
-        # Agent 模式仍沿用"必跑 + 可选"结构：客户最关心的前三个先稳稳跑出来。
-        CONFIG["must_run_topics"] = topic_priority[:3]
+        # v2.8.1 · profile 显式 must_run_topics 优先；没显式给 → 沿用老逻辑（前 3）
+        # 老逻辑硬截前 3 跟 v2.6.3 的"任意数量必跑"机制冲突（"技术圈"会被吃掉）
+        explicit_must_run = _coerce_list(profile.get("must_run_topics"))
+        if explicit_must_run:
+            CONFIG["must_run_topics"] = explicit_must_run
+        else:
+            CONFIG["must_run_topics"] = topic_priority[:3]
 
     print(f"👤 Profile: {ACTIVE_PROFILE_SLUG or subscriber['name']} → {subscriber['name']}")
 
