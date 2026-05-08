@@ -15,3 +15,7 @@ feedparser>=6.0.10
 # v2.6 · CSS 内联（邮件附件被网页邮箱在线预览时 <style> 会被砍 → 必须 inline）
 premailer>=3.10.0
 Flask>=3.0.0
+
+# v3.0 · 背景知识 enrichment（DuckDuckGo 搜索：免费 + 无 token，仅在 GitHub Actions runner 用）
+# 抄自 Horizon-main/src/ai/enricher.py
+ddgs>=4.0.0

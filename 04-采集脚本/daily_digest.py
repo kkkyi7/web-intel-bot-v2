@@ -839,6 +839,226 @@ def fetch_rss(topic, rss_config, keywords_cn=None):
     return all_out
 
 
+# ========== v3.0 · 背景知识 enrichment（抄自 Horizon-main/src/ai/prompts.py）==========
+# 第 1 步 prompt：让 LLM 识别新闻里读者可能不熟的概念，返回搜索查询
+CONCEPT_EXTRACTION_PROMPT = """你识别新闻里读者可能不熟的技术概念。
+给一条新闻，返回 1-3 个搜索查询（用来搜这些概念的背景）。
+聚焦：具体技术 / 协议 / 算法 / 工具 / 项目 / 公司新动态。
+**不要**返回通用概念（Python / Linux / Google / AI 这种）。
+新闻自解释 / 没生僻概念 → 返回空列表。
+
+新闻：
+- 标题：{title}
+- 摘要：{summary}
+- 标签：{tags}
+
+只输出 JSON：
+{{"queries": ["查询 1", "查询 2"]}}
+如果没必要解释 → {{"queries": []}}"""
+
+# 第 2 步 prompt：基于 web 搜索结果生成中文背景 + 社区讨论摘要
+ENRICHMENT_PROMPT = """你给读者补充背景知识。基于下面的新闻 + 网络搜索结果，输出**纯中文 JSON**。
+
+【订阅者画像】（背景知识写得贴他视角，不要纯学术腔）
+{profile_context}
+
+【字段要求】
+- background_zh：2-4 句中文背景（解释关键概念 / 历史脉络 / 上下文）。新闻自解释 → 空字符串
+- community_zh：1-3 句中文社区讨论摘要（仅当下面提供了评论；无评论 → 空字符串）
+- sources：1-3 个 URL，**必须**从下面 Web Search Results 里挑（出现过的原文 URL）
+
+【硬规则】
+- 全中文（GPT / CUDA / Anthropic 等专有名词保留英文）
+- 不要瞎编 URL，没就空数组
+- 不要重复 summary 里已有的话
+- 不要写【对你有啥用】（已经在 summary 里有了）
+
+新闻：
+- 标题：{title}
+- 摘要：{summary}
+- 评分：{score}/10
+{comments_section}
+Web Search Results:
+{web_context}
+
+只输出 JSON：
+{{
+  "background_zh": "...",
+  "community_zh": "...",
+  "sources": ["url1", "url2"]
+}}"""
+
+
+# ========== v3.0 · 背景知识 enrichment 实现 ==========
+# 仅对高分（默认 score≥8）item 跑，避免 token 爆炸
+# 流程：concept 提取（LLM 1 次）→ DDG 搜索（每 query 1 次）→ enrichment（LLM 1 次）
+def _ddg_search(query, max_results=3):
+    """DuckDuckGo 搜索（免费 / 无 token / 国内访问需 VPN，runner 直连 OK）。"""
+    try:
+        # 屏蔽 ddgs 启动时的 stderr 噪音（"Impersonate ... does not exist"）
+        import os, sys as _sys
+        from ddgs import DDGS
+        old_stderr = _sys.stderr
+        _sys.stderr = open(os.devnull, "w")
+        try:
+            results = DDGS().text(query, max_results=max_results) or []
+        finally:
+            _sys.stderr.close()
+            _sys.stderr = old_stderr
+    except Exception as e:
+        print(f"    ⚠️ DDG 搜索失败 ({type(e).__name__}): {query[:40]}")
+        return []
+    return [
+        {"title": r.get("title", ""), "url": r.get("href", ""), "body": r.get("body", "")}
+        for r in results
+    ]
+
+
+def _extract_concepts_for_enrich(item):
+    """LLM 识别这条 item 里需要补背景的概念，返回 1-3 个搜索查询。"""
+    title = item.get("title", "")
+    summary = item.get("summary", "")[:600]
+    tags = ""  # v2 暂未给 item 加 tags 字段，留空
+
+    prompt = CONCEPT_EXTRACTION_PROMPT.format(title=title, summary=summary, tags=tags)
+    try:
+        _acquire_llm_slot()
+        if LLM_PROVIDER == "anthropic":
+            resp = _llm_client.messages.create(
+                model=LLM_MODEL,
+                max_tokens=200,
+                messages=[{"role": "user", "content": prompt}],
+            )
+            text = resp.content[0].text.strip()
+        else:
+            resp = _llm_client.chat.completions.create(
+                model=LLM_MODEL,
+                max_tokens=200,
+                temperature=0.3,
+                messages=[{"role": "user", "content": prompt}],
+            )
+            text = resp.choices[0].message.content.strip()
+        text = re.sub(r'^```(?:json)?\s*', '', text)
+        text = re.sub(r'\s*```$', '', text)
+        data = json.loads(text)
+        return [q for q in (data.get("queries") or []) if isinstance(q, str)][:3]
+    except Exception as e:
+        print(f"    ⚠️ 概念提取失败 ({type(e).__name__})")
+        return []
+
+
+def enrich_item(item):
+    """对单条 item 做 enrichment：concept → DDG 搜 → LLM 写背景 + 社区 + sources。
+    成功 → 把 enriched 字段写到 item['enriched']
+    失败 → 静默跳过，不影响 brief 输出
+    """
+    title = item.get("title", "")[:80]
+
+    # Step 1: 让 LLM 识别要查的概念
+    queries = _extract_concepts_for_enrich(item)
+    if not queries:
+        # 没必要补背景，直接返回
+        return
+
+    # Step 2: DDG 搜每个 query
+    all_results = []
+    web_sections = []
+    for q in queries:
+        results = _ddg_search(q, max_results=3)
+        all_results.extend(results)
+        if results:
+            lines = [f"- [{r['title']}]({r['url']}): {r['body'][:200]}" for r in results]
+            web_sections.append(f"**{q}:**\n" + "\n".join(lines))
+    if not web_sections:
+        # 都搜空了，没法 ground LLM
+        return
+    web_context = "\n\n".join(web_sections)
+
+    # 切 body 拿评论部分（HN item 的 body 末尾会有 "--- HN Top Comments ---" 段）
+    body = item.get("body") or ""
+    comments_text = ""
+    if "--- HN Top Comments ---" in body:
+        _, comments_part = body.split("--- HN Top Comments ---", 1)
+        # 去掉末尾的"讨论页：..."URL
+        comments_text = re.sub(r"\n*讨论页：https?://\S+\s*$", "", comments_part).strip()[:1500]
+
+    # Step 3: enrichment LLM 调用
+    available_urls = {r["url"]: r["title"] for r in all_results if r.get("url")}
+    prompt = ENRICHMENT_PROMPT.format(
+        profile_context=_profile_prompt_context(),
+        title=item.get("title", ""),
+        summary=item.get("summary", "")[:1000],
+        score=item.get("score", 0),
+        comments_section=(f"评论：\n{comments_text}\n" if comments_text else ""),
+        web_context=web_context,
+    )
+
+    try:
+        _acquire_llm_slot()
+        if LLM_PROVIDER == "anthropic":
+            resp = _llm_client.messages.create(
+                model=LLM_MODEL,
+                max_tokens=600,
+                messages=[{"role": "user", "content": prompt}],
+            )
+            text = resp.content[0].text.strip()
+        else:
+            resp = _llm_client.chat.completions.create(
+                model=LLM_MODEL,
+                max_tokens=600,
+                temperature=0.4,
+                messages=[{"role": "user", "content": prompt}],
+            )
+            text = resp.choices[0].message.content.strip()
+        text = re.sub(r'^```(?:json)?\s*', '', text)
+        text = re.sub(r'\s*```$', '', text)
+        data = json.loads(text)
+    except Exception as e:
+        print(f"    ⚠️ Enrichment LLM 失败 ({type(e).__name__}): {title}")
+        return
+
+    # 把字段塞进 item['enriched']，供 render_html 取用
+    bg = (data.get("background_zh") or "").strip()
+    cm = (data.get("community_zh") or "").strip()
+    raw_sources = data.get("sources") or []
+    valid_sources = [
+        {"url": u, "title": available_urls[u]}
+        for u in raw_sources
+        if isinstance(u, str) and u in available_urls
+    ][:3]
+
+    if bg or cm or valid_sources:
+        item["enriched"] = {
+            "background_zh": bg,
+            "community_zh": cm,
+            "sources": valid_sources,
+        }
+
+
+def enrich_high_score_items(all_items, threshold=8, max_total=12):
+    """跑 enrichment：score≥threshold 的 item 串行 enrich（DDG 限速 + 控总成本）。
+    max_total 兜底，防止某天 score≥8 太多导致 workflow 超时。
+    """
+    targets = []
+    for topic, items in all_items.items():
+        for it in items:
+            if it.get("score", 0) >= threshold:
+                targets.append((topic, it))
+    if not targets:
+        return 0
+    targets = targets[:max_total]
+    print(f"\n📚 背景知识 enrichment（score≥{threshold}，共 {len(targets)} 条 · 串行跑约 {len(targets)*15}s）…")
+    enriched_count = 0
+    for i, (topic, it) in enumerate(targets, 1):
+        title = (it.get("title") or "")[:60]
+        print(f"  [{i}/{len(targets)}] [{topic}] {title}")
+        enrich_item(it)
+        if "enriched" in it:
+            enriched_count += 1
+    print(f"  ✨ enrichment 完成：{enriched_count}/{len(targets)} 条成功补充背景")
+    return enriched_count
+
+
 # ========== 大模型摘要（科普版 Prompt · v2.5 · 个性化身份卡）==========
 SUMMARY_PROMPT = """你要帮订阅者读这条内容。
 
@@ -2560,6 +2780,44 @@ def render_html(all_items, date_str, total_duration=0, has_audio=False, top3_hea
             )
     player_html += '</div>'
 
+    # ----- v3.0 · 把 enriched 字段（背景 / 社区 / sources）拼成 HTML（仅 full 模式用）-----
+    def _render_enriched_html(it):
+        e = it.get("enriched")
+        if not e:
+            return ""
+        parts = []
+        bg = (e.get("background_zh") or "").strip()
+        if bg:
+            parts.append(
+                "<div class='sec'>"
+                "<div class='sec-label'>【背景知识】</div>"
+                f"<div class='sec-body'>{_html.escape(bg)}</div>"
+                "</div>"
+            )
+        cm = (e.get("community_zh") or "").strip()
+        if cm:
+            parts.append(
+                "<div class='sec'>"
+                "<div class='sec-label'>【社区讨论】</div>"
+                f"<div class='sec-body'>{_html.escape(cm)}</div>"
+                "</div>"
+            )
+        sources = e.get("sources") or []
+        if sources:
+            link_html = " · ".join(
+                f'<a href="{_html.escape(str(s.get("url", "")), quote=True)}" target="_blank" rel="noopener">{_html.escape(str(s.get("title", "") or s.get("url", "")))[:50]}</a>'
+                for s in sources[:3]
+                if s.get("url")
+            )
+            if link_html:
+                parts.append(
+                    "<div class='sec'>"
+                    "<div class='sec-label'>【参考来源】</div>"
+                    f"<div class='sec-body'>{link_html}</div>"
+                    "</div>"
+                )
+        return "".join(parts)
+
     # ----- 辅助：把一条 item 渲染成 <details> HTML 片段 -----
     def _render_item_html(it):
         chapter_id = it.get("_chapter_id") or _chapter_id_for_item(it)
@@ -2627,6 +2885,7 @@ def render_html(all_items, date_str, total_duration=0, has_audio=False, top3_hea
             f'<div class="item-body">'
             f'<a class="item-link" href="{url}" target="_blank" rel="noopener">{url}</a>'
             f'{summary_html}'
+            f'{_render_enriched_html(it)}'
             f'</div>'
             f'</details>'
         )
@@ -3342,6 +3601,13 @@ def main():
                         help='语速调节，留空则用 .env 的 TTS_RATE。例如 "-5%%" 慢一点更从容，"+10%%" 快一点。')
     parser.add_argument("--style", default=None,
                         help="TTS 风格（预留，目前 edge-tts 支持不稳，主要靠 voice+rate）。可填 chat / cheerful / gentle 等。")
+    # v3.0 · 背景知识 enrichment（DDG 搜索 + LLM 写背景，仅高分条目）
+    parser.add_argument("--no-enrich", action="store_true",
+                        help="跳过 enrichment 步骤（dry-run 在国内本地跑用，DDG 走不通）")
+    parser.add_argument("--enrich-threshold", type=int, default=8,
+                        help="只对 score>= 这个值的 item 做 enrichment（默认 8）")
+    parser.add_argument("--enrich-max", type=int, default=12,
+                        help="enrichment 最多处理几条（防 workflow 超时，默认 12）")
     args = parser.parse_args()
 
     if args.profile:
@@ -3520,7 +3786,16 @@ def main():
             print(f"  ✨ 去重后保留 {sum(len(v) for v in all_items.values())} 条（移除 {dedup_removed} 条）")
         else:
             print(f"  ✓ 没发现重复（{raw_total} 条全保留）")
-    # 写最终（去重后）items.json，供下游 TTS / render
+
+    # v3.0 · 高分 item 加背景知识 enrichment（DDG 搜索 + LLM 写背景）
+    # 失败兜底：item 没 enriched 字段，render 层正常跳过
+    if not args.no_enrich:
+        try:
+            enrich_high_score_items(all_items, threshold=args.enrich_threshold, max_total=args.enrich_max)
+        except Exception as e:
+            print(f"  ⚠️ Enrichment 整体失败（继续跑 brief）: {type(e).__name__}: {e}")
+
+    # 写最终（去重 + enrich 后）items.json，供下游 TTS / render
     with open(archive_dir / "items.json", "w", encoding="utf-8") as f:
         json.dump(all_items, f, ensure_ascii=False, indent=2)
 
