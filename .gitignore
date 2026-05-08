@@ -27,9 +27,9 @@ __pycache__/
 voice-samples/
 
 # 客户 profile（姓名 / 公司 / 邮箱 / 关注点），默认不入库
+# v2.7.2 · KIzty 自己的 profile 也不入库，runtime 从 GitHub Secret 注入（避免 public 后泄露身份）
 04-采集脚本/profiles/*.yaml
 !04-采集脚本/profiles/ai_pm_demo.yaml
-!04-采集脚本/profiles/kizty.yaml
 
 # 临时 / 日志
 *.tmp

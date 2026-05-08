@@ -41,6 +41,21 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r 04-采集脚本/requirements.txt
 
+      # v2.7.2 · 从 GitHub Secret 注入 KIzty 个人 profile
+      # 原因：repo 改 public 后，profile（含真公司名 / 副业意图）不能进 git history
+      # secret 内容 = kizty.yaml 的 base64 编码（多行 YAML 用 base64 比裸字符串稳）
+      - name: 注入 kizty profile（不入仓库）
+        env:
+          PROFILE_B64: ${{ secrets.KIZTY_PROFILE_B64 }}
+        run: |
+          if [ -z "$PROFILE_B64" ]; then
+            echo "❌ secret KIZTY_PROFILE_B64 未配置，跳过 profile 注入"
+            exit 1
+          fi
+          mkdir -p 04-采集脚本/profiles
+          echo "$PROFILE_B64" | base64 -d > 04-采集脚本/profiles/kizty.yaml
+          echo "  ✅ profile 已注入：$(wc -l < 04-采集脚本/profiles/kizty.yaml) 行"
+
       - name: 跑 Brief（agent-mode · 真发邮件）
         env:
           # ===== LLM =====
