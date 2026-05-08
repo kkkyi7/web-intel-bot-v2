@@ -428,6 +428,130 @@ def fetch_pubmed(topic, keywords, limit=5, days_back=7):
     return out
 
 
+# ========== 抓取：HackerNews ==========
+# v2.8 · 抄自 Horizon-main/src/scrapers/hackernews.py（commit at 2026-05-07）
+# HN Firebase API 无 token、限速宽松，是开发者社区情报最稳的源
+def fetch_hackernews(topic, fetch_top_stories=30, min_score=200,
+                     fetch_top_comments=5, hours_back=48):
+    """抓 HackerNews top stories + 顶层评论喂 LLM。
+
+    设计要点：
+    - 按 HN score 而非关键词过滤（HN 自己有社区共识，不需要预过滤）
+    - 抓 top 5 顶层评论拼进 body，让 LLM 写 summary 时能看到社区视角
+    - story 没外链时 fallback 到讨论页 url
+    - 讨论页 url 也追加到 body 末尾，LLM 觉得有价值会在 summary 里引用
+    """
+    base = "https://hacker-news.firebaseio.com/v0"
+    cutoff_ts = (datetime.now(timezone.utc) - timedelta(hours=hours_back)).timestamp()
+
+    # 1. 拿 top story IDs
+    try:
+        r = requests.get(f"{base}/topstories.json",
+                         headers=HTTP_HEADERS, timeout=15)
+        r.raise_for_status()
+        story_ids = r.json()[:fetch_top_stories]
+    except Exception as e:
+        print(f"  ⚠️ HackerNews topstories 失败: {e}")
+        return []
+
+    def _get_item(item_id):
+        try:
+            rr = requests.get(f"{base}/item/{item_id}.json",
+                              headers=HTTP_HEADERS, timeout=10)
+            rr.raise_for_status()
+            return rr.json()
+        except Exception:
+            return None
+
+    # 2. 并发抓 story 详情
+    with ThreadPoolExecutor(max_workers=10) as ex:
+        stories = list(ex.map(_get_item, story_ids))
+
+    valid = []
+    for st in stories:
+        if not st:
+            continue
+        if st.get("type") != "story":
+            continue  # 跳过 job/poll
+        if st.get("score", 0) < min_score:
+            continue
+        if st.get("time", 0) < cutoff_ts:
+            continue
+        valid.append(st)
+
+    if not valid:
+        print(f"  ✅ HackerNews: 0 条（≥{min_score}分 / {hours_back}h 内无新 story）")
+        return []
+
+    # 3. 并发抓评论（每 story 最多 fetch_top_comments 条顶层评论）
+    comment_ids_flat = []
+    cmt_range = {}
+    if fetch_top_comments > 0:
+        for st in valid:
+            kids = (st.get("kids") or [])[:fetch_top_comments]
+            cmt_range[st["id"]] = (len(comment_ids_flat),
+                                    len(comment_ids_flat) + len(kids))
+            comment_ids_flat.extend(kids)
+        with ThreadPoolExecutor(max_workers=10) as ex:
+            comments_flat = list(ex.map(_get_item, comment_ids_flat))
+    else:
+        comments_flat = []
+
+    out = []
+    for st in valid:
+        sid = st["id"]
+        title = (st.get("title") or "").strip()
+        ext_url = st.get("url") or f"https://news.ycombinator.com/item?id={sid}"
+        score = st.get("score", 0)
+        comment_count = st.get("descendants", 0)
+        author = (f"{st.get('by', 'anon')} · {score} pts · "
+                  f"{comment_count} comments")
+        published = (datetime
+                     .fromtimestamp(st["time"], tz=timezone.utc)
+                     .strftime("%Y-%m-%dT%H:%M:%SZ"))
+
+        parts = []
+        # story 自带 text（Ask HN / Show HN 才有）
+        if st.get("text"):
+            parts.append(re.sub(r"<[^>]+>", " ", st["text"]).strip())
+
+        # 顶层评论拼进 body（每条裁剪到 500 字）
+        if fetch_top_comments > 0:
+            start, end = cmt_range.get(sid, (0, 0))
+            cmts = []
+            for c in comments_flat[start:end]:
+                if not c or c.get("deleted") or c.get("dead"):
+                    continue
+                if not c.get("text"):
+                    continue
+                txt = re.sub(r"<[^>]+>", " ", c["text"]).strip()
+                if len(txt) > 500:
+                    txt = txt[:497] + "..."
+                cmts.append(f"[{c.get('by', 'anon')}]: {txt}")
+            if cmts:
+                parts.append("--- HN Top Comments ---\n" + "\n".join(cmts))
+
+        body = "\n\n".join(parts)[:3500]
+        # 讨论页 URL 单独保留（LLM 有用就引用，渲染层不用）
+        body += (f"\n\n讨论页：https://news.ycombinator.com/item?id={sid}")
+
+        out.append({
+            "source": "HackerNews",
+            "topic": topic,
+            "region": "intl",
+            "title": title,
+            "author": author,
+            "published": published,
+            "url": ext_url,
+            "body": body,
+        })
+
+    print(f"  ✅ HackerNews: {len(out)} 条（≥{min_score}分 · "
+          f"{hours_back}h 内 · top {fetch_top_comments} 评论已喂 LLM）")
+    return out
+
+
+
 # ========== 抓取：国内 RSS（v2 新增）==========
 def fetch_rss(topic, rss_config, keywords_cn=None):
     """抓 RSS 源：每个 RSS 按 limit 取最新 N 条，返回带 region 字段的 items。
@@ -1162,11 +1286,13 @@ def _run_topic_through_summary(topic_name, cfg, args, max_per_topic_default, cac
     kws = cfg.get("keywords") or []
     if not kws:
         kws = (cfg.get("keywords_en") or []) + (cfg.get("keywords_cn") or [])
-    if not kws:
-        print(f"  ⚠️ 主题 {topic_name} 没配关键词，跳过。")
-        return [], 0
 
     sources = cfg.get("sources", {}) or {}
+
+    # v2.8：hackernews 源按 score 过滤、不需要 keywords，所以这里放行
+    if not kws and not sources.get("hackernews"):
+        print(f"  ⚠️ 主题 {topic_name} 没配关键词，跳过。")
+        return [], 0
 
     yt_cfg = sources.get("youtube")
     if yt_cfg:
@@ -1201,6 +1327,17 @@ def _run_topic_through_summary(topic_name, cfg, args, max_per_topic_default, cac
         raw += fetch_pubmed(topic_name, kws,
                             limit=pm_cfg.get("limit", 5),
                             days_back=pm_cfg.get("days_back", 7))
+
+    # v2.8 · HackerNews（开发者社区情报，按 score 过滤）
+    hn_cfg = sources.get("hackernews")
+    if hn_cfg and hn_cfg.get("enabled", True):
+        raw += fetch_hackernews(
+            topic_name,
+            fetch_top_stories=hn_cfg.get("fetch_top_stories", 30),
+            min_score=hn_cfg.get("min_score", 200),
+            fetch_top_comments=hn_cfg.get("fetch_top_comments", 5),
+            hours_back=hn_cfg.get("hours_back", 48),
+        )
 
     rss_cfg = sources.get("rss")
     if rss_cfg:
@@ -3122,12 +3259,14 @@ def main():
         kws = cfg.get("keywords") or []
         if not kws:
             kws = (cfg.get("keywords_en") or []) + (cfg.get("keywords_cn") or [])
-        if not kws:
+
+        sources = cfg.get("sources", {}) or {}
+
+        # v2.8：hackernews 源按 score 过滤、不需要 keywords，所以这里放行
+        if not kws and not sources.get("hackernews"):
             print(f"  ⚠️ 主题 {topic_name} 没配关键词，跳过。")
             all_items[topic_name] = []
             continue
-
-        sources = cfg.get("sources", {}) or {}
 
         # YouTube
         yt_cfg = sources.get("youtube")
@@ -3166,6 +3305,17 @@ def main():
             raw += fetch_pubmed(topic_name, kws,
                                 limit=pm_cfg.get("limit", 5),
                                 days_back=pm_cfg.get("days_back", 7))
+
+        # HackerNews（v2.8 · 开发者社区情报，按 score 过滤）
+        hn_cfg = sources.get("hackernews")
+        if hn_cfg and hn_cfg.get("enabled", True):
+            raw += fetch_hackernews(
+                topic_name,
+                fetch_top_stories=hn_cfg.get("fetch_top_stories", 30),
+                min_score=hn_cfg.get("min_score", 200),
+                fetch_top_comments=hn_cfg.get("fetch_top_comments", 5),
+                hours_back=hn_cfg.get("hours_back", 48),
+            )
 
         # RSS（v2 新增：国内源）
         rss_cfg = sources.get("rss")

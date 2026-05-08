@@ -22,6 +22,7 @@ must_run_topics:
   - AI大事
   - 世界时事
   - 变现路径
+  - 技术圈     # v2.8 · KIzty 自评 must-have
 
 # v2.6.3 · 可选主题的最大跑数（必跑之外，LLM 最多再跑几个 optional）
 # 默认 2（KIzty 的原设定：必跑 3 + 最多再 2 = 总 5）
@@ -500,6 +501,21 @@ topics:
           url: "https://36kr.com/feed"
           region: cn
           limit: 10
+
+  # ========== 主题 7：技术圈（v2.8 新增 · HackerNews 精华）==========
+  # KIzty 自评 must-have。HN top story 按 score 过滤，不依赖 keywords。
+  # 抓 top 5 顶层评论喂 LLM，让 summary 能反映社区视角（"为什么这条值得看"）。
+  技术圈:
+    keywords: []        # HN 不靠关键词，按 score 自筛
+    keywords_cn: []
+
+    sources:
+      hackernews:
+        enabled: true
+        fetch_top_stories: 30        # HN /topstories 取前 30 个 ID
+        min_score: 200               # ≥200 分才进 brief（HN 当前热度的中等阈值）
+        fetch_top_comments: 5        # 每 story 抓 top 5 顶层评论喂 LLM
+        hours_back: 48               # 48 小时内的 story 才算"新"
 
   # ========== AI 产品人模板：竞品动态 ==========
   竞品动态:
