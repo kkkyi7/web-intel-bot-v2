@@ -3037,6 +3037,24 @@ def render_html(all_items, date_str, total_duration=0, has_audio=False, top3_hea
         intl_items = [it for it in items if it.get("region", "intl") != "cn"]
         cn_items   = [it for it in items if it.get("region", "intl") == "cn"]
 
+        # v3.4 · lite 邮件正文（163 砍 <style> 后双栏会挤在手机上）→ 强制单栏
+        # 渲染顺序：海外条目 → 国内条目（保留 region 信号但用标题分隔，不分两栏）
+        if lite:
+            if intl_items:
+                body_parts.append(
+                    f"<div class='col-title col-title-intl' style='margin:14px 0 10px;padding:4px 8px;font-size:13px;font-weight:600;color:#86868b;border-left:3px solid #0071e3;background:#f5f5f7;border-radius:4px;'>🌐 海外 · {len(intl_items)}</div>"
+                )
+                for it in intl_items:
+                    body_parts.append(_render_item_html(it))
+            if cn_items:
+                body_parts.append(
+                    f"<div class='col-title col-title-cn' style='margin:18px 0 10px;padding:4px 8px;font-size:13px;font-weight:600;color:#86868b;border-left:3px solid #e53935;background:#f5f5f7;border-radius:4px;'>🇨🇳 国内 · {len(cn_items)}</div>"
+                )
+                for it in cn_items:
+                    body_parts.append(_render_item_html(it))
+            body_parts.append('</section>')
+            continue
+
         # 没国内条目就降级为单栏（向后兼容，不强行留空栏）
         if not cn_items:
             for it in items:
@@ -3044,7 +3062,7 @@ def render_html(all_items, date_str, total_duration=0, has_audio=False, top3_hea
             body_parts.append('</section>')
             continue
 
-        # 双栏：用 table 保证邮件客户端兼容
+        # full 版才用双栏：用 table 保证桌面客户端 / 浏览器 Pages 渲染好
         col_intl_inner = (
             "\n".join(_render_item_html(it) for it in intl_items)
             if intl_items else
