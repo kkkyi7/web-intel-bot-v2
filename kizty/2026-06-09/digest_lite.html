@@ -1,0 +1,460 @@
+<!doctype html><html lang='zh-CN'><head><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width,initial-scale=1,viewport-fit=cover'>
+<title>每日学习 · 2026-06-09</title>
+<style>
+    :root{
+      --bg:#f5f5f7; --surface:#ffffff; --surface-2:#fbfbfd;
+      --text:#1d1d1f; --text-2:#86868b; --divider:#d2d2d7;
+      --accent:#0071e3; --accent-soft:rgba(0,113,227,.08);
+      --radius:14px; --radius-lg:20px;
+    }
+    *{box-sizing:border-box;-webkit-tap-highlight-color:transparent;}
+    html,body{margin:0;padding:0;}
+    body{
+      font-family:-apple-system,BlinkMacSystemFont,"SF Pro Text","PingFang SC",
+                  "Helvetica Neue","Microsoft YaHei",sans-serif;
+      background:#f5f5f7; color:#1d1d1f; line-height:1.6;
+      padding:28px 20px 80px;
+      -webkit-font-smoothing:antialiased;
+    }
+    .wrap{max-width:720px;margin:0 auto;}
+
+    /* ========== Hero（极简，无控件） ========== */
+    .hero{
+      background:#ffffff; border-radius:20px;
+      padding:28px 28px 24px;
+      box-shadow:0 1px 2px rgba(0,0,0,.04), 0 8px 32px rgba(0,0,0,.04);
+    }
+    .hero-tag{
+      display:inline-block; font-size:11px; letter-spacing:.12em;
+      color:#0071e3; font-weight:600; margin-bottom:10px;
+      text-transform:uppercase;
+    }
+    .hero h1{
+      margin:0 0 8px; font-size:28px; font-weight:700; letter-spacing:-.02em;
+      color:#1d1d1f;
+    }
+    .hero-sub{
+      margin:0; color:#86868b; font-size:14px;
+    }
+    .hero-hint{
+      margin:18px 0 0; padding:10px 14px;
+      background:rgba(0,113,227,.08); border-radius:10px;
+      font-size:13px; color:#0a5bc4; line-height:1.55;
+    }
+    .hero-hint b{font-weight:600;}
+
+    /* ========== Topic 分组（大类标题） ========== */
+    .topic{margin:36px 0 0;}
+    .topic-title{
+      margin:0 0 14px; padding:10px 4px 8px;
+      font-size:18px; font-weight:700; letter-spacing:.01em;
+      color:#1d1d1f;
+      border-bottom:2px solid #d2d2d7;
+    }
+    .topic-title .count{
+      color:#86868b; opacity:.7; font-weight:500;
+      font-size:13px; margin-left:6px;
+    }
+
+    /* ========== 双栏（海外 / 国内） ========== */
+    .cols{
+      width:100%; border-collapse:separate; border-spacing:0;
+      table-layout:fixed;   /* 锁死 50/50，不会因长链接撑歪 */
+      margin:0;
+    }
+    .cols > tbody > tr > .col,
+    .cols > tr > .col{
+      vertical-align:top;
+      padding:0 6px;        /* 栏间留点空隙 */
+    }
+    .cols .col-intl{ padding-left:0; padding-right:10px; }
+    .cols .col-cn  { padding-left:10px; padding-right:0; }
+
+    .col-title{
+      margin:0 0 10px; padding:4px 8px;
+      font-size:13px; font-weight:600; letter-spacing:.02em;
+      color:#86868b;
+      border-left:3px solid #d2d2d7;
+      background:#fbfbfd; border-radius:4px;
+    }
+    .col-title-intl{ border-left-color:#0071e3; }
+    .col-title-cn  { border-left-color:#e53935; }
+    .col-count{color:#86868b; opacity:.7; font-weight:500; font-size:12px;}
+
+    .col-empty{
+      color:#86868b; font-size:13px;
+      padding:14px 10px; text-align:center;
+      background:#fbfbfd; border-radius:14px;
+      opacity:.7;
+    }
+
+    /* 手机窄屏：双栏堆叠成单栏 */
+    @media (max-width:560px){
+      .cols, .cols tbody, .cols tr, .cols .col{
+        display:block !important;
+        width:100% !important;
+      }
+      .cols .col-intl, .cols .col-cn{
+        padding:0 !important;
+      }
+      .cols .col-cn{ margin-top:18px; }
+    }
+
+    /* ========== 今日头条（v3 LLM 选的 Top3） ========== */
+    .headlines{
+      margin:24px 0 8px;
+      padding:18px 16px 16px;
+      background:linear-gradient(135deg, #fff8e1 0%, #fff3d6 100%);
+      border:1px solid #f0d97a;
+      border-radius:20px;
+    }
+    .headlines-title{
+      font-size:14px; font-weight:700; color:#7a5c00;
+      letter-spacing:.02em; margin-bottom:14px;
+    }
+    .headlines-cards{
+      display:flex; flex-direction:column; gap:10px;
+    }
+    .headline-card{
+      display:block; text-decoration:none; color:inherit;
+      background:rgba(255,255,255,.6);
+      padding:12px 14px; border-radius:14px;
+      transition:background .15s, transform .15s;
+      border:1px solid transparent;
+    }
+    .headline-card:hover{
+      background:rgba(255,255,255,.95);
+      border-color:#f0d97a;
+    }
+    .headline-topic{
+      font-size:11px; font-weight:700; color:#a07000;
+      letter-spacing:.05em; text-transform:uppercase;
+      margin-bottom:4px;
+    }
+    .headline-title{
+      font-size:16px; font-weight:600; color:#1d1d1f;
+      line-height:1.4; margin-bottom:6px;
+    }
+    .headline-meta{
+      font-size:12px; color:#86868b;
+    }
+
+    /* ========== Item 卡（折叠 details） ========== */
+    .item{
+      background:#ffffff; border-radius:14px;
+      margin-bottom:10px; overflow:hidden;
+      box-shadow:0 1px 2px rgba(0,0,0,.04);
+      transition:box-shadow .2s, transform .2s;
+      scroll-margin-top:24px;
+    }
+    /* 从今日头条点过来时高亮 */
+    .item:target{
+      box-shadow:0 0 0 2px #0071e3, 0 4px 16px rgba(0,113,227,.18);
+      animation:headlinePulse 1.2s ease-out 1;
+    }
+    @keyframes headlinePulse{
+      0%   { box-shadow:0 0 0 4px rgba(0,113,227,.4), 0 0 24px rgba(0,113,227,.4); }
+      100% { box-shadow:0 0 0 2px #0071e3, 0 4px 16px rgba(0,113,227,.18); }
+    }
+    .item[open]{
+      box-shadow:0 2px 8px rgba(0,0,0,.06), 0 8px 24px rgba(0,113,227,.08);
+    }
+    .item > summary{
+      list-style:none; cursor:pointer; padding:16px 20px;
+      display:flex; align-items:flex-start; gap:12px;
+      position:relative;
+      transition:background .15s;
+    }
+    .item > summary::-webkit-details-marker{display:none;}
+    .item > summary:hover{background:#fbfbfd;}
+    .item[open] > summary{
+      border-bottom:1px solid #d2d2d7;
+    }
+    .item .score-chip{
+      flex-shrink:0; width:32px; height:32px; border-radius:50%;
+      background:rgba(0,113,227,.08); color:#0071e3;
+      font-size:13px; font-weight:700; letter-spacing:-.02em;
+      display:flex; align-items:center; justify-content:center;
+      font-variant-numeric:tabular-nums;
+    }
+    .item .sum-main{flex:1; min-width:0;}
+    .item .sum-title-cn{
+      font-size:17px; font-weight:600; color:#1d1d1f;
+      line-height:1.35; margin:0 0 4px;
+    }
+    .item .sum-title-en{
+      font-size:14px; font-weight:400; color:#86868b;
+      line-height:1.4; margin:0 0 6px;
+      word-break:break-word; opacity:.85;
+    }
+    /* 标题已是中文（无 EN 副行）时的兼容样式 */
+    .item .sum-title{
+      font-size:16px; font-weight:600; color:#1d1d1f;
+      line-height:1.4; margin:0 0 4px;
+    }
+    .item .sum-meta{
+      font-size:12px; color:#86868b; line-height:1.4;
+      white-space:nowrap; overflow:hidden; text-overflow:ellipsis;
+    }
+    .item .sum-caret{
+      flex-shrink:0; color:#86868b; font-size:18px;
+      transition:transform .25s ease;
+      margin-top:2px;
+    }
+    .item[open] .sum-caret{transform:rotate(180deg); color:#0071e3;}
+
+    /* 当前正在朗读的 item：左侧 accent 光带 + 标题加重 */
+    .item.playing{
+      background:linear-gradient(90deg, rgba(0,113,227,.08) 0%, #ffffff 40%);
+    }
+    .item.playing > summary{position:relative;}
+    .item.playing > summary::before{
+      content:""; position:absolute; left:0; top:10%; bottom:10%;
+      width:3px; background:#0071e3; border-radius:0 2px 2px 0;
+    }
+    .item.playing .sum-title{color:#0071e3;}
+    .item.playing .sum-title-cn{color:#0071e3;}
+
+    /* 展开内容 */
+    .item-body{padding:16px 20px 20px;}
+    .item-link{
+      display:inline-block; margin-bottom:12px;
+      font-size:13px; color:#0071e3; text-decoration:none;
+      word-break:break-all;
+    }
+    .item-link:hover{text-decoration:underline;}
+
+    /* ========== Lite 模式（v2.6 邮件正文专用） ========== */
+    /* 目标：一眼看到接下来要看哪几件事 → 紧凑、目录感、色块缩小 */
+    .item-lite{padding:0; margin-bottom:6px;}
+    .item-lite .sum-lite{
+      padding:10px 14px 6px;
+      display:flex; align-items:flex-start; gap:10px;
+    }
+    .item-lite .score-chip{
+      width:26px; height:26px; font-size:12px;
+    }
+    .item-lite .sum-title{
+      font-size:15px; line-height:1.35; margin:0 0 2px;
+    }
+    .item-lite .sum-meta{
+      font-size:11px;
+    }
+    .item-body-lite{padding:4px 14px 12px;}
+    .item-body-lite .sec{
+      margin:6px 0; padding:8px 10px; border-radius:8px;
+      font-size:13px; line-height:1.5;
+    }
+    .item-body-lite .sec-label{
+      font-size:10px; margin-bottom:3px;
+    }
+
+    /* Top3 lite：去 meta，加 tldr 一句话；卡片缩小一半 */
+    .headline-lite{padding:10px 12px !important;}
+    .headline-lite .headline-topic{
+      font-size:10px; margin-bottom:2px;
+    }
+    .headline-lite .headline-title{
+      font-size:14px; line-height:1.3; margin-bottom:4px;
+    }
+    .headline-tldr{
+      font-size:12px; color:#86868b; line-height:1.45;
+      display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical;
+      overflow:hidden;
+    }
+
+    .sec{
+      margin:10px 0; padding:12px 14px; border-radius:10px;
+      font-size:14px; line-height:1.6;
+    }
+    .sec-label{
+      font-size:11px; font-weight:700; letter-spacing:.06em;
+      text-transform:uppercase; opacity:.7; margin-bottom:6px;
+    }
+    .sec-body{white-space:pre-wrap;}
+    .sec-score  {background:#fff8e6; color:#8a5a00;}
+    .sec-tldr   {background:#e6f7ed; color:#0d6b35;}
+    .sec-detail {background:#eef4ff; color:#14467d;}
+    .sec-term   {background:#fdecf3; color:#8a1e5e;}
+    .sec-usefor {background:#fff1e5; color:#8a3d06;}
+    .sec-deeper {background:#efeaff; color:#4a2aa5;}
+    .sec-other  {background:#f2f2f4; color:#4a4a4e;}
+
+    .empty{
+      color:#86868b; font-size:13px; font-style:italic;
+      padding:12px 20px;
+    }
+
+    footer{
+      margin-top:40px; padding:20px 0 8px;
+      color:#86868b; font-size:11px; text-align:center;
+      border-top:1px solid #d2d2d7;
+    }
+
+    /* ========== 呼吸点（全局音频状态指示） ========== */
+    .pulse-dot{
+      position:fixed; top:18px; right:18px;
+      width:10px; height:10px; border-radius:50%;
+      background:#d2d2d7; cursor:pointer; z-index:50;
+      transition:background .3s, transform .2s;
+      box-shadow:0 0 0 0 #0071e3;
+    }
+    .pulse-dot:hover{transform:scale(1.3);}
+    /* 任何 item 在"playing"状态时，小点变蓝呼吸 */
+    body:has(.item.playing) .pulse-dot{
+      background:#0071e3;
+      animation:breathe 1.6s ease-in-out infinite;
+    }
+    @keyframes breathe{
+      0%,100%{box-shadow:0 0 0 0 rgba(0,113,227,.6);}
+      50%{box-shadow:0 0 0 8px rgba(0,113,227,0);}
+    }
+
+    /* 手机：呼吸点挪到右下，拇指够得着 */
+    @media (max-width:560px){
+      body{padding:16px 14px 100px;}
+      .hero{padding:22px 20px;}
+      .hero h1{font-size:22px;}
+      .item > summary{padding:14px 16px;}
+      .item-body{padding:14px 16px 18px;}
+      .pulse-dot{top:auto; bottom:20px; right:20px; width:12px; height:12px;}
+    }
+
+    /* ========== 全局底部细进度线 ========== */
+    .bar-bottom{
+      position:fixed; left:0; right:0; bottom:0;
+      height:2px; background:transparent; z-index:40;
+      pointer-events:none;
+    }
+    .bar-bottom::after{
+      content:""; display:block; height:100%; width:0%;
+      background:#0071e3;
+      transition:width .15s linear;
+    }
+    </style></head><body>
+<div class="wrap">
+<div class="hero"><div class="hero-tag">DAILY BRIEF</div><h1>每日学习 · 2026-06-09</h1><p class="hero-sub">38 条精选 · 7 个方向 · 无音频</p><p class="hero-hint">📎 <b>看完整版（详细 / 对你有啥用 / 术语 / 想深入）</b>：戳邮件附件 <code>digest_2026-06-09.html</code></p><p class="hero-hint">📖 <b>或直接浏览器看（CSS 完整渲染 / 手机电脑都美）</b>：<a href="https://kkkyi7.github.io/web-intel-bot-v2/kizty/2026-06-09/digest.html" target="_blank" rel="noopener">点这里打开</a></p></div>
+<div class="headlines"><div class="headlines-title">📰 今日头条</div><div class="headlines-cards"><a class="headline-card headline-lite" href="https://github.com/aaif-goose/goose" target="_blank" rel="noopener"><div class="headline-topic">AI大事</div><div class="headline-title">Goose：开源通用AI代理，已迁移至Linux基金会</div><div class="headline-tldr">Goose是一个开源AI代理，能帮你写代码、跑脚本、做自动化，甚至分析数据。它刚迁移到Linux基金会，支持15种以上大模型，还有桌面端和命…</div></a><a class="headline-card headline-lite" href="https://36kr.com/p/3844199957236227?f=rss" target="_blank" rel="noopener"><div class="headline-topic">变现路径</div><div class="headline-title">改变全球速度的AI，付款却卡在上一个时代</div><div class="headline-tldr">AI公司全球化采购算力和云服务时，跨境支付工具落后，导致手续费高、对账乱、收款难，正在吃掉利润。文章介绍了Airwallex这类解决方案如何…</div></a><a class="headline-card headline-lite" href="http://arxiv.org/abs/2606.07044v1" target="_blank" rel="noopener"><div class="headline-topic">供应链</div><div class="headline-title">城市轨道交通中断下的分层预测协调方法</div><div class="headline-tldr">这篇论文讲的是城市地铁在发生运营中断时，如何用一套新算法把不同层级（车站和线路）的客流预测统一起来，避免预测打架，最终在中断场景下把预测误差…</div></a></div></div>
+<section class="topic">
+<div class="topic-title">AI大事 <span class="count">· 9 条</span></div>
+<div class='col-title col-title-intl' style='margin:14px 0 10px;padding:4px 8px;font-size:13px;font-weight:600;color:#86868b;border-left:3px solid #0071e3;background:#f5f5f7;border-radius:4px;'>🌐 海外 · 4</div>
+<div class="item item-lite" id="AI大事_dbf05bf5bd"><div class="sum sum-lite"><div class="score-chip">9</div><div class="sum-main"><div class="sum-title">Goose：开源通用AI代理，已迁移至Linux基金会</div><div class="sum-meta">GitHub Trending</div></div></div><div class="item-body item-body-lite"><div class='sec sec-score'><div class='sec-label'>【相关性评分】</div><div class='sec-body'>9</div></div>
+<div class='sec sec-tldr'><div class='sec-label'>【一句话讲清楚它在说啥】</div><div class='sec-body'>Goose是一个开源AI代理，能帮你写代码、跑脚本、做自动化，甚至分析数据。它刚迁移到Linux基金会，支持15种以上大模型，还有桌面端和命令行工具。</div></div></div></div>
+<div class="item item-lite" id="AI大事_cb3eddfe11"><div class="sum sum-lite"><div class="score-chip">9</div><div class="sum-main"><div class="sum-title">last30days 技能：AI 代理驱动的跨平台搜索</div><div class="sum-meta">GitHub Trending</div></div></div><div class="item-body item-body-lite"><div class='sec sec-score'><div class='sec-label'>【相关性评分】</div><div class='sec-body'>9</div></div>
+<div class='sec sec-tldr'><div class='sec-label'>【一句话讲清楚它在说啥】</div><div class='sec-body'>一个叫 last30days 的 AI 代理技能，能同时搜索 Reddit、X、YouTube、Hacker News 等平台，按点赞、转发和真实金钱投注来排序结果，最后合成一份接地气的摘要，帮你快速了解某个话题最近 30 天的真实动态。</div></div></div></div>
+<div class="item item-lite" id="AI大事_c74d8c5cfd"><div class="sum sum-lite"><div class="score-chip">9</div><div class="sum-main"><div class="sum-title">LLM 与人类单元测试：真实 Python 缺陷检测对比</div><div class="sum-meta">arXiv · Phouvadeth Vathana, Prapti Bhatt, Rishi Patel, Nasir U. Eisty · 2 天前</div></div></div><div class="item-body item-body-lite"><div class='sec sec-score'><div class='sec-label'>【相关性评分】</div><div class='sec-body'>9</div></div>
+<div class='sec sec-tldr'><div class='sec-label'>【一句话讲清楚它在说啥】</div><div class='sec-body'>这篇论文拿 LLM（Gemini 2.5 Flash）生成的单元测试跟人类写的测试做对比，发现 LLM 在检测真实 Python 代码缺陷上效果远超人类（69% vs 17%），而且代码覆盖率并不能代表缺陷检测能力。</div></div></div></div>
+<div class="item item-lite" id="AI大事_1482d2f122"><div class="sum sum-lite"><div class="score-chip">8</div><div class="sum-main"><div class="sum-title">多语言事实核查规模化：微调紧凑模型 vs 大语言模型</div><div class="sum-meta">arXiv · Pratuat Amatya, Vinay Setty · 2 天前</div></div></div><div class="item-body item-body-lite"><div class='sec sec-score'><div class='sec-label'>【相关性评分】</div><div class='sec-body'>8</div></div>
+<div class='sec sec-tldr'><div class='sec-label'>【一句话讲清楚它在说啥】</div><div class='sec-body'>Factiverse 部署了一套多语言事实核查系统，用微调的小模型（XLM-RoBERTa 等）做检测、检索和判断，对比 GPT-5.2 等大模型后发现：小模型在速度、成本和隐私上更实用，性能也不差。</div></div></div></div>
+<div class='col-title col-title-cn' style='margin:18px 0 10px;padding:4px 8px;font-size:13px;font-weight:600;color:#86868b;border-left:3px solid #e53935;background:#f5f5f7;border-radius:4px;'>🇨🇳 国内 · 5</div>
+<div class="item item-lite" id="AI大事_828716a8a1"><div class="sum sum-lite"><div class="score-chip">9</div><div class="sum-main"><div class="sum-title">腾讯汤道生评价姚顺雨、混元3和元宝</div><div class="sum-meta">36氪 · 昨天 09:01</div></div></div><div class="item-body item-body-lite"><div class='sec sec-score'><div class='sec-label'>【相关性评分】</div><div class='sec-body'>9</div></div>
+<div class='sec sec-tldr'><div class='sec-label'>【一句话讲清楚它在说啥】</div><div class='sec-body'>腾讯高管汤道生和AI科学家姚顺雨公开对话，核心观点是AI是长期游戏，Coding Agent比C端聊天机器人更值钱，腾讯目前不急着商业化，重点是用AI帮B端客户提效。</div></div></div></div>
+<div class="item item-lite" id="AI大事_1a32edf4f4"><div class="sum sum-lite"><div class="score-chip">8</div><div class="sum-main"><div class="sum-title">8点1氪丨八家上市公司集中公告“补税”；ChatGPT将迎来史上最大幅度升级；高考新增AI监考员，自动截取异常录像</div><div class="sum-meta">36氪 · 昨天 00:01</div></div></div><div class="item-body item-body-lite"><div class='sec sec-score'><div class='sec-label'>【相关性评分】</div><div class='sec-body'>8</div></div>
+<div class='sec sec-tldr'><div class='sec-label'>【一句话讲清楚它在说啥】</div><div class='sec-body'>ChatGPT要变成超级应用，整合编程和智能体功能，目标是企业客户。同时国内高考用AI监考，机器网络请求量首次超过人类。</div></div></div></div>
+<div class="item item-lite" id="AI大事_5598efc4d6"><div class="sum sum-lite"><div class="score-chip">8</div><div class="sum-main"><div class="sum-title">BadHost 漏洞使 AI 代理、评估器和 LLM 网关面临风险</div><div class="sum-meta">InfoQ 中文 · 作者：Sergio De Simone · 2026-06-09</div></div></div><div class="item-body item-body-lite"><div class='sec sec-score'><div class='sec-label'>【相关性评分】</div><div class='sec-body'>8</div></div>
+<div class='sec sec-tldr'><div class='sec-label'>【一句话讲清楚它在说啥】</div><div class='sec-body'>安全公司发现一个叫 BadHost 的漏洞，能让攻击者绕过 AI 代理的安全检查，直接控制模型输出。这暴露了当前 LLM 应用在部署环节的一个普遍弱点。</div></div></div></div>
+<div class="item item-lite" id="AI大事_69052ea23a"><div class="sum sum-lite"><div class="score-chip">8</div><div class="sum-main"><div class="sum-title">蚂蚁国际推出移动智能体协议AMP，海外AI支付迈向统一标准</div><div class="sum-meta">InfoQ 中文 · 蚂蚁集团 · 昨天 18:29</div></div></div><div class="item-body item-body-lite"><div class='sec sec-score'><div class='sec-label'>【相关性评分】</div><div class='sec-body'>8</div></div>
+<div class='sec sec-tldr'><div class='sec-label'>【一句话讲清楚它在说啥】</div><div class='sec-body'>蚂蚁国际发布了一个叫AMP的开放协议，想让不同AI智能体之间能像人类用支付宝一样，安全地完成支付和交易，目标是成为海外AI支付领域的通用标准。</div></div></div></div>
+<div class="item item-lite" id="AI大事_eab0e97eda"><div class="sum sum-lite"><div class="score-chip">7</div><div class="sum-main"><div class="sum-title">8点1氪丨苹果推出全新Siri AI；ROKID回应“智能眼镜偷拍空姐”事件；OpenAI秘密提交IPO文件</div><div class="sum-meta">36氪 · 今天 00:19</div></div></div><div class="item-body item-body-lite"><div class='sec sec-score'><div class='sec-label'>【相关性评分】</div><div class='sec-body'>7</div></div>
+<div class='sec sec-tldr'><div class='sec-label'>【一句话讲清楚它在说啥】</div><div class='sec-body'>今天几条AI大新闻：苹果iOS 27发布，Siri AI深度整合Gemini大模型，能跨App操作；OpenAI秘密提交IPO，估值可能到1万亿美元；微信开放AI生态给开发者接入。</div></div></div></div>
+</section>
+<section class="topic">
+<div class="topic-title">世界时事 <span class="count">· 6 条</span></div>
+<div class='col-title col-title-cn' style='margin:18px 0 10px;padding:4px 8px;font-size:13px;font-weight:600;color:#86868b;border-left:3px solid #e53935;background:#f5f5f7;border-radius:4px;'>🇨🇳 国内 · 6</div>
+<div class="item item-lite" id="世界时事_e542663661"><div class="sum sum-lite"><div class="score-chip">9</div><div class="sum-main"><div class="sum-title">再缓缓吧！6年了，成本仍比中国高30%</div><div class="sum-meta">观察者网 · 2 天前</div></div></div><div class="item-body item-body-lite"><div class='sec sec-score'><div class='sec-label'>【相关性评分】</div><div class='sec-body'>9</div></div>
+<div class='sec sec-tldr'><div class='sec-label'>【一句话讲清楚它在说啥】</div><div class='sec-body'>欧盟和英国汽车行业发现，到2027年他们根本没法在本地造出足够多的便宜电池，因为欧洲造电池的成本比中国贵30%，所以正在紧急游说政府再次推迟关税，避免自家车企被征税。</div></div></div></div>
+<div class="item item-lite" id="世界时事_400ed14712"><div class="sum sum-lite"><div class="score-chip">8</div><div class="sum-main"><div class="sum-title">伊朗开价240亿美元，这可要了特朗普的命了…</div><div class="sum-meta">观察者网 · 3 天前</div></div></div><div class="item-body item-body-lite"><div class='sec sec-score'><div class='sec-label'>【相关性评分】</div><div class='sec-body'>8</div></div>
+<div class='sec sec-tldr'><div class='sec-label'>【一句话讲清楚它在说啥】</div><div class='sec-body'>美伊谈判陷入僵局，伊朗要求美国先解冻240亿美元被冻结资产作为信任测试，特朗普因为自己过去骂过奥巴马给伊朗钱，现在给钱等于打自己脸，左右为难。</div></div></div></div>
+<div class="item item-lite" id="世界时事_37d9ba6675"><div class="sum sum-lite"><div class="score-chip">7</div><div class="sum-main"><div class="sum-title">新变数，美国拟动用伊朗资产赔偿海湾盟友</div><div class="sum-meta">观察者网 · 2 天前</div></div></div><div class="item-body item-body-lite"><div class='sec sec-score'><div class='sec-label'>【相关性评分】</div><div class='sec-body'>7</div></div>
+<div class='sec sec-tldr'><div class='sec-label'>【一句话讲清楚它在说啥】</div><div class='sec-body'>美国考虑把伊朗被冻结的海外资产（约240-1000亿美元）拿来赔偿海湾盟友，作为伊朗袭击的补偿。这给本已脆弱的美伊停火协议增加了新变数。</div></div></div></div>
+<div class="item item-lite" id="世界时事_cbdd0aa340"><div class="sum sum-lite"><div class="score-chip">7</div><div class="sum-main"><div class="sum-title">马克龙想借G7拉拢中国</div><div class="sum-meta">观察者网 · 今天 00:36</div></div></div><div class="item-body item-body-lite"><div class='sec sec-score'><div class='sec-label'>【相关性评分】</div><div class='sec-body'>7</div></div>
+<div class='sec sec-tldr'><div class='sec-label'>【一句话讲清楚它在说啥】</div><div class='sec-body'>法国总统马克龙想在G7峰会前，组织一次G7与中国领导人的视频通话，讨论全球贸易失衡问题，试图用更缓和的方式拉中国对话，但G7内部对此有分歧。</div></div></div></div>
+<div class="item item-lite" id="世界时事_eb9b9f83d4"><div class="sum sum-lite"><div class="score-chip">7</div><div class="sum-main"><div class="sum-title">吉林大安借“风口”升级，众多央企新能源项目押注这座小城</div><div class="sum-meta">澎湃新闻 · 澎湃新闻记者 赵木禾 · 37 分钟前</div></div></div><div class="item-body item-body-lite"><div class='sec sec-score'><div class='sec-label'>【相关性评分】</div><div class='sec-body'>7</div></div>
+<div class='sec sec-tldr'><div class='sec-label'>【一句话讲清楚它在说啥】</div><div class='sec-body'>讲的是吉林一个小县城大安，因为风能、太阳能资源特别好，加上政府服务效率高，吸引了一堆央企去投风电、光伏和制氢项目，正在变成一个清洁能源产业聚集地。</div></div></div></div>
+<div class="item item-lite" id="世界时事_278f3a6a91"><div class="sum sum-lite"><div class="score-chip">7</div><div class="sum-main"><div class="sum-title">油价上涨侵蚀利润 国际航协下调全球航空业盈利预期</div><div class="sum-meta">财新网 · 昨天 23:04</div></div></div><div class="item-body item-body-lite"><div class='sec sec-score'><div class='sec-label'>【相关性评分】</div><div class='sec-body'>7</div></div>
+<div class='sec sec-tldr'><div class='sec-label'>【一句话讲清楚它在说啥】</div><div class='sec-body'>国际航协预测2026年全球航空业净利润腰斩到230亿美元，单客净利润从9.1美元降到4.5美元，原因是油价暴涨和中东局势导致航线受阻。</div></div></div></div>
+</section>
+<section class="topic">
+<div class="topic-title">变现路径 <span class="count">· 2 条</span></div>
+<div class='col-title col-title-cn' style='margin:18px 0 10px;padding:4px 8px;font-size:13px;font-weight:600;color:#86868b;border-left:3px solid #e53935;background:#f5f5f7;border-radius:4px;'>🇨🇳 国内 · 2</div>
+<div class="item item-lite" id="变现路径_1793ce01fd"><div class="sum sum-lite"><div class="score-chip">9</div><div class="sum-main"><div class="sum-title">改变全球速度的AI，付款却卡在上一个时代</div><div class="sum-meta">36氪 · 昨天 07:30</div></div></div><div class="item-body item-body-lite"><div class='sec sec-score'><div class='sec-label'>【相关性评分】</div><div class='sec-body'>9</div></div>
+<div class='sec sec-tldr'><div class='sec-label'>【一句话讲清楚它在说啥】</div><div class='sec-body'>AI公司全球化采购算力和云服务时，跨境支付工具落后，导致手续费高、对账乱、收款难，正在吃掉利润。文章介绍了Airwallex这类解决方案如何帮企业打通资金闭环。</div></div></div></div>
+<div class="item item-lite" id="变现路径_d48204f773"><div class="sum sum-lite"><div class="score-chip">8</div><div class="sum-main"><div class="sum-title">氪星晚报｜追觅质押嘉美包装2.47亿股；黄仁勋：SK海力士产能翻倍不够</div><div class="sum-meta">36氪 · 昨天 13:29</div></div></div><div class="item-body item-body-lite"><div class='sec sec-score'><div class='sec-label'>【相关性评分】</div><div class='sec-body'>8</div></div>
+<div class='sec sec-tldr'><div class='sec-label'>【一句话讲清楚它在说啥】</div><div class='sec-body'>今天晚报几条关键信息：追觅收购嘉美包装后质押股权还贷款，微信AI生态开放携程同程接入，黄仁勋说SK海力士产能翻倍还不够，国家数据局要培育数据标注龙头企业。</div></div></div></div>
+</section>
+<section class="topic">
+<div class="topic-title">技术圈 <span class="count">· 9 条</span></div>
+<div class='col-title col-title-intl' style='margin:14px 0 10px;padding:4px 8px;font-size:13px;font-weight:600;color:#86868b;border-left:3px solid #0071e3;background:#f5f5f7;border-radius:4px;'>🌐 海外 · 9</div>
+<div class="item item-lite" id="技术圈_5fc27872e2"><div class="sum sum-lite"><div class="score-chip">9</div><div class="sum-main"><div class="sum-title">OpenAI 向 SEC 秘密提交 S-1 上市文件</div><div class="sum-meta">HackerNews · hackerBanana · 296 pts · 198 comments · 昨天 21:22</div></div></div><div class="item-body item-body-lite"><div class='sec sec-score'><div class='sec-label'>【相关性评分】</div><div class='sec-body'>9</div></div>
+<div class='sec sec-tldr'><div class='sec-label'>【一句话讲清楚它在说啥】</div><div class='sec-body'>OpenAI 已向美国证监会秘密提交了 S-1 上市文件，但表示上市时间未定，可能还要等很久。HN 评论区普遍看空，认为 AI 泡沫即将破裂，散户可能成为接盘侠。</div></div></div></div>
+<div class="item item-lite" id="技术圈_83238d1b5d"><div class="sum sum-lite"><div class="score-chip">9</div><div class="sum-main"><div class="sum-title">苹果发布基于Google Gemini的新AI架构</div><div class="sum-meta">HackerNews · unclefuzzy · 326 pts · 313 comments · 昨天 19:14</div></div></div><div class="item-body item-body-lite"><div class='sec sec-score'><div class='sec-label'>【相关性评分】</div><div class='sec-body'>9</div></div>
+<div class='sec sec-tldr'><div class='sec-label'>【一句话讲清楚它在说啥】</div><div class='sec-body'>苹果在WWDC上宣布，其AI系统Apple Intelligence底层改用Google的Gemini模型，通过隐私架构将第三方模型嵌入系统，让用户感觉像在用苹果自研AI一样，但数据不会泄露给Google。</div></div></div></div>
+<div class="item item-lite" id="技术圈_1b78f0d2e1"><div class="sum sum-lite"><div class="score-chip">9</div><div class="sum-main"><div class="sum-title">AI 正在放缓</div><div class="sum-meta">HackerNews · crescit_eundo · 392 pts · 409 comments · 昨天 15:46</div></div></div><div class="item-body item-body-lite"><div class='sec sec-score'><div class='sec-label'>【相关性评分】</div><div class='sec-body'>9</div></div>
+<div class='sec sec-tldr'><div class='sec-label'>【一句话讲清楚它在说啥】</div><div class='sec-body'>这篇文章的核心观点是，AI 行业面临巨大的经济压力，需要到2030年创造超过3万亿美元的收入才能维持现有投资，否则泡沫可能破裂。但评论区的HackerNews用户对此有激烈争议，有人质疑作者的权威性，也有人认为他忽略了AI带来的实际生产力提升。</div></div></div></div>
+<div class="item item-lite" id="技术圈_8aa3d71261"><div class="sum sum-lite"><div class="score-chip">9</div><div class="sum-main"><div class="sum-title">小米发布MiMo-v2.5-Pro-UltraSpeed：1T参数模型每秒处理1000个token</div><div class="sum-meta">HackerNews · gainsurier · 497 pts · 341 comments · 昨天 15:27</div></div></div><div class="item-body item-body-lite"><div class='sec sec-score'><div class='sec-label'>【相关性评分】</div><div class='sec-body'>9</div></div>
+<div class='sec sec-tldr'><div class='sec-label'>【一句话讲清楚它在说啥】</div><div class='sec-body'>小米发布了超高速大模型，每秒能处理1000个token，速度是之前版本的3倍，价格还跟DeepSeek一样便宜。这可能会改变AI产品的使用体验和成本结构。</div></div></div></div>
+<div class="item item-lite" id="技术圈_7e2ffaaf81"><div class="sum sum-lite"><div class="score-chip">8</div><div class="sum-main"><div class="sum-title">Apple 发布 Siri AI，强调隐私与 DMA 合规</div><div class="sum-meta">HackerNews · 0xedb · 402 pts · 349 comments · 昨天 18:17</div></div></div><div class="item-body item-body-lite"><div class='sec sec-score'><div class='sec-label'>【相关性评分】</div><div class='sec-body'>8</div></div>
+<div class='sec sec-tldr'><div class='sec-label'>【一句话讲清楚它在说啥】</div><div class='sec-body'>Apple 在 WWDC 上发布了新版 Siri AI，核心是让 Siri 更像《星际迷航》里的电脑助手，能理解上下文、在菜单里直接调用，同时强调隐私保护，并因欧盟 DMA 法规限制了部分第三方 AI 集成。</div></div></div></div>
+<div class="item item-lite" id="技术圈_e13d505bea"><div class="sum sum-lite"><div class="score-chip">7</div><div class="sum-main"><div class="sum-title">马萨诸塞州通过隐私法案，禁止出售精确位置数据</div><div class="sum-meta">HackerNews · 01-_- · 275 pts · 43 comments · 昨天 17:07</div></div></div><div class="item-body item-body-lite"><div class='sec sec-score'><div class='sec-label'>【相关性评分】</div><div class='sec-body'>7</div></div>
+<div class='sec sec-tldr'><div class='sec-label'>【一句话讲清楚它在说啥】</div><div class='sec-body'>马萨诸塞州通过新隐私法案，禁止买卖手机精确位置数据。此前通用汽车因转卖OnStar位置数据被罚1275万美元，加州也通过了类似法案。</div></div></div></div>
+<div class="item item-lite" id="技术圈_a85e8a55ec"><div class="sum sum-lite"><div class="score-chip">7</div><div class="sum-main"><div class="sum-title">阻止 Apple Music 应用自动启动</div><div class="sum-meta">HackerNews · bobbiechen · 579 pts · 234 comments · 昨天 17:01</div></div></div><div class="item-body item-body-lite"><div class='sec sec-score'><div class='sec-label'>【相关性评分】</div><div class='sec-body'>7</div></div>
+<div class='sec sec-tldr'><div class='sec-label'>【一句话讲清楚它在说啥】</div><div class='sec-body'>一个开发者写了个几乎零代码的小工具，通过伪装成 Apple Music 的进程标识符来拦截系统自动启动音乐应用，解决了 Mac 用户被强制打开 Apple Music 的痛点。</div></div></div></div>
+<div class="item item-lite" id="技术圈_9358a6d9e2"><div class="sum sum-lite"><div class="score-chip">6</div><div class="sum-main"><div class="sum-title">英国新监控法案：监控不等于安全</div><div class="sum-meta">HackerNews · g0xA52A2A · 418 pts · 136 comments · 昨天 19:42</div></div></div><div class="item-body item-body-lite"><div class='sec sec-score'><div class='sec-label'>【相关性评分】</div><div class='sec-body'>6</div></div>
+<div class='sec sec-tldr'><div class='sec-label'>【一句话讲清楚它在说啥】</div><div class='sec-body'>Signal 发布声明，反对英国政府新提出的监控法案，该法案要求操作系统和社交平台内置年龄验证和内容扫描功能，相当于让每台设备都成为政府的监控工具。</div></div></div></div>
+<div class="item item-lite" id="技术圈_aace692274"><div class="sum sum-lite"><div class="score-chip">6</div><div class="sum-main"><div class="sum-title">欧盟禁用农药在米茶香料中被检出</div><div class="sum-meta">HackerNews · john-titor · 235 pts · 89 comments · 昨天 15:59</div></div></div><div class="item-body item-body-lite"><div class='sec sec-score'><div class='sec-label'>【相关性评分】</div><div class='sec-body'>6</div></div>
+<div class='sec sec-tldr'><div class='sec-label'>【一句话讲清楚它在说啥】</div><div class='sec-body'>一份报告发现欧盟市场上大米、茶叶和香料里残留着欧盟自己禁用的农药，原因是欧盟先把这些农药卖给第三国，第三国用了再出口回来，形成“回旋镖效应”。</div></div></div></div>
+</section>
+<section class="topic">
+<div class="topic-title">GitHub 动态 <span class="count">· 5 条</span></div>
+<div class='col-title col-title-intl' style='margin:14px 0 10px;padding:4px 8px;font-size:13px;font-weight:600;color:#86868b;border-left:3px solid #0071e3;background:#f5f5f7;border-radius:4px;'>🌐 海外 · 5</div>
+<div class="item item-lite" id="GitHub 动态_ce432ecd5e"><div class="sum sum-lite"><div class="score-chip">9</div><div class="sum-main"><div class="sum-title">Claude Code 发布 v2.1.169 更新</div><div class="sum-meta">GitHubRelease · ashwin-ant · 昨天 21:57</div></div></div><div class="item-body item-body-lite"><div class='sec sec-score'><div class='sec-label'>【相关性评分】</div><div class='sec-body'>9</div></div>
+<div class='sec sec-tldr'><div class='sec-label'>【一句话讲清楚它在说啥】</div><div class='sec-body'>Claude Code 这次更新加了安全模式和目录切换命令，修了一堆 bug，包括 Mac 用户每轮对话开头卡顿 30-50 毫秒的问题，还有 Windows 上 git 弹窗和远程会话重连的坑。</div></div></div></div>
+<div class="item item-lite" id="GitHub 动态_60928b3428"><div class="sum sum-lite"><div class="score-chip">8</div><div class="sum-main"><div class="sum-title">langchain-core 发布 1.4.2 版本</div><div class="sum-meta">GitHubRelease · github-actions[bot] · 昨天 18:19</div></div></div><div class="item-body item-body-lite"><div class='sec sec-score'><div class='sec-label'>【相关性评分】</div><div class='sec-body'>8</div></div>
+<div class='sec sec-tldr'><div class='sec-label'>【一句话讲清楚它在说啥】</div><div class='sec-body'>LangChain 团队发布了核心库的小版本更新，主要废弃了一个有问题的 dict() 方法，让开发者用更安全的方式处理数据。</div></div></div></div>
+<div class="item item-lite" id="GitHub 动态_521d1d3558"><div class="sum sum-lite"><div class="score-chip">7</div><div class="sum-main"><div class="sum-title">思源笔记发布 v3.7.0-dev11 版本</div><div class="sum-meta">GitHubRelease · github-actions[bot] · 昨天 14:46</div></div></div><div class="item-body item-body-lite"><div class='sec sec-score'><div class='sec-label'>【相关性评分】</div><div class='sec-body'>7</div></div>
+<div class='sec sec-tldr'><div class='sec-label'>【一句话讲清楚它在说啥】</div><div class='sec-body'>思源笔记这个开源笔记软件发布了新版本，主要加了命令行界面、内核插件系统和新默认主题，还支持了本地 HTTPS 和嵌入块原地编辑。</div></div></div></div>
+<div class="item item-lite" id="GitHub 动态_fc1d348d80"><div class="sum sum-lite"><div class="score-chip">6</div><div class="sum-main"><div class="sum-title">Logseq 桌面版夜间构建版发布</div><div class="sum-meta">GitHubRelease · github-actions[bot] · 5 分钟前</div></div></div><div class="item-body item-body-lite"><div class='sec sec-score'><div class='sec-label'>【相关性评分】</div><div class='sec-body'>6</div></div>
+<div class='sec sec-tldr'><div class='sec-label'>【一句话讲清楚它在说啥】</div><div class='sec-body'>Logseq 发布了最新的桌面版夜间构建版本，这个版本不稳定，仅供测试用，不建议日常使用。</div></div></div></div>
+<div class="item item-lite" id="GitHub 动态_4c06bfeb97"><div class="sum sum-lite"><div class="score-chip">6</div><div class="sum-main"><div class="sum-title">Vercel/Next.js 发布 v16.3.0-canary.45</div><div class="sum-meta">GitHubRelease · next-js-bot[bot] · 昨天 12:35</div></div></div><div class="item-body item-body-lite"><div class='sec sec-score'><div class='sec-label'>【相关性评分】</div><div class='sec-body'>6</div></div>
+<div class='sec sec-tldr'><div class='sec-label'>【一句话讲清楚它在说啥】</div><div class='sec-body'>Next.js 发布了一个实验版本，重点加了“部分预取”的全局配置开关，并修复了子树提示传播的问题，同时优化了 Turbopack 对 Webpack 和 PostCSS 加载器的处理。</div></div></div></div>
+</section>
+<section class="topic">
+<div class="topic-title">心理学 <span class="count">· 2 条</span></div>
+<div class='col-title col-title-intl' style='margin:14px 0 10px;padding:4px 8px;font-size:13px;font-weight:600;color:#86868b;border-left:3px solid #0071e3;background:#f5f5f7;border-radius:4px;'>🌐 海外 · 2</div>
+<div class="item item-lite" id="心理学_9decb06637"><div class="sum sum-lite"><div class="score-chip">6</div><div class="sum-main"><div class="sum-title">经颅光生物调节与经耳迷走神经刺激对酒精渴求的疗效</div><div class="sum-meta">PubMed · Manjae Kwon, Minkyung Park, Minjae Kim, Jungyoon Kang · 2026年</div></div></div><div class="item-body item-body-lite"><div class='sec sec-score'><div class='sec-label'>【相关性评分】</div><div class='sec-body'>6</div></div>
+<div class='sec sec-tldr'><div class='sec-label'>【一句话讲清楚它在说啥】</div><div class='sec-body'>一项2026年的临床研究对比了两种无创脑刺激技术（照光和电刺激耳朵）对减少酒精渴求的效果，发现照光效果最好，照光加电刺激对改变饮酒行为效果最强。</div></div></div></div>
+<div class="item item-lite" id="心理学_7e3fba009b"><div class="sum sum-lite"><div class="score-chip">6</div><div class="sum-main"><div class="sum-title">早期压力调节与儿童中期焦虑的性别特异性关联</div><div class="sum-meta">PubMed · Megan Galbally, Svjetlana Vukusic, Andrew Lewis, Marinus H van IJzendoorn · 2026年</div></div></div><div class="item-body item-body-lite"><div class='sec sec-score'><div class='sec-label'>【相关性评分】</div><div class='sec-body'>6</div></div>
+<div class='sec sec-tldr'><div class='sec-label'>【一句话讲清楚它在说啥】</div><div class='sec-body'>这篇研究追踪了149对母婴，发现女孩8岁时的焦虑与婴儿期皮质醇反应和胎盘基因有关，而男孩的焦虑只与母亲当下的抑郁状态相关。</div></div></div></div>
+</section>
+<section class="topic">
+<div class="topic-title">供应链 <span class="count">· 5 条</span></div>
+<div class='col-title col-title-intl' style='margin:14px 0 10px;padding:4px 8px;font-size:13px;font-weight:600;color:#86868b;border-left:3px solid #0071e3;background:#f5f5f7;border-radius:4px;'>🌐 海外 · 4</div>
+<div class="item item-lite" id="供应链_5d0f6065e9"><div class="sum sum-lite"><div class="score-chip">9</div><div class="sum-main"><div class="sum-title">城市轨道交通中断下的分层预测协调方法</div><div class="sum-meta">arXiv · Dang Viet Anh Nguyen, Alma Fazlagic, Kristine Pryds Loft, Filipe Rodrigues · 4 天前</div></div></div><div class="item-body item-body-lite"><div class='sec sec-score'><div class='sec-label'>【相关性评分】</div><div class='sec-body'>9</div></div>
+<div class='sec sec-tldr'><div class='sec-label'>【一句话讲清楚它在说啥】</div><div class='sec-body'>这篇论文讲的是城市地铁在发生运营中断时，如何用一套新算法把不同层级（车站和线路）的客流预测统一起来，避免预测打架，最终在中断场景下把预测误差降低了17%。</div></div></div></div>
+<div class="item item-lite" id="供应链_89242a9001"><div class="sum sum-lite"><div class="score-chip">9</div><div class="sum-main"><div class="sum-title">持续学习基准：评估前沿AI系统在真实有状态环境中的表现</div><div class="sum-meta">arXiv · Parth Asawa, Christopher M. Glaze, Gabriel Orlanski, Ramya Ramakrishnan, Benji Xu, Asim Biswal, Vincent Sunn Chen, Frederic Sala, Matei Zaharia, Joseph E. Gonzalez · 5 天前</div></div></div><div class="item-body item-body-lite"><div class='sec sec-score'><div class='sec-label'>【相关性评分】</div><div class='sec-body'>9</div></div>
+<div class='sec sec-tldr'><div class='sec-label'>【一句话讲清楚它在说啥】</div><div class='sec-body'>这篇论文发布了首个专门测试AI系统持续学习能力的基准CL-Bench，涵盖软件工程、需求预测等六个领域，发现当前AI系统在持续学习上表现很差，甚至简单方法比专门设计的记忆系统更好。</div></div></div></div>
+<div class="item item-lite" id="供应链_67bc11f5bc"><div class="sum sum-lite"><div class="score-chip">8</div><div class="sum-main"><div class="sum-title">深度学习需求预测与多目标优化在咖啡循环供应链中的应用：一个成本、排放与新鲜度管理的数据驱动框架</div><div class="sum-meta">arXiv · Gerçek Budak, Faraz Gholamzadeh Gharehgheshlaghi, Melika Barjesteh Vaezi, Ahmad Gholizadeh Lonbar · 3 天前</div></div></div><div class="item-body item-body-lite"><div class='sec sec-score'><div class='sec-label'>【相关性评分】</div><div class='sec-body'>8</div></div>
+<div class='sec sec-tldr'><div class='sec-label'>【一句话讲清楚它在说啥】</div><div class='sec-body'>这篇论文讲的是用深度学习模型预测咖啡需求，然后把预测结果输入一个多目标优化模型，同时最小化成本、碳排放和最大化产品新鲜度，在循环供应链场景下找到了平衡方案。</div></div></div></div>
+<div class="item item-lite" id="供应链_263b0b80c8"><div class="sum sum-lite"><div class="score-chip">8</div><div class="sum-main"><div class="sum-title">分布式能源聚合体的预测与模型预测控制：实现净需求平衡</div><div class="sum-meta">arXiv · Obai Bahwal, Oliver Kosut, LalithaSankar · 4 天前</div></div></div><div class="item-body item-body-lite"><div class='sec sec-score'><div class='sec-label'>【相关性评分】</div><div class='sec-body'>8</div></div>
+<div class='sec sec-tldr'><div class='sec-label'>【一句话讲清楚它在说啥】</div><div class='sec-body'>这篇论文讲的是用预测加模型预测控制的方法，让分布式能源聚合体像虚拟电厂一样灵活调节，跟踪电网的净需求变化，减少供需不平衡。</div></div></div></div>
+<div class='col-title col-title-cn' style='margin:18px 0 10px;padding:4px 8px;font-size:13px;font-weight:600;color:#86868b;border-left:3px solid #e53935;background:#f5f5f7;border-radius:4px;'>🇨🇳 国内 · 1</div>
+<div class="item item-lite" id="供应链_e99028a0ee"><div class="sum sum-lite"><div class="score-chip">8</div><div class="sum-main"><div class="sum-title">世界杯官方比赛用球再度“中国制造”：全球产业链迁移下，广东工厂为何仍留在赛场中央？｜最前线</div><div class="sum-meta">36氪 · 昨天 15:09</div></div></div><div class="item-body item-body-lite"><div class='sec sec-score'><div class='sec-label'>【相关性评分】</div><div class='sec-body'>8</div></div>
+<div class='sec sec-tldr'><div class='sec-label'>【一句话讲清楚它在说啥】</div><div class='sec-body'>2026年世界杯比赛用球在广东生产，而不是在巴基斯坦。文章分析了为什么高端制造没跟着低端订单一起搬到东南亚，核心原因是工艺精度和供应链协同要求太高。</div></div></div></div>
+</section>
+<footer>web-intel-bot · 生成于 2026-06-09 01:44 · deepseek/deepseek-chat</footer>
+</div>
+<script>
+function _expandTarget(){
+  var id = (location.hash||'').slice(1);
+  if(!id) return;
+  var el = document.getElementById(decodeURIComponent(id));
+  if(el && el.tagName && el.tagName.toLowerCase() === 'details'){
+    el.open = true;
+    setTimeout(function(){ el.scrollIntoView({behavior:'smooth', block:'start'}); }, 50);
+  }
+}
+window.addEventListener('hashchange', _expandTarget);
+window.addEventListener('load', _expandTarget);
+</script>
+</body></html>
