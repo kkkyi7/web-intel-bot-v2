@@ -120,6 +120,15 @@ topics:
           url: "https://www.infoq.cn/feed"
           region: cn
           limit: 10
+        # v3.8 · 英文供应链/制造源（2026-06-26 实测；之前本主题 0 个英文源）
+        - name: "Supply Chain Dive"
+          url: "https://www.supplychaindive.com/feeds/news/"
+          region: intl
+          limit: 10
+        - name: "DC Velocity"
+          url: "https://www.dcvelocity.com/rss/articles"
+          region: intl
+          limit: 10
 
   # ========== 主题 2：AI 大事（你正在学 AI，高优先级）==========
   AI大事:
@@ -212,6 +221,31 @@ topics:
           region: intl
           limit: 10
           bypass_proxy: true        # github.io 国内能直连，绕过本机 Clash 代理
+        # v3.8 · 复刻 aihot 的英文 AI 实验室/媒体源（均 2026-06-26 实测可拉；云端 US runner 直连最稳）
+        - name: "Hugging Face Blog"
+          url: "https://huggingface.co/blog/feed.xml"
+          region: intl
+          limit: 10
+        - name: "OpenAI News"
+          url: "https://openai.com/news/rss.xml"
+          region: intl
+          limit: 10
+        - name: "The Decoder"
+          url: "https://the-decoder.com/feed/"
+          region: intl
+          limit: 10
+        - name: "TechCrunch AI"
+          url: "https://techcrunch.com/category/artificial-intelligence/feed/"
+          region: intl
+          limit: 10
+        - name: "MarkTechPost"
+          url: "https://www.marktechpost.com/feed/"
+          region: intl
+          limit: 8
+        - name: "Google DeepMind"
+          url: "https://deepmind.google/blog/rss.xml"
+          region: intl
+          limit: 8
 
   # ========== 主题 3：世界时事（v2.1 重写：用大事信号词 + 权威时政源）==========
   世界时事:
@@ -386,11 +420,23 @@ topics:
         days_back: 14
 
       rss:
-        # 机器之心失效，生物学栏目暂时只靠海外源；Day 3 找替代
-        # - name: "机器之心"
-        #   url: "https://www.jiqizhixin.com/rss"
-        #   region: cn
-        #   limit: 8
+        # v3.8 · 之前生物学 0 个 RSS（只靠 pubmed/arxiv/youtube）；补英文科学源（2026-06-26 实测）
+        - name: "Quanta Magazine"
+          url: "https://www.quantamagazine.org/feed/"
+          region: intl
+          limit: 8
+        - name: "ScienceDaily 脑科学"
+          url: "https://www.sciencedaily.com/rss/mind_brain.xml"
+          region: intl
+          limit: 10
+        - name: "Neuroscience News"
+          url: "https://neurosciencenews.com/feed/"
+          region: intl
+          limit: 8
+        - name: "Fight Aging（长寿）"
+          url: "https://www.fightaging.org/feed/"
+          region: intl
+          limit: 8
 
   # ========== 主题 5：心理学 ==========
   心理学:
@@ -444,6 +490,23 @@ topics:
           url: "https://sspai.com/feed"
           region: cn
           limit: 10
+        # v3.8 · 英文心理/认知源（2026-06-26 实测）
+        - name: "PsyPost（心理研究）"
+          url: "https://www.psypost.org/feed"
+          region: intl
+          limit: 10
+        - name: "Farnam Street（思维模型）"
+          url: "https://fs.blog/feed/"
+          region: intl
+          limit: 8
+        - name: "Ness Labs"
+          url: "https://nesslabs.com/feed"
+          region: intl
+          limit: 8
+        - name: "Aeon / Psyche"
+          url: "https://aeon.co/feed.rss"
+          region: intl
+          limit: 8
 
   # ========== 主题 6：变现路径（2026-04-24 新增 · 个人 IP / 副业方向）==========
   变现路径:
@@ -503,6 +566,11 @@ topics:
           url: "https://36kr.com/feed"
           region: cn
           limit: 10
+        # v3.8 · 英文创业/独立开发源（2026-06-26 实测）
+        - name: "Failory（创业复盘）"
+          url: "https://www.failory.com/blog/rss.xml"
+          region: intl
+          limit: 8
 
   # ========== 主题 7：技术圈（v2.8 · HackerNews 精华）==========
   # KIzty 自评 must-have。HN top story 按 score 过滤，不依赖 keywords。
