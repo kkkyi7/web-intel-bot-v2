@@ -371,6 +371,8 @@ function render(){
   document.getElementById('tools').style.display=(view==='about'||isItem)?'none':'';
   document.getElementById('ttl').style.display=isItem?'none':'';
   document.getElementById('sub').style.display=isItem?'none':'';
+  // 精选按版块固定排（领域 + 相关性），排序选择器在这页无意义 → 隐藏（搜索保留）
+  document.getElementById('sortSel').style.display=(view==='star')?'none':'';
   if(isItem)return renderItem(view.slice(5));
   if(view==='about')return renderAbout();
   if(view==='star')return renderFeatured();
