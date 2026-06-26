@@ -125,10 +125,12 @@ topics:
           url: "https://www.supplychaindive.com/feeds/news/"
           region: intl
           limit: 10
+          topical: true
         - name: "DC Velocity"
           url: "https://www.dcvelocity.com/rss/articles"
           region: intl
           limit: 10
+          topical: true
 
   # ========== 主题 2：AI 大事（你正在学 AI，高优先级）==========
   AI大事:
@@ -226,26 +228,32 @@ topics:
           url: "https://huggingface.co/blog/feed.xml"
           region: intl
           limit: 10
+          topical: true
         - name: "OpenAI News"
           url: "https://openai.com/news/rss.xml"
           region: intl
           limit: 10
+          topical: true
         - name: "The Decoder"
           url: "https://the-decoder.com/feed/"
           region: intl
           limit: 10
+          topical: true
         - name: "TechCrunch AI"
           url: "https://techcrunch.com/category/artificial-intelligence/feed/"
           region: intl
           limit: 10
+          topical: true
         - name: "MarkTechPost"
           url: "https://www.marktechpost.com/feed/"
           region: intl
           limit: 8
+          topical: true
         - name: "Google DeepMind"
           url: "https://deepmind.google/blog/rss.xml"
           region: intl
           limit: 8
+          topical: true
 
   # ========== 主题 3：世界时事（v2.1 重写：用大事信号词 + 权威时政源）==========
   世界时事:
@@ -425,18 +433,22 @@ topics:
           url: "https://www.quantamagazine.org/feed/"
           region: intl
           limit: 8
+          topical: true
         - name: "ScienceDaily 脑科学"
           url: "https://www.sciencedaily.com/rss/mind_brain.xml"
           region: intl
           limit: 10
+          topical: true
         - name: "Neuroscience News"
           url: "https://neurosciencenews.com/feed/"
           region: intl
           limit: 8
+          topical: true
         - name: "Fight Aging（长寿）"
           url: "https://www.fightaging.org/feed/"
           region: intl
           limit: 8
+          topical: true
 
   # ========== 主题 5：心理学 ==========
   心理学:
@@ -495,18 +507,22 @@ topics:
           url: "https://www.psypost.org/feed"
           region: intl
           limit: 10
+          topical: true
         - name: "Farnam Street（思维模型）"
           url: "https://fs.blog/feed/"
           region: intl
           limit: 8
+          topical: true
         - name: "Ness Labs"
           url: "https://nesslabs.com/feed"
           region: intl
           limit: 8
+          topical: true
         - name: "Aeon / Psyche"
           url: "https://aeon.co/feed.rss"
           region: intl
           limit: 8
+          topical: true
 
   # ========== 主题 6：变现路径（2026-04-24 新增 · 个人 IP / 副业方向）==========
   变现路径:
@@ -571,6 +587,7 @@ topics:
           url: "https://www.failory.com/blog/rss.xml"
           region: intl
           limit: 8
+          topical: true
 
   # ========== 主题 7：技术圈（v2.8 · HackerNews 精华）==========
   # KIzty 自评 must-have。HN top story 按 score 过滤，不依赖 keywords。

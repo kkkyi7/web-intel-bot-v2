@@ -884,10 +884,11 @@ def fetch_rss(topic, rss_config, keywords_cn=None):
             else:
                 pub = e.get("published", "") or e.get("updated", "")
 
-            # 关键词预过滤：只对 cn 大杂烩源做（36氪/澎湃等什么都发 → 用中文词抽相关条目）。
-            # intl 源是专题源（Supply Chain Dive / PsyPost / HF Blog 本身已是过滤器），
-            # 英文标题命不中中文词，做这层会把健康源过滤到近 0 条 → 跳过，交给后面 LLM 打分把关。
-            if kws and region != "intl":
+            # 关键词预过滤：默认对每个源做（用中文词抽相关条目）。
+            # 仅当源显式标 topical: true（专题源，如 Supply Chain Dive / PsyPost / HF Blog，
+            # 本身即过滤器，英文标题命不中中文词）才跳过，交给后面 LLM 打分把关。
+            # 通用 intl 源（如 GitHub Trending 全品类）不标 topical → 照常过滤，避免灌入无关条目。
+            if kws and not rss.get("topical"):
                 blob = (title + " " + body).lower()
                 if not any(k in blob for k in kws):
                     continue
@@ -904,7 +905,7 @@ def fetch_rss(topic, rss_config, keywords_cn=None):
             })
             matched += 1
 
-        filter_hint = f"（中文词过滤后 {matched}/{scanned}）" if (kws and region != "intl") else f"（{matched} 条）"
+        filter_hint = f"（中文词过滤后 {matched}/{scanned}）" if (kws and not rss.get("topical")) else f"（{matched} 条）"
         print(f"  ✅ RSS [{name}]: {matched} 条{filter_hint}")
 
     return all_out
