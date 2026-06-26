@@ -55,7 +55,11 @@ def load_items():
                     b = (prev.get("score") or 0, prev.get("date") or "")
                     if a > b:
                         seen[url] = row
-        print(f"  · {f.relative_to(PROJECT)}  [{date or '无日期'}]")
+        try:
+            rel = f.relative_to(PROJECT)
+        except ValueError:
+            rel = f  # 数据目录在项目外（如 CI 指定 FEED_DATA_DIR）时直接用绝对路径
+        print(f"  · {rel}  [{date or '无日期'}]")
     rows = list(seen.values())
     rows.sort(key=lambda r: (r.get("score") or 0, r.get("published") or r.get("date") or ""),
               reverse=True)
@@ -73,7 +77,16 @@ def main():
     gen   = datetime.datetime.now().strftime("%Y-%m-%d %H:%M")
 
     html = TEMPLATE.read_text(encoding="utf-8")
-    html = html.replace("__FEED_DATA__", json.dumps(rows, ensure_ascii=False))
+    # 数据焊进内联 <script>，必须中和抓来内容里的 HTML 敏感字符：
+    # </script> 会让 HTML 解析器提前关掉脚本块（破坏 feed + 公开 gh-pages 上是 XSS 注入口）。
+    # < > & 在 JSON 里只出现在字符串值内，转成 \uXXXX 后既是合法 JSON 又是合法 JS，解析器扫不到 </script>。
+    payload = (json.dumps(rows, ensure_ascii=False)
+               .replace("<", "\\u003c")
+               .replace(">", "\\u003e")
+               .replace("&", "\\u0026")
+               .replace(" ", "\\u2028")   # JS 里非法的行分隔符，转义避免语法错
+               .replace(" ", "\\u2029"))
+    html = html.replace("__FEED_DATA__", payload)
     html = html.replace("__GEN_TIME__", gen)
     OUT.parent.mkdir(parents=True, exist_ok=True)
     OUT.write_text(html, encoding="utf-8")
