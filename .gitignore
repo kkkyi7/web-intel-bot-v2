@@ -50,3 +50,9 @@ Day*-进度卡-*.md
 
 # Horizon 第三方源码（仅供参考抄精华，不入 v2 仓库）
 Horizon-main/
+
+# v3.6 - 本地生成的情报流 feed（CI 在 gh-pages 自动生成，本地这个不入库）
+情报流.html
+_pages/
+_feeddata/
+_ghpages_prev/

@@ -89,6 +89,15 @@ jobs:
           if-no-files-found: warn
           retention-days: 7
 
+      # v3.6 · 取 gh-pages 上累积的历史 items.json（feed 需要全部历史才能"翻"）
+      - name: 取 gh-pages 历史数据
+        if: success()
+        continue-on-error: true
+        uses: actions/checkout@v4
+        with:
+          ref: gh-pages
+          path: _ghpages_prev
+
       # v2.7 · 抄自 Horizon-main/.github/workflows/daily-summary.yml @ peaceiris/actions-gh-pages
       # 把 digest.html 推到 gh-pages 分支，解决 163/Outlook 在线预览砍 inline CSS 的问题
       # 客户邮件里点链接 → 浏览器开 GitHub Pages → CSS 完美渲染
@@ -110,6 +119,31 @@ jobs:
           else
             echo "⚠️  05-数据样本/ 不存在，跳过 Pages 部署"
           fi
+
+      # v3.6 · 累积历史数据 + 生成 aihot 式情报流 feed（自包含 index.html）
+      - name: 生成情报流 feed（index.html）
+        if: success()
+        continue-on-error: true
+        run: |
+          set -e
+          mkdir -p _feeddata _pages/data
+          # 1) 历史：之前 gh-pages 累积的 items.json
+          if [ -d _ghpages_prev/data ]; then
+            cp -r _ghpages_prev/data/* _feeddata/ 2>/dev/null || true
+          fi
+          # 2) 今天：本次 digest 刚产出的 items.json（同时推到 gh-pages 持久化）
+          find 05-数据样本 -name items.json | while IFS= read -r f; do
+            d=$(echo "$f" | grep -oE '[0-9]{4}-[0-9]{2}-[0-9]{2}' | head -n1)
+            [ -z "$d" ] && continue
+            mkdir -p "_feeddata/$d" "_pages/data/$d"
+            cp "$f" "_feeddata/$d/items.json"
+            cp "$f" "_pages/data/$d/items.json"
+          done
+          # 3) 生成自包含 feed（数据焊进 index.html）
+          FEED_DATA_DIR="$GITHUB_WORKSPACE/_feeddata" \
+          FEED_OUT="$GITHUB_WORKSPACE/_pages/index.html" \
+          python 04-采集脚本/feed_build.py
+          echo "  ✅ 已生成 _pages/index.html（$(du -h _pages/index.html | cut -f1)）"
 
       - name: 部署到 GitHub Pages（gh-pages 分支 · 累积保留历史）
         if: success() && hashFiles('_pages/**/digest*.html') != ''
