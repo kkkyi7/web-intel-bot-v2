@@ -194,8 +194,8 @@ function isNew(d){const v=lastVisit();if(!v)return false;return (d.date||"")>=v.
 const dates=[...new Set(DATA.map(d=>d.date).filter(Boolean))].sort().reverse();
 const todayDate=dates[0]||(META.date||"");
 
-function esc(t){return(t||"").replace(/[&<>"]/g,c=>>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));}
-function hl(t){t=esc(t);if(!query)return t;try{const r=new RegExp("("+query.replace(/[.*+?^${}()|[\]\\]/g,"\\$&")+")","ig");return t.replace(r,"<mark>$1</mark>");}catch(e){return t;}}
+function esc(t){return(t||"").replace(/[&<>\u0022]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;","\u0022":"&quot;"}[c]));}
+function hl(t){t=esc(t);if(!query)return t;try{const r=new RegExp("("+query.replace(/[.*+?^${}()|[\]\\]/g,"\\$&")+")","ig");return t.replace(r,"\x3cmark\x3e$1\x3c/mark\x3e");}catch(e){return t;}}
 function hhmm(p){const m=String(p||"").match(/T(\d{2}:\d{2})/)||String(p||"").match(/\b(\d{2}:\d{2})\b/);return m?m[1]:"";}
 function fmtDate(d){const m=/(\d{4})-(\d{2})-(\d{2})/.exec(d||"");return m?`${+m[2]}月${+m[3]}日`:(d||"");}
 
