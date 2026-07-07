@@ -86,6 +86,8 @@ jobs:
             05-数据样本/**/digest.html
             05-数据样本/**/digest_lite.html
             05-数据样本/**/items.json
+            05-数据样本/**/meta.json
+            05-数据样本/**/all_fetched.json
           if-no-files-found: warn
           retention-days: 7
 
@@ -138,12 +140,20 @@ jobs:
             mkdir -p "_feeddata/$d" "_pages/data/$d"
             cp "$f" "_feeddata/$d/items.json"
             cp "$f" "_pages/data/$d/items.json"
+            dir=$(dirname "$f")
+            [ -f "$dir/meta.json" ] && cp "$dir/meta.json" "_feeddata/$d/meta.json" "_pages/data/$d/meta.json"
+            [ -f "$dir/all_fetched.json" ] && cp "$dir/all_fetched.json" "_feeddata/$d/all_fetched.json" "_pages/data/$d/all_fetched.json"
           done
-          # 3) 生成自包含 feed（数据焊进 index.html）
+          # 3) 生成自包含 feed（近 21 天内嵌 + latest.md/json）
           FEED_DATA_DIR="$GITHUB_WORKSPACE/_feeddata" \
           FEED_OUT="$GITHUB_WORKSPACE/_pages/index.html" \
+          FEED_LATEST_MD="$GITHUB_WORKSPACE/_pages/latest.md" \
+          FEED_LATEST_JSON="$GITHUB_WORKSPACE/_pages/latest.json" \
+          FEED_INDEX_JSON="$GITHUB_WORKSPACE/_pages/data/index.json" \
+          FEED_EMBED_DAYS=21 \
           python 04-采集脚本/feed_build.py
           echo "  ✅ 已生成 _pages/index.html（$(du -h _pages/index.html | cut -f1)）"
+          [ -f _pages/latest.md ] && echo "  ✅ latest.md（微信 bot 固定拉取）"
 
       - name: 部署到 GitHub Pages（gh-pages 分支 · 累积保留历史）
         if: success() && hashFiles('_pages/**/digest*.html') != ''

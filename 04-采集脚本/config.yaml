@@ -120,6 +120,29 @@ topics:
           url: "https://www.infoq.cn/feed"
           region: cn
           limit: 10
+        - name: "Solidot"
+          url: "https://www.solidot.org/index.rss"
+          region: intl
+          limit: 10
+          bypass_proxy: true
+        - name: "Simon Willison"
+          url: "https://simonwillison.net/atom/everything/"
+          region: intl
+          limit: 8
+          bypass_proxy: true
+        - name: "阮一峰周刊"
+          url: "https://www.ruanyifeng.com/blog/atom.xml"
+          region: cn
+          limit: 8
+        - name: "爱范儿"
+          url: "https://www.ifanr.com/feed"
+          region: cn
+          limit: 10
+        - name: "Latent Space"
+          url: "https://www.latent.space/feed"
+          region: intl
+          limit: 6
+          bypass_proxy: true
 
   # ========== 主题 2：AI 大事（你正在学 AI，高优先级）==========
   AI大事:
@@ -212,6 +235,29 @@ topics:
           region: intl
           limit: 10
           bypass_proxy: true        # github.io 国内能直连，绕过本机 Clash 代理
+        - name: "Solidot"
+          url: "https://www.solidot.org/index.rss"
+          region: intl
+          limit: 10
+          bypass_proxy: true
+        - name: "Simon Willison"
+          url: "https://simonwillison.net/atom/everything/"
+          region: intl
+          limit: 8
+          bypass_proxy: true
+        - name: "阮一峰周刊"
+          url: "https://www.ruanyifeng.com/blog/atom.xml"
+          region: cn
+          limit: 8
+        - name: "爱范儿"
+          url: "https://www.ifanr.com/feed"
+          region: cn
+          limit: 10
+        - name: "Latent Space"
+          url: "https://www.latent.space/feed"
+          region: intl
+          limit: 6
+          bypass_proxy: true
 
   # ========== 主题 3：世界时事（v2.1 重写：用大事信号词 + 权威时政源）==========
   世界时事:
@@ -333,6 +379,11 @@ topics:
           url: "https://36kr.com/feed"
           region: cn
           limit: 5
+        - name: "BBC 中文"
+          url: "https://feeds.bbci.co.uk/zhongwen/simp/rss.xml"
+          region: cn
+          limit: 12
+          bypass_proxy: true
 
   # ========== 主题 4：生物学 ==========
   生物学:

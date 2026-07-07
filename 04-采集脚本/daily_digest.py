@@ -628,12 +628,83 @@ def fetch_github_releases(topic, repos, days_back=2):
 # ========== 跨源去重（v2.9 · 抄自 Horizon-main/src/ai/prompts.py TOPIC_DEDUP_*）==========
 # 为啥：同事件不同源会重复进 brief（典型例子：36氪 + 观察者网都报"九峰山 eVTOL 试飞"）
 # 怎么做：① URL hash 直接合并同链接 ② LLM 判语义重复（同事件不同源/不同主题）
+def _also_src_entry(it):
+    """聚类时挂到主条目上的次要信源摘要。"""
+    return {
+        "source": (it.get("source") or "").strip(),
+        "url": (it.get("url") or "").strip(),
+        "topic": (it.get("_topic") or it.get("topic") or "").strip(),
+    }
+
+
+def _merge_also_sources(primary, duplicates):
+    """把重复条目收成 also_sources，供 feed 渲染「N 信源」热度。"""
+    if not duplicates:
+        return primary
+    seen = {(primary.get("url") or "").strip()}
+    also = list(primary.get("also_sources") or [])
+    for dup in duplicates:
+        url = (dup.get("url") or "").strip()
+        if not url or url in seen:
+            continue
+        seen.add(url)
+        also.append(_also_src_entry(dup))
+    if also:
+        primary["also_sources"] = also
+        primary["source_count"] = 1 + len(also)
+    return primary
+
+
+def _compact_fetched_item(it, topic_name):
+    """all_fetched.json 用的轻量字段（零 LLM 成本）。"""
+    return {
+        "title": (it.get("title") or "").strip(),
+        "url": (it.get("url") or it.get("link") or "").strip(),
+        "source": (it.get("source") or "").strip(),
+        "topic": topic_name,
+        "region": it.get("region", "intl"),
+        "published": (it.get("published") or "")[:19],
+        "author": (it.get("author") or "").strip(),
+    }
+
+
+def _build_feed_meta(date_str, all_items, top3_headlines, all_fetched=None, profile_slug=""):
+    """写 meta.json：TOP3 头条 + 当日统计，供情报流首页用。"""
+    total_selected = sum(len(v) for v in all_items.values())
+    total_fetched = len(all_fetched or [])
+    topics_ran = [t for t, items in all_items.items() if items]
+    top3 = []
+    for entry in top3_headlines or []:
+        it = entry.get("item") or {}
+        summary = it.get("summary") or ""
+        top3.append({
+            "topic": entry.get("topic") or "",
+            "title": _extract_title_cn(summary, fallback_title=it.get("title", "")),
+            "tldr": _extract_tldr(summary, max_chars=120),
+            "score": int(it.get("score", 0) or 0),
+            "url": (it.get("url") or "").strip(),
+            "source": (it.get("source") or "").strip(),
+            "source_count": int(it.get("source_count") or (1 + len(it.get("also_sources") or []))),
+        })
+    return {
+        "date": date_str,
+        "profile": profile_slug or "",
+        "generated_at": datetime.now().strftime("%Y-%m-%d %H:%M"),
+        "stats": {
+            "topics_ran": topics_ran,
+            "total_selected": total_selected,
+            "total_fetched": total_fetched,
+        },
+        "top3": top3,
+    }
+
+
 def dedup_cross_source(all_items):
-    """跨主题去重，返回 (deduped_dict, num_removed)。
+    """跨主题聚类去重，返回 (deduped_dict, num_merged)。
 
     步骤：
-    1. URL hash dedup：同 URL 直接合并到 score 最高那条
-    2. LLM 语义 dedup：调一次 LLM 判跨源跨主题重复
+    1. URL hash：同 URL 合并到 score 最高那条，其余进 also_sources
+    2. LLM 语义：同事件不同源合并，次要信源进 also_sources（不再丢弃）
     """
     # 1. flatten + 标记原主题
     flat = []
@@ -655,19 +726,21 @@ def dedup_cross_source(all_items):
         by_url.setdefault(url, []).append(it)
 
     flat_after_url = list(no_url)
-    dropped_url = 0
+    merged_url = 0
     for url, group in by_url.items():
         if len(group) > 1:
             best = max(group, key=lambda x: x.get('score', 0))
+            dups = [g for g in group if g is not best]
+            _merge_also_sources(best, dups)
             flat_after_url.append(best)
-            dropped_url += len(group) - 1
+            merged_url += len(dups)
         else:
             flat_after_url.append(group[0])
-    if dropped_url:
-        print(f"  🔀 URL 哈希去重：移除 {dropped_url} 条（同链接）")
+    if merged_url:
+        print(f"  🔀 URL 哈希聚类：合并 {merged_url} 条同链接")
 
-    # 3. LLM 语义 dedup（同事件不同源 → 留 score 最高）
-    dropped_llm = 0
+    # 3. LLM 语义聚类（同事件不同源 → 留 score 最高，其余进 also_sources）
+    merged_llm = 0
     flat_final = flat_after_url
     if len(flat_after_url) >= 4:
         try:
@@ -720,27 +793,26 @@ def dedup_cross_source(all_items):
 
             to_drop = set()
             for group in dup_groups:
-                if isinstance(group, list) and len(group) >= 2:
-                    for idx in group[1:]:
-                        if isinstance(idx, int) and 0 <= idx < len(flat_sorted):
-                            to_drop.add(idx)
+                if not (isinstance(group, list) and len(group) >= 2):
+                    continue
+                primary_idx = group[0]
+                if not isinstance(primary_idx, int) or not (0 <= primary_idx < len(flat_sorted)):
+                    continue
+                primary = flat_sorted[primary_idx]
+                dups = []
+                for idx in group[1:]:
+                    if isinstance(idx, int) and 0 <= idx < len(flat_sorted):
+                        dups.append(flat_sorted[idx])
+                        to_drop.add(idx)
+                if dups:
+                    _merge_also_sources(primary, dups)
+                    merged_llm += len(dups)
+                    print(f"  🔀 LLM 聚类 {1 + len(dups)} 条 → 保留 [{primary['_topic']}] "
+                          f"{(primary.get('title') or '')[:50]}（{1 + len(dups)} 信源）")
 
             flat_final = [it for i, it in enumerate(flat_sorted) if i not in to_drop]
-            dropped_llm = len(to_drop)
-            if dropped_llm:
-                # 打印哪些被合了，方便排查
-                for group in dup_groups:
-                    if len(group) >= 2:
-                        primary = flat_sorted[group[0]]
-                        print(f"  🔀 LLM 合并 {len(group)} 条 → 保留 [{primary['_topic']}] "
-                              f"{(primary.get('title') or '')[:50]}")
-                        for idx in group[1:]:
-                            if 0 <= idx < len(flat_sorted):
-                                dup = flat_sorted[idx]
-                                print(f"        ✗ 移除 [{dup['_topic']}] "
-                                      f"{(dup.get('title') or '')[:50]}")
         except Exception as e:
-            print(f"  ⚠️ LLM 跨源去重失败（保留所有 URL 去重后的条目）: {type(e).__name__}: {e}")
+            print(f"  ⚠️ LLM 跨源聚类失败（保留所有 URL 聚类后的条目）: {type(e).__name__}: {e}")
             flat_final = flat_after_url
 
     # 4. 收回 dict[topic -> items]
@@ -754,7 +826,7 @@ def dedup_cross_source(all_items):
     for topic in out:
         out[topic].sort(key=lambda x: x.get('score', 0), reverse=True)
 
-    return out, dropped_url + dropped_llm
+    return out, merged_url + merged_llm
 
 
 # ========== 抓取：国内 RSS（v2 新增）==========
@@ -1144,8 +1216,9 @@ SUMMARY_PROMPT = """你要帮订阅者读这条内容。
 这条内容属于【{topic}】方向。
 **所有【对你有啥用】的判断必须基于上面身份卡**——不是给"普通人"写，是给这个具体的人写。
 
-【内容黑名单】（命中下面任一就在【相关性评分】给 1-2 分，提示是垃圾）
+【内容黑名单】（命中下面任一就在【相关性评分】给 1-2 分，并在【一句话讲清楚】末尾注明「偏软文/鸡汤」）
 {blacklist}
+  - 额外规则：标题党、空泛融资快讯、纯营销软文、励志鸡汤、无实质信息的转载，一律 1-3 分
 
 严格按下面 8 个段落输出，每段必须以【xxx】开头，保持顺序。
 不要寒暄、不要总评、不要 Markdown 符号、不要 emoji。
@@ -1710,7 +1783,8 @@ def plan_source_quota(topic_name, items, total_quota):
 def _run_topic_through_summary(topic_name, cfg, args, max_per_topic_default, cache, min_score):
     """跑一个主题的完整 pipeline：抓取 → 预过滤 → 缓存 → LLM 摘要 → 评分筛选。
 
-    返回 (items_scored, raw_count)。raw_count 是抓取后的原始数量，便于 agent 决策时参考。
+    返回 (items_scored, raw_count, raw_compact)。
+    raw_count 是预过滤前的原始数量；raw_compact 供 all_fetched.json 用。
     """
     print(f"\n=== {topic_name} ===")
     raw = []
@@ -1725,7 +1799,7 @@ def _run_topic_through_summary(topic_name, cfg, args, max_per_topic_default, cac
     # 这些源不需要 keywords 预过滤，跟传统的 youtube/reddit/rss 关键词检索机制不同
     if not kws and not (sources.get("hackernews") or sources.get("github_releases")):
         print(f"  ⚠️ 主题 {topic_name} 没配关键词，跳过。")
-        return [], 0
+        return [], 0, []
 
     yt_cfg = sources.get("youtube")
     if yt_cfg:
@@ -1787,6 +1861,7 @@ def _run_topic_through_summary(topic_name, cfg, args, max_per_topic_default, cac
         raw += fetch_rss(topic_name, rss_cfg, keywords_cn=kws_cn)
 
     raw_count_before_prefilter = len(raw)
+    raw_compact = [_compact_fetched_item(it, topic_name) for it in raw]
     print(f"  合计抓到 {len(raw)} 条（海外 {sum(1 for x in raw if x.get('region')!='cn')} · 国内 {sum(1 for x in raw if x.get('region')=='cn')}）")
 
     topic_cap = cfg.get("llm_top_n") or max_per_topic_default
@@ -1825,7 +1900,7 @@ def _run_topic_through_summary(topic_name, cfg, args, max_per_topic_default, cac
     scored.sort(key=lambda x: x.get("score", 0), reverse=True)
     print(f"  ✨ 筛出 {len(scored)} 条（阈值 {min_score}）")
 
-    return scored, raw_count_before_prefilter
+    return scored, raw_count_before_prefilter, raw_compact
 
 
 def ask_agent_next_step(pending, completed):
@@ -1914,14 +1989,12 @@ def _get_optional_cap():
 def agent_loop(topics_cfg, args, cache, max_per_topic_default, min_score):
     """LLM-driven 主循环 · Hybrid 设计。
 
-    Phase 1：必跑主题（config.yaml 的 must_run_topics 里凡是配置存在的，按顺序全跑）
-    Phase 2：LLM 决定剩余可选主题（fetch / done）
-
-    返回 dict[topic_name -> items]
+    返回 (dict[topic_name -> items], all_fetched_compact_list)
     """
     candidate = _ordered_candidate_topics(topics_cfg, args.topic)
     pending = list(candidate)
     completed = {}
+    all_fetched = []
     max_steps = 12
 
     # v2.6.3 · 必跑列表 + 可选 cap 都从 config.yaml 读（不再硬编码）
@@ -1939,16 +2012,17 @@ def agent_loop(topics_cfg, args, cache, max_per_topic_default, min_score):
     for topic_name in must_run:
         print(f"\n--- 必跑：{topic_name} ---")
         cfg = topics_cfg[topic_name]
-        items, _ = _run_topic_through_summary(
+        items, _, raw_compact = _run_topic_through_summary(
             topic_name, cfg, args, max_per_topic_default, cache, min_score
         )
+        all_fetched.extend(raw_compact)
         completed[topic_name] = items
         pending.remove(topic_name)
 
     # ===== Phase 2：可选主题让 LLM 决定 =====
     if not optional:
         print(f"\n🤖 必跑全部跑完，无可选主题 → 直接结束")
-        return completed
+        return completed, all_fetched
 
     print(f"\n🤖 必跑完成 {len(completed)} 个 → 进入 LLM 决策阶段（可选 {len(optional)} 个）")
 
@@ -1982,9 +2056,10 @@ def agent_loop(topics_cfg, args, cache, max_per_topic_default, min_score):
             continue
 
         cfg = topics_cfg[topic_name]
-        items, _ = _run_topic_through_summary(
+        items, _, raw_compact = _run_topic_through_summary(
             topic_name, cfg, args, max_per_topic_default, cache, min_score
         )
+        all_fetched.extend(raw_compact)
         completed[topic_name] = items
         pending.remove(topic_name)
 
@@ -1994,7 +2069,7 @@ def agent_loop(topics_cfg, args, cache, max_per_topic_default, min_score):
     else:
         print(f"\n⚠️ 达到 max_steps={max_steps}，强制结束")
 
-    return completed
+    return completed, all_fetched
 
 
 def pick_top3_headlines(all_items):
@@ -3734,10 +3809,9 @@ def main():
         print(f"💾 加载到 {len(cache)} 条历史摘要缓存")
 
     # ==== Agent Mode（v4 · C-完整）：LLM 多轮决策接管整个 main 流程 ====
+    all_fetched = []
     if args.agent_mode:
-        all_items = agent_loop(topics_cfg, args, cache, max_per_topic_default, min_score)
-        # Agent 模式跳过下面所有 for 循环逻辑，直接进入 TTS / render / send
-        # 用一个特殊标记
+        all_items, all_fetched = agent_loop(topics_cfg, args, cache, max_per_topic_default, min_score)
         _agent_mode_used = True
     else:
         _agent_mode_used = False
@@ -3745,12 +3819,11 @@ def main():
     # ==== Planner：让 LLM 决定今天的主题跑序（v3 新增）====
     candidate_topics = _ordered_candidate_topics(topics_cfg, args.topic)
     if args.no_planner or len(candidate_topics) <= 1:
-        # 单主题或用户禁用就不调 Planner，按 config 顺序
         topic_order = candidate_topics
         if args.no_planner:
             print("⏭️  已跳过 Planner（--no-planner），按 config.yaml 顺序跑")
     elif _agent_mode_used:
-        topic_order = []  # agent 模式已经填好 all_items，跳过 for 循环
+        topic_order = []
     else:
         print("\n🧠 调用 Planner 决定今日主题优先级…")
         topic_order = plan_today_topics(candidate_topics)
@@ -3759,132 +3832,24 @@ def main():
         all_items = {}
     for topic_name in topic_order:
         cfg = topics_cfg[topic_name]
-        print(f"\n=== {topic_name} ===")
-        raw = []
-
-        kws = cfg.get("keywords") or []
-        if not kws:
-            kws = (cfg.get("keywords_en") or []) + (cfg.get("keywords_cn") or [])
-
-        sources = cfg.get("sources", {}) or {}
-
-        # v3.3：放行所有"按 score / 时间自筛"的源（hackernews / github_releases / 未来类似的）
-        if not kws and not (sources.get("hackernews") or sources.get("github_releases")):
-            print(f"  ⚠️ 主题 {topic_name} 没配关键词，跳过。")
-            all_items[topic_name] = []
-            continue
-
-        # YouTube
-        yt_cfg = sources.get("youtube")
-        if yt_cfg:
-            yt_limit = yt_cfg.get("limit", 10)
-            yt_hours = yt_cfg.get("hours_back", 24)
-            langs = yt_cfg.get("langs") or [{
-                "lang": yt_cfg.get("lang", "en"),
-                "region": yt_cfg.get("region", "US"),
-            }]
-            for lc in langs:
-                raw += fetch_youtube(topic_name, kws,
-                                     limit=yt_limit,
-                                     lang=lc.get("lang", "en"),
-                                     region=lc.get("region", "US"),
-                                     hours_back=yt_hours)
-
-        # Reddit
-        rd_cfg = sources.get("reddit")
-        if rd_cfg:
-            raw += fetch_reddit(topic_name,
-                                rd_cfg.get("subreddits", []),
-                                limit_per_sub=rd_cfg.get("limit_per_sub", 5),
-                                time_range=rd_cfg.get("time_range", "day"))
-
-        # arXiv
-        ax_cfg = sources.get("arxiv")
-        if ax_cfg:
-            raw += fetch_arxiv(topic_name, kws,
-                               limit=ax_cfg.get("limit", 5),
-                               days_back=ax_cfg.get("days_back", 7))
-
-        # PubMed
-        pm_cfg = sources.get("pubmed")
-        if pm_cfg:
-            raw += fetch_pubmed(topic_name, kws,
-                                limit=pm_cfg.get("limit", 5),
-                                days_back=pm_cfg.get("days_back", 7))
-
-        # HackerNews（v2.8 · 开发者社区情报，按 score 过滤）
-        hn_cfg = sources.get("hackernews")
-        if hn_cfg and hn_cfg.get("enabled", True):
-            raw += fetch_hackernews(
-                topic_name,
-                fetch_top_stories=hn_cfg.get("fetch_top_stories", 30),
-                min_score=hn_cfg.get("min_score", 200),
-                fetch_top_comments=hn_cfg.get("fetch_top_comments", 5),
-                hours_back=hn_cfg.get("hours_back", 48),
-            )
-
-        # GitHub Release（v3.2 · 订阅工具新版本）
-        gh_cfg = sources.get("github_releases")
-        if gh_cfg and gh_cfg.get("enabled", True):
-            raw += fetch_github_releases(
-                topic_name,
-                repos=gh_cfg.get("repos") or [],
-                days_back=gh_cfg.get("days_back", 2),
-            )
-
-        # RSS（v2 新增：国内源）
-        rss_cfg = sources.get("rss")
-        if rss_cfg:
-            kws_cn = cfg.get("keywords_cn") or []
-            raw += fetch_rss(topic_name, rss_cfg, keywords_cn=kws_cn)
-
-        print(f"  合计抓到 {len(raw)} 条（海外 {sum(1 for x in raw if x.get('region')!='cn')} · 国内 {sum(1 for x in raw if x.get('region')=='cn')}）")
-
-        # ✨ 优化 1：按关键词命中数预过滤，每个主题只挑 Top N 交给 AI
-        topic_cap = cfg.get("llm_top_n") or max_per_topic_default
-        if topic_cap and len(raw) > topic_cap:
-            before = len(raw)
-            kws_cn = cfg.get("keywords_cn") or []
-            raw = _prefilter_items(
-                raw, kws, topic_cap,
-                keywords_cn=kws_cn,
-                use_llm_quota=(not args.no_quota),
-                topic_name=topic_name,
-            )
-            intl_kept = sum(1 for x in raw if x.get("region", "intl") != "cn")
-            cn_kept   = sum(1 for x in raw if x.get("region", "intl") == "cn")
-            print(f"  🎯 预过滤：{before} → {len(raw)} 条（海外 {intl_kept} · 国内 {cn_kept}，双栏按 6:4 分配）")
-
-        # ✨ 优化 2：URL 缓存先扫一遍
-        to_summarize = []
-        cache_hits = 0
-        for it in raw:
-            url = it.get("url") or it.get("link") or ""
-            if url and url in cache:
-                cached = cache[url]
-                it["summary"] = cached["summary"]
-                it["score"] = int(cached.get("score", 0) or 0)
-                cache_hits += 1
-            else:
-                to_summarize.append(it)
-        if cache_hits:
-            print(f"  💾 命中缓存 {cache_hits} 条，跳过 LLM")
-
-        # ✨ 优化 3：剩下的并发交给 LLM
-        if to_summarize:
-            print(f"  🚀 并发摘要 {len(to_summarize)} 条（{_llm_concurrency()} 路并行）…")
-            _summarize_concurrent(to_summarize)
-
-        scored = [it for it in raw if it.get("score", 0) >= min_score]
-        scored.sort(key=lambda x: x.get("score", 0), reverse=True)
-        print(f"  ✨ 筛出 {len(scored)} 条（阈值 {min_score}）")
-        all_items[topic_name] = scored
+        items, _, raw_compact = _run_topic_through_summary(
+            topic_name, cfg, args, max_per_topic_default, cache, min_score
+        )
+        all_fetched.extend(raw_compact)
+        all_items[topic_name] = items
 
     archive_base = SCRIPT_DIR.parent / "05-数据样本"
     if ACTIVE_PROFILE_SLUG:
         archive_base = archive_base / ACTIVE_PROFILE_SLUG
     archive_dir = archive_base / date_str
     archive_dir.mkdir(parents=True, exist_ok=True)
+
+    # v3.7 · 全量抓取落盘（预过滤前），供情报流「看全」看板
+    if all_fetched:
+        with open(archive_dir / "all_fetched.json", "w", encoding="utf-8") as f:
+            json.dump(all_fetched, f, ensure_ascii=False, indent=2)
+        print(f"📋 全量抓取: {len(all_fetched)} 条 → all_fetched.json")
+
     # 先存原始 items.json（去重前），方便日后排查
     with open(archive_dir / "items_raw.json", "w", encoding="utf-8") as f:
         json.dump(all_items, f, ensure_ascii=False, indent=2)
@@ -3941,6 +3906,16 @@ def main():
         top3_headlines = pick_top3_headlines(all_items)
     else:
         print("⏭️  已跳过 Top3 头条（--no-planner）")
+
+    # v3.7 · meta.json：TOP3 + 当日统计，供情报流首页
+    feed_meta = _build_feed_meta(
+        date_str, all_items, top3_headlines,
+        all_fetched=all_fetched,
+        profile_slug=ACTIVE_PROFILE_SLUG,
+    )
+    with open(archive_dir / "meta.json", "w", encoding="utf-8") as f:
+        json.dump(feed_meta, f, ensure_ascii=False, indent=2)
+    print(f"📊 meta.json: TOP3 {len(feed_meta.get('top3') or [])} 条 · 精选 {feed_meta['stats']['total_selected']} / 抓取 {feed_meta['stats']['total_fetched']}")
 
     # v2.7 · GitHub Pages 浏览器版 URL（只给 lite 邮件正文用）
     # 路径模式：https://<user>.github.io/<repo>/[<profile>/]<date>/digest.html
