@@ -1,0 +1,45 @@
+{
+  "date": "2026-07-09",
+  "profile": "kizty",
+  "generated_at": "2026-07-09 03:49",
+  "stats": {
+    "topics_ran": [
+      "AI大事",
+      "世界时事",
+      "变现路径",
+      "技术圈",
+      "GitHub 动态"
+    ],
+    "total_selected": 33,
+    "total_fetched": 0
+  },
+  "top3": [
+    {
+      "topic": "AI大事",
+      "title": "AI 系统提示词泄露库：Claude / ChatGPT / Gemini 等全收录",
+      "tldr": "GitHub 上有人持续收集并更新各大 AI 模型（Claude、ChatGPT、Gemini、Grok 等）的 system prompt，还做了版本对比，方便你看懂模型行为背后的“隐藏规则”。",
+      "score": 10,
+      "url": "https://github.com/asgeirtj/system_prompts_leaks",
+      "source": "GitHub Trending",
+      "source_count": 1
+    },
+    {
+      "topic": "AI大事",
+      "title": "用 Rust 重写 Bun：一个 Agent 工程案例",
+      "tldr": "Bun 的创始人用 AI Agent 在 11 天内把核心代码从 Zig 重写成了 Rust，花了 16.5 万美元的 API 费用，最终用户几乎没感觉到变化，但内部 bug 大幅减少。",
+      "score": 10,
+      "url": "https://simonwillison.net/2026/Jul/8/rewriting-bun-in-rust/#atom-everything",
+      "source": "Simon Willison",
+      "source_count": 2
+    },
+    {
+      "topic": "AI大事",
+      "title": "翁荔新博客提出「自进化先从Harness开始」，DeepSeek崔添翼转发附议",
+      "tldr": "翁荔（前OpenAI安全负责人）提出AI自进化应该从“Harness”（测试框架/安全护栏）入手，而不是直接改模型，DeepSeek的崔添翼转发表示赞同，认为这个方向容易出成果。",
+      "score": 9,
+      "url": "https://www.qbitai.com/2026/07/446076.html",
+      "source": "量子位",
+      "source_count": 1
+    }
+  ]
+}

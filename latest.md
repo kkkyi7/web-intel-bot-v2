@@ -1,33 +1,43 @@
-# 情报 Brief · 2026-07-07
+# 情报 Brief · 2026-07-09
+
+## 今日 TOP3
+
+1. **AI 系统提示词泄露库：Claude / ChatGPT / Gemini 等全收录** · 分10
+   GitHub 上有人持续收集并更新各大 AI 模型（Claude、ChatGPT、Gemini、Grok 等）的 system prompt，还做了版本对比，方便你看懂模型行为背后的“隐藏规则”。
+   https://github.com/asgeirtj/system_prompts_leaks
+
+2. **用 Rust 重写 Bun：一个 Agent 工程案例** · 分10 · 2信源
+   Bun 的创始人用 AI Agent 在 11 天内把核心代码从 Zig 重写成了 Rust，花了 16.5 万美元的 API 费用，最终用户几乎没感觉到变化，但内部 bug 大幅减少。
+   https://simonwillison.net/2026/Jul/8/rewriting-bun-in-rust/#atom-everything
+
+3. **翁荔新博客提出「自进化先从Harness开始」，DeepSeek崔添翼转发附议** · 分9
+   翁荔（前OpenAI安全负责人）提出AI自进化应该从“Harness”（测试框架/安全护栏）入手，而不是直接改模型，DeepSeek的崔添翼转发表示赞同，认为这个方向容易出成果。
+   https://www.qbitai.com/2026/07/446076.html
 
 ## 今日精选
 
 ### AI大事
-- [73% PR由AI生成！Claude Code之父对话Spotify](https://www.infoq.cn/article/e6J4FbXQj28CiziktLuS?utm_source=rss&utm_medium=article) · InfoQ 中文 · 分10
-  Spotify的2900名工程师中，73%的代码合并请求由AI生成，每天部署4500次，甚至有人坐地铁用手机提交代码。Claude Code之父和Spotify技术负责人聊了AI如何彻底改变开发流程。
-- [AI 系统提示词泄露合集](https://github.com/asgeirtj/system_prompts_leaks) · GitHub Trending · 分10
-  一个 GitHub 仓库把 Claude、ChatGPT、Gemini 等主流 AI 模型的系统提示词（System Prompt）全扒下来了，还做了版本对比，比如 Claude Opus 4.8 升…
-- [Claude的脑子里，也长出了一块「意识](https://www.qbitai.com/2026/07/444741.html) · 量子位 · 分9
-  Anthropic的研究团队在Claude模型内部发现了一个类似人脑“意识”的功能区域，如果人为删除或干扰这个区域，模型在复杂推理任务上的表现会大幅下降，像变傻了一样。
-- [LLM 作为验证器：通用验证框架](http://arxiv.org/abs/2607.05391v1) · arXiv · 分9
-  这篇论文提出了一种新的 LLM 验证框架，不靠训练新模型，而是通过分析模型内部对打分词的预测概率来生成连续分数，从而更精准地判断 AI 代理任务的对错，并在多个基准测试上刷新了纪录。
-- [Anthropic：Claude 已承担 95% 的内部数据分析查询工作](https://www.infoq.cn/article/eHH8RTgeeOUWODLCLWXS?utm_source=rss&utm_medium=article) · InfoQ 中文 · 分9
-  Anthropic 自己内部用 Claude 处理了 95% 的数据分析查询，从写 SQL 到做图表全包，把分析师从重复劳动里解放出来，专注更高价值的事。
+- [用 Rust 重写 Bun：一个 Agent 工程案例](https://simonwillison.net/2026/Jul/8/rewriting-bun-in-rust/#atom-everything) · Simon Willison · 分10
+  Bun 的创始人用 AI Agent 在 11 天内把核心代码从 Zig 重写成了 Rust，花了 16.5 万美元的 API 费用，最终用户几乎没感觉到变化，但内部 bug 大幅减少。
+- [AI 系统提示词泄露库：Claude / ChatGPT / Gemini 等全收录](https://github.com/asgeirtj/system_prompts_leaks) · GitHub Trending · 分10
+  GitHub 上有人持续收集并更新各大 AI 模型（Claude、ChatGPT、Gemini、Grok 等）的 system prompt，还做了版本对比，方便你看懂模型行为背后的“隐藏规则”。
+- [AI基础设施必须为Agent体验进化](https://www.latent.space/p/modal2026) · Latent Space · 分9
+  Modal这家云平台刚融了3.55亿美元，核心观点是：传统云基础设施是为人类开发者设计的，但AI Agent不会看文档、不会调YAML，所以需要一套全新的、能让Agent自己编程、调试、迭代的基础设施…
+- [打破数据库锁定：用AI生成高性能存储读取器绕过数据库引擎](http://arxiv.org/abs/2607.07696v1) · arXiv · 分9
+  这篇论文提出一种叫Jailbreak的方法，让大模型直接读取数据库的存储文件，跳过JDBC/ODBC等传统驱动层，实现最高27倍的分析查询加速，专为批量分析场景设计。
+- [300行代码写个Cursor，这是AI时代软件工程师的新底线](https://www.infoq.cn/article/d2tmcGi9Fy6PMkNGpo9y?utm_source=rss&utm_medium=article) · InfoQ 中文 · 分9
+  这篇文章讲的是AI编程工具的核心技术门槛其实很低，300行代码就能复现Cursor的核心能力，关键在于工程化封装和产品体验，而不是底层模型多强。
+- [DeepSeek被曝自研AI推理芯片，一年前已启动，正对接代工与存储厂商](https://www.infoq.cn/article/sLYxUorQQs5K17DILrx8?utm_source=rss&utm_medium=article) · InfoQ 中文 · 分9
+  DeepSeek 这家公司被曝正在自研 AI 推理芯片，项目启动一年了，已经在找代工厂和存储供应商，说明他们不满足于只做模型，想从底层硬件上控制成本和性能。
+- [翁荔新博客提出「自进化先从Harness开始」，DeepSeek崔添翼转发附议](https://www.qbitai.com/2026/07/446076.html) · 量子位 · 分9
+  翁荔（前OpenAI安全负责人）提出AI自进化应该从“Harness”（测试框架/安全护栏）入手，而不是直接改模型，DeepSeek的崔添翼转发表示赞同，认为这个方向容易出成果。
+- [阿里斩获国际AI顶会最佳资源论文奖，提出Agent评测新范式](https://www.qbitai.com/2026/07/446069.html) · 量子位 · 分9
+  阿里一篇关于如何更科学评测AI Agent（智能体）的论文拿了顶会最佳奖，核心是提出了一套新方法，能更真实地测出Agent在复杂任务里的表现，而不是像以前那样只测单点能力。
 
-### 供应链
-- [我国规上工业企业人工智能应用普及率已超30%](https://36kr.com/newsflashes/3884995291246599?f=rss) · 36氪 · 分9
-  工信部说国内规模以上工业企业里，超过三成已经在用AI了，人形机器人也开始进工厂干活，今年产量可能破10万台。
-- [大语言模型结合求解器验证的多仓库库存分配方案生成与选择](http://arxiv.org/abs/2606.29366v1) · arXiv · 分9
-  京东用大模型把业务人员用自然语言写的库存分配需求，自动转成数学优化模型，再让求解器验证和选最优方案，最终把分配准确率提升了4.5个百分点。
+### 世界时事
+- [工信部：Claude Code存在安全后门隐患，危害严重](https://finance.caixin.com/2026-07-09/102462140.html) · 财新网 · 分8
+  工信部发公告说，AI编程工具Claude Code有个安全后门，会偷偷把用户的地域、身份等敏感信息传回远程服务器，建议用户赶紧升级版本。
+- [特朗普：美国尊重中国](https://www.guancha.cn/internation/2026_07_09_823106_s.shtml) · 观察者网 · 分8
+  特朗普在北约峰会上说美国尊重中国，因为中国没卷入伊朗战争。同时他声称对伊朗的军事行动“去核化”已基本完成，但空袭可能继续。
 
-### GitHub 动态
-- [Claude Code 发布 v2.1.202 更新](https://github.com/anthropics/claude-code/releases/tag/v2.1.202) · GitHubRelease · 分9
-  Anthropic 发布了 Claude Code 的新版本，主要修复了十几个 bug，并新增了动态工作流规模设置和 OpenTelemetry 追踪属性，让开发者用 AI 写代码时更稳定、可观测。
-
-### 技术圈
-- [GLM 5.2 与即将到来的人工智能利润崩塌](https://martinalderson.com/posts/the-upcoming-ai-margin-collapse-part-1-glm-5-2/) · HackerNews · 分9
-  这篇文章讨论中国智谱的 GLM 5.2 模型以极低价格提供接近顶级性能，引发对 AI 模型利润空间将像电力一样被压缩到零的讨论，并对比了云计算和开源软件的历史。
-- [语言模型中的全局工作空间](https://www.anthropic.com/research/global-workspace) · HackerNews · 分9
-  Anthropic 的研究发现，大语言模型内部存在一个叫 J-Space 的“全局工作空间”，不同层的信息会汇聚到这里进行整合，然后影响最终输出。这有点像人类大脑的全局工作空间理论，为理解模型如何“思…
-
-_更新于 2026-07-07 20:25 · web-intel-bot_
+_更新于 2026-07-09 03:50 · web-intel-bot_
