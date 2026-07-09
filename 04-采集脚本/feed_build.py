@@ -13,7 +13,7 @@ from pathlib import Path
 HERE = Path(__file__).resolve().parent
 PROJECT = HERE.parent
 DATA_DIR = Path(os.environ.get("FEED_DATA_DIR") or (PROJECT / "05-数据样本"))
-TEMPLATE = HERE / "feed_template.html"
+TEMPLATE = Path(os.environ.get("FEED_TEMPLATE") or (HERE / "feed_template.html"))
 OUT = Path(os.environ.get("FEED_OUT") or (PROJECT / "情报流.html"))
 LATEST_MD = Path(os.environ.get("FEED_LATEST_MD") or (PROJECT / "latest.md"))
 LATEST_JSON = Path(os.environ.get("FEED_LATEST_JSON") or (PROJECT / "latest.json"))

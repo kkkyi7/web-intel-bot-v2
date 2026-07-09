@@ -1,7 +1,7 @@
-name: Daily Brief (Phase 2 · 真发邮件)
+name: Daily Brief (拉取优先 · 不发邮件)
 
-# Phase 2：每天 9:30 真跑 + 真发邮件。
-# 出问题想紧急回 Phase 1（不发邮件）→ 把下面 run 命令加上 --dry-run 即可。
+# 每天 9:30 抓取 + 摘要 + 更新 gh-pages / latest.md。
+# 默认 --dry-run：不发邮件。高分警报走 Server酱（见下方 push_alert 步骤）。
 
 on:
   # 北京时间 9:30 = UTC 1:30
@@ -56,14 +56,14 @@ jobs:
           echo "$PROFILE_B64" | base64 -d > 04-采集脚本/profiles/kizty.yaml
           echo "  ✅ profile 已注入：$(wc -l < 04-采集脚本/profiles/kizty.yaml) 行"
 
-      - name: 跑 Brief（agent-mode · 真发邮件）
+      - name: 跑 Brief（agent-mode · dry-run 不发邮件）
         env:
           # ===== LLM =====
           LLM_PROVIDER: deepseek
           LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
           # ===== YouTube（可选）=====
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
-          # ===== SMTP 邮件 =====
+          # ===== SMTP（保留 secret，但 --dry-run 不会发）=====
           SMTP_HOST: ${{ secrets.SMTP_HOST }}
           SMTP_PORT: ${{ secrets.SMTP_PORT }}
           SMTP_USER: ${{ secrets.SMTP_USER }}
@@ -74,8 +74,8 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           cd 04-采集脚本
-          # v2.8.2 · max-per-topic 3 → 10（不再硬限条数，让优质内容都进 brief，靠 min_score=6 把关质量）
-          python daily_digest.py --profile kizty --max-per-topic 10 --no-cache --agent-mode
+          # --dry-run：停每日邮件；抓取 / 摘要 / items / meta / HTML 照常产出
+          python daily_digest.py --profile kizty --max-per-topic 10 --no-cache --agent-mode --dry-run
 
       - name: 上传 HTML 备份给你（artifact · 保留 7 天）
         if: always()  # 即使发邮件挂了也上传 HTML，方便看
@@ -154,6 +154,16 @@ jobs:
           python 04-采集脚本/feed_build.py
           echo "  ✅ 已生成 _pages/index.html（$(du -h _pages/index.html | cut -f1)）"
           [ -f _pages/latest.md ] && echo "  ✅ latest.md（微信 bot 固定拉取）"
+
+      - name: 高分警报（Server酱 · 仅 ≥9 分）
+        if: success()
+        continue-on-error: true
+        env:
+          SERVERCHAN_SENDKEY: ${{ secrets.SERVERCHAN_SENDKEY }}
+          ALERT_MIN_SCORE: "9"
+          ALERT_FEED_URL: https://kkkyi7.github.io/web-intel-bot-v2/index.html
+        run: |
+          python 04-采集脚本/push_alert.py
 
       - name: 部署到 GitHub Pages（gh-pages 分支 · 累积保留历史）
         if: success() && hashFiles('_pages/**/digest*.html') != ''
