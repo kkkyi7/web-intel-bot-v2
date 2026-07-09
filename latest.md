@@ -2,42 +2,44 @@
 
 ## 今日 TOP3
 
-1. **AI 系统提示词泄露库：Claude / ChatGPT / Gemini 等全收录** · 分10
-   GitHub 上有人持续收集并更新各大 AI 模型（Claude、ChatGPT、Gemini、Grok 等）的 system prompt，还做了版本对比，方便你看懂模型行为背后的“隐藏规则”。
-   https://github.com/asgeirtj/system_prompts_leaks
-
-2. **用 Rust 重写 Bun：一个 Agent 工程案例** · 分10 · 2信源
-   Bun 的创始人用 AI Agent 在 11 天内把核心代码从 Zig 重写成了 Rust，花了 16.5 万美元的 API 费用，最终用户几乎没感觉到变化，但内部 bug 大幅减少。
+1. **用 Rust 重写 Bun 的完整复盘** · 分10 · 2信源
+   Bun 的创始人 Jarred 用 11 天、花了 16.5 万美元的 API 费用，借助 AI Agent 把 Bun 的核心从 Zig 重写成了 Rust，并且上线后用户几乎没察觉变化。
    https://simonwillison.net/2026/Jul/8/rewriting-bun-in-rust/#atom-everything
 
-3. **翁荔新博客提出「自进化先从Harness开始」，DeepSeek崔添翼转发附议** · 分9
-   翁荔（前OpenAI安全负责人）提出AI自进化应该从“Harness”（测试框架/安全护栏）入手，而不是直接改模型，DeepSeek的崔添翼转发表示赞同，认为这个方向容易出成果。
-   https://www.qbitai.com/2026/07/446076.html
+2. **Grok 4.5 发布** · 分9
+   xAI 发布了 Grok 4.5，性能对标顶级模型 Opus 4.7，但价格只有对手的一半甚至更低，核心优势是用了 Cursor 的海量真实编程数据训练，推理效率提升了 4 倍。
+   https://x.ai/news/grok-4-5
+
+3. **AI 系统提示词泄露库：Claude/GPT/Gemini 等模型底层指令公开** · 分10
+   一个 GitHub 仓库持续收集并对比了 Claude、ChatGPT、Gemini 等主流 AI 模型的系统提示词（System Prompt），让你看到这些模型被设定的“底层行为规则”，比如 Claude Fable 5 和 Opus 4.8 之间具体改了啥。
+   https://github.com/asgeirtj/system_prompts_leaks
 
 ## 今日精选
 
 ### AI大事
-- [用 Rust 重写 Bun：一个 Agent 工程案例](https://simonwillison.net/2026/Jul/8/rewriting-bun-in-rust/#atom-everything) · Simon Willison · 分10
-  Bun 的创始人用 AI Agent 在 11 天内把核心代码从 Zig 重写成了 Rust，花了 16.5 万美元的 API 费用，最终用户几乎没感觉到变化，但内部 bug 大幅减少。
-- [AI 系统提示词泄露库：Claude / ChatGPT / Gemini 等全收录](https://github.com/asgeirtj/system_prompts_leaks) · GitHub Trending · 分10
-  GitHub 上有人持续收集并更新各大 AI 模型（Claude、ChatGPT、Gemini、Grok 等）的 system prompt，还做了版本对比，方便你看懂模型行为背后的“隐藏规则”。
+- [用 Rust 重写 Bun 的完整复盘](https://simonwillison.net/2026/Jul/8/rewriting-bun-in-rust/#atom-everything) · Simon Willison · 分10
+  Bun 的创始人 Jarred 用 11 天、花了 16.5 万美元的 API 费用，借助 AI Agent 把 Bun 的核心从 Zig 重写成了 Rust，并且上线后用户几乎没察觉变化。
+- [AI 系统提示词泄露库：Claude/GPT/Gemini 等模型底层指令公开](https://github.com/asgeirtj/system_prompts_leaks) · GitHub Trending · 分10
+  一个 GitHub 仓库持续收集并对比了 Claude、ChatGPT、Gemini 等主流 AI 模型的系统提示词（System Prompt），让你看到这些模型被设定的“底层行为规则”，比如 Cl…
+- [SpaceXAI 发布 Grok 4.5，Cursor 收购后首个 Opus 级模型](https://www.latent.space/p/ainews-spacexai-launches-grok-45) · Latent Space · 分9
+  Elon Musk 的 xAI 发布了 Grok 4.5，号称是 Opus 级但更快更便宜的模型，专门为编程和 Agent 场景训练，并且是和 Cursor 合作训练的，直接对标 GPT 和 Clau…
+- [Grok 4.5 发布](https://x.ai/news/grok-4-5) · HackerNews · 分9
+  xAI 发布了 Grok 4.5，性能对标顶级模型 Opus 4.7，但价格只有对手的一半甚至更低，核心优势是用了 Cursor 的海量真实编程数据训练，推理效率提升了 4 倍。
+- [打破数据库锁定：用 LLM 自动生成高性能存储读取器绕过数据库引擎](http://arxiv.org/abs/2607.07696v1) · arXiv · 分9
+  这篇论文提出一种叫 Jailbreak 的方法，让 LLM 直接读取数据库的底层存储文件，绕过 JDBC/ODBC 等传统驱动层，实现最高 27 倍的分析查询加速，且结果与标准查询完全一致。
+- [CEO 认为游戏数据比互联网更适合训练 AI](https://techcrunch.com/video/why-this-ceo-thinks-video-games-make-better-training-data-than-the-internet/) · TechCrunch AI · 分9
+  这位 CEO 认为大语言模型（如 ChatGPT）缺乏对物理世界空间和时间的理解，而游戏数据（如 3D 环境、动作序列）能补上这个短板，是通往通用人工智能（AGI）的关键。
+
+### 供应链
+- [自研焊接具身大脑模型，以“智能焊工”切入工业制造具身智能赛道，「昇视唯盛」完成数亿元B轮融资｜36氪首发](https://36kr.com/p/3887871679347208?f=rss) · 36氪 · 分9
+  一家叫昇视唯盛的机器人公司融了数亿元，专门做能像老焊工一样自主判断怎么焊的AI焊接机器人，不用预先编程，能适应复杂非标工件，已经在钢构、船舶等行业落地。
 - [AI基础设施必须为Agent体验进化](https://www.latent.space/p/modal2026) · Latent Space · 分9
-  Modal这家云平台刚融了3.55亿美元，核心观点是：传统云基础设施是为人类开发者设计的，但AI Agent不会看文档、不会调YAML，所以需要一套全新的、能让Agent自己编程、调试、迭代的基础设施…
-- [打破数据库锁定：用AI生成高性能存储读取器绕过数据库引擎](http://arxiv.org/abs/2607.07696v1) · arXiv · 分9
-  这篇论文提出一种叫Jailbreak的方法，让大模型直接读取数据库的存储文件，跳过JDBC/ODBC等传统驱动层，实现最高27倍的分析查询加速，专为批量分析场景设计。
-- [300行代码写个Cursor，这是AI时代软件工程师的新底线](https://www.infoq.cn/article/d2tmcGi9Fy6PMkNGpo9y?utm_source=rss&utm_medium=article) · InfoQ 中文 · 分9
-  这篇文章讲的是AI编程工具的核心技术门槛其实很低，300行代码就能复现Cursor的核心能力，关键在于工程化封装和产品体验，而不是底层模型多强。
-- [DeepSeek被曝自研AI推理芯片，一年前已启动，正对接代工与存储厂商](https://www.infoq.cn/article/sLYxUorQQs5K17DILrx8?utm_source=rss&utm_medium=article) · InfoQ 中文 · 分9
-  DeepSeek 这家公司被曝正在自研 AI 推理芯片，项目启动一年了，已经在找代工厂和存储供应商，说明他们不满足于只做模型，想从底层硬件上控制成本和性能。
-- [翁荔新博客提出「自进化先从Harness开始」，DeepSeek崔添翼转发附议](https://www.qbitai.com/2026/07/446076.html) · 量子位 · 分9
-  翁荔（前OpenAI安全负责人）提出AI自进化应该从“Harness”（测试框架/安全护栏）入手，而不是直接改模型，DeepSeek的崔添翼转发表示赞同，认为这个方向容易出成果。
-- [阿里斩获国际AI顶会最佳资源论文奖，提出Agent评测新范式](https://www.qbitai.com/2026/07/446069.html) · 量子位 · 分9
-  阿里一篇关于如何更科学评测AI Agent（智能体）的论文拿了顶会最佳奖，核心是提出了一套新方法，能更真实地测出Agent在复杂任务里的表现，而不是像以前那样只测单点能力。
+  Modal CTO 讨论为什么传统云基础设施不适合AI Agent工作负载，以及他们如何从开发者体验转向Agent体验，刚完成3.55亿美元C轮融资。
 
-### 世界时事
-- [工信部：Claude Code存在安全后门隐患，危害严重](https://finance.caixin.com/2026-07-09/102462140.html) · 财新网 · 分8
-  工信部发公告说，AI编程工具Claude Code有个安全后门，会偷偷把用户的地域、身份等敏感信息传回远程服务器，建议用户赶紧升级版本。
-- [特朗普：美国尊重中国](https://www.guancha.cn/internation/2026_07_09_823106_s.shtml) · 观察者网 · 分8
-  特朗普在北约峰会上说美国尊重中国，因为中国没卷入伊朗战争。同时他声称对伊朗的军事行动“去核化”已基本完成，但空袭可能继续。
+### 技术圈
+- [我好像得了LLM倦怠症](https://www.alecscollon.com/blog/llm-burnout/) · HackerNews · 分9
+  一位独立开发者抱怨用LLM写代码后产出翻了20倍，但人也快被累垮了。HN评论区炸了，大家普遍反映多窗口切换、模型降质、输出风格雷同让人身心俱疲。
+- [微软发布Flint：面向AI智能体的可视化语言](https://microsoft.github.io/flint-chart/#/) · HackerNews · 分9
+  微软开源了Flint，一种专门为AI智能体设计的可视化中间语言。它让AI能通过简单描述自动生成高质量图表，解决了现有方案要么图表丑、要么AI容易出错的两难问题。
 
-_更新于 2026-07-09 03:50 · web-intel-bot_
+_更新于 2026-07-09 07:43 · web-intel-bot_
