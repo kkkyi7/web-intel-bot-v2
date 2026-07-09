@@ -1,0 +1,47 @@
+{
+  "date": "2026-07-07",
+  "profile": "kizty",
+  "generated_at": "2026-07-09 03:22",
+  "stats": {
+    "topics_ran": [
+      "AI大事",
+      "世界时事",
+      "变现路径",
+      "技术圈",
+      "GitHub 动态",
+      "心理学",
+      "供应链"
+    ],
+    "total_selected": 34,
+    "total_fetched": 0
+  },
+  "top3": [
+    {
+      "topic": "AI大事",
+      "title": "73% PR由AI生成！Claude Code之父对话Spotify",
+      "tldr": "Spotify的2900名工程师中，73%的代码合并请求由AI生成，每天部署4500次，甚至有人坐地铁用手机提交代码。Claude Code之父和Spotify技术负责人聊了AI如何彻底改变开发流程。",
+      "score": 10,
+      "url": "https://www.infoq.cn/article/e6J4FbXQj28CiziktLuS?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "source_count": 1
+    },
+    {
+      "topic": "AI大事",
+      "title": "AI 系统提示词泄露合集",
+      "tldr": "一个 GitHub 仓库把 Claude、ChatGPT、Gemini 等主流 AI 模型的系统提示词（System Prompt）全扒下来了，还做了版本对比，比如 Claude Opus 4.8 升级到 Fable 5 时改了啥，一目了然",
+      "score": 10,
+      "url": "https://github.com/asgeirtj/system_prompts_leaks",
+      "source": "GitHub Trending",
+      "source_count": 1
+    },
+    {
+      "topic": "AI大事",
+      "title": "Anthropic：Claude 已承担 95% 的内部数据分析查询工作",
+      "tldr": "Anthropic 自己内部用 Claude 处理了 95% 的数据分析查询，从写 SQL 到做图表全包，把分析师从重复劳动里解放出来，专注更高价值的事。",
+      "score": 9,
+      "url": "https://www.infoq.cn/article/eHH8RTgeeOUWODLCLWXS?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "source_count": 1
+    }
+  ]
+}
