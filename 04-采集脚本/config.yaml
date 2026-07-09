@@ -156,6 +156,10 @@ topics:
       - "OpenAI"
       - "Gemini"
       - "DeepSeek"
+      - "Grok"
+      - "xAI"
+      - "Mistral"
+      - "model release"
       - "AI agent"
       - "multimodal AI"
       - "AI reasoning"
@@ -175,6 +179,9 @@ topics:
       - 豆包
       - Kimi
       - DeepSeek
+      - Grok
+      - xAI
+      - 模型发布
       - 文心
       - 多模态
       - 开源模型
@@ -206,25 +213,26 @@ topics:
         limit: 8
         days_back: 7
 
+      # HN 高分故事并入 AI大事：靠 keywords 预过滤，只留模型/AI 相关（Grok 发布不再只进技术圈）
+      hackernews:
+        enabled: true
+        fetch_top_stories: 30
+        min_score: 200
+        fetch_top_comments: 5
+        hours_back: 48
+
       # ⭐ v2 新增；2026-04-27 加冗余源（cloud 拉国内 RSS 经常超时，多一个少一个 0 国内的概率）
+      # 2026-07-09：砍 36氪/少数派杂讯；加 OpenAI/Google/TC/Verge/Import AI/Ben's Bites
       rss:
         # 机器之心 RSS 官方地址失效，Day 3 换 RSSHub 或自建
         # - name: "机器之心"
         #   url: "https://www.jiqizhixin.com/rss"
         #   region: cn
         #   limit: 15
-        - name: "36氪"
-          url: "https://36kr.com/feed"
-          region: cn
-          limit: 12
         - name: "InfoQ 中文"
           url: "https://www.infoq.cn/feed"
           region: cn
           limit: 10
-        - name: "少数派"
-          url: "https://sspai.com/feed"
-          region: cn
-          limit: 8
         # v2.6.1 加 · 2026-04-27 · 国内 AI 媒体冗余源（前面 3 个在 cloud 经常超时）
         - name: "量子位"
           url: "https://www.qbitai.com/feed"
@@ -255,6 +263,36 @@ topics:
           limit: 10
         - name: "Latent Space"
           url: "https://www.latent.space/feed"
+          region: intl
+          limit: 6
+          bypass_proxy: true
+        - name: "OpenAI Blog"
+          url: "https://openai.com/blog/rss.xml"
+          region: intl
+          limit: 8
+          bypass_proxy: true
+        - name: "Google AI Blog"
+          url: "https://blog.google/technology/ai/rss/"
+          region: intl
+          limit: 8
+          bypass_proxy: true
+        - name: "TechCrunch AI"
+          url: "https://techcrunch.com/category/artificial-intelligence/feed/"
+          region: intl
+          limit: 10
+          bypass_proxy: true
+        - name: "The Verge AI"
+          url: "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+          region: intl
+          limit: 8
+          bypass_proxy: true
+        - name: "Import AI"
+          url: "https://importai.substack.com/feed"
+          region: intl
+          limit: 6
+          bypass_proxy: true
+        - name: "Ben's Bites"
+          url: "https://www.bensbites.com/feed"
           region: intl
           limit: 6
           bypass_proxy: true
