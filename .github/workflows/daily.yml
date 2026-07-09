@@ -141,8 +141,15 @@ jobs:
             cp "$f" "_feeddata/$d/items.json"
             cp "$f" "_pages/data/$d/items.json"
             dir=$(dirname "$f")
-            [ -f "$dir/meta.json" ] && cp "$dir/meta.json" "_feeddata/$d/meta.json" "_pages/data/$d/meta.json"
-            [ -f "$dir/all_fetched.json" ] && cp "$dir/all_fetched.json" "_feeddata/$d/all_fetched.json" "_pages/data/$d/all_fetched.json"
+            # cp 不能一次写两个目标路径；分别拷到 feed 构建目录与 pages 持久化目录
+            if [ -f "$dir/meta.json" ]; then
+              cp "$dir/meta.json" "_feeddata/$d/meta.json"
+              cp "$dir/meta.json" "_pages/data/$d/meta.json"
+            fi
+            if [ -f "$dir/all_fetched.json" ]; then
+              cp "$dir/all_fetched.json" "_feeddata/$d/all_fetched.json"
+              cp "$dir/all_fetched.json" "_pages/data/$d/all_fetched.json"
+            fi
           done
           # 3) 生成自包含 feed（近 21 天内嵌 + latest.md/json）
           FEED_DATA_DIR="$GITHUB_WORKSPACE/_feeddata" \
