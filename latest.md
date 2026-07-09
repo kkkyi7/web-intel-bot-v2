@@ -42,4 +42,4 @@
 - [微软发布Flint：面向AI智能体的可视化语言](https://microsoft.github.io/flint-chart/#/) · HackerNews · 分9
   微软开源了Flint，一种专门为AI智能体设计的可视化中间语言。它让AI能通过简单描述自动生成高质量图表，解决了现有方案要么图表丑、要么AI容易出错的两难问题。
 
-_更新于 2026-07-09 07:43 · web-intel-bot_
+_更新于 2026-07-09 09:12 · web-intel-bot_
