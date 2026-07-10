@@ -1,45 +1,45 @@
-# 情报 Brief · 2026-07-09
+# 情报 Brief · 2026-07-10
 
 ## 今日 TOP3
 
-1. **用 Rust 重写 Bun 的完整复盘** · 分10 · 2信源
-   Bun 的创始人 Jarred 用 11 天、花了 16.5 万美元的 API 费用，借助 AI Agent 把 Bun 的核心从 Zig 重写成了 Rust，并且上线后用户几乎没察觉变化。
-   https://simonwillison.net/2026/Jul/8/rewriting-bun-in-rust/#atom-everything
+1. **SpaceXAI 发布 Grok 4.5，Cursor 收购后首个 Opus 级模型** · 分9
+   马斯克的 xAI 发布了新模型 Grok 4.5，定位是“Opus 级但更快更便宜”，专门为编程和 AI Agent 场景训练，并且是和 Cursor 合作训练的，直接对标 OpenAI 和 Anthropic 的旗舰模型。
+   https://www.latent.space/p/ainews-spacexai-launches-grok-45
 
-2. **Grok 4.5 发布** · 分9
-   xAI 发布了 Grok 4.5，性能对标顶级模型 Opus 4.7，但价格只有对手的一半甚至更低，核心优势是用了 Cursor 的海量真实编程数据训练，推理效率提升了 4 倍。
-   https://x.ai/news/grok-4-5
+2. **AI基础设施必须为Agent体验进化** · 分9
+   Modal CTO讲为什么传统云平台是为人类开发者设计的，现在AI Agent自己写代码、跑任务，基础设施需要从开发者体验转向Agent体验，比如弹性推理、沙盒、GPU快照。
+   https://www.latent.space/p/modal2026
 
-3. **AI 系统提示词泄露库：Claude/GPT/Gemini 等模型底层指令公开** · 分10
-   一个 GitHub 仓库持续收集并对比了 Claude、ChatGPT、Gemini 等主流 AI 模型的系统提示词（System Prompt），让你看到这些模型被设定的“底层行为规则”，比如 Claude Fable 5 和 Opus 4.8 之间具体改了啥。
-   https://github.com/asgeirtj/system_prompts_leaks
+3. **Lilian Weng 总结 35 篇论文：关于“驾驭工程”与递归自我改进** · 分9
+   Lilian Weng 发了一篇重磅总结，核心观点是：AI 的递归自我改进（RSI）关键不在于改模型权重，而在于改进“驾驭系统”（Harness）。这正在成为 Agent 产品落地的核心设计趋势。
+   https://www.latent.space/p/ainews-lilian-weng-summarizes-35
 
 ## 今日精选
 
 ### AI大事
-- [用 Rust 重写 Bun 的完整复盘](https://simonwillison.net/2026/Jul/8/rewriting-bun-in-rust/#atom-everything) · Simon Willison · 分10
-  Bun 的创始人 Jarred 用 11 天、花了 16.5 万美元的 API 费用，借助 AI Agent 把 Bun 的核心从 Zig 重写成了 Rust，并且上线后用户几乎没察觉变化。
-- [AI 系统提示词泄露库：Claude/GPT/Gemini 等模型底层指令公开](https://github.com/asgeirtj/system_prompts_leaks) · GitHub Trending · 分10
-  一个 GitHub 仓库持续收集并对比了 Claude、ChatGPT、Gemini 等主流 AI 模型的系统提示词（System Prompt），让你看到这些模型被设定的“底层行为规则”，比如 Cl…
+- [AI系统提示词泄露仓库](https://github.com/asgeirtj/system_prompts_leaks) · GitHub Trending · 分10
+  这个GitHub仓库持续收集并更新各大AI模型（Claude、ChatGPT、Gemini等）的底层系统提示词，让你看到模型被设定的“隐藏规则”，比如Claude Fable 5和GPT-5.5的完整…
+- [last30days-skill：AI 代理搜索工具](https://github.com/mvanhorn/last30days-skill) · GitHub Trending · 分10
+  这是一个开源的 AI 代理技能，能同时搜索 Reddit、X、YouTube、Hacker News 等平台，根据点赞、转发和真实金钱投注来排序内容，最后合成一份关于任何话题的“过去30天”摘要。
+- [OpenAI 发布 GPT-5.6 家族：Luna、Terra、Sol](https://simonwillison.net/2026/Jul/9/gpt-5-6/#atom-everything) · Simon Willison · 分9
+  OpenAI 发布了三个新模型，从便宜到贵分别是 Luna、Terra、Sol。它们在长任务智能体测试上大幅超过 Claude Fable 5，但在代码能力上被 Fable 反超。API 还新增了多智…
+- [Meta 发布 Muse Spark 1.1 模型](https://ai.meta.com/blog/introducing-muse-spark-meta-model-api/) · HackerNews · 分9
+  Meta 发布了新模型 Muse Spark 1.1，在编程和终端任务上性能接近 OpenAI 和 Anthropic 的顶级模型，但价格只有它们的十分之一甚至更低，而且开放权重。
+- [GPT-5.5 生物漏洞赏金计划](https://openai.com/index/bio-bug-bounty) · OpenAI Blog · 分9
+  OpenAI 推出 GPT-5.5 的“生物漏洞赏金”计划，悬赏安全专家找出模型在生物、化学、核武器等领域的恶意使用风险，最高奖励 3 万美元。
 - [SpaceXAI 发布 Grok 4.5，Cursor 收购后首个 Opus 级模型](https://www.latent.space/p/ainews-spacexai-launches-grok-45) · Latent Space · 分9
-  Elon Musk 的 xAI 发布了 Grok 4.5，号称是 Opus 级但更快更便宜的模型，专门为编程和 Agent 场景训练，并且是和 Cursor 合作训练的，直接对标 GPT 和 Clau…
-- [Grok 4.5 发布](https://x.ai/news/grok-4-5) · HackerNews · 分9
-  xAI 发布了 Grok 4.5，性能对标顶级模型 Opus 4.7，但价格只有对手的一半甚至更低，核心优势是用了 Cursor 的海量真实编程数据训练，推理效率提升了 4 倍。
-- [打破数据库锁定：用 LLM 自动生成高性能存储读取器绕过数据库引擎](http://arxiv.org/abs/2607.07696v1) · arXiv · 分9
-  这篇论文提出一种叫 Jailbreak 的方法，让 LLM 直接读取数据库的底层存储文件，绕过 JDBC/ODBC 等传统驱动层，实现最高 27 倍的分析查询加速，且结果与标准查询完全一致。
-- [CEO 认为游戏数据比互联网更适合训练 AI](https://techcrunch.com/video/why-this-ceo-thinks-video-games-make-better-training-data-than-the-internet/) · TechCrunch AI · 分9
-  这位 CEO 认为大语言模型（如 ChatGPT）缺乏对物理世界空间和时间的理解，而游戏数据（如 3D 环境、动作序列）能补上这个短板，是通往通用人工智能（AGI）的关键。
-
-### 供应链
-- [自研焊接具身大脑模型，以“智能焊工”切入工业制造具身智能赛道，「昇视唯盛」完成数亿元B轮融资｜36氪首发](https://36kr.com/p/3887871679347208?f=rss) · 36氪 · 分9
-  一家叫昇视唯盛的机器人公司融了数亿元，专门做能像老焊工一样自主判断怎么焊的AI焊接机器人，不用预先编程，能适应复杂非标工件，已经在钢构、船舶等行业落地。
-- [AI基础设施必须为Agent体验进化](https://www.latent.space/p/modal2026) · Latent Space · 分9
-  Modal CTO 讨论为什么传统云基础设施不适合AI Agent工作负载，以及他们如何从开发者体验转向Agent体验，刚完成3.55亿美元C轮融资。
+  马斯克的 xAI 发布了新模型 Grok 4.5，定位是“Opus 级但更快更便宜”，专门为编程和 AI Agent 场景训练，并且是和 Cursor 合作训练的，直接对标 OpenAI 和 Anth…
 
 ### 技术圈
-- [我好像得了LLM倦怠症](https://www.alecscollon.com/blog/llm-burnout/) · HackerNews · 分9
-  一位独立开发者抱怨用LLM写代码后产出翻了20倍，但人也快被累垮了。HN评论区炸了，大家普遍反映多窗口切换、模型降质、输出风格雷同让人身心俱疲。
-- [微软发布Flint：面向AI智能体的可视化语言](https://microsoft.github.io/flint-chart/#/) · HackerNews · 分9
-  微软开源了Flint，一种专门为AI智能体设计的可视化中间语言。它让AI能通过简单描述自动生成高质量图表，解决了现有方案要么图表丑、要么AI容易出错的两难问题。
+- [在慢电脑上跑通 GLM 5.2](https://github.com/JustVugg/colibri) · HackerNews · 分9
+  一个开发者用 32GB 内存的普通笔记本，通过把模型拆成磁盘+内存混合加载，让 744B 参数的 MoE 大模型 GLM 5.2 跑起来了，虽然速度只有 0.1 token/秒。
+- [用Rust重写Postgres，通过全部回归测试](https://github.com/malisper/pgrust) · HackerNews · 分9
+  作者用LLM辅助把30年历史的Postgres数据库用Rust语言重写了一遍，现在已通过全部回归测试。项目引发了关于AI生成代码可维护性、许可证兼容性和重写策略的激烈讨论。
 
-_更新于 2026-07-09 09:12 · web-intel-bot_
+### 供应链
+- [自研焊接具身大脑模型，以“智能焊工”切入工业制造具身智能赛道，「昇视唯盛」完成数亿元B轮融资](https://36kr.com/p/3887871679347208?f=rss) · 36氪 · 分9
+  一家叫昇视唯盛的公司融了数亿元，专门做能像老焊工一样自己看、自己焊的AI焊接机器人，不用人编程，能自动适应不同工件，替代1.5到2个焊工，1年回本。
+- [AI基础设施必须为Agent体验进化](https://www.latent.space/p/modal2026) · Latent Space · 分9
+  Modal CTO讲为什么传统云平台是为人类开发者设计的，现在AI Agent自己写代码、跑任务，基础设施需要从开发者体验转向Agent体验，比如弹性推理、沙盒、GPU快照。
+
+_更新于 2026-07-10 01:37 · web-intel-bot_

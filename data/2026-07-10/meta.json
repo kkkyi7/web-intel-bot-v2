@@ -1,0 +1,46 @@
+{
+  "date": "2026-07-10",
+  "profile": "kizty",
+  "generated_at": "2026-07-10 01:36",
+  "stats": {
+    "topics_ran": [
+      "AI大事",
+      "世界时事",
+      "技术圈",
+      "GitHub 动态",
+      "心理学",
+      "供应链"
+    ],
+    "total_selected": 35,
+    "total_fetched": 188
+  },
+  "top3": [
+    {
+      "topic": "AI大事",
+      "title": "SpaceXAI 发布 Grok 4.5，Cursor 收购后首个 Opus 级模型",
+      "tldr": "马斯克的 xAI 发布了新模型 Grok 4.5，定位是“Opus 级但更快更便宜”，专门为编程和 AI Agent 场景训练，并且是和 Cursor 合作训练的，直接对标 OpenAI 和 Anthropic 的旗舰模型。",
+      "score": 9,
+      "url": "https://www.latent.space/p/ainews-spacexai-launches-grok-45",
+      "source": "Latent Space",
+      "source_count": 1
+    },
+    {
+      "topic": "供应链",
+      "title": "AI基础设施必须为Agent体验进化",
+      "tldr": "Modal CTO讲为什么传统云平台是为人类开发者设计的，现在AI Agent自己写代码、跑任务，基础设施需要从开发者体验转向Agent体验，比如弹性推理、沙盒、GPU快照。",
+      "score": 9,
+      "url": "https://www.latent.space/p/modal2026",
+      "source": "Latent Space",
+      "source_count": 1
+    },
+    {
+      "topic": "供应链",
+      "title": "Lilian Weng 总结 35 篇论文：关于“驾驭工程”与递归自我改进",
+      "tldr": "Lilian Weng 发了一篇重磅总结，核心观点是：AI 的递归自我改进（RSI）关键不在于改模型权重，而在于改进“驾驭系统”（Harness）。这正在成为 Agent 产品落地的核心设计趋势。",
+      "score": 9,
+      "url": "https://www.latent.space/p/ainews-lilian-weng-summarizes-35",
+      "source": "Latent Space",
+      "source_count": 1
+    }
+  ]
+}
