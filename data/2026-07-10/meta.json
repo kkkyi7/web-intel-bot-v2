@@ -1,42 +1,43 @@
 {
   "date": "2026-07-10",
   "profile": "kizty",
-  "generated_at": "2026-07-10 01:36",
+  "generated_at": "2026-07-10 05:34",
   "stats": {
     "topics_ran": [
       "AI大事",
       "世界时事",
+      "变现路径",
       "技术圈",
       "GitHub 动态",
       "心理学",
       "供应链"
     ],
-    "total_selected": 35,
-    "total_fetched": 188
+    "total_selected": 38,
+    "total_fetched": 187
   },
   "top3": [
     {
       "topic": "AI大事",
-      "title": "SpaceXAI 发布 Grok 4.5，Cursor 收购后首个 Opus 级模型",
-      "tldr": "马斯克的 xAI 发布了新模型 Grok 4.5，定位是“Opus 级但更快更便宜”，专门为编程和 AI Agent 场景训练，并且是和 Cursor 合作训练的，直接对标 OpenAI 和 Anthropic 的旗舰模型。",
+      "title": "OpenAI 发布 GPT-5.6，推理与意图理解升级",
+      "tldr": "OpenAI 发布了 GPT-5.6，主打更强的意图理解和推理能力，在 ARC-AGI-3 基准上创下新纪录，同时开发者指南强调了模型能自动推断用户深层目标，减少显式步骤指定。",
       "score": 9,
-      "url": "https://www.latent.space/p/ainews-spacexai-launches-grok-45",
-      "source": "Latent Space",
-      "source_count": 1
+      "url": "https://openai.com/index/gpt-5-6/",
+      "source": "HackerNews",
+      "source_count": 3
     },
     {
       "topic": "供应链",
-      "title": "AI基础设施必须为Agent体验进化",
-      "tldr": "Modal CTO讲为什么传统云平台是为人类开发者设计的，现在AI Agent自己写代码、跑任务，基础设施需要从开发者体验转向Agent体验，比如弹性推理、沙盒、GPU快照。",
+      "title": "消息称台积电CoWoS 2027年月产能目标至少20万片",
+      "tldr": "台积电先进封装CoWoS产能持续爆满，2027年月产能目标从20万片起跳，但设备商订单分配未定，供应链担心抢单和交付延迟。",
       "score": 9,
-      "url": "https://www.latent.space/p/modal2026",
-      "source": "Latent Space",
+      "url": "https://36kr.com/newsflashes/3889342288034312?f=rss",
+      "source": "36氪",
       "source_count": 1
     },
     {
       "topic": "供应链",
       "title": "Lilian Weng 总结 35 篇论文：关于“驾驭工程”与递归自我改进",
-      "tldr": "Lilian Weng 发了一篇重磅总结，核心观点是：AI 的递归自我改进（RSI）关键不在于改模型权重，而在于改进“驾驭系统”（Harness）。这正在成为 Agent 产品落地的核心设计趋势。",
+      "tldr": "Lilian Weng 发了一篇重磅综述，核心观点是：AI 的递归自我改进（RSI）关键不在于改模型权重，而在于改“驾驭系统”（Harness）。这直接定义了下一代 AI Agent 的产品架构方向。",
       "score": 9,
       "url": "https://www.latent.space/p/ainews-lilian-weng-summarizes-35",
       "source": "Latent Space",

@@ -2,44 +2,44 @@
 
 ## 今日 TOP3
 
-1. **SpaceXAI 发布 Grok 4.5，Cursor 收购后首个 Opus 级模型** · 分9
-   马斯克的 xAI 发布了新模型 Grok 4.5，定位是“Opus 级但更快更便宜”，专门为编程和 AI Agent 场景训练，并且是和 Cursor 合作训练的，直接对标 OpenAI 和 Anthropic 的旗舰模型。
-   https://www.latent.space/p/ainews-spacexai-launches-grok-45
+1. **OpenAI 发布 GPT-5.6，推理与意图理解升级** · 分9 · 3信源
+   OpenAI 发布了 GPT-5.6，主打更强的意图理解和推理能力，在 ARC-AGI-3 基准上创下新纪录，同时开发者指南强调了模型能自动推断用户深层目标，减少显式步骤指定。
+   https://openai.com/index/gpt-5-6/
 
-2. **AI基础设施必须为Agent体验进化** · 分9
-   Modal CTO讲为什么传统云平台是为人类开发者设计的，现在AI Agent自己写代码、跑任务，基础设施需要从开发者体验转向Agent体验，比如弹性推理、沙盒、GPU快照。
-   https://www.latent.space/p/modal2026
+2. **消息称台积电CoWoS 2027年月产能目标至少20万片** · 分9
+   台积电先进封装CoWoS产能持续爆满，2027年月产能目标从20万片起跳，但设备商订单分配未定，供应链担心抢单和交付延迟。
+   https://36kr.com/newsflashes/3889342288034312?f=rss
 
 3. **Lilian Weng 总结 35 篇论文：关于“驾驭工程”与递归自我改进** · 分9
-   Lilian Weng 发了一篇重磅总结，核心观点是：AI 的递归自我改进（RSI）关键不在于改模型权重，而在于改进“驾驭系统”（Harness）。这正在成为 Agent 产品落地的核心设计趋势。
+   Lilian Weng 发了一篇重磅综述，核心观点是：AI 的递归自我改进（RSI）关键不在于改模型权重，而在于改“驾驭系统”（Harness）。这直接定义了下一代 AI Agent 的产品架构方向。
    https://www.latent.space/p/ainews-lilian-weng-summarizes-35
 
 ## 今日精选
 
 ### AI大事
-- [AI系统提示词泄露仓库](https://github.com/asgeirtj/system_prompts_leaks) · GitHub Trending · 分10
-  这个GitHub仓库持续收集并更新各大AI模型（Claude、ChatGPT、Gemini等）的底层系统提示词，让你看到模型被设定的“隐藏规则”，比如Claude Fable 5和GPT-5.5的完整…
-- [last30days-skill：AI 代理搜索工具](https://github.com/mvanhorn/last30days-skill) · GitHub Trending · 分10
-  这是一个开源的 AI 代理技能，能同时搜索 Reddit、X、YouTube、Hacker News 等平台，根据点赞、转发和真实金钱投注来排序内容，最后合成一份关于任何话题的“过去30天”摘要。
-- [OpenAI 发布 GPT-5.6 家族：Luna、Terra、Sol](https://simonwillison.net/2026/Jul/9/gpt-5-6/#atom-everything) · Simon Willison · 分9
-  OpenAI 发布了三个新模型，从便宜到贵分别是 Luna、Terra、Sol。它们在长任务智能体测试上大幅超过 Claude Fable 5，但在代码能力上被 Fable 反超。API 还新增了多智…
+- [史上最高调的AI重写：Claude花11天搞定Bun，创始人花一个月才敢交底](https://www.infoq.cn/article/uHkOoJ6Nfm6wNCsUryuO?utm_source=rss&utm_medium=article) · InfoQ 中文 · 分9
+  Jarred Sumner（Bun创始人）让Claude用11天重写了Bun的JavaScript解析器，性能提升近一倍。他犹豫了一个月才公开，怕被骂“用AI写代码不靠谱”。
+- [OpenAI 发布 GPT-5.6，推理与意图理解升级](https://openai.com/index/gpt-5-6/) · HackerNews · 分9
+  OpenAI 发布了 GPT-5.6，主打更强的意图理解和推理能力，在 ARC-AGI-3 基准上创下新纪录，同时开发者指南强调了模型能自动推断用户深层目标，减少显式步骤指定。
 - [Meta 发布 Muse Spark 1.1 模型](https://ai.meta.com/blog/introducing-muse-spark-meta-model-api/) · HackerNews · 分9
-  Meta 发布了新模型 Muse Spark 1.1，在编程和终端任务上性能接近 OpenAI 和 Anthropic 的顶级模型，但价格只有它们的十分之一甚至更低，而且开放权重。
+  Meta 发布了新一代开源编程模型 Muse Spark 1.1，性能接近顶级闭源模型，但价格只有它们的十分之一，而且可以在终端直接跑。
 - [GPT-5.5 生物漏洞赏金计划](https://openai.com/index/bio-bug-bounty) · OpenAI Blog · 分9
-  OpenAI 推出 GPT-5.5 的“生物漏洞赏金”计划，悬赏安全专家找出模型在生物、化学、核武器等领域的恶意使用风险，最高奖励 3 万美元。
-- [SpaceXAI 发布 Grok 4.5，Cursor 收购后首个 Opus 级模型](https://www.latent.space/p/ainews-spacexai-launches-grok-45) · Latent Space · 分9
-  马斯克的 xAI 发布了新模型 Grok 4.5，定位是“Opus 级但更快更便宜”，专门为编程和 AI Agent 场景训练，并且是和 Cursor 合作训练的，直接对标 OpenAI 和 Anth…
-
-### 技术圈
-- [在慢电脑上跑通 GLM 5.2](https://github.com/JustVugg/colibri) · HackerNews · 分9
-  一个开发者用 32GB 内存的普通笔记本，通过把模型拆成磁盘+内存混合加载，让 744B 参数的 MoE 大模型 GLM 5.2 跑起来了，虽然速度只有 0.1 token/秒。
-- [用Rust重写Postgres，通过全部回归测试](https://github.com/malisper/pgrust) · HackerNews · 分9
-  作者用LLM辅助把30年历史的Postgres数据库用Rust语言重写了一遍，现在已通过全部回归测试。项目引发了关于AI生成代码可维护性、许可证兼容性和重写策略的激烈讨论。
+  OpenAI 推出一个悬赏计划，邀请全球生物安全专家找 GPT-5.5 在生物制造、基因编辑等场景下的安全漏洞，发现重大风险最高能拿 30 万美元。
+- [SpaceXAI 发布 Grok 4.5，收购 Cursor 后首个 Opus 级模型](https://www.latent.space/p/ainews-spacexai-launches-grok-45) · Latent Space · 分9
+  马斯克的 xAI 发布了新模型 Grok 4.5，定位是“Opus 级但更快更便宜”，专门为编程和 AI Agent 场景训练，并且是和刚收购的 Cursor 合作训练的，直接对标 OpenAI 和…
 
 ### 供应链
-- [自研焊接具身大脑模型，以“智能焊工”切入工业制造具身智能赛道，「昇视唯盛」完成数亿元B轮融资](https://36kr.com/p/3887871679347208?f=rss) · 36氪 · 分9
-  一家叫昇视唯盛的公司融了数亿元，专门做能像老焊工一样自己看、自己焊的AI焊接机器人，不用人编程，能自动适应不同工件，替代1.5到2个焊工，1年回本。
+- [消息称台积电CoWoS 2027年月产能目标至少20万片](https://36kr.com/newsflashes/3889342288034312?f=rss) · 36氪 · 分9
+  台积电先进封装CoWoS产能持续爆满，2027年月产能目标从20万片起跳，但设备商订单分配未定，供应链担心抢单和交付延迟。
 - [AI基础设施必须为Agent体验进化](https://www.latent.space/p/modal2026) · Latent Space · 分9
-  Modal CTO讲为什么传统云平台是为人类开发者设计的，现在AI Agent自己写代码、跑任务，基础设施需要从开发者体验转向Agent体验，比如弹性推理、沙盒、GPU快照。
+  Modal CTO 聊为什么传统云基础设施不适合AI Agent，以及他们如何从开发者体验转向Agent体验，刚拿了3.55亿美元C轮融资。
+- [Lilian Weng 总结 35 篇论文：关于“驾驭工程”与递归自我改进](https://www.latent.space/p/ainews-lilian-weng-summarizes-35) · Latent Space · 分9
+  Lilian Weng 发了一篇重磅综述，核心观点是：AI 的递归自我改进（RSI）关键不在于改模型权重，而在于改“驾驭系统”（Harness）。这直接定义了下一代 AI Agent 的产品架构方向。
+- [机器人走进产线「打工」，至简动力不想让具身智能停在 PPT 上](https://www.ifanr.com/1671185?utm_source=rss&utm_medium=rss&utm_campaign=) · 爱范儿 · 分9
+  至简动力这家公司把具身智能机器人真正送进了工厂产线，完成了100台交付，并复盘了从大模型到具体场景落地的路径，核心是找到像“编程”一样的刚需场景。
 
-_更新于 2026-07-10 01:37 · web-intel-bot_
+### GitHub 动态
+- [Claude Code 发布 v2.1.206 更新](https://github.com/anthropics/claude-code/releases/tag/v2.1.206) · GitHubRelease · 分9
+  Claude Code 这次更新修了一堆开发者的痛点，比如登录过期不报错、MCP 工具超时、背景 Agent 升级卡顿，还加了自动诊断和目录建议功能。
+
+_更新于 2026-07-10 05:34 · web-intel-bot_
