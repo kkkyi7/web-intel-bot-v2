@@ -1,45 +1,49 @@
-# 情报 Brief · 2026-07-10
+# 情报 Brief · 2026-07-11
 
 ## 今日 TOP3
 
-1. **OpenAI 发布 GPT-5.6，推理与意图理解升级** · 分9 · 3信源
-   OpenAI 发布了 GPT-5.6，主打更强的意图理解和推理能力，在 ARC-AGI-3 基准上创下新纪录，同时开发者指南强调了模型能自动推断用户深层目标，减少显式步骤指定。
-   https://openai.com/index/gpt-5-6/
+1. **中国临时实施氦气出口禁令 优先保障国内需求** · 分9
+   中国突然禁止氦气出口，因为这东西半导体、医疗都得用，但咱们84%靠进口，中东打仗让供应不稳，先保国内再说。
+   https://www.caixin.com/2026-07-10/102462928.html
 
-2. **消息称台积电CoWoS 2027年月产能目标至少20万片** · 分9
-   台积电先进封装CoWoS产能持续爆满，2027年月产能目标从20万片起跳，但设备商订单分配未定，供应链担心抢单和交付延迟。
-   https://36kr.com/newsflashes/3889342288034312?f=rss
+2. **GPT-5.6全面围剿Claude Fable 5，“超级应用”ChatGPT Work上位，Altman紧急澄清：不会取代Coedx** · 分9 · 3信源
+   OpenAI发布GPT-5.6，主打多模态和Agent能力，同时推出“ChatGPT Work”作为企业超级应用，直接对标Claude Fable 5。Altman紧急澄清新模型不会取代开发者工具Coedx，但行业认为AI应用层正在重新洗牌…
+   https://www.infoq.cn/article/iqUrh3vqeO4xszUa1bCd?utm_source=rss&utm_medium=article
 
-3. **Lilian Weng 总结 35 篇论文：关于“驾驭工程”与递归自我改进** · 分9
-   Lilian Weng 发了一篇重磅综述，核心观点是：AI 的递归自我改进（RSI）关键不在于改模型权重，而在于改“驾驭系统”（Harness）。这直接定义了下一代 AI Agent 的产品架构方向。
-   https://www.latent.space/p/ainews-lilian-weng-summarizes-35
+3. **Claude Code v2.1.206 发布** · 分9 · 2信源
+   Anthropic 更新了 Claude Code 命令行工具，修复了十几个 Bug，新增了目录路径建议和代码库健康检查功能，还优化了 Git 工作流和后台 Agent 的升级机制。
+   https://github.com/anthropics/claude-code/releases/tag/v2.1.206
 
 ## 今日精选
 
-### AI大事
-- [史上最高调的AI重写：Claude花11天搞定Bun，创始人花一个月才敢交底](https://www.infoq.cn/article/uHkOoJ6Nfm6wNCsUryuO?utm_source=rss&utm_medium=article) · InfoQ 中文 · 分9
-  Jarred Sumner（Bun创始人）让Claude用11天重写了Bun的JavaScript解析器，性能提升近一倍。他犹豫了一个月才公开，怕被骂“用AI写代码不靠谱”。
-- [OpenAI 发布 GPT-5.6，推理与意图理解升级](https://openai.com/index/gpt-5-6/) · HackerNews · 分9
-  OpenAI 发布了 GPT-5.6，主打更强的意图理解和推理能力，在 ARC-AGI-3 基准上创下新纪录，同时开发者指南强调了模型能自动推断用户深层目标，减少显式步骤指定。
-- [Meta 发布 Muse Spark 1.1 模型](https://ai.meta.com/blog/introducing-muse-spark-meta-model-api/) · HackerNews · 分9
-  Meta 发布了新一代开源编程模型 Muse Spark 1.1，性能接近顶级闭源模型，但价格只有它们的十分之一，而且可以在终端直接跑。
-- [GPT-5.5 生物漏洞赏金计划](https://openai.com/index/bio-bug-bounty) · OpenAI Blog · 分9
-  OpenAI 推出一个悬赏计划，邀请全球生物安全专家找 GPT-5.5 在生物制造、基因编辑等场景下的安全漏洞，发现重大风险最高能拿 30 万美元。
-- [SpaceXAI 发布 Grok 4.5，收购 Cursor 后首个 Opus 级模型](https://www.latent.space/p/ainews-spacexai-launches-grok-45) · Latent Space · 分9
-  马斯克的 xAI 发布了新模型 Grok 4.5，定位是“Opus 级但更快更便宜”，专门为编程和 AI Agent 场景训练，并且是和刚收购的 Cursor 合作训练的，直接对标 OpenAI 和…
+### 世界时事
+- [中国临时实施氦气出口禁令 优先保障国内需求](https://www.caixin.com/2026-07-10/102462928.html) · 财新网 · 分9
+  中国突然禁止氦气出口，因为这东西半导体、医疗都得用，但咱们84%靠进口，中东打仗让供应不稳，先保国内再说。
 
-### 供应链
-- [消息称台积电CoWoS 2027年月产能目标至少20万片](https://36kr.com/newsflashes/3889342288034312?f=rss) · 36氪 · 分9
-  台积电先进封装CoWoS产能持续爆满，2027年月产能目标从20万片起跳，但设备商订单分配未定，供应链担心抢单和交付延迟。
-- [AI基础设施必须为Agent体验进化](https://www.latent.space/p/modal2026) · Latent Space · 分9
-  Modal CTO 聊为什么传统云基础设施不适合AI Agent，以及他们如何从开发者体验转向Agent体验，刚拿了3.55亿美元C轮融资。
-- [Lilian Weng 总结 35 篇论文：关于“驾驭工程”与递归自我改进](https://www.latent.space/p/ainews-lilian-weng-summarizes-35) · Latent Space · 分9
-  Lilian Weng 发了一篇重磅综述，核心观点是：AI 的递归自我改进（RSI）关键不在于改模型权重，而在于改“驾驭系统”（Harness）。这直接定义了下一代 AI Agent 的产品架构方向。
-- [机器人走进产线「打工」，至简动力不想让具身智能停在 PPT 上](https://www.ifanr.com/1671185?utm_source=rss&utm_medium=rss&utm_campaign=) · 爱范儿 · 分9
-  至简动力这家公司把具身智能机器人真正送进了工厂产线，完成了100台交付，并复盘了从大模型到具体场景落地的路径，核心是找到像“编程”一样的刚需场景。
+### AI大事
+- [GPT-5.6全面围剿Claude Fable 5，“超级应用”ChatGPT Work上位，Altman紧急澄清：不会取代Coedx](https://www.infoq.cn/article/iqUrh3vqeO4xszUa1bCd?utm_source=rss&utm_medium=article) · InfoQ 中文 · 分9
+  OpenAI发布GPT-5.6，主打多模态和Agent能力，同时推出“ChatGPT Work”作为企业超级应用，直接对标Claude Fable 5。Altman紧急澄清新模型不会取代开发者工具Co…
+- [GPT-5.5 生物漏洞赏金计划](https://openai.com/index/bio-bug-bounty) · OpenAI Blog · 分9
+  OpenAI 推出一个悬赏计划，邀请全球生物安全专家找 GPT-5.5 在生物制造、病毒设计等高风险场景下的漏洞，最高奖金 3 万美元。
+- [SpaceXAI 发布 Grok 4.5，收购 Cursor 后首个 Opus 级模型](https://www.latent.space/p/ainews-spacexai-launches-grok-45) · Latent Space · 分9
+  SpaceXAI 发布了 Grok 4.5，一个专门为编程和 AI Agent 设计的新模型，性能接近顶级 Opus 但更快更便宜，并且是和刚收购的 Cursor 一起训练的，直接瞄准了开发者工具市场…
 
 ### GitHub 动态
-- [Claude Code 发布 v2.1.206 更新](https://github.com/anthropics/claude-code/releases/tag/v2.1.206) · GitHubRelease · 分9
-  Claude Code 这次更新修了一堆开发者的痛点，比如登录过期不报错、MCP 工具超时、背景 Agent 升级卡顿，还加了自动诊断和目录建议功能。
+- [Claude Code v2.1.206 发布](https://github.com/anthropics/claude-code/releases/tag/v2.1.206) · GitHubRelease · 分9
+  Anthropic 更新了 Claude Code 命令行工具，修复了十几个 Bug，新增了目录路径建议和代码库健康检查功能，还优化了 Git 工作流和后台 Agent 的升级机制。
+- [LangChain 发布 1.3.13 版本](https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.3.13) · GitHubRelease · 分8
+  LangChain 发布了小版本更新，主要加了元数据支持和 OpenAI 显式提示缓存功能，对构建 AI 应用的开发者来说是个实用升级。
 
-_更新于 2026-07-10 05:34 · web-intel-bot_
+### 供应链
+- [AI基础设施必须为Agent体验进化](https://www.latent.space/p/modal2026) · Latent Space · 分9
+  Modal 刚融了3.55亿美元C轮，CTO讲为什么传统云架构不适合AI Agent，他们正从开发者体验转向Agent体验，比如弹性推理、沙箱和GPU快照。
+- [Lilian Weng 总结 35 篇论文：关于“操控工程”与递归自我改进](https://www.latent.space/p/ainews-lilian-weng-summarizes-35) · Latent Space · 分9
+  Lilian Weng 总结 35 篇论文，核心观点是：AI 的递归自我改进（RSI）关键不在于改模型权重，而在于优化“操控层”（Harness），也就是给 AI 定目标、设上下文的那部分工程。
+- [机器人走进产线「打工」，至简动力不想让具身智能停在 PPT 上](https://www.ifanr.com/1671185?utm_source=rss&utm_medium=rss&utm_campaign=) · 爱范儿 · 分9
+  至简动力交付了100台机器人到CNC产线，做上下料这种脏活累活。核心不是炫技，而是证明具身智能能批量进工厂稳定干活，像大模型找到编程场景一样，机器人也在找自己的落地场景。
+
+### 技术圈
+- [苹果起诉OpenAI，指控前员工窃取商业机密](https://9to5mac.com/2026/07/10/apple-sues-openai-trade-secret-theft/) · HackerNews · 分8
+  苹果起诉OpenAI，指控其系统性挖角苹果员工并窃取芯片、供应链等机密信息，包括教新员工如何规避审查。这起诉讼可能影响AI行业的人才流动和企业合规。
+
+_更新于 2026-07-11 01:37 · web-intel-bot_
