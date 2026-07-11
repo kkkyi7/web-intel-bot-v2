@@ -1,7 +1,7 @@
 {
   "date": "2026-07-11",
   "profile": "kizty",
-  "generated_at": "2026-07-11 01:37",
+  "generated_at": "2026-07-11 04:41",
   "stats": {
     "topics_ran": [
       "AI大事",
@@ -9,39 +9,38 @@
       "变现路径",
       "技术圈",
       "GitHub 动态",
-      "心理学",
       "供应链"
     ],
-    "total_selected": 38,
-    "total_fetched": 178
+    "total_selected": 31,
+    "total_fetched": 177
   },
   "top3": [
     {
       "topic": "世界时事",
       "title": "中国临时实施氦气出口禁令 优先保障国内需求",
-      "tldr": "中国突然禁止氦气出口，因为这东西半导体、医疗都得用，但咱们84%靠进口，中东打仗让供应不稳，先保国内再说。",
+      "tldr": "中国突然宣布氦气临时禁止出口，因为中东打仗导致进口不稳，而国内84%靠进口，怕半导体和医疗等关键行业断供，先保自己。",
       "score": 9,
       "url": "https://www.caixin.com/2026-07-10/102462928.html",
       "source": "财新网",
-      "source_count": 1
-    },
-    {
-      "topic": "AI大事",
-      "title": "GPT-5.6全面围剿Claude Fable 5，“超级应用”ChatGPT Work上位，Altman紧急澄清：不会取代Coedx",
-      "tldr": "OpenAI发布GPT-5.6，主打多模态和Agent能力，同时推出“ChatGPT Work”作为企业超级应用，直接对标Claude Fable 5。Altman紧急澄清新模型不会取代开发者工具Coedx，但行业认为AI应用层正在重新洗牌…",
-      "score": 9,
-      "url": "https://www.infoq.cn/article/iqUrh3vqeO4xszUa1bCd?utm_source=rss&utm_medium=article",
-      "source": "InfoQ 中文",
-      "source_count": 3
+      "source_count": 2
     },
     {
       "topic": "GitHub 动态",
-      "title": "Claude Code v2.1.206 发布",
-      "tldr": "Anthropic 更新了 Claude Code 命令行工具，修复了十几个 Bug，新增了目录路径建议和代码库健康检查功能，还优化了 Git 工作流和后台 Agent 的升级机制。",
+      "title": "Claude Code 发布 v2.1.207 自动模式全面开放",
+      "tldr": "Claude Code 这次更新把自动模式从测试选项变成默认功能，修了一堆终端卡死、安全弹窗、远程控制丢状态等十几个 bug，对开发体验提升明显。",
       "score": 9,
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.206",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.207",
       "source": "GitHubRelease",
-      "source_count": 2
+      "source_count": 1
+    },
+    {
+      "topic": "供应链",
+      "title": "Lilian Weng 总结 35 篇论文：关于“驾驭工程”与递归自我改进",
+      "tldr": "Lilian Weng 发了一篇重磅总结，核心观点是：AI 的递归自我改进（RSI）关键不在于改模型权重，而在于改“驾驭系统”（Harness），也就是给 Agent 设定的目标、工具和上下文。",
+      "score": 9,
+      "url": "https://www.latent.space/p/ainews-lilian-weng-summarizes-35",
+      "source": "Latent Space",
+      "source_count": 1
     }
   ]
 }
