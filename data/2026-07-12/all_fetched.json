@@ -1,75 +1,21 @@
 [
   {
-    "title": "UniClawBench: A Universal Benchmark for Proactive Agents on Real-World Tasks",
-    "url": "http://arxiv.org/abs/2607.08768v1",
-    "source": "arXiv",
+    "title": "Show HN: Ant – A JavaScript runtime and ecosystem",
+    "url": "https://antjs.org",
+    "source": "HackerNews",
     "topic": "AI大事",
     "region": "intl",
-    "published": "2026-07-09T17:59:32",
-    "author": "Zhekai Chen, Chengqi Duan, Kaiyue Sun, Bohao Li, Yuqing Wang, Manyuan Zhang, Xihui Liu"
+    "published": "2026-07-11T20:07:18",
+    "author": "theMackabu · 213 pts · 91 comments"
   },
   {
-    "title": "Ideas Have Genomes: Benchmarking Scientific Lineage Reasoning and Lineage-Grounded Idea Generation",
-    "url": "http://arxiv.org/abs/2607.08758v1",
-    "source": "arXiv",
+    "title": "Nvidia, CoreWeave, and Nebius: Inside the Circular Financing of the GPU Boom",
+    "url": "https://io-fund.com/ai-stocks/nvidia-coreweave-nebius-circular-financing-gpu-boom",
+    "source": "HackerNews",
     "topic": "AI大事",
     "region": "intl",
-    "published": "2026-07-09T17:55:53",
-    "author": "Yifan Zhou, Qihao Yang, Yan Li, Donggang Li, Xiru Hu, Hokin Deng, Ziyang Gong, Xuanyi Zhou, Huacan Wang, Xiangchao Yan, Wanghan Xu, Wenlong Zhang, Shaofeng Zhang, Yue Zhou, Yifan Yang, Zhihang Zhong,"
-  },
-  {
-    "title": "SLORR: Simple and Efficient In-Training Low-Rank Regularization",
-    "url": "http://arxiv.org/abs/2607.08754v1",
-    "source": "arXiv",
-    "topic": "AI大事",
-    "region": "intl",
-    "published": "2026-07-09T17:51:50",
-    "author": "David González-Martínez, Shiwei Liu"
-  },
-  {
-    "title": "AUTOPILOT VQA: Benchmarking Vision-Language Models for Incident-Centric Dashcam Understanding",
-    "url": "http://arxiv.org/abs/2607.08745v1",
-    "source": "arXiv",
-    "topic": "AI大事",
-    "region": "intl",
-    "published": "2026-07-09T17:46:24",
-    "author": "Siddharth Damodharan, Radhika Gupta, Ali Alshami, Ryan Rabinowitz, Jugal Kalita"
-  },
-  {
-    "title": "Workflow as Knowledge: Semantic Persistence for LLM-Mediated Workflows",
-    "url": "http://arxiv.org/abs/2607.08740v1",
-    "source": "arXiv",
-    "topic": "AI大事",
-    "region": "intl",
-    "published": "2026-07-09T17:40:46",
-    "author": "Emanuele Quinto, Carlo Andrea Rozzi, Francesco Zanitti"
-  },
-  {
-    "title": "The Illusion of Equivalency: Statistical Characterization of Quantization Effects in LLMs",
-    "url": "http://arxiv.org/abs/2607.08734v1",
-    "source": "arXiv",
-    "topic": "AI大事",
-    "region": "intl",
-    "published": "2026-07-09T17:35:02",
-    "author": "Baha Rababah, Cuneyt Gurcan Akcora, Carson K. Leung"
-  },
-  {
-    "title": "Super Weights in LLMs and the Failure of Selective Training",
-    "url": "http://arxiv.org/abs/2607.08733v1",
-    "source": "arXiv",
-    "topic": "AI大事",
-    "region": "intl",
-    "published": "2026-07-09T17:35:00",
-    "author": "Shreyas Subramanian, Adewale Akinfaderin, Akarsha Sehwag"
-  },
-  {
-    "title": "Validity of LLMs as data annotators: AMALIA on authority",
-    "url": "http://arxiv.org/abs/2607.08731v1",
-    "source": "arXiv",
-    "topic": "AI大事",
-    "region": "intl",
-    "published": "2026-07-09T17:34:25",
-    "author": "Manuel Pita"
+    "published": "2026-07-11T17:21:49",
+    "author": "adletbalzhanov · 200 pts · 67 comments"
   },
   {
     "title": "Prefer strict tables in SQLite",
@@ -78,16 +24,16 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-07-11T17:33:55",
-    "author": "ingve · 216 pts · 106 comments"
+    "author": "ingve · 242 pts · 119 comments"
   },
   {
-    "title": "Female US rower completes historic solo journey from California to Hawaii",
-    "url": "https://www.theguardian.com/us-news/2026/jul/04/california-hawaii-rowing-solo-journey",
-    "source": "HackerNews",
+    "title": "面向 Qwen 系列模型线性注意力的高性能优化实践｜AICon深圳",
+    "url": "https://www.infoq.cn/article/wg5h3JBMvs5ZkoP0azha?utm_source=rss&utm_medium=article",
+    "source": "InfoQ 中文",
     "topic": "AI大事",
-    "region": "intl",
-    "published": "2026-07-11T17:03:23",
-    "author": "speckx · 251 pts · 87 comments"
+    "region": "cn",
+    "published": "2026-07-12T10:00:00",
+    "author": "AICon 全球人工智能开发与应用大会"
   },
   {
     "title": "苹果甩出41页PDF怒告OpenAI“偷师”其核心机密！网友：早知道就等印度开源了",
@@ -171,13 +117,13 @@
     "author": "Sid Ramadoss"
   },
   {
-    "title": "vLLM 针对多模态模型的推理优化实践｜AICon深圳",
-    "url": "https://www.infoq.cn/article/ItOOYNuWf6t9KtfgeH7F?utm_source=rss&utm_medium=article",
-    "source": "InfoQ 中文",
+    "title": "老黄RTX Spark真机现身Bilibili World！CPU和GPU直接焊在一起，笔记本跑120B大模型",
+    "url": "https://www.qbitai.com/2026/07/447981.html",
+    "source": "量子位",
     "topic": "AI大事",
     "region": "cn",
-    "published": "2026-07-10T10:00:00",
-    "author": "AICon 全球人工智能开发与应用大会"
+    "published": "2026-07-12T01:37:11",
+    "author": "梦瑶"
   },
   {
     "title": "GPT-5.6一小时解开50年数学猜想，700词Prompt驾驭64个子Agent",
@@ -216,22 +162,67 @@
     "author": "量子位的朋友们"
   },
   {
-    "title": "日均提问次数暴增 20 倍！百度搭子宣布重磅升级，企业版同步发布",
-    "url": "https://www.qbitai.com/2026/07/447681.html",
-    "source": "量子位",
+    "title": "catchorg/Catch2",
+    "url": "https://github.com/catchorg/Catch2",
+    "source": "GitHub Trending",
     "topic": "AI大事",
-    "region": "cn",
-    "published": "2026-07-10T09:27:52",
-    "author": "听雨"
+    "region": "intl",
+    "published": "",
+    "author": ""
   },
   {
-    "title": "全球首个「具身原生」预训练模型发布，从物理世界出发为机器人造大脑！",
-    "url": "https://www.qbitai.com/2026/07/447627.html",
-    "source": "量子位",
+    "title": "abseil/abseil-cpp",
+    "url": "https://github.com/abseil/abseil-cpp",
+    "source": "GitHub Trending",
     "topic": "AI大事",
-    "region": "cn",
-    "published": "2026-07-10T08:01:00",
-    "author": "十三"
+    "region": "intl",
+    "published": "",
+    "author": ""
+  },
+  {
+    "title": "davila7/claude-code-templates",
+    "url": "https://github.com/davila7/claude-code-templates",
+    "source": "GitHub Trending",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "",
+    "author": ""
+  },
+  {
+    "title": "google-labs-code/stitch-skills",
+    "url": "https://github.com/google-labs-code/stitch-skills",
+    "source": "GitHub Trending",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "",
+    "author": ""
+  },
+  {
+    "title": "hashicorp/terraform",
+    "url": "https://github.com/hashicorp/terraform",
+    "source": "GitHub Trending",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "",
+    "author": ""
+  },
+  {
+    "title": "zeux/meshoptimizer",
+    "url": "https://github.com/zeux/meshoptimizer",
+    "source": "GitHub Trending",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "",
+    "author": ""
+  },
+  {
+    "title": "openai/plugins",
+    "url": "https://github.com/openai/plugins",
+    "source": "GitHub Trending",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "",
+    "author": ""
   },
   {
     "title": "wonderwhy-er/DesktopCommanderMCP",
@@ -252,71 +243,8 @@
     "author": ""
   },
   {
-    "title": "abseil/abseil-cpp",
-    "url": "https://github.com/abseil/abseil-cpp",
-    "source": "GitHub Trending",
-    "topic": "AI大事",
-    "region": "intl",
-    "published": "",
-    "author": ""
-  },
-  {
-    "title": "addyosmani/agent-skills",
-    "url": "https://github.com/addyosmani/agent-skills",
-    "source": "GitHub Trending",
-    "topic": "AI大事",
-    "region": "intl",
-    "published": "",
-    "author": ""
-  },
-  {
-    "title": "jbeder/yaml-cpp",
-    "url": "https://github.com/jbeder/yaml-cpp",
-    "source": "GitHub Trending",
-    "topic": "AI大事",
-    "region": "intl",
-    "published": "",
-    "author": ""
-  },
-  {
-    "title": "mattpocock/skills",
-    "url": "https://github.com/mattpocock/skills",
-    "source": "GitHub Trending",
-    "topic": "AI大事",
-    "region": "intl",
-    "published": "",
-    "author": ""
-  },
-  {
-    "title": "obra/superpowers",
-    "url": "https://github.com/obra/superpowers",
-    "source": "GitHub Trending",
-    "topic": "AI大事",
-    "region": "intl",
-    "published": "",
-    "author": ""
-  },
-  {
-    "title": "microsoft/TypeScript",
-    "url": "https://github.com/microsoft/TypeScript",
-    "source": "GitHub Trending",
-    "topic": "AI大事",
-    "region": "intl",
-    "published": "",
-    "author": ""
-  },
-  {
-    "title": "catchorg/Catch2",
-    "url": "https://github.com/catchorg/Catch2",
-    "source": "GitHub Trending",
-    "topic": "AI大事",
-    "region": "intl",
-    "published": "",
-    "author": ""
-  },
-  {
-    "title": "TencentCloud/TencentDB-Agent-Memory",
-    "url": "https://github.com/TencentCloud/TencentDB-Agent-Memory",
+    "title": "actions/checkout",
+    "url": "https://github.com/actions/checkout",
     "source": "GitHub Trending",
     "topic": "AI大事",
     "region": "intl",
@@ -990,40 +918,22 @@
     "author": ""
   },
   {
-    "title": "莫迪密集外访折射印度野心与隐忧，印太三国行欲构筑“信任之弧”？",
-    "url": "https://m.thepaper.cn/detail/33566869",
+    "title": "霍尔木兹海峡冲突再起，美军打击伊朗多地，海湾国家遇袭",
+    "url": "https://m.thepaper.cn/detail/33569734",
     "source": "澎湃新闻",
     "topic": "世界时事",
     "region": "cn",
-    "published": "2026-07-12T01:06:25",
-    "author": "澎湃新闻记者 黄粤涵"
+    "published": "2026-07-12T04:42:39",
+    "author": "澎湃新闻记者 南博一"
   },
   {
-    "title": "历史法理为证！中国对南海诸岛及其附近海域拥有无可争辩的主权",
-    "url": "https://m.thepaper.cn/detail/33569075",
+    "title": "特大暴雨！“巴威”即将进入安徽，今明两天为台风雨最强时段",
+    "url": "https://m.thepaper.cn/detail/33569689",
     "source": "澎湃新闻",
     "topic": "世界时事",
     "region": "cn",
-    "published": "2026-07-12T01:00:04",
-    "author": "央视新闻"
-  },
-  {
-    "title": "魏晋南北朝农业简述",
-    "url": "https://m.thepaper.cn/detail/33428680",
-    "source": "澎湃新闻",
-    "topic": "世界时事",
-    "region": "cn",
-    "published": "2026-07-12T00:51:56",
-    "author": "刘大洪"
-  },
-  {
-    "title": "驻菲大使井泉人民日报撰文：清理“南海仲裁案裁决”遗毒刻不容缓",
-    "url": "https://m.thepaper.cn/detail/33568931",
-    "source": "澎湃新闻",
-    "topic": "世界时事",
-    "region": "cn",
-    "published": "2026-07-11T23:15:39",
-    "author": "井泉/人民日报"
+    "published": "2026-07-12T03:38:13",
+    "author": "中国天气网"
   },
   {
     "title": "比亚迪加码英国市场 新车与“闪充”同步推进",
@@ -1059,6 +969,15 @@
     "topic": "世界时事",
     "region": "cn",
     "published": "2026-07-11T01:56:02",
+    "author": ""
+  },
+  {
+    "title": "“俄罗斯要输了”？乌军前总司令泼冷水",
+    "url": "https://www.guancha.cn/internation/2026_07_12_823466_s.shtml",
+    "source": "观察者网",
+    "topic": "世界时事",
+    "region": "cn",
+    "published": "2026-07-12T03:43:03",
     "author": ""
   },
   {
@@ -1143,57 +1062,48 @@
     "author": ""
   },
   {
-    "title": "石英之下：中国“光刻底片”的沉默突围",
-    "url": "https://www.guancha.cn/haoping/2026_07_09_823202_s.shtml",
-    "source": "观察者网",
-    "topic": "世界时事",
-    "region": "cn",
-    "published": "2026-07-09T11:44:34",
-    "author": ""
-  },
-  {
-    "title": "独家 | 智谱创始人唐杰发内部信：「GLM 时刻」之后，什么是更重要的事",
-    "url": "https://36kr.com/p/3891132709206784?f=rss",
+    "title": "银河证券A股策略：建议以业绩为锚，在波动中把握结构性机会",
+    "url": "https://36kr.com/newsflashes/3892124086958857?f=rss",
     "source": "36氪（兜底）",
     "topic": "世界时事",
     "region": "cn",
-    "published": "2026-07-11T11:28:29",
+    "published": "2026-07-12T04:08:29",
     "author": ""
   },
   {
-    "title": "乘联分会崔东树：6月新能源车厂商库存小幅收缩，行业压库存现象没有出现",
-    "url": "https://36kr.com/newsflashes/3891047631796745?f=rss",
+    "title": "三星电子计划将龙仁首座芯片工厂的投产时间提前至2029年",
+    "url": "https://36kr.com/newsflashes/3892091542288904?f=rss",
     "source": "36氪（兜底）",
     "topic": "世界时事",
     "region": "cn",
-    "published": "2026-07-11T09:38:20",
+    "published": "2026-07-12T03:39:22",
     "author": ""
   },
   {
-    "title": "多家A股公司预计业绩大增，存储、锂矿、有色等头部企业表现亮眼",
-    "url": "https://36kr.com/newsflashes/3891019931925001?f=rss",
+    "title": "这个周末，科技投资人都得飞一趟成都",
+    "url": "https://36kr.com/p/3892096788396806?f=rss",
     "source": "36氪（兜底）",
     "topic": "世界时事",
     "region": "cn",
-    "published": "2026-07-11T09:22:02",
+    "published": "2026-07-12T03:27:05",
     "author": ""
   },
   {
-    "title": "研究报告：中国电力技术创新位居全球首位",
-    "url": "https://36kr.com/newsflashes/3890965044869637?f=rss",
+    "title": "韩国股指年内大涨八成估值却创低位，机构称存储板块仍具备配置价值",
+    "url": "https://36kr.com/newsflashes/3891939054598920?f=rss",
     "source": "36氪（兜底）",
     "topic": "世界时事",
     "region": "cn",
-    "published": "2026-07-11T08:35:13",
+    "published": "2026-07-12T02:41:18",
     "author": ""
   },
   {
-    "title": "腾讯洽购Manus？知情人士：腾讯仍将保留少数股东地位",
-    "url": "https://36kr.com/newsflashes/3890964192852482?f=rss",
+    "title": "近百名玩家涌入具身数据 : 一年融资44.7亿，谁能真靠“卖数据”赚钱？",
+    "url": "https://36kr.com/p/3892027841362694?f=rss",
     "source": "36氪（兜底）",
     "topic": "世界时事",
     "region": "cn",
-    "published": "2026-07-11T08:13:27",
+    "published": "2026-07-12T02:16:07",
     "author": ""
   },
   {
@@ -1233,6 +1143,15 @@
     "author": ""
   },
   {
+    "title": "这个周末，科技投资人都得飞一趟成都",
+    "url": "https://36kr.com/p/3892096788396806?f=rss",
+    "source": "36氪",
+    "topic": "变现路径",
+    "region": "cn",
+    "published": "2026-07-12T03:27:05",
+    "author": ""
+  },
+  {
     "title": "智谱CEO唐杰发内部信：“GLM 时刻”和万亿俱乐部之后，什么是更重要的事",
     "url": "https://36kr.com/newsflashes/3891162734689031?f=rss",
     "source": "36氪",
@@ -1260,22 +1179,31 @@
     "author": ""
   },
   {
+    "title": "Show HN: Ant – A JavaScript runtime and ecosystem",
+    "url": "https://antjs.org",
+    "source": "HackerNews",
+    "topic": "技术圈",
+    "region": "intl",
+    "published": "2026-07-11T20:07:18",
+    "author": "theMackabu · 214 pts · 91 comments"
+  },
+  {
+    "title": "Nvidia, CoreWeave, and Nebius: Inside the Circular Financing of the GPU Boom",
+    "url": "https://io-fund.com/ai-stocks/nvidia-coreweave-nebius-circular-financing-gpu-boom",
+    "source": "HackerNews",
+    "topic": "技术圈",
+    "region": "intl",
+    "published": "2026-07-11T17:21:49",
+    "author": "adletbalzhanov · 200 pts · 67 comments"
+  },
+  {
     "title": "Prefer strict tables in SQLite",
     "url": "https://evanhahn.com/prefer-strict-tables-in-sqlite/",
     "source": "HackerNews",
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-07-11T17:33:55",
-    "author": "ingve · 216 pts · 106 comments"
-  },
-  {
-    "title": "Female US rower completes historic solo journey from California to Hawaii",
-    "url": "https://www.theguardian.com/us-news/2026/jul/04/california-hawaii-rowing-solo-journey",
-    "source": "HackerNews",
-    "topic": "技术圈",
-    "region": "intl",
-    "published": "2026-07-11T17:03:23",
-    "author": "speckx · 251 pts · 87 comments"
+    "author": "ingve · 242 pts · 119 comments"
   },
   {
     "title": "huggingface/transformers 发布 Patch release v5.13.1",
@@ -1285,185 +1213,5 @@
     "region": "intl",
     "published": "2026-07-11T09:15:36",
     "author": "ArthurZucker"
-  },
-  {
-    "title": "STAGformer: A Spatio-temporal Agent Graph Transformer for Micro Mobility Demand Forecasting",
-    "url": "http://arxiv.org/abs/2607.06614v1",
-    "source": "arXiv",
-    "topic": "供应链",
-    "region": "intl",
-    "published": "2026-07-07T08:15:20",
-    "author": "Ye Zihao"
-  },
-  {
-    "title": "Relational and Sequential Conformal Inference for Energy Time Series over Graphs via Foundation Models",
-    "url": "http://arxiv.org/abs/2606.31804v1",
-    "source": "arXiv",
-    "topic": "供应链",
-    "region": "intl",
-    "published": "2026-06-30T15:22:11",
-    "author": "Keivan Faghih Niresi, Alice Cicirello, Olga Fink"
-  },
-  {
-    "title": "Solver-Verified Formulation Generation and Selection for Multi-Warehouse Inventory Allocation Using Large Language Models",
-    "url": "http://arxiv.org/abs/2606.29366v1",
-    "source": "arXiv",
-    "topic": "供应链",
-    "region": "intl",
-    "published": "2026-06-28T12:18:44",
-    "author": "Jintao Xu, Yingzheng Ma, Jiong Dong, Yongzhi Qi, Jianshen Zhang, Dongyang Geng, Anni Zhang"
-  },
-  {
-    "title": "氪星晚报｜德国大众拟大裁员，最高或裁减12万个岗位；高盛称套利交易当前处境为2000年以来最佳；百亿私募数量达142家，再次刷新历史纪录",
-    "url": "https://36kr.com/p/3889551814916614?f=rss",
-    "source": "36氪",
-    "topic": "供应链",
-    "region": "cn",
-    "published": "2026-07-10T10:23:02",
-    "author": ""
-  },
-  {
-    "title": "徕芬产线将向珠海集中，剃须刀、牙刷拉动新增长丨最前线",
-    "url": "https://36kr.com/p/3889524008303363?f=rss",
-    "source": "36氪",
-    "topic": "供应链",
-    "region": "cn",
-    "published": "2026-07-10T07:49:14",
-    "author": ""
-  },
-  {
-    "title": "sqlite-utils 4.0rc2, mostly written by Claude Fable (for about $149.25)",
-    "url": "https://simonwillison.net/2026/Jul/5/sqlite-utils-fable/#atom-everything",
-    "source": "Simon Willison",
-    "topic": "供应链",
-    "region": "intl",
-    "published": "2026-07-05T01:00:48",
-    "author": ""
-  },
-  {
-    "title": "徕芬工厂探访：一个靠高性价比出圈的品牌，为什么在撕掉「平替」标签？",
-    "url": "https://www.ifanr.com/1671565?utm_source=rss&utm_medium=rss&utm_campaign=",
-    "source": "爱范儿",
-    "topic": "供应链",
-    "region": "cn",
-    "published": "2026-07-10T06:29:33",
-    "author": "何宗丞"
-  },
-  {
-    "title": "早报｜曝苹果折叠屏iPhone已在量产/DeepSeek或自研AI推理芯片/今年618手机销量同比下滑13%",
-    "url": "https://www.ifanr.com/1671233?utm_source=rss&utm_medium=rss&utm_campaign=",
-    "source": "爱范儿",
-    "topic": "供应链",
-    "region": "cn",
-    "published": "2026-07-08T00:07:58",
-    "author": "郑廷旭"
-  },
-  {
-    "title": "机器人走进产线「打工」，至简动力不想让具身智能停在 PPT 上",
-    "url": "https://www.ifanr.com/1671185?utm_source=rss&utm_medium=rss&utm_campaign=",
-    "source": "爱范儿",
-    "topic": "供应链",
-    "region": "cn",
-    "published": "2026-07-07T09:14:21",
-    "author": "刘学文"
-  },
-  {
-    "title": "Why AI Infrastructure must evolve for Agent Experience — Akshat Bubna, Modal CTO",
-    "url": "https://www.latent.space/p/modal2026",
-    "source": "Latent Space",
-    "topic": "供应链",
-    "region": "intl",
-    "published": "2026-07-08T22:55:07",
-    "author": ""
-  },
-  {
-    "title": "[AINews] Lilian Weng summarizes 35 papers on Harness Engineering for RSI",
-    "url": "https://www.latent.space/p/ainews-lilian-weng-summarizes-35",
-    "source": "Latent Space",
-    "topic": "供应链",
-    "region": "intl",
-    "published": "2026-07-08T02:20:25",
-    "author": ""
-  },
-  {
-    "title": "AIEWF Daily Dispatch: The great loops debate and the state of AI engineering",
-    "url": "https://www.latent.space/p/aiewf-daily-dispatch-locomotives",
-    "source": "Latent Space",
-    "topic": "供应链",
-    "region": "intl",
-    "published": "2026-07-03T05:11:43",
-    "author": "Richard MacManus"
-  },
-  {
-    "title": "[AINews] not much happened today",
-    "url": "https://www.latent.space/p/ainews-not-much-happened-today-900",
-    "source": "Latent Space",
-    "topic": "供应链",
-    "region": "intl",
-    "published": "2026-07-02T07:10:14",
-    "author": ""
-  },
-  {
-    "title": "AIEWF Daily Dispatch: Loops, Software Factories & Forward Deployed Engineers",
-    "url": "https://www.latent.space/p/aiewf-daily-dispatch-loops",
-    "source": "Latent Space",
-    "topic": "供应链",
-    "region": "intl",
-    "published": "2026-07-01T04:46:21",
-    "author": "Richard MacManus"
-  },
-  {
-    "title": "Ahmad Osman on why local AI is catching up",
-    "url": "https://www.latent.space/p/ahmad-osman-local-ai",
-    "source": "Latent Space",
-    "topic": "供应链",
-    "region": "intl",
-    "published": "2026-06-30T23:39:29",
-    "author": "Richard MacManus"
-  },
-  {
-    "title": "In dogs with ruptured cranial cruciate ligament, is TPLO superior to TTA in reducing postoperative radiographic osteoarthritis?",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42434438/",
-    "source": "PubMed",
-    "topic": "心理学",
-    "region": "intl",
-    "published": "2026",
-    "author": "William Grech"
-  },
-  {
-    "title": "A qualitative investigation of experiences of care and illness perceptions related to self-management behaviors in chronic kidney disease.",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42434312/",
-    "source": "PubMed",
-    "topic": "心理学",
-    "region": "intl",
-    "published": "2026",
-    "author": "Malin Ekholm, Henna Hämäläinen, Virpi Rauta, Keegan Knittle"
-  },
-  {
-    "title": "VA-ECMO and HIET for toxic cardiogenic shock in an elderly patient following severe poly-intoxication: A case report.",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42434173/",
-    "source": "PubMed",
-    "topic": "心理学",
-    "region": "intl",
-    "published": "2026",
-    "author": "J J J Ouwerkerk, N A Poublon, A F Westra, N Kraaijvanger"
-  },
-  {
-    "title": "Healthcare provider's perceptions of family values when making end-of-life care decisions for their children: developing and implementing a survey tool.",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42434104/",
-    "source": "PubMed",
-    "topic": "心理学",
-    "region": "intl",
-    "published": "2026",
-    "author": "Nithya Sivakumar, Stephanie Kukora, Cherie Ginwalla, Satyan Lakshminrusimha"
-  },
-  {
-    "title": "Lighting Up the Dark: Indocyanine Green Angiography for Assessing Free Flap Autonomization After Late Arteriovenous Loop Thrombosis.",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42434086/",
-    "source": "PubMed",
-    "topic": "心理学",
-    "region": "intl",
-    "published": "2026",
-    "author": "Alexander Geierlehner, Wibke Müller-Seubert, Andreas Arkudas, Ingo Ludolph"
   }
 ]

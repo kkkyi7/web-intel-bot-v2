@@ -1,45 +1,44 @@
 {
   "date": "2026-07-12",
   "profile": "kizty",
-  "generated_at": "2026-07-12 01:36",
+  "generated_at": "2026-07-12 04:50",
   "stats": {
     "topics_ran": [
       "AI大事",
       "世界时事",
       "变现路径",
       "技术圈",
-      "GitHub 动态",
-      "供应链"
+      "GitHub 动态"
     ],
-    "total_selected": 30,
-    "total_fetched": 163
+    "total_selected": 24,
+    "total_fetched": 135
   },
   "top3": [
     {
       "topic": "AI大事",
       "title": "GPT-5.6全面围剿Claude Fable 5，“超级应用”ChatGPT Work上位，Altman紧急澄清：不会取代Coedx",
-      "tldr": "OpenAI 发布 GPT-5.6，重点升级了多模态和长上下文能力，同时推出“ChatGPT Work”作为企业超级应用，直接对标 Claude 的企业版 Fable 5。Altman 紧急澄清新功能不会取代已有的代码编辑器 Coedx。",
+      "tldr": "OpenAI 发布 GPT-5.6，主打多模态和任务编排，直接对标 Anthropic 的 Claude Fable 5。同时推出“ChatGPT Work”作为企业超级应用，Altman 紧急澄清这不会取代现有的代码编辑器 Coedx。",
       "score": 9,
       "url": "https://www.infoq.cn/article/iqUrh3vqeO4xszUa1bCd?utm_source=rss&utm_medium=article",
       "source": "InfoQ 中文",
-      "source_count": 3
-    },
-    {
-      "topic": "AI大事",
-      "title": "GPT-5.6一小时解开50年数学猜想，700词Prompt驾驭64个子Agent",
-      "tldr": "OpenAI 的 GPT-5.6 用一小时破解了一个困扰数学家50年的猜想，并且用户只需写700词的提示词就能同时调度64个AI子助手干活，展示了模型推理和任务编排能力的巨大飞跃。",
-      "score": 9,
-      "url": "https://www.qbitai.com/2026/07/447873.html",
-      "source": "量子位",
       "source_count": 1
     },
     {
-      "topic": "供应链",
-      "title": "求解器验证的LLM多仓库库存分配公式生成与选择",
-      "tldr": "京东用大模型自动把自然语言描述的库存分配需求转成数学公式，再用求解器验证和选最优方案，在29个真实场景中准确率提升4.5个百分点。",
+      "topic": "世界时事",
+      "title": "霍尔木兹海峡冲突再起，美军打击伊朗多地，海湾国家遇袭",
+      "tldr": "伊朗宣布无限期关闭霍尔木兹海峡，美军第三轮打击伊朗140个军事目标，伊朗反击海湾美军基地。美伊互袭升级，全球能源运输关键通道被掐断。",
+      "score": 8,
+      "url": "https://m.thepaper.cn/detail/33569734",
+      "source": "澎湃新闻",
+      "source_count": 1
+    },
+    {
+      "topic": "AI大事",
+      "title": "SpaceXAI 发布 Grok 4.5，收购 Cursor 后首款 Opus 级模型",
+      "tldr": "马斯克的 xAI 发布了新模型 Grok 4.5，定位是“Opus 级但更快更便宜”，专门为编程和 AI Agent 场景训练，并且是收购 Cursor 后合作训练的第一个模型。",
       "score": 9,
-      "url": "http://arxiv.org/abs/2606.29366v1",
-      "source": "arXiv",
+      "url": "https://www.latent.space/p/ainews-spacexai-launches-grok-45",
+      "source": "Latent Space",
       "source_count": 1
     }
   ]
