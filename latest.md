@@ -1,49 +1,45 @@
-# 情报 Brief · 2026-07-11
+# 情报 Brief · 2026-07-12
 
 ## 今日 TOP3
 
-1. **中国临时实施氦气出口禁令 优先保障国内需求** · 分9 · 2信源
-   中国突然宣布氦气临时禁止出口，因为中东打仗导致进口不稳，而国内84%靠进口，怕半导体和医疗等关键行业断供，先保自己。
-   https://www.caixin.com/2026-07-10/102462928.html
+1. **GPT-5.6全面围剿Claude Fable 5，“超级应用”ChatGPT Work上位，Altman紧急澄清：不会取代Coedx** · 分9 · 3信源
+   OpenAI 发布 GPT-5.6，重点升级了多模态和长上下文能力，同时推出“ChatGPT Work”作为企业超级应用，直接对标 Claude 的企业版 Fable 5。Altman 紧急澄清新功能不会取代已有的代码编辑器 Coedx。
+   https://www.infoq.cn/article/iqUrh3vqeO4xszUa1bCd?utm_source=rss&utm_medium=article
 
-2. **Claude Code 发布 v2.1.207 自动模式全面开放** · 分9
-   Claude Code 这次更新把自动模式从测试选项变成默认功能，修了一堆终端卡死、安全弹窗、远程控制丢状态等十几个 bug，对开发体验提升明显。
-   https://github.com/anthropics/claude-code/releases/tag/v2.1.207
+2. **GPT-5.6一小时解开50年数学猜想，700词Prompt驾驭64个子Agent** · 分9
+   OpenAI 的 GPT-5.6 用一小时破解了一个困扰数学家50年的猜想，并且用户只需写700词的提示词就能同时调度64个AI子助手干活，展示了模型推理和任务编排能力的巨大飞跃。
+   https://www.qbitai.com/2026/07/447873.html
 
-3. **Lilian Weng 总结 35 篇论文：关于“驾驭工程”与递归自我改进** · 分9
-   Lilian Weng 发了一篇重磅总结，核心观点是：AI 的递归自我改进（RSI）关键不在于改模型权重，而在于改“驾驭系统”（Harness），也就是给 Agent 设定的目标、工具和上下文。
-   https://www.latent.space/p/ainews-lilian-weng-summarizes-35
+3. **求解器验证的LLM多仓库库存分配公式生成与选择** · 分9
+   京东用大模型自动把自然语言描述的库存分配需求转成数学公式，再用求解器验证和选最优方案，在29个真实场景中准确率提升4.5个百分点。
+   http://arxiv.org/abs/2606.29366v1
 
 ## 今日精选
 
-### GitHub 动态
-- [Claude Code 发布 v2.1.207 自动模式全面开放](https://github.com/anthropics/claude-code/releases/tag/v2.1.207) · GitHubRelease · 分9
-  Claude Code 这次更新把自动模式从测试选项变成默认功能，修了一堆终端卡死、安全弹窗、远程控制丢状态等十几个 bug，对开发体验提升明显。
-- [LangChain 发布 1.3.13 版本，支持提示缓存](https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.3.13) · GitHubRelease · 分9
-  LangChain 发布了小版本更新，主要新增了显式提示缓存功能和元数据支持，让开发者能更高效地调用大模型。
-
-### 技术圈
-- [GPT-5.6 Sol Ultra 证明循环双覆盖猜想](https://cdn.openai.com/pdf/04d1d1e4-bc75-476a-97cf-49055cd98d31/cdc_proof.pdf) · HackerNews · 分9
-  OpenAI 最新模型 GPT-5.6 Sol Ultra 成功证明了一个存在几十年的数学难题——循环双覆盖猜想，并且公开了完整提示词，展示了 AI 在数学证明上的突破性能力。
-- [成功企业如何走向盲目](https://ianreppel.org/how-successful-companies-go-blind/) · HackerNews · 分9
-  HN 上讨论为什么大公司成功后容易变瞎：内部官僚化、老员工靠资历上位不更新技能、流程扼杀创新，最终失去对市场和客户的敏感度。
-- [在慢电脑上跑通 GLM 5.2 的实践](https://github.com/JustVugg/colibri) · HackerNews · 分9
-  一个开发者用自己 32GB 内存的普通笔记本，通过把模型量化并存在硬盘上按需加载，成功跑起了 744B 参数的 GLM 5.2 大模型，虽然速度只有 0.1 token/秒。
-
-### 世界时事
-- [中国临时实施氦气出口禁令 优先保障国内需求](https://www.caixin.com/2026-07-10/102462928.html) · 财新网 · 分9
-  中国突然宣布氦气临时禁止出口，因为中东打仗导致进口不稳，而国内84%靠进口，怕半导体和医疗等关键行业断供，先保自己。
+### 变现路径
+- [智谱CEO唐杰发内部信：GLM时刻和万亿俱乐部之后，什么是更重要的事](https://36kr.com/newsflashes/3891162734689031?f=rss) · 36氪 · 分9
+  智谱创始人唐杰发内部信，说公司不急着靠应用赚钱，而是要继续砸钱搞AGI，重点攻克长程任务、自治智能体、自我进化这些硬骨头，同时强调安全治理。
 
 ### AI大事
+- [GPT-5.6一小时解开50年数学猜想，700词Prompt驾驭64个子Agent](https://www.qbitai.com/2026/07/447873.html) · 量子位 · 分9
+  OpenAI 的 GPT-5.6 用一小时破解了一个困扰数学家50年的猜想，并且用户只需写700词的提示词就能同时调度64个AI子助手干活，展示了模型推理和任务编排能力的巨大飞跃。
 - [GPT-5.6全面围剿Claude Fable 5，“超级应用”ChatGPT Work上位，Altman紧急澄清：不会取代Coedx](https://www.infoq.cn/article/iqUrh3vqeO4xszUa1bCd?utm_source=rss&utm_medium=article) · InfoQ 中文 · 分9
-  OpenAI 发布 GPT-5.6，直接对标 Anthropic 的 Claude Fable 5，同时推出一个叫 ChatGPT Work 的超级应用，把聊天、代码、文档、工作流全整合了。Altma…
-- [Grok 4.5 登陆 Cursor，价格仅为 Opus 六分之一](https://www.bensbites.com/p/grok-x-cursor) · Ben's Bites · 分9
-  SpaceXAI 和 Cursor 联合训练了 Grok 4.5 模型，性能介于 Opus 4.7 和 4.8 之间，但在 Cursor 里使用成本仅为 Opus 的六分之一，GPT-5.5 的三分之…
-- [OpenAI 推出 GPT-5.5 生物漏洞赏金计划](https://openai.com/index/bio-bug-bounty) · OpenAI Blog · 分9
-  OpenAI 搞了个悬赏计划，邀请全球生物安全专家找 GPT-5.5 在基因编辑、病毒设计等领域的潜在滥用风险，最高奖金 5 万美元。
+  OpenAI 发布 GPT-5.6，重点升级了多模态和长上下文能力，同时推出“ChatGPT Work”作为企业超级应用，直接对标 Claude 的企业版 Fable 5。Altman 紧急澄清新功能…
+- [SpaceXAI 发布 Grok 4.5，收购 Cursor 后首个 Opus 级模型](https://www.latent.space/p/ainews-spacexai-launches-grok-45) · Latent Space · 分9
+  马斯克的 xAI 发布了新模型 Grok 4.5，号称性能接近 Anthropic 的 Opus 级别，但更快更便宜。这是他们收购 Cursor 后，专门为编程和 AI Agent 场景训练的第一个模…
+- [Gemini API 托管代理升级：支持后台任务与远程 MCP](https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api/) · Google AI Blog · 分9
+  Google 给 Gemini API 的托管代理加了新功能，让开发者能构建更可靠的生产级 AI 代理，核心是支持后台长时间运行任务和连接远程 MCP 服务器。
 
 ### 供应链
-- [AI基础设施必须为Agent体验进化](https://www.latent.space/p/modal2026) · Latent Space · 分9
-  Modal CTO聊为什么传统云架构不适合AI Agent，他们刚融了3.55亿美元，要把云从给人用改成给Agent用，核心是弹性推理、沙箱和可观测性。
+- [徕芬工厂探访：一个靠高性价比出圈的品牌，为什么在撕掉「平替」标签？](https://www.ifanr.com/1671565?utm_source=rss&utm_medium=rss&utm_campaign=) · 爱范儿 · 分9
+  爱范儿探访徕芬珠海超级工厂，讲它如何从“戴森平替”靠自建供应链，用重资产换产品定义权，在吹风机、剃须刀、牙刷等品类上做差异化，而不是只拼性价比。
+- [AI 基础设施必须为 Agent 体验进化](https://www.latent.space/p/modal2026) · Latent Space · 分9
+  Modal 刚融了 3.55 亿美元，CTO 说传统云是为人类开发者设计的，但 AI Agent 不会看文档、不会调 YAML，所以基础设施得从“开发者体验”转向“Agent 体验”，比如自动弹性推理…
+- [Lilian Weng 总结 35 篇论文：关于“驾驭工程”与递归自我改进](https://www.latent.space/p/ainews-lilian-weng-summarizes-35) · Latent Space · 分9
+  Lilian Weng 发了一篇重磅总结，核心观点是：AI 的递归自我改进（RSI）关键不在于改模型权重，而在于改进“驾驭系统”（Harness）。这正在成为 Agent 产品设计的中心思路。
+- [AI工程师世界博览会：循环之争与AI工程现状](https://www.latent.space/p/aiewf-daily-dispatch-locomotives) · Latent Space · 分9
+  AI工程师大会上，两派辩论“AI自主编程循环”是否靠谱。一方说这是未来，另一方说炒作过头、工程纪律没跟上，还讨论了软件工厂和成本问题。
+- [求解器验证的LLM多仓库库存分配公式生成与选择](http://arxiv.org/abs/2606.29366v1) · arXiv · 分9
+  京东用大模型自动把自然语言描述的库存分配需求转成数学公式，再用求解器验证和选最优方案，在29个真实场景中准确率提升4.5个百分点。
 
-_更新于 2026-07-11 04:41 · web-intel-bot_
+_更新于 2026-07-12 01:36 · web-intel-bot_

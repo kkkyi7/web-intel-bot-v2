@@ -1,0 +1,444 @@
+<!doctype html><html lang='zh-CN'><head><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width,initial-scale=1,viewport-fit=cover'>
+<title>每日学习 · 2026-07-12</title>
+<style>
+    :root{
+      --bg:#f5f5f7; --surface:#ffffff; --surface-2:#fbfbfd;
+      --text:#1d1d1f; --text-2:#86868b; --divider:#d2d2d7;
+      --accent:#0071e3; --accent-soft:rgba(0,113,227,.08);
+      --radius:14px; --radius-lg:20px;
+    }
+    *{box-sizing:border-box;-webkit-tap-highlight-color:transparent;}
+    html,body{margin:0;padding:0;}
+    body{
+      font-family:-apple-system,BlinkMacSystemFont,"SF Pro Text","PingFang SC",
+                  "Helvetica Neue","Microsoft YaHei",sans-serif;
+      background:#f5f5f7; color:#1d1d1f; line-height:1.6;
+      padding:28px 20px 80px;
+      -webkit-font-smoothing:antialiased;
+    }
+    .wrap{max-width:720px;margin:0 auto;}
+
+    /* ========== Hero（极简，无控件） ========== */
+    .hero{
+      background:#ffffff; border-radius:20px;
+      padding:28px 28px 24px;
+      box-shadow:0 1px 2px rgba(0,0,0,.04), 0 8px 32px rgba(0,0,0,.04);
+    }
+    .hero-tag{
+      display:inline-block; font-size:11px; letter-spacing:.12em;
+      color:#0071e3; font-weight:600; margin-bottom:10px;
+      text-transform:uppercase;
+    }
+    .hero h1{
+      margin:0 0 8px; font-size:28px; font-weight:700; letter-spacing:-.02em;
+      color:#1d1d1f;
+    }
+    .hero-sub{
+      margin:0; color:#86868b; font-size:14px;
+    }
+    .hero-hint{
+      margin:18px 0 0; padding:10px 14px;
+      background:rgba(0,113,227,.08); border-radius:10px;
+      font-size:13px; color:#0a5bc4; line-height:1.55;
+    }
+    .hero-hint b{font-weight:600;}
+
+    /* ========== Topic 分组（大类标题） ========== */
+    .topic{margin:36px 0 0;}
+    .topic-title{
+      margin:0 0 14px; padding:10px 4px 8px;
+      font-size:18px; font-weight:700; letter-spacing:.01em;
+      color:#1d1d1f;
+      border-bottom:2px solid #d2d2d7;
+    }
+    .topic-title .count{
+      color:#86868b; opacity:.7; font-weight:500;
+      font-size:13px; margin-left:6px;
+    }
+
+    /* ========== 双栏（海外 / 国内） ========== */
+    .cols{
+      width:100%; border-collapse:separate; border-spacing:0;
+      table-layout:fixed;   /* 锁死 50/50，不会因长链接撑歪 */
+      margin:0;
+    }
+    .cols > tbody > tr > .col,
+    .cols > tr > .col{
+      vertical-align:top;
+      padding:0 6px;        /* 栏间留点空隙 */
+    }
+    .cols .col-intl{ padding-left:0; padding-right:10px; }
+    .cols .col-cn  { padding-left:10px; padding-right:0; }
+
+    .col-title{
+      margin:0 0 10px; padding:4px 8px;
+      font-size:13px; font-weight:600; letter-spacing:.02em;
+      color:#86868b;
+      border-left:3px solid #d2d2d7;
+      background:#fbfbfd; border-radius:4px;
+    }
+    .col-title-intl{ border-left-color:#0071e3; }
+    .col-title-cn  { border-left-color:#e53935; }
+    .col-count{color:#86868b; opacity:.7; font-weight:500; font-size:12px;}
+
+    .col-empty{
+      color:#86868b; font-size:13px;
+      padding:14px 10px; text-align:center;
+      background:#fbfbfd; border-radius:14px;
+      opacity:.7;
+    }
+
+    /* 手机窄屏：双栏堆叠成单栏 */
+    @media (max-width:560px){
+      .cols, .cols tbody, .cols tr, .cols .col{
+        display:block !important;
+        width:100% !important;
+      }
+      .cols .col-intl, .cols .col-cn{
+        padding:0 !important;
+      }
+      .cols .col-cn{ margin-top:18px; }
+    }
+
+    /* ========== 今日头条（v3 LLM 选的 Top3） ========== */
+    .headlines{
+      margin:24px 0 8px;
+      padding:18px 16px 16px;
+      background:linear-gradient(135deg, #fff8e1 0%, #fff3d6 100%);
+      border:1px solid #f0d97a;
+      border-radius:20px;
+    }
+    .headlines-title{
+      font-size:14px; font-weight:700; color:#7a5c00;
+      letter-spacing:.02em; margin-bottom:14px;
+    }
+    .headlines-cards{
+      display:flex; flex-direction:column; gap:10px;
+    }
+    .headline-card{
+      display:block; text-decoration:none; color:inherit;
+      background:rgba(255,255,255,.6);
+      padding:12px 14px; border-radius:14px;
+      transition:background .15s, transform .15s;
+      border:1px solid transparent;
+    }
+    .headline-card:hover{
+      background:rgba(255,255,255,.95);
+      border-color:#f0d97a;
+    }
+    .headline-topic{
+      font-size:11px; font-weight:700; color:#a07000;
+      letter-spacing:.05em; text-transform:uppercase;
+      margin-bottom:4px;
+    }
+    .headline-title{
+      font-size:16px; font-weight:600; color:#1d1d1f;
+      line-height:1.4; margin-bottom:6px;
+    }
+    .headline-meta{
+      font-size:12px; color:#86868b;
+    }
+
+    /* ========== Item 卡（折叠 details） ========== */
+    .item{
+      background:#ffffff; border-radius:14px;
+      margin-bottom:10px; overflow:hidden;
+      box-shadow:0 1px 2px rgba(0,0,0,.04);
+      transition:box-shadow .2s, transform .2s;
+      scroll-margin-top:24px;
+    }
+    /* 从今日头条点过来时高亮 */
+    .item:target{
+      box-shadow:0 0 0 2px #0071e3, 0 4px 16px rgba(0,113,227,.18);
+      animation:headlinePulse 1.2s ease-out 1;
+    }
+    @keyframes headlinePulse{
+      0%   { box-shadow:0 0 0 4px rgba(0,113,227,.4), 0 0 24px rgba(0,113,227,.4); }
+      100% { box-shadow:0 0 0 2px #0071e3, 0 4px 16px rgba(0,113,227,.18); }
+    }
+    .item[open]{
+      box-shadow:0 2px 8px rgba(0,0,0,.06), 0 8px 24px rgba(0,113,227,.08);
+    }
+    .item > summary{
+      list-style:none; cursor:pointer; padding:16px 20px;
+      display:flex; align-items:flex-start; gap:12px;
+      position:relative;
+      transition:background .15s;
+    }
+    .item > summary::-webkit-details-marker{display:none;}
+    .item > summary:hover{background:#fbfbfd;}
+    .item[open] > summary{
+      border-bottom:1px solid #d2d2d7;
+    }
+    .item .score-chip{
+      flex-shrink:0; width:32px; height:32px; border-radius:50%;
+      background:rgba(0,113,227,.08); color:#0071e3;
+      font-size:13px; font-weight:700; letter-spacing:-.02em;
+      display:flex; align-items:center; justify-content:center;
+      font-variant-numeric:tabular-nums;
+    }
+    .item .sum-main{flex:1; min-width:0;}
+    .item .sum-title-cn{
+      font-size:17px; font-weight:600; color:#1d1d1f;
+      line-height:1.35; margin:0 0 4px;
+    }
+    .item .sum-title-en{
+      font-size:14px; font-weight:400; color:#86868b;
+      line-height:1.4; margin:0 0 6px;
+      word-break:break-word; opacity:.85;
+    }
+    /* 标题已是中文（无 EN 副行）时的兼容样式 */
+    .item .sum-title{
+      font-size:16px; font-weight:600; color:#1d1d1f;
+      line-height:1.4; margin:0 0 4px;
+    }
+    .item .sum-meta{
+      font-size:12px; color:#86868b; line-height:1.4;
+      white-space:nowrap; overflow:hidden; text-overflow:ellipsis;
+    }
+    .item .sum-caret{
+      flex-shrink:0; color:#86868b; font-size:18px;
+      transition:transform .25s ease;
+      margin-top:2px;
+    }
+    .item[open] .sum-caret{transform:rotate(180deg); color:#0071e3;}
+
+    /* 当前正在朗读的 item：左侧 accent 光带 + 标题加重 */
+    .item.playing{
+      background:linear-gradient(90deg, rgba(0,113,227,.08) 0%, #ffffff 40%);
+    }
+    .item.playing > summary{position:relative;}
+    .item.playing > summary::before{
+      content:""; position:absolute; left:0; top:10%; bottom:10%;
+      width:3px; background:#0071e3; border-radius:0 2px 2px 0;
+    }
+    .item.playing .sum-title{color:#0071e3;}
+    .item.playing .sum-title-cn{color:#0071e3;}
+
+    /* 展开内容 */
+    .item-body{padding:16px 20px 20px;}
+    .item-link{
+      display:inline-block; margin-bottom:12px;
+      font-size:13px; color:#0071e3; text-decoration:none;
+      word-break:break-all;
+    }
+    .item-link:hover{text-decoration:underline;}
+
+    /* ========== Lite 模式（v2.6 邮件正文专用） ========== */
+    /* 目标：一眼看到接下来要看哪几件事 → 紧凑、目录感、色块缩小 */
+    .item-lite{padding:0; margin-bottom:6px;}
+    .item-lite .sum-lite{
+      padding:10px 14px 6px;
+      display:flex; align-items:flex-start; gap:10px;
+    }
+    .item-lite .score-chip{
+      width:26px; height:26px; font-size:12px;
+    }
+    .item-lite .sum-title{
+      font-size:15px; line-height:1.35; margin:0 0 2px;
+    }
+    .item-lite .sum-meta{
+      font-size:11px;
+    }
+    .item-body-lite{padding:4px 14px 12px;}
+    .item-body-lite .sec{
+      margin:6px 0; padding:8px 10px; border-radius:8px;
+      font-size:13px; line-height:1.5;
+    }
+    .item-body-lite .sec-label{
+      font-size:10px; margin-bottom:3px;
+    }
+
+    /* Top3 lite：去 meta，加 tldr 一句话；卡片缩小一半 */
+    .headline-lite{padding:10px 12px !important;}
+    .headline-lite .headline-topic{
+      font-size:10px; margin-bottom:2px;
+    }
+    .headline-lite .headline-title{
+      font-size:14px; line-height:1.3; margin-bottom:4px;
+    }
+    .headline-tldr{
+      font-size:12px; color:#86868b; line-height:1.45;
+      display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical;
+      overflow:hidden;
+    }
+
+    .sec{
+      margin:10px 0; padding:12px 14px; border-radius:10px;
+      font-size:14px; line-height:1.6;
+    }
+    .sec-label{
+      font-size:11px; font-weight:700; letter-spacing:.06em;
+      text-transform:uppercase; opacity:.7; margin-bottom:6px;
+    }
+    .sec-body{white-space:pre-wrap;}
+    .sec-score  {background:#fff8e6; color:#8a5a00;}
+    .sec-tldr   {background:#e6f7ed; color:#0d6b35;}
+    .sec-detail {background:#eef4ff; color:#14467d;}
+    .sec-term   {background:#fdecf3; color:#8a1e5e;}
+    .sec-usefor {background:#fff1e5; color:#8a3d06;}
+    .sec-deeper {background:#efeaff; color:#4a2aa5;}
+    .sec-other  {background:#f2f2f4; color:#4a4a4e;}
+
+    .empty{
+      color:#86868b; font-size:13px; font-style:italic;
+      padding:12px 20px;
+    }
+
+    footer{
+      margin-top:40px; padding:20px 0 8px;
+      color:#86868b; font-size:11px; text-align:center;
+      border-top:1px solid #d2d2d7;
+    }
+
+    /* ========== 呼吸点（全局音频状态指示） ========== */
+    .pulse-dot{
+      position:fixed; top:18px; right:18px;
+      width:10px; height:10px; border-radius:50%;
+      background:#d2d2d7; cursor:pointer; z-index:50;
+      transition:background .3s, transform .2s;
+      box-shadow:0 0 0 0 #0071e3;
+    }
+    .pulse-dot:hover{transform:scale(1.3);}
+    /* 任何 item 在"playing"状态时，小点变蓝呼吸 */
+    body:has(.item.playing) .pulse-dot{
+      background:#0071e3;
+      animation:breathe 1.6s ease-in-out infinite;
+    }
+    @keyframes breathe{
+      0%,100%{box-shadow:0 0 0 0 rgba(0,113,227,.6);}
+      50%{box-shadow:0 0 0 8px rgba(0,113,227,0);}
+    }
+
+    /* 手机：呼吸点挪到右下，拇指够得着 */
+    @media (max-width:560px){
+      body{padding:16px 14px 100px;}
+      .hero{padding:22px 20px;}
+      .hero h1{font-size:22px;}
+      .item > summary{padding:14px 16px;}
+      .item-body{padding:14px 16px 18px;}
+      .pulse-dot{top:auto; bottom:20px; right:20px; width:12px; height:12px;}
+    }
+
+    /* ========== 全局底部细进度线 ========== */
+    .bar-bottom{
+      position:fixed; left:0; right:0; bottom:0;
+      height:2px; background:transparent; z-index:40;
+      pointer-events:none;
+    }
+    .bar-bottom::after{
+      content:""; display:block; height:100%; width:0%;
+      background:#0071e3;
+      transition:width .15s linear;
+    }
+    </style></head><body>
+<div class="wrap">
+<div class="hero"><div class="hero-tag">DAILY BRIEF</div><h1>每日学习 · 2026-07-12</h1><p class="hero-sub">30 条精选 · 6 个方向 · 无音频</p><p class="hero-hint">📎 <b>看完整版（详细 / 对你有啥用 / 术语 / 想深入）</b>：戳邮件附件 <code>digest_2026-07-12.html</code></p><p class="hero-hint">📖 <b>或直接浏览器看（CSS 完整渲染 / 手机电脑都美）</b>：<a href="https://kkkyi7.github.io/web-intel-bot-v2/kizty/2026-07-12/digest.html" target="_blank" rel="noopener">点这里打开</a></p></div>
+<div class="headlines"><div class="headlines-title">📰 今日头条</div><div class="headlines-cards"><a class="headline-card headline-lite" href="https://www.infoq.cn/article/iqUrh3vqeO4xszUa1bCd?utm_source=rss&amp;utm_medium=article" target="_blank" rel="noopener"><div class="headline-topic">AI大事</div><div class="headline-title">GPT-5.6全面围剿Claude Fable 5，“超级应用”ChatGPT Work上位，Altman紧急澄清：不会取代Coedx</div><div class="headline-tldr">OpenAI 发布 GPT-5.6，重点升级了多模态和长上下文能力，同时推出“ChatGPT Work”作为企业超级应用，直接对标 Clau…</div></a><a class="headline-card headline-lite" href="https://www.qbitai.com/2026/07/447873.html" target="_blank" rel="noopener"><div class="headline-topic">AI大事</div><div class="headline-title">GPT-5.6一小时解开50年数学猜想，700词Prompt驾驭64个子Agent</div><div class="headline-tldr">OpenAI 的 GPT-5.6 用一小时破解了一个困扰数学家50年的猜想，并且用户只需写700词的提示词就能同时调度64个AI子助手干活，…</div></a><a class="headline-card headline-lite" href="http://arxiv.org/abs/2606.29366v1" target="_blank" rel="noopener"><div class="headline-topic">供应链</div><div class="headline-title">求解器验证的LLM多仓库库存分配公式生成与选择</div><div class="headline-tldr">京东用大模型自动把自然语言描述的库存分配需求转成数学公式，再用求解器验证和选最优方案，在29个真实场景中准确率提升4.5个百分点。</div></a></div></div>
+<section class="topic">
+<div class="topic-title">AI大事 <span class="count">· 8 条</span></div>
+<div class='col-title col-title-intl' style='margin:14px 0 10px;padding:4px 8px;font-size:13px;font-weight:600;color:#86868b;border-left:3px solid #0071e3;background:#f5f5f7;border-radius:4px;'>🌐 海外 · 6</div>
+<div class="item item-lite" id="AI大事_1186b28822"><div class="sum sum-lite"><div class="score-chip">9</div><div class="sum-main"><div class="sum-title">Desktop Commander MCP：让 Claude 控制终端和文件系统</div><div class="sum-meta">GitHub Trending</div></div></div><div class="item-body item-body-lite"><div class='sec sec-score'><div class='sec-label'>【相关性评分】</div><div class='sec-body'>9</div></div>
+<div class='sec sec-tldr'><div class='sec-label'>【一句话讲清楚它在说啥】</div><div class='sec-body'>这是一个 MCP 服务器，让 Claude 能直接操作你的电脑终端、搜索文件、编辑代码，相当于把 AI 编辑器（如 Cursor）的能力搬到了 Claude Desktop 里，而且用的是订阅费而非 API 按量计费。</div></div></div></div>
+<div class="item item-lite" id="AI大事_c754a9a1d0"><div class="sum sum-lite"><div class="score-chip">9</div><div class="sum-main"><div class="sum-title">Gemini API 托管代理升级：支持后台任务与远程 MCP</div><div class="sum-meta">Google AI Blog · Mariano Cocirio · 5 天前</div></div></div><div class="item-body item-body-lite"><div class='sec sec-score'><div class='sec-label'>【相关性评分】</div><div class='sec-body'>9</div></div>
+<div class='sec sec-tldr'><div class='sec-label'>【一句话讲清楚它在说啥】</div><div class='sec-body'>Google 给 Gemini API 的托管代理加了新功能，让开发者能构建更可靠的生产级 AI 代理，核心是支持后台长时间运行任务和连接远程 MCP 服务器。</div></div></div></div>
+<div class="item item-lite" id="AI大事_252bae60fd"><div class="sum sum-lite"><div class="score-chip">9</div><div class="sum-main"><div class="sum-title">SpaceXAI 发布 Grok 4.5，收购 Cursor 后首个 Opus 级模型</div><div class="sum-meta">Latent Space · 3 天前</div></div></div><div class="item-body item-body-lite"><div class='sec sec-score'><div class='sec-label'>【相关性评分】</div><div class='sec-body'>9</div></div>
+<div class='sec sec-tldr'><div class='sec-label'>【一句话讲清楚它在说啥】</div><div class='sec-body'>马斯克的 xAI 发布了新模型 Grok 4.5，号称性能接近 Anthropic 的 Opus 级别，但更快更便宜。这是他们收购 Cursor 后，专门为编程和 AI Agent 场景训练的第一个模型，并且已经集成进 Cursor 里。</div></div></div></div>
+<div class="item item-lite" id="AI大事_0453af9ffc"><div class="sum sum-lite"><div class="score-chip">8</div><div class="sum-main"><div class="sum-title">OpenAI 推出 GPT-5.5 生物漏洞赏金计划</div><div class="sum-meta">OpenAI Blog · 3 天前</div></div></div><div class="item-body item-body-lite"><div class='sec sec-score'><div class='sec-label'>【相关性评分】</div><div class='sec-body'>8</div></div>
+<div class='sec sec-tldr'><div class='sec-label'>【一句话讲清楚它在说啥】</div><div class='sec-body'>OpenAI 搞了个悬赏计划，邀请全球生物安全专家去测试 GPT-5.5，看它能不能帮坏人制造生物武器，找到漏洞的人能拿最高 5 万美元奖金。</div></div></div></div>
+<div class="item item-lite" id="AI大事_b9b468358f"><div class="sum sum-lite"><div class="score-chip">7</div><div class="sum-main"><div class="sum-title">OpenAI 押注家庭场景，ChatGPT 深入千家万户</div><div class="sum-meta">TechCrunch AI · Jagmeet Singh · 昨天 14:13</div></div></div><div class="item-body item-body-lite"><div class='sec sec-score'><div class='sec-label'>【相关性评分】</div><div class='sec-body'>7</div></div>
+<div class='sec sec-tldr'><div class='sec-label'>【一句话讲清楚它在说啥】</div><div class='sec-body'>OpenAI 正在招聘专门的产品经理，为家庭、看护者和老年人设计 ChatGPT 体验，标志着它从个人工具向家庭服务场景的战略扩展。</div></div></div></div>
+<div class="item item-lite" id="AI大事_d10c4de21f"><div class="sum sum-lite"><div class="score-chip">7</div><div class="sum-main"><div class="sum-title">SLORR：简单高效的低秩正则化训练方法</div><div class="sum-meta">arXiv · David González-Martínez, Shiwei Liu · 3 天前</div></div></div><div class="item-body item-body-lite"><div class='sec sec-score'><div class='sec-label'>【相关性评分】</div><div class='sec-body'>7</div></div>
+<div class='sec sec-tldr'><div class='sec-label'>【一句话讲清楚它在说啥】</div><div class='sec-body'>这篇论文提出了一种叫SLORR的低秩正则化方法，能在训练过程中让神经网络更容易被压缩，且不改变模型结构、不增加额外参数，计算开销很小，尤其适合大模型训练。</div></div></div></div>
+<div class='col-title col-title-cn' style='margin:18px 0 10px;padding:4px 8px;font-size:13px;font-weight:600;color:#86868b;border-left:3px solid #e53935;background:#f5f5f7;border-radius:4px;'>🇨🇳 国内 · 2</div>
+<div class="item item-lite" id="AI大事_abd9f53b63"><div class="sum sum-lite"><div class="score-chip">9</div><div class="sum-main"><div class="sum-title">GPT-5.6全面围剿Claude Fable 5，“超级应用”ChatGPT Work上位，Altman紧急澄清：不会取代Coedx</div><div class="sum-meta">InfoQ 中文 · 褚杏娟 · 2 天前</div></div></div><div class="item-body item-body-lite"><div class='sec sec-score'><div class='sec-label'>【相关性评分】</div><div class='sec-body'>9</div></div>
+<div class='sec sec-tldr'><div class='sec-label'>【一句话讲清楚它在说啥】</div><div class='sec-body'>OpenAI 发布 GPT-5.6，重点升级了多模态和长上下文能力，同时推出“ChatGPT Work”作为企业超级应用，直接对标 Claude 的企业版 Fable 5。Altman 紧急澄清新功能不会取代已有的代码编辑器 Coedx。</div></div></div></div>
+<div class="item item-lite" id="AI大事_dbe10a2c00"><div class="sum sum-lite"><div class="score-chip">9</div><div class="sum-main"><div class="sum-title">GPT-5.6一小时解开50年数学猜想，700词Prompt驾驭64个子Agent</div><div class="sum-meta">量子位 · henry · 昨天 05:30</div></div></div><div class="item-body item-body-lite"><div class='sec sec-score'><div class='sec-label'>【相关性评分】</div><div class='sec-body'>9</div></div>
+<div class='sec sec-tldr'><div class='sec-label'>【一句话讲清楚它在说啥】</div><div class='sec-body'>OpenAI 的 GPT-5.6 用一小时破解了一个困扰数学家50年的猜想，并且用户只需写700词的提示词就能同时调度64个AI子助手干活，展示了模型推理和任务编排能力的巨大飞跃。</div></div></div></div>
+</section>
+<section class="topic">
+<div class="topic-title">世界时事 <span class="count">· 8 条</span></div>
+<div class='col-title col-title-cn' style='margin:18px 0 10px;padding:4px 8px;font-size:13px;font-weight:600;color:#86868b;border-left:3px solid #e53935;background:#f5f5f7;border-radius:4px;'>🇨🇳 国内 · 8</div>
+<div class="item item-lite" id="世界时事_5e5674e550"><div class="sum sum-lite"><div class="score-chip">8</div><div class="sum-main"><div class="sum-title">怕中国反制，欧盟开始留“后手</div><div class="sum-meta">观察者网 · 今天 00:16</div></div></div><div class="item-body item-body-lite"><div class='sec sec-score'><div class='sec-label'>【相关性评分】</div><div class='sec-body'>8</div></div>
+<div class='sec sec-tldr'><div class='sec-label'>【一句话讲清楚它在说啥】</div><div class='sec-body'>欧盟正在搞一个叫“团结工具”的基金，打算在中欧贸易摩擦升级、中国反制时，给那些想减少对中国供应链依赖的欧洲企业发钱补贴，但钱从哪来还没定。</div></div></div></div>
+<div class="item item-lite" id="世界时事_3ab8efd16a"><div class="sum sum-lite"><div class="score-chip">8</div><div class="sum-main"><div class="sum-title">石英之下：中国“光刻底片”的沉默突围</div><div class="sum-meta">观察者网 · 3 天前</div></div></div><div class="item-body item-body-lite"><div class='sec sec-score'><div class='sec-label'>【相关性评分】</div><div class='sec-body'>8</div></div>
+<div class='sec sec-tldr'><div class='sec-label'>【一句话讲清楚它在说啥】</div><div class='sec-body'>文章讲中国光罩厂五年内从0.5微米追到14纳米，但光罩基板（石英玻璃）几乎100%依赖日本进口，国产化率只有2%，这才是真正的卡脖子环节。</div></div></div></div>
+<div class="item item-lite" id="世界时事_363159ce4e"><div class="sum sum-lite"><div class="score-chip">7</div><div class="sum-main"><div class="sum-title">美种植户急了：圣诞树是美国文化，低价从中国买，不行</div><div class="sum-meta">观察者网 · 昨天 00:05</div></div></div><div class="item-body item-body-lite"><div class='sec sec-score'><div class='sec-label'>【相关性评分】</div><div class='sec-body'>7</div></div>
+<div class='sec sec-tldr'><div class='sec-label'>【一句话讲清楚它在说啥】</div><div class='sec-body'>美国圣诞树种植户集体抗议，要求政府继续对中国造人造圣诞树加关税，因为担心低价中国货会冲垮他们的生意，这事卡在中美新贸易谈判的节骨眼上。</div></div></div></div>
+<div class="item item-lite" id="世界时事_628b599f4f"><div class="sum sum-lite"><div class="score-chip">7</div><div class="sum-main"><div class="sum-title">欧洲犯了重大错误，看看中日韩</div><div class="sum-meta">观察者网 · 昨天 12:55</div></div></div><div class="item-body item-body-lite"><div class='sec sec-score'><div class='sec-label'>【相关性评分】</div><div class='sec-body'>7</div></div>
+<div class='sec sec-tldr'><div class='sec-label'>【一句话讲清楚它在说啥】</div><div class='sec-body'>国际能源署署长批评欧洲电气化率只有23%，远低于中日韩的30%+，导致能源依赖和竞争力下降，呼吁加速转型。</div></div></div></div>
+<div class="item item-lite" id="世界时事_d1ca77902e"><div class="sum sum-lite"><div class="score-chip">7</div><div class="sum-main"><div class="sum-title">莫迪密集外访折射印度野心与隐忧，印太三国行欲构筑“信任之弧”？</div><div class="sum-meta">澎湃新闻 · 澎湃新闻记者 黄粤涵 · 30 分钟前</div></div></div><div class="item-body item-body-lite"><div class='sec sec-score'><div class='sec-label'>【相关性评分】</div><div class='sec-body'>7</div></div>
+<div class='sec sec-tldr'><div class='sec-label'>【一句话讲清楚它在说啥】</div><div class='sec-body'>印度总理莫迪最近密集访问印尼、澳大利亚和新西兰，签了防务、矿产、核能等一堆协议，想在美国对印太承诺摇摆的背景下，拉拢这些海洋国家，构建一个“信任之弧”，但国内制造业和就业问题拖后腿。</div></div></div></div>
+<div class="item item-lite" id="世界时事_29ca8e357c"><div class="sum sum-lite"><div class="score-chip">7</div><div class="sum-main"><div class="sum-title">比亚迪加码英国市场 新车与“闪充”同步推进</div><div class="sum-meta">财新网 · 昨天 12:51</div></div></div><div class="item-body item-body-lite"><div class='sec sec-score'><div class='sec-label'>【相关性评分】</div><div class='sec-body'>7</div></div>
+<div class='sec sec-tldr'><div class='sec-label'>【一句话讲清楚它在说啥】</div><div class='sec-body'>比亚迪在英国推出一款130万人民币的豪华超跑，同时布局自己的充电网络，想用“高端车+自建桩”的组合拳，在英国这个欧洲最难啃的市场抢份额。</div></div></div></div>
+<div class="item item-lite" id="世界时事_4351b59c6c"><div class="sum sum-lite"><div class="score-chip">7</div><div class="sum-main"><div class="sum-title">中国对日军工管制升级：稀土牌施压高市早苗</div><div class="sum-meta">BBC 中文 · 07月02日</div></div></div><div class="item-body item-body-lite"><div class='sec sec-score'><div class='sec-label'>【相关性评分】</div><div class='sec-body'>7</div></div>
+<div class='sec sec-tldr'><div class='sec-label'>【一句话讲清楚它在说啥】</div><div class='sec-body'>中国扩大对日本军工相关实体出口管制，新增20家机构，包括三菱集团和防卫研究所，意在通过稀土等关键矿产施压日本防卫政策。</div></div></div></div>
+<div class="item item-lite" id="世界时事_3131d71f97"><div class="sum sum-lite"><div class="score-chip">6</div><div class="sum-main"><div class="sum-title">特朗普“制裁”中国那招，拿来对付西班牙？</div><div class="sum-meta">观察者网 · 3 天前</div></div></div><div class="item-body item-body-lite"><div class='sec sec-score'><div class='sec-label'>【相关性评分】</div><div class='sec-body'>6</div></div>
+<div class='sec sec-tldr'><div class='sec-label'>【一句话讲清楚它在说啥】</div><div class='sec-body'>特朗普在北约峰会上威胁要切断与西班牙的贸易，原因是西班牙军费没达标且拒绝配合美军行动。但媒体分析认为，这招很难落地，因为西班牙是欧盟成员，动它就等于跟整个欧盟打贸易战，反而可能把西班牙推向中国。</div></div></div></div>
+</section>
+<section class="topic">
+<div class="topic-title">变现路径 <span class="count">· 2 条</span></div>
+<div class='col-title col-title-cn' style='margin:18px 0 10px;padding:4px 8px;font-size:13px;font-weight:600;color:#86868b;border-left:3px solid #e53935;background:#f5f5f7;border-radius:4px;'>🇨🇳 国内 · 2</div>
+<div class="item item-lite" id="变现路径_2491ca3f0d"><div class="sum sum-lite"><div class="score-chip">9</div><div class="sum-main"><div class="sum-title">智谱CEO唐杰发内部信：GLM时刻和万亿俱乐部之后，什么是更重要的事</div><div class="sum-meta">36氪 · 昨天 11:35</div></div></div><div class="item-body item-body-lite"><div class='sec sec-score'><div class='sec-label'>【相关性评分】</div><div class='sec-body'>9</div></div>
+<div class='sec sec-tldr'><div class='sec-label'>【一句话讲清楚它在说啥】</div><div class='sec-body'>智谱创始人唐杰发内部信，说公司不急着靠应用赚钱，而是要继续砸钱搞AGI，重点攻克长程任务、自治智能体、自我进化这些硬骨头，同时强调安全治理。</div></div></div></div>
+<div class="item item-lite" id="变现路径_1e944ddb98"><div class="sum sum-lite"><div class="score-chip">7</div><div class="sum-main"><div class="sum-title">36氪AI测评小程序上新</div><div class="sum-meta">36氪 · 2 天前</div></div></div><div class="item-body item-body-lite"><div class='sec sec-score'><div class='sec-label'>【相关性评分】</div><div class='sec-body'>7</div></div>
+<div class='sec sec-tldr'><div class='sec-label'>【一句话讲清楚它在说啥】</div><div class='sec-body'>36氪推出了一个AI产品测评平台，汇集真实用户和达人实测，提供榜单、场景推荐和盲测对比，帮你筛选靠谱AI工具，避免踩坑。</div></div></div></div>
+</section>
+<section class="topic">
+<div class="topic-title">技术圈 <span class="count">· 1 条</span></div>
+<div class='col-title col-title-intl' style='margin:14px 0 10px;padding:4px 8px;font-size:13px;font-weight:600;color:#86868b;border-left:3px solid #0071e3;background:#f5f5f7;border-radius:4px;'>🌐 海外 · 1</div>
+<div class="item item-lite" id="技术圈_685cddaf8a"><div class="sum sum-lite"><div class="score-chip">8</div><div class="sum-main"><div class="sum-title">SQLite 中优先使用严格表</div><div class="sum-meta">HackerNews · ingve · 216 pts · 106 comments · 昨天 17:33</div></div></div><div class="item-body item-body-lite"><div class='sec sec-score'><div class='sec-label'>【相关性评分】</div><div class='sec-body'>8</div></div>
+<div class='sec sec-tldr'><div class='sec-label'>【一句话讲清楚它在说啥】</div><div class='sec-body'>SQLite 默认允许往数字列里塞文本，容易导致数据污染。社区建议用“严格表”模式强制类型检查，但改表需要重建数据，已有工具支持自动转换。</div></div></div></div>
+</section>
+<section class="topic">
+<div class="topic-title">GitHub 动态 <span class="count">· 1 条</span></div>
+<div class='col-title col-title-intl' style='margin:14px 0 10px;padding:4px 8px;font-size:13px;font-weight:600;color:#86868b;border-left:3px solid #0071e3;background:#f5f5f7;border-radius:4px;'>🌐 海外 · 1</div>
+<div class="item item-lite" id="GitHub 动态_70691659d7"><div class="sum sum-lite"><div class="score-chip">7</div><div class="sum-main"><div class="sum-title">HuggingFace Transformers 发布 v5.13.1 补丁</div><div class="sum-meta">GitHubRelease · ArthurZucker · 昨天 09:15</div></div></div><div class="item-body item-body-lite"><div class='sec sec-score'><div class='sec-label'>【相关性评分】</div><div class='sec-body'>7</div></div>
+<div class='sec sec-tldr'><div class='sec-label'>【一句话讲清楚它在说啥】</div><div class='sec-body'>HuggingFace 的 Transformers 库发了个小补丁，主要是为了适配最新版 vLLM，修复了几个自定义模型和代码兼容性问题。</div></div></div></div>
+</section>
+<section class="topic">
+<div class="topic-title">供应链 <span class="count">· 10 条</span></div>
+<div class='col-title col-title-intl' style='margin:14px 0 10px;padding:4px 8px;font-size:13px;font-weight:600;color:#86868b;border-left:3px solid #0071e3;background:#f5f5f7;border-radius:4px;'>🌐 海外 · 7</div>
+<div class="item item-lite" id="供应链_d1c9815fb9"><div class="sum sum-lite"><div class="score-chip">9</div><div class="sum-main"><div class="sum-title">AI 基础设施必须为 Agent 体验进化</div><div class="sum-meta">Latent Space · 4 天前</div></div></div><div class="item-body item-body-lite"><div class='sec sec-score'><div class='sec-label'>【相关性评分】</div><div class='sec-body'>9</div></div>
+<div class='sec sec-tldr'><div class='sec-label'>【一句话讲清楚它在说啥】</div><div class='sec-body'>Modal 刚融了 3.55 亿美元，CTO 说传统云是为人类开发者设计的，但 AI Agent 不会看文档、不会调 YAML，所以基础设施得从“开发者体验”转向“Agent 体验”，比如自动弹性推理、沙箱和 GPU 快照。</div></div></div></div>
+<div class="item item-lite" id="供应链_195deb58e1"><div class="sum sum-lite"><div class="score-chip">9</div><div class="sum-main"><div class="sum-title">Lilian Weng 总结 35 篇论文：关于“驾驭工程”与递归自我改进</div><div class="sum-meta">Latent Space · 4 天前</div></div></div><div class="item-body item-body-lite"><div class='sec sec-score'><div class='sec-label'>【相关性评分】</div><div class='sec-body'>9</div></div>
+<div class='sec sec-tldr'><div class='sec-label'>【一句话讲清楚它在说啥】</div><div class='sec-body'>Lilian Weng 发了一篇重磅总结，核心观点是：AI 的递归自我改进（RSI）关键不在于改模型权重，而在于改进“驾驭系统”（Harness）。这正在成为 Agent 产品设计的中心思路。</div></div></div></div>
+<div class="item item-lite" id="供应链_de998779df"><div class="sum sum-lite"><div class="score-chip">9</div><div class="sum-main"><div class="sum-title">AI工程师世界博览会：循环之争与AI工程现状</div><div class="sum-meta">Latent Space · Richard MacManus · 07月03日</div></div></div><div class="item-body item-body-lite"><div class='sec sec-score'><div class='sec-label'>【相关性评分】</div><div class='sec-body'>9</div></div>
+<div class='sec sec-tldr'><div class='sec-label'>【一句话讲清楚它在说啥】</div><div class='sec-body'>AI工程师大会上，两派辩论“AI自主编程循环”是否靠谱。一方说这是未来，另一方说炒作过头、工程纪律没跟上，还讨论了软件工厂和成本问题。</div></div></div></div>
+<div class="item item-lite" id="供应链_19f580a0bb"><div class="sum sum-lite"><div class="score-chip">9</div><div class="sum-main"><div class="sum-title">求解器验证的LLM多仓库库存分配公式生成与选择</div><div class="sum-meta">arXiv · Jintao Xu, Yingzheng Ma, Jiong Dong, Yongzhi Qi, Jianshen Zhang, Dongyang Geng, Anni Zhang · 06月28日</div></div></div><div class="item-body item-body-lite"><div class='sec sec-score'><div class='sec-label'>【相关性评分】</div><div class='sec-body'>9</div></div>
+<div class='sec sec-tldr'><div class='sec-label'>【一句话讲清楚它在说啥】</div><div class='sec-body'>京东用大模型自动把自然语言描述的库存分配需求转成数学公式，再用求解器验证和选最优方案，在29个真实场景中准确率提升4.5个百分点。</div></div></div></div>
+<div class="item item-lite" id="供应链_52544b61df"><div class="sum sum-lite"><div class="score-chip">8</div><div class="sum-main"><div class="sum-title">STAGformer：时空智能体图Transformer用于微出行需求预测</div><div class="sum-meta">arXiv · Ye Zihao · 5 天前</div></div></div><div class="item-body item-body-lite"><div class='sec sec-score'><div class='sec-label'>【相关性评分】</div><div class='sec-body'>8</div></div>
+<div class='sec sec-tldr'><div class='sec-label'>【一句话讲清楚它在说啥】</div><div class='sec-body'>这篇论文提出了一种叫STAGformer的模型，用智能体注意力机制高效预测共享单车各站点的短期需求，在纽约和芝加哥数据集上效果超过现有方法。</div></div></div></div>
+<div class="item item-lite" id="供应链_8ac4bffabc"><div class="sum sum-lite"><div class="score-chip">8</div><div class="sum-main"><div class="sum-title">基于基础模型的图结构能源时间序列关系与序列共形推断</div><div class="sum-meta">arXiv · Keivan Faghih Niresi, Alice Cicirello, Olga Fink · 06月30日</div></div></div><div class="item-body item-body-lite"><div class='sec sec-score'><div class='sec-label'>【相关性评分】</div><div class='sec-body'>8</div></div>
+<div class='sec sec-tldr'><div class='sec-label'>【一句话讲清楚它在说啥】</div><div class='sec-body'>这篇论文提出一个叫STOIC的框架，把图神经网络和表格基础模型结合，给能源需求预测加上靠谱的不确定性区间，不用重新训练就能用，在多个真实电网和热网数据上表现更好。</div></div></div></div>
+<div class="item item-lite" id="供应链_1e3a50d47f"><div class="sum sum-lite"><div class="score-chip">8</div><div class="sum-main"><div class="sum-title">sqlite-utils 4.0rc2，主要由 Claude Fable 编写（花费约 149.25 美元）</div><div class="sum-meta">Simon Willison · 07月05日</div></div></div><div class="item-body item-body-lite"><div class='sec sec-score'><div class='sec-label'>【相关性评分】</div><div class='sec-body'>8</div></div>
+<div class='sec sec-tldr'><div class='sec-label'>【一句话讲清楚它在说啥】</div><div class='sec-body'>Simon Willison 用 Claude Fable 帮忙审查并修复了 sqlite-utils 库的 4.0 版本 bug，发现了一个严重的数据丢失问题，最终通过 37 轮对话和 34 次提交完成了稳定版发布。</div></div></div></div>
+<div class='col-title col-title-cn' style='margin:18px 0 10px;padding:4px 8px;font-size:13px;font-weight:600;color:#86868b;border-left:3px solid #e53935;background:#f5f5f7;border-radius:4px;'>🇨🇳 国内 · 3</div>
+<div class="item item-lite" id="供应链_fd5b9f7185"><div class="sum sum-lite"><div class="score-chip">9</div><div class="sum-main"><div class="sum-title">徕芬工厂探访：一个靠高性价比出圈的品牌，为什么在撕掉「平替」标签？</div><div class="sum-meta">爱范儿 · 何宗丞 · 2 天前</div></div></div><div class="item-body item-body-lite"><div class='sec sec-score'><div class='sec-label'>【相关性评分】</div><div class='sec-body'>9</div></div>
+<div class='sec sec-tldr'><div class='sec-label'>【一句话讲清楚它在说啥】</div><div class='sec-body'>爱范儿探访徕芬珠海超级工厂，讲它如何从“戴森平替”靠自建供应链，用重资产换产品定义权，在吹风机、剃须刀、牙刷等品类上做差异化，而不是只拼性价比。</div></div></div></div>
+<div class="item item-lite" id="供应链_632fbd00da"><div class="sum sum-lite"><div class="score-chip">8</div><div class="sum-main"><div class="sum-title">机器人走进产线「打工」，至简动力不想让具身智能停在 PPT 上</div><div class="sum-meta">爱范儿 · 刘学文 · 5 天前</div></div></div><div class="item-body item-body-lite"><div class='sec sec-score'><div class='sec-label'>【相关性评分】</div><div class='sec-body'>8</div></div>
+<div class='sec sec-tldr'><div class='sec-label'>【一句话讲清楚它在说啥】</div><div class='sec-body'>至简动力交付了100台具身机器人到CNC产线做上下料，强调从“演示”到“批量交付”的落地能力，并分享了他们在模型、数据、本体和开发者生态上的技术路线。</div></div></div></div>
+<div class="item item-lite" id="供应链_107edaa763"><div class="sum sum-lite"><div class="score-chip">8</div><div class="sum-main"><div class="sum-title">氪星晚报｜德国大众拟大裁员，最高或裁减12万个岗位；高盛称套利交易当前处境为2000年以来最佳；百亿私募数量达142家，再次刷新历史纪录</div><div class="sum-meta">36氪 · 2 天前</div></div></div><div class="item-body item-body-lite"><div class='sec sec-score'><div class='sec-label'>【相关性评分】</div><div class='sec-body'>8</div></div>
+<div class='sec sec-tldr'><div class='sec-label'>【一句话讲清楚它在说啥】</div><div class='sec-body'>这条晚报汇总了多条新闻，核心是德国大众因竞争力问题计划全球裁员12万并关厂，同时SK海力士赴美上市、台积电CoWoS产能持续扩张，以及高盛看好套利交易环境。</div></div></div></div>
+</section>
+<section class="topic">
+<div class="topic-title">心理学 <span class="count">· 0 条</span></div>
+<div class="empty">今天这个方向没抓到值得推的内容。</div>
+</section>
+<footer>web-intel-bot · 生成于 2026-07-12 01:36 · deepseek/deepseek-chat</footer>
+</div>
+<script>
+function _expandTarget(){
+  var id = (location.hash||'').slice(1);
+  if(!id) return;
+  var el = document.getElementById(decodeURIComponent(id));
+  if(el && el.tagName && el.tagName.toLowerCase() === 'details'){
+    el.open = true;
+    setTimeout(function(){ el.scrollIntoView({behavior:'smooth', block:'start'}); }, 50);
+  }
+}
+window.addEventListener('hashchange', _expandTarget);
+window.addEventListener('load', _expandTarget);
+</script>
+</body></html>
