@@ -1,45 +1,47 @@
-# 情报 Brief · 2026-07-12
+# 情报 Brief · 2026-07-13
 
 ## 今日 TOP3
 
 1. **GPT-5.6全面围剿Claude Fable 5，“超级应用”ChatGPT Work上位，Altman紧急澄清：不会取代Coedx** · 分9
-   OpenAI 发布 GPT-5.6，主打多模态和任务编排，直接对标 Anthropic 的 Claude Fable 5。同时推出“ChatGPT Work”作为企业超级应用，Altman 紧急澄清这不会取代现有的代码编辑器 Coedx。
+   OpenAI发布GPT-5.6，直接对标Claude Fable 5，同时推出“ChatGPT Work”作为超级应用整合办公场景。Altman紧急澄清新模型不会取代代码编辑器Coedx，但开发者社区已开始讨论AI工具链的整合与替代风险。
    https://www.infoq.cn/article/iqUrh3vqeO4xszUa1bCd?utm_source=rss&utm_medium=article
 
-2. **霍尔木兹海峡冲突再起，美军打击伊朗多地，海湾国家遇袭** · 分8
-   伊朗宣布无限期关闭霍尔木兹海峡，美军第三轮打击伊朗140个军事目标，伊朗反击海湾美军基地。美伊互袭升级，全球能源运输关键通道被掐断。
-   https://m.thepaper.cn/detail/33569734
+2. **独家 | 智谱创始人唐杰发内部信：「GLM 时刻」之后，什么是更重要的事** · 分9
+   智谱创始人唐杰发内部信，复盘了靠押注Coding能力市值暴涨10倍的过程，并宣布未来两年将战略性投入“长程任务、自治智能体、自我进化”三大方向，直指AGI。
+   https://36kr.com/p/3891132709206784?f=rss
 
-3. **SpaceXAI 发布 Grok 4.5，收购 Cursor 后首款 Opus 级模型** · 分9
-   马斯克的 xAI 发布了新模型 Grok 4.5，定位是“Opus 级但更快更便宜”，专门为编程和 AI Agent 场景训练，并且是收购 Cursor 后合作训练的第一个模型。
-   https://www.latent.space/p/ainews-spacexai-launches-grok-45
+3. **Lilian Weng 总结 35 篇论文：关于“缰绳工程”与递归自我改进** · 分9
+   Lilian Weng 发了一篇重磅综述，核心观点是：AI 的递归自我改进（RSI）关键不在于改模型权重，而在于设计更好的“缰绳”（Harness），也就是控制、目标和上下文注入的工程框架。
+   https://www.latent.space/p/ainews-lilian-weng-summarizes-35
 
 ## 今日精选
 
-### 变现路径
-- [智谱CEO唐杰发内部信：GLM时刻和万亿俱乐部之后，什么是更重要的事](https://36kr.com/newsflashes/3891162734689031?f=rss) · 36氪 · 分9
-  智谱CEO唐杰发内部信，明确公司不急着用AI应用赚钱，而是全力押注AGI下一阶段：长程任务、自治智能体、自我进化与安全治理。市值半年涨10倍后，他们选择继续砸研发。
-
 ### AI大事
+- [Fable 访问期限再次延长](https://simonwillison.net/2026/Jul/12/bump/#atom-everything) · Simon Willison · 分9
+  GPT-5.6 Sol 发布后，Anthropic 再次推迟了 Claude Fable 5 的停用日期，而 OpenAI 则自信地取消了 GPT-5.6 的使用限制，导致用户因不确定性流向 Open…
 - [GPT-5.6全面围剿Claude Fable 5，“超级应用”ChatGPT Work上位，Altman紧急澄清：不会取代Coedx](https://www.infoq.cn/article/iqUrh3vqeO4xszUa1bCd?utm_source=rss&utm_medium=article) · InfoQ 中文 · 分9
-  OpenAI 发布 GPT-5.6，主打多模态和任务编排，直接对标 Anthropic 的 Claude Fable 5。同时推出“ChatGPT Work”作为企业超级应用，Altman 紧急澄清这…
-- [OpenAI 发布 GPT-5.6 系列：Luna、Terra、Sol](https://simonwillison.net/2026/Jul/9/gpt-5-6/#atom-everything) · Simon Willison · 分9
-  OpenAI 今早发布了三个尺寸的新模型，主打长任务代理性能，在专业工作流测试中大幅超越 Claude Fable 5，但编程基准 SWE-Bench 上被反超，同时带来了多智能体、程序化工具调用等新…
-- [Grok 模型接入 Cursor](https://www.bensbites.com/p/grok-x-cursor) · Ben's Bites · 分9
-  SpaceXAI 和 Cursor 联合训练了 Grok 4.5 模型，性能接近 Claude Opus 但成本低很多，现在可以直接在 Cursor 里用，API 也开放了。
-- [OpenAI 推出 GPT-5.5 生物安全漏洞赏金计划](https://openai.com/index/bio-bug-bounty) · OpenAI Blog · 分9
-  OpenAI 发起了一个漏洞悬赏计划，邀请全球生物安全专家测试 GPT-5.5 是否会被恶意用于制造生物威胁，找到高危漏洞最高奖励 5 万美元。
-- [SpaceXAI 发布 Grok 4.5，收购 Cursor 后首款 Opus 级模型](https://www.latent.space/p/ainews-spacexai-launches-grok-45) · Latent Space · 分9
-  马斯克的 xAI 发布了新模型 Grok 4.5，定位是“Opus 级但更快更便宜”，专门为编程和 AI Agent 场景训练，并且是收购 Cursor 后合作训练的第一个模型。
-- [Gemini API 托管智能体升级：后台任务与远程 MCP](https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api/) · Google AI Blog · 分9
-  Google 给 Gemini API 的托管智能体加了三个新功能：支持后台长时间运行任务、能连远程 MCP 服务器、还有更好的错误处理，让开发者能做出更靠谱的 AI 应用。
-- [Claude Code 模板库：一键配置与监控 CLI 工具](https://github.com/davila7/claude-code-templates) · GitHub Trending · 分9
-  这个 GitHub 项目是一个 CLI 工具和模板集合，让你能一键安装和配置 Claude Code 的 AI 代理、自定义命令、外部集成（MCPs）、钩子和设置，还附带监控仪表盘和健康检查功能，帮你…
+  OpenAI发布GPT-5.6，直接对标Claude Fable 5，同时推出“ChatGPT Work”作为超级应用整合办公场景。Altman紧急澄清新模型不会取代代码编辑器Coedx，但开发者社区…
+- [史上最高调的AI重写：Claude花11天搞定Bun，创始人花一个月才敢交底](https://www.infoq.cn/article/uHkOoJ6Nfm6wNCsUryuO?utm_source=rss&utm_medium=article) · InfoQ 中文 · 分9
+  Bun（一个JS/TS运行时）的创始人用Claude花了11天把整个项目从Go重写为Zig，性能提升明显，但事后他花了一个月才敢公开承认——因为怕被社区骂“靠AI作弊”。
+- [OpenRouter 上美国公司近半调用中国 AI 模型](https://www.solidot.org/story?sid=84799) · Solidot · 分9
+  OpenRouter 数据显示，美国企业调用中国 AI 模型的词元占比从去年 4% 飙到今年峰值 46%，核心原因是 DeepSeek 等模型比 Claude 便宜上百倍，工程师们用脚投票。
+- [GPT-5.5 生物漏洞赏金计划](https://openai.com/index/bio-bug-bounty) · OpenAI Blog · 分9
+  OpenAI 推出一个叫“生物漏洞赏金”的计划，悬赏安全专家找出 GPT-5.5 在生物、化学、核武器等领域的滥用风险，最高奖励 3 万美元。
 
-### 世界时事
-- [霍尔木兹海峡冲突再起，美军打击伊朗多地，海湾国家遇袭](https://m.thepaper.cn/detail/33569734) · 澎湃新闻 · 分8
-  伊朗宣布无限期关闭霍尔木兹海峡，美军第三轮打击伊朗140个军事目标，伊朗反击海湾美军基地。美伊互袭升级，全球能源运输关键通道被掐断。
-- [怕中国反制，欧盟开始留“后手](https://www.guancha.cn/internation/2026_07_12_823450_s.shtml) · 观察者网 · 分8
-  欧盟在酝酿一个叫“团结工具”的机制，准备在跟中国贸易摩擦升级、企业被反制时，给那些想转移供应链的企业发补贴。但钱从哪来、能不能落地，内部还在扯皮。
+### 技术圈
+- [我爱大模型，但我恨炒作](https://geohot.github.io//blog/jekyll/update/2026/07/12/i-love-llms.html) · HackerNews · 分9
+  HN 上这篇热帖核心观点是：LLM 确实能大幅提升个人生产力，但前沿实验室的估值可能过高，因为价值被用户（而非公司）捕获了。作者认为我们正进入“DIY 软件”时代。
+- [Claude Code 发送 3.3 万 tokens 后才读提示，OpenCode 仅需 7 千](https://systima.ai/blog/claude-code-vs-opencode-token-overhead) · HackerNews · 分9
+  有人实测发现 Claude Code 在每次任务前会浪费大量 tokens 做系统初始化，而开源替代 OpenCode 的 token 开销只有它的五分之一，引发了对 AI 编码工具效率与商业动机的讨…
+- [用现代编码智能体打造新旧应用](https://terrytao.wordpress.com/2026/07/11/old-and-new-apps-via-modern-coding-agents/) · HackerNews · 分9
+  菲尔兹奖得主陶哲轩用AI编码智能体快速搭建教学可视化工具，引发HN热议：AI让非核心软件需求被低成本满足，但关键任务仍需谨慎。
 
-_更新于 2026-07-12 04:50 · web-intel-bot_
+### 变现路径
+- [独家 | 智谱创始人唐杰发内部信：「GLM 时刻」之后，什么是更重要的事](https://36kr.com/p/3891132709206784?f=rss) · 36氪 · 分9
+  智谱创始人唐杰发内部信，复盘了靠押注Coding能力市值暴涨10倍的过程，并宣布未来两年将战略性投入“长程任务、自治智能体、自我进化”三大方向，直指AGI。
+
+### 供应链
+- [AI 基础设施必须为 Agent 体验进化](https://www.latent.space/p/modal2026) · Latent Space · 分9
+  Modal 刚融了 3.55 亿美元，CTO 聊为什么传统云是为人类开发者设计的，但 AI Agent 需要全新的基础设施，比如沙箱、弹性推理和可观测性。
+
+_更新于 2026-07-13 01:36 · web-intel-bot_

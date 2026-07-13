@@ -1,0 +1,47 @@
+{
+  "date": "2026-07-13",
+  "profile": "kizty",
+  "generated_at": "2026-07-13 01:36",
+  "stats": {
+    "topics_ran": [
+      "AI大事",
+      "世界时事",
+      "变现路径",
+      "技术圈",
+      "GitHub 动态",
+      "供应链",
+      "心理学"
+    ],
+    "total_selected": 38,
+    "total_fetched": 165
+  },
+  "top3": [
+    {
+      "topic": "AI大事",
+      "title": "GPT-5.6全面围剿Claude Fable 5，“超级应用”ChatGPT Work上位，Altman紧急澄清：不会取代Coedx",
+      "tldr": "OpenAI发布GPT-5.6，直接对标Claude Fable 5，同时推出“ChatGPT Work”作为超级应用整合办公场景。Altman紧急澄清新模型不会取代代码编辑器Coedx，但开发者社区已开始讨论AI工具链的整合与替代风险。",
+      "score": 9,
+      "url": "https://www.infoq.cn/article/iqUrh3vqeO4xszUa1bCd?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "source_count": 1
+    },
+    {
+      "topic": "变现路径",
+      "title": "独家 | 智谱创始人唐杰发内部信：「GLM 时刻」之后，什么是更重要的事",
+      "tldr": "智谱创始人唐杰发内部信，复盘了靠押注Coding能力市值暴涨10倍的过程，并宣布未来两年将战略性投入“长程任务、自治智能体、自我进化”三大方向，直指AGI。",
+      "score": 9,
+      "url": "https://36kr.com/p/3891132709206784?f=rss",
+      "source": "36氪",
+      "source_count": 1
+    },
+    {
+      "topic": "供应链",
+      "title": "Lilian Weng 总结 35 篇论文：关于“缰绳工程”与递归自我改进",
+      "tldr": "Lilian Weng 发了一篇重磅综述，核心观点是：AI 的递归自我改进（RSI）关键不在于改模型权重，而在于设计更好的“缰绳”（Harness），也就是控制、目标和上下文注入的工程框架。",
+      "score": 9,
+      "url": "https://www.latent.space/p/ainews-lilian-weng-summarizes-35",
+      "source": "Latent Space",
+      "source_count": 1
+    }
+  ]
+}
