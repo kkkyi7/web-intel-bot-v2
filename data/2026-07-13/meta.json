@@ -1,46 +1,44 @@
 {
   "date": "2026-07-13",
   "profile": "kizty",
-  "generated_at": "2026-07-13 01:36",
+  "generated_at": "2026-07-13 04:58",
   "stats": {
     "topics_ran": [
       "AI大事",
       "世界时事",
       "变现路径",
       "技术圈",
-      "GitHub 动态",
-      "供应链",
-      "心理学"
+      "GitHub 动态"
     ],
-    "total_selected": 38,
-    "total_fetched": 165
+    "total_selected": 22,
+    "total_fetched": 147
   },
   "top3": [
     {
+      "topic": "世界时事",
+      "title": "特朗普以为中国还得买，等来却是：谢谢，但不用了",
+      "tldr": "美国放宽对华芯片出口，以为中国会继续买英伟达H200，结果中国没买一片，因为国产替代已经跑起来了，超算也靠全自研架构重回世界第一。",
+      "score": 9,
+      "url": "https://www.guancha.cn/internation/2026_07_13_823548_s.shtml",
+      "source": "观察者网",
+      "source_count": 1
+    },
+    {
       "topic": "AI大事",
-      "title": "GPT-5.6全面围剿Claude Fable 5，“超级应用”ChatGPT Work上位，Altman紧急澄清：不会取代Coedx",
-      "tldr": "OpenAI发布GPT-5.6，直接对标Claude Fable 5，同时推出“ChatGPT Work”作为超级应用整合办公场景。Altman紧急澄清新模型不会取代代码编辑器Coedx，但开发者社区已开始讨论AI工具链的整合与替代风险。",
+      "title": "SpaceXAI 发布 Grok 4.5，收购 Cursor 后首款 Opus 级模型",
+      "tldr": "马斯克的 xAI 发布了 Grok 4.5，这是他们收购 Cursor 后训练的第一款模型，主打“Opus 级性能但更快更便宜”，专门为编程和 AI Agent 场景优化，直接对标 OpenAI 和 Anthropic 的旗舰模型。",
       "score": 9,
-      "url": "https://www.infoq.cn/article/iqUrh3vqeO4xszUa1bCd?utm_source=rss&utm_medium=article",
-      "source": "InfoQ 中文",
-      "source_count": 1
-    },
-    {
-      "topic": "变现路径",
-      "title": "独家 | 智谱创始人唐杰发内部信：「GLM 时刻」之后，什么是更重要的事",
-      "tldr": "智谱创始人唐杰发内部信，复盘了靠押注Coding能力市值暴涨10倍的过程，并宣布未来两年将战略性投入“长程任务、自治智能体、自我进化”三大方向，直指AGI。",
-      "score": 9,
-      "url": "https://36kr.com/p/3891132709206784?f=rss",
-      "source": "36氪",
-      "source_count": 1
-    },
-    {
-      "topic": "供应链",
-      "title": "Lilian Weng 总结 35 篇论文：关于“缰绳工程”与递归自我改进",
-      "tldr": "Lilian Weng 发了一篇重磅综述，核心观点是：AI 的递归自我改进（RSI）关键不在于改模型权重，而在于设计更好的“缰绳”（Harness），也就是控制、目标和上下文注入的工程框架。",
-      "score": 9,
-      "url": "https://www.latent.space/p/ainews-lilian-weng-summarizes-35",
+      "url": "https://www.latent.space/p/ainews-spacexai-launches-grok-45",
       "source": "Latent Space",
+      "source_count": 2
+    },
+    {
+      "topic": "技术圈",
+      "title": "Claude Code 发送 3.3 万 token 后才读提示，OpenCode 仅需 7 千",
+      "tldr": "有人实测发现 Claude Code 在真正处理你的任务前，会先浪费大量 token 用于系统指令和缓存策略，比开源替代品 OpenCode 多出好几倍，导致用户烧钱更快。",
+      "score": 9,
+      "url": "https://systima.ai/blog/claude-code-vs-opencode-token-overhead",
+      "source": "HackerNews",
       "source_count": 1
     }
   ]
