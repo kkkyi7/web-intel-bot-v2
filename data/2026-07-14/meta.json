@@ -1,24 +1,22 @@
 {
   "date": "2026-07-14",
   "profile": "kizty",
-  "generated_at": "2026-07-14 01:36",
+  "generated_at": "2026-07-14 04:28",
   "stats": {
     "topics_ran": [
       "AI大事",
       "世界时事",
-      "变现路径",
       "技术圈",
-      "GitHub 动态",
-      "心理学"
+      "GitHub 动态"
     ],
-    "total_selected": 28,
-    "total_fetched": 168
+    "total_selected": 20,
+    "total_fetched": 136
   },
   "top3": [
     {
       "topic": "AI大事",
-      "title": "纳德拉警告企业慎用AI：警惕模型供应商成为特洛伊木马",
-      "tldr": "微软CEO纳德拉警告，企业用第三方AI模型时可能被供应商锁定，数据、决策和系统会逐渐被模型厂商控制，就像特洛伊木马一样危险。",
+      "title": "纳德拉警告企业慎用AI：模型厂商可能是特洛伊木马",
+      "tldr": "微软CEO纳德拉公开警告，企业用AI时别把核心数据全交给闭源模型厂商，否则就像把特洛伊木马请进自家系统，数据安全与商业机密可能被悄悄泄露。",
       "score": 9,
       "url": "https://techcrunch.com/2026/07/13/satya-nadella-has-issued-a-shocking-warning-to-companies-using-ai/",
       "source": "TechCrunch AI",
@@ -26,20 +24,20 @@
     },
     {
       "topic": "世界时事",
-      "title": "去中国化代价多大？西方机构抛出天价账单",
-      "tldr": "安永研究显示，欧美若想在2050年前摆脱对中国供应链依赖，需额外投入23.6万亿美元，且短期内几乎不可能实现，因为中国在稀土、锂、医药等关键环节拥有不可替代的产业优势。",
-      "score": 9,
-      "url": "https://www.guancha.cn/internation/2026_07_13_823568_s.shtml",
-      "source": "观察者网",
+      "title": "中国芯片出口额暴增110%，是否意味西方封锁失败",
+      "tldr": "BBC 分析中国芯片出口额暴增 110% 的数据，指出增长主要来自低端成熟制程芯片，而非高端先进制程，西方封锁并未失败，反而加速了中国在成熟制程领域的产能扩张。",
+      "score": 8,
+      "url": "https://www.bbc.com/zhongwen/articles/cg4w2n5ql32o/trad?at_medium=RSS&at_campaign=rss",
+      "source": "BBC 中文",
       "source_count": 1
     },
     {
-      "topic": "AI大事",
-      "title": "SpaceXAI 发布 Grok 4.5，Cursor 收购后首个 Opus 级模型",
-      "tldr": "Elon Musk 的 xAI 发布了新模型 Grok 4.5，定位是“Opus 级但更快更便宜”，专门为编程和 AI Agent 场景训练，并且是和 Cursor 合作训练的，直接对标 OpenAI 和 Anthropic 的旗舰模型。",
-      "score": 9,
-      "url": "https://www.latent.space/p/ainews-spacexai-launches-grok-45",
-      "source": "Latent Space",
+      "topic": "世界时事",
+      "title": "浙大系桌面CNC团队获近亿元天使轮，用AI降低制造门槛",
+      "tldr": "一家浙大系创业公司拿到近亿元融资，要做桌面级CNC机床，核心是用AI把复杂的数控编程和工艺参数自动搞定，让普通人也能用CNC加工金属零件。",
+      "score": 8,
+      "url": "https://36kr.com/p/3894935854677249?f=rss",
+      "source": "36氪（兜底）",
       "source_count": 1
     }
   ]
