@@ -1,43 +1,49 @@
-# 情报 Brief · 2026-07-14
+# 情报 Brief · 2026-07-15
 
 ## 今日 TOP3
 
-1. **纳德拉警告企业慎用AI：模型厂商可能是特洛伊木马** · 分9
-   微软CEO纳德拉公开警告，企业用AI时别把核心数据全交给闭源模型厂商，否则就像把特洛伊木马请进自家系统，数据安全与商业机密可能被悄悄泄露。
-   https://techcrunch.com/2026/07/13/satya-nadella-has-issued-a-shocking-warning-to-companies-using-ai/
+1. **估值4800亿，DeepSeek火速开启新一轮融资！最快明年IPO** · 分9
+   DeepSeek 在首轮融资后估值涨了37%达到4800亿，现在火速开启新一轮融资，目标最快明年IPO。这标志着国内顶级AI公司进入资本加速期，对工业软件和AI产品落地有直接信号意义。
+   https://www.qbitai.com/2026/07/450101.html
 
-2. **中国芯片出口额暴增110%，是否意味西方封锁失败** · 分8
-   BBC 分析中国芯片出口额暴增 110% 的数据，指出增长主要来自低端成熟制程芯片，而非高端先进制程，西方封锁并未失败，反而加速了中国在成熟制程领域的产能扩张。
-   https://www.bbc.com/zhongwen/articles/cg4w2n5ql32o/trad?at_medium=RSS&at_campaign=rss
+2. **去中国化代价多大？西方机构抛出天价账单** · 分9
+   安永研究说，欧美想2050年前摆脱对中国供应链依赖，得额外砸23.6万亿美元，每年近万亿，而且就算砸钱，短期内也几乎不可能做到。
+   https://www.guancha.cn/internation/2026_07_13_823568_s.shtml
 
-3. **浙大系桌面CNC团队获近亿元天使轮，用AI降低制造门槛** · 分8
-   一家浙大系创业公司拿到近亿元融资，要做桌面级CNC机床，核心是用AI把复杂的数控编程和工艺参数自动搞定，让普通人也能用CNC加工金属零件。
-   https://36kr.com/p/3894935854677249?f=rss
+3. **Codex 用户半年增长超 10 倍达 700 万，是否超越 Claude Code** · 分9
+   OpenAI 的 Codex 编程工具用户数在半年内从约 60 万暴涨到 700 万，最近一天就新增 100 万，增速远超同期 Claude Code，引发谁才是 AI 编程工具老大的讨论。
+   https://www.latent.space/p/ainews-codex-usage-up-10x-in-6-months
 
 ## 今日精选
 
-### GitHub 动态
-- [Claude Code v2.1.208 发布](https://github.com/anthropics/claude-code/releases/tag/v2.1.208) · GitHubRelease · 分9
-  Claude Code 这次更新主要修了十几个 bug，加了屏幕阅读器模式、vim 快捷键自定义、企业代理包装器，还修复了上下文窗口重置、大表格卡死等影响日常使用的关键问题。
-- [Mem0 Python SDK v2.0.12 发布](https://github.com/mem0ai/mem0/releases/tag/v2.0.12) · GitHubRelease · 分9
-  Mem0 这个给 AI 加长期记忆的开源库更新了，修复了传整数 ID 会崩溃、新版 Claude 模型不兼容采样参数等一堆 bug，还改了 API 参数名。
-
 ### AI大事
-- [纳德拉警告企业慎用AI：模型厂商可能是特洛伊木马](https://techcrunch.com/2026/07/13/satya-nadella-has-issued-a-shocking-warning-to-companies-using-ai/) · TechCrunch AI · 分9
-  微软CEO纳德拉公开警告，企业用AI时别把核心数据全交给闭源模型厂商，否则就像把特洛伊木马请进自家系统，数据安全与商业机密可能被悄悄泄露。
-- [Agent要数量也要脑子！浪潮信息一边单柜养4万Agent，一边让大模型组队答题](https://www.qbitai.com/2026/07/449311.html) · 量子位 · 分9
-  浪潮信息发布了两款产品：一个单机柜能跑4万个Agent的液冷整机柜，和一个让多个大模型组队协作答题的“多模融合超节点”，解决Agent规模化和多模型协同问题。
-- [Fable 访问期限再次延长](https://simonwillison.net/2026/Jul/12/bump/#atom-everything) · Simon Willison · 分9
-  GPT-5.6 Sol 发布后，Anthropic 再次推迟 Claude Fable 5 的停用日期到 7 月 19 日，而 OpenAI 则自信地取消了 GPT-5.6 的使用限制，并宣布用户数达…
-- [Grok 与 Cursor 合作推出新模型](https://www.bensbites.com/p/grok-x-cursor) · Ben's Bites · 分9
-  SpaceXAI 和 Cursor 联合训练了 Grok 4.5 模型，性能接近 Claude Opus 4.7-4.8，但成本比 Opus 便宜 6 倍、比 GPT-5.5 便宜 3 倍，已上线 C…
-- [GPT-5.5 生物漏洞赏金计划](https://openai.com/index/bio-bug-bounty) · OpenAI Blog · 分9
-  OpenAI 启动了 GPT-5.5 的“生物漏洞赏金”，悬赏安全专家找出模型在生物武器、病毒合成等危险领域的漏洞，防止 AI 被恶意用于制造生化威胁。
-- [SpaceXAI 发布 Grok 4.5，收购 Cursor 后首款 Opus 级模型](https://www.latent.space/p/ainews-spacexai-launches-grok-45) · Latent Space · 分9
-  马斯克的 xAI 发布了新模型 Grok 4.5，定位是“Opus 级但更快更便宜”，专门为编程和智能体场景训练，并且是和刚收购的 Cursor 合作训练的，直接对标 OpenAI 和 Anthrop…
-- [Gemini API 托管 Agent 新能力：后台任务与远程 MCP](https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api/) · Google AI Blog · 分9
-  Google 给 Gemini API 的托管 Agent 加了三个新功能：能跑后台长时间任务、能远程调用 MCP 工具、还能让 Agent 自己调用自己，方便开发者做生产级应用。
-- [Awesome LLM Apps：100+ 可直接运行的 AI Agent 模板集](https://github.com/Shubhamsaboo/awesome-llm-apps) · GitHub Trending · 分9
-  GitHub 上一个开源项目，收集了 100 多个 AI Agent 和 RAG 应用的完整代码模板，覆盖多 Agent 协作、语音、MCP 等主流方向，克隆下来就能跑，方便你快速搭建原型或学习。
+- [估值4800亿，DeepSeek火速开启新一轮融资！最快明年IPO](https://www.qbitai.com/2026/07/450101.html) · 量子位 · 分9
+  DeepSeek 在首轮融资后估值涨了37%达到4800亿，现在火速开启新一轮融资，目标最快明年IPO。这标志着国内顶级AI公司进入资本加速期，对工业软件和AI产品落地有直接信号意义。
+- [AI 新闻：今天没啥大事](https://www.latent.space/p/ainews-not-much-happened-today-c72) · Latent Space · 分9
+  这篇讲的是 AI 圈最近的几个关键趋势：OpenAI 的 Codex 和 GPT-5.6 需求暴涨，模型压缩技术让 27B 参数模型能跑在手机上，以及行业共识从“拼模型”转向“拼评估环境和工具链”。
 
-_更新于 2026-07-14 04:28 · web-intel-bot_
+### GitHub 动态
+- [Claude Code 发布 v2.1.210 更新](https://github.com/anthropics/claude-code/releases/tag/v2.1.210) · GitHubRelease · 分9
+  Claude Code 发布了一个小版本更新，主要修复了十几个 bug，包括终端计时器显示、文件权限警告、子代理隔离问题，以及一些会话崩溃和误报问题。
+
+### 供应链
+- [软件项目的共享语言不是英语或Python](https://simonwillison.net/2026/Jul/14/armin-ronacher/#atom-everything) · Simon Willison · 分9
+  Armin Ronacher 指出，软件项目的真正共享语言是对概念、边界、不变量的共同理解，这种理解靠“摩擦”同步，而AI Agent正在消除这种摩擦，可能破坏团队认知对齐。
+- [Codex 用户半年增长超 10 倍达 700 万，是否超越 Claude Code](https://www.latent.space/p/ainews-codex-usage-up-10x-in-6-months) · Latent Space · 分9
+  OpenAI 的 Codex 编程工具用户数在半年内从约 60 万暴涨到 700 万，最近一天就新增 100 万，增速远超同期 Claude Code，引发谁才是 AI 编程工具老大的讨论。
+- [从供应链网络推断库存动态：一种带自主验证的图学习方法](http://arxiv.org/abs/2607.10642v1) · arXiv · 分9
+  这篇论文提出一个多智能体半监督框架，用图机器学习从供应链网络结构推断企业库存变化，即使没有真实库存数据也能验证预测是否靠谱，专门解决中小企业数据稀缺问题。
+
+### 技术圈
+- [Bonsai 27B：可在手机上运行的 27B 参数模型](https://prismml.com/news/bonsai-27b) · HackerNews · 分9
+  PrismML 发布了一个 27B 参数的模型 Bonsai，通过极致量化把体积从 50GB 压到 4GB，能直接在手机上跑，性能接近原版，但工具调用能力有损失。
+- [AI 辅助编程让软件之塔不断升高](https://lucumr.pocoo.org/2026/7/13/the-tower-keeps-rising/) · HackerNews · 分9
+  文章讨论 AI 辅助编程让个人写代码更快，但团队协作的共享理解正在崩塌。代码能继续堆高，但没人真正懂整个系统，像巴别塔没倒却失去了共同语言。
+- [我们是否把太多思考外包给了AI](https://www.artfish.ai/p/offloading-thinking-to-ai) · HackerNews · 分9
+  HackerNews上围绕“过度依赖AI思考”的激烈争论，核心矛盾是：用AI代劳任务到底是在提升效率，还是在掏空我们自己的理解能力和判断力。
+
+### 世界时事
+- [去中国化代价多大？西方机构抛出天价账单](https://www.guancha.cn/internation/2026_07_13_823568_s.shtml) · 观察者网 · 分9
+  安永研究说，欧美想2050年前摆脱对中国供应链依赖，得额外砸23.6万亿美元，每年近万亿，而且就算砸钱，短期内也几乎不可能做到。
+
+_更新于 2026-07-15 01:36 · web-intel-bot_

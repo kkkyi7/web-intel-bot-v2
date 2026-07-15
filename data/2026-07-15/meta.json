@@ -1,0 +1,45 @@
+{
+  "date": "2026-07-15",
+  "profile": "kizty",
+  "generated_at": "2026-07-15 01:36",
+  "stats": {
+    "topics_ran": [
+      "AI大事",
+      "世界时事",
+      "技术圈",
+      "GitHub 动态",
+      "供应链"
+    ],
+    "total_selected": 30,
+    "total_fetched": 180
+  },
+  "top3": [
+    {
+      "topic": "AI大事",
+      "title": "估值4800亿，DeepSeek火速开启新一轮融资！最快明年IPO",
+      "tldr": "DeepSeek 在首轮融资后估值涨了37%达到4800亿，现在火速开启新一轮融资，目标最快明年IPO。这标志着国内顶级AI公司进入资本加速期，对工业软件和AI产品落地有直接信号意义。",
+      "score": 9,
+      "url": "https://www.qbitai.com/2026/07/450101.html",
+      "source": "量子位",
+      "source_count": 1
+    },
+    {
+      "topic": "世界时事",
+      "title": "去中国化代价多大？西方机构抛出天价账单",
+      "tldr": "安永研究说，欧美想2050年前摆脱对中国供应链依赖，得额外砸23.6万亿美元，每年近万亿，而且就算砸钱，短期内也几乎不可能做到。",
+      "score": 9,
+      "url": "https://www.guancha.cn/internation/2026_07_13_823568_s.shtml",
+      "source": "观察者网",
+      "source_count": 1
+    },
+    {
+      "topic": "供应链",
+      "title": "Codex 用户半年增长超 10 倍达 700 万，是否超越 Claude Code",
+      "tldr": "OpenAI 的 Codex 编程工具用户数在半年内从约 60 万暴涨到 700 万，最近一天就新增 100 万，增速远超同期 Claude Code，引发谁才是 AI 编程工具老大的讨论。",
+      "score": 9,
+      "url": "https://www.latent.space/p/ainews-codex-usage-up-10x-in-6-months",
+      "source": "Latent Space",
+      "source_count": 1
+    }
+  ]
+}
