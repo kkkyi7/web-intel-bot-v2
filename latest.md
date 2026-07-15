@@ -2,48 +2,46 @@
 
 ## 今日 TOP3
 
-1. **估值4800亿，DeepSeek火速开启新一轮融资！最快明年IPO** · 分9
-   DeepSeek 在首轮融资后估值涨了37%达到4800亿，现在火速开启新一轮融资，目标最快明年IPO。这标志着国内顶级AI公司进入资本加速期，对工业软件和AI产品落地有直接信号意义。
+1. **估值4800亿，DeepSeek火速开启新一轮融资！最快明年IPO** · 分8
+   DeepSeek 估值涨到 4800 亿人民币，比上一轮涨了 37%，现在急着开新一轮融资，目标最快明年上市。这波操作说明 AI 大模型公司烧钱快、竞争猛，资本在抢时间。
    https://www.qbitai.com/2026/07/450101.html
 
-2. **去中国化代价多大？西方机构抛出天价账单** · 分9
-   安永研究说，欧美想2050年前摆脱对中国供应链依赖，得额外砸23.6万亿美元，每年近万亿，而且就算砸钱，短期内也几乎不可能做到。
-   https://www.guancha.cn/internation/2026_07_13_823568_s.shtml
+2. **Bonsai 27B：一款能在手机上运行的 27B 参数模型** · 分9
+   PrismML 发布了一个 27B 参数的压缩模型，量化后体积从 50G 降到 4G，能在手机上跑，但工具调用能力有损失，苹果正在谈合作。
+   https://prismml.com/news/bonsai-27b
 
-3. **Codex 用户半年增长超 10 倍达 700 万，是否超越 Claude Code** · 分9
-   OpenAI 的 Codex 编程工具用户数在半年内从约 60 万暴涨到 700 万，最近一天就新增 100 万，增速远超同期 Claude Code，引发谁才是 AI 编程工具老大的讨论。
-   https://www.latent.space/p/ainews-codex-usage-up-10x-in-6-months
+3. **36氪首发 | 浙大系桌面CNC团队获商汤国香、首形科技等近亿元天使轮，要用AI技术降低制造门槛** · 分9
+   一家浙大系创业公司拿到近亿元融资，想用AI把复杂的数控机床（CNC）操作变得像3D打印机一样简单，让普通人也能做金属零件加工。
+   https://36kr.com/p/3894935854677249?f=rss
 
 ## 今日精选
 
-### AI大事
-- [估值4800亿，DeepSeek火速开启新一轮融资！最快明年IPO](https://www.qbitai.com/2026/07/450101.html) · 量子位 · 分9
-  DeepSeek 在首轮融资后估值涨了37%达到4800亿，现在火速开启新一轮融资，目标最快明年IPO。这标志着国内顶级AI公司进入资本加速期，对工业软件和AI产品落地有直接信号意义。
-- [AI 新闻：今天没啥大事](https://www.latent.space/p/ainews-not-much-happened-today-c72) · Latent Space · 分9
-  这篇讲的是 AI 圈最近的几个关键趋势：OpenAI 的 Codex 和 GPT-5.6 需求暴涨，模型压缩技术让 27B 参数模型能跑在手机上，以及行业共识从“拼模型”转向“拼评估环境和工具链”。
-
-### GitHub 动态
-- [Claude Code 发布 v2.1.210 更新](https://github.com/anthropics/claude-code/releases/tag/v2.1.210) · GitHubRelease · 分9
-  Claude Code 发布了一个小版本更新，主要修复了十几个 bug，包括终端计时器显示、文件权限警告、子代理隔离问题，以及一些会话崩溃和误报问题。
-
 ### 供应链
+- [元宝与京东AI Agent正式打通小程序生态](https://36kr.com/newsflashes/3896380062647944?f=rss) · 36氪 · 分9
+  腾讯元宝和京东AI Agent打通了小程序生态，以后用户在元宝里可以直接调用京东的电商服务，比如查商品、下单、查物流，背后靠的是京东的供应链和履约能力。
+- [苹果想要「掐死」OpenAI 手机](https://www.ifanr.com/1672040?utm_source=rss&utm_medium=rss&utm_campaign=) · 爱范儿 · 分9
+  苹果起诉前员工和OpenAI，指控他们通过挖角、窃取机密文件和技术，为OpenAI的AI硬件产品铺路。案子刚启动，但背后是苹果对OpenAI进军硬件的战略阻击。
 - [软件项目的共享语言不是英语或Python](https://simonwillison.net/2026/Jul/14/armin-ronacher/#atom-everything) · Simon Willison · 分9
-  Armin Ronacher 指出，软件项目的真正共享语言是对概念、边界、不变量的共同理解，这种理解靠“摩擦”同步，而AI Agent正在消除这种摩擦，可能破坏团队认知对齐。
-- [Codex 用户半年增长超 10 倍达 700 万，是否超越 Claude Code](https://www.latent.space/p/ainews-codex-usage-up-10x-in-6-months) · Latent Space · 分9
-  OpenAI 的 Codex 编程工具用户数在半年内从约 60 万暴涨到 700 万，最近一天就新增 100 万，增速远超同期 Claude Code，引发谁才是 AI 编程工具老大的讨论。
-- [从供应链网络推断库存动态：一种带自主验证的图学习方法](http://arxiv.org/abs/2607.10642v1) · arXiv · 分9
-  这篇论文提出一个多智能体半监督框架，用图机器学习从供应链网络结构推断企业库存变化，即使没有真实库存数据也能验证预测是否靠谱，专门解决中小企业数据稀缺问题。
+  Armin Ronacher 提出，软件项目的核心共享语言是团队对概念、边界、不变量的共同理解，这种理解靠“摩擦”来同步，而AI agent正在消除这种摩擦，可能带来风险。
+
+### AI大事
+- [AINews：今天没什么大事](https://www.latent.space/p/ainews-not-much-happened-today-c72) · Latent Space · 分9
+  这期 AI 新闻汇总了 OpenAI 的 Codex 和 ChatGPT Work 使用量一周暴涨 2.5 倍、GPT-5.6 需求“疯狂”，以及 27B 参数模型被压缩到 3.9GB 能在手机上跑，…
+- [AI Agent 能判断任务难度吗？复杂度感知推理与执行](http://arxiv.org/abs/2607.13034v1) · arXiv · 分9
+  这篇论文发现当前 AI Agent 做任务时不管任务多简单都先读一遍所有文件，导致成本浪费。作者提出 E3 方法，让 Agent 先估算任务难度，只读必要文件，失败再扩展，结果在保证成功率的同时把成本…
 
 ### 技术圈
-- [Bonsai 27B：可在手机上运行的 27B 参数模型](https://prismml.com/news/bonsai-27b) · HackerNews · 分9
-  PrismML 发布了一个 27B 参数的模型 Bonsai，通过极致量化把体积从 50GB 压到 4GB，能直接在手机上跑，性能接近原版，但工具调用能力有损失。
-- [AI 辅助编程让软件之塔不断升高](https://lucumr.pocoo.org/2026/7/13/the-tower-keeps-rising/) · HackerNews · 分9
-  文章讨论 AI 辅助编程让个人写代码更快，但团队协作的共享理解正在崩塌。代码能继续堆高，但没人真正懂整个系统，像巴别塔没倒却失去了共同语言。
+- [Bonsai 27B：一款能在手机上运行的 27B 参数模型](https://prismml.com/news/bonsai-27b) · HackerNews · 分9
+  PrismML 发布了一个 27B 参数的压缩模型，量化后体积从 50G 降到 4G，能在手机上跑，但工具调用能力有损失，苹果正在谈合作。
+- [AI 编程让软件塔越建越高，但理解在崩塌](https://lucumr.pocoo.org/2026/7/13/the-tower-keeps-rising/) · HackerNews · 分9
+  这篇文章用“巴别塔”比喻 AI 辅助编程：开发者用 AI 能更快写代码，但团队对系统整体的共同理解却在消失，塔没倒但地基在烂。
 - [我们是否把太多思考外包给了AI](https://www.artfish.ai/p/offloading-thinking-to-ai) · HackerNews · 分9
-  HackerNews上围绕“过度依赖AI思考”的激烈争论，核心矛盾是：用AI代劳任务到底是在提升效率，还是在掏空我们自己的理解能力和判断力。
+  HackerNews上这篇高赞讨论在问：当人们用AI代写代码、代做决策、甚至代管人际关系时，我们到底是在提升效率，还是在放弃自己的判断力和思考能力。
+- [如何让Claude不再说“承重墙](https://jola.dev/posts/how-to-stop-claude-from-saying-load-bearing) · HackerNews · 分9
+  开发者们吐槽Claude写代码和文案时总爱用“承重墙”“投影”“前沿”这些固定词，有人觉得烦，有人觉得这是AI模型偏见的放大版，还有人写了配置文件专门让Claude改掉这些口头禅。
 
 ### 世界时事
-- [去中国化代价多大？西方机构抛出天价账单](https://www.guancha.cn/internation/2026_07_13_823568_s.shtml) · 观察者网 · 分9
-  安永研究说，欧美想2050年前摆脱对中国供应链依赖，得额外砸23.6万亿美元，每年近万亿，而且就算砸钱，短期内也几乎不可能做到。
+- [强盗行径！澳政府史无前例剥夺稀土矿商中资股东权利](https://www.guancha.cn/internation/2026_07_14_823726_s.shtml) · 观察者网 · 分9
+  澳大利亚政府以国家安全为由，直接剥夺了中国投资者在澳洲稀土公司北方矿业的投票权，只允许他们卖股票。这背后是美国和日本在稀土供应链上联手排挤中国，但澳洲自己又离不开中国的技术和设备。
 
-_更新于 2026-07-15 01:36 · web-intel-bot_
+_更新于 2026-07-15 04:27 · web-intel-bot_

@@ -1,44 +1,45 @@
 {
   "date": "2026-07-15",
   "profile": "kizty",
-  "generated_at": "2026-07-15 01:36",
+  "generated_at": "2026-07-15 04:27",
   "stats": {
     "topics_ran": [
       "AI大事",
       "世界时事",
       "技术圈",
       "GitHub 动态",
-      "供应链"
+      "供应链",
+      "心理学"
     ],
-    "total_selected": 30,
-    "total_fetched": 180
+    "total_selected": 32,
+    "total_fetched": 183
   },
   "top3": [
     {
       "topic": "AI大事",
       "title": "估值4800亿，DeepSeek火速开启新一轮融资！最快明年IPO",
-      "tldr": "DeepSeek 在首轮融资后估值涨了37%达到4800亿，现在火速开启新一轮融资，目标最快明年IPO。这标志着国内顶级AI公司进入资本加速期，对工业软件和AI产品落地有直接信号意义。",
-      "score": 9,
+      "tldr": "DeepSeek 估值涨到 4800 亿人民币，比上一轮涨了 37%，现在急着开新一轮融资，目标最快明年上市。这波操作说明 AI 大模型公司烧钱快、竞争猛，资本在抢时间。",
+      "score": 8,
       "url": "https://www.qbitai.com/2026/07/450101.html",
       "source": "量子位",
       "source_count": 1
     },
     {
-      "topic": "世界时事",
-      "title": "去中国化代价多大？西方机构抛出天价账单",
-      "tldr": "安永研究说，欧美想2050年前摆脱对中国供应链依赖，得额外砸23.6万亿美元，每年近万亿，而且就算砸钱，短期内也几乎不可能做到。",
+      "topic": "技术圈",
+      "title": "Bonsai 27B：一款能在手机上运行的 27B 参数模型",
+      "tldr": "PrismML 发布了一个 27B 参数的压缩模型，量化后体积从 50G 降到 4G，能在手机上跑，但工具调用能力有损失，苹果正在谈合作。",
       "score": 9,
-      "url": "https://www.guancha.cn/internation/2026_07_13_823568_s.shtml",
-      "source": "观察者网",
+      "url": "https://prismml.com/news/bonsai-27b",
+      "source": "HackerNews",
       "source_count": 1
     },
     {
       "topic": "供应链",
-      "title": "Codex 用户半年增长超 10 倍达 700 万，是否超越 Claude Code",
-      "tldr": "OpenAI 的 Codex 编程工具用户数在半年内从约 60 万暴涨到 700 万，最近一天就新增 100 万，增速远超同期 Claude Code，引发谁才是 AI 编程工具老大的讨论。",
+      "title": "36氪首发 | 浙大系桌面CNC团队获商汤国香、首形科技等近亿元天使轮，要用AI技术降低制造门槛",
+      "tldr": "一家浙大系创业公司拿到近亿元融资，想用AI把复杂的数控机床（CNC）操作变得像3D打印机一样简单，让普通人也能做金属零件加工。",
       "score": 9,
-      "url": "https://www.latent.space/p/ainews-codex-usage-up-10x-in-6-months",
-      "source": "Latent Space",
+      "url": "https://36kr.com/p/3894935854677249?f=rss",
+      "source": "36氪",
       "source_count": 1
     }
   ]
