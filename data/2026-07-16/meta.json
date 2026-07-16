@@ -1,7 +1,7 @@
 {
   "date": "2026-07-16",
   "profile": "kizty",
-  "generated_at": "2026-07-16 01:35",
+  "generated_at": "2026-07-16 04:36",
   "stats": {
     "topics_ran": [
       "AI大事",
@@ -10,35 +10,35 @@
       "技术圈",
       "GitHub 动态"
     ],
-    "total_selected": 26,
-    "total_fetched": 162
+    "total_selected": 25,
+    "total_fetched": 160
   },
   "top3": [
     {
       "topic": "AI大事",
-      "title": "2026年AI工程五大趋势：从Agent到系统",
-      "tldr": "这篇文章总结了2026年AI工程世界博览会上的五大趋势，核心是AI工程已从关注Agent本身转向构建围绕Agent的可靠系统，强调人机协作而非完全自动化。",
+      "title": "xAI 开源 Grok Build 代码库",
+      "tldr": "xAI 的 Grok Build 命令行工具之前被曝会偷偷上传用户整个目录（包括 SSH 密钥和密码），引发众怒后，xAI 不仅删除了所有已上传数据，还直接把整个代码库（84 万行 Rust）开源了，Apache 2.0 协议。",
       "score": 9,
-      "url": "https://www.latent.space/p/aiewf26trends",
-      "source": "Latent Space",
-      "source_count": 1
-    },
-    {
-      "topic": "变现路径",
-      "title": "下一代AI原生UGC平台，藏在《蛋仔派对》里",
-      "tldr": "《蛋仔派对》用AI大模型和双编辑器体系，让普通人说句话就能做游戏，把UGC从“用爱发电”推向了“一人公司”式的微型创业。",
-      "score": 9,
-      "url": "https://36kr.com/p/3896755010963333?f=rss",
-      "source": "36氪",
-      "source_count": 1
+      "url": "https://simonwillison.net/2026/Jul/15/grok-build/#atom-everything",
+      "source": "Simon Willison",
+      "source_count": 2
     },
     {
       "topic": "世界时事",
-      "title": "WAIC前夕看全球AI治理变局：拒绝“富国游戏”，规则之争加快",
-      "tldr": "全球AI治理正从“要不要管”转向“谁来定规则”，美国想主导标准，联合国和全球南方国家想分一杯羹，中国则在积极参与标准组织，试图在博弈中争取话语权。",
+      "title": "十年罕见贸易逆差，越南“中国+1”神话还站得住吗？",
+      "tldr": "越南上半年出现166.5亿美元贸易逆差，但这不是出口不行，而是进口猛增（尤其电子设备），本质是制造业扩张带来的“生产性逆差”，暴露了本土企业竞争力弱、高度依赖中国供应链的结构性问题。",
       "score": 8,
-      "url": "https://m.thepaper.cn/detail/33590679",
-      "source": "澎湃新闻",
+      "url": "https://www.guancha.cn/internation/2026_07_16_823910_s.shtml",
+      "source": "观察者网",
+      "source_count": 1
+    },
+    {
+      "topic": "GitHub 动态",
+      "title": "Claude Code v2.1.211 发布",
+      "tldr": "Anthropic 发布了 Claude Code 的 v2.1.211 版本，主要是一堆 Bug 修复和一个小功能更新，让开发者用起来更稳、更安全、更顺手。",
+      "score": 9,
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.211",
+      "source": "GitHubRelease",
       "source_count": 1
     }
   ]
