@@ -1,0 +1,45 @@
+{
+  "date": "2026-07-16",
+  "profile": "kizty",
+  "generated_at": "2026-07-16 01:35",
+  "stats": {
+    "topics_ran": [
+      "AI大事",
+      "世界时事",
+      "变现路径",
+      "技术圈",
+      "GitHub 动态"
+    ],
+    "total_selected": 26,
+    "total_fetched": 162
+  },
+  "top3": [
+    {
+      "topic": "AI大事",
+      "title": "2026年AI工程五大趋势：从Agent到系统",
+      "tldr": "这篇文章总结了2026年AI工程世界博览会上的五大趋势，核心是AI工程已从关注Agent本身转向构建围绕Agent的可靠系统，强调人机协作而非完全自动化。",
+      "score": 9,
+      "url": "https://www.latent.space/p/aiewf26trends",
+      "source": "Latent Space",
+      "source_count": 1
+    },
+    {
+      "topic": "变现路径",
+      "title": "下一代AI原生UGC平台，藏在《蛋仔派对》里",
+      "tldr": "《蛋仔派对》用AI大模型和双编辑器体系，让普通人说句话就能做游戏，把UGC从“用爱发电”推向了“一人公司”式的微型创业。",
+      "score": 9,
+      "url": "https://36kr.com/p/3896755010963333?f=rss",
+      "source": "36氪",
+      "source_count": 1
+    },
+    {
+      "topic": "世界时事",
+      "title": "WAIC前夕看全球AI治理变局：拒绝“富国游戏”，规则之争加快",
+      "tldr": "全球AI治理正从“要不要管”转向“谁来定规则”，美国想主导标准，联合国和全球南方国家想分一杯羹，中国则在积极参与标准组织，试图在博弈中争取话语权。",
+      "score": 8,
+      "url": "https://m.thepaper.cn/detail/33590679",
+      "source": "澎湃新闻",
+      "source_count": 1
+    }
+  ]
+}
