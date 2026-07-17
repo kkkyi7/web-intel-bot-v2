@@ -1,0 +1,44 @@
+{
+  "date": "2026-07-17",
+  "profile": "kizty",
+  "generated_at": "2026-07-17 01:35",
+  "stats": {
+    "topics_ran": [
+      "AI大事",
+      "世界时事",
+      "技术圈",
+      "GitHub 动态"
+    ],
+    "total_selected": 24,
+    "total_fetched": 164
+  },
+  "top3": [
+    {
+      "topic": "AI大事",
+      "title": "Grok 4.5 登陆 Cursor，性能对标 Opus 且成本更低",
+      "tldr": "SpaceXAI 和 Cursor 联合训练了 Grok 4.5 模型，性能介于 Claude Opus 4.7 和 4.8 之间，但在 Cursor 里使用成本比 Opus 便宜 6 倍，比 GPT-5.5 便宜 3 倍，已经开放给用户。",
+      "score": 9,
+      "url": "https://www.bensbites.com/p/grok-x-cursor",
+      "source": "Ben's Bites",
+      "source_count": 1
+    },
+    {
+      "topic": "AI大事",
+      "title": "Awesome LLM Apps：100+ 可运行的 AI Agent 与 RAG 应用",
+      "tldr": "一个 GitHub 项目，收集了 100 多个开源的 AI Agent 和 RAG 应用模板，从旅行规划到医疗影像分析都有，你克隆下来就能跑，还能直接改改拿去卖。",
+      "score": 9,
+      "url": "https://github.com/Shubhamsaboo/awesome-llm-apps",
+      "source": "GitHub Trending",
+      "source_count": 1
+    },
+    {
+      "topic": "世界时事",
+      "title": "十年罕见贸易逆差，越南“中国+1”神话还站得住吗？",
+      "tldr": "越南上半年出现166.5亿美元贸易逆差，但这不是出口不行，而是进口猛增。大量进口设备和零部件是为扩产备货，背后是对中国供应链的深度依赖，本土企业没跟上。",
+      "score": 8,
+      "url": "https://www.guancha.cn/internation/2026_07_16_823910_s.shtml",
+      "source": "观察者网",
+      "source_count": 1
+    }
+  ]
+}
