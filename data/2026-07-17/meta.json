@@ -1,43 +1,45 @@
 {
   "date": "2026-07-17",
   "profile": "kizty",
-  "generated_at": "2026-07-17 01:35",
+  "generated_at": "2026-07-17 04:41",
   "stats": {
     "topics_ran": [
       "AI大事",
       "世界时事",
       "技术圈",
-      "GitHub 动态"
+      "GitHub 动态",
+      "心理学",
+      "供应链"
     ],
-    "total_selected": 24,
-    "total_fetched": 164
+    "total_selected": 35,
+    "total_fetched": 190
   },
   "top3": [
     {
       "topic": "AI大事",
-      "title": "Grok 4.5 登陆 Cursor，性能对标 Opus 且成本更低",
-      "tldr": "SpaceXAI 和 Cursor 联合训练了 Grok 4.5 模型，性能介于 Claude Opus 4.7 和 4.8 之间，但在 Cursor 里使用成本比 Opus 便宜 6 倍，比 GPT-5.5 便宜 3 倍，已经开放给用户。",
+      "title": "Kimi K3 发布与鹈鹕基准测试的启示",
+      "tldr": "中国 AI 实验室月之暗面发布了 2.8 万亿参数的 Kimi K3 模型，性能超越 GPT-5.5 和 Claude Opus 4.8，但定价也大幅上涨。作者还反思了自创的“鹈鹕骑自行车”测试已不再能有效衡量模型能力。",
       "score": 9,
-      "url": "https://www.bensbites.com/p/grok-x-cursor",
-      "source": "Ben's Bites",
+      "url": "https://simonwillison.net/2026/Jul/16/kimi-k3/#atom-everything",
+      "source": "Simon Willison",
+      "source_count": 3
+    },
+    {
+      "topic": "心理学",
+      "title": "全球供应链物流中断预测与缓解的智能专家系统",
+      "tldr": "这篇论文搞了个智能系统，先用图模型算出供应链里风险怎么传染，再结合多种预测模型提前预判物流中断，最后给出可执行的缓解方案，实验效果不错。",
+      "score": 9,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42463892/",
+      "source": "PubMed",
       "source_count": 1
     },
     {
-      "topic": "AI大事",
-      "title": "Awesome LLM Apps：100+ 可运行的 AI Agent 与 RAG 应用",
-      "tldr": "一个 GitHub 项目，收集了 100 多个开源的 AI Agent 和 RAG 应用模板，从旅行规划到医疗影像分析都有，你克隆下来就能跑，还能直接改改拿去卖。",
+      "topic": "供应链",
+      "title": "Codex 用户半年增长超 10 倍达 700 万，是否超越 Claude Code",
+      "tldr": "OpenAI 的 Codex 编程工具 6 个月用户从 55 万涨到 700 万，最近一天就新增 100 万，跟 Claude Code 的 200 万用户和 25 亿美元年收入形成对比，但两者统计口径不同。",
       "score": 9,
-      "url": "https://github.com/Shubhamsaboo/awesome-llm-apps",
-      "source": "GitHub Trending",
-      "source_count": 1
-    },
-    {
-      "topic": "世界时事",
-      "title": "十年罕见贸易逆差，越南“中国+1”神话还站得住吗？",
-      "tldr": "越南上半年出现166.5亿美元贸易逆差，但这不是出口不行，而是进口猛增。大量进口设备和零部件是为扩产备货，背后是对中国供应链的深度依赖，本土企业没跟上。",
-      "score": 8,
-      "url": "https://www.guancha.cn/internation/2026_07_16_823910_s.shtml",
-      "source": "观察者网",
+      "url": "https://www.latent.space/p/ainews-codex-usage-up-10x-in-6-months",
+      "source": "Latent Space",
       "source_count": 1
     }
   ]
