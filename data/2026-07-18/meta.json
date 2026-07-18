@@ -1,44 +1,46 @@
 {
   "date": "2026-07-18",
   "profile": "kizty",
-  "generated_at": "2026-07-18 01:35",
+  "generated_at": "2026-07-18 04:26",
   "stats": {
     "topics_ran": [
       "AI大事",
       "世界时事",
       "变现路径",
       "技术圈",
-      "GitHub 动态"
+      "GitHub 动态",
+      "心理学",
+      "供应链"
     ],
-    "total_selected": 30,
-    "total_fetched": 168
+    "total_selected": 36,
+    "total_fetched": 190
   },
   "top3": [
     {
       "topic": "AI大事",
-      "title": "Kimi K3 2.8T-A50B：最大开源模型发布，Opus 4.8 级别性能但价格仅 Sonnet 5 水平",
-      "tldr": "月之暗面发布了 Kimi K3，一个 2.8 万亿参数的开源模型，在编程和前端任务上直接干翻了 Claude Fable 5 和 GPT-5.6，性能接近顶级闭源模型但价格只有 Sonnet 5 级别，权重将在 7 月 27 日开放。",
+      "title": "Kimi K3 2.8T-A50B：史上最大开源模型，Opus 4.8 性能 Sonnet 5 价格",
+      "tldr": "月之暗面发布了全球最大的开源模型 Kimi K3，2.8万亿参数、百万上下文，前端编码能力直接干翻 Claude 和 GPT，性能对标顶级闭源模型但价格只有其几分之一。",
       "score": 9,
       "url": "https://www.latent.space/p/ainews-kimi-k3-28t-a50b-the-largest",
       "source": "Latent Space",
       "source_count": 3
     },
     {
-      "topic": "世界时事",
-      "title": "电池消费税迎全面调整：锂电池等逐步恢复征税、新兴电池免征",
-      "tldr": "国内电池消费税政策大转向：锂电池等成熟电池从免税恢复至4%征税，固态电池、钠电池等新技术继续免税，政策分两阶段执行，旨在引导产业升级。",
+      "topic": "变现路径",
+      "title": "印奇在WAIC 2026演讲：当智能体走进物理世界",
+      "tldr": "印奇在WAIC上判断，2026年AI模型能力正跨越临界点，智能体从聊天工具变成能独立工作数十小时的生产力单元，并推动新系统、新载体、新网络三大变革。",
       "score": 9,
-      "url": "https://www.caixin.com/2026-07-17/102465469.html",
-      "source": "财新网",
+      "url": "https://36kr.com/p/3900439867147909?f=rss",
+      "source": "36氪",
       "source_count": 1
     },
     {
-      "topic": "AI大事",
-      "title": "Awesome LLM Apps：100+ 可运行的开源 AI Agent 与 RAG 应用",
-      "tldr": "GitHub 上一个开源项目，整理了 100 多个可以直接克隆、运行、甚至商用的 AI Agent 和 RAG 应用模板，覆盖旅行、医疗、金融、代码助手等场景，支持多种大模型。",
+      "topic": "供应链",
+      "title": "Codex 用户 6 个月增长超 10 倍达 700 万，是否超越 Claude Code",
+      "tldr": "OpenAI 的 Codex 用户半年从 70 万涨到 700 万，最近两天就新增 100 万，而 Claude Code 用户约 200 万，两者在 AI 编程工具市场正激烈竞争。",
       "score": 9,
-      "url": "https://github.com/Shubhamsaboo/awesome-llm-apps",
-      "source": "GitHub Trending",
+      "url": "https://www.latent.space/p/ainews-codex-usage-up-10x-in-6-months",
+      "source": "Latent Space",
       "source_count": 1
     }
   ]
