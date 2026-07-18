@@ -1,47 +1,49 @@
-# 情报 Brief · 2026-07-17
+# 情报 Brief · 2026-07-18
 
 ## 今日 TOP3
 
-1. **Kimi K3 发布与鹈鹕基准测试的启示** · 分9 · 3信源
-   中国 AI 实验室月之暗面发布了 2.8 万亿参数的 Kimi K3 模型，性能超越 GPT-5.5 和 Claude Opus 4.8，但定价也大幅上涨。作者还反思了自创的“鹈鹕骑自行车”测试已不再能有效衡量模型能力。
-   https://simonwillison.net/2026/Jul/16/kimi-k3/#atom-everything
+1. **Kimi K3 2.8T-A50B：最大开源模型发布，Opus 4.8 级别性能但价格仅 Sonnet 5 水平** · 分9 · 3信源
+   月之暗面发布了 Kimi K3，一个 2.8 万亿参数的开源模型，在编程和前端任务上直接干翻了 Claude Fable 5 和 GPT-5.6，性能接近顶级闭源模型但价格只有 Sonnet 5 级别，权重将在 7 月 27 日开放。
+   https://www.latent.space/p/ainews-kimi-k3-28t-a50b-the-largest
 
-2. **全球供应链物流中断预测与缓解的智能专家系统** · 分9
-   这篇论文搞了个智能系统，先用图模型算出供应链里风险怎么传染，再结合多种预测模型提前预判物流中断，最后给出可执行的缓解方案，实验效果不错。
-   https://pubmed.ncbi.nlm.nih.gov/42463892/
+2. **电池消费税迎全面调整：锂电池等逐步恢复征税、新兴电池免征** · 分9
+   国内电池消费税政策大转向：锂电池等成熟电池从免税恢复至4%征税，固态电池、钠电池等新技术继续免税，政策分两阶段执行，旨在引导产业升级。
+   https://www.caixin.com/2026-07-17/102465469.html
 
-3. **Codex 用户半年增长超 10 倍达 700 万，是否超越 Claude Code** · 分9
-   OpenAI 的 Codex 编程工具 6 个月用户从 55 万涨到 700 万，最近一天就新增 100 万，跟 Claude Code 的 200 万用户和 25 亿美元年收入形成对比，但两者统计口径不同。
-   https://www.latent.space/p/ainews-codex-usage-up-10x-in-6-months
+3. **Awesome LLM Apps：100+ 可运行的开源 AI Agent 与 RAG 应用** · 分9
+   GitHub 上一个开源项目，整理了 100 多个可以直接克隆、运行、甚至商用的 AI Agent 和 RAG 应用模板，覆盖旅行、医疗、金融、代码助手等场景，支持多种大模型。
+   https://github.com/Shubhamsaboo/awesome-llm-apps
 
 ## 今日精选
 
-### 世界时事
-- [双标！中国AI被骂偷，美国照抄叫工程](https://www.guancha.cn/internation/2026_07_17_824045_s.shtml) · 观察者网 · 分9
-  《福布斯》发文批评美国双标：中国用美国模型叫偷，美国公司用中国架构和蒸馏中国模型训练新模型，却被夸成工程创新。本质是政治干预导致美国企业被迫用次优方案。
-
 ### GitHub 动态
-- [Claude Code 发布 v2.1.212 更新](https://github.com/anthropics/claude-code/releases/tag/v2.1.212) · GitHubRelease · 分9
-  Claude Code 这次更新主要优化了开发者的多任务处理能力，新增了会话分叉、后台任务、搜索限制和子任务预算控制等功能。
-- [Anthropic Python SDK 发布 v0.117.0，新增 dreaming 与 MCP Tunnels](https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.117.0) · GitHubRelease · 分9
-  Anthropic 的 Python SDK 更新到 v0.117.0，主要加了两个新功能：一个是让模型能“做梦”的 dreaming 模式，另一个是 MCP Tunnels 隧道功能，还修了个凭证泄…
-- [LangChain 发布 1.3.14，新增工具错误中间件](https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.3.14) · GitHubRelease · 分9
-  LangChain 发了小版本更新，核心是给工具调用加了两个中间件：一个专门处理可重试的错误，另一个统一拦截工具执行中的异常，让 Agent 更稳定。
+- [Claude Code v2.1.214 发布，修复权限与安全漏洞](https://github.com/anthropics/claude-code/releases/tag/v2.1.214) · GitHubRelease · 分9
+  Anthropic 更新了 Claude Code 命令行工具，修复了多个权限绕过漏洞，包括文件路径匹配错误、Windows PowerShell 下的命令逃逸，并新增了会话终止工具和 OpenTel…
+
+### 变现路径
+- [印奇在WAIC 2026演讲：当智能体走进物理世界](https://36kr.com/p/3900439867147909?f=rss) · 36氪 · 分9
+  印奇在WAIC 2026上判断，2026年模型能力跨越临界点，智能体已能从执行数秒任务进化到独立工作数十小时，并正从屏幕走向物理世界，推动新系统、新载体、新网络三大变革。
+
+### 技术圈
+- [开源AI现状报告](https://stateofopensource.ai/) · HackerNews · 分9
+  Mozilla发布了一份关于开源AI现状的报告，但被HN用户吐槽是AI写的、图表和文字脱节。同时评论区有硬数据：开源模型在OpenRouter上的市场份额四个月内从40%反超到63%，处理量翻了近5倍…
+
+### 世界时事
+- [电池消费税迎全面调整：锂电池等逐步恢复征税、新兴电池免征](https://www.caixin.com/2026-07-17/102465469.html) · 财新网 · 分9
+  国内电池消费税政策大转向：锂电池等成熟电池从免税恢复至4%征税，固态电池、钠电池等新技术继续免税，政策分两阶段执行，旨在引导产业升级。
+- [大分化：历史新高的美股与历史新低的消费者信心](https://m.thepaper.cn/detail/33524574) · 澎湃新闻 · 分8
+  美股标普500涨了130%创历史新高，但美国消费者信心却跌到70多年最低。文章分析了为啥股市和老百姓感受完全脱节，核心是AI和金融资产让富人更富，而普通人工资没涨、物价高企。
 
 ### AI大事
-- [Kimi K3 发布与鹈鹕基准测试的启示](https://simonwillison.net/2026/Jul/16/kimi-k3/#atom-everything) · Simon Willison · 分9
-  中国 AI 实验室月之暗面发布了 2.8 万亿参数的 Kimi K3 模型，性能超越 GPT-5.5 和 Claude Opus 4.8，但定价也大幅上涨。作者还反思了自创的“鹈鹕骑自行车”测试已不再…
-- [Grok 与 Cursor 合作推出新模型](https://www.bensbites.com/p/grok-x-cursor) · Ben's Bites · 分9
-  SpaceXAI 和 Cursor 联合训练了 Grok 4.5，性能接近 Anthropic 的顶级模型 Opus，但成本大幅降低，在 Cursor 中可用，对开发者是个高性价比选择。
+- [Kimi K3 2.8T-A50B：最大开源模型发布，Opus 4.8 级别性能但价格仅 Sonnet 5 水平](https://www.latent.space/p/ainews-kimi-k3-28t-a50b-the-largest) · Latent Space · 分9
+  月之暗面发布了 Kimi K3，一个 2.8 万亿参数的开源模型，在编程和前端任务上直接干翻了 Claude Fable 5 和 GPT-5.6，性能接近顶级闭源模型但价格只有 Sonnet 5 级别…
+- [Grok 与 Cursor 合作发布 Grok 4.5 模型](https://www.bensbites.com/p/grok-x-cursor) · Ben's Bites · 分9
+  SpaceXAI 和 Cursor 联合训练了 Grok 4.5 模型，性能接近 Opus 4.8，但成本只有 Opus 的六分之一、GPT-5.5 的三分之一，现已上线 Cursor 和 API。
+- [Awesome LLM Apps：100+ 可运行的开源 AI Agent 与 RAG 应用](https://github.com/Shubhamsaboo/awesome-llm-apps) · GitHub Trending · 分9
+  GitHub 上一个开源项目，整理了 100 多个可以直接克隆、运行、甚至商用的 AI Agent 和 RAG 应用模板，覆盖旅行、医疗、金融、代码助手等场景，支持多种大模型。
+- [Open Interpreter：面向低成本模型的开源编码代理](https://github.com/openinterpreter/openinterpreter) · GitHub Trending · 分9
+  Open Interpreter 发布了一个基于 Rust 重写的版本，专门优化了 Kimi K3 等低成本模型的编码能力，并兼容 OpenAI Codex 协议，让你在终端里用自然语言操控电脑写代码…
+- [豆包视频通话背后，火山引擎重构 Agent 时代多模态传输底座](https://www.infoq.cn/article/GICIrEsTJwEgGsDYFvCM?utm_source=rss&utm_medium=article) · InfoQ 中文 · 分8
+  火山引擎为豆包视频通话功能自研了一套多模态传输协议，解决了传统方案在 AI 实时对话中延迟高、带宽浪费的问题，本质是给 AI Agent 造了一条专用数据高速公路。
 
-### 供应链
-- [软件项目的共同语言不是英语或Python](https://simonwillison.net/2026/Jul/14/armin-ronacher/#atom-everything) · Simon Willison · 分9
-  Armin Ronacher 指出，软件项目真正的共同语言是大家对概念、边界、不变量的共同理解，这种理解靠“摩擦”来同步，而 AI Agent 正在消除这种摩擦，可能带来隐性风险。
-- [Codex 用户半年增长超 10 倍达 700 万，是否超越 Claude Code](https://www.latent.space/p/ainews-codex-usage-up-10x-in-6-months) · Latent Space · 分9
-  OpenAI 的 Codex 编程工具 6 个月用户从 55 万涨到 700 万，最近一天就新增 100 万，跟 Claude Code 的 200 万用户和 25 亿美元年收入形成对比，但两者统计口…
-- [从供应链网络推断库存动态：一种带自主验证的图学习方法](http://arxiv.org/abs/2607.10642v1) · arXiv · 分9
-  这篇论文提出用多智能体半监督框架，在中小企业缺乏库存数据的情况下，通过供应链网络拓扑推断库存变化，并用多个经济模型自动验证预测结果。
-- [AI基础设施必须为Agent体验进化](https://www.latent.space/p/modal2026) · Latent Space · 分9
-  Modal CTO 聊为什么传统云平台是为人类开发者设计的，现在Agent自己写代码跑任务，基础设施必须从“开发者体验”转向“Agent体验”，比如弹性推理、沙箱、GPU快照等。
-
-_更新于 2026-07-17 04:41 · web-intel-bot_
+_更新于 2026-07-18 01:35 · web-intel-bot_
