@@ -1,0 +1,45 @@
+{
+  "date": "2026-07-19",
+  "profile": "kizty",
+  "generated_at": "2026-07-19 01:35",
+  "stats": {
+    "topics_ran": [
+      "AI大事",
+      "世界时事",
+      "变现路径",
+      "技术圈",
+      "供应链"
+    ],
+    "total_selected": 33,
+    "total_fetched": 180
+  },
+  "top3": [
+    {
+      "topic": "AI大事",
+      "title": "GPT-5.6 用一条提示词攻克凸优化 30 年难题",
+      "tldr": "有人用 GPT-5.6 的一个高级模型（Sol Pro），通过精心设计的提示词，在 148 分钟内解决了一个凸优化领域悬而未决 30 年的猜想，但实际背后有一整年的前期探索和提示词工程积累。",
+      "score": 9,
+      "url": "https://old.reddit.com/r/math/comments/1uxj3cy/after_openais_cdc_proof_announcement_gpt56_used_a/",
+      "source": "HackerNews",
+      "source_count": 1
+    },
+    {
+      "topic": "技术圈",
+      "title": "LG 显示器通过 Windows 更新静默安装软件",
+      "tldr": "用户一插上 LG 显示器，Windows 就会自动在后台下载并安装 LG 的配套软件，无需任何授权，且该软件开机自启、拥有完整系统权限，被社区定性为“恶意软件级”行为。",
+      "score": 8,
+      "url": "https://videocardz.com/newz/lg-monitors-silently-install-software-through-windows-update-without-user-consent",
+      "source": "HackerNews",
+      "source_count": 1
+    },
+    {
+      "topic": "变现路径",
+      "title": "印奇在 WAIC 2026 演讲：当智能体走进物理世界",
+      "tldr": "印奇在 WAIC 2026 上提出，2026 年 AI 模型能力已跨越临界点，智能体将从聊天工具变成能独立工作数十小时的生产力单元，并推动新系统、新载体、新网络三大变革。",
+      "score": 9,
+      "url": "https://36kr.com/p/3900439867147909?f=rss",
+      "source": "36氪",
+      "source_count": 1
+    }
+  ]
+}
