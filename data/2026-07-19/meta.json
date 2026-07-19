@@ -1,44 +1,44 @@
 {
   "date": "2026-07-19",
   "profile": "kizty",
-  "generated_at": "2026-07-19 01:35",
+  "generated_at": "2026-07-19 04:47",
   "stats": {
     "topics_ran": [
       "AI大事",
       "世界时事",
       "变现路径",
       "技术圈",
-      "供应链"
+      "GitHub 动态"
     ],
-    "total_selected": 33,
-    "total_fetched": 180
+    "total_selected": 26,
+    "total_fetched": 157
   },
   "top3": [
     {
-      "topic": "AI大事",
-      "title": "GPT-5.6 用一条提示词攻克凸优化 30 年难题",
-      "tldr": "有人用 GPT-5.6 的一个高级模型（Sol Pro），通过精心设计的提示词，在 148 分钟内解决了一个凸优化领域悬而未决 30 年的猜想，但实际背后有一整年的前期探索和提示词工程积累。",
+      "topic": "技术圈",
+      "title": "GPT-5.6 用一条提示词攻克凸优化领域 30 年难题",
+      "tldr": "有人用 GPT-5.6 的 Sol Pro 模型，靠一条精心设计的提示词，在 148 分钟内解决了一个凸优化领域悬了 30 年的猜想，但实际背后有一整年的失败尝试和人类研究铺垫。",
       "score": 9,
       "url": "https://old.reddit.com/r/math/comments/1uxj3cy/after_openais_cdc_proof_announcement_gpt56_used_a/",
       "source": "HackerNews",
       "source_count": 1
     },
     {
-      "topic": "技术圈",
-      "title": "LG 显示器通过 Windows 更新静默安装软件",
-      "tldr": "用户一插上 LG 显示器，Windows 就会自动在后台下载并安装 LG 的配套软件，无需任何授权，且该软件开机自启、拥有完整系统权限，被社区定性为“恶意软件级”行为。",
-      "score": 8,
-      "url": "https://videocardz.com/newz/lg-monitors-silently-install-software-through-windows-update-without-user-consent",
-      "source": "HackerNews",
+      "topic": "AI大事",
+      "title": "从大模型到 AI 执行系统：构建企业级可控 Agent 体系",
+      "tldr": "这篇文章讲的是企业怎么把大模型从“聊天玩具”变成真正能干活、可管控的AI执行系统，核心是构建一套可控的Agent体系，让AI在工业场景里安全落地。",
+      "score": 9,
+      "url": "https://www.infoq.cn/article/eTGhBWBHXum6AuVU45Ab?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
       "source_count": 1
     },
     {
-      "topic": "变现路径",
-      "title": "印奇在 WAIC 2026 演讲：当智能体走进物理世界",
-      "tldr": "印奇在 WAIC 2026 上提出，2026 年 AI 模型能力已跨越临界点，智能体将从聊天工具变成能独立工作数十小时的生产力单元，并推动新系统、新载体、新网络三大变革。",
+      "topic": "世界时事",
+      "title": "商汤计划年内发射首批算力卫星，拟建5个万卡以上国产集群",
+      "tldr": "商汤宣布年内和国星宇航发射4颗算力卫星，还联合15家芯片公司搞国产算力集群，目标2030年前建千星太空算力网，解决地面算力不够用的问题。",
       "score": 9,
-      "url": "https://36kr.com/p/3900439867147909?f=rss",
-      "source": "36氪",
+      "url": "https://www.caixin.com/2026-07-18/102465859.html",
+      "source": "财新网",
       "source_count": 1
     }
   ]
