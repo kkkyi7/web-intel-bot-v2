@@ -1,44 +1,46 @@
 {
   "date": "2026-07-20",
   "profile": "kizty",
-  "generated_at": "2026-07-20 01:35",
+  "generated_at": "2026-07-20 05:05",
   "stats": {
     "topics_ran": [
       "AI大事",
       "世界时事",
       "变现路径",
       "技术圈",
-      "GitHub 动态"
+      "GitHub 动态",
+      "心理学",
+      "供应链"
     ],
-    "total_selected": 25,
-    "total_fetched": 161
+    "total_selected": 31,
+    "total_fetched": 183
   },
   "top3": [
     {
       "topic": "AI大事",
       "title": "从大模型到 AI 执行系统：构建企业级可控 Agent 体系",
-      "tldr": "这篇文章讲的是企业怎么把大模型从“聊天玩具”变成真正能干活、不出错的执行系统，核心是构建可控的 Agent 体系，而不是只调 API。",
+      "tldr": "这篇文章讲的是企业怎么把大模型从“聊天机器人”升级成能真正干活、能控制、能对接生产系统的 AI Agent 体系，重点在可控性和执行落地。",
       "score": 9,
       "url": "https://www.infoq.cn/article/eTGhBWBHXum6AuVU45Ab?utm_source=rss&utm_medium=article",
       "source": "InfoQ 中文",
       "source_count": 1
     },
     {
-      "topic": "变现路径",
-      "title": "印奇在 WAIC 2026 演讲：当智能体走进物理世界",
-      "tldr": "印奇在 WAIC 2026 上判断，2026 年模型能力已跨过临界点，智能体能独立工作数十小时，正从屏幕走向物理世界，将推动新系统、新载体、新网络三大变革。",
+      "topic": "供应链",
+      "title": "Codex 用户半年增长超 10 倍达 700 万，是否已超越 Claude Code",
+      "tldr": "OpenAI 的 Codex 编程助手在半年内用户从 70 万暴涨到 700 万，最近两天就新增 100 万，势头已经追上甚至超过 Claude Code，背后是 AI 编程工具在开发者群体中的快速普及。",
       "score": 9,
-      "url": "https://36kr.com/p/3900439867147909?f=rss",
-      "source": "36氪",
+      "url": "https://www.latent.space/p/ainews-codex-usage-up-10x-in-6-months",
+      "source": "Latent Space",
       "source_count": 1
     },
     {
-      "topic": "技术圈",
-      "title": "阿里发布 Qwen 3.8，2.4T 参数开源大模型",
-      "tldr": "阿里发布 Qwen 3.8，一个 2.4 万亿参数的开源大模型，直接对标 Moonshot AI 刚公布的 2.8T 参数 Kimi K3，两家中国公司正在开源大模型领域激烈竞争。",
-      "score": 9,
-      "url": "https://twitter.com/Alibaba_Qwen/status/2078759124914098291",
-      "source": "HackerNews",
+      "topic": "世界时事",
+      "title": "美国对付印度这招，却给中国埋雷？",
+      "tldr": "美国战略收缩，把“印太司令部”改名，对印度从“利他”转向“交易”，表面关系降级，但国防合作没变，反而刺激印度更主动拉拢日本、澳大利亚等小圈子来遏制中国，给中国埋下新雷。",
+      "score": 8,
+      "url": "https://www.guancha.cn/liuzongyi/2026_07_20_824384_s.shtml",
+      "source": "观察者网",
       "source_count": 1
     }
   ]
