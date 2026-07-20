@@ -1,0 +1,45 @@
+{
+  "date": "2026-07-20",
+  "profile": "kizty",
+  "generated_at": "2026-07-20 01:35",
+  "stats": {
+    "topics_ran": [
+      "AI大事",
+      "世界时事",
+      "变现路径",
+      "技术圈",
+      "GitHub 动态"
+    ],
+    "total_selected": 25,
+    "total_fetched": 161
+  },
+  "top3": [
+    {
+      "topic": "AI大事",
+      "title": "从大模型到 AI 执行系统：构建企业级可控 Agent 体系",
+      "tldr": "这篇文章讲的是企业怎么把大模型从“聊天玩具”变成真正能干活、不出错的执行系统，核心是构建可控的 Agent 体系，而不是只调 API。",
+      "score": 9,
+      "url": "https://www.infoq.cn/article/eTGhBWBHXum6AuVU45Ab?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "source_count": 1
+    },
+    {
+      "topic": "变现路径",
+      "title": "印奇在 WAIC 2026 演讲：当智能体走进物理世界",
+      "tldr": "印奇在 WAIC 2026 上判断，2026 年模型能力已跨过临界点，智能体能独立工作数十小时，正从屏幕走向物理世界，将推动新系统、新载体、新网络三大变革。",
+      "score": 9,
+      "url": "https://36kr.com/p/3900439867147909?f=rss",
+      "source": "36氪",
+      "source_count": 1
+    },
+    {
+      "topic": "技术圈",
+      "title": "阿里发布 Qwen 3.8，2.4T 参数开源大模型",
+      "tldr": "阿里发布 Qwen 3.8，一个 2.4 万亿参数的开源大模型，直接对标 Moonshot AI 刚公布的 2.8T 参数 Kimi K3，两家中国公司正在开源大模型领域激烈竞争。",
+      "score": 9,
+      "url": "https://twitter.com/Alibaba_Qwen/status/2078759124914098291",
+      "source": "HackerNews",
+      "source_count": 1
+    }
+  ]
+}
