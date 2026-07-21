@@ -2,44 +2,46 @@
 
 ## 今日 TOP3
 
-1. **人类数学家正在被反例生成AI超越** · 分9
-   AI现在能自动生成数学猜想的反例，让数学家提前知道哪些猜想是错的，避免白费力气。HackerNews上讨论热烈，有人觉得这是好事，有人担心人类数学家的价值被削弱。
-   https://xenaproject.wordpress.com/2026/07/20/human-mathematicians-are-being-outcounterexampled/
+1. **不同模型厂同一家Agentic Infra，AGI时代的地基终于浮出水面** · 分9
+   多家大模型公司（如OpenAI、Anthropic）不约而同选择了同一家Agent基础设施公司，说明Agentic Infra正在成为AGI时代的底层标准，类似云时代的AWS。
+   https://www.qbitai.com/2026/07/455805.html
 
 2. **中国开源权重AI策略正在获胜** · 分9
-   HackerNews上热议一篇观点文，认为中国开放权重的AI模型策略正占据优势，因为开源模型成本低、可定制，吸引了大量创业公司，而美国封闭的专有模型可能正在失去市场。
+   HackerNews 上热议一篇观点文章，认为中国开放模型权重（open-weights）的策略正在赢得市场，因为低成本、可定制化让初创公司和开发者更愿意采用，而美国闭源模型（如 OpenAI）面临成本高、锁定的问题。
    https://werd.io/american-ai-is-locked-down-and-proprietary-its-losing/
 
-3. **不同模型厂同一家Agentic Infra，AGI时代的地基终于浮出水面** · 分9
-   多家大模型公司（如OpenAI、Google、Anthropic）不约而同选择了同一家Agent基础设施供应商，说明Agent开发底层工具正在标准化，AGI落地的“地基”开始成型。
-   https://www.qbitai.com/2026/07/455805.html
+3. **图神经网络作为供应链优化元模型的潜力：数据集、架构与方向** · 分9
+   这篇论文探索用图神经网络（GNN）替代传统仿真，快速预测供应链网络在不同参数下的表现，并首次公开了大规模训练数据集和仿真库。
+   http://arxiv.org/abs/2607.16769v1
 
 ## 今日精选
 
-### 供应链
-- [月泉仿生获数亿元融资，仿生拉压体灵巧手万台量产](https://36kr.com/p/3899174356387718?f=rss) · 36氪 · 分9
-  月泉仿生拿到数亿元融资，核心产品是模仿人手骨骼肌肉的灵巧手，解决了传统机器人手“有力就僵硬、轻巧就无力”的矛盾，已量产并拿到过亿订单。
+### GitHub 动态
+- [LangChain Core 1.5.0 发布，新增推理努力参数](https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.5.0) · GitHubRelease · 分9
+  LangChain 的核心库更新到 1.5.0，主要新增了一个叫 `reasoning_effort` 的标准参数，让开发者能控制 AI 模型在回答前“思考”多久。
+- [Claude Code v2.1.216 发布，修复多项性能与安全漏洞](https://github.com/anthropics/claude-code/releases/tag/v2.1.216) · GitHubRelease · 分9
+  Claude Code 新版本修复了长对话卡顿、OAuth 令牌过期导致命令被拒、子代理配置丢失等十几个问题，并新增了跳过文件系统隔离但保留网络控制的配置项。
 
 ### 技术圈
-- [人类数学家正在被反例生成AI超越](https://xenaproject.wordpress.com/2026/07/20/human-mathematicians-are-being-outcounterexampled/) · HackerNews · 分9
-  AI现在能自动生成数学猜想的反例，让数学家提前知道哪些猜想是错的，避免白费力气。HackerNews上讨论热烈，有人觉得这是好事，有人担心人类数学家的价值被削弱。
-- [Kimi K3、Qwen 3.8 与 Anthropic 的潜在危机](https://www.emergingtrajectories.com/lh/frontier-lab-economics/) · HackerNews · 分9
-  这篇 HN 热帖讨论近期开源模型（Kimi K3、Qwen 3.8）性能逼近闭源前沿，同时 Anthropic 因 Claude Design 抄袭 Figma 事件陷入信任危机，引发对“纯模型公司”…
+- [人类数学家正在被反例生成器超越](https://xenaproject.wordpress.com/2026/07/20/human-mathematicians-are-being-outcounterexampled/) · HackerNews · 分9
+  AI 现在能自动构造数学反例，让数学家发现猜想错误的速度远超人类，引发学术界对数学研究范式、工具付费和人才浪费的讨论。
 - [中国开源权重AI策略正在获胜](https://werd.io/american-ai-is-locked-down-and-proprietary-its-losing/) · HackerNews · 分9
-  HackerNews上热议一篇观点文，认为中国开放权重的AI模型策略正占据优势，因为开源模型成本低、可定制，吸引了大量创业公司，而美国封闭的专有模型可能正在失去市场。
-- [Claude Fable 给出雅可比猜想的反例](https://xcancel.com/__alpoge__/status/2079028340955197566) · HackerNews · 分9
-  Claude Fable 找到了一个数学界悬而未决 80 多年的雅可比猜想的反例，而且这个反例的复杂度远低于人类数学家之前的预期，直接推翻了该猜想。
+  HackerNews 上热议一篇观点文章，认为中国开放模型权重（open-weights）的策略正在赢得市场，因为低成本、可定制化让初创公司和开发者更愿意采用，而美国闭源模型（如 OpenAI）面临成…
 
 ### AI大事
-- [谁在害怕中国AI模型？](https://stratechery.com/2026/whos-afraid-of-chinese-models/) · HackerNews · 分9
-  Stratechery文章讨论美国VC重金押注OpenAI和Anthropic，但中国公司通过开源免费模型和低成本电力（新疆数据中心）大幅压低价格，可能颠覆美国AI公司的盈利逻辑。
+- [我们如何测量 arXiv 上的 AI 写作及其测量局限](https://unslop.run/blog/measuring-ai-writing-on-arxiv) · HackerNews · 分9
+  有人用自研检测器扫描了 1.2 万篇 arXiv 论文，发现 2026 年 1 月约 39% 的论文被标记为 AI 写作，计算机科学领域高达 65%，但数学领域几乎没变，同时检测方法本身存在严重偏差和…
+- [谁在害怕中国模型？](https://stratechery.com/2026/whos-afraid-of-chinese-models/) · HackerNews · 分9
+  HN 讨论区热议一篇 Stratechery 文章，核心是中国开源模型性能强且免费，直接威胁 OpenAI 和 Anthropic 的高估值商业模式，同时引发数据安全与意识形态渗透的担忧。
 - [不同模型厂同一家Agentic Infra，AGI时代的地基终于浮出水面](https://www.qbitai.com/2026/07/455805.html) · 量子位 · 分9
-  多家大模型公司（如OpenAI、Google、Anthropic）不约而同选择了同一家Agent基础设施供应商，说明Agent开发底层工具正在标准化，AGI落地的“地基”开始成型。
+  多家大模型公司（如OpenAI、Anthropic）不约而同选择了同一家Agent基础设施公司，说明Agentic Infra正在成为AGI时代的底层标准，类似云时代的AWS。
+- [中国AI公司发布低成本高性能模型，挑战美国领先地位](https://www.theverge.com/ai-artificial-intelligence/967781/chinese-ai-models-open-source-moonshot-kimi-k3-alibaba-qwen) · The Verge AI · 分9
+  中国AI公司月之暗面和阿里接连发布新模型，声称性能接近OpenAI和Anthropic的最强模型，但成本低得多。这暗示美国在AI前沿的领先优势正在缩小。
 - [早报｜曝月之暗面最快半年内上市/荣耀Robot Phone开启预约/IDC:2030年全球活跃智能体将超22亿个](https://www.ifanr.com/1672471?utm_source=rss&utm_medium=rss&utm_campaign=) · 爱范儿 · 分9
-  这篇早报汇总了多条AI大事：Kimi因K3太火爆暂停新用户订阅并计划上市，IDC预测2030年全球活跃智能体将超22亿个，以及Claude、Meta、马斯克等的最新动态。
-- [基于数据优先本体论的显式世界模型：DaoQL多模态存储验证与反事实推理评估](http://arxiv.org/abs/2607.17269v1) · arXiv · 分9
-  这篇论文提出把大模型当成推理引擎，把确定性知识放进一个叫DaoQL的显式多模态数据库里，这样能解决幻觉、知识冻结、不可解释和难修改四个问题，在反事实推理任务上比纯GPT-4o准了49个百分点。
-- [Claude 将 Fable 5 永久保留在订阅计划中](https://simonwillison.net/2026/Jul/18/claude-make-fable-5-permanent/#atom-everything) · Simon Willison · 分9
-  Anthropic 原计划把最强模型 Fable 5 从订阅版撤掉、只走 API 付费，但因为 GPT-5.6 的竞争压力，现在改口说 Max 和 Team Premium 用户能继续用，只是额度减半…
+  这篇早报汇总了多条AI大事：Kimi因K3火爆暂停新用户订阅并酝酿上市，IDC预测2030年全球活跃智能体将超22亿，Meta拟租算力给Anthropic，商汤和阶跃星辰也在布局智能体和算力。
 
-_更新于 2026-07-21 01:37 · web-intel-bot_
+### 供应链
+- [图神经网络作为供应链优化元模型的潜力：数据集、架构与方向](http://arxiv.org/abs/2607.16769v1) · arXiv · 分9
+  这篇论文探索用图神经网络（GNN）替代传统仿真，快速预测供应链网络在不同参数下的表现，并首次公开了大规模训练数据集和仿真库。
+
+_更新于 2026-07-21 04:46 · web-intel-bot_

@@ -1,7 +1,7 @@
 {
   "date": "2026-07-21",
   "profile": "kizty",
-  "generated_at": "2026-07-21 01:36",
+  "generated_at": "2026-07-21 04:46",
   "stats": {
     "topics_ran": [
       "AI大事",
@@ -12,34 +12,34 @@
       "供应链"
     ],
     "total_selected": 38,
-    "total_fetched": 180
+    "total_fetched": 190
   },
   "top3": [
     {
-      "topic": "技术圈",
-      "title": "人类数学家正在被反例生成AI超越",
-      "tldr": "AI现在能自动生成数学猜想的反例，让数学家提前知道哪些猜想是错的，避免白费力气。HackerNews上讨论热烈，有人觉得这是好事，有人担心人类数学家的价值被削弱。",
+      "topic": "AI大事",
+      "title": "不同模型厂同一家Agentic Infra，AGI时代的地基终于浮出水面",
+      "tldr": "多家大模型公司（如OpenAI、Anthropic）不约而同选择了同一家Agent基础设施公司，说明Agentic Infra正在成为AGI时代的底层标准，类似云时代的AWS。",
       "score": 9,
-      "url": "https://xenaproject.wordpress.com/2026/07/20/human-mathematicians-are-being-outcounterexampled/",
-      "source": "HackerNews",
+      "url": "https://www.qbitai.com/2026/07/455805.html",
+      "source": "量子位",
       "source_count": 1
     },
     {
       "topic": "技术圈",
       "title": "中国开源权重AI策略正在获胜",
-      "tldr": "HackerNews上热议一篇观点文，认为中国开放权重的AI模型策略正占据优势，因为开源模型成本低、可定制，吸引了大量创业公司，而美国封闭的专有模型可能正在失去市场。",
+      "tldr": "HackerNews 上热议一篇观点文章，认为中国开放模型权重（open-weights）的策略正在赢得市场，因为低成本、可定制化让初创公司和开发者更愿意采用，而美国闭源模型（如 OpenAI）面临成本高、锁定的问题。",
       "score": 9,
       "url": "https://werd.io/american-ai-is-locked-down-and-proprietary-its-losing/",
       "source": "HackerNews",
       "source_count": 1
     },
     {
-      "topic": "AI大事",
-      "title": "不同模型厂同一家Agentic Infra，AGI时代的地基终于浮出水面",
-      "tldr": "多家大模型公司（如OpenAI、Google、Anthropic）不约而同选择了同一家Agent基础设施供应商，说明Agent开发底层工具正在标准化，AGI落地的“地基”开始成型。",
+      "topic": "供应链",
+      "title": "图神经网络作为供应链优化元模型的潜力：数据集、架构与方向",
+      "tldr": "这篇论文探索用图神经网络（GNN）替代传统仿真，快速预测供应链网络在不同参数下的表现，并首次公开了大规模训练数据集和仿真库。",
       "score": 9,
-      "url": "https://www.qbitai.com/2026/07/455805.html",
-      "source": "量子位",
+      "url": "http://arxiv.org/abs/2607.16769v1",
+      "source": "arXiv",
       "source_count": 1
     }
   ]
