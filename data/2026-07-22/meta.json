@@ -1,7 +1,7 @@
 {
   "date": "2026-07-22",
   "profile": "kizty",
-  "generated_at": "2026-07-22 01:36",
+  "generated_at": "2026-07-22 04:46",
   "stats": {
     "topics_ran": [
       "AI大事",
@@ -11,35 +11,35 @@
       "心理学",
       "供应链"
     ],
-    "total_selected": 40,
-    "total_fetched": 191
+    "total_selected": 37,
+    "total_fetched": 203
   },
   "top3": [
     {
-      "topic": "供应链",
-      "title": "图神经网络作为供应链优化元模型的潜力：数据集、架构与方向",
-      "tldr": "这篇论文探讨了用图神经网络（GNN）替代传统仿真模型来预测供应链网络性能，并给出了公开数据集和初步实验结果，为供应链拓扑优化打开了新思路。",
+      "topic": "AI大事",
+      "title": "Jack Dorsey 推出 Buzz，一个人类与 AI Agent 共存的团队聊天平台",
+      "tldr": "Jack Dorsey（Twitter 创始人）做了个叫 Buzz 的新聊天工具，核心是把 AI Agent 当成团队里的正式成员，跟人类一起在群聊里协作，直接挑战 Slack。",
       "score": 9,
-      "url": "http://arxiv.org/abs/2607.16769v1",
-      "source": "arXiv",
-      "source_count": 1
+      "url": "https://techcrunch.com/2026/07/21/jack-dorsey-is-taking-on-slack-with-buzz-a-group-chat-platform-for-teams-and-their-ai-agents/",
+      "source": "TechCrunch AI",
+      "source_count": 2
     },
     {
       "topic": "AI大事",
-      "title": "AI Agent 设计原理与工程实战开源书",
-      "tldr": "李博杰写了一本开源书，用“Agent = LLM + 上下文 + 工具”这个公式，从原理到代码手把手教你搭 AI Agent，10 章正文加 88 个配套实验项目，全免费。",
-      "score": 10,
-      "url": "https://github.com/bojieli/ai-agent-book",
-      "source": "GitHub Trending",
+      "title": "Anthropic 与 Physical Intelligence 的收购传闻震动 AI 圈",
+      "tldr": "传闻 Anthropic 要收购机器人公司 Physical Intelligence，加上 OpenAI 也在疯狂买买买，说明 2026 年 AI 巨头们不再只卷大模型，开始砸钱抢物理世界的入口。",
+      "score": 8,
+      "url": "https://techcrunch.com/2026/07/21/the-anthropic-physical-intelligence-rumor-roiling-ai-twitter/",
+      "source": "TechCrunch AI",
       "source_count": 1
     },
     {
-      "topic": "世界时事",
-      "title": "新一轮关税，最快本周",
-      "tldr": "美国10%全球关税本周五到期，特朗普政府最快本周对数十国加征新关税，同时已对加拿大部分产品加征50%关税，贸易战可能进一步升级。",
-      "score": 8,
-      "url": "https://www.guancha.cn/internation/2026_07_22_824604_s.shtml",
-      "source": "观察者网",
+      "topic": "供应链",
+      "title": "图神经网络作为供应链优化元模型的潜力：数据集、架构与方向",
+      "tldr": "这篇论文用图神经网络（GNN）代替传统仿真软件，来快速预测供应链网络的性能，比如库存和订单量，并探索了用GNN做拓扑优化的可能性。",
+      "score": 9,
+      "url": "http://arxiv.org/abs/2607.16769v1",
+      "source": "arXiv",
       "source_count": 1
     }
   ]

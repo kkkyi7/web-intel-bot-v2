@@ -1,75 +1,75 @@
 [
   {
-    "title": "MeetingToM: Evaluating Multimodal LLMs on Theory-of-Mind Reasoning in Multi-Party Meetings",
-    "url": "http://arxiv.org/abs/2607.19235v1",
+    "title": "Copy Less, Ground More: Overcoming Repetitive Copying in Long-Context Reasoning via Evidence-Aware Reinforcement Learning",
+    "url": "http://arxiv.org/abs/2607.19345v1",
     "source": "arXiv",
     "topic": "AI大事",
     "region": "intl",
-    "published": "2026-07-21T16:05:49",
-    "author": "Ziyi Wang, Yuhang Wu, Dongxu Piao, Xingyu Liu, Tianhui Zhou, Miao Liu"
+    "published": "2026-07-21T17:59:21",
+    "author": "Lizhe Fang, Weizhou Shen, Tianyi Tang, Yisen Wang"
   },
   {
-    "title": "The Price of Reasoning: Cost-Quality Tradeoffs in Reinforcement Learning for Neural Machine Translation",
-    "url": "http://arxiv.org/abs/2607.19226v1",
+    "title": "OmniReasoner: Thinking with Long Audio-Video via Native Tool Use",
+    "url": "http://arxiv.org/abs/2607.19339v1",
     "source": "arXiv",
     "topic": "AI大事",
     "region": "intl",
-    "published": "2026-07-21T15:57:36",
-    "author": "Michael Jungo, Aixiu An"
+    "published": "2026-07-21T17:57:50",
+    "author": "Yu Chen, Caorui Li, Ziyu Xiong, Yidong Wang, Mingqi Gao, Shuman Liu, Biao Liu, Chunfeng Yang, Anxiang Zeng, Haibo Zhang, Chaofan Chen"
   },
   {
-    "title": "AdaFlash: Adaptive Speculative Decoding via On-Policy Distilled Diffusion Drafters",
-    "url": "http://arxiv.org/abs/2607.19223v1",
+    "title": "Agents in the Wild: Where Research Meets Deployment",
+    "url": "http://arxiv.org/abs/2607.19336v1",
     "source": "arXiv",
     "topic": "AI大事",
     "region": "intl",
-    "published": "2026-07-21T15:52:50",
-    "author": "Yu-Yang Qian, Hao-Cong Wu, Chen Chen, Jiacheng Sun, Zhenhua Dong, Peng Zhao, Zhi-Hua Zhou"
+    "published": "2026-07-21T17:55:10",
+    "author": "Grace Hui Yang, Pranav N. Venkit, Hooman Sedghamiz, Enrico Santus, Victor Dibia, Ioana Baldini"
   },
   {
-    "title": "Beyond Score Prediction: LLM-Based Essay Scoring and Feedback Generation via Reinforcement Learning with Rubric Rewards",
-    "url": "http://arxiv.org/abs/2607.19219v1",
+    "title": "Two-Level Meta-Rubrics for Evaluating Open-Ended Generation: GAMUT, a Benchmark for Factual Completeness",
+    "url": "http://arxiv.org/abs/2607.19322v1",
     "source": "arXiv",
     "topic": "AI大事",
     "region": "intl",
-    "published": "2026-07-21T15:49:02",
-    "author": "Xuefeng Jin, Jiashuo Zhang, Teng Cao, Bin Yang"
+    "published": "2026-07-21T17:42:50",
+    "author": "Xilun Chen, Zhaleh Feizollahi, Ross Goodwin, Seungwhan Moon, Scott Yih, Pinar Donmez, Babak Damavandi, Luna Dong"
   },
   {
-    "title": "HACO: Hedged Agent Computing for Reliable LLM Systems",
-    "url": "http://arxiv.org/abs/2607.19215v1",
+    "title": "Off-Context GRPO: Learning to Reason on Hard Problems using Privileged Information",
+    "url": "http://arxiv.org/abs/2607.19313v1",
     "source": "arXiv",
     "topic": "AI大事",
     "region": "intl",
-    "published": "2026-07-21T15:47:35",
-    "author": "Enhan Li, Hongyang Du"
+    "published": "2026-07-21T17:28:40",
+    "author": "Priyank Agrawal, Ankur Samanta, Shervin Ghasemlou, Jalaj Bhandari, Kavosh Asadi, Daniel Jiang, Aditya Modi"
   },
   {
-    "title": "Keeping the Cache Warm Pays: Keepalive Economics for Agentic Workloads",
-    "url": "http://arxiv.org/abs/2607.19214v1",
+    "title": "LLM Detection as an Intervention: Downstream Impact under Strategic User Behavior",
+    "url": "http://arxiv.org/abs/2607.19300v1",
     "source": "arXiv",
     "topic": "AI大事",
     "region": "intl",
-    "published": "2026-07-21T15:45:47",
-    "author": "Maxim Khailo"
+    "published": "2026-07-21T17:11:02",
+    "author": "Meena Jagadeesan, Tatsunori Hashimoto, Jon Kleinberg"
   },
   {
-    "title": "Do LLMs Ask the Right Questions? Evaluating GPT-Generated Surveys as Instruments for Measuring Social Attitudes",
-    "url": "http://arxiv.org/abs/2607.19211v1",
+    "title": "EmbeddedKittens: An Evaluation of Code Embeddings for Scratch",
+    "url": "http://arxiv.org/abs/2607.19291v1",
     "source": "arXiv",
     "topic": "AI大事",
     "region": "intl",
-    "published": "2026-07-21T15:41:07",
-    "author": "Tina Behzad, Wenbo Li, Reuben Kline, Klaus Mueller"
+    "published": "2026-07-21T17:02:08",
+    "author": "Benedikt Fein, Gordon Fraser"
   },
   {
-    "title": "Assessment in Team Problem-Solving Exercises in Computing Education",
-    "url": "http://arxiv.org/abs/2607.19209v1",
+    "title": "They'll Verify. They Just Won't Act. How Authority Framing and Laundered Code Turn a Trusted Agentic CI/CD Pipeline Into an Attack Surface",
+    "url": "http://arxiv.org/abs/2607.19267v1",
     "source": "arXiv",
     "topic": "AI大事",
     "region": "intl",
-    "published": "2026-07-21T15:40:16",
-    "author": "Valdemar Švábenský, Jan Vykopal, Sukrit Leelaluk, Pavel Čeleda, Fumiya Okubo, Atsushi Shimada"
+    "published": "2026-07-21T16:38:32",
+    "author": "Yohann Sidot"
   },
   {
     "title": "OpenAI and Hugging Face address security incident during model evaluation",
@@ -78,7 +78,7 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-07-21T20:09:52",
-    "author": "mfiguiere · 701 pts · 458 comments"
+    "author": "mfiguiere · 871 pts · 604 comments"
   },
   {
     "title": "Kimi K3 Is Competitive with Fable; Kimi K3 and Fable Is SoTA",
@@ -87,7 +87,7 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-07-21T22:35:24",
-    "author": "piotrgrabowski · 273 pts · 139 comments"
+    "author": "piotrgrabowski · 421 pts · 257 comments"
   },
   {
     "title": "FreeInk: Open ecosystem for e-readers",
@@ -96,16 +96,7 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-07-21T18:39:06",
-    "author": "FriedPickles · 404 pts · 99 comments"
-  },
-  {
-    "title": "Gemini 3.6 Flash, 3.5 Flash-Lite, and 3.5 Flash Cyber",
-    "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-6-flash-3-5-flash-lite-3-5-flash-cyber/",
-    "source": "HackerNews",
-    "topic": "AI大事",
-    "region": "intl",
-    "published": "2026-07-21T15:17:16",
-    "author": "logickkk1 · 609 pts · 480 comments"
+    "author": "FriedPickles · 462 pts · 111 comments"
   },
   {
     "title": "Advertise in ChatGPT",
@@ -114,7 +105,34 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-07-21T18:58:44",
-    "author": "montecarl · 294 pts · 295 comments"
+    "author": "montecarl · 512 pts · 396 comments"
+  },
+  {
+    "title": "A digestion of the Jacobian conjecture counterexample",
+    "url": "https://terrytao.wordpress.com/2026/07/21/a-digestion-of-the-jacobian-conjecture-counterexample/",
+    "source": "HackerNews",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-07-21T21:09:25",
+    "author": "jeremyscanvic · 215 pts · 71 comments"
+  },
+  {
+    "title": "Gemini 3.6 Flash, 3.5 Flash-Lite, and 3.5 Flash Cyber",
+    "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-6-flash-3-5-flash-lite-3-5-flash-cyber/",
+    "source": "HackerNews",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-07-21T15:17:16",
+    "author": "logickkk1 · 640 pts · 510 comments"
+  },
+  {
+    "title": "Judge approves $1.5B Anthropic settlement for pirated books used to train Claude",
+    "url": "https://apnews.com/article/ai-anthropic-copyright-settlement-claude-books-bartz-74b140444023898aeba8579b6e9f0d63",
+    "source": "HackerNews",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-07-21T19:04:39",
+    "author": "BeetleB · 202 pts · 147 comments"
   },
   {
     "title": "Long presumed dead, a thriving coral reef is discovered in West Africa",
@@ -123,7 +141,7 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-07-21T15:41:51",
-    "author": "speckx · 301 pts · 54 comments"
+    "author": "speckx · 321 pts · 67 comments"
   },
   {
     "title": "Jack Dorsey launches Buzz to combine team chat, AI agents and Git hosting",
@@ -132,7 +150,7 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-07-21T17:14:06",
-    "author": "ryanmerket · 238 pts · 217 comments"
+    "author": "ryanmerket · 276 pts · 233 comments"
   },
   {
     "title": "Apple defeats liability for not scanning iCloud for CSAM",
@@ -141,16 +159,16 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-07-21T14:31:41",
-    "author": "speckx · 348 pts · 325 comments"
+    "author": "speckx · 378 pts · 352 comments"
   },
   {
-    "title": "'VPNs are lawful technical tools,' says EU Court in landmark copyright ruling",
-    "url": "https://www.techradar.com/vpn/vpn-privacy-security/vpns-are-lawful-technical-tools-says-eu-court-in-landmark-anne-frank-copyright-ruling",
+    "title": "Map of the world's great castles and fortresses",
+    "url": "https://thecastlemap.com/",
     "source": "HackerNews",
     "topic": "AI大事",
     "region": "intl",
-    "published": "2026-07-21T19:43:59",
-    "author": "healsdata · 374 pts · 64 comments"
+    "published": "2026-07-21T16:05:58",
+    "author": "marklit · 209 pts · 149 comments"
   },
   {
     "title": "Laguna S 2.1",
@@ -159,7 +177,52 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-07-21T17:17:06",
-    "author": "rexledesma · 234 pts · 42 comments"
+    "author": "rexledesma · 263 pts · 49 comments"
+  },
+  {
+    "title": "'VPNs are lawful technical tools,' says EU Court in landmark copyright ruling",
+    "url": "https://www.techradar.com/vpn/vpn-privacy-security/vpns-are-lawful-technical-tools-says-eu-court-in-landmark-anne-frank-copyright-ruling",
+    "source": "HackerNews",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-07-21T19:43:59",
+    "author": "healsdata · 438 pts · 77 comments"
+  },
+  {
+    "title": "PCjs Machines",
+    "url": "https://www.pcjs.org/",
+    "source": "HackerNews",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-07-21T13:48:35",
+    "author": "naves · 201 pts · 26 comments"
+  },
+  {
+    "title": "Jiuwen Symbiosis深度解析：从数字世界走向物理世界，为Physical AI打造Symbiosis (共生)",
+    "url": "https://www.infoq.cn/article/BmyIPDkVKj11vspmB6su?utm_source=rss&utm_medium=article",
+    "source": "InfoQ 中文",
+    "topic": "AI大事",
+    "region": "cn",
+    "published": "2026-07-22T12:10:35",
+    "author": "李文朋"
+  },
+  {
+    "title": "支付宝 xUI -- “阿宝”背后的 Agentic 终端交互引擎｜AICon深圳",
+    "url": "https://www.infoq.cn/article/OJ0K1cGSLUNW0i07JGfL?utm_source=rss&utm_medium=article",
+    "source": "InfoQ 中文",
+    "topic": "AI大事",
+    "region": "cn",
+    "published": "2026-07-22T10:00:00",
+    "author": "AICon 全球人工智能开发与应用大会"
+  },
+  {
+    "title": "跟上 AI 的节奏：为演进式架构构建上下文存储库",
+    "url": "https://www.infoq.cn/article/XEta3vMDDHVIeS6qQe2P?utm_source=rss&utm_medium=article",
+    "source": "InfoQ 中文",
+    "topic": "AI大事",
+    "region": "cn",
+    "published": "2026-07-22T09:50:52",
+    "author": "作者：Stella Berhe, Stephan Bragner, Vikram Maran, Anand Jayaraman"
   },
   {
     "title": "GOAI 世界人工智能开源大赛四大赛道正式发布",
@@ -225,22 +288,49 @@
     "author": "作者：Steef-Jan Wiggers"
   },
   {
-    "title": "神州数码发布企业AI流程系统与智算产品，尝试打通应用和算力两端",
-    "url": "https://www.infoq.cn/article/jc1vll7xctqYlopcwIKe?utm_source=rss&utm_medium=article",
-    "source": "InfoQ 中文",
+    "title": "懂你、能交付、专业操作：金山办公田然给出AI办公助理的三项标准",
+    "url": "https://www.qbitai.com/2026/07/456910.html",
+    "source": "量子位",
     "topic": "AI大事",
     "region": "cn",
-    "published": "2026-07-20T19:59:20",
-    "author": "李冬梅"
+    "published": "2026-07-22T03:24:37",
+    "author": "量子位的朋友们"
   },
   {
-    "title": "无问芯穹夏立雪：数字世界与物理世界的所有AI生产力运行，都需要 Agentic Infra",
-    "url": "https://www.infoq.cn/article/AWhEVVgvNquuiKZdRQ0H?utm_source=rss&utm_medium=article",
-    "source": "InfoQ 中文",
+    "title": "物理AI的闭环，终于有人跑通了：日冕+远图万台级部署计划官宣",
+    "url": "https://www.qbitai.com/2026/07/456728.html",
+    "source": "量子位",
     "topic": "AI大事",
     "region": "cn",
-    "published": "2026-07-20T16:41:21",
-    "author": "无问芯穹"
+    "published": "2026-07-22T03:06:21",
+    "author": "田, 晏林"
+  },
+  {
+    "title": "AI医疗卷了10年终于悟了：不用替代医生，而是给医院装上超强buff",
+    "url": "https://www.qbitai.com/2026/07/456555.html",
+    "source": "量子位",
+    "topic": "AI大事",
+    "region": "cn",
+    "published": "2026-07-22T02:59:28",
+    "author": "田, 晏林"
+  },
+  {
+    "title": "酷哇科技亮相WAIC 2026，解密行业首个双层智能体世界模型",
+    "url": "https://www.qbitai.com/2026/07/456178.html",
+    "source": "量子位",
+    "topic": "AI大事",
+    "region": "cn",
+    "published": "2026-07-22T01:46:01",
+    "author": "量子位的朋友们"
+  },
+  {
+    "title": "小红书大模型IMO满分夺金，第三题解法让冠军选手直呼优雅",
+    "url": "https://www.qbitai.com/2026/07/456061.html",
+    "source": "量子位",
+    "topic": "AI大事",
+    "region": "cn",
+    "published": "2026-07-22T00:34:33",
+    "author": "鹭羽"
   },
   {
     "title": "WAIC重磅成果｜上海仪电智算牵头成立“智算系统架构联盟”并发布《超节点系统架构规范》",
@@ -276,42 +366,6 @@
     "topic": "AI大事",
     "region": "cn",
     "published": "2026-07-21T09:15:50",
-    "author": "量子位的朋友们"
-  },
-  {
-    "title": "WAIC 2026收官｜范式大会亮点集锦，见证AI 2.0从技术突破走向产业实践",
-    "url": "https://www.qbitai.com/2026/07/455963.html",
-    "source": "量子位",
-    "topic": "AI大事",
-    "region": "cn",
-    "published": "2026-07-20T10:42:09",
-    "author": "量子位的朋友们"
-  },
-  {
-    "title": "不同模型厂同一家Agentic Infra，AGI时代的地基终于浮出水面",
-    "url": "https://www.qbitai.com/2026/07/455805.html",
-    "source": "量子位",
-    "topic": "AI大事",
-    "region": "cn",
-    "published": "2026-07-20T10:33:23",
-    "author": "克雷西"
-  },
-  {
-    "title": "当AI进入最依赖“人”的行业：一家四线城市康复机构利润增长40%",
-    "url": "https://www.qbitai.com/2026/07/455791.html",
-    "source": "量子位",
-    "topic": "AI大事",
-    "region": "cn",
-    "published": "2026-07-20T09:54:33",
-    "author": "量子位的朋友们"
-  },
-  {
-    "title": "全球首发技术路线+全域联盟双轮破局，AI for ADANES释放先进核能新质生产力",
-    "url": "https://www.qbitai.com/2026/07/455729.html",
-    "source": "量子位",
-    "topic": "AI大事",
-    "region": "cn",
-    "published": "2026-07-20T09:41:49",
     "author": "量子位的朋友们"
   },
   {
@@ -549,6 +603,15 @@
     "author": "阮一峰"
   },
   {
+    "title": "刚刚，Gemini 3.6 Flash 正式发布，但网友笑得更大声了",
+    "url": "https://www.ifanr.com/1672647?utm_source=rss&utm_medium=rss&utm_campaign=",
+    "source": "爱范儿",
+    "topic": "AI大事",
+    "region": "cn",
+    "published": "2026-07-22T01:43:00",
+    "author": "莫崇宇"
+  },
+  {
     "title": "早报｜iPhone 20 Pro Max或搭载约7英寸屏幕/曝小米上调今年手机出货目标至1.1亿部/Gemini 3.6 Flash发布,输出Token减少17%",
     "url": "https://www.ifanr.com/1672713?utm_source=rss&utm_medium=rss&utm_campaign=",
     "source": "爱范儿",
@@ -630,13 +693,13 @@
     "author": "柯铭源"
   },
   {
-    "title": "6 台机器人拼长城、首款智能体手机首秀：阶跃把 AI 塞进了现实世界｜WAIC 2026",
-    "url": "https://www.ifanr.com/1672344?utm_source=rss&utm_medium=rss&utm_campaign=",
-    "source": "爱范儿",
+    "title": "[AINews] AI Cybersecurity becomes top of mind",
+    "url": "https://www.latent.space/p/ainews-ai-cybersecurity-becomes-top",
+    "source": "Latent Space",
     "topic": "AI大事",
-    "region": "cn",
-    "published": "2026-07-18T04:01:07",
-    "author": "APPSO"
+    "region": "intl",
+    "published": "2026-07-22T03:27:29",
+    "author": ""
   },
   {
     "title": "🔬Causal Models Need Causal Data - Xaira’s X-Cell model for Drug Discovery (Bo Wang & Ci Chu, Chief Discovery Officer & Chief AI Scientist)",
@@ -681,15 +744,6 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-07-16T13:30:44",
-    "author": ""
-  },
-  {
-    "title": "[AINews] Thinky's Inkling: 975B-A41B multimodal, new best American Apache 2.0 open model (with Inkling-Small, 276B-A12B)",
-    "url": "https://www.latent.space/p/ainews-thinkys-inkling-975b-a41b",
-    "source": "Latent Space",
-    "topic": "AI大事",
-    "region": "intl",
-    "published": "2026-07-16T06:18:05",
     "author": ""
   },
   {
@@ -837,6 +891,15 @@
     "author": "Blog Team"
   },
   {
+    "title": "The Anthropic-Physical Intelligence rumor roiling AI Twitter",
+    "url": "https://techcrunch.com/2026/07/21/the-anthropic-physical-intelligence-rumor-roiling-ai-twitter/",
+    "source": "TechCrunch AI",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-07-22T03:20:57",
+    "author": "Connie Loizos"
+  },
+  {
     "title": "Meta is testing an AI bedtime story app for people with no imagination",
     "url": "https://techcrunch.com/2026/07/21/meta-is-testing-an-ai-bedtime-story-app-for-people-with-no-imagination/",
     "source": "TechCrunch AI",
@@ -916,15 +979,6 @@
     "region": "intl",
     "published": "2026-07-20T22:21:04",
     "author": "Julie Bort"
-  },
-  {
-    "title": "Google is working on a new AI chip designed to make Gemini more efficient",
-    "url": "https://techcrunch.com/2026/07/20/google-is-working-on-a-new-ai-chip-designed-to-make-gemini-more-efficient/",
-    "source": "TechCrunch AI",
-    "topic": "AI大事",
-    "region": "intl",
-    "published": "2026-07-20T21:21:15",
-    "author": "Lucas Ropek"
   },
   {
     "title": "Neill Blomkamp’s new zombie AI ‘film’ is just slop warmed over",
@@ -1053,31 +1107,49 @@
     "author": ""
   },
   {
-    "title": "活力中国调研行｜如何让细胞与基因治疗从“天价”到“可及”？",
-    "url": "https://m.thepaper.cn/detail/33629466",
+    "title": "出海观察｜非洲各国税收政策调整加快，企业要提前掌握新动向",
+    "url": "https://m.thepaper.cn/detail/33628694",
     "source": "澎湃新闻",
     "topic": "世界时事",
     "region": "cn",
-    "published": "2026-07-22T01:22:44",
-    "author": "澎湃新闻记者 彭艳秋"
+    "published": "2026-07-22T04:40:16",
+    "author": "刘青海 凌怡"
   },
   {
-    "title": "牛市早报｜证监会：认真研究吸收各方面提出的意见建议，主动回应市场关切",
-    "url": "https://m.thepaper.cn/detail/33631307",
+    "title": "耐克中国销售渠道大调整，滔搏回应线上销售将被终止：线下销售将紧密合作",
+    "url": "https://m.thepaper.cn/detail/33633779",
     "source": "澎湃新闻",
     "topic": "世界时事",
     "region": "cn",
-    "published": "2026-07-22T01:06:33",
-    "author": "澎湃新闻记者 吴遇利"
+    "published": "2026-07-22T04:11:45",
+    "author": "澎湃新闻记者 邵冰燕"
   },
   {
-    "title": "胡塞武装宣布对沙特实施禁运，全球供应链遭遇中东“双锁”困局",
-    "url": "https://m.thepaper.cn/detail/33631150",
+    "title": "陈峰已担任人社部失业保险司司长，此前曾任人社部新闻发言人",
+    "url": "https://m.thepaper.cn/detail/33634485",
     "source": "澎湃新闻",
     "topic": "世界时事",
     "region": "cn",
-    "published": "2026-07-21T23:21:04",
-    "author": "澎湃新闻记者 聂舒翼"
+    "published": "2026-07-22T03:59:11",
+    "author": "澎湃新闻记者 程婷"
+  },
+  {
+    "title": "新闻蒸馏器｜特朗普关税或将“换壳”：覆盖60国，税率10%至12.5%",
+    "url": "https://m.thepaper.cn/detail/33634011",
+    "source": "澎湃新闻",
+    "topic": "世界时事",
+    "region": "cn",
+    "published": "2026-07-22T03:22:54",
+    "author": "澎湃新闻记者 南博一"
+  },
+  {
+    "title": "海关总署：对美进出口今年4月由降转增，5月6月规模持续扩大",
+    "url": "https://m.thepaper.cn/detail/33634343",
+    "source": "澎湃新闻",
+    "topic": "世界时事",
+    "region": "cn",
+    "published": "2026-07-22T03:20:27",
+    "author": "秦燕玲/人民财讯"
   },
   {
     "title": "2026年《财富》中国500强排行榜：国家电网、中石油和中石化位列前三",
@@ -1087,6 +1159,33 @@
     "region": "cn",
     "published": "2026-07-21T17:03:54",
     "author": "阮煜琳/中国新闻网"
+  },
+  {
+    "title": "泽连斯基欲化解高层人事风波 乌军总司令换人原防长动向未明",
+    "url": "https://international.caixin.com/2026-07-22/102466953.html",
+    "source": "财新网",
+    "topic": "世界时事",
+    "region": "cn",
+    "published": "2026-07-22T04:10:05",
+    "author": ""
+  },
+  {
+    "title": "高盛闪辉：输入性通胀未改变市场预期 下半年政策能否加力？",
+    "url": "https://economy.caixin.com/2026-07-22/102466935.html",
+    "source": "财新网",
+    "topic": "世界时事",
+    "region": "cn",
+    "published": "2026-07-22T02:34:33",
+    "author": ""
+  },
+  {
+    "title": "财新闻｜证监会召开上市公司、行业机构、专家学者系列座谈会听取意见建议",
+    "url": "https://mini.caixin.com/2026-07-22/102466928.html",
+    "source": "财新网",
+    "topic": "世界时事",
+    "region": "cn",
+    "published": "2026-07-22T01:37:11",
+    "author": ""
   },
   {
     "title": "韩国低生育的久困之局与意外回暖",
@@ -1122,24 +1221,6 @@
     "topic": "世界时事",
     "region": "cn",
     "published": "2026-07-21T23:47:23",
-    "author": ""
-  },
-  {
-    "title": "财经早知道｜长鑫科技缴款情况出炉：超661万股遭弃购",
-    "url": "https://finance.caixin.com/2026-07-22/102466844.html",
-    "source": "财新网",
-    "topic": "世界时事",
-    "region": "cn",
-    "published": "2026-07-21T22:55:19",
-    "author": ""
-  },
-  {
-    "title": "香港高院驳回宗馥莉上诉申请 维持冻结18亿美元资产",
-    "url": "https://companies.caixin.com/2026-07-21/102466825.html",
-    "source": "财新网",
-    "topic": "世界时事",
-    "region": "cn",
-    "published": "2026-07-21T14:52:23",
     "author": ""
   },
   {
@@ -1233,48 +1314,48 @@
     "author": ""
   },
   {
-    "title": "央行今日开展760亿元7天期逆回购操作",
-    "url": "https://36kr.com/newsflashes/3906133115737478?f=rss",
+    "title": "宝胜国际：集团在中国内地的耐克产品线上平台销售将于2027年1月1日起全面终止",
+    "url": "https://36kr.com/newsflashes/3906325525828996?f=rss",
     "source": "36氪（兜底）",
     "topic": "世界时事",
     "region": "cn",
-    "published": "2026-07-22T01:24:05",
+    "published": "2026-07-22T04:39:48",
     "author": ""
   },
   {
-    "title": "7月22日人民币对美元中间价调贬16个基点",
-    "url": "https://36kr.com/newsflashes/3906126861899145?f=rss",
+    "title": "中石油在延安成立新能源公司，注册资本9000万",
+    "url": "https://36kr.com/newsflashes/3906308761572488?f=rss",
     "source": "36氪（兜底）",
     "topic": "世界时事",
     "region": "cn",
-    "published": "2026-07-22T01:17:43",
+    "published": "2026-07-22T04:34:40",
     "author": ""
   },
   {
-    "title": "滔搏：耐克产品线上平台销售将于2027年1月1日起全面终止",
-    "url": "https://36kr.com/newsflashes/3906092452124035?f=rss",
+    "title": "小米旗下瀚星创投入股星利行新能源科技公司",
+    "url": "https://36kr.com/newsflashes/3906278408934531?f=rss",
     "source": "36氪（兜底）",
     "topic": "世界时事",
     "region": "cn",
-    "published": "2026-07-22T00:42:43",
+    "published": "2026-07-22T04:10:46",
     "author": ""
   },
   {
-    "title": "公募密集举牌，港股创新药板块迎机遇",
-    "url": "https://36kr.com/newsflashes/3906079465837956?f=rss",
+    "title": "优刻得等在天津成立新合伙企业，出资额约570万",
+    "url": "https://36kr.com/newsflashes/3906269644707208?f=rss",
     "source": "36氪（兜底）",
     "topic": "世界时事",
     "region": "cn",
-    "published": "2026-07-22T00:29:30",
+    "published": "2026-07-22T03:42:58",
     "author": ""
   },
   {
-    "title": "中信证券：继续全面看好国产算力产业链",
-    "url": "https://36kr.com/newsflashes/3906059767584136?f=rss",
+    "title": "云意电气等在扬州成立新合伙企业，出资额1亿",
+    "url": "https://36kr.com/newsflashes/3906245004187016?f=rss",
     "source": "36氪（兜底）",
     "topic": "世界时事",
     "region": "cn",
-    "published": "2026-07-22T00:09:28",
+    "published": "2026-07-22T03:17:54",
     "author": ""
   },
   {
@@ -1302,7 +1383,7 @@
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-07-21T20:09:52",
-    "author": "mfiguiere · 704 pts · 459 comments"
+    "author": "mfiguiere · 872 pts · 605 comments"
   },
   {
     "title": "Kimi K3 Is Competitive with Fable; Kimi K3 and Fable Is SoTA",
@@ -1311,7 +1392,7 @@
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-07-21T22:35:24",
-    "author": "piotrgrabowski · 275 pts · 139 comments"
+    "author": "piotrgrabowski · 421 pts · 257 comments"
   },
   {
     "title": "FreeInk: Open ecosystem for e-readers",
@@ -1320,16 +1401,7 @@
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-07-21T18:39:06",
-    "author": "FriedPickles · 406 pts · 99 comments"
-  },
-  {
-    "title": "Gemini 3.6 Flash, 3.5 Flash-Lite, and 3.5 Flash Cyber",
-    "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-6-flash-3-5-flash-lite-3-5-flash-cyber/",
-    "source": "HackerNews",
-    "topic": "技术圈",
-    "region": "intl",
-    "published": "2026-07-21T15:17:16",
-    "author": "logickkk1 · 611 pts · 481 comments"
+    "author": "FriedPickles · 463 pts · 111 comments"
   },
   {
     "title": "Advertise in ChatGPT",
@@ -1338,7 +1410,34 @@
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-07-21T18:58:44",
-    "author": "montecarl · 295 pts · 295 comments"
+    "author": "montecarl · 512 pts · 396 comments"
+  },
+  {
+    "title": "A digestion of the Jacobian conjecture counterexample",
+    "url": "https://terrytao.wordpress.com/2026/07/21/a-digestion-of-the-jacobian-conjecture-counterexample/",
+    "source": "HackerNews",
+    "topic": "技术圈",
+    "region": "intl",
+    "published": "2026-07-21T21:09:25",
+    "author": "jeremyscanvic · 215 pts · 71 comments"
+  },
+  {
+    "title": "Gemini 3.6 Flash, 3.5 Flash-Lite, and 3.5 Flash Cyber",
+    "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-6-flash-3-5-flash-lite-3-5-flash-cyber/",
+    "source": "HackerNews",
+    "topic": "技术圈",
+    "region": "intl",
+    "published": "2026-07-21T15:17:16",
+    "author": "logickkk1 · 640 pts · 510 comments"
+  },
+  {
+    "title": "Judge approves $1.5B Anthropic settlement for pirated books used to train Claude",
+    "url": "https://apnews.com/article/ai-anthropic-copyright-settlement-claude-books-bartz-74b140444023898aeba8579b6e9f0d63",
+    "source": "HackerNews",
+    "topic": "技术圈",
+    "region": "intl",
+    "published": "2026-07-21T19:04:39",
+    "author": "BeetleB · 202 pts · 147 comments"
   },
   {
     "title": "Long presumed dead, a thriving coral reef is discovered in West Africa",
@@ -1347,7 +1446,7 @@
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-07-21T15:41:51",
-    "author": "speckx · 302 pts · 54 comments"
+    "author": "speckx · 321 pts · 67 comments"
   },
   {
     "title": "Jack Dorsey launches Buzz to combine team chat, AI agents and Git hosting",
@@ -1356,7 +1455,7 @@
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-07-21T17:14:06",
-    "author": "ryanmerket · 239 pts · 218 comments"
+    "author": "ryanmerket · 276 pts · 233 comments"
   },
   {
     "title": "Apple defeats liability for not scanning iCloud for CSAM",
@@ -1365,16 +1464,16 @@
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-07-21T14:31:41",
-    "author": "speckx · 348 pts · 325 comments"
+    "author": "speckx · 379 pts · 352 comments"
   },
   {
-    "title": "'VPNs are lawful technical tools,' says EU Court in landmark copyright ruling",
-    "url": "https://www.techradar.com/vpn/vpn-privacy-security/vpns-are-lawful-technical-tools-says-eu-court-in-landmark-anne-frank-copyright-ruling",
+    "title": "Map of the world's great castles and fortresses",
+    "url": "https://thecastlemap.com/",
     "source": "HackerNews",
     "topic": "技术圈",
     "region": "intl",
-    "published": "2026-07-21T19:43:59",
-    "author": "healsdata · 376 pts · 64 comments"
+    "published": "2026-07-21T16:05:58",
+    "author": "marklit · 209 pts · 149 comments"
   },
   {
     "title": "Laguna S 2.1",
@@ -1383,7 +1482,25 @@
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-07-21T17:17:06",
-    "author": "rexledesma · 234 pts · 42 comments"
+    "author": "rexledesma · 264 pts · 49 comments"
+  },
+  {
+    "title": "'VPNs are lawful technical tools,' says EU Court in landmark copyright ruling",
+    "url": "https://www.techradar.com/vpn/vpn-privacy-security/vpns-are-lawful-technical-tools-says-eu-court-in-landmark-anne-frank-copyright-ruling",
+    "source": "HackerNews",
+    "topic": "技术圈",
+    "region": "intl",
+    "published": "2026-07-21T19:43:59",
+    "author": "healsdata · 438 pts · 77 comments"
+  },
+  {
+    "title": "PCjs Machines",
+    "url": "https://www.pcjs.org/",
+    "source": "HackerNews",
+    "topic": "技术圈",
+    "region": "intl",
+    "published": "2026-07-21T13:48:35",
+    "author": "naves · 201 pts · 26 comments"
   },
   {
     "title": "anthropics/anthropic-sdk-python 发布 v0.117.1",
@@ -1428,15 +1545,6 @@
     "topic": "GitHub 动态",
     "region": "intl",
     "published": "2026-07-21T18:17:26",
-    "author": "github-actions[bot]"
-  },
-  {
-    "title": "langchain-ai/langchain 发布 langchain-core==1.5.0",
-    "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.5.0",
-    "source": "GitHubRelease",
-    "topic": "GitHub 动态",
-    "region": "intl",
-    "published": "2026-07-21T03:37:39",
     "author": "github-actions[bot]"
   },
   {
