@@ -78,7 +78,16 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-07-24T16:57:41",
-    "author": "alvis · 1283 pts · 699 comments"
+    "author": "alvis · 1391 pts · 759 comments"
+  },
+  {
+    "title": "Postgres LISTEN/NOTIFY actually scales",
+    "url": "https://www.dbos.dev/blog/postgres-listen-notify-scalability",
+    "source": "HackerNews",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-07-24T19:05:53",
+    "author": "KraftyOne · 241 pts · 44 comments"
   },
   {
     "title": "My security camera shipped a GitHub admin token in its login page",
@@ -87,7 +96,7 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-07-24T11:54:41",
-    "author": "hhh · 505 pts · 173 comments"
+    "author": "hhh · 539 pts · 185 comments"
   },
   {
     "title": "If coding has been solved, why does software keep getting worse?",
@@ -96,7 +105,7 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-07-24T09:08:17",
-    "author": "pchm · 517 pts · 408 comments"
+    "author": "pchm · 628 pts · 489 comments"
   },
   {
     "title": "Nvidia, Microsoft, Meta warn against overregulating open-weight models",
@@ -105,7 +114,7 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-07-24T13:32:30",
-    "author": "louiereederson · 490 pts · 230 comments"
+    "author": "louiereederson · 556 pts · 250 comments"
   },
   {
     "title": "Half-Life 2 running natively on HaikuOS",
@@ -114,7 +123,7 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-07-24T12:53:59",
-    "author": "m0do1 · 267 pts · 51 comments"
+    "author": "m0do1 · 285 pts · 53 comments"
   },
   {
     "title": "IRGC claims it destroyed Amazon's Bahrain data center",
@@ -123,16 +132,7 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-07-24T09:52:58",
-    "author": "thisislife2 · 240 pts · 307 comments"
-  },
-  {
-    "title": "Be skeptical of OpenAI's rogue hacker agent story",
-    "url": "https://www.theguardian.com/technology/2026/jul/24/openai-rogue-hacker",
-    "source": "HackerNews",
-    "topic": "AI大事",
-    "region": "intl",
-    "published": "2026-07-24T16:33:31",
-    "author": "rwmj · 416 pts · 226 comments"
+    "author": "thisislife2 · 267 pts · 337 comments"
   },
   {
     "title": "Government orders GitHub to remove Bluetooth-based chat app Bitchat: Jack Dorsey",
@@ -141,7 +141,16 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-07-24T14:41:59",
-    "author": "rootkea · 372 pts · 274 comments"
+    "author": "rootkea · 412 pts · 299 comments"
+  },
+  {
+    "title": "Be skeptical of OpenAI's rogue hacker agent story",
+    "url": "https://www.theguardian.com/technology/2026/jul/24/openai-rogue-hacker",
+    "source": "HackerNews",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-07-24T16:33:31",
+    "author": "rwmj · 461 pts · 263 comments"
   },
   {
     "title": "Buz – A fork of Bun using modern Zig, with sub-1s incremental builds",
@@ -150,7 +159,16 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-07-24T09:26:40",
-    "author": "kristoff_it · 223 pts · 161 comments"
+    "author": "kristoff_it · 237 pts · 167 comments"
+  },
+  {
+    "title": "以 AI 对抗 AI：构建越用越强的 Agent Runtime 安全防线｜AICon深圳",
+    "url": "https://www.infoq.cn/article/fovd670ZuVMSMI7Z0zO4?utm_source=rss&utm_medium=article",
+    "source": "InfoQ 中文",
+    "topic": "AI大事",
+    "region": "cn",
+    "published": "2026-07-25T10:00:00",
+    "author": "AICon 全球人工智能开发与应用大会"
   },
   {
     "title": "圆桌访谈：AI 创作场——当生成门槛降低，真正稀缺的是什么？",
@@ -234,13 +252,13 @@
     "author": "InfoQ 中文站"
   },
   {
-    "title": "你的数据是否已为 AI-Ready？用这套框架找到答案 ｜技术实践",
-    "url": "https://www.infoq.cn/article/8iTgfYJ5w2xpc7ElM1NE?utm_source=rss&utm_medium=article",
-    "source": "InfoQ 中文",
+    "title": "全新统一流式架构，Vivix灵动时刻正式发布首个实时互动模型",
+    "url": "https://www.qbitai.com/2026/07/460174.html",
+    "source": "量子位",
     "topic": "AI大事",
     "region": "cn",
-    "published": "2026-07-24T10:00:00",
-    "author": "Snowflake"
+    "published": "2026-07-25T03:21:53",
+    "author": "henry"
   },
   {
     "title": "合肥又押中AI独角兽：多模态赛道，3个月融了21亿",
@@ -297,8 +315,8 @@
     "author": ""
   },
   {
-    "title": "shiyu-coder/Kronos",
-    "url": "https://github.com/shiyu-coder/Kronos",
+    "title": "ComposioHQ/awesome-claude-skills",
+    "url": "https://github.com/ComposioHQ/awesome-claude-skills",
     "source": "GitHub Trending",
     "topic": "AI大事",
     "region": "intl",
@@ -315,6 +333,33 @@
     "author": ""
   },
   {
+    "title": "shiyu-coder/Kronos",
+    "url": "https://github.com/shiyu-coder/Kronos",
+    "source": "GitHub Trending",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "",
+    "author": ""
+  },
+  {
+    "title": "Automattic/harper",
+    "url": "https://github.com/Automattic/harper",
+    "source": "GitHub Trending",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "",
+    "author": ""
+  },
+  {
+    "title": "likec4/likec4",
+    "url": "https://github.com/likec4/likec4",
+    "source": "GitHub Trending",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "",
+    "author": ""
+  },
+  {
     "title": "citrolabs/ego-lite",
     "url": "https://github.com/citrolabs/ego-lite",
     "source": "GitHub Trending",
@@ -324,8 +369,8 @@
     "author": ""
   },
   {
-    "title": "chrislgarry/Apollo-11",
-    "url": "https://github.com/chrislgarry/Apollo-11",
+    "title": "yorukot/superfile",
+    "url": "https://github.com/yorukot/superfile",
     "source": "GitHub Trending",
     "topic": "AI大事",
     "region": "intl",
@@ -333,35 +378,8 @@
     "author": ""
   },
   {
-    "title": "diegosouzapw/OmniRoute",
-    "url": "https://github.com/diegosouzapw/OmniRoute",
-    "source": "GitHub Trending",
-    "topic": "AI大事",
-    "region": "intl",
-    "published": "",
-    "author": ""
-  },
-  {
-    "title": "ComposioHQ/awesome-claude-skills",
-    "url": "https://github.com/ComposioHQ/awesome-claude-skills",
-    "source": "GitHub Trending",
-    "topic": "AI大事",
-    "region": "intl",
-    "published": "",
-    "author": ""
-  },
-  {
-    "title": "earthtojake/text-to-cad",
-    "url": "https://github.com/earthtojake/text-to-cad",
-    "source": "GitHub Trending",
-    "topic": "AI大事",
-    "region": "intl",
-    "published": "",
-    "author": ""
-  },
-  {
-    "title": "agegr/pi-web",
-    "url": "https://github.com/agegr/pi-web",
+    "title": "ruvnet/RuView",
+    "url": "https://github.com/ruvnet/RuView",
     "source": "GitHub Trending",
     "topic": "AI大事",
     "region": "intl",
@@ -999,85 +1017,112 @@
     "author": ""
   },
   {
-    "title": "台风“红霞”逼近：多地将现特大暴雨，广东沿海不排除龙卷可能",
-    "url": "https://m.thepaper.cn/detail/33656478",
+    "title": "直播丨申遗成功！景德镇，你的“瓷器活”藏不住了",
+    "url": "https://m.thepaper.cn/detail/33657402",
     "source": "澎湃新闻",
     "topic": "世界时事",
     "region": "cn",
-    "published": "2026-07-25T01:25:43",
-    "author": "澎湃新闻记者 冯茵伦"
+    "published": "2026-07-25T04:31:10",
+    "author": "澎湃新闻导播 邓朝键 编辑 石轶君 直播信号 新华社"
   },
   {
-    "title": "葛剑雄：“九州”与“四海”",
-    "url": "https://m.thepaper.cn/detail/33596266",
+    "title": "上海合作组织成员国外交部长理事会声明",
+    "url": "https://m.thepaper.cn/detail/33657291",
     "source": "澎湃新闻",
     "topic": "世界时事",
     "region": "cn",
-    "published": "2026-07-25T01:22:19",
-    "author": "葛剑雄"
+    "published": "2026-07-25T04:19:38",
+    "author": "外交部官网"
   },
   {
-    "title": "数字赛道群雄逐鹿，成都凭什么成顶流",
-    "url": "https://m.thepaper.cn/detail/33642440",
+    "title": "松下中国总裁：无论顺境逆境，松下在中国发展的态势不会改变",
+    "url": "https://m.thepaper.cn/detail/33656911",
     "source": "澎湃新闻",
     "topic": "世界时事",
     "region": "cn",
-    "published": "2026-07-25T01:14:49",
-    "author": "澎湃新闻记者 郑问"
+    "published": "2026-07-25T03:49:42",
+    "author": "澎湃新闻记者 赵利新"
   },
   {
-    "title": "中文播客，词汇通胀",
-    "url": "https://m.thepaper.cn/detail/33651683",
+    "title": "国家工业信息安全发展研究中心：中国将积极推动建立APEC框架下的开源合作机制",
+    "url": "https://m.thepaper.cn/detail/33657094",
     "source": "澎湃新闻",
     "topic": "世界时事",
     "region": "cn",
-    "published": "2026-07-25T01:13:06",
+    "published": "2026-07-25T03:47:53",
+    "author": "澎湃新闻记者 赵利新"
+  },
+  {
+    "title": "景德镇申遗成功｜御窑博物院院长谈申遗起点",
+    "url": "https://m.thepaper.cn/detail/33648078",
+    "source": "澎湃新闻",
+    "topic": "世界时事",
+    "region": "cn",
+    "published": "2026-07-25T03:46:28",
+    "author": "澎湃新闻记者 顾维华"
+  },
+  {
+    "title": "11年申遗路，“景德镇手工瓷业遗存”列入世遗名单！",
+    "url": "https://m.thepaper.cn/detail/33644490",
+    "source": "澎湃新闻",
+    "topic": "世界时事",
+    "region": "cn",
+    "published": "2026-07-25T03:45:59",
+    "author": "澎湃新闻记者 顾维华 陆林汉"
+  },
+  {
+    "title": "从三个“第一”复盘携程垄断案始末",
+    "url": "https://m.thepaper.cn/detail/33657127",
+    "source": "澎湃新闻",
+    "topic": "世界时事",
+    "region": "cn",
+    "published": "2026-07-25T03:37:34",
+    "author": "林丽鹂/人民日报客户端"
+  },
+  {
+    "title": "黄仁勋发布首条推文力挺开源AI：世界需要前沿的开源模型",
+    "url": "https://m.thepaper.cn/detail/33656792",
+    "source": "澎湃新闻",
+    "topic": "世界时事",
+    "region": "cn",
+    "published": "2026-07-25T03:21:07",
+    "author": "澎湃新闻记者 胡含嫣"
+  },
+  {
+    "title": "欧洲热浪风险加剧：高温、野火、干旱、雷暴轮番上演",
+    "url": "https://m.thepaper.cn/detail/33652232",
+    "source": "澎湃新闻",
+    "topic": "世界时事",
+    "region": "cn",
+    "published": "2026-07-25T02:59:22",
+    "author": "澎湃新闻记者 张颖"
+  },
+  {
+    "title": "事关基础研究、人工智能、人民城市，上海这场重磅会议锚定哪些关键方向",
+    "url": "https://m.thepaper.cn/detail/33656318",
+    "source": "澎湃新闻",
+    "topic": "世界时事",
+    "region": "cn",
+    "published": "2026-07-25T02:13:26",
+    "author": "澎湃新闻记者 李佳蔚"
+  },
+  {
+    "title": "【CCI快报】：中国大宗商品指数周涨2.74% 原油领涨15.26%",
+    "url": "https://database.caixin.com/2026-07-25/102467978.html",
+    "source": "财新网",
+    "topic": "世界时事",
+    "region": "cn",
+    "published": "2026-07-25T02:26:21",
     "author": ""
   },
   {
-    "title": "苏州公布第四批网络餐饮违法典型案例：涉马肉冒充驴肉、伪造食品经营许可证等",
-    "url": "https://m.thepaper.cn/detail/33656420",
-    "source": "澎湃新闻",
+    "title": "【周刊提前读】徐小庆专栏：黄金有望重试升势",
+    "url": "https://database.caixin.com/2026-07-25/102467941.html",
+    "source": "财新网",
     "topic": "世界时事",
     "region": "cn",
-    "published": "2026-07-25T01:10:54",
-    "author": "澎湃新闻记者 冯茵伦"
-  },
-  {
-    "title": "外骨骼救得了耐克吗？",
-    "url": "https://m.thepaper.cn/detail/33651944",
-    "source": "澎湃新闻",
-    "topic": "世界时事",
-    "region": "cn",
-    "published": "2026-07-25T01:00:01",
+    "published": "2026-07-25T01:29:00",
     "author": ""
-  },
-  {
-    "title": "非洲埃博拉疫情死亡人数破千：疫区人道、安全危机交织",
-    "url": "https://m.thepaper.cn/detail/33651194",
-    "source": "澎湃新闻",
-    "topic": "世界时事",
-    "region": "cn",
-    "published": "2026-07-24T23:28:09",
-    "author": "澎湃新闻记者 薛晶"
-  },
-  {
-    "title": "分析｜美国本轮已连续袭击伊朗13晚，以色列为何“隐身”？",
-    "url": "https://m.thepaper.cn/detail/33650717",
-    "source": "澎湃新闻",
-    "topic": "世界时事",
-    "region": "cn",
-    "published": "2026-07-24T23:18:16",
-    "author": "澎湃新闻记者 马栎程"
-  },
-  {
-    "title": "高市早苗强推《皇室典范》修订，未松绑“女性天皇”却引入“皇室养子”",
-    "url": "https://m.thepaper.cn/detail/33653295",
-    "source": "澎湃新闻",
-    "topic": "世界时事",
-    "region": "cn",
-    "published": "2026-07-24T23:17:26",
-    "author": "澎湃新闻记者 陈沁涵"
   },
   {
     "title": "【周刊提前读】海湾重燃战火 地缘博弈走向何方？",
@@ -1103,7 +1148,7 @@
     "source": "财新网",
     "topic": "世界时事",
     "region": "cn",
-    "published": "2026-07-25T00:42:26",
+    "published": "2026-07-25T00:42:25",
     "author": ""
   },
   {
@@ -1116,21 +1161,12 @@
     "author": ""
   },
   {
-    "title": "离岸信托征税收紧 设立环节和存续期收益均须按20%纳税",
-    "url": "https://economy.caixin.com/2026-07-24/102467853.html",
-    "source": "财新网",
+    "title": "马科斯会见中国大使：希望“重置”中菲关系",
+    "url": "https://www.guancha.cn/internation/2026_07_25_825029_s.shtml",
+    "source": "观察者网",
     "topic": "世界时事",
     "region": "cn",
-    "published": "2026-07-24T14:27:17",
-    "author": ""
-  },
-  {
-    "title": "【数据图解】韩国青年就业形势严峻 AI提效尚未形成实际产出红利",
-    "url": "https://database.caixin.com/2026-07-24/102467836.html",
-    "source": "财新网",
-    "topic": "世界时事",
-    "region": "cn",
-    "published": "2026-07-24T14:24:32",
+    "published": "2026-07-25T03:55:27",
     "author": ""
   },
   {
@@ -1148,8 +1184,8 @@
     "source": "观察者网",
     "topic": "世界时事",
     "region": "cn",
-    "published": "2026-07-24T13:13:49",
-    "author": "郭光昊张璁煜"
+    "published": "2026-07-24T13:13:47",
+    "author": ""
   },
   {
     "title": "中国鞋帮40年后不当西方学徒了，但何时真正上桌？",
@@ -1166,8 +1202,8 @@
     "source": "观察者网",
     "topic": "世界时事",
     "region": "cn",
-    "published": "2026-07-24T03:44:38",
-    "author": ""
+    "published": "2026-07-24T03:44:40",
+    "author": "曲乔乔"
   },
   {
     "title": "特朗普新一轮加税公布，中方反对",
@@ -1215,12 +1251,30 @@
     "author": ""
   },
   {
-    "title": "OpenAI模型“越狱”攻击，救场的竟是中国AI工具",
-    "url": "https://www.guancha.cn/internation/2026_07_22_824721_s.shtml",
-    "source": "观察者网",
+    "title": "中国电池工业协会与中国汽车工业协会签订战略合作协议",
+    "url": "https://36kr.com/newsflashes/3910441114703232?f=rss",
+    "source": "36氪（兜底）",
     "topic": "世界时事",
     "region": "cn",
-    "published": "2026-07-22T14:19:50",
+    "published": "2026-07-25T03:33:25",
+    "author": ""
+  },
+  {
+    "title": "黑格G1系列破年内科技造物众筹首日记录",
+    "url": "https://36kr.com/newsflashes/3910478626804868?f=rss",
+    "source": "36氪（兜底）",
+    "topic": "世界时事",
+    "region": "cn",
+    "published": "2026-07-25T03:04:33",
+    "author": ""
+  },
+  {
+    "title": "大众集团上半年税后利润同比下降超三成",
+    "url": "https://36kr.com/newsflashes/3910376983483778?f=rss",
+    "source": "36氪（兜底）",
+    "topic": "世界时事",
+    "region": "cn",
+    "published": "2026-07-25T01:35:00",
     "author": ""
   },
   {
@@ -1239,33 +1293,6 @@
     "topic": "世界时事",
     "region": "cn",
     "published": "2026-07-25T01:11:41",
-    "author": ""
-  },
-  {
-    "title": "美股三大指数收盘涨跌不一，存储芯片、光通信跌幅居前",
-    "url": "https://36kr.com/newsflashes/3910365150319750?f=rss",
-    "source": "36氪（兜底）",
-    "topic": "世界时事",
-    "region": "cn",
-    "published": "2026-07-25T01:09:07",
-    "author": ""
-  },
-  {
-    "title": "9点1氪｜宇树科技CEO王兴兴登上《时代》杂志封面；国家反诈中心App可一键检测AI生成痕迹；Claude Opus 5正式发布",
-    "url": "https://36kr.com/p/3910351337821318?f=rss",
-    "source": "36氪（兜底）",
-    "topic": "世界时事",
-    "region": "cn",
-    "published": "2026-07-25T00:57:52",
-    "author": ""
-  },
-  {
-    "title": "孟加拉推进总投资10亿美元造船枢纽项目",
-    "url": "https://36kr.com/newsflashes/3909624754754690?f=rss",
-    "source": "36氪（兜底）",
-    "topic": "世界时事",
-    "region": "cn",
-    "published": "2026-07-24T12:35:57",
     "author": ""
   },
   {
@@ -1302,7 +1329,16 @@
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-07-24T16:57:41",
-    "author": "alvis · 1283 pts · 699 comments"
+    "author": "alvis · 1391 pts · 759 comments"
+  },
+  {
+    "title": "Postgres LISTEN/NOTIFY actually scales",
+    "url": "https://www.dbos.dev/blog/postgres-listen-notify-scalability",
+    "source": "HackerNews",
+    "topic": "技术圈",
+    "region": "intl",
+    "published": "2026-07-24T19:05:53",
+    "author": "KraftyOne · 241 pts · 44 comments"
   },
   {
     "title": "My security camera shipped a GitHub admin token in its login page",
@@ -1311,7 +1347,7 @@
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-07-24T11:54:41",
-    "author": "hhh · 506 pts · 173 comments"
+    "author": "hhh · 539 pts · 185 comments"
   },
   {
     "title": "If coding has been solved, why does software keep getting worse?",
@@ -1320,7 +1356,7 @@
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-07-24T09:08:17",
-    "author": "pchm · 518 pts · 408 comments"
+    "author": "pchm · 628 pts · 489 comments"
   },
   {
     "title": "Nvidia, Microsoft, Meta warn against overregulating open-weight models",
@@ -1329,7 +1365,7 @@
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-07-24T13:32:30",
-    "author": "louiereederson · 492 pts · 230 comments"
+    "author": "louiereederson · 556 pts · 250 comments"
   },
   {
     "title": "Half-Life 2 running natively on HaikuOS",
@@ -1338,7 +1374,7 @@
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-07-24T12:53:59",
-    "author": "m0do1 · 267 pts · 51 comments"
+    "author": "m0do1 · 285 pts · 53 comments"
   },
   {
     "title": "IRGC claims it destroyed Amazon's Bahrain data center",
@@ -1347,16 +1383,7 @@
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-07-24T09:52:58",
-    "author": "thisislife2 · 240 pts · 308 comments"
-  },
-  {
-    "title": "Be skeptical of OpenAI's rogue hacker agent story",
-    "url": "https://www.theguardian.com/technology/2026/jul/24/openai-rogue-hacker",
-    "source": "HackerNews",
-    "topic": "技术圈",
-    "region": "intl",
-    "published": "2026-07-24T16:33:31",
-    "author": "rwmj · 417 pts · 227 comments"
+    "author": "thisislife2 · 267 pts · 337 comments"
   },
   {
     "title": "Government orders GitHub to remove Bluetooth-based chat app Bitchat: Jack Dorsey",
@@ -1365,7 +1392,16 @@
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-07-24T14:41:59",
-    "author": "rootkea · 372 pts · 275 comments"
+    "author": "rootkea · 412 pts · 299 comments"
+  },
+  {
+    "title": "Be skeptical of OpenAI's rogue hacker agent story",
+    "url": "https://www.theguardian.com/technology/2026/jul/24/openai-rogue-hacker",
+    "source": "HackerNews",
+    "topic": "技术圈",
+    "region": "intl",
+    "published": "2026-07-24T16:33:31",
+    "author": "rwmj · 461 pts · 263 comments"
   },
   {
     "title": "Buz – A fork of Bun using modern Zig, with sub-1s incremental builds",
@@ -1374,7 +1410,7 @@
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-07-24T09:26:40",
-    "author": "kristoff_it · 224 pts · 161 comments"
+    "author": "kristoff_it · 237 pts · 167 comments"
   },
   {
     "title": "anthropics/anthropic-sdk-python 发布 v0.120.0",
@@ -1402,6 +1438,15 @@
     "region": "intl",
     "published": "2026-07-24T20:30:33",
     "author": "lorenzejay"
+  },
+  {
+    "title": "anthropics/claude-code 发布 v2.1.220",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.220",
+    "source": "GitHubRelease",
+    "topic": "GitHub 动态",
+    "region": "intl",
+    "published": "2026-07-25T01:35:55",
+    "author": "ashwin-ant"
   },
   {
     "title": "anthropics/claude-code 发布 v2.1.219",
@@ -1440,49 +1485,49 @@
     "author": "next-js-bot[bot]"
   },
   {
-    "title": "Detailing long-term functional morbidity after resecting mobile spine chordomas across 35 patients.",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42497460/",
+    "title": "Leveraging biologgers to better forecast animal movement and range shifts across scales.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42498958/",
     "source": "PubMed",
     "topic": "心理学",
     "region": "intl",
     "published": "2026",
-    "author": "Yuanxuan Xia, Pritika Papali, Abdel-Hameed Al-Mistarehi, Christian Meyer"
+    "author": "Alexa L Fredston, Roxanne S Beltran"
   },
   {
-    "title": "Association between intraoperative parameters and pain reduction after radiofrequency rhizotomy in patients with trigeminal neuralgia.",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42497450/",
+    "title": "Known to crews, missing from the literature - electrostatic discharge during helicopter hoist operations.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42498957/",
     "source": "PubMed",
     "topic": "心理学",
     "region": "intl",
     "published": "2026",
-    "author": "Gokberk Erol, Alperen Sozer, Ozan Yavuz Tufek, Imran Asadov"
+    "author": "Jostein Rødseth Brede"
   },
   {
-    "title": "Patients' perceptions of dialysis initiation, prognosis and end-of-life issues: a single-centre, cross-sectional study.",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42497448/",
+    "title": "Association between video-based Pirani Böhm Sinclair score and treatment recommendations in recurrent clubfoot in walking-age children.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42498950/",
     "source": "PubMed",
     "topic": "心理学",
     "region": "intl",
     "published": "2026",
-    "author": "Hayley Worth, Angela Chou, Mark Brown, Frank Brennan"
+    "author": "Åsa Thelaus, Salik Kashif, Eva Broström, Alaric Aroojis"
   },
   {
-    "title": "Association Between Annual Wellness Visits and Early Dementia Diagnoses: Roles of Post-Visit Healthcare Decisions.",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42497446/",
+    "title": "Optimizing conversations on treatment management in hereditary angioedema: healthcare professional and patient perspectives on long-term prophylaxis and shared decision-making.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42498949/",
     "source": "PubMed",
     "topic": "心理学",
     "region": "intl",
     "published": "2026",
-    "author": "Yong-Fang Kuo, Huey-Ming Tzeng, Yong Shan, Jeong Hoon Jang"
+    "author": "Markus Magerl, Emel Aygören-Pürsün, Jens Greve, Andreas Recke"
   },
   {
-    "title": "Amyloid-β-Related Cortical Susceptibility Alterations in Individuals Under Assessment for Alzheimer's Disease: A χ-Separation Study.",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42497445/",
+    "title": "Psychometric assessment and exploratory scale refinement of the Generalized Anxiety Disorder 7-item scale among adolescents and young adults in a Swedish context.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42498940/",
     "source": "PubMed",
     "topic": "心理学",
     "region": "intl",
     "published": "2026",
-    "author": "Hiroyuki Tatekawa, Tatsushi Oura, Akitoshi Takeda, Ayako Omori"
+    "author": "Emma Ahlqvist Lindqvist, Magnus Johansson, Emma Hovén, Andreas Frick"
   },
   {
     "title": "角落新声｜数字与实体、有线与无线：我的多场景有声角落构建",
