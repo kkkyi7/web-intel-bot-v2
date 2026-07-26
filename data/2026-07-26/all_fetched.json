@@ -72,13 +72,22 @@
     "author": "James M. Zumel Dumlao, Meng Wang, Zhonghan Xie, Junyao Hu, Ivan Bar, George Chaney, Henry Gold, Misha Teplitskiy"
   },
   {
+    "title": "The new rules of context engineering for Claude 5 generation models",
+    "url": "https://claude.com/blog/the-new-rules-of-context-engineering-for-claude-5-generation-models",
+    "source": "HackerNews",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-07-25T20:42:35",
+    "author": "mellosouls · 227 pts · 139 comments"
+  },
+  {
     "title": "Open-weight AI is having its Kubernetes moment",
     "url": "https://tobi.knaup.me/2026-07-25-open-weight-ai-is-having-its-kubernetes-moment/",
     "source": "HackerNews",
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-07-25T14:49:49",
-    "author": "tknaup · 307 pts · 249 comments"
+    "author": "tknaup · 343 pts · 275 comments"
   },
   {
     "title": "Did They Ghost You?",
@@ -87,25 +96,16 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-07-25T20:18:03",
-    "author": "mooreds · 289 pts · 120 comments"
+    "author": "mooreds · 341 pts · 153 comments"
   },
   {
-    "title": "Bitchat is now on Radicle",
-    "url": "https://radicle.network/nodes/rosa.radicle.network/rad%3Az2v9tRJz1oknFAqCSY5W5c76nVvm6",
-    "source": "HackerNews",
+    "title": "Agentic-Native 增长：Zilliz 如何用 AI Agent 支撑超线性业务扩张｜AICon深圳",
+    "url": "https://www.infoq.cn/article/w9Xu1REwNa9kLUkjdBJA?utm_source=rss&utm_medium=article",
+    "source": "InfoQ 中文",
     "topic": "AI大事",
-    "region": "intl",
-    "published": "2026-07-25T13:18:49",
-    "author": "h1watt · 207 pts · 125 comments"
-  },
-  {
-    "title": "Android May Soon Restrict On-Device ADB",
-    "url": "https://kitsumed.github.io/blog/posts/android-may-soon-restrict-on-device-adb/",
-    "source": "HackerNews",
-    "topic": "AI大事",
-    "region": "intl",
-    "published": "2026-07-25T06:57:14",
-    "author": "shscs911 · 875 pts · 415 comments"
+    "region": "cn",
+    "published": "2026-07-26T10:00:00",
+    "author": "AICon 全球人工智能开发与应用大会"
   },
   {
     "title": "以 AI 对抗 AI：构建越用越强的 Agent Runtime 安全防线｜AICon深圳",
@@ -189,15 +189,6 @@
     "author": "作者：Sergio De Simone"
   },
   {
-    "title": "精彩预告｜Agentic 时代，谁来重新定义数据库？",
-    "url": "https://www.infoq.cn/video/AwphwhFcWrhs76k5RWhy?utm_source=rss&utm_medium=article",
-    "source": "InfoQ 中文",
-    "topic": "AI大事",
-    "region": "cn",
-    "published": "2026-07-24T10:00:00",
-    "author": "InfoQ 中文站"
-  },
-  {
     "title": "100%开源！吴恩达做了个个人桌面Agent",
     "url": "https://www.qbitai.com/2026/07/460892.html",
     "source": "量子位",
@@ -270,53 +261,8 @@
     "author": ""
   },
   {
-    "title": "koala73/worldmonitor",
-    "url": "https://github.com/koala73/worldmonitor",
-    "source": "GitHub Trending",
-    "topic": "AI大事",
-    "region": "intl",
-    "published": "",
-    "author": ""
-  },
-  {
-    "title": "ComposioHQ/awesome-claude-skills",
-    "url": "https://github.com/ComposioHQ/awesome-claude-skills",
-    "source": "GitHub Trending",
-    "topic": "AI大事",
-    "region": "intl",
-    "published": "",
-    "author": ""
-  },
-  {
-    "title": "Pumpkin-MC/Pumpkin",
-    "url": "https://github.com/Pumpkin-MC/Pumpkin",
-    "source": "GitHub Trending",
-    "topic": "AI大事",
-    "region": "intl",
-    "published": "",
-    "author": ""
-  },
-  {
-    "title": "shiyu-coder/Kronos",
-    "url": "https://github.com/shiyu-coder/Kronos",
-    "source": "GitHub Trending",
-    "topic": "AI大事",
-    "region": "intl",
-    "published": "",
-    "author": ""
-  },
-  {
-    "title": "Automattic/harper",
-    "url": "https://github.com/Automattic/harper",
-    "source": "GitHub Trending",
-    "topic": "AI大事",
-    "region": "intl",
-    "published": "",
-    "author": ""
-  },
-  {
-    "title": "likec4/likec4",
-    "url": "https://github.com/likec4/likec4",
+    "title": "alibaba/open-code-review",
+    "url": "https://github.com/alibaba/open-code-review",
     "source": "GitHub Trending",
     "topic": "AI大事",
     "region": "intl",
@@ -333,8 +279,8 @@
     "author": ""
   },
   {
-    "title": "yorukot/superfile",
-    "url": "https://github.com/yorukot/superfile",
+    "title": "ComposioHQ/awesome-claude-skills",
+    "url": "https://github.com/ComposioHQ/awesome-claude-skills",
     "source": "GitHub Trending",
     "topic": "AI大事",
     "region": "intl",
@@ -342,8 +288,53 @@
     "author": ""
   },
   {
-    "title": "ruvnet/RuView",
-    "url": "https://github.com/ruvnet/RuView",
+    "title": "anthropics/claude-cookbooks",
+    "url": "https://github.com/anthropics/claude-cookbooks",
+    "source": "GitHub Trending",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "",
+    "author": ""
+  },
+  {
+    "title": "Automattic/harper",
+    "url": "https://github.com/Automattic/harper",
+    "source": "GitHub Trending",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "",
+    "author": ""
+  },
+  {
+    "title": "shiyu-coder/Kronos",
+    "url": "https://github.com/shiyu-coder/Kronos",
+    "source": "GitHub Trending",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "",
+    "author": ""
+  },
+  {
+    "title": "obra/superpowers",
+    "url": "https://github.com/obra/superpowers",
+    "source": "GitHub Trending",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "",
+    "author": ""
+  },
+  {
+    "title": "Pumpkin-MC/Pumpkin",
+    "url": "https://github.com/Pumpkin-MC/Pumpkin",
+    "source": "GitHub Trending",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "",
+    "author": ""
+  },
+  {
+    "title": "permissionlesstech/bitchat",
+    "url": "https://github.com/permissionlesstech/bitchat",
     "source": "GitHub Trending",
     "topic": "AI大事",
     "region": "intl",
@@ -990,31 +981,76 @@
     "author": ""
   },
   {
-    "title": "不是爽文男主的张謇，为什么值得一部精品大剧？",
-    "url": "https://m.thepaper.cn/detail/33659802",
+    "title": "APEC观察｜面向人工智能时代，经济体部长们都谈些什么？",
+    "url": "https://m.thepaper.cn/detail/33661422",
     "source": "澎湃新闻",
     "topic": "世界时事",
     "region": "cn",
-    "published": "2026-07-26T01:04:06",
-    "author": "念一"
+    "published": "2026-07-26T04:49:35",
+    "author": "澎湃新闻记者 赵利新"
   },
   {
-    "title": "旅行从看风景转向买情绪，央媒：“情绪文旅”为何成万亿级新风口",
-    "url": "https://m.thepaper.cn/detail/33660747",
+    "title": "视频｜瓷片里的答案",
+    "url": "https://m.thepaper.cn/detail/33661426",
     "source": "澎湃新闻",
     "topic": "世界时事",
     "region": "cn",
-    "published": "2026-07-26T00:10:04",
-    "author": "陈骁/工人日报"
+    "published": "2026-07-26T04:48:40",
+    "author": "胡萍 邱西颖 朱宸廷 罗彩华 熊祖颐 陆文青/大江新闻-江西日报"
   },
   {
-    "title": "Kimi K3再引关注，瑞银：中国模型的结构性成本优势有望长期保持",
-    "url": "https://m.thepaper.cn/detail/33660556",
+    "title": "越南籍船舶南海遇险沉没，中方已救起44人",
+    "url": "https://m.thepaper.cn/detail/33661569",
     "source": "澎湃新闻",
     "topic": "世界时事",
     "region": "cn",
-    "published": "2026-07-25T23:33:40",
+    "published": "2026-07-26T04:46:46",
+    "author": "杨涛、魏安/央视新闻"
+  },
+  {
+    "title": "找准定位：多省份明确政府投资基金重点投资方向",
+    "url": "https://m.thepaper.cn/detail/33661440",
+    "source": "澎湃新闻",
+    "topic": "世界时事",
+    "region": "cn",
+    "published": "2026-07-26T04:10:21",
+    "author": "澎湃新闻记者 钟煜豪"
+  },
+  {
+    "title": "暴雨红色、台风+强对流黄色三预警齐发，广东江西湖南局地有特大暴雨",
+    "url": "https://m.thepaper.cn/detail/33661421",
+    "source": "澎湃新闻",
+    "topic": "世界时事",
+    "region": "cn",
+    "published": "2026-07-26T03:38:18",
+    "author": "央视新闻"
+  },
+  {
+    "title": "黄仁勋：杰出的人才总会找到出色的答案，中国注定会产出卓越的AI技术",
+    "url": "https://m.thepaper.cn/detail/33661261",
+    "source": "澎湃新闻",
+    "topic": "世界时事",
+    "region": "cn",
+    "published": "2026-07-26T03:06:18",
     "author": "澎湃新闻记者 秦盛"
+  },
+  {
+    "title": "究竟丨付费学员投资亏损，任泽平“不荐股”声明能否免责？",
+    "url": "https://m.thepaper.cn/detail/33624220",
+    "source": "澎湃新闻",
+    "topic": "世界时事",
+    "region": "cn",
+    "published": "2026-07-26T03:04:48",
+    "author": "澎湃新闻首席记者 田忠方 见习记者 姚榕琰"
+  },
+  {
+    "title": "AI版权之争的冲突与调适｜法度",
+    "url": "https://mini.caixin.com/2026-07-26/102468153.html",
+    "source": "财新网",
+    "topic": "世界时事",
+    "region": "cn",
+    "published": "2026-07-26T02:29:40",
+    "author": ""
   },
   {
     "title": "英伟达、Meta、微软和戴尔等联名支持开源模型 为“蒸馏”正名",
@@ -1044,12 +1080,12 @@
     "author": ""
   },
   {
-    "title": "【周刊提前读】徐小庆专栏：黄金有望重试升势",
-    "url": "https://database.caixin.com/2026-07-25/102467941.html",
-    "source": "财新网",
+    "title": "“伯纳姆想修复对华关系，但绕不开美国”",
+    "url": "https://www.guancha.cn/internation/2026_07_26_825113_s.shtml",
+    "source": "观察者网",
     "topic": "世界时事",
     "region": "cn",
-    "published": "2026-07-25T01:29:00",
+    "published": "2026-07-26T04:00:30",
     "author": ""
   },
   {
@@ -1134,12 +1170,39 @@
     "author": ""
   },
   {
-    "title": "“俄版亚马逊”仓库遭袭背后，“是信息战”",
-    "url": "https://www.guancha.cn/internation/2026_07_23_824817_s.shtml",
-    "source": "观察者网",
+    "title": "韩国养老金7月首度净买入KOSPI成分股，为今年首次",
+    "url": "https://36kr.com/newsflashes/3911979618849920?f=rss",
+    "source": "36氪（兜底）",
     "topic": "世界时事",
     "region": "cn",
-    "published": "2026-07-23T08:48:09",
+    "published": "2026-07-26T04:31:27",
+    "author": ""
+  },
+  {
+    "title": "黄仁勋：杰出的人才总会找到出色的答案，中国注定会产出卓越的AI技术",
+    "url": "https://36kr.com/newsflashes/3911959206827139?f=rss",
+    "source": "36氪（兜底）",
+    "topic": "世界时事",
+    "region": "cn",
+    "published": "2026-07-26T04:10:41",
+    "author": ""
+  },
+  {
+    "title": "SK崔泰源：韩国需转型为“AI原生”国家",
+    "url": "https://36kr.com/newsflashes/3911821420303744?f=rss",
+    "source": "36氪（兜底）",
+    "topic": "世界时事",
+    "region": "cn",
+    "published": "2026-07-26T01:50:31",
+    "author": ""
+  },
+  {
+    "title": "下周，SK海力士、三星电子和铠侠将公布最新财报，或影响下一阶段芯片股走势",
+    "url": "https://36kr.com/newsflashes/3911802943935620?f=rss",
+    "source": "36氪（兜底）",
+    "topic": "世界时事",
+    "region": "cn",
+    "published": "2026-07-26T01:31:43",
     "author": ""
   },
   {
@@ -1149,42 +1212,6 @@
     "topic": "世界时事",
     "region": "cn",
     "published": "2026-07-26T01:23:41",
-    "author": ""
-  },
-  {
-    "title": "瑞银：中国再保险升至“买入”评级 目标价上调至1.75港元",
-    "url": "https://36kr.com/newsflashes/3911790076368000?f=rss",
-    "source": "36氪（兜底）",
-    "topic": "世界时事",
-    "region": "cn",
-    "published": "2026-07-26T01:18:38",
-    "author": ""
-  },
-  {
-    "title": "李在明：人工智能时代为韩国带来全新机遇",
-    "url": "https://36kr.com/newsflashes/3911788141286792?f=rss",
-    "source": "36氪（兜底）",
-    "topic": "世界时事",
-    "region": "cn",
-    "published": "2026-07-26T01:16:40",
-    "author": ""
-  },
-  {
-    "title": "硬氪首发 | 复旦教授、前英特尔首席科学家做端侧具身大脑，「眸深智能」完成近亿元Pre-A轮追加融资",
-    "url": "https://36kr.com/p/3911162147640456?f=rss",
-    "source": "36氪（兜底）",
-    "topic": "世界时事",
-    "region": "cn",
-    "published": "2026-07-26T01:00:00",
-    "author": ""
-  },
-  {
-    "title": "从月之暗面出走，他用AI技术帮人找对象，徐新投资 | 涌现新项目",
-    "url": "https://36kr.com/p/3910880823202948?f=rss",
-    "source": "36氪（兜底）",
-    "topic": "世界时事",
-    "region": "cn",
-    "published": "2026-07-25T11:00:21",
     "author": ""
   },
   {
@@ -1224,13 +1251,22 @@
     "author": ""
   },
   {
+    "title": "The new rules of context engineering for Claude 5 generation models",
+    "url": "https://claude.com/blog/the-new-rules-of-context-engineering-for-claude-5-generation-models",
+    "source": "HackerNews",
+    "topic": "技术圈",
+    "region": "intl",
+    "published": "2026-07-25T20:42:35",
+    "author": "mellosouls · 227 pts · 139 comments"
+  },
+  {
     "title": "Open-weight AI is having its Kubernetes moment",
     "url": "https://tobi.knaup.me/2026-07-25-open-weight-ai-is-having-its-kubernetes-moment/",
     "source": "HackerNews",
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-07-25T14:49:49",
-    "author": "tknaup · 307 pts · 249 comments"
+    "author": "tknaup · 343 pts · 275 comments"
   },
   {
     "title": "Did They Ghost You?",
@@ -1239,25 +1275,7 @@
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-07-25T20:18:03",
-    "author": "mooreds · 289 pts · 121 comments"
-  },
-  {
-    "title": "Bitchat is now on Radicle",
-    "url": "https://radicle.network/nodes/rosa.radicle.network/rad%3Az2v9tRJz1oknFAqCSY5W5c76nVvm6",
-    "source": "HackerNews",
-    "topic": "技术圈",
-    "region": "intl",
-    "published": "2026-07-25T13:18:49",
-    "author": "h1watt · 207 pts · 125 comments"
-  },
-  {
-    "title": "Android May Soon Restrict On-Device ADB",
-    "url": "https://kitsumed.github.io/blog/posts/android-may-soon-restrict-on-device-adb/",
-    "source": "HackerNews",
-    "topic": "技术圈",
-    "region": "intl",
-    "published": "2026-07-25T06:57:14",
-    "author": "shscs911 · 875 pts · 415 comments"
+    "author": "mooreds · 341 pts · 153 comments"
   },
   {
     "title": "mem0ai/mem0 发布 Mem0 Python SDK (v2.0.14)",
@@ -1276,15 +1294,6 @@
     "region": "intl",
     "published": "2026-07-25T12:24:49",
     "author": "kartik-mem0"
-  },
-  {
-    "title": "anthropics/claude-code 发布 v2.1.220",
-    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.220",
-    "source": "GitHubRelease",
-    "topic": "GitHub 动态",
-    "region": "intl",
-    "published": "2026-07-25T01:35:55",
-    "author": "ashwin-ant"
   },
   {
     "title": "vercel/next.js 发布 v16.3.0-canary.97",
@@ -1314,49 +1323,49 @@
     "author": "lukesandberg"
   },
   {
-    "title": "Speech and Language Therapists' Views and Experiences of Working With People With Wernicke's Aphasia: A Qualitative Interview Study.",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42500848/",
+    "title": "Point-of-care ultrasound (POCUS) in emergency airway management: emerging evidence for assessment, prediction, and confirmation.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42502151/",
     "source": "PubMed",
     "topic": "心理学",
     "region": "intl",
     "published": "2026",
-    "author": "Susanna Williams, Freyja Bell, Sarah Northcott, Suzanne Beeke"
+    "author": "Fahad Abuguyan"
   },
   {
-    "title": "Determining Parental Factors for Clinical Trial Attrition in Pediatric Acute Lymphoblastic Leukemia.",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42500840/",
+    "title": "Long-term valve durability and clinical outcomes after transcatheter versus surgical aortic valve replacement in low-risk patients: a systematic review and meta-analysis of randomized trials.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42502145/",
     "source": "PubMed",
     "topic": "心理学",
     "region": "intl",
     "published": "2026",
-    "author": "Kimberly L Stathas, Jakob Q Weiss, Kellee N Parker, Cathy Lee-Miller"
+    "author": "Lakshiya Ramamoorthy, Faris Otmani, Aarushi Gupta, Lilly Rebecca George"
   },
   {
-    "title": "Neural Endophenotypes of Semantic Processing and Social Functioning in Autism Spectrum Disorder.",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42500834/",
+    "title": "Exploring the Link Between Metacognitive Skills with Psychological Resilience and Post-Traumatic Growth in Cancer Survivors.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42502142/",
     "source": "PubMed",
     "topic": "心理学",
     "region": "intl",
     "published": "2026",
-    "author": "Shu-Hui Lee, Chuan-Ching Liao, Tai-Li Chou, Susan Shur-Fen Gau"
+    "author": "Özge Selin Özen Sekmek, Eda Çalışkan Yıldırım, Gülsüm Zuhal Kamış"
   },
   {
-    "title": "Transoral Robotic Surgery Versus Traditional Lingual Tonsillectomy for Persistent Pediatric Sleep Apnea.",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42500749/",
+    "title": "Prediction of single cell expression from low-plex immunofluorescence images for guiding precision oncology.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42502133/",
     "source": "PubMed",
     "topic": "心理学",
     "region": "intl",
     "published": "2026",
-    "author": "Mona Dabbas, Christina Zhu, Emily Clementi, Samay Sampat"
+    "author": "Markus Heidrich, Daniel Nilsson, Asger Meldgaard Frank, Mohammad Kazemi Majdabadi"
   },
   {
-    "title": "Renal denervation triage tool: a practical approach to the management of resistant hypertension.",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42500615/",
+    "title": "Dental services access and oral health improvement in Gypsy, Romany and Traveller communities: a scoping review.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42502099/",
     "source": "PubMed",
     "topic": "心理学",
     "region": "intl",
     "published": "2026",
-    "author": "Sanjay Kalra, Markus P Schlaich, A K Bhalla, Alan Almeida"
+    "author": "John Tredinnick-Rowe, Joelle Booth, Lorna Burns, Janine Doughty"
   },
   {
     "title": "角落新声｜数字与实体、有线与无线：我的多场景有声角落构建",
