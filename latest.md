@@ -44,4 +44,4 @@
 - [OpenAI 发布 Presence 企业级 AI 代理平台](https://openai.com/index/introducing-openai-presence) · OpenAI Blog · 分9
   OpenAI 推出了一个叫 Presence 的企业级平台，专门帮公司部署可信的语音和聊天 AI 代理，用于客户服务和内部流程，主打安全可控。
 
-_更新于 2026-07-25 04:39 · web-intel-bot_
+_更新于 2026-07-26 01:32 · web-intel-bot_
