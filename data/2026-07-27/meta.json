@@ -1,0 +1,45 @@
+{
+  "date": "2026-07-27",
+  "profile": "kizty",
+  "generated_at": "2026-07-27 01:35",
+  "stats": {
+    "topics_ran": [
+      "AI大事",
+      "世界时事",
+      "变现路径",
+      "技术圈",
+      "GitHub 动态"
+    ],
+    "total_selected": 20,
+    "total_fetched": 137
+  },
+  "top3": [
+    {
+      "topic": "AI大事",
+      "title": "OpenAI 推出企业级 AI 代理平台 Presence",
+      "tldr": "OpenAI 发布了一个叫 Presence 的企业平台，专门帮公司部署可信的语音和聊天 AI 代理，用于客户服务和内部流程，相当于把 ChatGPT 的能力包装成可直接落地的企业级产品。",
+      "score": 9,
+      "url": "https://openai.com/index/introducing-openai-presence",
+      "source": "OpenAI Blog",
+      "source_count": 1
+    },
+    {
+      "topic": "AI大事",
+      "title": "Gemini API 托管代理新增后台任务与远程 MCP 支持",
+      "tldr": "Google 在 Gemini API 里给开发者加了三项新能力：让 Agent 能跑后台任务、能远程调用 MCP 服务器、还能做更细的权限控制，目标是让 AI 代理真正能用在生产环境。",
+      "score": 9,
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api/",
+      "source": "Google AI Blog",
+      "source_count": 1
+    },
+    {
+      "topic": "世界时事",
+      "title": "下黑手！“美国要拉墨西哥一起围堵中国钢铝",
+      "tldr": "美国正在施压墨西哥，要求墨西哥也对中国钢铝产品征收高额关税，目的是在北美建起统一壁垒，彻底堵死中国钢铝借道墨西哥进入美国市场的通道。",
+      "score": 8,
+      "url": "https://www.guancha.cn/internation/2026_07_27_825168_s.shtml",
+      "source": "观察者网",
+      "source_count": 1
+    }
+  ]
+}
