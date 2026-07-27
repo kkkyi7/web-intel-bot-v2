@@ -72,13 +72,40 @@
     "author": "Santhiya Rajan"
   },
   {
+    "title": "PGSimCity - How PostgreSQL Works",
+    "url": "https://nikolays.github.io/PGSimCity/",
+    "source": "HackerNews",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-07-27T00:19:04",
+    "author": "jonbaer · 290 pts · 37 comments"
+  },
+  {
     "title": "Decker, a platform that builds on the legacy of Hypercard and classic macOS",
     "url": "https://beyondloom.com/decker/",
     "source": "HackerNews",
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-07-26T18:23:06",
-    "author": "tosh · 221 pts · 51 comments"
+    "author": "tosh · 269 pts · 67 comments"
+  },
+  {
+    "title": "French firefighters face 'pyrocumulonimbus' for first time",
+    "url": "https://www.france24.com/en/live-news/20260726-french-firefighters-face-pyrocumulonimbus-for-first-time",
+    "source": "HackerNews",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-07-26T17:49:44",
+    "author": "saaaaaam · 238 pts · 140 comments"
+  },
+  {
+    "title": "US citizen charged after GrapheneOS phone wipes during airport search",
+    "url": "https://www.techspot.com/news/113236-us-prosecutors-charge-atlanta-man-after-grapheneos-phone.html",
+    "source": "HackerNews",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-07-26T22:21:41",
+    "author": "eecc · 409 pts · 264 comments"
   },
   {
     "title": "Htmx 4.0, the first JavaScript library to release exclusively on the Game Boy",
@@ -87,7 +114,16 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-07-26T12:00:11",
-    "author": "rcy · 353 pts · 109 comments"
+    "author": "rcy · 393 pts · 135 comments"
+  },
+  {
+    "title": "Design is compromise",
+    "url": "https://stephango.com/design-is-compromise",
+    "source": "HackerNews",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-07-26T15:51:12",
+    "author": "ankitg12 · 215 pts · 76 comments"
   },
   {
     "title": "Kill The Cookie Banner",
@@ -96,7 +132,43 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-07-26T11:53:17",
-    "author": "rapnie · 820 pts · 400 comments"
+    "author": "rapnie · 883 pts · 433 comments"
+  },
+  {
+    "title": "曝梁文锋不满内部会议泄露，DeepSeek或暂停融资；Karpathy入职Anthropic仅两月疑离职；日媒拆解宇树G1后认输：短期内赶不上中国｜AI周报",
+    "url": "https://www.infoq.cn/article/oSL5ff3IbpsJZcQzKxow?utm_source=rss&utm_medium=article",
+    "source": "InfoQ 中文",
+    "topic": "AI大事",
+    "region": "cn",
+    "published": "2026-07-27T11:46:47",
+    "author": "傅宇琪,褚杏娟"
+  },
+  {
+    "title": "全球首款2nm GPU 炸场！OpenAI、Meta、微软集体站台，AMD 要拆掉英伟达护城河？",
+    "url": "https://www.infoq.cn/article/SJj23gRv7ZXBHyaCi8Eq?utm_source=rss&utm_medium=article",
+    "source": "InfoQ 中文",
+    "topic": "AI大事",
+    "region": "cn",
+    "published": "2026-07-27T09:57:45",
+    "author": "李冬梅"
+  },
+  {
+    "title": "Cursor 用一群Agent重造SQLite：仅凭 835 页手册，无源码、无测试、不联网",
+    "url": "https://www.infoq.cn/article/5qw8Qe37kGVDq9Yy57XC?utm_source=rss&utm_medium=article",
+    "source": "InfoQ 中文",
+    "topic": "AI大事",
+    "region": "cn",
+    "published": "2026-07-27T09:34:44",
+    "author": "Tina"
+  },
+  {
+    "title": "亚马逊云科技发布 Loom，一个用于在企业级规模上管理 AI 代理的开源参考平台",
+    "url": "https://www.infoq.cn/article/JDgONrm19ROF1qHzfOQO?utm_source=rss&utm_medium=article",
+    "source": "InfoQ 中文",
+    "topic": "AI大事",
+    "region": "cn",
+    "published": "2026-07-27T09:24:39",
+    "author": "作者：Steef-Jan Wiggers"
   },
   {
     "title": "AI Agent 与前沿部署工程：商业决策智能实践 ｜ Summit 2026",
@@ -153,40 +225,49 @@
     "author": "InfoQ 中文站"
   },
   {
-    "title": "“因为AI不再招研究生了！”菲尔兹奖得主转身加盟OpenAI：数学家这份工作很难维持",
-    "url": "https://www.infoq.cn/article/7rHl2bfzSq4kNVPQ9219?utm_source=rss&utm_medium=article",
-    "source": "InfoQ 中文",
+    "title": "AI最尴尬的短板，中国科学院出手了",
+    "url": "https://www.qbitai.com/2026/07/461160.html",
+    "source": "量子位",
     "topic": "AI大事",
     "region": "cn",
-    "published": "2026-07-24T19:30:52",
-    "author": "褚杏娟"
+    "published": "2026-07-27T05:00:12",
+    "author": "思邈"
   },
   {
-    "title": "GKE 安全蓝图加入云厂商 AI 安全框架阵营",
-    "url": "https://www.infoq.cn/article/DXKamMhJKJeV7CkeExzo?utm_source=rss&utm_medium=article",
-    "source": "InfoQ 中文",
+    "title": "出海企业苦等的可信任AI营销产品，飞书深诺做出来了",
+    "url": "https://www.qbitai.com/2026/07/461226.html",
+    "source": "量子位",
     "topic": "AI大事",
     "region": "cn",
-    "published": "2026-07-24T18:00:00",
-    "author": "作者：Matt Saunders"
+    "published": "2026-07-27T04:33:09",
+    "author": "听雨"
   },
   {
-    "title": "深度对话：AI Agent 真落地，为什么需要 GPU 原生认知数据库？",
-    "url": "https://www.infoq.cn/video/WKDVJzq0LF6luzNAGwrP?utm_source=rss&utm_medium=article",
-    "source": "InfoQ 中文",
+    "title": "DeepSeek被曝主动叫停了第二轮融资签约",
+    "url": "https://www.qbitai.com/2026/07/461220.html",
+    "source": "量子位",
     "topic": "AI大事",
     "region": "cn",
-    "published": "2026-07-24T17:30:28",
-    "author": "InfoQ 中文站"
+    "published": "2026-07-27T04:29:38",
+    "author": "听雨"
   },
   {
-    "title": "从“卷模型”到“算总账”：AI 产业竞争开始拼什么 | 请回答 WAIC 2026",
-    "url": "https://www.infoq.cn/article/SyHXRLS6AR3vI6VtVjDo?utm_source=rss&utm_medium=article",
-    "source": "InfoQ 中文",
+    "title": "企业出海，被中国信通院和腾讯重新定义了一次",
+    "url": "https://www.qbitai.com/2026/07/461153.html",
+    "source": "量子位",
     "topic": "AI大事",
     "region": "cn",
-    "published": "2026-07-24T16:45:21",
-    "author": "蔡芳芳"
+    "published": "2026-07-27T03:55:47",
+    "author": "闻乐"
+  },
+  {
+    "title": "蚂蚁百灵发布新一代原生混合推理模型Ling-3.0-Flash",
+    "url": "https://www.qbitai.com/2026/07/461149.html",
+    "source": "量子位",
+    "topic": "AI大事",
+    "region": "cn",
+    "published": "2026-07-27T01:57:26",
+    "author": "量子位的朋友们"
   },
   {
     "title": "100%开源！吴恩达做了个个人桌面Agent",
@@ -216,44 +297,8 @@
     "author": "克雷西"
   },
   {
-    "title": "北京说Agent已经能造世界，杭州却说它是刚发明的电灯泡",
-    "url": "https://www.qbitai.com/2026/07/460186.html",
-    "source": "量子位",
-    "topic": "AI大事",
-    "region": "cn",
-    "published": "2026-07-25T11:07:25",
-    "author": "十三"
-  },
-  {
-    "title": "全新统一流式架构，Vivix灵动时刻正式发布首个实时互动模型",
-    "url": "https://www.qbitai.com/2026/07/460174.html",
-    "source": "量子位",
-    "topic": "AI大事",
-    "region": "cn",
-    "published": "2026-07-25T03:21:53",
-    "author": "henry"
-  },
-  {
-    "title": "合肥又押中AI独角兽：多模态赛道，3个月融了21亿",
-    "url": "https://www.qbitai.com/2026/07/460154.html",
-    "source": "量子位",
-    "topic": "AI大事",
-    "region": "cn",
-    "published": "2026-07-24T14:42:32",
-    "author": "思邈"
-  },
-  {
-    "title": "block/buzz",
-    "url": "https://github.com/block/buzz",
-    "source": "GitHub Trending",
-    "topic": "AI大事",
-    "region": "intl",
-    "published": "",
-    "author": ""
-  },
-  {
-    "title": "alibaba/open-code-review",
-    "url": "https://github.com/alibaba/open-code-review",
+    "title": "permissionlesstech/bitchat",
+    "url": "https://github.com/permissionlesstech/bitchat",
     "source": "GitHub Trending",
     "topic": "AI大事",
     "region": "intl",
@@ -270,8 +315,8 @@
     "author": ""
   },
   {
-    "title": "ComposioHQ/awesome-claude-skills",
-    "url": "https://github.com/ComposioHQ/awesome-claude-skills",
+    "title": "block/buzz",
+    "url": "https://github.com/block/buzz",
     "source": "GitHub Trending",
     "topic": "AI大事",
     "region": "intl",
@@ -279,8 +324,8 @@
     "author": ""
   },
   {
-    "title": "anthropics/claude-cookbooks",
-    "url": "https://github.com/anthropics/claude-cookbooks",
+    "title": "pingdotgg/t3code",
+    "url": "https://github.com/pingdotgg/t3code",
     "source": "GitHub Trending",
     "topic": "AI大事",
     "region": "intl",
@@ -288,8 +333,44 @@
     "author": ""
   },
   {
-    "title": "Automattic/harper",
-    "url": "https://github.com/Automattic/harper",
+    "title": "CoreBunch/Instatic",
+    "url": "https://github.com/CoreBunch/Instatic",
+    "source": "GitHub Trending",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "",
+    "author": ""
+  },
+  {
+    "title": "yorukot/superfile",
+    "url": "https://github.com/yorukot/superfile",
+    "source": "GitHub Trending",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "",
+    "author": ""
+  },
+  {
+    "title": "nodejs/node",
+    "url": "https://github.com/nodejs/node",
+    "source": "GitHub Trending",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "",
+    "author": ""
+  },
+  {
+    "title": "OtterMind/Chat2DB",
+    "url": "https://github.com/OtterMind/Chat2DB",
+    "source": "GitHub Trending",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "",
+    "author": ""
+  },
+  {
+    "title": "pbakaus/impeccable",
+    "url": "https://github.com/pbakaus/impeccable",
     "source": "GitHub Trending",
     "topic": "AI大事",
     "region": "intl",
@@ -299,33 +380,6 @@
   {
     "title": "shiyu-coder/Kronos",
     "url": "https://github.com/shiyu-coder/Kronos",
-    "source": "GitHub Trending",
-    "topic": "AI大事",
-    "region": "intl",
-    "published": "",
-    "author": ""
-  },
-  {
-    "title": "obra/superpowers",
-    "url": "https://github.com/obra/superpowers",
-    "source": "GitHub Trending",
-    "topic": "AI大事",
-    "region": "intl",
-    "published": "",
-    "author": ""
-  },
-  {
-    "title": "Pumpkin-MC/Pumpkin",
-    "url": "https://github.com/Pumpkin-MC/Pumpkin",
-    "source": "GitHub Trending",
-    "topic": "AI大事",
-    "region": "intl",
-    "published": "",
-    "author": ""
-  },
-  {
-    "title": "permissionlesstech/bitchat",
-    "url": "https://github.com/permissionlesstech/bitchat",
     "source": "GitHub Trending",
     "topic": "AI大事",
     "region": "intl",
@@ -990,6 +1044,186 @@
     "author": ""
   },
   {
+    "title": "越南籍船舶遇险沉没，中方救起47人并全部移交越方",
+    "url": "https://m.thepaper.cn/detail/33665722",
+    "source": "澎湃新闻",
+    "topic": "世界时事",
+    "region": "cn",
+    "published": "2026-07-27T04:56:02",
+    "author": "唐颖/央视新闻"
+  },
+  {
+    "title": "全球前瞻｜内塔尼亚胡、泽连斯基本周访美与特朗普会晤",
+    "url": "https://m.thepaper.cn/detail/33665639",
+    "source": "澎湃新闻",
+    "topic": "世界时事",
+    "region": "cn",
+    "published": "2026-07-27T04:55:15",
+    "author": "澎湃新闻记者 南博一"
+  },
+  {
+    "title": "中国残联：将推动全链条破除就业壁垒，让残疾人进得了就业单位",
+    "url": "https://m.thepaper.cn/detail/33665846",
+    "source": "澎湃新闻",
+    "topic": "世界时事",
+    "region": "cn",
+    "published": "2026-07-27T04:46:50",
+    "author": "澎湃新闻记者 刘璐"
+  },
+  {
+    "title": "中国残联：将健全适龄残疾儿童入学评估机制，完善送教上门",
+    "url": "https://m.thepaper.cn/detail/33665837",
+    "source": "澎湃新闻",
+    "topic": "世界时事",
+    "region": "cn",
+    "published": "2026-07-27T04:43:41",
+    "author": "澎湃新闻记者 刘璐"
+  },
+  {
+    "title": "直播丨探访泥石流后的九寨沟：部分区域开放，今日门票观光车票全免",
+    "url": "https://m.thepaper.cn/detail/33665422",
+    "source": "澎湃新闻",
+    "topic": "世界时事",
+    "region": "cn",
+    "published": "2026-07-27T04:31:22",
+    "author": "澎湃新闻记者 史含伟 编辑 胡岑 实习生 董梦琳 特约拍摄 吴金云"
+  },
+  {
+    "title": "中国残联：要把提高困难和重度残疾人社会保障水平摆在突出位置",
+    "url": "https://m.thepaper.cn/detail/33665644",
+    "source": "澎湃新闻",
+    "topic": "世界时事",
+    "region": "cn",
+    "published": "2026-07-27T04:24:46",
+    "author": "澎湃新闻记者 刘璐"
+  },
+  {
+    "title": "上海浦东今年上半年GDP9318亿元，同比增长6.1%",
+    "url": "https://m.thepaper.cn/detail/33665683",
+    "source": "澎湃新闻",
+    "topic": "世界时事",
+    "region": "cn",
+    "published": "2026-07-27T04:16:06",
+    "author": "澎湃新闻高级记者 邹娟 见习记者 洪旭东"
+  },
+  {
+    "title": "如何实施农村残疾人常态化精准帮扶？中国残联答澎湃",
+    "url": "https://m.thepaper.cn/detail/33665714",
+    "source": "澎湃新闻",
+    "topic": "世界时事",
+    "region": "cn",
+    "published": "2026-07-27T04:09:16",
+    "author": "澎湃新闻记者 刘璐"
+  },
+  {
+    "title": "新闻蒸馏器｜军事极限与防空缺口：特朗普为何暂缓对伊大规模空袭？",
+    "url": "https://m.thepaper.cn/detail/33665303",
+    "source": "澎湃新闻",
+    "topic": "世界时事",
+    "region": "cn",
+    "published": "2026-07-27T02:53:16",
+    "author": "澎湃新闻记者 南博一"
+  },
+  {
+    "title": "芯片巨舰长鑫科技上市：一个人，一座城，与一个国家的存储产业十年",
+    "url": "https://m.thepaper.cn/detail/33663468",
+    "source": "澎湃新闻",
+    "topic": "世界时事",
+    "region": "cn",
+    "published": "2026-07-27T02:21:13",
+    "author": "澎湃新闻记者 周玲"
+  },
+  {
+    "title": "AI重写全球存储供需，“短缺时代”的中国产业答卷",
+    "url": "https://m.thepaper.cn/detail/33665114",
+    "source": "澎湃新闻",
+    "topic": "世界时事",
+    "region": "cn",
+    "published": "2026-07-27T02:01:48",
+    "author": "李学楠、王小龙"
+  },
+  {
+    "title": "国家统计局解读：上半年规模以上工业企业利润实现较快增长",
+    "url": "https://m.thepaper.cn/detail/33665126",
+    "source": "澎湃新闻",
+    "topic": "世界时事",
+    "region": "cn",
+    "published": "2026-07-27T01:35:23",
+    "author": "国家统计局网站"
+  },
+  {
+    "title": "独家｜富途老虎期权内幕交易案锁定账户超310个",
+    "url": "https://finance.caixin.com/2026-07-27/102468398.html",
+    "source": "财新网",
+    "topic": "世界时事",
+    "region": "cn",
+    "published": "2026-07-27T04:57:04",
+    "author": ""
+  },
+  {
+    "title": "黄金，在等待什么",
+    "url": "https://opinion.caixin.com/2026-07-27/102468394.html",
+    "source": "财新网",
+    "topic": "世界时事",
+    "region": "cn",
+    "published": "2026-07-27T04:49:19",
+    "author": ""
+  },
+  {
+    "title": "一把双刃剑：经济出口依赖度达新高",
+    "url": "https://opinion.caixin.com/2026-07-27/102468368.html",
+    "source": "财新网",
+    "topic": "世界时事",
+    "region": "cn",
+    "published": "2026-07-27T03:35:41",
+    "author": ""
+  },
+  {
+    "title": "押解回国半年后 跨境赌诈犯罪集团头目陈志被批捕",
+    "url": "https://china.caixin.com/2026-07-27/102468346.html",
+    "source": "财新网",
+    "topic": "世界时事",
+    "region": "cn",
+    "published": "2026-07-27T02:41:35",
+    "author": ""
+  },
+  {
+    "title": "缪延亮：“去美元化”结束了吗",
+    "url": "https://opinion.caixin.com/2026-07-27/102468340.html",
+    "source": "财新网",
+    "topic": "世界时事",
+    "region": "cn",
+    "published": "2026-07-27T02:32:21",
+    "author": ""
+  },
+  {
+    "title": "科技金融争夺全球流动性，亟需人民币数字金融基础设施建设",
+    "url": "https://opinion.caixin.com/2026-07-27/102468323.html",
+    "source": "财新网",
+    "topic": "世界时事",
+    "region": "cn",
+    "published": "2026-07-27T01:56:13",
+    "author": ""
+  },
+  {
+    "title": "财新闻｜重庆彭水山体崩塌现场发现人体残骸 正检测DNA",
+    "url": "https://mini.caixin.com/2026-07-27/102468320.html",
+    "source": "财新网",
+    "topic": "世界时事",
+    "region": "cn",
+    "published": "2026-07-27T01:50:59",
+    "author": ""
+  },
+  {
+    "title": "今日开盘：沪指报3808.90点 跌幅0.14%",
+    "url": "https://finance.caixin.com/2026-07-27/102468318.html",
+    "source": "财新网",
+    "topic": "世界时事",
+    "region": "cn",
+    "published": "2026-07-27T01:29:53",
+    "author": ""
+  },
+  {
     "title": "301接棒122关税，有何影响",
     "url": "https://opinion.caixin.com/2026-07-27/102468299.html",
     "source": "财新网",
@@ -999,21 +1233,12 @@
     "author": ""
   },
   {
-    "title": "“完善儿童早期发展服务”写入十五五规划，如何填补需求缺口？",
-    "url": "https://www.caixin.com/2026-07-27/102468286.html",
-    "source": "财新网",
+    "title": "“新疆番茄”，刺痛了澳媒的敏感神经",
+    "url": "https://www.guancha.cn/internation/2026_07_27_825194_s.shtml",
+    "source": "观察者网",
     "topic": "世界时事",
     "region": "cn",
-    "published": "2026-07-26T23:31:54",
-    "author": ""
-  },
-  {
-    "title": "财经早知道｜两部门明确离岸信托个税事项",
-    "url": "https://finance.caixin.com/2026-07-27/102468274.html",
-    "source": "财新网",
-    "topic": "世界时事",
-    "region": "cn",
-    "published": "2026-07-26T22:39:45",
+    "published": "2026-07-27T03:37:41",
     "author": ""
   },
   {
@@ -1098,57 +1323,48 @@
     "author": ""
   },
   {
-    "title": "要和马六甲争高下的陆桥黄了，暴露泰国面临的大问题",
-    "url": "https://www.guancha.cn/internation/2026_07_24_824979_s.shtml",
-    "source": "观察者网",
-    "topic": "世界时事",
-    "region": "cn",
-    "published": "2026-07-24T13:13:47",
-    "author": ""
-  },
-  {
-    "title": "央行今日开展3255亿元7天逆回购操作",
-    "url": "https://36kr.com/newsflashes/3913209931043975?f=rss",
+    "title": "软银为投资OpenAI股权的400亿美元贷款新增21家放款机构",
+    "url": "https://36kr.com/newsflashes/3913423032620420?f=rss",
     "source": "36氪（兜底）",
     "topic": "世界时事",
     "region": "cn",
-    "published": "2026-07-27T01:22:59",
+    "published": "2026-07-27T05:02:23",
     "author": ""
   },
   {
-    "title": "36氪首发｜家居音频品牌「MORROR ART」完成亿元级B+轮融资，日初资本领投、零一创投跟投",
-    "url": "https://36kr.com/p/3910655616521348?f=rss",
+    "title": "韩国6月外币存款规模连续第三个月走高",
+    "url": "https://36kr.com/newsflashes/3913361690334600?f=rss",
     "source": "36氪（兜底）",
     "topic": "世界时事",
     "region": "cn",
-    "published": "2026-07-27T01:20:17",
+    "published": "2026-07-27T04:21:16",
     "author": ""
   },
   {
-    "title": "人民币兑美元中间价报6.7911，上调28点",
-    "url": "https://36kr.com/newsflashes/3913203545052550?f=rss",
+    "title": "“词元无限”完成天使++轮融资，累计融资金额达数亿元",
+    "url": "https://36kr.com/newsflashes/3913346330645891?f=rss",
     "source": "36氪（兜底）",
     "topic": "世界时事",
     "region": "cn",
-    "published": "2026-07-27T01:16:29",
+    "published": "2026-07-27T03:41:44",
     "author": ""
   },
   {
-    "title": "信用债新增违约率处于多年来最低水平，年内仅新增2家主体违约",
-    "url": "https://36kr.com/newsflashes/3913183919035529?f=rss",
+    "title": "中核集团等在江苏成立新创业投资合伙企业，出资额27亿",
+    "url": "https://36kr.com/newsflashes/3913296136983685?f=rss",
     "source": "36氪（兜底）",
     "topic": "世界时事",
     "region": "cn",
-    "published": "2026-07-27T01:11:24",
+    "published": "2026-07-27T02:50:41",
     "author": ""
   },
   {
-    "title": "国金证券：美妆行业细分赛道突围机会凸显，重视AI降本增效",
-    "url": "https://36kr.com/newsflashes/3913184272176512?f=rss",
+    "title": "优衣库一边关店，一边赚钱",
+    "url": "https://36kr.com/p/3913266058826880?f=rss",
     "source": "36氪（兜底）",
     "topic": "世界时事",
     "region": "cn",
-    "published": "2026-07-27T01:05:47",
+    "published": "2026-07-27T02:43:30",
     "author": ""
   },
   {
@@ -1179,13 +1395,40 @@
     "author": ""
   },
   {
+    "title": "PGSimCity - How PostgreSQL Works",
+    "url": "https://nikolays.github.io/PGSimCity/",
+    "source": "HackerNews",
+    "topic": "技术圈",
+    "region": "intl",
+    "published": "2026-07-27T00:19:04",
+    "author": "jonbaer · 297 pts · 37 comments"
+  },
+  {
     "title": "Decker, a platform that builds on the legacy of Hypercard and classic macOS",
     "url": "https://beyondloom.com/decker/",
     "source": "HackerNews",
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-07-26T18:23:06",
-    "author": "tosh · 221 pts · 51 comments"
+    "author": "tosh · 270 pts · 67 comments"
+  },
+  {
+    "title": "French firefighters face 'pyrocumulonimbus' for first time",
+    "url": "https://www.france24.com/en/live-news/20260726-french-firefighters-face-pyrocumulonimbus-for-first-time",
+    "source": "HackerNews",
+    "topic": "技术圈",
+    "region": "intl",
+    "published": "2026-07-26T17:49:44",
+    "author": "saaaaaam · 239 pts · 140 comments"
+  },
+  {
+    "title": "US citizen charged after GrapheneOS phone wipes during airport search",
+    "url": "https://www.techspot.com/news/113236-us-prosecutors-charge-atlanta-man-after-grapheneos-phone.html",
+    "source": "HackerNews",
+    "topic": "技术圈",
+    "region": "intl",
+    "published": "2026-07-26T22:21:41",
+    "author": "eecc · 410 pts · 266 comments"
   },
   {
     "title": "Htmx 4.0, the first JavaScript library to release exclusively on the Game Boy",
@@ -1194,7 +1437,16 @@
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-07-26T12:00:11",
-    "author": "rcy · 354 pts · 109 comments"
+    "author": "rcy · 393 pts · 135 comments"
+  },
+  {
+    "title": "Design is compromise",
+    "url": "https://stephango.com/design-is-compromise",
+    "source": "HackerNews",
+    "topic": "技术圈",
+    "region": "intl",
+    "published": "2026-07-26T15:51:12",
+    "author": "ankitg12 · 215 pts · 76 comments"
   },
   {
     "title": "Kill The Cookie Banner",
@@ -1203,7 +1455,7 @@
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-07-26T11:53:17",
-    "author": "rapnie · 822 pts · 400 comments"
+    "author": "rapnie · 884 pts · 433 comments"
   },
   {
     "title": "crewAIInc/crewAI 发布 1.15.7",

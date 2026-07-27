@@ -1,7 +1,7 @@
 {
   "date": "2026-07-27",
   "profile": "kizty",
-  "generated_at": "2026-07-27 01:35",
+  "generated_at": "2026-07-27 05:08",
   "stats": {
     "topics_ran": [
       "AI大事",
@@ -10,36 +10,36 @@
       "技术圈",
       "GitHub 动态"
     ],
-    "total_selected": 20,
-    "total_fetched": 137
+    "total_selected": 21,
+    "total_fetched": 165
   },
   "top3": [
     {
       "topic": "AI大事",
-      "title": "OpenAI 推出企业级 AI 代理平台 Presence",
-      "tldr": "OpenAI 发布了一个叫 Presence 的企业平台，专门帮公司部署可信的语音和聊天 AI 代理，用于客户服务和内部流程，相当于把 ChatGPT 的能力包装成可直接落地的企业级产品。",
+      "title": "OpenAI 发布 Presence 企业级 AI 代理平台",
+      "tldr": "OpenAI 正式推出一个叫 Presence 的企业级 AI 代理平台，主打可信的语音和聊天代理，帮企业部署客服和内部工作流，已经有一些制造业客户在用。",
       "score": 9,
       "url": "https://openai.com/index/introducing-openai-presence",
       "source": "OpenAI Blog",
       "source_count": 1
     },
     {
-      "topic": "AI大事",
-      "title": "Gemini API 托管代理新增后台任务与远程 MCP 支持",
-      "tldr": "Google 在 Gemini API 里给开发者加了三项新能力：让 Agent 能跑后台任务、能远程调用 MCP 服务器、还能做更细的权限控制，目标是让 AI 代理真正能用在生产环境。",
+      "topic": "世界时事",
+      "title": "芯片巨舰长鑫科技上市：一个人，一座城，与一个国家的存储产业十年",
+      "tldr": "长鑫科技十年从零起步，靠合肥国资重注和创始人朱一明的坚持，打破三星等巨头垄断，成为中国最大、全球第四的DRAM芯片公司，刚上市市值超3万亿。",
       "score": 9,
-      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api/",
-      "source": "Google AI Blog",
-      "source_count": 1
+      "url": "https://m.thepaper.cn/detail/33663468",
+      "source": "澎湃新闻",
+      "source_count": 2
     },
     {
-      "topic": "世界时事",
-      "title": "下黑手！“美国要拉墨西哥一起围堵中国钢铝",
-      "tldr": "美国正在施压墨西哥，要求墨西哥也对中国钢铝产品征收高额关税，目的是在北美建起统一壁垒，彻底堵死中国钢铝借道墨西哥进入美国市场的通道。",
-      "score": 8,
-      "url": "https://www.guancha.cn/internation/2026_07_27_825168_s.shtml",
-      "source": "观察者网",
-      "source_count": 1
+      "topic": "AI大事",
+      "title": "Buzz：人类与AI代理共存的蜂巢协作空间",
+      "tldr": "Buzz是一个开源自托管的工作空间，让人类和AI代理以相同身份在同一“房间”里协作，所有消息、代码、工作流都记录在同一个事件日志中，代理不再是后台机器人，而是有自己密钥和审计记录的正式成员。",
+      "score": 9,
+      "url": "https://github.com/block/buzz",
+      "source": "GitHub Trending",
+      "source_count": 3
     }
   ]
 }
