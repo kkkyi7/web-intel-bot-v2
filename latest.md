@@ -1,47 +1,45 @@
-# 情报 Brief · 2026-07-27
+# 情报 Brief · 2026-07-28
 
 ## 今日 TOP3
 
-1. **OpenAI 发布 Presence 企业级 AI 代理平台** · 分9
-   OpenAI 正式推出一个叫 Presence 的企业级 AI 代理平台，主打可信的语音和聊天代理，帮企业部署客服和内部工作流，已经有一些制造业客户在用。
+1. **OpenAI 发布 Presence 企业级 AI 智能体平台** · 分9
+   OpenAI 推出了一个叫 Presence 的企业级 AI 智能体平台，专门给公司用来部署可信的语音和聊天助手，处理客户服务或内部流程，不是玩具，是能落地的产品。
    https://openai.com/index/introducing-openai-presence
 
-2. **芯片巨舰长鑫科技上市：一个人，一座城，与一个国家的存储产业十年** · 分9 · 2信源
-   长鑫科技十年从零起步，靠合肥国资重注和创始人朱一明的坚持，打破三星等巨头垄断，成为中国最大、全球第四的DRAM芯片公司，刚上市市值超3万亿。
-   https://m.thepaper.cn/detail/33663468
+2. **2026年，为什么资本更青睐“会赚钱”的AI应用？** · 分9
+   资本对AI应用的评估标准变了，从看DAU和规模转向看毛利率和留存率。文章用海艺这家公司为例，讲了怎么做到高毛利、高续费，以及产品矩阵如何形成能力互锁。
+   https://36kr.com/p/3913706151400583?f=rss
 
-3. **Buzz：人类与AI代理共存的蜂巢协作空间** · 分9 · 3信源
-   Buzz是一个开源自托管的工作空间，让人类和AI代理以相同身份在同一“房间”里协作，所有消息、代码、工作流都记录在同一个事件日志中，代理不再是后台机器人，而是有自己密钥和审计记录的正式成员。
-   https://github.com/block/buzz
+3. **中国史无前例“拉黑”一所波兰大学，有何深意？** · 分9
+   中国为反制欧盟制裁中企，首次将一所民用理工科大学（波兰弗罗茨瓦夫理工大学）与军工企业并列列入出口管制名单，切断其两用物项供应，因为该校深度参与了欧盟军用无人机和战场AI的研发。
+   https://www.guancha.cn/internation/2026_07_28_825284_s.shtml
 
 ## 今日精选
 
 ### 世界时事
-- [芯片巨舰长鑫科技上市：一个人，一座城，与一个国家的存储产业十年](https://m.thepaper.cn/detail/33663468) · 澎湃新闻 · 分9
-  长鑫科技十年从零起步，靠合肥国资重注和创始人朱一明的坚持，打破三星等巨头垄断，成为中国最大、全球第四的DRAM芯片公司，刚上市市值超3万亿。
-- [下黑手！“美国要拉墨西哥一起围堵中国钢铝](https://www.guancha.cn/internation/2026_07_27_825168_s.shtml) · 观察者网 · 分8
-  美国正施压墨西哥，要求其对北美以外的钢铝产品征收与美方相同的50%关税，目的是堵住中国钢铝通过墨西哥转口进入北美市场的漏洞，年底前可能达成框架协议。
-
-### GitHub 动态
-- [CrewAI 发布 1.15.7，修复 GPT-5.6 工具调用与安全漏洞](https://github.com/crewAIInc/crewAI/releases/tag/1.15.7) · GitHubRelease · 分9
-  CrewAI 最新版本修复了与 GPT-5.6 工具调用相关的 400 错误，并支持了 OpenAI 新的 Responses API 路径，还修补了一个安全漏洞。
+- [中国史无前例“拉黑”一所波兰大学，有何深意？](https://www.guancha.cn/internation/2026_07_28_825284_s.shtml) · 观察者网 · 分9
+  中国为反制欧盟制裁中企，首次将一所民用理工科大学（波兰弗罗茨瓦夫理工大学）与军工企业并列列入出口管制名单，切断其两用物项供应，因为该校深度参与了欧盟军用无人机和战场AI的研发。
 
 ### AI大事
-- [不透明的认知中介：LLM 部署配置如何影响伪科学验证](http://arxiv.org/abs/2607.22513v1) · arXiv · 分9
-  这篇论文测试了 Claude、Grok、GPT、Gemini 对伪科学主张的态度，发现 Grok 在 X 上默认给伪科学打了 70-75 的高分，是其他模型的 2-5 倍，而且模型行为会因部署方式（A…
+- [Claude 共享聊天记录可能被谷歌收录](https://techcrunch.com/2026/07/27/psa-your-claude-shared-chats-and-artifacts-may-have-ended-up-on-google/) · TechCrunch AI · 分9
+  Claude 的共享聊天和 Artifacts 功能生成的公开链接，可能被谷歌爬虫抓取并索引，导致你的对话内容出现在搜索结果里，隐私风险不小。
+- [AI 如何拓展人们的工作内容](https://openai.com/index/how-ai-is-expanding-what-people-do-at-work) · OpenAI Blog · 分9
+  OpenAI 研究发现，ChatGPT 用户正在跨角色承担更多任务，AI 不是替代岗位，而是让个人能完成原本需要多人协作的工作，重新定义岗位边界。
+- [Zing：大语言模型的社交心智框架](http://arxiv.org/abs/2607.23740v1) · arXiv · 分9
+  这篇论文提出了一个让大模型具备社交智能的完整方案，包括评测体系SoMBench、训练方法Zing和推理架构Actio，让AI能理解人的心理状态、社会关系和行为规范。
+- [AI Agent 与前沿部署工程：商业决策智能实践 ｜ Summit 2026](https://www.infoq.cn/video/TV8xhCYdGPx6a38TuzEh?utm_source=rss&utm_medium=article) · InfoQ 中文 · 分9
+  这是一场关于AI Agent如何落地到商业决策场景的演讲实录，重点讲了部署工程中的坑和决策智能平台的实际搭建经验，不是纯概念，有具体案例。
+- [Ruff v0.16.0 发布，默认规则大幅增加](https://simonwillison.net/2026/Jul/25/ruff/#atom-everything) · Simon Willison · 分9
+  Python 代码检查工具 Ruff 新版本把默认开启的规则从 59 条暴增到 413 条，能自动发现很多之前漏掉的严重 bug，连作者自己的项目都查出上千个问题，而且这些修复可以一键完成。
 - [Black Forest Labs 发布 FLUX 3，多模态视频模型击败竞品](https://www.latent.space/p/ainews-black-forest-labs-flux-3-multimodal) · Latent Space · 分9
-  Black Forest Labs 发布了 FLUX 3 视频生成模型，在多项能力上超越 Seedance、Gemini 等对手，还顺带推出了一个能驱动工厂机器人的世界模型，并且开源了代码数据集 St…
-- [OpenAI 发布 Presence 企业级 AI 代理平台](https://openai.com/index/introducing-openai-presence) · OpenAI Blog · 分9
-  OpenAI 正式推出一个叫 Presence 的企业级 AI 代理平台，主打可信的语音和聊天代理，帮企业部署客服和内部工作流，已经有一些制造业客户在用。
-- [Buzz：人类与AI代理共存的蜂巢协作空间](https://github.com/block/buzz) · GitHub Trending · 分9
-  Buzz是一个开源自托管的工作空间，让人类和AI代理以相同身份在同一“房间”里协作，所有消息、代码、工作流都记录在同一个事件日志中，代理不再是后台机器人，而是有自己密钥和审计记录的正式成员。
-- [DeepSeek被曝主动叫停了第二轮融资签约](https://www.qbitai.com/2026/07/461220.html) · 量子位 · 分8
-  DeepSeek在第二轮融资计划募资至少100亿元时，主动叫停了签约。外界猜测原因可能是估值分歧、战略调整或不想被资本裹挟，保持独立研发节奏。
-- [PGSimCity：PostgreSQL 内部运行可视化](https://nikolays.github.io/PGSimCity/) · HackerNews · 分8
-  这是一个开源项目，用类似城市模拟游戏的方式，把 PostgreSQL 数据库的查询处理、内存管理、调度等内部机制做成动态可视化，帮助开发者直观理解数据库工作原理。
+  Black Forest Labs 发布了 FLUX 3 视频生成模型，支持文本/图片/视频转视频、音频生成和关键帧控制，性能超过多个竞品，还附带一个能驱动工厂机器人的世界模型。
+- [OpenAI 发布 Presence 企业级 AI 智能体平台](https://openai.com/index/introducing-openai-presence) · OpenAI Blog · 分9
+  OpenAI 推出了一个叫 Presence 的企业级 AI 智能体平台，专门给公司用来部署可信的语音和聊天助手，处理客户服务或内部流程，不是玩具，是能落地的产品。
 
-### 技术圈
-- [欧盟提案：浏览器一键设置隐私偏好，告别Cookie横幅](https://killthecookiebanner.eu/) · HackerNews · 分8
-  欧盟和加州都在推动用浏览器原生设置替代烦人的Cookie弹窗，用户只需在浏览器里设一次隐私偏好，所有网站自动识别，不用再点“同意”了。
+### 变现路径
+- [2026年，为什么资本更青睐“会赚钱”的AI应用？](https://36kr.com/p/3913706151400583?f=rss) · 36氪 · 分9
+  资本对AI应用的评估标准变了，从看DAU和规模转向看毛利率和留存率。文章用海艺这家公司为例，讲了怎么做到高毛利、高续费，以及产品矩阵如何形成能力互锁。
+- [海外大模型Token代理产业快速走红，治理与监管存难题](https://36kr.com/newsflashes/3914573497095305?f=rss) · 36氪 · 分8
+  讲的是2026年出现的一个灰色产业：有人低价倒卖海外大模型的Token额度，搭建中转站赚差价，但存在数据泄露、虚假计费等乱象，监管很难管。
 
-_更新于 2026-07-27 05:08 · web-intel-bot_
+_更新于 2026-07-28 01:35 · web-intel-bot_

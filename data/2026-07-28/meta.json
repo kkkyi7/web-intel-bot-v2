@@ -1,0 +1,45 @@
+{
+  "date": "2026-07-28",
+  "profile": "kizty",
+  "generated_at": "2026-07-28 01:34",
+  "stats": {
+    "topics_ran": [
+      "AI大事",
+      "世界时事",
+      "变现路径",
+      "技术圈",
+      "GitHub 动态"
+    ],
+    "total_selected": 28,
+    "total_fetched": 152
+  },
+  "top3": [
+    {
+      "topic": "AI大事",
+      "title": "OpenAI 发布 Presence 企业级 AI 智能体平台",
+      "tldr": "OpenAI 推出了一个叫 Presence 的企业级 AI 智能体平台，专门给公司用来部署可信的语音和聊天助手，处理客户服务或内部流程，不是玩具，是能落地的产品。",
+      "score": 9,
+      "url": "https://openai.com/index/introducing-openai-presence",
+      "source": "OpenAI Blog",
+      "source_count": 1
+    },
+    {
+      "topic": "变现路径",
+      "title": "2026年，为什么资本更青睐“会赚钱”的AI应用？",
+      "tldr": "资本对AI应用的评估标准变了，从看DAU和规模转向看毛利率和留存率。文章用海艺这家公司为例，讲了怎么做到高毛利、高续费，以及产品矩阵如何形成能力互锁。",
+      "score": 9,
+      "url": "https://36kr.com/p/3913706151400583?f=rss",
+      "source": "36氪",
+      "source_count": 1
+    },
+    {
+      "topic": "世界时事",
+      "title": "中国史无前例“拉黑”一所波兰大学，有何深意？",
+      "tldr": "中国为反制欧盟制裁中企，首次将一所民用理工科大学（波兰弗罗茨瓦夫理工大学）与军工企业并列列入出口管制名单，切断其两用物项供应，因为该校深度参与了欧盟军用无人机和战场AI的研发。",
+      "score": 9,
+      "url": "https://www.guancha.cn/internation/2026_07_28_825284_s.shtml",
+      "source": "观察者网",
+      "source_count": 1
+    }
+  ]
+}
