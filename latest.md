@@ -2,44 +2,46 @@
 
 ## 今日 TOP3
 
-1. **Kimi K3 一开源，Anthropic 终于不装了** · 分9 · 4信源
-   Kimi K3 开源后性能接近闭源顶级模型，价格却极低，直接引爆硅谷。英伟达拉拢微软等成立联盟支持开源，而 Anthropic 嘴上说不反对开源，实际在声明里疯狂暗示开源模型不安全、容易被中国利用，两边都在为自己利益站台。
+1. **Kimi K3 一开源，Anthropic 终于不装了** · 分9 · 2信源
+   Kimi K3 开源后性能逼近闭源顶级模型且价格极低，引发硅谷分裂：英伟达拉联盟支持开源（卖算力），Anthropic 发长文反对（怕被抢客户），本质是产业链位置决定的利益之争。
    https://www.ifanr.com/1673258?utm_source=rss&utm_medium=rss&utm_campaign=
 
-2. **明年就结束对华依赖？美砸数百亿，美企：做不到** · 分9
-   美国政府砸了数百亿美元，要求国防工业明年1月起停止从中国买稀土等关键矿产，但美国本土企业产能差太远，根本做不到，连国防承包商都承认还得继续买中国货。
-   https://www.guancha.cn/internation/2026_07_27_825278_s.shtml
+2. **图神经网络作为供应链优化元模型的潜力：数据集、架构与方向** · 分9
+   这篇论文提出用图神经网络替代传统仿真软件，快速预测供应链网络在不同参数下的表现，并探索用梯度反向传播直接优化供应链结构，目前开源了数据集和仿真库。
+   http://arxiv.org/abs/2607.16769v1
 
-3. **阿里开源代码审查工具 Open Code Review** · 分9
-   阿里开源了一个内部用了两年的 AI 代码审查 CLI 工具，用确定性工程加 LLM Agent 的混合架构，比通用 Agent 更准、更快、更省 token，已在几十万开发者中验证过。
-   https://github.com/alibaba/open-code-review
+3. **中国史无前例“拉黑”一所波兰大学，有何深意？** · 分8
+   中国为反制欧盟制裁中企，将14家欧盟实体列入出口管制名单，其中首次包含一所波兰理工科大学，因其深度参与欧盟军用无人机和战场AI研发。
+   https://www.guancha.cn/internation/2026_07_28_825284_s.shtml
 
 ## 今日精选
 
-### 世界时事
-- [不装了？“他说是不禁止，实际上只想卡中国](https://www.guancha.cn/internation/2026_07_28_825385_s.shtml) · 观察者网 · 分9
-  Anthropic CEO 阿莫迪公开呼吁收紧对华芯片出口、打击模型蒸馏，表面说不是禁开源，实际被质疑是想用监管护城河卡住中国开源模型，而硅谷巨头和初创企业集体反对。
-- [明年就结束对华依赖？美砸数百亿，美企：做不到](https://www.guancha.cn/internation/2026_07_27_825278_s.shtml) · 观察者网 · 分9
-  美国政府砸了数百亿美元，要求国防工业明年1月起停止从中国买稀土等关键矿产，但美国本土企业产能差太远，根本做不到，连国防承包商都承认还得继续买中国货。
-
 ### AI大事
+- [Gemini API 托管智能体新增 3.6 Flash 与钩子功能](https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api-3-6-flash-hooks/) · Google AI Blog · 分9
+  Google 在 Gemini API 里升级了托管智能体功能，加入了更快的 3.6 Flash 模型和钩子机制，让开发者能更容易地构建稳定、可上线的 AI 智能体。
 - [Kimi K3 一开源，Anthropic 终于不装了](https://www.ifanr.com/1673258?utm_source=rss&utm_medium=rss&utm_campaign=) · 爱范儿 · 分9
-  Kimi K3 开源后性能接近闭源顶级模型，价格却极低，直接引爆硅谷。英伟达拉拢微软等成立联盟支持开源，而 Anthropic 嘴上说不反对开源，实际在声明里疯狂暗示开源模型不安全、容易被中国利用，两…
-- [AI 如何拓宽人们的工作边界](https://openai.com/index/how-ai-is-expanding-what-people-do-at-work) · OpenAI Blog · 分9
-  OpenAI 最新研究发现，使用 ChatGPT 的员工开始跨角色承担更多任务，AI 不是替代岗位，而是让每个人的工作范围变宽了，岗位边界正在模糊。
-- [Ruff v0.16.0 发布，默认规则大幅增加](https://simonwillison.net/2026/Jul/25/ruff/#atom-everything) · Simon Willison · 分9
-  Python 代码检查工具 Ruff 新版本把默认开启的规则从 59 条猛增到 413 条，能自动发现更多语法错误和运行时 bug，作者用 AI 助手一键修复了上千个问题。
-- [Black Forest Labs 发布 FLUX 3 多模态模型，性能超越多个竞品](https://www.latent.space/p/ainews-black-forest-labs-flux-3-multimodal) · Latent Space · 分9
-  Black Forest Labs 发布了 FLUX 3 视频生成模型，能同时处理文本、图像、视频和音频，性能超过 Seedance 2.0 等竞品，还附带一个能驱动工厂机器人的世界模型。
-- [阿里开源代码审查工具 Open Code Review](https://github.com/alibaba/open-code-review) · GitHub Trending · 分9
-  阿里开源了一个内部用了两年的 AI 代码审查 CLI 工具，用确定性工程加 LLM Agent 的混合架构，比通用 Agent 更准、更快、更省 token，已在几十万开发者中验证过。
-- [Cyera 以 10 亿美元收购 Oasis Security，保护激增的 AI Agent](https://techcrunch.com/2026/07/28/cyera-agrees-to-acquire-oasis-security-for-1b-to-safeguard-proliferating-ai-agents/) · TechCrunch AI · 分8
-  网络安全公司 Cyera 花 10 亿美金买下 Oasis Security，专门解决企业里 AI Agent 数量暴增后带来的身份认证和权限管理问题，这是今年 Cyera 的第三笔收购。
-- [OpenAI 开源 Codex 安全扫描工具](https://github.com/openai/codex-security) · HackerNews · 分8
-  OpenAI 开源了一个叫 Codex Security 的命令行工具，能自动扫描你的代码仓库，找出 AI 代码生成带来的安全漏洞，比如提示注入、敏感信息泄露等。
+  Kimi K3 开源后性能逼近闭源顶级模型且价格极低，引发硅谷分裂：英伟达拉联盟支持开源（卖算力），Anthropic 发长文反对（怕被抢客户），本质是产业链位置决定的利益之争。
+- [AI 如何拓展人们的工作边界](https://openai.com/index/how-ai-is-expanding-what-people-do-at-work) · OpenAI Blog · 分9
+  OpenAI 最新研究发现，使用 ChatGPT 的工人开始跨角色承担更多任务，AI 正在模糊传统岗位边界，让个人能完成过去需要团队协作的工作。
+- [Ruff v0.16.0 发布，默认规则从59条暴增至413条](https://simonwillison.net/2026/Jul/25/ruff/#atom-everything) · Simon Willison · 分9
+  Python 代码检查工具 Ruff 新版本大幅增加了默认开启的检查规则数量，从59条猛增到413条，能自动发现更多潜在错误，包括时区缺失、异常捕获过宽等常见问题，并且支持一键自动修复。
+- [Black Forest Labs 发布 FLUX 3，多模态视频模型超越竞品](https://www.latent.space/p/ainews-black-forest-labs-flux-3-multimodal) · Latent Space · 分9
+  Black Forest Labs 发布了 FLUX 3 视频模型，能文生视频、图生视频、视频生视频，还带原生音频生成，性能宣称超越 Seedance 2.0 等对手，同时开源了一个用于机器人控制的…
+- [Grok 4.5 集成 Cursor，成本大幅降低](https://www.bensbites.com/p/grok-x-cursor) · Ben's Bites · 分9
+  SpaceXAI 和 Cursor 联合训练了 Grok 4.5 模型，性能接近顶级模型但成本极低，已上线 Cursor 和 API，让开发者能用更少的钱获得接近 Opus 级别的编码能力。
 
-### GitHub 动态
-- [Anthropic Python SDK v0.120.2 发布](https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.120.2) · GitHubRelease · 分8
-  Anthropic 的 Python SDK 发了个小版本更新，核心修复是让 MCP 协议同时兼容 SDK 的 v1 和 v2 版本，开发者不用纠结选哪个。
+### 技术圈
+- [Kimi Linear：一种高效且富有表现力的注意力架构](https://arxiv.org/abs/2510.26692) · HackerNews · 分9
+  Kimi 团队开源了一种叫 Linear 的新型注意力机制，比传统 Transformer 更高效，并且已被用在最新的 Kimi K3 模型中，支持视觉和多模态推理。
 
-_更新于 2026-07-29 01:35 · web-intel-bot_
+### 供应链
+- [图神经网络作为供应链优化元模型的潜力：数据集、架构与方向](http://arxiv.org/abs/2607.16769v1) · arXiv · 分9
+  这篇论文提出用图神经网络替代传统仿真软件，快速预测供应链网络在不同参数下的表现，并探索用梯度反向传播直接优化供应链结构，目前开源了数据集和仿真库。
+- [基于小样本连续上下文赌博机的预测-校正循环需求预测](http://arxiv.org/abs/2607.16354v1) · arXiv · 分9
+  这篇论文提出一个“先预测再校正”的框架，用少量新数据快速修正已有预测模型的偏差，在沃尔玛数据上平均RMSE降低9.52%，并降低库存成本，特别适合需求波动大的制造业场景。
+
+### 世界时事
+- [非洲矿业新规观察①外资准入门槛抬升，个别国家可人民币缴税费](https://m.thepaper.cn/detail/33680641) · 澎湃新闻 · 分8
+  非洲多国2024年起密集修订矿业法，从准入、本地化到税收全面收紧。坦桑尼亚禁止外资做小矿开采，赞比亚强制本地采购并允许人民币缴税，南非则用关键矿产战略绑定本地化门槛。
+
+_更新于 2026-07-29 04:46 · web-intel-bot_

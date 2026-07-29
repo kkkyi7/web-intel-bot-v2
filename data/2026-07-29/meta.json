@@ -1,43 +1,45 @@
 {
   "date": "2026-07-29",
   "profile": "kizty",
-  "generated_at": "2026-07-29 01:35",
+  "generated_at": "2026-07-29 04:46",
   "stats": {
     "topics_ran": [
       "AI大事",
       "世界时事",
       "技术圈",
-      "GitHub 动态"
+      "GitHub 动态",
+      "心理学",
+      "供应链"
     ],
-    "total_selected": 27,
-    "total_fetched": 158
+    "total_selected": 35,
+    "total_fetched": 191
   },
   "top3": [
     {
       "topic": "AI大事",
       "title": "Kimi K3 一开源，Anthropic 终于不装了",
-      "tldr": "Kimi K3 开源后性能接近闭源顶级模型，价格却极低，直接引爆硅谷。英伟达拉拢微软等成立联盟支持开源，而 Anthropic 嘴上说不反对开源，实际在声明里疯狂暗示开源模型不安全、容易被中国利用，两边都在为自己利益站台。",
+      "tldr": "Kimi K3 开源后性能逼近闭源顶级模型且价格极低，引发硅谷分裂：英伟达拉联盟支持开源（卖算力），Anthropic 发长文反对（怕被抢客户），本质是产业链位置决定的利益之争。",
       "score": 9,
       "url": "https://www.ifanr.com/1673258?utm_source=rss&utm_medium=rss&utm_campaign=",
       "source": "爱范儿",
-      "source_count": 4
+      "source_count": 2
     },
     {
-      "topic": "世界时事",
-      "title": "明年就结束对华依赖？美砸数百亿，美企：做不到",
-      "tldr": "美国政府砸了数百亿美元，要求国防工业明年1月起停止从中国买稀土等关键矿产，但美国本土企业产能差太远，根本做不到，连国防承包商都承认还得继续买中国货。",
+      "topic": "供应链",
+      "title": "图神经网络作为供应链优化元模型的潜力：数据集、架构与方向",
+      "tldr": "这篇论文提出用图神经网络替代传统仿真软件，快速预测供应链网络在不同参数下的表现，并探索用梯度反向传播直接优化供应链结构，目前开源了数据集和仿真库。",
       "score": 9,
-      "url": "https://www.guancha.cn/internation/2026_07_27_825278_s.shtml",
-      "source": "观察者网",
+      "url": "http://arxiv.org/abs/2607.16769v1",
+      "source": "arXiv",
       "source_count": 1
     },
     {
-      "topic": "AI大事",
-      "title": "阿里开源代码审查工具 Open Code Review",
-      "tldr": "阿里开源了一个内部用了两年的 AI 代码审查 CLI 工具，用确定性工程加 LLM Agent 的混合架构，比通用 Agent 更准、更快、更省 token，已在几十万开发者中验证过。",
-      "score": 9,
-      "url": "https://github.com/alibaba/open-code-review",
-      "source": "GitHub Trending",
+      "topic": "世界时事",
+      "title": "中国史无前例“拉黑”一所波兰大学，有何深意？",
+      "tldr": "中国为反制欧盟制裁中企，将14家欧盟实体列入出口管制名单，其中首次包含一所波兰理工科大学，因其深度参与欧盟军用无人机和战场AI研发。",
+      "score": 8,
+      "url": "https://www.guancha.cn/internation/2026_07_28_825284_s.shtml",
+      "source": "观察者网",
       "source_count": 1
     }
   ]
