@@ -1,47 +1,45 @@
-# 情报 Brief · 2026-07-28
+# 情报 Brief · 2026-07-29
 
 ## 今日 TOP3
 
-1. **2026年，为什么资本更青睐“会赚钱”的AI应用？** · 分9
-   资本不再为AI应用的DAU和用户规模买单，转而关注毛利率、续费率等商业化质量指标。文章以海艺科技为例，分析了其通过产品矩阵和能力复用实现高质量商业化的路径。
-   https://36kr.com/p/3913706151400583?f=rss
+1. **Kimi K3 一开源，Anthropic 终于不装了** · 分9 · 4信源
+   Kimi K3 开源后性能接近闭源顶级模型，价格却极低，直接引爆硅谷。英伟达拉拢微软等成立联盟支持开源，而 Anthropic 嘴上说不反对开源，实际在声明里疯狂暗示开源模型不安全、容易被中国利用，两边都在为自己利益站台。
+   https://www.ifanr.com/1673258?utm_source=rss&utm_medium=rss&utm_campaign=
 
-2. **图神经网络作为供应链优化元模型的潜力、数据集与方向** · 分9
-   这篇论文提出用图神经网络做供应链优化的“元模型”，替代传统仿真，能快速预测不同网络结构和参数下的性能，还开源了数据集和仿真库。
-   http://arxiv.org/abs/2607.16769v1
+2. **明年就结束对华依赖？美砸数百亿，美企：做不到** · 分9
+   美国政府砸了数百亿美元，要求国防工业明年1月起停止从中国买稀土等关键矿产，但美国本土企业产能差太远，根本做不到，连国防承包商都承认还得继续买中国货。
+   https://www.guancha.cn/internation/2026_07_27_825278_s.shtml
 
-3. **智能体走向终端，个人AI时代正在到来** · 分8
-   文章讲AI智能体（Agent）正从云端往手机、电脑等终端设备上跑，让每个人都能拥有自己的AI助手，不再依赖联网和服务器，个人AI时代要来了。
-   https://www.qbitai.com/2026/07/461565.html
+3. **阿里开源代码审查工具 Open Code Review** · 分9
+   阿里开源了一个内部用了两年的 AI 代码审查 CLI 工具，用确定性工程加 LLM Agent 的混合架构，比通用 Agent 更准、更快、更省 token，已在几十万开发者中验证过。
+   https://github.com/alibaba/open-code-review
 
 ## 今日精选
 
-### 技术圈
-- [Anthropic 对开源权重模型的立场](https://www.anthropic.com/news/position-open-weights-models) · HackerNews · 分9
-  Anthropic 发文说他们不主张全面禁止开源权重模型，但主张所有足够强大的模型（无论开源还是闭源）都必须通过强制安全测试，这被很多人解读为变相限制开源。
+### 世界时事
+- [不装了？“他说是不禁止，实际上只想卡中国](https://www.guancha.cn/internation/2026_07_28_825385_s.shtml) · 观察者网 · 分9
+  Anthropic CEO 阿莫迪公开呼吁收紧对华芯片出口、打击模型蒸馏，表面说不是禁开源，实际被质疑是想用监管护城河卡住中国开源模型，而硅谷巨头和初创企业集体反对。
+- [明年就结束对华依赖？美砸数百亿，美企：做不到](https://www.guancha.cn/internation/2026_07_27_825278_s.shtml) · 观察者网 · 分9
+  美国政府砸了数百亿美元，要求国防工业明年1月起停止从中国买稀土等关键矿产，但美国本土企业产能差太远，根本做不到，连国防承包商都承认还得继续买中国货。
 
 ### AI大事
-- [Claude 共享聊天记录可能已被谷歌收录](https://techcrunch.com/2026/07/27/psa-your-claude-shared-chats-and-artifacts-may-have-ended-up-on-google/) · TechCrunch AI · 分9
-  Claude 的“共享聊天”功能生成的公开链接，可能被谷歌搜索引擎抓取并索引，导致你的对话内容能被任何人搜到。
-- [Ruff v0.16.0 发布，默认规则大增](https://simonwillison.net/2026/Jul/25/ruff/#atom-everything) · Simon Willison · 分9
-  Ruff 这个 Python 代码检查工具更新到了 v0.16.0，默认开启的规则从 59 条暴增到 413 条，能自动发现大量之前被忽略的代码问题，包括语法错误和运行时错误。
-- [Black Forest Labs 发布 FLUX 3，多模态视频模型超越竞品](https://www.latent.space/p/ainews-black-forest-labs-flux-3-multimodal) · Latent Space · 分9
-  Black Forest Labs 发布了 FLUX 3 视频模型，能文生视频、图生视频、视频生视频，还带原生音频生成，同时开源了一个能驱动机器人的世界模型，性能直接对标 Grok Imagine 和…
-- [Grok 4.5 集成 Cursor，性能对标 Opus 且成本更低](https://www.bensbites.com/p/grok-x-cursor) · Ben's Bites · 分9
-  SpaceXAI 和 Cursor 联合训练了 Grok 4.5 模型，性能在 Claude Opus 4.7 到 4.8 之间，但每 token 成本比 Opus 便宜 6 倍，比 GPT-5.5…
-- [AIRI：自托管版Neuro-sama，可实时语音与游戏互动](https://github.com/moeru-ai/airi) · GitHub Trending · 分9
-  这是一个开源项目，让你能自己部署一个类似Neuro-sama的AI虚拟伴侣，支持实时语音聊天、玩《我的世界》和《异星工厂》，并且能看你的屏幕，跟你一起玩游戏。
-- [智能体走向终端，个人AI时代正在到来](https://www.qbitai.com/2026/07/461565.html) · 量子位 · 分8
-  文章讲AI智能体（Agent）正从云端往手机、电脑等终端设备上跑，让每个人都能拥有自己的AI助手，不再依赖联网和服务器，个人AI时代要来了。
+- [Kimi K3 一开源，Anthropic 终于不装了](https://www.ifanr.com/1673258?utm_source=rss&utm_medium=rss&utm_campaign=) · 爱范儿 · 分9
+  Kimi K3 开源后性能接近闭源顶级模型，价格却极低，直接引爆硅谷。英伟达拉拢微软等成立联盟支持开源，而 Anthropic 嘴上说不反对开源，实际在声明里疯狂暗示开源模型不安全、容易被中国利用，两…
+- [AI 如何拓宽人们的工作边界](https://openai.com/index/how-ai-is-expanding-what-people-do-at-work) · OpenAI Blog · 分9
+  OpenAI 最新研究发现，使用 ChatGPT 的员工开始跨角色承担更多任务，AI 不是替代岗位，而是让每个人的工作范围变宽了，岗位边界正在模糊。
+- [Ruff v0.16.0 发布，默认规则大幅增加](https://simonwillison.net/2026/Jul/25/ruff/#atom-everything) · Simon Willison · 分9
+  Python 代码检查工具 Ruff 新版本把默认开启的规则从 59 条猛增到 413 条，能自动发现更多语法错误和运行时 bug，作者用 AI 助手一键修复了上千个问题。
+- [Black Forest Labs 发布 FLUX 3 多模态模型，性能超越多个竞品](https://www.latent.space/p/ainews-black-forest-labs-flux-3-multimodal) · Latent Space · 分9
+  Black Forest Labs 发布了 FLUX 3 视频生成模型，能同时处理文本、图像、视频和音频，性能超过 Seedance 2.0 等竞品，还附带一个能驱动工厂机器人的世界模型。
+- [阿里开源代码审查工具 Open Code Review](https://github.com/alibaba/open-code-review) · GitHub Trending · 分9
+  阿里开源了一个内部用了两年的 AI 代码审查 CLI 工具，用确定性工程加 LLM Agent 的混合架构，比通用 Agent 更准、更快、更省 token，已在几十万开发者中验证过。
+- [Cyera 以 10 亿美元收购 Oasis Security，保护激增的 AI Agent](https://techcrunch.com/2026/07/28/cyera-agrees-to-acquire-oasis-security-for-1b-to-safeguard-proliferating-ai-agents/) · TechCrunch AI · 分8
+  网络安全公司 Cyera 花 10 亿美金买下 Oasis Security，专门解决企业里 AI Agent 数量暴增后带来的身份认证和权限管理问题，这是今年 Cyera 的第三笔收购。
+- [OpenAI 开源 Codex 安全扫描工具](https://github.com/openai/codex-security) · HackerNews · 分8
+  OpenAI 开源了一个叫 Codex Security 的命令行工具，能自动扫描你的代码仓库，找出 AI 代码生成带来的安全漏洞，比如提示注入、敏感信息泄露等。
 
-### 变现路径
-- [2026年，为什么资本更青睐“会赚钱”的AI应用？](https://36kr.com/p/3913706151400583?f=rss) · 36氪 · 分9
-  资本不再为AI应用的DAU和用户规模买单，转而关注毛利率、续费率等商业化质量指标。文章以海艺科技为例，分析了其通过产品矩阵和能力复用实现高质量商业化的路径。
+### GitHub 动态
+- [Anthropic Python SDK v0.120.2 发布](https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.120.2) · GitHubRelease · 分8
+  Anthropic 的 Python SDK 发了个小版本更新，核心修复是让 MCP 协议同时兼容 SDK 的 v1 和 v2 版本，开发者不用纠结选哪个。
 
-### 供应链
-- [图神经网络作为供应链优化元模型的潜力、数据集与方向](http://arxiv.org/abs/2607.16769v1) · arXiv · 分9
-  这篇论文提出用图神经网络做供应链优化的“元模型”，替代传统仿真，能快速预测不同网络结构和参数下的性能，还开源了数据集和仿真库。
-- [预测-校正循环：基于少样本连续上下文Bandit的需求预测](http://arxiv.org/abs/2607.16354v1) · arXiv · 分9
-  这篇论文提出一个两阶段预测框架，先用机器学习做基础预测，再用少样本Bandit算法实时校正，在沃尔玛数据上平均RMSE降低9.52%，且库存成本低于传统策略。
-
-_更新于 2026-07-28 04:42 · web-intel-bot_
+_更新于 2026-07-29 01:35 · web-intel-bot_
