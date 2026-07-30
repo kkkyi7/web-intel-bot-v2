@@ -1,44 +1,45 @@
 {
   "date": "2026-07-30",
   "profile": "kizty",
-  "generated_at": "2026-07-30 01:35",
+  "generated_at": "2026-07-30 04:32",
   "stats": {
     "topics_ran": [
       "AI大事",
       "世界时事",
       "技术圈",
       "GitHub 动态",
+      "供应链",
       "心理学"
     ],
-    "total_selected": 26,
-    "total_fetched": 174
+    "total_selected": 40,
+    "total_fetched": 194
   },
   "top3": [
     {
-      "topic": "AI大事",
-      "title": "长政策文档无法可靠约束AI智能体",
-      "tldr": "一篇论文和HN讨论证实：给AI智能体塞超长政策文档（比如CLAUDE.md）效果很差，模型会“忘记”早期指令，远不如在对话中直接提醒有效。",
+      "topic": "供应链",
+      "title": "基于小样本连续上下文Bandit的预测-校正循环用于需求预测",
+      "tldr": "这篇论文提出一个“先预测再校正”的框架，用少量新数据快速修正已有预测模型的误差，在沃尔玛数据上验证能降低9.5%的均方根误差，并减少库存成本。",
       "score": 9,
-      "url": "https://arxiv.org/abs/2607.25398",
-      "source": "HackerNews",
+      "url": "http://arxiv.org/abs/2607.16354v1",
+      "source": "arXiv",
       "source_count": 1
     },
     {
       "topic": "AI大事",
-      "title": "开源引擎让 Gemma 4 在 2GB 内存的 Mac 上运行",
-      "tldr": "一个开发者用 Swift 和 Metal 写了个推理引擎，让 26B 参数的 Gemma 4 模型能在任何 M 系列 Mac 上跑起来，内存只占 2GB，靠的是把模型存在 SSD 上按需加载。",
+      "title": "两个设置让 ARC-AGI-3 得分翻三倍",
+      "tldr": "OpenAI 发现 GPT-5.6 的 API 里有两个开关——保留推理痕迹和启用压缩——同时打开后，在视觉推理测试 ARC-AGI-3 上的得分直接翻了三倍，说明模型推理过程的“可见性”和“精简度”对复杂任务至关重要。",
       "score": 9,
-      "url": "https://github.com/drumih/turbo-fieldfare",
-      "source": "HackerNews",
+      "url": "https://openai.com/index/how-two-settings-tripled-our-arc-agi-3-scores",
+      "source": "OpenAI Blog",
       "source_count": 1
     },
     {
-      "topic": "AI大事",
-      "title": "微软公开与 OpenAI、Anthropic 竞争",
-      "tldr": "微软在财报电话会上公开推销自家 AI 模型和工具链，不再只依赖 OpenAI，而是直接与 OpenAI、Anthropic 抢客户，表明其 AI 战略从合作转向全面竞争。",
-      "score": 8,
-      "url": "https://techcrunch.com/2026/07/29/microsoft-is-openly-competing-with-openai-anthropic-more-than-ever/",
-      "source": "TechCrunch AI",
+      "topic": "世界时事",
+      "title": "字节跳动调整AI业务架构 大模型业务ARR为40亿美元",
+      "tldr": "字节跳动把飞书团队拆开，分别并入豆包和火山引擎，同时公布大模型业务年化营收已达40亿美元，超过国内其他模型公司总和。",
+      "score": 9,
+      "url": "https://www.caixin.com/2026-07-30/102469448.html",
+      "source": "财新网",
       "source_count": 1
     }
   ]
