@@ -1,47 +1,43 @@
-# 情报 Brief · 2026-07-29
+# 情报 Brief · 2026-07-30
 
 ## 今日 TOP3
 
-1. **Kimi K3 一开源，Anthropic 终于不装了** · 分9 · 2信源
-   Kimi K3 开源后性能逼近闭源顶级模型且价格极低，引发硅谷分裂：英伟达拉联盟支持开源（卖算力），Anthropic 发长文反对（怕被抢客户），本质是产业链位置决定的利益之争。
-   https://www.ifanr.com/1673258?utm_source=rss&utm_medium=rss&utm_campaign=
+1. **长政策文档无法可靠约束AI智能体** · 分9
+   一篇论文和HN讨论证实：给AI智能体塞超长政策文档（比如CLAUDE.md）效果很差，模型会“忘记”早期指令，远不如在对话中直接提醒有效。
+   https://arxiv.org/abs/2607.25398
 
-2. **图神经网络作为供应链优化元模型的潜力：数据集、架构与方向** · 分9
-   这篇论文提出用图神经网络替代传统仿真软件，快速预测供应链网络在不同参数下的表现，并探索用梯度反向传播直接优化供应链结构，目前开源了数据集和仿真库。
-   http://arxiv.org/abs/2607.16769v1
+2. **开源引擎让 Gemma 4 在 2GB 内存的 Mac 上运行** · 分9
+   一个开发者用 Swift 和 Metal 写了个推理引擎，让 26B 参数的 Gemma 4 模型能在任何 M 系列 Mac 上跑起来，内存只占 2GB，靠的是把模型存在 SSD 上按需加载。
+   https://github.com/drumih/turbo-fieldfare
 
-3. **中国史无前例“拉黑”一所波兰大学，有何深意？** · 分8
-   中国为反制欧盟制裁中企，将14家欧盟实体列入出口管制名单，其中首次包含一所波兰理工科大学，因其深度参与欧盟军用无人机和战场AI研发。
-   https://www.guancha.cn/internation/2026_07_28_825284_s.shtml
+3. **微软公开与 OpenAI、Anthropic 竞争** · 分8
+   微软在财报电话会上公开推销自家 AI 模型和工具链，不再只依赖 OpenAI，而是直接与 OpenAI、Anthropic 抢客户，表明其 AI 战略从合作转向全面竞争。
+   https://techcrunch.com/2026/07/29/microsoft-is-openly-competing-with-openai-anthropic-more-than-ever/
 
 ## 今日精选
 
-### AI大事
-- [Gemini API 托管智能体新增 3.6 Flash 与钩子功能](https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api-3-6-flash-hooks/) · Google AI Blog · 分9
-  Google 在 Gemini API 里升级了托管智能体功能，加入了更快的 3.6 Flash 模型和钩子机制，让开发者能更容易地构建稳定、可上线的 AI 智能体。
-- [Kimi K3 一开源，Anthropic 终于不装了](https://www.ifanr.com/1673258?utm_source=rss&utm_medium=rss&utm_campaign=) · 爱范儿 · 分9
-  Kimi K3 开源后性能逼近闭源顶级模型且价格极低，引发硅谷分裂：英伟达拉联盟支持开源（卖算力），Anthropic 发长文反对（怕被抢客户），本质是产业链位置决定的利益之争。
-- [AI 如何拓展人们的工作边界](https://openai.com/index/how-ai-is-expanding-what-people-do-at-work) · OpenAI Blog · 分9
-  OpenAI 最新研究发现，使用 ChatGPT 的工人开始跨角色承担更多任务，AI 正在模糊传统岗位边界，让个人能完成过去需要团队协作的工作。
-- [Ruff v0.16.0 发布，默认规则从59条暴增至413条](https://simonwillison.net/2026/Jul/25/ruff/#atom-everything) · Simon Willison · 分9
-  Python 代码检查工具 Ruff 新版本大幅增加了默认开启的检查规则数量，从59条猛增到413条，能自动发现更多潜在错误，包括时区缺失、异常捕获过宽等常见问题，并且支持一键自动修复。
-- [Black Forest Labs 发布 FLUX 3，多模态视频模型超越竞品](https://www.latent.space/p/ainews-black-forest-labs-flux-3-multimodal) · Latent Space · 分9
-  Black Forest Labs 发布了 FLUX 3 视频模型，能文生视频、图生视频、视频生视频，还带原生音频生成，性能宣称超越 Seedance 2.0 等对手，同时开源了一个用于机器人控制的…
-- [Grok 4.5 集成 Cursor，成本大幅降低](https://www.bensbites.com/p/grok-x-cursor) · Ben's Bites · 分9
-  SpaceXAI 和 Cursor 联合训练了 Grok 4.5 模型，性能接近顶级模型但成本极低，已上线 Cursor 和 API，让开发者能用更少的钱获得接近 Opus 级别的编码能力。
-
 ### 技术圈
-- [Kimi Linear：一种高效且富有表现力的注意力架构](https://arxiv.org/abs/2510.26692) · HackerNews · 分9
-  Kimi 团队开源了一种叫 Linear 的新型注意力机制，比传统 Transformer 更高效，并且已被用在最新的 Kimi K3 模型中，支持视觉和多模态推理。
+- [Superlogical：用终端构建AI原生应用的新范式](https://www.superlogical.com/) · HackerNews · 分9
+  Mitchell Hashimoto（HashiCorp联合创始人）创立新公司Superlogical，基于他之前开源的Ghostty终端，打造一个让AI Agent能像人类一样操作终端、调用各种工具…
+- [文档型AI蠕虫可通过Word版Copilot自我传播](https://enklypesalt.com/posts/context-collapse-part3-ai-worming-through-word/) · HackerNews · 分9
+  黑客能把恶意指令藏在Word文档里，让Copilot帮你改稿时偷偷执行，然后自动感染你发给别人的新文档，像病毒一样扩散。
 
-### 供应链
-- [图神经网络作为供应链优化元模型的潜力：数据集、架构与方向](http://arxiv.org/abs/2607.16769v1) · arXiv · 分9
-  这篇论文提出用图神经网络替代传统仿真软件，快速预测供应链网络在不同参数下的表现，并探索用梯度反向传播直接优化供应链结构，目前开源了数据集和仿真库。
-- [基于小样本连续上下文赌博机的预测-校正循环需求预测](http://arxiv.org/abs/2607.16354v1) · arXiv · 分9
-  这篇论文提出一个“先预测再校正”的框架，用少量新数据快速修正已有预测模型的偏差，在沃尔玛数据上平均RMSE降低9.52%，并降低库存成本，特别适合需求波动大的制造业场景。
+### AI大事
+- [开源引擎让 Gemma 4 在 2GB 内存的 Mac 上运行](https://github.com/drumih/turbo-fieldfare) · HackerNews · 分9
+  一个开发者用 Swift 和 Metal 写了个推理引擎，让 26B 参数的 Gemma 4 模型能在任何 M 系列 Mac 上跑起来，内存只占 2GB，靠的是把模型存在 SSD 上按需加载。
+- [长政策文档无法可靠约束AI智能体](https://arxiv.org/abs/2607.25398) · HackerNews · 分9
+  一篇论文和HN讨论证实：给AI智能体塞超长政策文档（比如CLAUDE.md）效果很差，模型会“忘记”早期指令，远不如在对话中直接提醒有效。
+- [用Claude发现密码学弱点](https://simonwillison.net/2026/Jul/28/discovering-cryptographic-weaknesses-with-claude/#atom-everything) · Simon Willison · 分9
+  Anthropic用Claude Mythos连续工作60小时（API成本约10万美元），通过不断鼓励模型“别放弃，找点值得发表的东西”，成功发现了HAWK和简化版AES的数学缺陷，并公开了完整提示词…
+- [Black Forest Labs 发布 FLUX 3，多模态视频模型击败竞品](https://www.latent.space/p/ainews-black-forest-labs-flux-3-multimodal) · Latent Space · 分9
+  Black Forest Labs 发布了 FLUX 3 视频模型，在多项能力上超越了 Seedance、Gemini 和 Grok，还顺带推出了一个能驱动机器人的世界模型，并且开源了代码数据集 Th…
+- [Grok 集成 Cursor，性能接近 Opus 且成本大幅降低](https://www.bensbites.com/p/grok-x-cursor) · Ben's Bites · 分9
+  SpaceXAI 和 Cursor 联合训练了 Grok 4.5 模型，性能接近 Anthropic 的 Opus 4.7-4.8，但每 token 成本比 Opus 便宜 6 倍、比 GPT-5.5…
+- [AIRI：自托管类Neuro-sama AI伴侣](https://github.com/moeru-ai/airi) · GitHub Trending · 分9
+  一个开源项目，让你能在本地部署一个类似Neuro-sama的AI虚拟伴侣，支持实时语音聊天、玩《我的世界》和《异星工厂》，并且可以跨平台运行。
+- [微软公开与 OpenAI、Anthropic 竞争](https://techcrunch.com/2026/07/29/microsoft-is-openly-competing-with-openai-anthropic-more-than-ever/) · TechCrunch AI · 分8
+  微软在财报电话会上公开推销自家 AI 模型和工具链，不再只依赖 OpenAI，而是直接与 OpenAI、Anthropic 抢客户，表明其 AI 战略从合作转向全面竞争。
+- [扎克伯格预测五年内数十亿人将拥有个人AI代理](https://techcrunch.com/2026/07/29/mark-zuckerberg-predicts-that-billions-of-people-will-have-personal-ai-agents-in-five-years/) · TechCrunch AI · 分8
+  Meta砸重金搞AI基础设施和智能代理，扎克伯格向投资人画饼：五年后几十亿人都会有自己的AI助手，这投入值。
 
-### 世界时事
-- [非洲矿业新规观察①外资准入门槛抬升，个别国家可人民币缴税费](https://m.thepaper.cn/detail/33680641) · 澎湃新闻 · 分8
-  非洲多国2024年起密集修订矿业法，从准入、本地化到税收全面收紧。坦桑尼亚禁止外资做小矿开采，赞比亚强制本地采购并允许人民币缴税，南非则用关键矿产战略绑定本地化门槛。
-
-_更新于 2026-07-29 04:46 · web-intel-bot_
+_更新于 2026-07-30 01:35 · web-intel-bot_
