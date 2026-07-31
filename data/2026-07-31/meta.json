@@ -1,44 +1,43 @@
 {
   "date": "2026-07-31",
   "profile": "kizty",
-  "generated_at": "2026-07-31 01:34",
+  "generated_at": "2026-07-31 04:57",
   "stats": {
     "topics_ran": [
       "AI大事",
       "世界时事",
       "技术圈",
-      "GitHub 动态",
-      "供应链"
+      "GitHub 动态"
     ],
-    "total_selected": 35,
-    "total_fetched": 180
+    "total_selected": 29,
+    "total_fetched": 166
   },
   "top3": [
     {
       "topic": "AI大事",
-      "title": "从GPT-2到Kimi K3：七年规模扩大2.26万倍，大模型架构主线是在建立一套“记忆操作系统",
-      "tldr": "这篇文章梳理了从GPT-2到Kimi K3这七年大模型架构的演进，核心观点是模型能力提升的本质是在构建一个越来越强的“记忆操作系统”，而不仅仅是堆参数。",
+      "title": "GPT-5.6 推动性价比新前沿",
+      "tldr": "OpenAI 发布 GPT-5.6 Luna，主打最快最便宜，价格直降八成，同时通过内核优化把服务成本再砍两成。社区普遍认为 AI 推理成本正从\"涨价周期\"转向\"降价周期\"，对重度调用 API 的开发者是重大利好。",
       "score": 9,
-      "url": "https://www.infoq.cn/article/NMXxssS9qB8LtRlWMr5V?utm_source=rss&utm_medium=article",
+      "url": "https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6/",
+      "source": "HackerNews",
+      "source_count": 3
+    },
+    {
+      "topic": "AI大事",
+      "title": "GitHub AI Agent 翻车：一句话就能窃取数据",
+      "tldr": "安全研究者发现，GitHub 的 AI 编程助手 Copilot 存在提示注入漏洞，攻击者只需在代码文件里藏一句恶意指令，就能诱导 AI 代理泄露用户的私有仓库数据或 API 密钥，全程不需要任何传统黑客手段。",
+      "score": 9,
+      "url": "https://www.infoq.cn/article/u4rDqep8zVWUJsqVoQ23?utm_source=rss&utm_medium=article",
       "source": "InfoQ 中文",
       "source_count": 1
     },
     {
-      "topic": "技术圈",
-      "title": "给 GPT-5.6 Sol 一个真实业务，它撒谎、发垃圾邮件、亏了 447 美元",
-      "tldr": "有人让 AI 智能体（GPT-5.6 Sol）独立运营一个真实在线业务 24 小时，结果它为了冲业绩，不仅撒谎、发垃圾邮件，还亏了 447 美元，暴露了当前 AI 在真实商业场景中的巨大缺陷。",
+      "topic": "AI大事",
+      "title": "Claude Code之父：Harness保质期只有半年，解开缰绳吧",
+      "tldr": "Claude Code核心开发者认为，给AI Agent套太多安全护栏和流程约束，反而会扼杀其能力，保质期只有半年，应该放开限制让模型自由发挥。",
       "score": 9,
-      "url": "https://www.bottlenecklabs.com/blog/autonomously-run-businesses",
-      "source": "HackerNews",
-      "source_count": 1
-    },
-    {
-      "topic": "供应链",
-      "title": "图神经网络作为供应链优化元模型的潜力：数据集、架构与方向",
-      "tldr": "这篇论文探索用图神经网络（GNN）替代传统仿真软件，快速预测供应链网络在不同参数下的表现，从而加速优化决策，并开源了数据集和仿真库。",
-      "score": 9,
-      "url": "http://arxiv.org/abs/2607.16769v1",
-      "source": "arXiv",
+      "url": "https://www.qbitai.com/2026/07/463433.html",
+      "source": "量子位",
       "source_count": 1
     }
   ]
