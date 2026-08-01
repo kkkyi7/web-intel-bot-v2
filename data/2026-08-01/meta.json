@@ -1,0 +1,44 @@
+{
+  "date": "2026-08-01",
+  "profile": "kizty",
+  "generated_at": "2026-08-01 01:35",
+  "stats": {
+    "topics_ran": [
+      "AI大事",
+      "世界时事",
+      "技术圈",
+      "GitHub 动态"
+    ],
+    "total_selected": 23,
+    "total_fetched": 144
+  },
+  "top3": [
+    {
+      "topic": "AI大事",
+      "title": "Claude Code之父：Harness保质期只有半年，解开缰绳吧",
+      "tldr": "Claude Code 核心作者认为，给 AI 产品套太多安全限制和流程束缚，保质期只有半年。产品要像养有机生物一样，疏胜于堵，放开让模型跑起来。",
+      "score": 9,
+      "url": "https://www.qbitai.com/2026/07/463433.html",
+      "source": "量子位",
+      "source_count": 1
+    },
+    {
+      "topic": "技术圈",
+      "title": "电梯调度算法深度解析",
+      "tldr": "一篇深度拆解电梯调度算法的技术文章，对比了 SCAN、LOOK、RSR 等常见策略的优劣，并讨论了目的地派梯系统在真实场景中的表现，评论区还补充了硬盘寻道算法与电梯调度的同构关系。",
+      "score": 9,
+      "url": "https://john.fun/elevators",
+      "source": "HackerNews",
+      "source_count": 1
+    },
+    {
+      "topic": "AI大事",
+      "title": "GitHub AI Agent 翻车：攻击者不用黑客技术，只写一句话就能窃取数据",
+      "tldr": "安全研究者发现 GitHub 的 AI 编程助手会被一句话提示词攻击，绕过权限直接窃取仓库里的敏感数据，官方已确认并部分修复。",
+      "score": 9,
+      "url": "https://www.infoq.cn/article/u4rDqep8zVWUJsqVoQ23?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "source_count": 1
+    }
+  ]
+}
