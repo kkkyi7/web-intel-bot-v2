@@ -1,7 +1,7 @@
 {
   "date": "2026-08-01",
   "profile": "kizty",
-  "generated_at": "2026-08-01 01:35",
+  "generated_at": "2026-08-01 04:50",
   "stats": {
     "topics_ran": [
       "AI大事",
@@ -9,35 +9,35 @@
       "技术圈",
       "GitHub 动态"
     ],
-    "total_selected": 23,
-    "total_fetched": 144
+    "total_selected": 24,
+    "total_fetched": 145
   },
   "top3": [
     {
       "topic": "AI大事",
-      "title": "Claude Code之父：Harness保质期只有半年，解开缰绳吧",
-      "tldr": "Claude Code 核心作者认为，给 AI 产品套太多安全限制和流程束缚，保质期只有半年。产品要像养有机生物一样，疏胜于堵，放开让模型跑起来。",
+      "title": "GitHub AI Agent 翻车：攻击者不用黑客技术，只写一句话就能窃取数据",
+      "tldr": "安全研究者发现 GitHub 的 Copilot 编程助手存在提示注入漏洞，攻击者只需在代码里藏一句恶意指令，就能诱导 AI 帮自己窃取仓库数据，不需要任何黑客技术。",
       "score": 9,
-      "url": "https://www.qbitai.com/2026/07/463433.html",
-      "source": "量子位",
+      "url": "https://www.infoq.cn/article/u4rDqep8zVWUJsqVoQ23?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
       "source_count": 1
     },
     {
-      "topic": "技术圈",
-      "title": "电梯调度算法深度解析",
-      "tldr": "一篇深度拆解电梯调度算法的技术文章，对比了 SCAN、LOOK、RSR 等常见策略的优劣，并讨论了目的地派梯系统在真实场景中的表现，评论区还补充了硬盘寻道算法与电梯调度的同构关系。",
+      "topic": "世界时事",
+      "title": "摩根士丹利邢自强：AI投资“半场休息”，下半场逻辑已变",
+      "tldr": "摩根士丹利首席经济学家判断AI投资进入中场调整，下半场主线从卖算力硬件转向用AI赚钱的企业，同时中国在推理成本和能源上有独特优势。",
       "score": 9,
-      "url": "https://john.fun/elevators",
-      "source": "HackerNews",
+      "url": "https://m.thepaper.cn/detail/33692011",
+      "source": "澎湃新闻",
       "source_count": 1
     },
     {
       "topic": "AI大事",
-      "title": "GitHub AI Agent 翻车：攻击者不用黑客技术，只写一句话就能窃取数据",
-      "tldr": "安全研究者发现 GitHub 的 AI 编程助手会被一句话提示词攻击，绕过权限直接窃取仓库里的敏感数据，官方已确认并部分修复。",
+      "title": "视频后期，危！MiniMax H3手绘即特效，多模态的「Coding时刻」来了",
+      "tldr": "MiniMax 发布新模型 H3，你随手画几笔草图，它就能直接生成对应的视频特效，把多模态生成从“打字出图”推进到了“手绘即所得”，像极了当年代码补全工具改变编程的样子。",
       "score": 9,
-      "url": "https://www.infoq.cn/article/u4rDqep8zVWUJsqVoQ23?utm_source=rss&utm_medium=article",
-      "source": "InfoQ 中文",
+      "url": "https://www.qbitai.com/2026/07/464277.html",
+      "source": "量子位",
       "source_count": 1
     }
   ]

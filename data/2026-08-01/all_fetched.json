@@ -72,40 +72,49 @@
     "author": "Frederico Falconi Costa, Salvador Cesar Costa, Fabricio F. Costa"
   },
   {
-    "title": "Tailscale didn't stop the Hugging Face intrusion",
-    "url": "https://tailscale.com/blog/hugging-face-intrusion",
-    "source": "HackerNews",
-    "topic": "AI大事",
-    "region": "intl",
-    "published": "2026-07-31T19:03:45",
-    "author": "bluehatbrit · 439 pts · 168 comments"
-  },
-  {
     "title": "Elevators",
     "url": "https://john.fun/elevators",
     "source": "HackerNews",
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-07-31T15:17:28",
-    "author": "Jrh0203 · 863 pts · 219 comments"
+    "author": "Jrh0203 · 1040 pts · 250 comments"
   },
   {
-    "title": "qm",
+    "title": "qm – Multiplayer agent harness for work",
     "url": "https://github.com/yc-software/qm",
     "source": "HackerNews",
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-07-31T18:04:58",
-    "author": "tosh · 453 pts · 93 comments"
+    "author": "tosh · 515 pts · 108 comments"
   },
   {
-    "title": "Severance",
-    "url": "https://lcamtuf.substack.com/p/severance",
+    "title": "Big Food vs. the People",
+    "url": "https://www.lighthousereports.com/investigation/big-food-vs-the-people/",
     "source": "HackerNews",
     "topic": "AI大事",
     "region": "intl",
-    "published": "2026-07-31T17:15:09",
-    "author": "surprisetalk · 203 pts · 64 comments"
+    "published": "2026-07-31T16:04:32",
+    "author": "jruohonen · 211 pts · 137 comments"
+  },
+  {
+    "title": "Tailscale didn't stop the Hugging Face intrusion",
+    "url": "https://tailscale.com/blog/hugging-face-intrusion",
+    "source": "HackerNews",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-07-31T19:03:45",
+    "author": "bluehatbrit · 496 pts · 193 comments"
+  },
+  {
+    "title": "Quick BI 数据分析智能体的可靠工程实践｜AICon深圳",
+    "url": "https://www.infoq.cn/article/VJ3s26QZUG1C5ANF2O4Q?utm_source=rss&utm_medium=article",
+    "source": "InfoQ 中文",
+    "topic": "AI大事",
+    "region": "cn",
+    "published": "2026-08-01T10:00:00",
+    "author": "AICon 全球人工智能开发与应用大会"
   },
   {
     "title": "Agent 成本失控背后：上下文、人工审核与维护成本正在被低估｜请回答 WAIC 2026",
@@ -189,13 +198,22 @@
     "author": "作者：Sergio De Simone"
   },
   {
-    "title": "AI浪潮中，如何定义自己的“确定性”之旅？",
-    "url": "https://www.infoq.cn/article/PVdaiz9gRseK6wx54ajX?utm_source=rss&utm_medium=article",
-    "source": "InfoQ 中文",
+    "title": "黄仁勋：不玩𝕏是我太内向，现在为AI必须站出来",
+    "url": "https://www.qbitai.com/2026/08/464452.html",
+    "source": "量子位",
     "topic": "AI大事",
     "region": "cn",
-    "published": "2026-07-31T11:39:44",
-    "author": "首都在线"
+    "published": "2026-08-01T03:38:10",
+    "author": "一水"
+  },
+  {
+    "title": "AI顶会现场，见到了一家美妆巨头",
+    "url": "https://www.qbitai.com/2026/08/464364.html",
+    "source": "量子位",
+    "topic": "AI大事",
+    "region": "cn",
+    "published": "2026-08-01T02:52:18",
+    "author": "听雨"
   },
   {
     "title": "SIGGRAPH时间检验奖揭晓：这项研究，提前十年押中了物理AI",
@@ -252,44 +270,8 @@
     "author": "听雨"
   },
   {
-    "title": "Claude Code之父：Harness保质期只有半年，解开缰绳吧",
-    "url": "https://www.qbitai.com/2026/07/463433.html",
-    "source": "量子位",
-    "topic": "AI大事",
-    "region": "cn",
-    "published": "2026-07-30T08:57:55",
-    "author": "程浅"
-  },
-  {
-    "title": "终端市场的下一个增长点，高通押在了“个人AI”上",
-    "url": "https://www.qbitai.com/2026/07/463204.html",
-    "source": "量子位",
-    "topic": "AI大事",
-    "region": "cn",
-    "published": "2026-07-30T08:06:47",
-    "author": "克雷西"
-  },
-  {
-    "title": "GPT-5.6自己优化自己实锤了，新的左脚踩右脚已经出现",
-    "url": "https://www.qbitai.com/2026/07/463297.html",
-    "source": "量子位",
-    "topic": "AI大事",
-    "region": "cn",
-    "published": "2026-07-30T07:51:14",
-    "author": "henry"
-  },
-  {
-    "title": "huggingface/speech-to-speech",
-    "url": "https://github.com/huggingface/speech-to-speech",
-    "source": "GitHub Trending",
-    "topic": "AI大事",
-    "region": "intl",
-    "published": "",
-    "author": ""
-  },
-  {
-    "title": "microsoft/AI-For-Beginners",
-    "url": "https://github.com/microsoft/AI-For-Beginners",
+    "title": "zhaoxuya520/reverse-skill",
+    "url": "https://github.com/zhaoxuya520/reverse-skill",
     "source": "GitHub Trending",
     "topic": "AI大事",
     "region": "intl",
@@ -306,24 +288,6 @@
     "author": ""
   },
   {
-    "title": "WhiskeySockets/Baileys",
-    "url": "https://github.com/WhiskeySockets/Baileys",
-    "source": "GitHub Trending",
-    "topic": "AI大事",
-    "region": "intl",
-    "published": "",
-    "author": ""
-  },
-  {
-    "title": "pascalorg/editor",
-    "url": "https://github.com/pascalorg/editor",
-    "source": "GitHub Trending",
-    "topic": "AI大事",
-    "region": "intl",
-    "published": "",
-    "author": ""
-  },
-  {
     "title": "mvanhorn/last30days-skill",
     "url": "https://github.com/mvanhorn/last30days-skill",
     "source": "GitHub Trending",
@@ -333,8 +297,8 @@
     "author": ""
   },
   {
-    "title": "dotnet/aspnetcore",
-    "url": "https://github.com/dotnet/aspnetcore",
+    "title": "microsoft/AI-For-Beginners",
+    "url": "https://github.com/microsoft/AI-For-Beginners",
     "source": "GitHub Trending",
     "topic": "AI大事",
     "region": "intl",
@@ -342,8 +306,8 @@
     "author": ""
   },
   {
-    "title": "microsoft/PowerToys",
-    "url": "https://github.com/microsoft/PowerToys",
+    "title": "github/copilot-sdk",
+    "url": "https://github.com/github/copilot-sdk",
     "source": "GitHub Trending",
     "topic": "AI大事",
     "region": "intl",
@@ -351,8 +315,8 @@
     "author": ""
   },
   {
-    "title": "ansible/ansible",
-    "url": "https://github.com/ansible/ansible",
+    "title": "chatwoot/chatwoot",
+    "url": "https://github.com/chatwoot/chatwoot",
     "source": "GitHub Trending",
     "topic": "AI大事",
     "region": "intl",
@@ -360,8 +324,35 @@
     "author": ""
   },
   {
-    "title": "ChromeDevTools/chrome-devtools-mcp",
-    "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+    "title": "agavra/tuicr",
+    "url": "https://github.com/agavra/tuicr",
+    "source": "GitHub Trending",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "",
+    "author": ""
+  },
+  {
+    "title": "usekaneo/kaneo",
+    "url": "https://github.com/usekaneo/kaneo",
+    "source": "GitHub Trending",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "",
+    "author": ""
+  },
+  {
+    "title": "geo-tp/ESP32-Bit-Pirate",
+    "url": "https://github.com/geo-tp/ESP32-Bit-Pirate",
+    "source": "GitHub Trending",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "",
+    "author": ""
+  },
+  {
+    "title": "deepfakes/faceswap",
+    "url": "https://github.com/deepfakes/faceswap",
     "source": "GitHub Trending",
     "topic": "AI大事",
     "region": "intl",
@@ -384,15 +375,6 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-07-30T13:23:30",
-    "author": ""
-  },
-  {
-    "title": "顶尖 AI 初创公司很少发表论文",
-    "url": "https://www.solidot.org/story?sid=84959",
-    "source": "Solidot",
-    "topic": "AI大事",
-    "region": "intl",
-    "published": "2026-07-30T05:47:43",
     "author": ""
   },
   {
@@ -585,6 +567,15 @@
     "author": "郑廷旭"
   },
   {
+    "title": "[AINews] not much happened today",
+    "url": "https://www.latent.space/p/ainews-not-much-happened-today-038",
+    "source": "Latent Space",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-08-01T01:38:09",
+    "author": ""
+  },
+  {
     "title": "[AINews] GPT 5.6 price cut by 20%-80%: Cost of GPT 5.4 Intelligence dropped 13x in 4 months due to GPT 5.6 recursive self-optimization",
     "url": "https://www.latent.space/p/ainews-gpt-56-price-cut-by-20-80",
     "source": "Latent Space",
@@ -628,15 +619,6 @@
     "region": "intl",
     "published": "2026-07-28T15:26:30",
     "author": ""
-  },
-  {
-    "title": "[AINews] Much ado about Open Weights",
-    "url": "https://www.latent.space/p/ainews-much-ado-about-open-weights",
-    "source": "Latent Space",
-    "topic": "AI大事",
-    "region": "intl",
-    "published": "2026-07-28T06:20:13",
-    "author": "Latent.Space"
   },
   {
     "title": "Advancing responsible AI across Europe",
@@ -873,6 +855,51 @@
     "author": "Marina Temkin"
   },
   {
+    "title": "Google Earth&#8217;s AI deepfake tool only lasted one day",
+    "url": "https://www.theverge.com/tech/973943/google-earth-ai-image-generation-deepfake-tool",
+    "source": "The Verge AI",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-07-31T19:13:29",
+    "author": "Stevie Bonifield"
+  },
+  {
+    "title": "Here’s the problem with putting an AI image generator in Google Earth",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/973764/google-earth-ai-satellite-images",
+    "source": "The Verge AI",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-07-31T17:05:46",
+    "author": "Stevie Bonifield"
+  },
+  {
+    "title": "The major labels propose rules to keep AI slop off the charts",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/973741/ai-music-major-record-labels-charts",
+    "source": "The Verge AI",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-07-31T16:36:48",
+    "author": "Terrence O’Brien"
+  },
+  {
+    "title": "It’s time to panic about AI safety",
+    "url": "https://www.theverge.com/podcast/973668/ai-safety-openai-hugging-face-vergecast",
+    "source": "The Verge AI",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-07-31T14:03:04",
+    "author": "David Pierce"
+  },
+  {
+    "title": "Anthropic says Claude accidentally hacked real companies too",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/973670/anthropic-claude-hacked-organizations-during-cyber-tests",
+    "source": "The Verge AI",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-07-31T13:41:17",
+    "author": "Robert Hart"
+  },
+  {
     "title": "Tim Cook hints at iCloud Plus tier for AI power users",
     "url": "https://www.theverge.com/tech/973552/apple-ceo-tim-cook-icloud-plus-ai",
     "source": "The Verge AI",
@@ -898,51 +925,6 @@
     "region": "intl",
     "published": "2026-07-30T18:43:26",
     "author": "Jay Peters"
-  },
-  {
-    "title": "Google DeepMind’s new AI model can control a robot’s entire body",
-    "url": "https://www.theverge.com/tech/973276/google-deepmind-gemini-robotics-2-whole-body",
-    "source": "The Verge AI",
-    "topic": "AI大事",
-    "region": "intl",
-    "published": "2026-07-30T17:18:45",
-    "author": "Emma Roth"
-  },
-  {
-    "title": "Friend re-launches its AI pendant with a speaker that talks to you, for twice the price",
-    "url": "https://www.theverge.com/gadgets/973163/friend-re-launches-its-ai-pendant-with-a-speaker-that-talks-to-you-for-twice-the-price",
-    "source": "The Verge AI",
-    "topic": "AI大事",
-    "region": "intl",
-    "published": "2026-07-30T16:33:32",
-    "author": "David Imel"
-  },
-  {
-    "title": "Microsoft confirms Copilot ‘super app’ coming this year",
-    "url": "https://www.theverge.com/tech/972927/microsoft-copilot-super-app-confirmed",
-    "source": "The Verge AI",
-    "topic": "AI大事",
-    "region": "intl",
-    "published": "2026-07-29T22:17:38",
-    "author": "Emma Roth"
-  },
-  {
-    "title": "Mark Zuckerberg is planning a big push into personal AI agents",
-    "url": "https://www.theverge.com/tech/972294/meta-q2-2026-earnings-mark-zuckerberg-personal-ai-agents",
-    "source": "The Verge AI",
-    "topic": "AI大事",
-    "region": "intl",
-    "published": "2026-07-29T21:48:07",
-    "author": "Jay Peters"
-  },
-  {
-    "title": "xAI’s last-minute scramble to stop Minnesota’s anti-nudification app law",
-    "url": "https://www.theverge.com/policy/972850/xai-grok-minnesota-nudification-lawsuit",
-    "source": "The Verge AI",
-    "topic": "AI大事",
-    "region": "intl",
-    "published": "2026-07-29T21:06:52",
-    "author": "Sarah Jeong"
   },
   {
     "title": "1 Billion ChatGPT users",
@@ -999,49 +981,85 @@
     "author": ""
   },
   {
-    "title": "环球时报社评：一个中国原则面前，哪有什么“灰色地带”",
-    "url": "https://m.thepaper.cn/detail/33692464",
+    "title": "摩根士丹利邢自强：AI投资“半场休息”，下半场逻辑已变",
+    "url": "https://m.thepaper.cn/detail/33692011",
     "source": "澎湃新闻",
     "topic": "世界时事",
     "region": "cn",
-    "published": "2026-08-01T01:22:26",
-    "author": "环球时报"
+    "published": "2026-08-01T04:32:51",
+    "author": "澎湃新闻记者 孙铭蔚"
   },
   {
-    "title": "南部战区位黄岩岛领海领空和周边海空域组织海空联合演训",
-    "url": "https://m.thepaper.cn/detail/33692549",
+    "title": "《黄岩岛国家级自然保护区管理办法》印发",
+    "url": "https://m.thepaper.cn/detail/33693059",
     "source": "澎湃新闻",
     "topic": "世界时事",
     "region": "cn",
-    "published": "2026-08-01T00:46:24",
-    "author": "“南部战区”微信公号"
+    "published": "2026-08-01T04:01:36",
+    "author": "梁丽娟、邵海成/央视新闻"
   },
   {
-    "title": "真人凉了，AI速朽，短剧行业一天一个样？",
-    "url": "https://m.thepaper.cn/detail/33660463",
+    "title": "现场画面！南部战区位黄岩岛周边组织海空联合演训",
+    "url": "https://m.thepaper.cn/detail/33693053",
     "source": "澎湃新闻",
     "topic": "世界时事",
     "region": "cn",
-    "published": "2026-07-31T23:58:42",
-    "author": "邓又溪"
+    "published": "2026-08-01T03:57:46",
+    "author": "央视新闻"
   },
   {
-    "title": "新规落地，医药代表站在转型十字路口",
-    "url": "https://m.thepaper.cn/detail/33684657",
+    "title": "第12批集采开标：327家企业的521个产品获拟中选资格，有哪些看点",
+    "url": "https://m.thepaper.cn/detail/33693017",
     "source": "澎湃新闻",
     "topic": "世界时事",
     "region": "cn",
-    "published": "2026-07-31T23:48:45",
-    "author": "澎湃新闻首席记者 李潇潇 实习生 袁佳妮"
+    "published": "2026-08-01T03:42:50",
+    "author": "澎湃新闻首席记者 李潇潇"
   },
   {
-    "title": "大米、蔗糖与三文鱼：厄尔尼诺现象如何加剧全球农业危机",
-    "url": "https://m.thepaper.cn/detail/33691591",
+    "title": "浙江实施人工智能OPC术语团体标准：由1名核心自然人主导",
+    "url": "https://m.thepaper.cn/detail/33692915",
     "source": "澎湃新闻",
     "topic": "世界时事",
     "region": "cn",
-    "published": "2026-07-31T23:38:09",
-    "author": "澎湃新闻记者 黄粤涵"
+    "published": "2026-08-01T03:41:39",
+    "author": "澎湃新闻记者 张未央"
+  },
+  {
+    "title": "美官员称特朗普已下令对伊朗发动新袭击：可能本周末启动",
+    "url": "https://m.thepaper.cn/detail/33692652",
+    "source": "澎湃新闻",
+    "topic": "世界时事",
+    "region": "cn",
+    "published": "2026-08-01T03:31:46",
+    "author": "澎湃新闻记者 南博一"
+  },
+  {
+    "title": "商务部就美国将中国企业列入所谓涉疆法案实体清单答问",
+    "url": "https://m.thepaper.cn/detail/33692619",
+    "source": "澎湃新闻",
+    "topic": "世界时事",
+    "region": "cn",
+    "published": "2026-08-01T01:29:51",
+    "author": "商务部网站"
+  },
+  {
+    "title": "巴基斯坦雪崩致10人登山队失联 包括1名中国人",
+    "url": "https://china.caixin.com/2026-08-01/102470464.html",
+    "source": "财新网",
+    "topic": "世界时事",
+    "region": "cn",
+    "published": "2026-08-01T04:00:13",
+    "author": ""
+  },
+  {
+    "title": "特稿｜国补退坡之后 消费增长动能战略切换",
+    "url": "https://www.caixin.com/2026-08-01/102470400.html",
+    "source": "财新网",
+    "topic": "世界时事",
+    "region": "cn",
+    "published": "2026-08-01T02:45:53",
+    "author": ""
   },
   {
     "title": "财新闻｜连云港消防回应火灾母女坠楼：救援人员一直控制水枪射流，尽量避免直接冲击被困人员；现场不具备铺设救生垫和使用举高车、云梯车条件",
@@ -1062,26 +1080,17 @@
     "author": ""
   },
   {
-    "title": "马斯克称从未讨论过出售特斯拉中国业务",
-    "url": "https://www.caixin.com/2026-07-31/102470251.html",
-    "source": "财新网",
+    "title": "被美国打疼后，智利赶紧找中国",
+    "url": "https://www.guancha.cn/internation/2026_08_01_825811_s.shtml",
+    "source": "观察者网",
     "topic": "世界时事",
     "region": "cn",
-    "published": "2026-07-31T13:18:24",
+    "published": "2026-08-01T04:00:56",
     "author": ""
   },
   {
-    "title": "实控人减持、公司回购 兆易创新拟最高20亿元回购股份并注销",
-    "url": "https://finance.caixin.com/2026-07-31/102470242.html",
-    "source": "财新网",
-    "topic": "世界时事",
-    "region": "cn",
-    "published": "2026-07-31T13:08:38",
-    "author": ""
-  },
-  {
-    "title": "“美国之音”要有新老板，会怎样针对中国？",
-    "url": "https://www.guancha.cn/economy/2026_08_01_825776_s.shtml",
+    "title": "特朗普火大：美国之音要黑中国，怎么“夸上了”，得改",
+    "url": "https://www.guancha.cn/internation/2026_08_01_825776_s.shtml",
     "source": "观察者网",
     "topic": "世界时事",
     "region": "cn",
@@ -1161,12 +1170,21 @@
     "author": ""
   },
   {
-    "title": "“老老登”的春天：中国PC产业链的换血",
-    "url": "https://www.guancha.cn/haoping/2026_07_29_825506_s.shtml",
-    "source": "观察者网",
+    "title": "韩国7月出口飙升至历史第二高 半导体出口同比暴增近180%",
+    "url": "https://36kr.com/newsflashes/3920386651319944?f=rss",
+    "source": "36氪（兜底）",
     "topic": "世界时事",
     "region": "cn",
-    "published": "2026-07-29T13:11:59",
+    "published": "2026-08-01T04:00:25",
+    "author": ""
+  },
+  {
+    "title": "国际足联叫停世界杯股权出售计划",
+    "url": "https://36kr.com/newsflashes/3920310723194499?f=rss",
+    "source": "36氪（兜底）",
+    "topic": "世界时事",
+    "region": "cn",
+    "published": "2026-08-01T02:45:09",
     "author": ""
   },
   {
@@ -1188,30 +1206,12 @@
     "author": ""
   },
   {
-    "title": "特朗普扬言将出台油价干预措施，雪佛龙与埃克森美孚利润大幅飙升",
-    "url": "https://36kr.com/newsflashes/3919514840231556?f=rss",
+    "title": "36氪独家｜曾爱玲入职B站担任AI视频生成业务负责人，向CEO陈睿汇报",
+    "url": "https://36kr.com/p/3910776673064073?f=rss",
     "source": "36氪（兜底）",
     "topic": "世界时事",
     "region": "cn",
-    "published": "2026-07-31T12:26:34",
-    "author": ""
-  },
-  {
-    "title": "艾伯维第二季度净营收169.9亿美元",
-    "url": "https://36kr.com/newsflashes/3919511680609665?f=rss",
-    "source": "36氪（兜底）",
-    "topic": "世界时事",
-    "region": "cn",
-    "published": "2026-07-31T12:19:25",
-    "author": ""
-  },
-  {
-    "title": "欧元区7月通胀率升至2.9%，能源涨价为主因",
-    "url": "https://36kr.com/newsflashes/3919471244324233?f=rss",
-    "source": "36氪（兜底）",
-    "topic": "世界时事",
-    "region": "cn",
-    "published": "2026-07-31T11:40:18",
+    "published": "2026-07-31T10:27:38",
     "author": ""
   },
   {
@@ -1233,40 +1233,40 @@
     "author": ""
   },
   {
-    "title": "Tailscale didn't stop the Hugging Face intrusion",
-    "url": "https://tailscale.com/blog/hugging-face-intrusion",
-    "source": "HackerNews",
-    "topic": "技术圈",
-    "region": "intl",
-    "published": "2026-07-31T19:03:45",
-    "author": "bluehatbrit · 440 pts · 168 comments"
-  },
-  {
     "title": "Elevators",
     "url": "https://john.fun/elevators",
     "source": "HackerNews",
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-07-31T15:17:28",
-    "author": "Jrh0203 · 864 pts · 220 comments"
+    "author": "Jrh0203 · 1043 pts · 251 comments"
   },
   {
-    "title": "qm",
+    "title": "qm – Multiplayer agent harness for work",
     "url": "https://github.com/yc-software/qm",
     "source": "HackerNews",
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-07-31T18:04:58",
-    "author": "tosh · 453 pts · 93 comments"
+    "author": "tosh · 516 pts · 108 comments"
   },
   {
-    "title": "Severance",
-    "url": "https://lcamtuf.substack.com/p/severance",
+    "title": "Big Food vs. the People",
+    "url": "https://www.lighthousereports.com/investigation/big-food-vs-the-people/",
     "source": "HackerNews",
     "topic": "技术圈",
     "region": "intl",
-    "published": "2026-07-31T17:15:09",
-    "author": "surprisetalk · 203 pts · 64 comments"
+    "published": "2026-07-31T16:04:32",
+    "author": "jruohonen · 211 pts · 137 comments"
+  },
+  {
+    "title": "Tailscale didn't stop the Hugging Face intrusion",
+    "url": "https://tailscale.com/blog/hugging-face-intrusion",
+    "source": "HackerNews",
+    "topic": "技术圈",
+    "region": "intl",
+    "published": "2026-07-31T19:03:45",
+    "author": "bluehatbrit · 497 pts · 193 comments"
   },
   {
     "title": "openai/openai-python 发布 v2.52.0",
@@ -1285,6 +1285,15 @@
     "region": "intl",
     "published": "2026-07-31T14:57:37",
     "author": "joaomdmoura"
+  },
+  {
+    "title": "siyuan-note/siyuan 发布 SiYuan v3.7.4-alpha.4",
+    "url": "https://github.com/siyuan-note/siyuan/releases/tag/v3.7.4-alpha.4",
+    "source": "GitHubRelease",
+    "topic": "GitHub 动态",
+    "region": "intl",
+    "published": "2026-08-01T01:42:34",
+    "author": "github-actions[bot]"
   },
   {
     "title": "vercel/next.js 发布 v16.3.0-canary.105",
