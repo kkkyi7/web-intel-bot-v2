@@ -72,22 +72,49 @@
     "author": "Frederico Falconi Costa, Salvador Cesar Costa, Fabricio F. Costa"
   },
   {
+    "title": "Seedance 2.5",
+    "url": "https://seed.bytedance.com/en/blog/one-take-creation-flexible-referencing-introducing-seedance-2-5",
+    "source": "HackerNews",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-08-01T20:45:12",
+    "author": "njaremko · 231 pts · 116 comments"
+  },
+  {
+    "title": "Diátaxis",
+    "url": "https://diataxis.fr/",
+    "source": "HackerNews",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-08-01T20:33:27",
+    "author": "ryanseys · 251 pts · 34 comments"
+  },
+  {
+    "title": "AI financial advice is surprisingly good, especially if you ask right questions",
+    "url": "https://mitsloan.mit.edu/ideas-made-to-matter/ai-financial-advice-surprisingly-good-especially-if-you-ask-right-questions",
+    "source": "HackerNews",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-08-01T22:25:12",
+    "author": "foxtrot8672 · 227 pts · 203 comments"
+  },
+  {
+    "title": "The Art of 64-bit Assembly",
+    "url": "https://nostarch.com/art-64-bit-assembly-v2",
+    "source": "HackerNews",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-08-01T14:09:00",
+    "author": "0x54MUR41 · 212 pts · 94 comments"
+  },
+  {
     "title": "How Google helped destroy adoption of RSS feeds (2023)",
     "url": "https://openrss.org/blog/how-google-helped-destroy-adoption-of-rss-feeds",
     "source": "HackerNews",
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-08-01T18:07:07",
-    "author": "pudgywalsh · 388 pts · 137 comments"
-  },
-  {
-    "title": "RipGrep musl binaries occasionally segfault during very-large searches",
-    "url": "https://github.com/BurntSushi/ripgrep/issues/3494",
-    "source": "HackerNews",
-    "topic": "AI大事",
-    "region": "intl",
-    "published": "2026-08-01T12:34:25",
-    "author": "throwaway2037 · 248 pts · 167 comments"
+    "author": "pudgywalsh · 458 pts · 160 comments"
   },
   {
     "title": "NetBSD 11.0",
@@ -96,43 +123,16 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-08-01T17:56:41",
-    "author": "jaypatelani · 215 pts · 88 comments"
+    "author": "jaypatelani · 239 pts · 109 comments"
   },
   {
-    "title": "RamenHaus",
-    "url": "https://ramen.haus/",
-    "source": "HackerNews",
+    "title": "基于 CyberData 的 Data Agent：构建企业数据智能中枢的工程范式｜AICon深圳",
+    "url": "https://www.infoq.cn/article/5KYVt93chdBrtDsvTEcK?utm_source=rss&utm_medium=article",
+    "source": "InfoQ 中文",
     "topic": "AI大事",
-    "region": "intl",
-    "published": "2026-08-01T08:48:58",
-    "author": "oler · 229 pts · 109 comments"
-  },
-  {
-    "title": "Flint: A Visualization Language for the AI Era",
-    "url": "https://microsoft.github.io/flint-chart/",
-    "source": "HackerNews",
-    "topic": "AI大事",
-    "region": "intl",
-    "published": "2026-08-01T02:45:09",
-    "author": "vinhnx · 255 pts · 67 comments"
-  },
-  {
-    "title": "A Surveillance Treaty in Disguise: Canada Signs UN Cybercrime Convention",
-    "url": "https://www.michaelgeist.ca/2026/07/a-surveillance-treaty-in-disguise-the-trouble-with-canadas-quiet-decision-to-sign-the-un-cybercrime-convention/",
-    "source": "HackerNews",
-    "topic": "AI大事",
-    "region": "intl",
-    "published": "2026-08-01T14:19:51",
-    "author": "iamnothere · 269 pts · 147 comments"
-  },
-  {
-    "title": "Cursor removed cost information from the usage page and CSV export",
-    "url": "https://forum.cursor.com/t/usage-page-to-token-amount-what/167153",
-    "source": "HackerNews",
-    "topic": "AI大事",
-    "region": "intl",
-    "published": "2026-08-01T15:25:21",
-    "author": "EugeneOZ · 304 pts · 138 comments"
+    "region": "cn",
+    "published": "2026-08-02T10:00:00",
+    "author": "AICon 全球人工智能开发与应用大会"
   },
   {
     "title": "WAIC 收官真心话：数百家机器人刷屏背后，AI 究竟重写了什么？",
@@ -216,15 +216,6 @@
     "author": "作者：Daniel Curtis"
   },
   {
-    "title": "枫清科技高雪峰：AI正在进入材料研发与化工生产全流程",
-    "url": "https://www.infoq.cn/article/zIm0P8HWsWHWuGC54BsU?utm_source=rss&utm_medium=article",
-    "source": "InfoQ 中文",
-    "topic": "AI大事",
-    "region": "cn",
-    "published": "2026-07-31T15:57:22",
-    "author": "李冬梅"
-  },
-  {
     "title": "OpenAI前员工刚跑路就喊话：要套现就赶紧套，别等IPO！",
     "url": "https://www.qbitai.com/2026/08/464693.html",
     "source": "量子位",
@@ -270,62 +261,8 @@
     "author": "思邈"
   },
   {
-    "title": "zhaoxuya520/reverse-skill",
-    "url": "https://github.com/zhaoxuya520/reverse-skill",
-    "source": "GitHub Trending",
-    "topic": "AI大事",
-    "region": "intl",
-    "published": "",
-    "author": ""
-  },
-  {
-    "title": "different-ai/openwork",
-    "url": "https://github.com/different-ai/openwork",
-    "source": "GitHub Trending",
-    "topic": "AI大事",
-    "region": "intl",
-    "published": "",
-    "author": ""
-  },
-  {
-    "title": "mvanhorn/last30days-skill",
-    "url": "https://github.com/mvanhorn/last30days-skill",
-    "source": "GitHub Trending",
-    "topic": "AI大事",
-    "region": "intl",
-    "published": "",
-    "author": ""
-  },
-  {
     "title": "microsoft/AI-For-Beginners",
     "url": "https://github.com/microsoft/AI-For-Beginners",
-    "source": "GitHub Trending",
-    "topic": "AI大事",
-    "region": "intl",
-    "published": "",
-    "author": ""
-  },
-  {
-    "title": "github/copilot-sdk",
-    "url": "https://github.com/github/copilot-sdk",
-    "source": "GitHub Trending",
-    "topic": "AI大事",
-    "region": "intl",
-    "published": "",
-    "author": ""
-  },
-  {
-    "title": "chatwoot/chatwoot",
-    "url": "https://github.com/chatwoot/chatwoot",
-    "source": "GitHub Trending",
-    "topic": "AI大事",
-    "region": "intl",
-    "published": "",
-    "author": ""
-  },
-  {
-    "title": "agavra/tuicr",
-    "url": "https://github.com/agavra/tuicr",
     "source": "GitHub Trending",
     "topic": "AI大事",
     "region": "intl",
@@ -342,8 +279,8 @@
     "author": ""
   },
   {
-    "title": "geo-tp/ESP32-Bit-Pirate",
-    "url": "https://github.com/geo-tp/ESP32-Bit-Pirate",
+    "title": "zhaoxuya520/reverse-skill",
+    "url": "https://github.com/zhaoxuya520/reverse-skill",
     "source": "GitHub Trending",
     "topic": "AI大事",
     "region": "intl",
@@ -351,8 +288,62 @@
     "author": ""
   },
   {
-    "title": "deepfakes/faceswap",
-    "url": "https://github.com/deepfakes/faceswap",
+    "title": "microsoft/generative-ai-for-beginners",
+    "url": "https://github.com/microsoft/generative-ai-for-beginners",
+    "source": "GitHub Trending",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "",
+    "author": ""
+  },
+  {
+    "title": "github/copilot-sdk",
+    "url": "https://github.com/github/copilot-sdk",
+    "source": "GitHub Trending",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "",
+    "author": ""
+  },
+  {
+    "title": "github/gh-stack",
+    "url": "https://github.com/github/gh-stack",
+    "source": "GitHub Trending",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "",
+    "author": ""
+  },
+  {
+    "title": "huggingface/speech-to-speech",
+    "url": "https://github.com/huggingface/speech-to-speech",
+    "source": "GitHub Trending",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "",
+    "author": ""
+  },
+  {
+    "title": "abus-aikorea/voice-pro",
+    "url": "https://github.com/abus-aikorea/voice-pro",
+    "source": "GitHub Trending",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "",
+    "author": ""
+  },
+  {
+    "title": "iv-org/invidious",
+    "url": "https://github.com/iv-org/invidious",
+    "source": "GitHub Trending",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "",
+    "author": ""
+  },
+  {
+    "title": "ansible/ansible",
+    "url": "https://github.com/ansible/ansible",
     "source": "GitHub Trending",
     "topic": "AI大事",
     "region": "intl",
@@ -384,6 +375,24 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-07-30T13:23:30",
+    "author": ""
+  },
+  {
+    "title": "Open letters about AI development",
+    "url": "https://simonwillison.net/2026/Aug/2/open-letters/#atom-everything",
+    "source": "Simon Willison",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-08-02T04:16:52",
+    "author": ""
+  },
+  {
+    "title": "July 2026 newsletter",
+    "url": "https://simonwillison.net/2026/Aug/2/july-newsletter/#atom-everything",
+    "source": "Simon Willison",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-08-02T04:12:41",
     "author": ""
   },
   {
@@ -438,24 +447,6 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-07-31T21:33:13",
-    "author": ""
-  },
-  {
-    "title": "smevals - a small eval suite for evaluating models, prompts, and harnesses",
-    "url": "https://simonwillison.net/2026/Jul/31/smevals/#atom-everything",
-    "source": "Simon Willison",
-    "topic": "AI大事",
-    "region": "intl",
-    "published": "2026-07-31T21:15:23",
-    "author": ""
-  },
-  {
-    "title": "Slack Emoji Maker",
-    "url": "https://simonwillison.net/2026/Jul/31/slack-emoji-maker/#atom-everything",
-    "source": "Simon Willison",
-    "topic": "AI大事",
-    "region": "intl",
-    "published": "2026-07-31T20:18:05",
     "author": ""
   },
   {
@@ -990,58 +981,31 @@
     "author": ""
   },
   {
-    "title": "魔都眼｜意大利博主首次打卡CJ：科技与文化融合的互动体验让人惊喜",
-    "url": "https://m.thepaper.cn/detail/33693486",
+    "title": "西法英发布联合示警：气候变化已成欧洲国家安全紧急挑战",
+    "url": "https://m.thepaper.cn/detail/33696811",
     "source": "澎湃新闻",
     "topic": "世界时事",
     "region": "cn",
-    "published": "2026-08-02T01:10:14",
-    "author": "澎湃新闻记者 朱伟辉"
+    "published": "2026-08-02T04:25:30",
+    "author": "澎湃新闻记者 南博一"
   },
   {
-    "title": "体坛联播｜欧足联再回应强调追责，赵心童不敌威尔逊无缘决赛",
-    "url": "https://m.thepaper.cn/detail/33696592",
+    "title": "中国贸促会组织企业家代表团访问美国",
+    "url": "https://m.thepaper.cn/detail/33697000",
     "source": "澎湃新闻",
     "topic": "世界时事",
     "region": "cn",
-    "published": "2026-08-02T00:30:11",
-    "author": "澎湃新闻记者 马作宇"
+    "published": "2026-08-02T04:23:59",
+    "author": "新华社"
   },
   {
-    "title": "张瑞威谈明清稻米经济：粮政、商路与食味",
-    "url": "https://m.thepaper.cn/detail/33660733",
+    "title": "大学生写家史︱田垄与灶台边的家族记忆",
+    "url": "https://m.thepaper.cn/detail/33525039",
     "source": "澎湃新闻",
     "topic": "世界时事",
     "region": "cn",
-    "published": "2026-08-02T00:24:29",
-    "author": "澎湃新闻记者 于淑娟"
-  },
-  {
-    "title": "新势力7月淡季销量分化加剧，零跑迈过月销10万辆门槛",
-    "url": "https://m.thepaper.cn/detail/33695206",
-    "source": "澎湃新闻",
-    "topic": "世界时事",
-    "region": "cn",
-    "published": "2026-08-01T23:51:15",
-    "author": "澎湃新闻记者 吴遇利"
-  },
-  {
-    "title": "中微公司未来五年内至少覆盖60%的半导体高端设备，整体产能规划不低于700亿元",
-    "url": "https://m.thepaper.cn/detail/33695377",
-    "source": "澎湃新闻",
-    "topic": "世界时事",
-    "region": "cn",
-    "published": "2026-08-01T23:48:05",
-    "author": "澎湃新闻记者 周玲"
-  },
-  {
-    "title": "人民日报头版关注：上海稳步建设全球科创高地",
-    "url": "https://m.thepaper.cn/detail/33696556",
-    "source": "澎湃新闻",
-    "topic": "世界时事",
-    "region": "cn",
-    "published": "2026-08-01T22:53:58",
-    "author": "李仕权、徐雷鹏、黄晓慧/人民日报"
+    "published": "2026-08-02T03:58:33",
+    "author": "罗佳怡（北京师范大学）"
   },
   {
     "title": "解放军报钧声：中方加强黄岩岛管控合法合理",
@@ -1058,7 +1022,7 @@
     "source": "财新网",
     "topic": "世界时事",
     "region": "cn",
-    "published": "2026-08-01T10:34:31",
+    "published": "2026-08-01T10:34:32",
     "author": ""
   },
   {
@@ -1080,21 +1044,12 @@
     "author": ""
   },
   {
-    "title": "财新闻｜连云港消防回应火灾母女坠楼：救援人员一直控制水枪射流，尽量避免直接冲击被困人员；现场不具备铺设救生垫和使用举高车、云梯车条件",
-    "url": "https://mini.caixin.com/2026-08-01/102470331.html",
-    "source": "财新网",
+    "title": "欧洲押注万亿欧元挑战中美，事关“衰落还是复兴”",
+    "url": "https://www.guancha.cn/internation/2026_08_02_825891_s.shtml",
+    "source": "观察者网",
     "topic": "世界时事",
     "region": "cn",
-    "published": "2026-08-01T01:04:16",
-    "author": ""
-  },
-  {
-    "title": "【周刊提前读】贷款定价市场化再迈步 市场交易利率新“锚”如何运作？",
-    "url": "https://database.caixin.com/2026-08-01/102470326.html",
-    "source": "财新网",
-    "topic": "世界时事",
-    "region": "cn",
-    "published": "2026-08-01T00:33:37",
+    "published": "2026-08-02T03:03:22",
     "author": ""
   },
   {
@@ -1179,15 +1134,6 @@
     "author": ""
   },
   {
-    "title": "和美德决裂、赞扬中国…法国这个总统候选人有多头铁",
-    "url": "https://www.guancha.cn/internation/2026_07_30_825624_s.shtml",
-    "source": "观察者网",
-    "topic": "世界时事",
-    "region": "cn",
-    "published": "2026-07-30T14:06:30",
-    "author": ""
-  },
-  {
     "title": "长三角多地发放结婚消费券",
     "url": "https://36kr.com/newsflashes/3920617407196549?f=rss",
     "source": "36氪（兜底）",
@@ -1260,22 +1206,49 @@
     "author": ""
   },
   {
+    "title": "Seedance 2.5",
+    "url": "https://seed.bytedance.com/en/blog/one-take-creation-flexible-referencing-introducing-seedance-2-5",
+    "source": "HackerNews",
+    "topic": "技术圈",
+    "region": "intl",
+    "published": "2026-08-01T20:45:12",
+    "author": "njaremko · 231 pts · 116 comments"
+  },
+  {
+    "title": "Diátaxis",
+    "url": "https://diataxis.fr/",
+    "source": "HackerNews",
+    "topic": "技术圈",
+    "region": "intl",
+    "published": "2026-08-01T20:33:27",
+    "author": "ryanseys · 251 pts · 34 comments"
+  },
+  {
+    "title": "AI financial advice is surprisingly good, especially if you ask right questions",
+    "url": "https://mitsloan.mit.edu/ideas-made-to-matter/ai-financial-advice-surprisingly-good-especially-if-you-ask-right-questions",
+    "source": "HackerNews",
+    "topic": "技术圈",
+    "region": "intl",
+    "published": "2026-08-01T22:25:12",
+    "author": "foxtrot8672 · 227 pts · 205 comments"
+  },
+  {
+    "title": "The Art of 64-bit Assembly",
+    "url": "https://nostarch.com/art-64-bit-assembly-v2",
+    "source": "HackerNews",
+    "topic": "技术圈",
+    "region": "intl",
+    "published": "2026-08-01T14:09:00",
+    "author": "0x54MUR41 · 212 pts · 95 comments"
+  },
+  {
     "title": "How Google helped destroy adoption of RSS feeds (2023)",
     "url": "https://openrss.org/blog/how-google-helped-destroy-adoption-of-rss-feeds",
     "source": "HackerNews",
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-08-01T18:07:07",
-    "author": "pudgywalsh · 388 pts · 138 comments"
-  },
-  {
-    "title": "RipGrep musl binaries occasionally segfault during very-large searches",
-    "url": "https://github.com/BurntSushi/ripgrep/issues/3494",
-    "source": "HackerNews",
-    "topic": "技术圈",
-    "region": "intl",
-    "published": "2026-08-01T12:34:25",
-    "author": "throwaway2037 · 249 pts · 167 comments"
+    "author": "pudgywalsh · 458 pts · 160 comments"
   },
   {
     "title": "NetBSD 11.0",
@@ -1284,43 +1257,7 @@
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-08-01T17:56:41",
-    "author": "jaypatelani · 216 pts · 88 comments"
-  },
-  {
-    "title": "RamenHaus",
-    "url": "https://ramen.haus/",
-    "source": "HackerNews",
-    "topic": "技术圈",
-    "region": "intl",
-    "published": "2026-08-01T08:48:58",
-    "author": "oler · 229 pts · 109 comments"
-  },
-  {
-    "title": "Flint: A Visualization Language for the AI Era",
-    "url": "https://microsoft.github.io/flint-chart/",
-    "source": "HackerNews",
-    "topic": "技术圈",
-    "region": "intl",
-    "published": "2026-08-01T02:45:09",
-    "author": "vinhnx · 255 pts · 67 comments"
-  },
-  {
-    "title": "A Surveillance Treaty in Disguise: Canada Signs UN Cybercrime Convention",
-    "url": "https://www.michaelgeist.ca/2026/07/a-surveillance-treaty-in-disguise-the-trouble-with-canadas-quiet-decision-to-sign-the-un-cybercrime-convention/",
-    "source": "HackerNews",
-    "topic": "技术圈",
-    "region": "intl",
-    "published": "2026-08-01T14:19:51",
-    "author": "iamnothere · 269 pts · 147 comments"
-  },
-  {
-    "title": "Cursor removed cost information from the usage page and CSV export",
-    "url": "https://forum.cursor.com/t/usage-page-to-token-amount-what/167153",
-    "source": "HackerNews",
-    "topic": "技术圈",
-    "region": "intl",
-    "published": "2026-08-01T15:25:21",
-    "author": "EugeneOZ · 304 pts · 139 comments"
+    "author": "jaypatelani · 240 pts · 110 comments"
   },
   {
     "title": "mem0ai/mem0 发布 Mem0 Python SDK (v2.0.15)",
@@ -1368,21 +1305,21 @@
     "author": "kartik-mem0"
   },
   {
+    "title": "siyuan-note/siyuan 发布 SiYuan v3.7.4-alpha.6",
+    "url": "https://github.com/siyuan-note/siyuan/releases/tag/v3.7.4-alpha.6",
+    "source": "GitHubRelease",
+    "topic": "GitHub 动态",
+    "region": "intl",
+    "published": "2026-08-02T04:37:23",
+    "author": "github-actions[bot]"
+  },
+  {
     "title": "siyuan-note/siyuan 发布 SiYuan v3.7.4-alpha.5",
     "url": "https://github.com/siyuan-note/siyuan/releases/tag/v3.7.4-alpha.5",
     "source": "GitHubRelease",
     "topic": "GitHub 动态",
     "region": "intl",
     "published": "2026-08-01T09:20:14",
-    "author": "github-actions[bot]"
-  },
-  {
-    "title": "siyuan-note/siyuan 发布 SiYuan v3.7.4-alpha.4",
-    "url": "https://github.com/siyuan-note/siyuan/releases/tag/v3.7.4-alpha.4",
-    "source": "GitHubRelease",
-    "topic": "GitHub 动态",
-    "region": "intl",
-    "published": "2026-08-01T01:42:34",
     "author": "github-actions[bot]"
   },
   {
@@ -1395,49 +1332,49 @@
     "author": "next-js-bot[bot]"
   },
   {
-    "title": "Healthcare Providers' Perspectives on Nonsegmental Vitiligo Severity, Patient Impact, and Treatment Gaps in the United States and Europe.",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42538872/",
+    "title": "The Frankfurt 'whisper exam' - a case-based collaborative summative examination to assess clinical decision-making skills in hygiene, microbiology and virology- feasibility and evaluation.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42542555/",
     "source": "PubMed",
     "topic": "心理学",
     "region": "intl",
     "published": "2026",
-    "author": "Samantha K Kurosky, Roni Adiri, Tatjana Lukic, Mojgan Sadrarhami"
+    "author": "Lisa Vorbeck, Miriam Ruesseler, Jan Steinmetzer, Niko Kohmer"
   },
   {
-    "title": "Delay and Attrition in Severe Aortic Stenosis: A Four-Checkpoint Systematic Review of Pathway Bottlenecks and Interventions.",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42538860/",
+    "title": "Cardiac vagal activity during in-vivo threat exposure is associated with within-session inhibition of fear and avoidance.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42542495/",
     "source": "PubMed",
     "topic": "心理学",
     "region": "intl",
     "published": "2026",
-    "author": "Nicholas Fanous, Nicolas Zubrzycki, Lachlan Weir, Farhan Mohammed"
+    "author": "Christoph Szeska, Kai Klepzig, Alfons O Hamm, Mathias Weymar"
   },
   {
-    "title": "A mechanistic model integrating multi-source data for operational prediction of rice sheath blight at regional scale.",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42538856/",
+    "title": "Key Real-World Data Management Practices for Registry Evaluation and Quality Assurance.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42542470/",
     "source": "PubMed",
     "topic": "心理学",
     "region": "intl",
     "published": "2026",
-    "author": "Yangyang Tian, Zichao Jin, Roshanak Darvishzadeh, Alice Laborte"
+    "author": "Eurie Choi, Zaoyan Piao, Euna Han"
   },
   {
-    "title": "The Impact of Citicoline/Phosphatidylserine Supplementation on Cognitive Performance and Executive Functions in Mental Disorders: A Systematic Review of Controlled Trials.",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42538853/",
+    "title": "Proteomic comparison of hippocampal neurofibrillary tangles in PART, intermediate Alzheimer's disease and advanced Alzheimer's disease.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42542447/",
     "source": "PubMed",
     "topic": "心理学",
     "region": "intl",
     "published": "2026",
-    "author": "Nazan Gundogan Kucuksahin, Tugce Turan Kaya, Eren Halac, Ekin Sut"
+    "author": "Manon Thierry, Dominique Leitner, Kaleah Balcomb, Tomas Kavanagh"
   },
   {
-    "title": "Longitudinal and dynamic associations of engagement in mindfulness training with emotion regulation difficulties, mindfulness, and self-compassion in community adolescents.",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42538848/",
+    "title": "Advancing Alzheimer's disease research in China: insights, innovations, and future directions from the chinese preclinical Alzheimer's disease study (CPAS).",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42542440/",
     "source": "PubMed",
     "topic": "心理学",
     "region": "intl",
     "published": "2026",
-    "author": "Megan J Moran, Stephen Aichele, Addie Rzonca, Lauren B Shomaker"
+    "author": "Jie Wang, Lin Huang, Binyin Li, Qihao Guo"
   },
   {
     "title": "Contextual Deconvolution for Variance-Stable Demand Sensing: Kernel-Modulated Operators in Promotional Retail",

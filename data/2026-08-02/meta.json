@@ -1,44 +1,45 @@
 {
   "date": "2026-08-02",
   "profile": "kizty",
-  "generated_at": "2026-08-02 01:36",
+  "generated_at": "2026-08-02 04:54",
   "stats": {
     "topics_ran": [
       "AI大事",
       "世界时事",
       "技术圈",
       "GitHub 动态",
+      "心理学",
       "供应链"
     ],
     "total_selected": 34,
-    "total_fetched": 172
+    "total_fetched": 165
   },
   "top3": [
     {
       "topic": "AI大事",
-      "title": "开源权重革命：Simon Willison 播客对谈",
-      "tldr": "Simon Willison 参加 Oxide and Friends 播客，聊了 Kimi K3 证明开源权重模型能跟闭源前沿模型正面竞争、一次意外网络攻击事件，以及 AI 圈大佬联名公开信支持开源权重，还顺带回顾了年初预测。",
+      "title": "Gemini API 托管代理新增 3.6 Flash 与钩子功能",
+      "tldr": "Google 给 Gemini API 的托管代理加了新模型 3.6 Flash 和钩子机制，让开发者能更轻松地构建可靠的生产级 AI 代理，不用自己管基础设施。",
       "score": 9,
-      "url": "https://simonwillison.net/2026/Jul/31/oxide-and-friends/#atom-everything",
-      "source": "Simon Willison",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api-3-6-flash-hooks/",
+      "source": "Google AI Blog",
       "source_count": 1
     },
     {
       "topic": "供应链",
       "title": "上下文反卷积实现方差稳定的需求感知：促销零售中的核调制算子",
-      "tldr": "这篇论文提出一种叫上下文反卷积的两阶段预测方法，把促销冲击和基础需求拆开建模，在零售数据集上显著降低预测误差的波动性，但总成本是否降低取决于持有成本和缺货成本的相对比例。",
+      "tldr": "这篇论文提出一种叫上下文反卷积的两阶段需求预测方法，把促销冲击从平滑基线中分离出来，降低安全库存和牛鞭效应，但只在持有成本较高时才真正省钱。",
       "score": 9,
       "url": "http://arxiv.org/abs/2607.25664v1",
       "source": "arXiv",
       "source_count": 1
     },
     {
-      "topic": "世界时事",
-      "title": "和美德决裂、赞扬中国…法国这个总统候选人有多头铁",
-      "tldr": "法国极左翼候选人梅朗雄主张退出北约、拆法德轴心、亲中反美，民调显示他可能进第二轮，但大概率输给极右翼勒庞，欧盟很慌。",
-      "score": 7,
-      "url": "https://www.guancha.cn/internation/2026_07_30_825624_s.shtml",
-      "source": "观察者网",
+      "topic": "AI大事",
+      "title": "基于 CyberData 的 Data Agent：构建企业数据智能中枢的工程范式｜AICon深圳",
+      "tldr": "这篇文章讲的是 AICon 深圳大会上，一个叫 CyberData 的团队分享怎么用 Data Agent 把企业里散乱的数据变成统一智能中枢，重点讲工程落地的具体做法，不是概念空谈。",
+      "score": 9,
+      "url": "https://www.infoq.cn/article/5KYVt93chdBrtDsvTEcK?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
       "source_count": 1
     }
   ]
