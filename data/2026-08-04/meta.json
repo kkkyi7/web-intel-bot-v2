@@ -1,7 +1,7 @@
 {
   "date": "2026-08-04",
   "profile": "kizty",
-  "generated_at": "2026-08-04 01:35",
+  "generated_at": "2026-08-04 04:43",
   "stats": {
     "topics_ran": [
       "AI大事",
@@ -9,35 +9,35 @@
       "技术圈",
       "GitHub 动态"
     ],
-    "total_selected": 26,
-    "total_fetched": 157
+    "total_selected": 27,
+    "total_fetched": 155
   },
   "top3": [
     {
       "topic": "AI大事",
-      "title": "阿里Qwen3.8-Max发布，性能对标Claude",
-      "tldr": "阿里发布Qwen3.8-Max大模型，在编程、专业工作、长程任务和多模态分析上直接对标Claude，冲进全球第一梯队，对开发者工具和AI应用落地影响很大。",
+      "title": "Anthropic 详解 Claude 的安全隔离架构",
+      "tldr": "Anthropic 公开了 Claude 在网页、开发工具和桌面端约束 AI 代理行为的安全隔离设计，核心是用操作系统级权限控制和数据流隔离，防止 Agent 越权操作或泄露敏感信息。",
       "score": 9,
-      "url": "https://www.qbitai.com/2026/08/465226.html",
-      "source": "量子位",
+      "url": "https://www.infoq.cn/article/0j39GYLo41A3VMv9BoOi?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "source_count": 1
+    },
+    {
+      "topic": "AI大事",
+      "title": "DeepSeek 给大模型划出的「斩杀线」，斩的到底是什么",
+      "tldr": "DeepSeek V4 Flash 靠极低价格和够用的 Agent 能力，一天在单个工具里消耗 8 万亿 Token，把中间价位模型挤出默认选择，重新定义了性价比标准。",
+      "score": 9,
+      "url": "https://www.ifanr.com/1673651?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "source": "爱范儿",
       "source_count": 1
     },
     {
       "topic": "世界时事",
-      "title": "美国开源AI想和中国拼性价比",
-      "tldr": "美国初创公司想靠开源模型对标中国的Kimi、Qwen、DeepSeek，但风投不投钱，因为怕冲击OpenAI和Anthropic的闭源生意。中国开源模型下载量已占全球41%，性价比和迭代速度全面领先。",
+      "title": "美国开源AI，想和中国拼性价比",
+      "tldr": "美国初创公司想靠开源模型跟中国拼性价比，但风投不买账，因为怕冲击自己投的闭源巨头。中国开源模型下载量已全球第一，性价比优势明显。",
       "score": 9,
       "url": "https://www.guancha.cn/internation/2026_08_02_825904_s.shtml",
       "source": "观察者网",
-      "source_count": 1
-    },
-    {
-      "topic": "GitHub 动态",
-      "title": "Claude Code 发布 v2.1.221 更新",
-      "tldr": "Claude Code 发了个小版本更新，主要是修了一堆权限和沙箱漏洞，加了个聚焦视图让聊天界面更清爽，还顺手优化了插件验证和提示词审计工具。",
-      "score": 9,
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.221",
-      "source": "GitHubRelease",
       "source_count": 1
     }
   ]
