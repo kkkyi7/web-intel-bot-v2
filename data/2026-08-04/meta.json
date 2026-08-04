@@ -1,0 +1,44 @@
+{
+  "date": "2026-08-04",
+  "profile": "kizty",
+  "generated_at": "2026-08-04 01:35",
+  "stats": {
+    "topics_ran": [
+      "AI大事",
+      "世界时事",
+      "技术圈",
+      "GitHub 动态"
+    ],
+    "total_selected": 26,
+    "total_fetched": 157
+  },
+  "top3": [
+    {
+      "topic": "AI大事",
+      "title": "阿里Qwen3.8-Max发布，性能对标Claude",
+      "tldr": "阿里发布Qwen3.8-Max大模型，在编程、专业工作、长程任务和多模态分析上直接对标Claude，冲进全球第一梯队，对开发者工具和AI应用落地影响很大。",
+      "score": 9,
+      "url": "https://www.qbitai.com/2026/08/465226.html",
+      "source": "量子位",
+      "source_count": 1
+    },
+    {
+      "topic": "世界时事",
+      "title": "美国开源AI想和中国拼性价比",
+      "tldr": "美国初创公司想靠开源模型对标中国的Kimi、Qwen、DeepSeek，但风投不投钱，因为怕冲击OpenAI和Anthropic的闭源生意。中国开源模型下载量已占全球41%，性价比和迭代速度全面领先。",
+      "score": 9,
+      "url": "https://www.guancha.cn/internation/2026_08_02_825904_s.shtml",
+      "source": "观察者网",
+      "source_count": 1
+    },
+    {
+      "topic": "GitHub 动态",
+      "title": "Claude Code 发布 v2.1.221 更新",
+      "tldr": "Claude Code 发了个小版本更新，主要是修了一堆权限和沙箱漏洞，加了个聚焦视图让聊天界面更清爽，还顺手优化了插件验证和提示词审计工具。",
+      "score": 9,
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.221",
+      "source": "GitHubRelease",
+      "source_count": 1
+    }
+  ]
+}
