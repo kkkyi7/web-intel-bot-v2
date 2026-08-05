@@ -1,7 +1,7 @@
 {
   "date": "2026-08-05",
   "profile": "kizty",
-  "generated_at": "2026-08-05 01:36",
+  "generated_at": "2026-08-05 04:43",
   "stats": {
     "topics_ran": [
       "AI大事",
@@ -11,35 +11,35 @@
       "心理学",
       "供应链"
     ],
-    "total_selected": 38,
-    "total_fetched": 190
+    "total_selected": 40,
+    "total_fetched": 179
   },
   "top3": [
     {
       "topic": "AI大事",
-      "title": "AirLLM：单张4GB显卡跑70B大模型",
-      "tldr": "AirLLM这个开源工具通过分层加载和专家流式加载，让超大模型在极小显存上跑起来，70B模型只需4GB显存，甚至2.8T参数的Kimi K3也能在单卡上运行。",
+      "title": "GPT-5.6 降价 20%-80%，同智商成本四个月降 13 倍",
+      "tldr": "OpenAI 用 GPT-5.6 自己优化推理和调度，把同等智能水平的 token 价格打下来 13 倍，还宣布全线降价，连开源模型的性价比都被比下去了。",
       "score": 9,
-      "url": "https://github.com/lyogavin/airllm",
+      "url": "https://www.latent.space/p/ainews-gpt-56-price-cut-by-20-80",
+      "source": "Latent Space",
+      "source_count": 1
+    },
+    {
+      "topic": "AI大事",
+      "title": "Uber 开源 ADR：企业 AI 代理安全检测与响应系统",
+      "tldr": "Uber 开源了 ADR 系统，专门监控和保护企业里用的 AI 代理（比如 Claude Code、Cursor），能检测攻击、评估风险、阻止危险操作，已在 Uber 生产环境跑起来了。",
+      "score": 9,
+      "url": "https://github.com/uber/ADR",
       "source": "GitHub Trending",
       "source_count": 1
     },
     {
-      "topic": "技术圈",
-      "title": "DeepSeek V4 Flash 单卡跑通 AMD MI300X",
-      "tldr": "有人把 DeepSeek V4 Flash 模型成功部署到单张 AMD MI300X 显卡上，跑出了每秒 150 以上的 token 速度，代价是上下文窗口从 100 万压缩到 25 万，但权重无损。",
-      "score": 9,
-      "url": "https://github.com/ryanzhou/deepseek-v4-flash-mi300x",
-      "source": "HackerNews",
-      "source_count": 1
-    },
-    {
       "topic": "供应链",
-      "title": "陶世智能完成超亿元融资，估值破10亿",
-      "tldr": "一家做微型正交减速器的深圳公司陶世，刚融了超亿元，给灵巧手供关节模组，签了10万台协议。核心是把减速和转角集成一体，体积小精度高，正赶上人形机器人爆发。",
+      "title": "上下文反卷积：促销零售中方差稳定的需求感知",
+      "tldr": "这篇论文提出一种叫上下文反卷积的两阶段预测方法，把促销冲击和稳定基线分开建模，在M5和Favorita数据集上大幅降低预测误差的离散度，但只有在持有成本够高时才能降低总成本。",
       "score": 9,
-      "url": "https://36kr.com/p/3924628805351811?f=rss",
-      "source": "36氪",
+      "url": "http://arxiv.org/abs/2607.25664v1",
+      "source": "arXiv",
       "source_count": 1
     }
   ]
