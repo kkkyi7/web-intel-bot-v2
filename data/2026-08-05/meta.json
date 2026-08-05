@@ -1,0 +1,46 @@
+{
+  "date": "2026-08-05",
+  "profile": "kizty",
+  "generated_at": "2026-08-05 01:36",
+  "stats": {
+    "topics_ran": [
+      "AI大事",
+      "世界时事",
+      "技术圈",
+      "GitHub 动态",
+      "心理学",
+      "供应链"
+    ],
+    "total_selected": 38,
+    "total_fetched": 190
+  },
+  "top3": [
+    {
+      "topic": "AI大事",
+      "title": "AirLLM：单张4GB显卡跑70B大模型",
+      "tldr": "AirLLM这个开源工具通过分层加载和专家流式加载，让超大模型在极小显存上跑起来，70B模型只需4GB显存，甚至2.8T参数的Kimi K3也能在单卡上运行。",
+      "score": 9,
+      "url": "https://github.com/lyogavin/airllm",
+      "source": "GitHub Trending",
+      "source_count": 1
+    },
+    {
+      "topic": "技术圈",
+      "title": "DeepSeek V4 Flash 单卡跑通 AMD MI300X",
+      "tldr": "有人把 DeepSeek V4 Flash 模型成功部署到单张 AMD MI300X 显卡上，跑出了每秒 150 以上的 token 速度，代价是上下文窗口从 100 万压缩到 25 万，但权重无损。",
+      "score": 9,
+      "url": "https://github.com/ryanzhou/deepseek-v4-flash-mi300x",
+      "source": "HackerNews",
+      "source_count": 1
+    },
+    {
+      "topic": "供应链",
+      "title": "陶世智能完成超亿元融资，估值破10亿",
+      "tldr": "一家做微型正交减速器的深圳公司陶世，刚融了超亿元，给灵巧手供关节模组，签了10万台协议。核心是把减速和转角集成一体，体积小精度高，正赶上人形机器人爆发。",
+      "score": 9,
+      "url": "https://36kr.com/p/3924628805351811?f=rss",
+      "source": "36氪",
+      "source_count": 1
+    }
+  ]
+}
