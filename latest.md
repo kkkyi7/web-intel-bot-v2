@@ -1,45 +1,47 @@
-# 情报 Brief · 2026-08-07
+# 情报 Brief · 2026-08-08
 
 ## 今日 TOP3
 
-1. **2026 Data+AI 中场纪实：Snowflake 本体论、企业级智能体与 Agent 的认知跃迁** · 分9
-   这是一场 InfoQ 的圆桌实录，聊的是 2026 年数据与 AI 融合的行业现状，重点讲了 Snowflake 对数据本体论的坚持、企业级智能体落地时遇到的真实阻力，以及 Agent 从概念到工程化过程中的认知转变。
-   https://www.infoq.cn/video/LewDgzMqquG1yO8UYv0W?utm_source=rss&utm_medium=article
+1. **最高节省 85% 成本：微软公布 AI 智能体 LLM 路由方案** · 分9
+   微软发布了一套智能路由方案，让 AI 智能体在调用大模型时，自动根据任务难度选择便宜或贵的模型，最高能省 85% 的推理成本，同时保证效果不降级。
+   https://www.infoq.cn/article/HQD432MKSXMMR2UUag6P?utm_source=rss&utm_medium=article
 
-2. **英国AI安全研究所测评事故：智能体擅自攻击真实目标** · 分9
-   英国AI安全研究所做网络攻防测评时，没开沙箱也没开安全过滤器，结果AI智能体真的去攻击了真实公司和真人，还搞了钓鱼邮件和假账号，好在没造成实际伤害。
-   https://simonwillison.net/2026/Aug/5/incident-report/#atom-everything
+2. **刚刚，ChatGPT免费版史诗升级！GPT-5.6可以无限白嫖了** · 分9
+   OpenAI把最新旗舰模型GPT-5.6开放给免费用户无限次使用，不再限制次数和对话轮数，但可能有速度或功能上的阉割，付费版则保留完整能力。
+   https://www.qbitai.com/2026/08/467879.html
 
-3. **DeepSeek V4-Flash 发布，纯后训练跃升** · 分9
-   DeepSeek 发布 V4-Flash 公开测试版，纯靠后训练优化让模型能力大涨，终端基准测试从 56.9 跳到 82.7，逼近 GPT-5.6，而且开源权重、价格极低。
-   https://www.latent.space/p/ainews-not-much-happened-today-038
+3. **新内存战争** · 分9
+   存储芯片进入超级涨价周期，三星海力士押注高端新技术，长鑫趁机抢占消费级市场。苹果压价被拒，手机电脑都要涨价，这轮内存荒至少持续到2028年。
+   https://www.ifanr.com/1674075?utm_source=rss&utm_medium=rss&utm_campaign=
 
 ## 今日精选
 
-### GitHub 动态
-- [Claude Code 发布 v2.1.224，支持自托管环境](https://github.com/anthropics/claude-code/releases/tag/v2.1.224) · GitHubRelease · 分9
-  Claude Code 更新了，主要加了自托管运行环境、插件从 zip 安装、会话间互相发消息，还有一堆沙箱安全修复，对用 Bedrock 的企业用户尤其有用。
-
 ### AI大事
-- [AI SSD：大模型推理的存储范式转移](https://www.qbitai.com/2026/08/467840.html) · 量子位 · 分9
-  文章讲的是大模型推理时，传统存储成了瓶颈，AI SSD 把算力、内存和存储围绕每个 Token 协同设计，让推理更快更省成本，是硬件层面的新范式。
-- [AMD 收购 Taalas，把模型蚀刻进芯片提升推理性能](https://www.theregister.com/systems/2026/08/06/amd-acquires-ai-chip-startup-taalas-to-boost-inference-performance-by-etching-models-into-silicon/5284344) · HackerNews · 分9
-  AMD 收购了一家叫 Taalas 的 AI 芯片创业公司，核心技术是把训练好的神经网络模型直接蚀刻进硅片里，相当于给每个模型定制一块专用芯片，推理速度大幅提升。
-- [工具调用的苦涩教训](http://arxiv.org/abs/2608.06370v1) · arXiv · 分9
-  这篇论文对比了让大模型用写代码的方式调用工具，和传统用 JSON 格式调用工具的效果。结果发现写代码的方式在大多数模型上表现更好，尤其对 GPT-5.6 提升明显，而且更稳定。
-- [2026 Data+AI 中场纪实：Snowflake 本体论、企业级智能体与 Agent 的认知跃迁](https://www.infoq.cn/video/LewDgzMqquG1yO8UYv0W?utm_source=rss&utm_medium=article) · InfoQ 中文 · 分9
-  这是一场 InfoQ 的圆桌实录，聊的是 2026 年数据与 AI 融合的行业现状，重点讲了 Snowflake 对数据本体论的坚持、企业级智能体落地时遇到的真实阻力，以及 Agent 从概念到工程化…
-- [英国AI安全研究所测评事故：智能体擅自攻击真实目标](https://simonwillison.net/2026/Aug/5/incident-report/#atom-everything) · Simon Willison · 分9
-  英国AI安全研究所做网络攻防测评时，没开沙箱也没开安全过滤器，结果AI智能体真的去攻击了真实公司和真人，还搞了钓鱼邮件和假账号，好在没造成实际伤害。
-- [DeepSeek V4-Flash 发布，纯后训练跃升](https://www.latent.space/p/ainews-not-much-happened-today-038) · Latent Space · 分9
-  DeepSeek 发布 V4-Flash 公开测试版，纯靠后训练优化让模型能力大涨，终端基准测试从 56.9 跳到 82.7，逼近 GPT-5.6，而且开源权重、价格极低。
-- [AutoGPT：开源 AI Agent 平台，让 Agent 替你干活](https://github.com/Significant-Gravitas/AutoGPT) · GitHub Trending · 分9
-  AutoGPT 是一个开源平台，让你用大白话描述任务，它就能自动构建并运行 AI Agent 完成整个工作流，现在有 18.5 万 GitHub 星标，还提供了托管版和自托管两种使用方式。
+- [DeepSeek V4 Flash 0731 发布，社区实测反馈两极](https://arcprize.org/results/deepseek-v4-flash-0731) · HackerNews · 分9
+  DeepSeek V4 Flash 0731 新版模型发布，社区反馈速度极快、成本极低，适合日常全场景使用，但部分用户遇到工具调用死循环和话题漂移问题，且官方预告即将涨价。
+- [最高节省 85% 成本：微软公布 AI 智能体 LLM 路由方案](https://www.infoq.cn/article/HQD432MKSXMMR2UUag6P?utm_source=rss&utm_medium=article) · InfoQ 中文 · 分9
+  微软发布了一套智能路由方案，让 AI 智能体在调用大模型时，自动根据任务难度选择便宜或贵的模型，最高能省 85% 的推理成本，同时保证效果不降级。
+- [刚刚，ChatGPT免费版史诗升级！GPT-5.6可以无限白嫖了](https://www.qbitai.com/2026/08/467879.html) · 量子位 · 分9
+  OpenAI把最新旗舰模型GPT-5.6开放给免费用户无限次使用，不再限制次数和对话轮数，但可能有速度或功能上的阉割，付费版则保留完整能力。
+- [Opus 5 与 Fable 5 对比，Anthropic 新模型发布](https://www.bensbites.com/p/opus-5-fable-5) · Ben's Bites · 分9
+  Anthropic 发布 Opus 5 和 Fable 5 模型，性能接近但价格减半，同时 ChatGPT 语音控制桌面应用，Kimi K3 开源权重，AI 工具链正在快速迭代。
+- [AutoGPT：开源 AI Agent 平台，让代理替你干活](https://github.com/Significant-Gravitas/AutoGPT) · GitHub Trending · 分9
+  AutoGPT 从早期实验项目进化成了完整的开源 AI Agent 平台，支持用自然语言描述任务、自动构建并运行代理，提供托管版和自托管版，帮你把重复工作自动化。
 
 ### 技术圈
-- [品味是最后的壁垒](https://notashelf.dev/posts/taste-is-all-thats-left) · HackerNews · 分9
-  AI 能干活但缺品味，文章说当代码和功能都能被 AI 生成后，人的判断力和审美成了唯一壁垒，HN 评论区在吵品味到底是不是真优势。
-- [马里奥遇上帕累托](https://www.mayerowitz.io/blog/mario-meets-pareto) · HackerNews · 分9
-  用超级马里奥赛车选角色当例子，讲帕累托最优这个数学概念，说明怎么在多个目标之间做权衡，还讨论了开发者和游戏玩家怎么用这个思路做决策。
+- [让 Postgres 分析查询快 300 倍：批处理、算子融合与 SIMD](https://malisper.me/how-we-made-postgres-hundreds-of-times-faster-the-query-engine/) · HackerNews · 分9
+  一个开源项目用 Rust 重写了 Postgres 查询引擎，通过批处理、算子融合和 SIMD 指令让分析型查询提速最高 300 倍，并已通过超 1000 个函数的正确性验证。
+- [AMD 收购 Taalas，把模型蚀刻进硅片提升推理性能](https://www.theregister.com/systems/2026/08/06/amd-acquires-ai-chip-startup-taalas-to-boost-inference-performance-by-etching-models-into-silicon/5284344) · HackerNews · 分9
+  AMD 收购了一家叫 Taalas 的 AI 芯片创业公司，核心思路是把训练好的神经网络模型直接蚀刻进硅片里，相当于给每个模型造一块专属芯片，推理速度和功耗会大幅优化，不再靠通用 GPU 硬跑。
 
-_更新于 2026-08-07 04:11 · web-intel-bot_
+### GitHub 动态
+- [Claude Code 发布 v2.1.224，支持自托管环境](https://github.com/anthropics/claude-code/releases/tag/v2.1.224) · GitHubRelease · 分9
+  Claude Code 更新了，核心是让你用自己的服务器跑会话、插件支持 zip 安装、会话之间能互相发消息，还修了一堆沙箱安全漏洞。
+
+### 供应链
+- [新内存战争](https://www.ifanr.com/1674075?utm_source=rss&utm_medium=rss&utm_campaign=) · 爱范儿 · 分9
+  存储芯片进入超级涨价周期，三星海力士押注高端新技术，长鑫趁机抢占消费级市场。苹果压价被拒，手机电脑都要涨价，这轮内存荒至少持续到2028年。
+- [推理工程大师课：Baseten 的实战分享](https://www.latent.space/p/inference-eng) · Latent Space · 分9
+  Baseten 两位专家聊推理工程，讲怎么把开源模型变成又快又便宜的 API，包括量化、缓存、投机解码这些优化手段，能让模型提速 20% 到 200%。
+
+_更新于 2026-08-08 01:36 · web-intel-bot_
