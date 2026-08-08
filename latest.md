@@ -3,45 +3,43 @@
 ## 今日 TOP3
 
 1. **最高节省 85% 成本：微软公布 AI 智能体 LLM 路由方案** · 分9
-   微软发布了一套智能路由方案，让 AI 智能体在调用大模型时，自动根据任务难度选择便宜或贵的模型，最高能省 85% 的推理成本，同时保证效果不降级。
+   微软发了个新方案，能让 AI 智能体在调用大模型时自动选便宜的模型，最高省 85% 成本。相当于给每个请求配了个精明的采购，不再一律用最贵的旗舰模型。
    https://www.infoq.cn/article/HQD432MKSXMMR2UUag6P?utm_source=rss&utm_medium=article
 
-2. **刚刚，ChatGPT免费版史诗升级！GPT-5.6可以无限白嫖了** · 分9
-   OpenAI把最新旗舰模型GPT-5.6开放给免费用户无限次使用，不再限制次数和对话轮数，但可能有速度或功能上的阉割，付费版则保留完整能力。
+2. **ChatGPT免费版史诗升级！GPT-5.6可以无限白嫖了** · 分9
+   OpenAI把最新的GPT-5.6模型开放给免费用户无限次使用，不再限制对话轮数和高级功能，直接对标谷歌Gemini的免费策略，AI大模型竞争进入白热化。
    https://www.qbitai.com/2026/08/467879.html
 
-3. **新内存战争** · 分9
-   存储芯片进入超级涨价周期，三星海力士押注高端新技术，长鑫趁机抢占消费级市场。苹果压价被拒，手机电脑都要涨价，这轮内存荒至少持续到2028年。
-   https://www.ifanr.com/1674075?utm_source=rss&utm_medium=rss&utm_campaign=
+3. **AMD 收购 Taalas，把模型蚀刻进芯片提升推理性能** · 分9
+   AMD 收购了一家叫 Taalas 的 AI 芯片创业公司，核心思路是把训练好的神经网络直接蚀刻进硅片里，让模型推理速度大幅提升、功耗大幅下降，相当于把软件模型变成硬件本身。
+   https://www.theregister.com/systems/2026/08/06/amd-acquires-ai-chip-startup-taalas-to-boost-inference-performance-by-etching-models-into-silicon/5284344
 
 ## 今日精选
 
 ### AI大事
-- [DeepSeek V4 Flash 0731 发布，社区实测反馈两极](https://arcprize.org/results/deepseek-v4-flash-0731) · HackerNews · 分9
-  DeepSeek V4 Flash 0731 新版模型发布，社区反馈速度极快、成本极低，适合日常全场景使用，但部分用户遇到工具调用死循环和话题漂移问题，且官方预告即将涨价。
+- [Codex 加 GPT-5.6 Sol Ultra 制作浣熊抢劫游戏](https://simonwillison.net/2026/Aug/7/moonlight-mayhem/#atom-everything) · Simon Willison · 分9
+  Simon 用同一个游戏创意分别让 Claude Fable 5 和 Codex 加 GPT-5.6 Sol Ultra 做游戏，后者生成的版本更复杂更好玩，但有个大眼珠 bug 需要手动修。
+- [DeepSeek V4 Flash 0731 发布](https://arcprize.org/results/deepseek-v4-flash-0731) · HackerNews · 分9
+  DeepSeek 发布了新版 V4 Flash 模型，速度极快、成本极低，本地跑得动，但有人实测发现它偏科严重，复杂任务容易翻车，社区评价两极分化。
 - [最高节省 85% 成本：微软公布 AI 智能体 LLM 路由方案](https://www.infoq.cn/article/HQD432MKSXMMR2UUag6P?utm_source=rss&utm_medium=article) · InfoQ 中文 · 分9
-  微软发布了一套智能路由方案，让 AI 智能体在调用大模型时，自动根据任务难度选择便宜或贵的模型，最高能省 85% 的推理成本，同时保证效果不降级。
-- [刚刚，ChatGPT免费版史诗升级！GPT-5.6可以无限白嫖了](https://www.qbitai.com/2026/08/467879.html) · 量子位 · 分9
-  OpenAI把最新旗舰模型GPT-5.6开放给免费用户无限次使用，不再限制次数和对话轮数，但可能有速度或功能上的阉割，付费版则保留完整能力。
-- [Opus 5 与 Fable 5 对比，Anthropic 新模型发布](https://www.bensbites.com/p/opus-5-fable-5) · Ben's Bites · 分9
-  Anthropic 发布 Opus 5 和 Fable 5 模型，性能接近但价格减半，同时 ChatGPT 语音控制桌面应用，Kimi K3 开源权重，AI 工具链正在快速迭代。
-- [AutoGPT：开源 AI Agent 平台，让代理替你干活](https://github.com/Significant-Gravitas/AutoGPT) · GitHub Trending · 分9
-  AutoGPT 从早期实验项目进化成了完整的开源 AI Agent 平台，支持用自然语言描述任务、自动构建并运行代理，提供托管版和自托管版，帮你把重复工作自动化。
+  微软发了个新方案，能让 AI 智能体在调用大模型时自动选便宜的模型，最高省 85% 成本。相当于给每个请求配了个精明的采购，不再一律用最贵的旗舰模型。
+- [ChatGPT免费版史诗升级！GPT-5.6可以无限白嫖了](https://www.qbitai.com/2026/08/467879.html) · 量子位 · 分9
+  OpenAI把最新的GPT-5.6模型开放给免费用户无限次使用，不再限制对话轮数和高级功能，直接对标谷歌Gemini的免费策略，AI大模型竞争进入白热化。
+- [工具调用的苦涩教训](http://arxiv.org/abs/2608.06370v1) · arXiv · 分9
+  这篇论文对比了让大模型用写代码的方式调用工具，和传统用 JSON 格式调用工具的效果。结果发现写代码的方式在大多数模型上表现更好，尤其对 GPT-5.6 提升明显，而且更稳定。
 
 ### 技术圈
-- [让 Postgres 分析查询快 300 倍：批处理、算子融合与 SIMD](https://malisper.me/how-we-made-postgres-hundreds-of-times-faster-the-query-engine/) · HackerNews · 分9
-  一个开源项目用 Rust 重写了 Postgres 查询引擎，通过批处理、算子融合和 SIMD 指令让分析型查询提速最高 300 倍，并已通过超 1000 个函数的正确性验证。
-- [AMD 收购 Taalas，把模型蚀刻进硅片提升推理性能](https://www.theregister.com/systems/2026/08/06/amd-acquires-ai-chip-startup-taalas-to-boost-inference-performance-by-etching-models-into-silicon/5284344) · HackerNews · 分9
-  AMD 收购了一家叫 Taalas 的 AI 芯片创业公司，核心思路是把训练好的神经网络模型直接蚀刻进硅片里，相当于给每个模型造一块专属芯片，推理速度和功耗会大幅优化，不再靠通用 GPU 硬跑。
+- [让 Postgres 分析查询提速 300 倍：批处理、算子融合与 SIMD](https://malisper.me/how-we-made-postgres-hundreds-of-times-faster-the-query-engine/) · HackerNews · 分9
+  一个开源项目 pgrust 用 Rust 重写了 Postgres 查询引擎，通过批处理、算子融合和 SIMD 指令让分析型查询快了几百倍，还通过了上千个函数的正确性验证。
+- [AMD 收购 Taalas，把模型蚀刻进芯片提升推理性能](https://www.theregister.com/systems/2026/08/06/amd-acquires-ai-chip-startup-taalas-to-boost-inference-performance-by-etching-models-into-silicon/5284344) · HackerNews · 分9
+  AMD 收购了一家叫 Taalas 的 AI 芯片创业公司，核心思路是把训练好的神经网络直接蚀刻进硅片里，让模型推理速度大幅提升、功耗大幅下降，相当于把软件模型变成硬件本身。
+- [Oracle 禁止 OpenJDK 使用 AI 生成代码](https://app.dealroom.co/news/feed/oracle-bans-ai-generated-code-from-openjdk-despite-ellison-s-claim-oracle-isn-t-writing-its-own-code) · HackerNews · 分8
+  Oracle 对 OpenJDK 项目发布临时政策，禁止贡献者提交 AI 生成的代码，理由是版权归属不明和审查负担过重，但 Oracle 自家却在大规模用 AI 写代码，这事挺双标。
 
 ### GitHub 动态
-- [Claude Code 发布 v2.1.224，支持自托管环境](https://github.com/anthropics/claude-code/releases/tag/v2.1.224) · GitHubRelease · 分9
-  Claude Code 更新了，核心是让你用自己的服务器跑会话、插件支持 zip 安装、会话之间能互相发消息，还修了一堆沙箱安全漏洞。
+- [Claude Code 发布 v2.1.226 稳定性更新](https://github.com/anthropics/claude-code/releases/tag/v2.1.226) · GitHubRelease · 分8
+  Anthropic 给 Claude Code 命令行工具发了个小版本更新，主要修 bug 和提升稳定性，没有新功能，属于常规迭代。
+- [Anthropic Python SDK 更新：新增会话预算与工具](https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.121.0) · GitHubRelease · 分8
+  Anthropic 官方 Python SDK 发新版本，加了会话预算、顾问工具、固定推理位置和从 GitHub 自动加载技能等功能，还移除了一些旧模型。
 
-### 供应链
-- [新内存战争](https://www.ifanr.com/1674075?utm_source=rss&utm_medium=rss&utm_campaign=) · 爱范儿 · 分9
-  存储芯片进入超级涨价周期，三星海力士押注高端新技术，长鑫趁机抢占消费级市场。苹果压价被拒，手机电脑都要涨价，这轮内存荒至少持续到2028年。
-- [推理工程大师课：Baseten 的实战分享](https://www.latent.space/p/inference-eng) · Latent Space · 分9
-  Baseten 两位专家聊推理工程，讲怎么把开源模型变成又快又便宜的 API，包括量化、缓存、投机解码这些优化手段，能让模型提速 20% 到 200%。
-
-_更新于 2026-08-08 01:36 · web-intel-bot_
+_更新于 2026-08-08 03:08 · web-intel-bot_

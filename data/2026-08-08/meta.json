@@ -1,24 +1,23 @@
 {
   "date": "2026-08-08",
   "profile": "kizty",
-  "generated_at": "2026-08-08 01:36",
+  "generated_at": "2026-08-08 03:08",
   "stats": {
     "topics_ran": [
       "AI大事",
       "世界时事",
       "技术圈",
       "GitHub 动态",
-      "心理学",
-      "供应链"
+      "心理学"
     ],
-    "total_selected": 41,
-    "total_fetched": 174
+    "total_selected": 33,
+    "total_fetched": 169
   },
   "top3": [
     {
       "topic": "AI大事",
       "title": "最高节省 85% 成本：微软公布 AI 智能体 LLM 路由方案",
-      "tldr": "微软发布了一套智能路由方案，让 AI 智能体在调用大模型时，自动根据任务难度选择便宜或贵的模型，最高能省 85% 的推理成本，同时保证效果不降级。",
+      "tldr": "微软发了个新方案，能让 AI 智能体在调用大模型时自动选便宜的模型，最高省 85% 成本。相当于给每个请求配了个精明的采购，不再一律用最贵的旗舰模型。",
       "score": 9,
       "url": "https://www.infoq.cn/article/HQD432MKSXMMR2UUag6P?utm_source=rss&utm_medium=article",
       "source": "InfoQ 中文",
@@ -26,20 +25,20 @@
     },
     {
       "topic": "AI大事",
-      "title": "刚刚，ChatGPT免费版史诗升级！GPT-5.6可以无限白嫖了",
-      "tldr": "OpenAI把最新旗舰模型GPT-5.6开放给免费用户无限次使用，不再限制次数和对话轮数，但可能有速度或功能上的阉割，付费版则保留完整能力。",
+      "title": "ChatGPT免费版史诗升级！GPT-5.6可以无限白嫖了",
+      "tldr": "OpenAI把最新的GPT-5.6模型开放给免费用户无限次使用，不再限制对话轮数和高级功能，直接对标谷歌Gemini的免费策略，AI大模型竞争进入白热化。",
       "score": 9,
       "url": "https://www.qbitai.com/2026/08/467879.html",
       "source": "量子位",
       "source_count": 1
     },
     {
-      "topic": "供应链",
-      "title": "新内存战争",
-      "tldr": "存储芯片进入超级涨价周期，三星海力士押注高端新技术，长鑫趁机抢占消费级市场。苹果压价被拒，手机电脑都要涨价，这轮内存荒至少持续到2028年。",
+      "topic": "技术圈",
+      "title": "AMD 收购 Taalas，把模型蚀刻进芯片提升推理性能",
+      "tldr": "AMD 收购了一家叫 Taalas 的 AI 芯片创业公司，核心思路是把训练好的神经网络直接蚀刻进硅片里，让模型推理速度大幅提升、功耗大幅下降，相当于把软件模型变成硬件本身。",
       "score": 9,
-      "url": "https://www.ifanr.com/1674075?utm_source=rss&utm_medium=rss&utm_campaign=",
-      "source": "爱范儿",
+      "url": "https://www.theregister.com/systems/2026/08/06/amd-acquires-ai-chip-startup-taalas-to-boost-inference-performance-by-etching-models-into-silicon/5284344",
+      "source": "HackerNews",
       "source_count": 1
     }
   ]

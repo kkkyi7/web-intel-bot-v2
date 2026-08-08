@@ -1,12 +1,84 @@
 [
   {
+    "title": "The Bitter Lesson of Tool Calling",
+    "url": "http://arxiv.org/abs/2608.06370v1",
+    "source": "arXiv",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-08-06T17:58:32",
+    "author": "Ishan Patel, Sahil Sen, Elias Lumer, Vamse Kumar Subbiah"
+  },
+  {
+    "title": "Tracing the Heart: An Evidence-Linked Pipeline for Heart-Failure Feature Engineering",
+    "url": "http://arxiv.org/abs/2608.06366v1",
+    "source": "arXiv",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-08-06T17:57:37",
+    "author": "Soorya Ram Shimgekar, Michelle Hu, Dorisa Shehi, Daniel Kang, Roy Ka-Wei Lee, Koustuv Saha, Christian Poellabauer, Christopher Lee, Sajeev Singh, Piyum Zonooz, Navin Kumar, Zeeshan Ahmed, Priyadarshin"
+  },
+  {
+    "title": "AV-AIVAT: 74x Cheaper Agent Evaluation with Certified Anytime-Valid Stopping in Imperfect-Information Games",
+    "url": "http://arxiv.org/abs/2608.06362v1",
+    "source": "arXiv",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-08-06T17:57:11",
+    "author": "Boning Li, Yu Chen, Longbo Huang"
+  },
+  {
+    "title": "RP-OPSD: Reasoning-Pivot-Guided On-Policy Self-Distillation for Multilingual Reasoning Transfer",
+    "url": "http://arxiv.org/abs/2608.06347v1",
+    "source": "arXiv",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-08-06T17:52:06",
+    "author": "Xinye Wang, Junxiao Liu, Shujian Huang"
+  },
+  {
+    "title": "TRAJDEBUG: Tracing Error Lifecycle to Identify Critical Failures in Long-Horizon Agent Trajectories",
+    "url": "http://arxiv.org/abs/2608.06346v1",
+    "source": "arXiv",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-08-06T17:51:20",
+    "author": "Yunjia Qi, Zehua Yin, Xintong Shi, Hao Peng, Songyuanyi Lu, Yixian Liu, Richeng Xuan, Yuhong Liu, Zhichao Hu, Xiaozhi Wang, Lei Hou, Bin Xu, Juanzi Li"
+  },
+  {
+    "title": "Tytan: Interactive Neurosymbolic Construction of Analytic Semantic Schemas from Relational Data",
+    "url": "http://arxiv.org/abs/2608.06331v1",
+    "source": "arXiv",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-08-06T17:40:26",
+    "author": "Donna Hooshmand, Shubham Shahi, Cameron Barrie, Abhratanu Dutta, Marko Sterbentz, Harper Pack, Kristian J. Hammond"
+  },
+  {
+    "title": "Benchmarking the Benchmarks: Evaluating Benchmarks for Conversational Agents",
+    "url": "http://arxiv.org/abs/2608.06329v1",
+    "source": "arXiv",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-08-06T17:39:21",
+    "author": "Noam Koren, Roy Bar-Haim, Abigail Goldsteen"
+  },
+  {
+    "title": "Fair and Efficient Balanced Allocations for Additive Valuations",
+    "url": "http://arxiv.org/abs/2608.06325v1",
+    "source": "arXiv",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-08-06T17:38:41",
+    "author": "Benjamin Cookson, Nisarg Shah, Paritosh Verma"
+  },
+  {
     "title": "DeepSeek V4 Flash 0731",
     "url": "https://arcprize.org/results/deepseek-v4-flash-0731",
     "source": "HackerNews",
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-08-07T17:56:20",
-    "author": "tosh · 456 pts · 268 comments"
+    "author": "tosh · 490 pts · 299 comments"
   },
   {
     "title": "Assembly Hall of Shame",
@@ -15,7 +87,7 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-08-07T18:01:30",
-    "author": "piotrgrabowski · 247 pts · 56 comments"
+    "author": "piotrgrabowski · 270 pts · 65 comments"
   },
   {
     "title": "What happens if an entire class of workers loses faith in their careers",
@@ -24,7 +96,7 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-08-07T12:42:27",
-    "author": "RickJWagner · 412 pts · 531 comments"
+    "author": "RickJWagner · 458 pts · 564 comments"
   },
   {
     "title": "Oracle bans AI-generated code from OpenJDK",
@@ -33,16 +105,7 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-08-07T17:36:30",
-    "author": "delduca · 385 pts · 257 comments"
-  },
-  {
-    "title": "Making Postgres 300x faster for analytics: batching, operator fusion, and SIMD",
-    "url": "https://malisper.me/how-we-made-postgres-hundreds-of-times-faster-the-query-engine/",
-    "source": "HackerNews",
-    "topic": "AI大事",
-    "region": "intl",
-    "published": "2026-08-07T11:00:35",
-    "author": "poly2it · 244 pts · 118 comments"
+    "author": "delduca · 402 pts · 271 comments"
   },
   {
     "title": "2027 memory capacity is reportedly sold out",
@@ -51,16 +114,16 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-08-07T07:58:24",
-    "author": "inigyou · 233 pts · 222 comments"
+    "author": "inigyou · 267 pts · 250 comments"
   },
   {
-    "title": "A year of fighting scrapers on my 1.5 million-page website",
-    "url": "https://patronview.com/news/99-percent-of-my-website-traffic-is-bots/",
+    "title": "Making Postgres 300x faster for analytics: batching, operator fusion, and SIMD",
+    "url": "https://malisper.me/how-we-made-postgres-hundreds-of-times-faster-the-query-engine/",
     "source": "HackerNews",
     "topic": "AI大事",
     "region": "intl",
-    "published": "2026-08-07T14:51:57",
-    "author": "petercooper · 372 pts · 352 comments"
+    "published": "2026-08-07T11:00:35",
+    "author": "poly2it · 258 pts · 120 comments"
   },
   {
     "title": "New Mexico court orders Meta to pay $567m over harms to children’s mental health",
@@ -69,7 +132,16 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-08-07T00:06:28",
-    "author": "boplicity · 716 pts · 391 comments"
+    "author": "boplicity · 734 pts · 396 comments"
+  },
+  {
+    "title": "A year of fighting scrapers on my 1.5 million-page website",
+    "url": "https://patronview.com/news/99-percent-of-my-website-traffic-is-bots/",
+    "source": "HackerNews",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-08-07T14:51:57",
+    "author": "petercooper · 385 pts · 363 comments"
   },
   {
     "title": "AMD acquires Taalas to boost inference performance by etching models in silicon",
@@ -78,7 +150,16 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-08-06T20:23:11",
-    "author": "itvision · 883 pts · 666 comments"
+    "author": "itvision · 892 pts · 669 comments"
+  },
+  {
+    "title": "金融监管领域的 Harness 实践：让知识与数据驱动 Agent 稳定运行｜AICon深圳",
+    "url": "https://www.infoq.cn/article/hQp9boye2rpPH7ZWUvXL?utm_source=rss&utm_medium=article",
+    "source": "InfoQ 中文",
+    "topic": "AI大事",
+    "region": "cn",
+    "published": "2026-08-08T10:00:00",
+    "author": "AICon 全球人工智能开发与应用大会"
   },
   {
     "title": "Gartner发布2026中国网络安全技术成熟度曲线，AI安全开始“挤泡沫”",
@@ -162,15 +243,6 @@
     "author": "HarmonyOS"
   },
   {
-    "title": "HBM 不够用了，AI SSD 迎来爆发前夜",
-    "url": "https://www.infoq.cn/article/sQW5F63ZP4QMyhlWAzQi?utm_source=rss&utm_medium=article",
-    "source": "InfoQ 中文",
-    "topic": "AI大事",
-    "region": "cn",
-    "published": "2026-08-07T10:38:28",
-    "author": "Ian"
-  },
-  {
     "title": "阿里推出国内首个AI语音平台CosyVoice Studio，将语义理解融入语音能力",
     "url": "https://www.qbitai.com/2026/08/468324.html",
     "source": "量子位",
@@ -187,6 +259,15 @@
     "region": "cn",
     "published": "2026-08-07T06:21:05",
     "author": "程浅"
+  },
+  {
+    "title": "openJiuwen发布业界首个企业级智能体分布式蜂群架构，联合邮储成功落地金融生产环境",
+    "url": "https://www.qbitai.com/2026/08/468305.html",
+    "source": "量子位",
+    "topic": "AI大事",
+    "region": "cn",
+    "published": "2026-08-07T06:18:51",
+    "author": "思邈"
   },
   {
     "title": "AI圈功能狂卷，付费寥寥，Keep正在试一条新路",
@@ -234,8 +315,8 @@
     "author": "思邈"
   },
   {
-    "title": "TencentCloud/TencentDB-Agent-Memory",
-    "url": "https://github.com/TencentCloud/TencentDB-Agent-Memory",
+    "title": "PrimeIntellect-ai/prime-agent",
+    "url": "https://github.com/PrimeIntellect-ai/prime-agent",
     "source": "GitHub Trending",
     "topic": "AI大事",
     "region": "intl",
@@ -270,6 +351,15 @@
     "author": ""
   },
   {
+    "title": "obra/superpowers",
+    "url": "https://github.com/obra/superpowers",
+    "source": "GitHub Trending",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "",
+    "author": ""
+  },
+  {
     "title": "goauthentik/authentik",
     "url": "https://github.com/goauthentik/authentik",
     "source": "GitHub Trending",
@@ -279,8 +369,8 @@
     "author": ""
   },
   {
-    "title": "huangruiteng/loopx",
-    "url": "https://github.com/huangruiteng/loopx",
+    "title": "semantica-agi/semantica",
+    "url": "https://github.com/semantica-agi/semantica",
     "source": "GitHub Trending",
     "topic": "AI大事",
     "region": "intl",
@@ -288,8 +378,17 @@
     "author": ""
   },
   {
-    "title": "google/guava",
-    "url": "https://github.com/google/guava",
+    "title": "666ghj/MiroFish",
+    "url": "https://github.com/666ghj/MiroFish",
+    "source": "GitHub Trending",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "",
+    "author": ""
+  },
+  {
+    "title": "chenyme/grok2api",
+    "url": "https://github.com/chenyme/grok2api",
     "source": "GitHub Trending",
     "topic": "AI大事",
     "region": "intl",
@@ -299,24 +398,6 @@
   {
     "title": "Significant-Gravitas/AutoGPT",
     "url": "https://github.com/Significant-Gravitas/AutoGPT",
-    "source": "GitHub Trending",
-    "topic": "AI大事",
-    "region": "intl",
-    "published": "",
-    "author": ""
-  },
-  {
-    "title": "tirth8205/code-review-graph",
-    "url": "https://github.com/tirth8205/code-review-graph",
-    "source": "GitHub Trending",
-    "topic": "AI大事",
-    "region": "intl",
-    "published": "",
-    "author": ""
-  },
-  {
-    "title": "esengine/DeepSeek-Reasonix",
-    "url": "https://github.com/esengine/DeepSeek-Reasonix",
     "source": "GitHub Trending",
     "topic": "AI大事",
     "region": "intl",
@@ -990,30 +1071,12 @@
     "author": ""
   },
   {
-    "title": "美媒：五角大楼拟年底前首次测试“金穹”反导系统",
-    "url": "https://m.thepaper.cn/detail/33742813",
+    "title": "中国气象局升级调整应急响应为台风暴雨强对流三级",
+    "url": "https://m.thepaper.cn/detail/33743115",
     "source": "澎湃新闻",
     "topic": "世界时事",
     "region": "cn",
-    "published": "2026-08-08T01:27:39",
-    "author": "新华社"
-  },
-  {
-    "title": "人民日报任平：从“三个时间刻度”感悟新时代中国",
-    "url": "https://m.thepaper.cn/detail/33742422",
-    "source": "澎湃新闻",
-    "topic": "世界时事",
-    "region": "cn",
-    "published": "2026-08-08T01:25:53",
-    "author": "任平/人民日报"
-  },
-  {
-    "title": "预计“白海豚”明晚将在浙江舟山到福建福鼎一带沿海登陆",
-    "url": "https://m.thepaper.cn/detail/33742582",
-    "source": "澎湃新闻",
-    "topic": "世界时事",
-    "region": "cn",
-    "published": "2026-08-07T23:24:12",
+    "published": "2026-08-08T02:57:55",
     "author": "央视新闻"
   },
   {
@@ -1095,33 +1158,6 @@
     "topic": "世界时事",
     "region": "cn",
     "published": "2026-08-07T11:18:14",
-    "author": ""
-  },
-  {
-    "title": "7月进出口增速从高位略有回落 涨价动力能否持续？",
-    "url": "https://economy.caixin.com/2026-08-07/102472379.html",
-    "source": "财新网",
-    "topic": "世界时事",
-    "region": "cn",
-    "published": "2026-08-07T11:15:30",
-    "author": ""
-  },
-  {
-    "title": "下周前瞻：生态环境法典施行；巴西总统大选进入竞选阶段",
-    "url": "https://china.caixin.com/2026-08-07/102472369.html",
-    "source": "财新网",
-    "topic": "世界时事",
-    "region": "cn",
-    "published": "2026-08-07T11:07:43",
-    "author": ""
-  },
-  {
-    "title": "特朗普坚称美国防空弹药库存充足 但不会向乌克兰提供更多",
-    "url": "https://international.caixin.com/2026-08-07/102472364.html",
-    "source": "财新网",
-    "topic": "世界时事",
-    "region": "cn",
-    "published": "2026-08-07T11:01:22",
     "author": ""
   },
   {
@@ -1266,7 +1302,7 @@
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-08-07T17:56:20",
-    "author": "tosh · 457 pts · 268 comments"
+    "author": "tosh · 490 pts · 300 comments"
   },
   {
     "title": "Assembly Hall of Shame",
@@ -1275,7 +1311,7 @@
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-08-07T18:01:30",
-    "author": "piotrgrabowski · 247 pts · 56 comments"
+    "author": "piotrgrabowski · 270 pts · 65 comments"
   },
   {
     "title": "What happens if an entire class of workers loses faith in their careers",
@@ -1284,7 +1320,7 @@
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-08-07T12:42:27",
-    "author": "RickJWagner · 413 pts · 532 comments"
+    "author": "RickJWagner · 460 pts · 564 comments"
   },
   {
     "title": "Oracle bans AI-generated code from OpenJDK",
@@ -1293,16 +1329,7 @@
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-08-07T17:36:30",
-    "author": "delduca · 387 pts · 257 comments"
-  },
-  {
-    "title": "Making Postgres 300x faster for analytics: batching, operator fusion, and SIMD",
-    "url": "https://malisper.me/how-we-made-postgres-hundreds-of-times-faster-the-query-engine/",
-    "source": "HackerNews",
-    "topic": "技术圈",
-    "region": "intl",
-    "published": "2026-08-07T11:00:35",
-    "author": "poly2it · 245 pts · 118 comments"
+    "author": "delduca · 402 pts · 271 comments"
   },
   {
     "title": "2027 memory capacity is reportedly sold out",
@@ -1311,16 +1338,16 @@
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-08-07T07:58:24",
-    "author": "inigyou · 235 pts · 222 comments"
+    "author": "inigyou · 267 pts · 250 comments"
   },
   {
-    "title": "A year of fighting scrapers on my 1.5 million-page website",
-    "url": "https://patronview.com/news/99-percent-of-my-website-traffic-is-bots/",
+    "title": "Making Postgres 300x faster for analytics: batching, operator fusion, and SIMD",
+    "url": "https://malisper.me/how-we-made-postgres-hundreds-of-times-faster-the-query-engine/",
     "source": "HackerNews",
     "topic": "技术圈",
     "region": "intl",
-    "published": "2026-08-07T14:51:57",
-    "author": "petercooper · 373 pts · 353 comments"
+    "published": "2026-08-07T11:00:35",
+    "author": "poly2it · 258 pts · 120 comments"
   },
   {
     "title": "New Mexico court orders Meta to pay $567m over harms to children’s mental health",
@@ -1329,7 +1356,16 @@
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-08-07T00:06:28",
-    "author": "boplicity · 718 pts · 391 comments"
+    "author": "boplicity · 735 pts · 396 comments"
+  },
+  {
+    "title": "A year of fighting scrapers on my 1.5 million-page website",
+    "url": "https://patronview.com/news/99-percent-of-my-website-traffic-is-bots/",
+    "source": "HackerNews",
+    "topic": "技术圈",
+    "region": "intl",
+    "published": "2026-08-07T14:51:57",
+    "author": "petercooper · 385 pts · 363 comments"
   },
   {
     "title": "AMD acquires Taalas to boost inference performance by etching models in silicon",
@@ -1338,7 +1374,7 @@
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-08-06T20:23:11",
-    "author": "itvision · 884 pts · 666 comments"
+    "author": "itvision · 892 pts · 669 comments"
   },
   {
     "title": "anthropics/anthropic-sdk-python 发布 v0.121.0",
@@ -1366,6 +1402,15 @@
     "region": "intl",
     "published": "2026-08-07T21:13:23",
     "author": "joaomdmoura"
+  },
+  {
+    "title": "anthropics/claude-code 发布 v2.1.226",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.226",
+    "source": "GitHubRelease",
+    "topic": "GitHub 动态",
+    "region": "intl",
+    "published": "2026-08-08T02:48:05",
+    "author": "ashwin-ant"
   },
   {
     "title": "anthropics/claude-code 发布 v2.1.225",
@@ -1474,95 +1519,5 @@
     "region": "intl",
     "published": "2026",
     "author": "Seng Boon Chu"
-  },
-  {
-    "title": "PipeNetwork/minimax-h3-mlx",
-    "url": "https://simonwillison.net/2026/Aug/4/minimax-h3-mlx/#atom-everything",
-    "source": "Simon Willison",
-    "topic": "供应链",
-    "region": "intl",
-    "published": "2026-08-04T19:10:09",
-    "author": ""
-  },
-  {
-    "title": "早报｜微信上线「撤回的撤回」/苹果上调多款设备以旧换新回收价/曝字节开始预训练10万亿参数大模型",
-    "url": "https://www.ifanr.com/1674478?utm_source=rss&utm_medium=rss&utm_campaign=",
-    "source": "爱范儿",
-    "topic": "供应链",
-    "region": "cn",
-    "published": "2026-08-08T00:52:06",
-    "author": "郑廷旭"
-  },
-  {
-    "title": "下个月的 iPhone 发布会，可能是五年来最有「活人感」的一次",
-    "url": "https://www.ifanr.com/1674187?utm_source=rss&utm_medium=rss&utm_campaign=",
-    "source": "爱范儿",
-    "topic": "供应链",
-    "region": "cn",
-    "published": "2026-08-06T10:00:04",
-    "author": "郑廷旭"
-  },
-  {
-    "title": "新内存战争",
-    "url": "https://www.ifanr.com/1674075?utm_source=rss&utm_medium=rss&utm_campaign=",
-    "source": "爱范儿",
-    "topic": "供应链",
-    "region": "cn",
-    "published": "2026-08-06T08:51:34",
-    "author": "彭海星"
-  },
-  {
-    "title": "MacBook Air 快断货了，等等党不能再等了",
-    "url": "https://www.ifanr.com/1674038?utm_source=rss&utm_medium=rss&utm_campaign=",
-    "source": "爱范儿",
-    "topic": "供应链",
-    "region": "cn",
-    "published": "2026-08-05T08:47:26",
-    "author": "马扶摇"
-  },
-  {
-    "title": "[AINews] AMD buys Taalas",
-    "url": "https://www.latent.space/p/ainews-amd-buys-taalas",
-    "source": "Latent Space",
-    "topic": "供应链",
-    "region": "intl",
-    "published": "2026-08-07T05:13:46",
-    "author": ""
-  },
-  {
-    "title": "[AINews] Jeff, Sanjay, Oriol, and Quoc depart DeepMind; Demis to Chair; Koray to SVP — what is going on at GDM???",
-    "url": "https://www.latent.space/p/ainews-jeff-sanjay-oriol-and-quoc",
-    "source": "Latent Space",
-    "topic": "供应链",
-    "region": "intl",
-    "published": "2026-08-06T04:34:11",
-    "author": "Latent.Space"
-  },
-  {
-    "title": "The Inference Engineering Masterclass — Philip Kiely & Ali Taha, Baseten",
-    "url": "https://www.latent.space/p/inference-eng",
-    "source": "Latent Space",
-    "topic": "供应链",
-    "region": "intl",
-    "published": "2026-08-03T21:44:03",
-    "author": ""
-  },
-  {
-    "title": "[AINews] Black Forest Labs FLUX 3 - Multimodal Flow Models that beat Seedance 2.0, Gemini Omni and Grok Imagine, and FLUX-mimic video-action robotics model",
-    "url": "https://www.latent.space/p/ainews-black-forest-labs-flux-3-multimodal",
-    "source": "Latent Space",
-    "topic": "供应链",
-    "region": "intl",
-    "published": "2026-07-24T04:30:12",
-    "author": ""
-  },
-  {
-    "title": "🔬Causal Models Need Causal Data - Xaira’s X-Cell model for Drug Discovery (Bo Wang & Ci Chu, Chief Discovery Officer & Chief AI Scientist)",
-    "url": "https://www.latent.space/p/xaira",
-    "source": "Latent Space",
-    "topic": "供应链",
-    "region": "intl",
-    "published": "2026-07-21T19:34:06",
-    "author": "RJ Honicky"
   }
 ]
