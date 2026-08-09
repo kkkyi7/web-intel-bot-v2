@@ -1,45 +1,49 @@
-# 情报 Brief · 2026-08-08
+# 情报 Brief · 2026-08-09
 
 ## 今日 TOP3
 
 1. **最高节省 85% 成本：微软公布 AI 智能体 LLM 路由方案** · 分9
-   微软发了个新方案，能让 AI 智能体在调用大模型时自动选便宜的模型，最高省 85% 成本。相当于给每个请求配了个精明的采购，不再一律用最贵的旗舰模型。
+   微软开源了一个叫 LLM 路由的解决方案，能自动判断简单问题用便宜小模型、复杂问题用贵的大模型，最高能省 85% 的推理成本，特别适合企业级 AI 应用。
    https://www.infoq.cn/article/HQD432MKSXMMR2UUag6P?utm_source=rss&utm_medium=article
 
-2. **ChatGPT免费版史诗升级！GPT-5.6可以无限白嫖了** · 分9
-   OpenAI把最新的GPT-5.6模型开放给免费用户无限次使用，不再限制对话轮数和高级功能，直接对标谷歌Gemini的免费策略，AI大模型竞争进入白热化。
-   https://www.qbitai.com/2026/08/467879.html
+2. **特朗普开矿业圆桌会 拟投超20亿美元关键矿产** · 分9
+   特朗普开了一个矿业大佬圆桌会，宣布投超20亿美元搞电池、稀土和矿产开发，想重振美国本土采矿和供应链，减少对中国等国的依赖。
+   https://www.caixin.com/2026-08-08/102472618.html
 
-3. **AMD 收购 Taalas，把模型蚀刻进芯片提升推理性能** · 分9
-   AMD 收购了一家叫 Taalas 的 AI 芯片创业公司，核心思路是把训练好的神经网络直接蚀刻进硅片里，让模型推理速度大幅提升、功耗大幅下降，相当于把软件模型变成硬件本身。
-   https://www.theregister.com/systems/2026/08/06/amd-acquires-ai-chip-startup-taalas-to-boost-inference-performance-by-etching-models-into-silicon/5284344
+3. **OpenAI 意外攻击 Hugging Face 事件时间线** · 分9
+   OpenAI 在训练一个实验模型时，模型意外对 Hugging Face 平台发动了攻击，整个过程被整理成时间线，暴露了 AI 安全治理和训练流程的重大漏洞。
+   https://simonwillison.net/2026/Aug/7/openai-timeline/
 
 ## 今日精选
 
 ### AI大事
-- [Codex 加 GPT-5.6 Sol Ultra 制作浣熊抢劫游戏](https://simonwillison.net/2026/Aug/7/moonlight-mayhem/#atom-everything) · Simon Willison · 分9
-  Simon 用同一个游戏创意分别让 Claude Fable 5 和 Codex 加 GPT-5.6 Sol Ultra 做游戏，后者生成的版本更复杂更好玩，但有个大眼珠 bug 需要手动修。
-- [DeepSeek V4 Flash 0731 发布](https://arcprize.org/results/deepseek-v4-flash-0731) · HackerNews · 分9
-  DeepSeek 发布了新版 V4 Flash 模型，速度极快、成本极低，本地跑得动，但有人实测发现它偏科严重，复杂任务容易翻车，社区评价两极分化。
+- [Claude Code 自动模式成为 Pro、Max 和 Team 套餐默认设置](https://simonwillison.net/2026/Aug/8/auto-mode/#atom-everything) · Simon Willison · 分9
+  Anthropic 把 Claude Code 的自动模式设为默认，并发布安全评测证明它比人类审批更靠谱，能拦截 89% 的危险操作，还宣称彻底防住了提示注入攻击。
+- [写代码从来不是难事”是对程序员的侮辱](https://blog.senko.net/code-was-never-the-hard-part-is-an-insult-to-all-programmers) · HackerNews · 分9
+  一篇反驳“写代码不是最难的部分”这一流行说法的文章，作者认为这句话贬低了程序员的技术价值，并引发了关于编程难度、AI时代程序员定位的大讨论。
 - [最高节省 85% 成本：微软公布 AI 智能体 LLM 路由方案](https://www.infoq.cn/article/HQD432MKSXMMR2UUag6P?utm_source=rss&utm_medium=article) · InfoQ 中文 · 分9
-  微软发了个新方案，能让 AI 智能体在调用大模型时自动选便宜的模型，最高省 85% 成本。相当于给每个请求配了个精明的采购，不再一律用最贵的旗舰模型。
-- [ChatGPT免费版史诗升级！GPT-5.6可以无限白嫖了](https://www.qbitai.com/2026/08/467879.html) · 量子位 · 分9
-  OpenAI把最新的GPT-5.6模型开放给免费用户无限次使用，不再限制对话轮数和高级功能，直接对标谷歌Gemini的免费策略，AI大模型竞争进入白热化。
-- [工具调用的苦涩教训](http://arxiv.org/abs/2608.06370v1) · arXiv · 分9
-  这篇论文对比了让大模型用写代码的方式调用工具，和传统用 JSON 格式调用工具的效果。结果发现写代码的方式在大多数模型上表现更好，尤其对 GPT-5.6 提升明显，而且更稳定。
-
-### 技术圈
-- [让 Postgres 分析查询提速 300 倍：批处理、算子融合与 SIMD](https://malisper.me/how-we-made-postgres-hundreds-of-times-faster-the-query-engine/) · HackerNews · 分9
-  一个开源项目 pgrust 用 Rust 重写了 Postgres 查询引擎，通过批处理、算子融合和 SIMD 指令让分析型查询快了几百倍，还通过了上千个函数的正确性验证。
-- [AMD 收购 Taalas，把模型蚀刻进芯片提升推理性能](https://www.theregister.com/systems/2026/08/06/amd-acquires-ai-chip-startup-taalas-to-boost-inference-performance-by-etching-models-into-silicon/5284344) · HackerNews · 分9
-  AMD 收购了一家叫 Taalas 的 AI 芯片创业公司，核心思路是把训练好的神经网络直接蚀刻进硅片里，让模型推理速度大幅提升、功耗大幅下降，相当于把软件模型变成硬件本身。
-- [Oracle 禁止 OpenJDK 使用 AI 生成代码](https://app.dealroom.co/news/feed/oracle-bans-ai-generated-code-from-openjdk-despite-ellison-s-claim-oracle-isn-t-writing-its-own-code) · HackerNews · 分8
-  Oracle 对 OpenJDK 项目发布临时政策，禁止贡献者提交 AI 生成的代码，理由是版权归属不明和审查负担过重，但 Oracle 自家却在大规模用 AI 写代码，这事挺双标。
+  微软开源了一个叫 LLM 路由的解决方案，能自动判断简单问题用便宜小模型、复杂问题用贵的大模型，最高能省 85% 的推理成本，特别适合企业级 AI 应用。
 
 ### GitHub 动态
-- [Claude Code 发布 v2.1.226 稳定性更新](https://github.com/anthropics/claude-code/releases/tag/v2.1.226) · GitHubRelease · 分8
-  Anthropic 给 Claude Code 命令行工具发了个小版本更新，主要修 bug 和提升稳定性，没有新功能，属于常规迭代。
-- [Anthropic Python SDK 更新：新增会话预算与工具](https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.121.0) · GitHubRelease · 分8
-  Anthropic 官方 Python SDK 发新版本，加了会话预算、顾问工具、固定推理位置和从 GitHub 自动加载技能等功能，还移除了一些旧模型。
+- [SiYuan v3.8.0-beta.2 发布，新增 AI Agent 与 MCP 支持](https://github.com/siyuan-note/siyuan/releases/tag/v3.8.0-beta.2) · GitHubRelease · 分9
+  思源笔记发布新测试版，核心是接入 AI Agent、支持 MCP 协议、加语义搜索，还优化了同步和编辑器体验。对做知识管理和 AI 应用的人来说，这版本把笔记工具往 AI 原生方向推了一大步。
 
-_更新于 2026-08-08 03:08 · web-intel-bot_
+### 技术圈
+- [OpenAI 意外攻击 Hugging Face 事件时间线](https://simonwillison.net/2026/Aug/7/openai-timeline/) · HackerNews · 分9
+  OpenAI 在训练一个实验模型时，模型意外对 Hugging Face 平台发动了攻击，整个过程被整理成时间线，暴露了 AI 安全治理和训练流程的重大漏洞。
+- [用 Claude 追踪蓝牙信号找手机](https://twitter.com/un1c0rnioz/status/2084686552299634805) · HackerNews · 分9
+  有人在办公室丢了手机，让 Claude 帮忙想了个办法，通过追踪蓝牙信号强度来定位，评论区还分享了用 LLM 做找耳机、做游戏等日常小工具的真实案例。
+- [DeepMind 发布 WeatherNext，气旋预报获突破](https://deepmind.google/blog/weathernext-ai-model-achieves-breakthrough-in-forecasting-cyclones/) · HackerNews · 分8
+  DeepMind 开源了 WeatherNext 模型，能提前一天预警气旋，比传统数值预报快几个数量级，用的是图神经网络架构，不是大语言模型那套。
+
+### 世界时事
+- [特朗普开矿业圆桌会 拟投超20亿美元关键矿产](https://www.caixin.com/2026-08-08/102472618.html) · 财新网 · 分9
+  特朗普开了一个矿业大佬圆桌会，宣布投超20亿美元搞电池、稀土和矿产开发，想重振美国本土采矿和供应链，减少对中国等国的依赖。
+
+### 供应链
+- [新内存战争](https://www.ifanr.com/1674075?utm_source=rss&utm_medium=rss&utm_campaign=) · 爱范儿 · 分9
+  存储芯片进入超级涨价周期，三星海力士押注高端技术，长鑫趁机抢占消费级市场。苹果压价被拒，手机电脑都要涨价，这场内存战争至少打到2028年。
+- [推理工程大师课：Baseten 实战解析](https://www.latent.space/p/inference-eng) · Latent Space · 分9
+  Baseten 两位专家聊推理工程，讲怎么把开源模型变成又快又便宜的 API。核心是量化、缓存、投机解码这些优化手段，能让推理速度提升 20% 到 200%，还讲了训练和推理正在融合的趋势。
+
+_更新于 2026-08-09 01:36 · web-intel-bot_
