@@ -1,12 +1,84 @@
 [
   {
+    "title": "The Bitter Lesson of Tool Calling",
+    "url": "http://arxiv.org/abs/2608.06370v1",
+    "source": "arXiv",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-08-06T17:58:32",
+    "author": "Ishan Patel, Sahil Sen, Elias Lumer, Vamse Kumar Subbiah"
+  },
+  {
+    "title": "Tracing the Heart: An Evidence-Linked Pipeline for Heart-Failure Feature Engineering",
+    "url": "http://arxiv.org/abs/2608.06366v1",
+    "source": "arXiv",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-08-06T17:57:37",
+    "author": "Soorya Ram Shimgekar, Michelle Hu, Dorisa Shehi, Daniel Kang, Roy Ka-Wei Lee, Koustuv Saha, Christian Poellabauer, Christopher Lee, Sajeev Singh, Piyum Zonooz, Navin Kumar, Zeeshan Ahmed, Priyadarshin"
+  },
+  {
+    "title": "AV-AIVAT: 74x Cheaper Agent Evaluation with Certified Anytime-Valid Stopping in Imperfect-Information Games",
+    "url": "http://arxiv.org/abs/2608.06362v1",
+    "source": "arXiv",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-08-06T17:57:11",
+    "author": "Boning Li, Yu Chen, Longbo Huang"
+  },
+  {
+    "title": "RP-OPSD: Reasoning-Pivot-Guided On-Policy Self-Distillation for Multilingual Reasoning Transfer",
+    "url": "http://arxiv.org/abs/2608.06347v1",
+    "source": "arXiv",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-08-06T17:52:06",
+    "author": "Xinye Wang, Junxiao Liu, Shujian Huang"
+  },
+  {
+    "title": "TRAJDEBUG: Tracing Error Lifecycle to Identify Critical Failures in Long-Horizon Agent Trajectories",
+    "url": "http://arxiv.org/abs/2608.06346v1",
+    "source": "arXiv",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-08-06T17:51:20",
+    "author": "Yunjia Qi, Zehua Yin, Xintong Shi, Hao Peng, Songyuanyi Lu, Yixian Liu, Richeng Xuan, Yuhong Liu, Zhichao Hu, Xiaozhi Wang, Lei Hou, Bin Xu, Juanzi Li"
+  },
+  {
+    "title": "Tytan: Interactive Neurosymbolic Construction of Analytic Semantic Schemas from Relational Data",
+    "url": "http://arxiv.org/abs/2608.06331v1",
+    "source": "arXiv",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-08-06T17:40:26",
+    "author": "Donna Hooshmand, Shubham Shahi, Cameron Barrie, Abhratanu Dutta, Marko Sterbentz, Harper Pack, Kristian J. Hammond"
+  },
+  {
+    "title": "Benchmarking the Benchmarks: Evaluating Benchmarks for Conversational Agents",
+    "url": "http://arxiv.org/abs/2608.06329v1",
+    "source": "arXiv",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-08-06T17:39:21",
+    "author": "Noam Koren, Roy Bar-Haim, Abigail Goldsteen"
+  },
+  {
+    "title": "Fair and Efficient Balanced Allocations for Additive Valuations",
+    "url": "http://arxiv.org/abs/2608.06325v1",
+    "source": "arXiv",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-08-06T17:38:41",
+    "author": "Benjamin Cookson, Nisarg Shah, Paritosh Verma"
+  },
+  {
     "title": "Fastmail offers EU data region",
     "url": "https://www.fastmail.com/blog/fastmail-offers-eu-data-region/",
     "source": "HackerNews",
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-08-08T16:04:51",
-    "author": "groomlake · 317 pts · 143 comments"
+    "author": "groomlake · 333 pts · 159 comments"
   },
   {
     "title": "_for-sale DNS records",
@@ -15,16 +87,7 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-08-08T13:26:51",
-    "author": "shaunpud · 345 pts · 132 comments"
-  },
-  {
-    "title": "DeepMind's WeatherNext model achieves breakthrough forecasting cyclones",
-    "url": "https://deepmind.google/blog/weathernext-ai-model-achieves-breakthrough-in-forecasting-cyclones/",
-    "source": "HackerNews",
-    "topic": "AI大事",
-    "region": "intl",
-    "published": "2026-08-08T09:18:50",
-    "author": "bhavansig · 383 pts · 116 comments"
+    "author": "shaunpud · 360 pts · 134 comments"
   },
   {
     "title": "Timeline of the OpenAI accidental attack against Hugging Face",
@@ -33,7 +96,7 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-08-08T10:57:44",
-    "author": "882542F3884314B · 336 pts · 346 comments"
+    "author": "882542F3884314B · 356 pts · 357 comments"
   },
   {
     "title": "US Military's cyber command unit grapples with cluster of deaths by suicide",
@@ -42,7 +105,7 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-08-08T10:04:25",
-    "author": "rbanffy · 242 pts · 387 comments"
+    "author": "rbanffy · 257 pts · 406 comments"
   },
   {
     "title": "Danish high schoolers will have to verbally defend written assignments",
@@ -51,7 +114,7 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-08-08T18:09:31",
-    "author": "theanonymousone · 510 pts · 241 comments"
+    "author": "theanonymousone · 526 pts · 248 comments"
   },
   {
     "title": "“Code was never the hard part” is an insult to all programmers",
@@ -60,7 +123,7 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-08-08T14:32:33",
-    "author": "senko · 567 pts · 360 comments"
+    "author": "senko · 603 pts · 374 comments"
   },
   {
     "title": "Lost my phone at the office. Claude suggested tracking Bluetooth signal strength",
@@ -69,16 +132,25 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-08-07T20:25:04",
-    "author": "ilamont · 217 pts · 159 comments"
+    "author": "ilamont · 231 pts · 164 comments"
   },
   {
-    "title": "Hardware backdoors in some x86 CPUs",
-    "url": "https://github.com/xoreaxeaxeax/rosenbridge",
-    "source": "HackerNews",
+    "title": "OpenAI给10亿用户免费换上GPT-5.6",
+    "url": "https://www.infoq.cn/article/RXRuR3TN9msNMAUWRtCl?utm_source=rss&utm_medium=article",
+    "source": "InfoQ 中文",
     "topic": "AI大事",
-    "region": "intl",
-    "published": "2026-08-08T07:04:51",
-    "author": "epestr · 342 pts · 94 comments"
+    "region": "cn",
+    "published": "2026-08-09T10:23:42",
+    "author": "褚杏娟"
+  },
+  {
+    "title": "从失控到可控：基于系统控制论的 Agent 安全防御体系设计与实践｜AICon深圳",
+    "url": "https://www.infoq.cn/article/MMh1pkuNSPDlUAtuRelk?utm_source=rss&utm_medium=article",
+    "source": "InfoQ 中文",
+    "topic": "AI大事",
+    "region": "cn",
+    "published": "2026-08-09T10:00:00",
+    "author": "AICon 全球人工智能开发与应用大会"
   },
   {
     "title": "金融监管领域的 Harness 实践：让知识与数据驱动 Agent 稳定运行｜AICon深圳",
@@ -151,24 +223,6 @@
     "region": "cn",
     "published": "2026-08-07T13:33:35",
     "author": "华卫"
-  },
-  {
-    "title": "HarmonyOS 7（API 26）Beta 2 新特性解读：AI 赋能应用故障分析，助力应用稳定性问题发现、定位与修复",
-    "url": "https://www.infoq.cn/article/FGMkg9BOrQ7vg5ubBp4U?utm_source=rss&utm_medium=article",
-    "source": "InfoQ 中文",
-    "topic": "AI大事",
-    "region": "cn",
-    "published": "2026-08-07T11:53:50",
-    "author": "HarmonyOS"
-  },
-  {
-    "title": "DevEco CLI 快速入门：让 AI Agent 更懂 HarmonyOS 应用开发",
-    "url": "https://www.infoq.cn/article/eDt24UFt212XlaW83ryM?utm_source=rss&utm_medium=article",
-    "source": "InfoQ 中文",
-    "topic": "AI大事",
-    "region": "cn",
-    "published": "2026-08-07T11:53:21",
-    "author": "HarmonyOS"
   },
   {
     "title": "奥特曼的ChatGPT育儿大法，捅了马蜂窝",
@@ -981,40 +1035,58 @@
     "author": ""
   },
   {
-    "title": "核观察｜美欲用战术核武器对抗中俄，弹药不足核武来凑？",
-    "url": "https://m.thepaper.cn/detail/33745016",
+    "title": "导演文牧野：在《欢迎来龙餐馆》看到美食和战争的相遇和对称",
+    "url": "https://m.thepaper.cn/detail/33747749",
     "source": "澎湃新闻",
     "topic": "世界时事",
     "region": "cn",
-    "published": "2026-08-09T00:08:12",
-    "author": "澎湃新闻记者 谢瑞强"
+    "published": "2026-08-09T03:06:43",
+    "author": "澎湃新闻记者 夏奕宁"
   },
   {
-    "title": "台风暴雨强对流三预警！“白海豚”最新位置公布，江浙沪皖等地出行注意了",
-    "url": "https://m.thepaper.cn/detail/33747518",
+    "title": "首席展望｜高盛刘劲津：中国AI不存在整体性泡沫，外资配置空间巨大",
+    "url": "https://m.thepaper.cn/detail/33719472",
     "source": "澎湃新闻",
     "topic": "世界时事",
     "region": "cn",
-    "published": "2026-08-08T23:35:28",
-    "author": "央视新闻、“都市快报”微信公号"
+    "published": "2026-08-09T03:06:27",
+    "author": "澎湃新闻记者 孙铭蔚"
   },
   {
-    "title": "人民日报刊文：挡“张雪机车”，民进党当局怕什么",
-    "url": "https://m.thepaper.cn/detail/33747512",
+    "title": "现货黄金周涨超7%站上4300美元，为何突然大涨？",
+    "url": "https://m.thepaper.cn/detail/33744664",
     "source": "澎湃新闻",
     "topic": "世界时事",
     "region": "cn",
-    "published": "2026-08-08T23:25:56",
-    "author": "凌锋/人民日报"
+    "published": "2026-08-09T02:40:36",
+    "author": "澎湃新闻记者 孙铭蔚"
   },
   {
-    "title": "人民日报读者点题·共同关注：前7月进口增速高于出口8个百分点，意味着什么",
-    "url": "https://m.thepaper.cn/detail/33747510",
+    "title": "中央气象台升级发布台风红警：六省份有大暴雨，浙江局地特大暴雨",
+    "url": "https://m.thepaper.cn/detail/33747722",
     "source": "澎湃新闻",
     "topic": "世界时事",
     "region": "cn",
-    "published": "2026-08-08T22:57:30",
-    "author": "罗珊珊/人民日报"
+    "published": "2026-08-09T02:39:16",
+    "author": "央视新闻"
+  },
+  {
+    "title": "国家统计局解读：7月份CPI保持温和上涨，PPI同比涨幅有所回落",
+    "url": "https://m.thepaper.cn/detail/33747633",
+    "source": "澎湃新闻",
+    "topic": "世界时事",
+    "region": "cn",
+    "published": "2026-08-09T01:33:42",
+    "author": "国家统计局网站"
+  },
+  {
+    "title": "财新闻｜多家上市公司宣布：收到美国关税退税",
+    "url": "https://mini.caixin.com/2026-08-09/102472638.html",
+    "source": "财新网",
+    "topic": "世界时事",
+    "region": "cn",
+    "published": "2026-08-09T01:37:39",
+    "author": ""
   },
   {
     "title": "离岸信托90天补税窗口期疑问",
@@ -1080,12 +1152,12 @@
     "author": ""
   },
   {
-    "title": "【周刊提前读】欧洲高温加剧气候政策路线争议",
-    "url": "https://database.caixin.com/2026-08-08/102472459.html",
-    "source": "财新网",
+    "title": "“禁止对华出口光刻机，美欧将成最大输家”",
+    "url": "https://www.guancha.cn/economy/2026_08_09_826688_s.shtml",
+    "source": "观察者网",
     "topic": "世界时事",
     "region": "cn",
-    "published": "2026-08-08T00:57:23",
+    "published": "2026-08-09T02:41:46",
     "author": ""
   },
   {
@@ -1170,15 +1242,6 @@
     "author": ""
   },
   {
-    "title": "中国5招齐出，“让你疼，也让你懂分寸”",
-    "url": "https://www.guancha.cn/internation/2026_08_06_826392_s.shtml",
-    "source": "观察者网",
-    "topic": "世界时事",
-    "region": "cn",
-    "published": "2026-08-06T09:24:31",
-    "author": ""
-  },
-  {
     "title": "日本2026防衛白皮書為何刪去「台海攸關安保」？",
     "url": "https://www.bbc.com/zhongwen/articles/c9809dp99neo/trad?at_medium=RSS&at_campaign=rss",
     "source": "BBC 中文",
@@ -1230,7 +1293,7 @@
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-08-08T16:04:51",
-    "author": "groomlake · 318 pts · 143 comments"
+    "author": "groomlake · 333 pts · 159 comments"
   },
   {
     "title": "_for-sale DNS records",
@@ -1239,16 +1302,7 @@
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-08-08T13:26:51",
-    "author": "shaunpud · 345 pts · 132 comments"
-  },
-  {
-    "title": "DeepMind's WeatherNext model achieves breakthrough forecasting cyclones",
-    "url": "https://deepmind.google/blog/weathernext-ai-model-achieves-breakthrough-in-forecasting-cyclones/",
-    "source": "HackerNews",
-    "topic": "技术圈",
-    "region": "intl",
-    "published": "2026-08-08T09:18:50",
-    "author": "bhavansig · 384 pts · 116 comments"
+    "author": "shaunpud · 360 pts · 134 comments"
   },
   {
     "title": "Timeline of the OpenAI accidental attack against Hugging Face",
@@ -1257,7 +1311,7 @@
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-08-08T10:57:44",
-    "author": "882542F3884314B · 337 pts · 346 comments"
+    "author": "882542F3884314B · 356 pts · 358 comments"
   },
   {
     "title": "US Military's cyber command unit grapples with cluster of deaths by suicide",
@@ -1266,7 +1320,7 @@
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-08-08T10:04:25",
-    "author": "rbanffy · 244 pts · 387 comments"
+    "author": "rbanffy · 257 pts · 406 comments"
   },
   {
     "title": "Danish high schoolers will have to verbally defend written assignments",
@@ -1275,7 +1329,7 @@
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-08-08T18:09:31",
-    "author": "theanonymousone · 510 pts · 241 comments"
+    "author": "theanonymousone · 526 pts · 248 comments"
   },
   {
     "title": "“Code was never the hard part” is an insult to all programmers",
@@ -1284,7 +1338,7 @@
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-08-08T14:32:33",
-    "author": "senko · 567 pts · 360 comments"
+    "author": "senko · 603 pts · 374 comments"
   },
   {
     "title": "Lost my phone at the office. Claude suggested tracking Bluetooth signal strength",
@@ -1293,16 +1347,7 @@
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-08-07T20:25:04",
-    "author": "ilamont · 217 pts · 159 comments"
-  },
-  {
-    "title": "Hardware backdoors in some x86 CPUs",
-    "url": "https://github.com/xoreaxeaxeax/rosenbridge",
-    "source": "HackerNews",
-    "topic": "技术圈",
-    "region": "intl",
-    "published": "2026-08-08T07:04:51",
-    "author": "epestr · 343 pts · 94 comments"
+    "author": "ilamont · 231 pts · 164 comments"
   },
   {
     "title": "crewAIInc/crewAI 发布 1.15.14",
@@ -1312,15 +1357,6 @@
     "region": "intl",
     "published": "2026-08-08T22:57:37",
     "author": "joaomdmoura"
-  },
-  {
-    "title": "anthropics/claude-code 发布 v2.1.226",
-    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.226",
-    "source": "GitHubRelease",
-    "topic": "GitHub 动态",
-    "region": "intl",
-    "published": "2026-08-08T02:48:05",
-    "author": "ashwin-ant"
   },
   {
     "title": "siyuan-note/siyuan 发布 SiYuan v3.8.0-beta.2",
@@ -1341,6 +1377,15 @@
     "author": "github-actions[bot]"
   },
   {
+    "title": "AppFlowy-IO/AppFlowy 发布 v0.13.1",
+    "url": "https://github.com/AppFlowy-IO/AppFlowy/releases/tag/0.13.1",
+    "source": "GitHubRelease",
+    "topic": "GitHub 动态",
+    "region": "intl",
+    "published": "2026-08-09T02:32:35",
+    "author": "LucasXu0"
+  },
+  {
     "title": "vercel/next.js 发布 v16.3.1-canary.9",
     "url": "https://github.com/vercel/next.js/releases/tag/v16.3.1-canary.9",
     "source": "GitHubRelease",
@@ -1348,140 +1393,5 @@
     "region": "intl",
     "published": "2026-08-08T23:44:17",
     "author": "next-js-bot[bot]"
-  },
-  {
-    "title": "PipeNetwork/minimax-h3-mlx",
-    "url": "https://simonwillison.net/2026/Aug/4/minimax-h3-mlx/#atom-everything",
-    "source": "Simon Willison",
-    "topic": "供应链",
-    "region": "intl",
-    "published": "2026-08-04T19:10:09",
-    "author": ""
-  },
-  {
-    "title": "早报｜微信上线「撤回的撤回」/苹果上调多款设备以旧换新回收价/曝字节开始预训练10万亿参数大模型",
-    "url": "https://www.ifanr.com/1674478?utm_source=rss&utm_medium=rss&utm_campaign=",
-    "source": "爱范儿",
-    "topic": "供应链",
-    "region": "cn",
-    "published": "2026-08-08T00:52:06",
-    "author": "郑廷旭"
-  },
-  {
-    "title": "下个月的 iPhone 发布会，可能是五年来最有「活人感」的一次",
-    "url": "https://www.ifanr.com/1674187?utm_source=rss&utm_medium=rss&utm_campaign=",
-    "source": "爱范儿",
-    "topic": "供应链",
-    "region": "cn",
-    "published": "2026-08-06T10:00:04",
-    "author": "郑廷旭"
-  },
-  {
-    "title": "新内存战争",
-    "url": "https://www.ifanr.com/1674075?utm_source=rss&utm_medium=rss&utm_campaign=",
-    "source": "爱范儿",
-    "topic": "供应链",
-    "region": "cn",
-    "published": "2026-08-06T08:51:34",
-    "author": "彭海星"
-  },
-  {
-    "title": "MacBook Air 快断货了，等等党不能再等了",
-    "url": "https://www.ifanr.com/1674038?utm_source=rss&utm_medium=rss&utm_campaign=",
-    "source": "爱范儿",
-    "topic": "供应链",
-    "region": "cn",
-    "published": "2026-08-05T08:47:26",
-    "author": "马扶摇"
-  },
-  {
-    "title": "[AINews] AMD buys Taalas",
-    "url": "https://www.latent.space/p/ainews-amd-buys-taalas",
-    "source": "Latent Space",
-    "topic": "供应链",
-    "region": "intl",
-    "published": "2026-08-07T05:13:46",
-    "author": ""
-  },
-  {
-    "title": "[AINews] Jeff, Sanjay, Oriol, and Quoc depart DeepMind; Demis to Chair; Koray to SVP — what is going on at GDM???",
-    "url": "https://www.latent.space/p/ainews-jeff-sanjay-oriol-and-quoc",
-    "source": "Latent Space",
-    "topic": "供应链",
-    "region": "intl",
-    "published": "2026-08-06T04:34:11",
-    "author": "Latent.Space"
-  },
-  {
-    "title": "The Inference Engineering Masterclass — Philip Kiely & Ali Taha, Baseten",
-    "url": "https://www.latent.space/p/inference-eng",
-    "source": "Latent Space",
-    "topic": "供应链",
-    "region": "intl",
-    "published": "2026-08-03T21:44:03",
-    "author": ""
-  },
-  {
-    "title": "[AINews] Black Forest Labs FLUX 3 - Multimodal Flow Models that beat Seedance 2.0, Gemini Omni and Grok Imagine, and FLUX-mimic video-action robotics model",
-    "url": "https://www.latent.space/p/ainews-black-forest-labs-flux-3-multimodal",
-    "source": "Latent Space",
-    "topic": "供应链",
-    "region": "intl",
-    "published": "2026-07-24T04:30:12",
-    "author": ""
-  },
-  {
-    "title": "🔬Causal Models Need Causal Data - Xaira’s X-Cell model for Drug Discovery (Bo Wang & Ci Chu, Chief Discovery Officer & Chief AI Scientist)",
-    "url": "https://www.latent.space/p/xaira",
-    "source": "Latent Space",
-    "topic": "供应链",
-    "region": "intl",
-    "published": "2026-07-21T19:34:06",
-    "author": "RJ Honicky"
-  },
-  {
-    "title": "Iron deficiency without anemia: An underrecognized and undertreated clinical condition with special focus on colorectal cancer.",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42569155/",
-    "source": "PubMed",
-    "topic": "心理学",
-    "region": "intl",
-    "published": "2026",
-    "author": "Naga P Raja, Nagapavani Kandagari"
-  },
-  {
-    "title": "The evolution of pharmacovigilance system in Bangladesh: present landscape and strategic priorities.",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42569150/",
-    "source": "PubMed",
-    "topic": "心理学",
-    "region": "intl",
-    "published": "2026",
-    "author": "Bulbul Ahamed, Rabia Hussain"
-  },
-  {
-    "title": "Community engagement strategies for antimicrobial resistance control and interventions.",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42568972/",
-    "source": "PubMed",
-    "topic": "心理学",
-    "region": "intl",
-    "published": "2026",
-    "author": "Sanjaya Acharya, Thomas J Peto, Abhilasha Karkey, Phaik Yeong Cheah"
-  },
-  {
-    "title": "One voice at the bedside: aligning goals of care and prognostic communication in trauma and acute care surgery.",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42568940/",
-    "source": "PubMed",
-    "topic": "心理学",
-    "region": "intl",
-    "published": "2026",
-    "author": "Elizabeth Gorman, Julia Coleman, Jennifer Hartwell, Mackenzie Cook"
-  },
-  {
-    "title": "Phantom decoys alter perceived missed opportunity costs and increase risky foraging decisions.",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42568878/",
-    "source": "PubMed",
-    "topic": "心理学",
-    "region": "intl",
-    "published": "2026",
-    "author": "Finn C G Parker, Catherine J Price, Jenna P Bytheway, Clare McArthur"
   }
 ]
