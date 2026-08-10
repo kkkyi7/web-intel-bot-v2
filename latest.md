@@ -3,45 +3,45 @@
 ## 今日 TOP3
 
 1. **OpenAI给10亿用户免费换上GPT-5.6** · 分9
-   OpenAI把最新模型GPT-5.6免费开放给所有用户，不用订阅Plus或企业版，10亿月活用户直接能用上最强推理和编程能力，这对AI应用落地是个大变量。
+   OpenAI把最新模型GPT-5.6免费开放给所有用户，覆盖网页、App和API，不再强制订阅付费，这标志着旗舰模型从付费墙走向普惠，直接冲击现有AI应用的成本结构。
    https://www.infoq.cn/article/RXRuR3TN9msNMAUWRtCl?utm_source=rss&utm_medium=article
 
-2. **中国正成为“工厂的工厂** · 分9
-   华尔街日报报道，中国出口结构从低价消费品转向中间品和资本品，即生产工厂所需的设备和零部件，正在从“世界工厂”变成“工厂的工厂”，冲击德国日本等高端制造经济体。
-   https://www.guancha.cn/internation/2026_08_07_826552_s.shtml
+2. **Agency Agents：一键安装 AI 专家团队** · 分9
+   一个开源项目，把几十个有性格、有专长的 AI Agent 打包成"虚拟 agency"，能一键装进 Claude Code、Cursor 等工具，相当于给开发者配了个随叫随到的专家团队。
+   https://github.com/msitarzewski/agency-agents
 
 3. **推理工程大师课：Baseten 的实战分享** · 分9
-   Baseten 两位专家聊推理工程，讲怎么把开源模型变成又快又便宜的 API，包括量化、缓存、投机解码等优化手段，还提到优化能让模型提速 20% 到 200%。
+   Baseten 两位专家聊推理工程，讲怎么把开源模型变成又快又便宜的 API，包括量化、缓存、投机解码这些优化手段，以及为什么推理优化还能带来 20% 到 200% 的性能提升。
    https://www.latent.space/p/inference-eng
 
 ## 今日精选
 
 ### 技术圈
-- [我用 LLM 学复杂主题的方法](https://laurentiugabriel.github.io/blog/articles/how-i-use-llms-to-learn/) · HackerNews · 分9
-  作者分享了一套用 LLM 学复杂知识的工作流：先让模型建知识库，再让它自查准确性，最后生成一个低多边形动画模拟来验证理解。HN 评论区在争论这方法是否真能防幻觉，以及 AI 时代学新东西还有没有价值。
+- [我用 LLM 学习复杂主题的方法](https://laurentiugabriel.github.io/blog/articles/how-i-use-llms-to-learn/) · HackerNews · 分9
+  作者分享了自己用 LLM 学习复杂技术主题的完整工作流，包括让 AI 构建知识库、自我审查、生成可视化模拟。HN 评论区补充了苏格拉底式对话法和语音模式学习的实战经验，也讨论了 AI 学习法的局限。
 
 ### AI大事
 - [OpenAI给10亿用户免费换上GPT-5.6](https://www.infoq.cn/article/RXRuR3TN9msNMAUWRtCl?utm_source=rss&utm_medium=article) · InfoQ 中文 · 分9
-  OpenAI把最新模型GPT-5.6免费开放给所有用户，不用订阅Plus或企业版，10亿月活用户直接能用上最强推理和编程能力，这对AI应用落地是个大变量。
-- [Claude Code 自动模式成为默认，Anthropic 称已解决注入攻击](https://simonwillison.net/2026/Aug/8/auto-mode/#atom-everything) · Simon Willison · 分9
-  Anthropic 把 Claude Code 的自动模式设为默认，声称已大幅降低提示注入和数据泄露风险，还发布了第三方评测数据，但作者对完全安全持保留态度。
-- [AMD 收购 Taalas，定制芯片押注推理](https://www.latent.space/p/ainews-amd-buys-taalas) · Latent Space · 分9
-  AMD 收购了专注大模型专用芯片的 Taalas，加上 Meta 发布性价比极高的 Muse Spark 1.2 模型，以及 OpenAI 合并模型版本，这三件事都指向同一个趋势：AI 推理成本和架构…
-- [从提问到做事：全球如何用 ChatGPT 干活](https://openai.com/index/how-the-world-is-putting-chatgpt-to-work) · OpenAI Blog · 分9
-  OpenAI 发布了一份基于 Signals 数据的全球 ChatGPT 使用报告，按国家拆解了用户从“问问题”到“实际干活”的行为迁移，包括采用率、使用趋势和场景变化。
-- [Google 35 万人 vibe coding 课程复盘](https://blog.google/innovation-and-ai/technology/developers-tools/ai-agents-intensive-recap-2026/) · Google AI Blog · 分9
-  Google 和 Kaggle 搞了个免费 AI 智能体课程，35 万人参加，教大家用自然语言写代码、搭 AI Agent，这篇是官方复盘，讲他们怎么设计课程、学员做了什么、以及 vibe codin…
-- [Opus 5 对比 Fable 5，Anthropic 新模型发布](https://www.bensbites.com/p/opus-5-fable-5) · Ben's Bites · 分9
-  Anthropic 发布 Claude Opus 5，号称用一半价格接近 Fable 5 性能，但用户实际体验有争议。同时 ChatGPT 语音控制桌面应用、Claude 语音模式升级，AI 交互正从…
+  OpenAI把最新模型GPT-5.6免费开放给所有用户，覆盖网页、App和API，不再强制订阅付费，这标志着旗舰模型从付费墙走向普惠，直接冲击现有AI应用的成本结构。
+- [Claude Code 自动模式成为 Pro、Max 和 Team 套餐默认设置](https://simonwillison.net/2026/Aug/8/auto-mode/#atom-everything) · Simon Willison · 分9
+  Anthropic 把 Claude Code 的自动模式设为默认，并发布安全评测证明它比人类审批更靠谱，能拦截 89% 的危险操作，但独立验证仍存疑。
+- [SkillProx：用近端文本梯度下降实现技能自进化](http://arxiv.org/abs/2608.07449v1) · arXiv · 分9
+  这篇论文提出一个叫 SkillProx 的框架，让 AI 智能体像做梯度下降一样，通过“前向执行+后向反思”循环，自动优化自己积累的技能库，删掉没用的、强化有用的，整体准确率比现有最强方法提升 3 个…
+- [Agency Agents：一键安装 AI 专家团队](https://github.com/msitarzewski/agency-agents) · GitHub Trending · 分9
+  一个开源项目，把几十个有性格、有专长的 AI Agent 打包成"虚拟 agency"，能一键装进 Claude Code、Cursor 等工具，相当于给开发者配了个随叫随到的专家团队。
+- [GitHub Models 正式退役](https://simonwillison.net/2026/Aug/9/github-models-is-now-retired/#atom-everything) · Simon Willison · 分8
+  GitHub 的模型调用服务正式关停，作者原本用它跑自动化脚本，现在换成 OpenAI 的 API 继续干活，推测原因是编程智能体让免费额度扛不住了。
 
 ### 世界时事
-- [中国正成为“工厂的工厂](https://www.guancha.cn/internation/2026_08_07_826552_s.shtml) · 观察者网 · 分9
-  华尔街日报报道，中国出口结构从低价消费品转向中间品和资本品，即生产工厂所需的设备和零部件，正在从“世界工厂”变成“工厂的工厂”，冲击德国日本等高端制造经济体。
+- [不再只生产低价消费品，中国正成为“工厂的工厂](https://www.guancha.cn/internation/2026_08_07_826552_s.shtml) · 观察者网 · 分9
+  华尔街日报报道，中国正从低端消费品组装车间转型为高端制造设备与中间品出口大国，冲击德国日本韩国的传统优势产业，全球供应链格局正在被重塑。
 
 ### 供应链
 - [新内存战争](https://www.ifanr.com/1674075?utm_source=rss&utm_medium=rss&utm_campaign=) · 爱范儿 · 分9
-  存储芯片进入超级涨价周期，三星海力士押注HBM和新技术抢标准，长鑫趁巨头放弃消费市场快速补位，手机和PC马上要大涨价，整个行业格局正在重写。
+  存储芯片进入超级涨价周期，三星海力士押注高端新技术，长鑫趁势抢占消费级市场。苹果压价被拒，手机电脑都要涨价，这场内存战争至少打到2028年。
 - [推理工程大师课：Baseten 的实战分享](https://www.latent.space/p/inference-eng) · Latent Space · 分9
-  Baseten 两位专家聊推理工程，讲怎么把开源模型变成又快又便宜的 API，包括量化、缓存、投机解码等优化手段，还提到优化能让模型提速 20% 到 200%。
+  Baseten 两位专家聊推理工程，讲怎么把开源模型变成又快又便宜的 API，包括量化、缓存、投机解码这些优化手段，以及为什么推理优化还能带来 20% 到 200% 的性能提升。
+- [早报｜微信上线「撤回的撤回」/苹果上调多款设备以旧换新回收价/曝字节开始预训练10万亿参数大模型](https://www.ifanr.com/1674478?utm_source=rss&utm_medium=rss&utm_campaign=) · 爱范儿 · 分8
+  这是一篇科技早报合集，核心是字节跳动开始预训练10万亿参数大模型，接近Anthropic旗舰规模，同时涵盖iPhone 18因DRAM短缺备货遇阻、苹果上调以旧换新价格、微信撤回功能更新等消息。
 
-_更新于 2026-08-10 01:36 · web-intel-bot_
+_更新于 2026-08-10 03:26 · web-intel-bot_

@@ -1,21 +1,93 @@
 [
   {
+    "title": "CreativeInstruct: Scalably Teaching LLMs to Balance Quality, Creativity, and Diversity",
+    "url": "http://arxiv.org/abs/2608.07460v1",
+    "source": "arXiv",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-08-07T17:55:48",
+    "author": "Ananya Sahu, Mohit Bansal, Elias Stengel-Eskin"
+  },
+  {
+    "title": "Strategy-first synthesis planning for complex natural products",
+    "url": "http://arxiv.org/abs/2608.07454v1",
+    "source": "arXiv",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-08-07T17:47:39",
+    "author": "Daniel Armstrong, Xuan-Vu Nguyen, Octavian Susanu, Gabriel Gibberd, Théo A. Neukomm, Taddäus Strunden, Dan Forster, Morgane Delattre, Shawn Teh, Clément Rols, John Federice, Hayden Leatherwood, M. Lav"
+  },
+  {
+    "title": "SkillProx: Self-Evolving Agent Skills via Proximal Textual Gradient Descent",
+    "url": "http://arxiv.org/abs/2608.07449v1",
+    "source": "arXiv",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-08-07T17:40:33",
+    "author": "Mingxuan Zheng, Yujin Zhou, Chuxue Cao, Boqin Yin, Yuyao Zhang, Jiapeng Sun, Shuaishuai Gong, Sirui Han, Yike Guo"
+  },
+  {
+    "title": "Taxonomy-Driven Analysis of Open-Source AI Risk Mitigation Tools",
+    "url": "http://arxiv.org/abs/2608.07446v1",
+    "source": "arXiv",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-08-07T17:33:09",
+    "author": "Afreen Alam, Evgenija Popchanovska, Ana Gjorgjevikj, Maryan Rizinski, Lubomir T. Chitkushev, Irena Vodenska, Dimitar Trajanov"
+  },
+  {
+    "title": "Blast Radius",
+    "url": "http://arxiv.org/abs/2608.07440v1",
+    "source": "arXiv",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-08-07T17:23:53",
+    "author": "MY Pitsane, Hope Mogale"
+  },
+  {
+    "title": "An Exploratory Evaluation of LLM-Assisted Rewriting of Moderate-Complexity Financial Sentences for DisCoCat-Based Sentiment Analysis",
+    "url": "http://arxiv.org/abs/2608.07439v1",
+    "source": "arXiv",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-08-07T17:23:01",
+    "author": "Brian Llinas, Nikos Chrisochoides"
+  },
+  {
+    "title": "PsychoAgent: An Affect-Sensitive Cognitive Architecture for Conflict-Aware Memory in LLM Agents",
+    "url": "http://arxiv.org/abs/2608.07438v1",
+    "source": "arXiv",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-08-07T17:22:29",
+    "author": "Mohammad Amanlou, Parham Abed Azad, Farbod Davoodi, Mostafa Masumi, Behnam Bahrak, Abdol-Hossein Vahabie"
+  },
+  {
+    "title": "Fisher-R1: Training LLM Agents for Reliable Hypothesis Testing",
+    "url": "http://arxiv.org/abs/2608.07437v1",
+    "source": "arXiv",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-08-07T17:22:00",
+    "author": "Jiacheng Miao, Jin Mu, Guanhua Chen, James Zou"
+  },
+  {
     "title": "How I use LLMs to learn complex topics",
     "url": "https://laurentiugabriel.github.io/blog/articles/how-i-use-llms-to-learn/",
     "source": "HackerNews",
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-08-09T19:16:49",
-    "author": "laurentiurad · 401 pts · 230 comments"
+    "author": "laurentiurad · 473 pts · 268 comments"
   },
   {
-    "title": "Mea Culpa – Dark Hours",
-    "url": "https://blog.terrygodier.com/2026/08/09/mea-culpa-dark-hours.html",
+    "title": "Taxi drivers rarely die of Alzheimer's",
+    "url": "https://theconversation.com/taxi-drivers-rarely-die-of-alzheimers-how-complex-mental-maps-and-spatial-reasoning-protect-your-brain-286650",
     "source": "HackerNews",
     "topic": "AI大事",
     "region": "intl",
-    "published": "2026-08-09T13:20:43",
-    "author": "satvikpendem · 556 pts · 251 comments"
+    "published": "2026-08-09T15:21:46",
+    "author": "jader201 · 203 pts · 154 comments"
   },
   {
     "title": "Everything you do is being recorded",
@@ -24,7 +96,7 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-08-09T11:30:48",
-    "author": "ike_usawa · 203 pts · 166 comments"
+    "author": "ike_usawa · 227 pts · 179 comments"
   },
   {
     "title": "Windows 11's built-in Weather app wastes more than 1 GB of RAM",
@@ -33,7 +105,34 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-08-09T15:11:20",
-    "author": "akyuu · 357 pts · 296 comments"
+    "author": "akyuu · 401 pts · 336 comments"
+  },
+  {
+    "title": "智能互动 Agent 在快手商业场景的落地实践｜AICon深圳",
+    "url": "https://www.infoq.cn/article/KCw3ZLsEJcNYFegzd7dx?utm_source=rss&utm_medium=article",
+    "source": "InfoQ 中文",
+    "topic": "AI大事",
+    "region": "cn",
+    "published": "2026-08-10T10:00:00",
+    "author": "AICon 全球人工智能开发与应用大会"
+  },
+  {
+    "title": "宇树科技今日申购，或出一批90后千万富豪；字节拟训练超5万亿参数模型，张一鸣：反对蒸馏；数百管理层被裁难找下家，猎头：没那么多岗｜AI周报",
+    "url": "https://www.infoq.cn/article/xWWwhH3iPjwRakLOQiXQ?utm_source=rss&utm_medium=article",
+    "source": "InfoQ 中文",
+    "topic": "AI大事",
+    "region": "cn",
+    "published": "2026-08-10T09:31:25",
+    "author": "傅宇琪,褚杏娟"
+  },
+  {
+    "title": "涨价30倍仍是最便宜的模型，DeepSeek可能有这个底气",
+    "url": "https://www.infoq.cn/article/FEcOI8kYoGuFYq39acEo?utm_source=rss&utm_medium=article",
+    "source": "InfoQ 中文",
+    "topic": "AI大事",
+    "region": "cn",
+    "published": "2026-08-10T09:25:43",
+    "author": "褚杏娟"
   },
   {
     "title": "OpenAI给10亿用户免费换上GPT-5.6",
@@ -99,31 +198,13 @@
     "author": "蚂蚁集团"
   },
   {
-    "title": "从回答问题到把事办完，消费Agent还缺什么？飞猪新一代 AI 产品 V10 的一次探索",
-    "url": "https://www.infoq.cn/article/t0wslR8w8H7yeRD2MwO6?utm_source=rss&utm_medium=article",
-    "source": "InfoQ 中文",
+    "title": "3B模型碾压英伟达谷歌后，Om AI端侧原生VLX模型：小参数实现物理世界精准感知",
+    "url": "https://www.qbitai.com/2026/08/469076.html",
+    "source": "量子位",
     "topic": "AI大事",
     "region": "cn",
-    "published": "2026-08-07T16:12:14",
-    "author": "InfoQ 中文站"
-  },
-  {
-    "title": "最高节省 85% 成本：微软公布 AI 智能体 LLM 路由方案",
-    "url": "https://www.infoq.cn/article/HQD432MKSXMMR2UUag6P?utm_source=rss&utm_medium=article",
-    "source": "InfoQ 中文",
-    "topic": "AI大事",
-    "region": "cn",
-    "published": "2026-08-07T15:00:00",
-    "author": "作者：Claudio Masolo"
-  },
-  {
-    "title": "DeepSeek要涨价，小扎立马“拼命”：Meta新模型打出更低“骨折价”，只要一点数据税",
-    "url": "https://www.infoq.cn/article/5DEAabOIcvRrEMhAbCyz?utm_source=rss&utm_medium=article",
-    "source": "InfoQ 中文",
-    "topic": "AI大事",
-    "region": "cn",
-    "published": "2026-08-07T13:33:35",
-    "author": "华卫"
+    "published": "2026-08-10T01:12:33",
+    "author": "田, 晏林"
   },
   {
     "title": "180万刀，连亚马逊都烧不起Claude了",
@@ -169,15 +250,6 @@
     "region": "cn",
     "published": "2026-08-08T07:57:35",
     "author": "Jay"
-  },
-  {
-    "title": "谷歌急了：AI核心员工全给我搬回硅谷坐班！",
-    "url": "https://www.qbitai.com/2026/08/468398.html",
-    "source": "量子位",
-    "topic": "AI大事",
-    "region": "cn",
-    "published": "2026-08-08T02:45:02",
-    "author": "衡宇"
   },
   {
     "title": "PrimeIntellect-ai/prime-agent",
@@ -333,6 +405,15 @@
     "author": ""
   },
   {
+    "title": "Quoting OpenClaw",
+    "url": "https://simonwillison.net/2026/Aug/10/openclaw/#atom-everything",
+    "source": "Simon Willison",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-08-10T02:05:16",
+    "author": ""
+  },
+  {
     "title": "Quoting Claude Opus 5 system prompt",
     "url": "https://simonwillison.net/2026/Aug/9/claude-opus-5-system-prompt/#atom-everything",
     "source": "Simon Willison",
@@ -393,15 +474,6 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-08-07T23:55:58",
-    "author": ""
-  },
-  {
-    "title": "Moonlight & Mayhem (Raccoon Heist by Codex + GPT-5.6 Sol Ultra)",
-    "url": "https://simonwillison.net/2026/Aug/7/moonlight-mayhem/#atom-everything",
-    "source": "Simon Willison",
-    "topic": "AI大事",
-    "region": "intl",
-    "published": "2026-08-07T19:18:09",
     "author": ""
   },
   {
@@ -936,31 +1008,49 @@
     "author": ""
   },
   {
-    "title": "特朗普加沙和平计划遇阻，内塔尼亚胡：我们拒绝，我们不撤",
-    "url": "https://m.thepaper.cn/detail/33750330",
+    "title": "台风暴雨强对流！中央气象台三预警齐发，11个省份有大到暴雨",
+    "url": "https://m.thepaper.cn/detail/33750785",
     "source": "澎湃新闻",
     "topic": "世界时事",
     "region": "cn",
-    "published": "2026-08-10T00:52:58",
-    "author": "澎湃新闻编辑 陈睿 视频来源 CMG国际时讯"
+    "published": "2026-08-10T03:14:49",
+    "author": "@中国气象局"
   },
   {
-    "title": "牛市早报｜宇树科技今日申购，7月CPI同比涨幅有所回落",
-    "url": "https://m.thepaper.cn/detail/33750286",
+    "title": "工商银行内蒙古分行成功通过跨境金融服务平台完成新型离岸转手贸易业务背景核验",
+    "url": "https://m.thepaper.cn/detail/33750697",
     "source": "澎湃新闻",
     "topic": "世界时事",
     "region": "cn",
-    "published": "2026-08-10T00:28:20",
-    "author": "澎湃新闻记者 胡含嫣"
+    "published": "2026-08-10T03:06:03",
+    "author": "工商银行内蒙古分行"
   },
   {
-    "title": "今晨“白海豚”位于浙江丽水庆元县境内，浙皖等地局地有特大暴雨",
-    "url": "https://m.thepaper.cn/detail/33750253",
+    "title": "新闻蒸馏器｜内塔尼亚胡公开拒绝美国15点加沙计划，与特朗普罕见摊牌",
+    "url": "https://m.thepaper.cn/detail/33750452",
     "source": "澎湃新闻",
     "topic": "世界时事",
     "region": "cn",
-    "published": "2026-08-09T23:17:44",
-    "author": "央视新闻"
+    "published": "2026-08-10T02:55:29",
+    "author": "澎湃新闻记者 南博一"
+  },
+  {
+    "title": "申论｜上海国际金融中心需以功能优势为牵引，提升五种能力",
+    "url": "https://m.thepaper.cn/detail/33738510",
+    "source": "澎湃新闻",
+    "topic": "世界时事",
+    "region": "cn",
+    "published": "2026-08-10T02:39:10",
+    "author": "冯玲"
+  },
+  {
+    "title": "十大券商看后市｜A股仍处于上行周期，超跌反弹还有演绎空间",
+    "url": "https://m.thepaper.cn/detail/33750320",
+    "source": "澎湃新闻",
+    "topic": "世界时事",
+    "region": "cn",
+    "published": "2026-08-10T00:30:47",
+    "author": "澎湃新闻首席记者 田忠方"
   },
   {
     "title": "潮涌千帆志昂扬——党中央、国务院邀请优秀专家人才代表北戴河休假侧记",
@@ -970,6 +1060,24 @@
     "region": "cn",
     "published": "2026-08-09T23:07:23",
     "author": "张洋/人民日报"
+  },
+  {
+    "title": "能源内参｜八大硅料巨头发起“反内卷”倡议；全国用电负荷四创新高",
+    "url": "https://www.caixin.com/2026-08-10/102472806.html",
+    "source": "财新网",
+    "topic": "世界时事",
+    "region": "cn",
+    "published": "2026-08-10T02:06:56",
+    "author": ""
+  },
+  {
+    "title": "今日开盘：沪指报3943.82点 涨幅0.10%",
+    "url": "https://finance.caixin.com/2026-08-10/102472792.html",
+    "source": "财新网",
+    "topic": "世界时事",
+    "region": "cn",
+    "published": "2026-08-10T01:29:53",
+    "author": ""
   },
   {
     "title": "T早报｜宇树科技今日开启申购；OpenAI暂停新模型Astra部分研发工作；摩尔线程拟赴港上市",
@@ -996,33 +1104,6 @@
     "topic": "世界时事",
     "region": "cn",
     "published": "2026-08-09T23:00:00",
-    "author": ""
-  },
-  {
-    "title": "7月CPI、PPI同比均低于预期 PPI同比结束持续改善、高位回落",
-    "url": "https://economy.caixin.com/2026-08-09/102472709.html",
-    "source": "财新网",
-    "topic": "世界时事",
-    "region": "cn",
-    "published": "2026-08-09T03:34:48",
-    "author": ""
-  },
-  {
-    "title": "财新闻｜多家上市公司宣布：收到美国关税退税",
-    "url": "https://mini.caixin.com/2026-08-09/102472638.html",
-    "source": "财新网",
-    "topic": "世界时事",
-    "region": "cn",
-    "published": "2026-08-09T01:37:39",
-    "author": ""
-  },
-  {
-    "title": "离岸信托90天补税窗口期疑问",
-    "url": "https://finance.caixin.com/2026-08-08/102472626.html",
-    "source": "财新网",
-    "topic": "世界时事",
-    "region": "cn",
-    "published": "2026-08-08T12:46:26",
     "author": ""
   },
   {
@@ -1167,16 +1248,16 @@
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-08-09T19:16:49",
-    "author": "laurentiurad · 401 pts · 230 comments"
+    "author": "laurentiurad · 474 pts · 268 comments"
   },
   {
-    "title": "Mea Culpa – Dark Hours",
-    "url": "https://blog.terrygodier.com/2026/08/09/mea-culpa-dark-hours.html",
+    "title": "Taxi drivers rarely die of Alzheimer's",
+    "url": "https://theconversation.com/taxi-drivers-rarely-die-of-alzheimers-how-complex-mental-maps-and-spatial-reasoning-protect-your-brain-286650",
     "source": "HackerNews",
     "topic": "技术圈",
     "region": "intl",
-    "published": "2026-08-09T13:20:43",
-    "author": "satvikpendem · 557 pts · 251 comments"
+    "published": "2026-08-09T15:21:46",
+    "author": "jader201 · 206 pts · 154 comments"
   },
   {
     "title": "Everything you do is being recorded",
@@ -1185,7 +1266,7 @@
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-08-09T11:30:48",
-    "author": "ike_usawa · 203 pts · 166 comments"
+    "author": "ike_usawa · 227 pts · 179 comments"
   },
   {
     "title": "Windows 11's built-in Weather app wastes more than 1 GB of RAM",
@@ -1194,16 +1275,88 @@
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-08-09T15:11:20",
-    "author": "akyuu · 357 pts · 296 comments"
+    "author": "akyuu · 401 pts · 336 comments"
   },
   {
-    "title": "AppFlowy-IO/AppFlowy 发布 v0.13.1",
-    "url": "https://github.com/AppFlowy-IO/AppFlowy/releases/tag/0.13.1",
-    "source": "GitHubRelease",
-    "topic": "GitHub 动态",
+    "title": "A transient effect of episodic simulation in repeated decision-making.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42571756/",
+    "source": "PubMed",
+    "topic": "心理学",
     "region": "intl",
-    "published": "2026-08-09T02:32:35",
-    "author": "LucasXu0"
+    "published": "2026",
+    "author": "Azara Lalla, Signy Sheldon"
+  },
+  {
+    "title": "The impact of religiosity and spirituality on health outcomes and decision making among African Americans with epilepsy: A review of direct and indirect evidence.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42571738/",
+    "source": "PubMed",
+    "topic": "心理学",
+    "region": "intl",
+    "published": "2026",
+    "author": "Dominique Tanner, Daniel Friedman"
+  },
+  {
+    "title": "Psychological skills training for sport-related outcomes: An umbrella review of evidence credibility and methodological quality.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42571653/",
+    "source": "PubMed",
+    "topic": "心理学",
+    "region": "intl",
+    "published": "2026",
+    "author": "Shiao Zhao, Xuda Zhang, Yiran Liu, Zhide Liang"
+  },
+  {
+    "title": "Clinical accountability in fragmented primary care for older adults: a practical framework for minimal multidimensional assessment and targeted testing in community and home-based settings.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42571646/",
+    "source": "PubMed",
+    "topic": "心理学",
+    "region": "intl",
+    "published": "2026",
+    "author": "Joomong Park"
+  },
+  {
+    "title": "Enhancing Care for Lactation After a Second Trimester Abortion or Fetal Loss: A Qualitative Study.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42571616/",
+    "source": "PubMed",
+    "topic": "心理学",
+    "region": "intl",
+    "published": "2026",
+    "author": "Eri Shindo, Meghan R Longacre, Amy E Paris"
+  },
+  {
+    "title": "Variable-Horizon Workforce Demand Forecasting with an Aggregate Demand Constraint for Construction Workforce Planning",
+    "url": "http://arxiv.org/abs/2608.05551v1",
+    "source": "arXiv",
+    "topic": "供应链",
+    "region": "intl",
+    "published": "2026-08-06T03:07:00",
+    "author": "Hanbyeol park, Jaehyeon Heo, Taekhyun Park, Minseong Kim, Hyerim Bae"
+  },
+  {
+    "title": "SynEnergy: Anomaly Semantic-Guided Diffusion for Synthetic Energy Data Generation",
+    "url": "http://arxiv.org/abs/2608.03087v1",
+    "source": "arXiv",
+    "topic": "供应链",
+    "region": "intl",
+    "published": "2026-08-04T04:00:10",
+    "author": "Lin Jiang, Dahai Yu, Ravikumar Gelli, Guang Wang"
+  },
+  {
+    "title": "MBDiff: Multi-view Behavior-aware Diffusion Model for Probabilistic Utility Data Imputation",
+    "url": "http://arxiv.org/abs/2607.29177v1",
+    "source": "arXiv",
+    "topic": "供应链",
+    "region": "intl",
+    "published": "2026-07-31T08:58:54",
+    "author": "Rongchao Xu, Lin Jiang, Dahai Yu, Ximiao Li, Guang Wang"
+  },
+  {
+    "title": "Contextual Deconvolution for Variance-Stable Demand Sensing: Kernel-Modulated Operators in Promotional Retail",
+    "url": "http://arxiv.org/abs/2607.25664v1",
+    "source": "arXiv",
+    "topic": "供应链",
+    "region": "intl",
+    "published": "2026-07-28T12:49:59",
+    "author": "Mohammad Forouhesh"
   },
   {
     "title": "全世界种植的蔬菜在减少",

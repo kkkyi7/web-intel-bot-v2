@@ -1,41 +1,41 @@
 {
   "date": "2026-08-10",
   "profile": "kizty",
-  "generated_at": "2026-08-10 01:36",
+  "generated_at": "2026-08-10 03:26",
   "stats": {
     "topics_ran": [
       "AI大事",
       "世界时事",
       "技术圈",
-      "GitHub 动态",
+      "心理学",
       "供应链"
     ],
-    "total_selected": 29,
-    "total_fetched": 145
+    "total_selected": 27,
+    "total_fetched": 162
   },
   "top3": [
     {
       "topic": "AI大事",
       "title": "OpenAI给10亿用户免费换上GPT-5.6",
-      "tldr": "OpenAI把最新模型GPT-5.6免费开放给所有用户，不用订阅Plus或企业版，10亿月活用户直接能用上最强推理和编程能力，这对AI应用落地是个大变量。",
+      "tldr": "OpenAI把最新模型GPT-5.6免费开放给所有用户，覆盖网页、App和API，不再强制订阅付费，这标志着旗舰模型从付费墙走向普惠，直接冲击现有AI应用的成本结构。",
       "score": 9,
       "url": "https://www.infoq.cn/article/RXRuR3TN9msNMAUWRtCl?utm_source=rss&utm_medium=article",
       "source": "InfoQ 中文",
       "source_count": 1
     },
     {
-      "topic": "世界时事",
-      "title": "中国正成为“工厂的工厂",
-      "tldr": "华尔街日报报道，中国出口结构从低价消费品转向中间品和资本品，即生产工厂所需的设备和零部件，正在从“世界工厂”变成“工厂的工厂”，冲击德国日本等高端制造经济体。",
+      "topic": "AI大事",
+      "title": "Agency Agents：一键安装 AI 专家团队",
+      "tldr": "一个开源项目，把几十个有性格、有专长的 AI Agent 打包成\"虚拟 agency\"，能一键装进 Claude Code、Cursor 等工具，相当于给开发者配了个随叫随到的专家团队。",
       "score": 9,
-      "url": "https://www.guancha.cn/internation/2026_08_07_826552_s.shtml",
-      "source": "观察者网",
+      "url": "https://github.com/msitarzewski/agency-agents",
+      "source": "GitHub Trending",
       "source_count": 1
     },
     {
       "topic": "供应链",
       "title": "推理工程大师课：Baseten 的实战分享",
-      "tldr": "Baseten 两位专家聊推理工程，讲怎么把开源模型变成又快又便宜的 API，包括量化、缓存、投机解码等优化手段，还提到优化能让模型提速 20% 到 200%。",
+      "tldr": "Baseten 两位专家聊推理工程，讲怎么把开源模型变成又快又便宜的 API，包括量化、缓存、投机解码这些优化手段，以及为什么推理优化还能带来 20% 到 200% 的性能提升。",
       "score": 9,
       "url": "https://www.latent.space/p/inference-eng",
       "source": "Latent Space",
