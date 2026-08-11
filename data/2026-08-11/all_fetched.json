@@ -1,12 +1,93 @@
 [
   {
-    "title": "Muse Glimmer: 30B-parameter model optimized for always-on local agent workflows",
-    "url": "https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model",
+    "title": "Perception Before Supervision: Self-Contained Visual Distillation from Counterfactual Blind Spots",
+    "url": "http://arxiv.org/abs/2608.09931v1",
+    "source": "arXiv",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-08-10T17:59:56",
+    "author": "Shravan Venkatraman, Omkar Thawakar, Ritesh Thawkar, Abdelrahman Shaker, Rao Muhammad Anwer"
+  },
+  {
+    "title": "Beyond Naturalness: Probing Automated Text-To-Speech Evaluators on Linguistically Grounded Dimensions",
+    "url": "http://arxiv.org/abs/2608.09930v1",
+    "source": "arXiv",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-08-10T17:59:51",
+    "author": "Oluwanifemi Bamgbose, Simon Rosen, Jash Shah, Lindsay Devon Brin, Hoang H Nguyen, Anke Koelzer, Rachel Hansen, Tara Bogavelli, Fanny Riols"
+  },
+  {
+    "title": "Multimodal Model Diffing for Feature Discovery and Control",
+    "url": "http://arxiv.org/abs/2608.09928v1",
+    "source": "arXiv",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-08-10T17:59:30",
+    "author": "Hunar Batra, Lachin Naghashyar, Ashkan Khakzar, Philip Torr, Christian Schroeder de Witt, Constantin Venhoff, Ronald Clark"
+  },
+  {
+    "title": "From Values to Benchmarks: Evaluating Large Language Models for Governmental Use in Dutch",
+    "url": "http://arxiv.org/abs/2608.09925v1",
+    "source": "arXiv",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-08-10T17:59:05",
+    "author": "Laurens Samson, Iva Gornishka, Gossa Lô, Yuki M. Asano, Sennay Ghebreab"
+  },
+  {
+    "title": "DistMoE: Private-data Rehearsal-free Routing in Mixture-of-Experts for Distributed Instruction Tuning",
+    "url": "http://arxiv.org/abs/2608.09907v1",
+    "source": "arXiv",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-08-10T17:52:14",
+    "author": "Mainak Singha, Niccolò Biondi, Elisa Ricci, Subhankar Roy"
+  },
+  {
+    "title": "Decoding-Level Taboo: A Diagnostic Stress Test for LLM Robustness",
+    "url": "http://arxiv.org/abs/2608.09900v1",
+    "source": "arXiv",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-08-10T17:47:24",
+    "author": "Tadanobu Chuyo Kamijo, Ori Rottenstreich, Javier Conde, Gonzalo Martínez, Pedro Reviriego"
+  },
+  {
+    "title": "Consilience for Verifier-Free Test-Time Scaling",
+    "url": "http://arxiv.org/abs/2608.09898v1",
+    "source": "arXiv",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-08-10T17:45:44",
+    "author": "Lecheng Kong, Like Hui, Haitao Mao, Jun Huan"
+  },
+  {
+    "title": "Fusion Training for Mathematical Generalization in Large Language Models",
+    "url": "http://arxiv.org/abs/2608.09893v1",
+    "source": "arXiv",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-08-10T17:41:19",
+    "author": "Congfeng Cao, Pengyu Zhang, Jelke Bloem"
+  },
+  {
+    "title": "The UK's War on Anonymity Has Come to America",
+    "url": "https://www.effort.news/uk-lobby",
     "source": "HackerNews",
     "topic": "AI大事",
     "region": "intl",
-    "published": "2026-08-10T10:10:02",
-    "author": "riordan · 1032 pts · 574 comments"
+    "published": "2026-08-10T23:45:50",
+    "author": "slowin · 305 pts · 200 comments"
+  },
+  {
+    "title": "Show HN: Needle2: 14MB agentic LLM for phones, wearables, smart home and robots",
+    "url": "https://cactuscompute.com/needle",
+    "source": "HackerNews",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-08-10T17:22:07",
+    "author": "HenryNdubuaku · 209 pts · 89 comments"
   },
   {
     "title": "Mark Zuckerberg attacks 'closed' AI rivals as Meta returns to open models",
@@ -15,7 +96,25 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-08-10T14:06:22",
-    "author": "root-parent · 357 pts · 382 comments"
+    "author": "root-parent · 405 pts · 396 comments"
+  },
+  {
+    "title": "Stop Killing Games: It's time to sue Sony, join us",
+    "url": "https://www.massaschadeconsument.nl/collectieve-acties/playstation/",
+    "source": "HackerNews",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-08-10T20:47:13",
+    "author": "EDM115 · 204 pts · 86 comments"
+  },
+  {
+    "title": "Muse Glimmer: 30B-parameter model optimized for always-on local agent workflows",
+    "url": "https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model",
+    "source": "HackerNews",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-08-10T10:10:02",
+    "author": "riordan · 1055 pts · 584 comments"
   },
   {
     "title": "Squeak 6.1",
@@ -24,7 +123,25 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-08-10T12:15:53",
-    "author": "fniephaus · 221 pts · 114 comments"
+    "author": "fniephaus · 234 pts · 117 comments"
+  },
+  {
+    "title": "DORA：AI 辅助软件开发的团队画像与能力模型，帮助团队将研究成果落地",
+    "url": "https://www.infoq.cn/article/1oV8oaYwzU15W5BdSL7C?utm_source=rss&utm_medium=article",
+    "source": "InfoQ 中文",
+    "topic": "AI大事",
+    "region": "cn",
+    "published": "2026-08-11T10:21:38",
+    "author": "作者：Ben Linders"
+  },
+  {
+    "title": "企业 AI Native 研发流程升级与重塑｜AICon深圳",
+    "url": "https://www.infoq.cn/article/gmMSLtDO3XOy1UwCMdov?utm_source=rss&utm_medium=article",
+    "source": "InfoQ 中文",
+    "topic": "AI大事",
+    "region": "cn",
+    "published": "2026-08-11T10:00:00",
+    "author": "AICon 全球人工智能开发与应用大会"
   },
   {
     "title": "开源LangAlpha正式发布：金融领域的Claude Code，用自然语言驱动投研工作流",
@@ -99,24 +216,6 @@
     "author": "褚杏娟"
   },
   {
-    "title": "OpenAI给10亿用户免费换上GPT-5.6",
-    "url": "https://www.infoq.cn/article/RXRuR3TN9msNMAUWRtCl?utm_source=rss&utm_medium=article",
-    "source": "InfoQ 中文",
-    "topic": "AI大事",
-    "region": "cn",
-    "published": "2026-08-09T10:23:42",
-    "author": "褚杏娟"
-  },
-  {
-    "title": "从失控到可控：基于系统控制论的 Agent 安全防御体系设计与实践｜AICon深圳",
-    "url": "https://www.infoq.cn/article/MMh1pkuNSPDlUAtuRelk?utm_source=rss&utm_medium=article",
-    "source": "InfoQ 中文",
-    "topic": "AI大事",
-    "region": "cn",
-    "published": "2026-08-09T10:00:00",
-    "author": "AICon 全球人工智能开发与应用大会"
-  },
-  {
     "title": "AI倒查论文100年！99.2%的顶刊都有问题…",
     "url": "https://www.qbitai.com/2026/08/469795.html",
     "source": "量子位",
@@ -169,15 +268,6 @@
     "region": "cn",
     "published": "2026-08-10T02:34:48",
     "author": "梦瑶"
-  },
-  {
-    "title": "3B模型碾压英伟达谷歌后，Om AI端侧原生VLX模型：小参数实现物理世界精准感知",
-    "url": "https://www.qbitai.com/2026/08/469076.html",
-    "source": "量子位",
-    "topic": "AI大事",
-    "region": "cn",
-    "published": "2026-08-10T01:12:33",
-    "author": "田, 晏林"
   },
   {
     "title": "PrimeIntellect-ai/prime-agent",
@@ -432,6 +522,15 @@
     "author": "阮一峰"
   },
   {
+    "title": "对话智界赵长江：用旧时代的逻辑，经营不好 AI 时代的汽车公司",
+    "url": "https://www.ifanr.com/1674637?utm_source=rss&utm_medium=rss&utm_campaign=",
+    "source": "爱范儿",
+    "topic": "AI大事",
+    "region": "cn",
+    "published": "2026-08-11T02:27:27",
+    "author": "刘学文"
+  },
+  {
     "title": "早报｜苹果20周年iPhone或因良率问题取消/小米校招AI岗位增加50%/极氪回应7X充电场站过热",
     "url": "https://www.ifanr.com/1674633?utm_source=rss&utm_medium=rss&utm_campaign=",
     "source": "爱范儿",
@@ -511,15 +610,6 @@
     "region": "cn",
     "published": "2026-08-08T00:52:06",
     "author": "郑廷旭"
-  },
-  {
-    "title": "最后一辆 W16 布加迪，成为了拥有 1600 马力的艺术品",
-    "url": "https://www.ifanr.com/1674436?utm_source=rss&utm_medium=rss&utm_campaign=",
-    "source": "爱范儿",
-    "topic": "AI大事",
-    "region": "cn",
-    "published": "2026-08-07T11:28:46",
-    "author": "李华"
   },
   {
     "title": "[AINews] Zawinski's Law of MultiAgents",
@@ -936,22 +1026,22 @@
     "author": ""
   },
   {
-    "title": "牛市早报｜两部门：到2030年我国现代煤炭产业体系基本建成",
-    "url": "https://m.thepaper.cn/detail/33757074",
+    "title": "美的置业上半年核心净利润2.6亿元，“政策驱动使部分核心城市出现房价回升行情”",
+    "url": "https://m.thepaper.cn/detail/33757416",
     "source": "澎湃新闻",
     "topic": "世界时事",
     "region": "cn",
-    "published": "2026-08-11T01:10:06",
-    "author": "澎湃新闻记者 周玲"
+    "published": "2026-08-11T02:28:06",
+    "author": "澎湃新闻记者 计思敏"
   },
   {
-    "title": "昆仑万维筹划赴港上市，拟清空所持闲徕互娱股权套现7.5亿元",
-    "url": "https://m.thepaper.cn/detail/33755081",
+    "title": "邬光荣任中国驻乌干达大使",
+    "url": "https://m.thepaper.cn/detail/33757624",
     "source": "澎湃新闻",
     "topic": "世界时事",
     "region": "cn",
-    "published": "2026-08-11T00:48:57",
-    "author": "澎湃新闻记者 李晓青"
+    "published": "2026-08-11T02:26:08",
+    "author": "澎湃新闻记者 岳怀让"
   },
   {
     "title": "光伏上游“自杀式”价格战迎终局？多晶硅八巨头集体叫停亏损销售",
@@ -970,6 +1060,42 @@
     "region": "cn",
     "published": "2026-08-10T23:33:18",
     "author": "胡逸"
+  },
+  {
+    "title": "民族矿业浪潮下，中国出海矿企的破局之道",
+    "url": "https://opinion.caixin.com/2026-08-11/102473070.html",
+    "source": "财新网",
+    "topic": "世界时事",
+    "region": "cn",
+    "published": "2026-08-11T02:28:45",
+    "author": ""
+  },
+  {
+    "title": "反市场的商业是不道德的：浅议钟睒睒的商业逻辑",
+    "url": "https://opinion.caixin.com/2026-08-11/102473069.html",
+    "source": "财新网",
+    "topic": "世界时事",
+    "region": "cn",
+    "published": "2026-08-11T02:20:38",
+    "author": ""
+  },
+  {
+    "title": "银行网点员工该不该午休",
+    "url": "https://opinion.caixin.com/2026-08-11/102473056.html",
+    "source": "财新网",
+    "topic": "世界时事",
+    "region": "cn",
+    "published": "2026-08-11T01:48:27",
+    "author": ""
+  },
+  {
+    "title": "今日开盘：两市双双低开 沪指跌幅0.40%",
+    "url": "https://finance.caixin.com/2026-08-11/102473049.html",
+    "source": "财新网",
+    "topic": "世界时事",
+    "region": "cn",
+    "published": "2026-08-11T01:29:52",
+    "author": ""
   },
   {
     "title": "【市场动态】英伟达联手六家华尔街巨头 筹划5000亿美元AI基建融资",
@@ -999,12 +1125,12 @@
     "author": ""
   },
   {
-    "title": "内塔尼亚胡宣布拒绝加沙和平计划 称“不会进行任何撤军”",
-    "url": "https://international.caixin.com/2026-08-10/102472953.html",
-    "source": "财新网",
+    "title": "警惕！这个美机构成“反华急先锋”",
+    "url": "https://www.guancha.cn/internation/2026_08_11_826889_s.shtml",
+    "source": "观察者网",
     "topic": "世界时事",
     "region": "cn",
-    "published": "2026-08-10T10:14:53",
+    "published": "2026-08-11T03:03:43",
     "author": ""
   },
   {
@@ -1089,15 +1215,6 @@
     "author": ""
   },
   {
-    "title": "白人持有72%，南非为何一直分不好土地？",
-    "url": "https://www.guancha.cn/internation/2026_08_09_826665_s.shtml",
-    "source": "观察者网",
-    "topic": "世界时事",
-    "region": "cn",
-    "published": "2026-08-08T22:30:25",
-    "author": ""
-  },
-  {
     "title": "日本2026防衛白皮書為何刪去「台海攸關安保」？",
     "url": "https://www.bbc.com/zhongwen/articles/c9809dp99neo/trad?at_medium=RSS&at_campaign=rss",
     "source": "BBC 中文",
@@ -1143,13 +1260,22 @@
     "author": ""
   },
   {
-    "title": "Muse Glimmer: 30B-parameter model optimized for always-on local agent workflows",
-    "url": "https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model",
+    "title": "The UK's War on Anonymity Has Come to America",
+    "url": "https://www.effort.news/uk-lobby",
     "source": "HackerNews",
     "topic": "技术圈",
     "region": "intl",
-    "published": "2026-08-10T10:10:02",
-    "author": "riordan · 1033 pts · 574 comments"
+    "published": "2026-08-10T23:45:50",
+    "author": "slowin · 308 pts · 201 comments"
+  },
+  {
+    "title": "Show HN: Needle2: 14MB agentic LLM for phones, wearables, smart home and robots",
+    "url": "https://cactuscompute.com/needle",
+    "source": "HackerNews",
+    "topic": "技术圈",
+    "region": "intl",
+    "published": "2026-08-10T17:22:07",
+    "author": "HenryNdubuaku · 209 pts · 90 comments"
   },
   {
     "title": "Mark Zuckerberg attacks 'closed' AI rivals as Meta returns to open models",
@@ -1158,7 +1284,25 @@
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-08-10T14:06:22",
-    "author": "root-parent · 358 pts · 382 comments"
+    "author": "root-parent · 405 pts · 396 comments"
+  },
+  {
+    "title": "Stop Killing Games: It's time to sue Sony, join us",
+    "url": "https://www.massaschadeconsument.nl/collectieve-acties/playstation/",
+    "source": "HackerNews",
+    "topic": "技术圈",
+    "region": "intl",
+    "published": "2026-08-10T20:47:13",
+    "author": "EDM115 · 204 pts · 86 comments"
+  },
+  {
+    "title": "Muse Glimmer: 30B-parameter model optimized for always-on local agent workflows",
+    "url": "https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model",
+    "source": "HackerNews",
+    "topic": "技术圈",
+    "region": "intl",
+    "published": "2026-08-10T10:10:02",
+    "author": "riordan · 1055 pts · 584 comments"
   },
   {
     "title": "Squeak 6.1",
@@ -1167,7 +1311,7 @@
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-08-10T12:15:53",
-    "author": "fniephaus · 221 pts · 114 comments"
+    "author": "fniephaus · 234 pts · 117 comments"
   },
   {
     "title": "huggingface/transformers 发布 Release: v5.15.0",
@@ -1222,5 +1366,221 @@
     "region": "intl",
     "published": "2026-08-10T07:16:28",
     "author": "next-js-bot[bot]"
+  },
+  {
+    "title": "The Impact of Demand Forecasting on Delay and Jitter in DVB-Based Beam-Hopping LEO Networks",
+    "url": "http://arxiv.org/abs/2608.07901v1",
+    "source": "arXiv",
+    "topic": "供应链",
+    "region": "intl",
+    "published": "2026-08-08T03:58:39",
+    "author": "Yekta Demirci, Guillaume Mantelet, Stéphane Martel, Jean-François Frigon, Gunes Karabulut Kurt"
+  },
+  {
+    "title": "Implicit Differentiation for Measurement-Efficient Bilevel Quantum-Classical Optimization",
+    "url": "http://arxiv.org/abs/2608.07717v1",
+    "source": "arXiv",
+    "topic": "供应链",
+    "region": "intl",
+    "published": "2026-08-07T19:03:43",
+    "author": "Tobias Rohe, Markus Baumann, Federico Harjes Ruiloba, Maximilian Zorn, Jonas Stein, Claudia Linnhoff-Popien"
+  },
+  {
+    "title": "Variable-Horizon Workforce Demand Forecasting with an Aggregate Demand Constraint for Construction Workforce Planning",
+    "url": "http://arxiv.org/abs/2608.05551v1",
+    "source": "arXiv",
+    "topic": "供应链",
+    "region": "intl",
+    "published": "2026-08-06T03:07:00",
+    "author": "Hanbyeol park, Jaehyeon Heo, Taekhyun Park, Minseong Kim, Hyerim Bae"
+  },
+  {
+    "title": "SynEnergy: Anomaly Semantic-Guided Diffusion for Synthetic Energy Data Generation",
+    "url": "http://arxiv.org/abs/2608.03087v1",
+    "source": "arXiv",
+    "topic": "供应链",
+    "region": "intl",
+    "published": "2026-08-04T04:00:10",
+    "author": "Lin Jiang, Dahai Yu, Ravikumar Gelli, Guang Wang"
+  },
+  {
+    "title": "MBDiff: Multi-view Behavior-aware Diffusion Model for Probabilistic Utility Data Imputation",
+    "url": "http://arxiv.org/abs/2607.29177v1",
+    "source": "arXiv",
+    "topic": "供应链",
+    "region": "intl",
+    "published": "2026-07-31T08:58:54",
+    "author": "Rongchao Xu, Lin Jiang, Dahai Yu, Ximiao Li, Guang Wang"
+  },
+  {
+    "title": "Contextual Deconvolution for Variance-Stable Demand Sensing: Kernel-Modulated Operators in Promotional Retail",
+    "url": "http://arxiv.org/abs/2607.25664v1",
+    "source": "arXiv",
+    "topic": "供应链",
+    "region": "intl",
+    "published": "2026-07-28T12:49:59",
+    "author": "Mohammad Forouhesh"
+  },
+  {
+    "title": "为什么出租车和救护车司机很少死于阿尔茨海默",
+    "url": "https://www.solidot.org/story?sid=85052",
+    "source": "Solidot",
+    "topic": "供应链",
+    "region": "intl",
+    "published": "2026-08-10T12:39:10",
+    "author": ""
+  },
+  {
+    "title": "全世界种植的蔬菜在减少",
+    "url": "https://www.solidot.org/story?sid=85045",
+    "source": "Solidot",
+    "topic": "供应链",
+    "region": "intl",
+    "published": "2026-08-09T15:13:58",
+    "author": ""
+  },
+  {
+    "title": "PipeNetwork/minimax-h3-mlx",
+    "url": "https://simonwillison.net/2026/Aug/4/minimax-h3-mlx/#atom-everything",
+    "source": "Simon Willison",
+    "topic": "供应链",
+    "region": "intl",
+    "published": "2026-08-04T19:10:09",
+    "author": ""
+  },
+  {
+    "title": "对话智界赵长江：用旧时代的逻辑，经营不好 AI 时代的汽车公司",
+    "url": "https://www.ifanr.com/1674637?utm_source=rss&utm_medium=rss&utm_campaign=",
+    "source": "爱范儿",
+    "topic": "供应链",
+    "region": "cn",
+    "published": "2026-08-11T02:27:27",
+    "author": "刘学文"
+  },
+  {
+    "title": "早报｜苹果20周年iPhone或因良率问题取消/小米校招AI岗位增加50%/极氪回应7X充电场站过热",
+    "url": "https://www.ifanr.com/1674633?utm_source=rss&utm_medium=rss&utm_campaign=",
+    "source": "爱范儿",
+    "topic": "供应链",
+    "region": "cn",
+    "published": "2026-08-11T00:44:25",
+    "author": "郑廷旭"
+  },
+  {
+    "title": "早报｜微信上线「撤回的撤回」/苹果上调多款设备以旧换新回收价/曝字节开始预训练10万亿参数大模型",
+    "url": "https://www.ifanr.com/1674478?utm_source=rss&utm_medium=rss&utm_campaign=",
+    "source": "爱范儿",
+    "topic": "供应链",
+    "region": "cn",
+    "published": "2026-08-08T00:52:06",
+    "author": "郑廷旭"
+  },
+  {
+    "title": "下个月的 iPhone 发布会，可能是五年来最有「活人感」的一次",
+    "url": "https://www.ifanr.com/1674187?utm_source=rss&utm_medium=rss&utm_campaign=",
+    "source": "爱范儿",
+    "topic": "供应链",
+    "region": "cn",
+    "published": "2026-08-06T10:00:04",
+    "author": "郑廷旭"
+  },
+  {
+    "title": "[AINews] AMD buys Taalas",
+    "url": "https://www.latent.space/p/ainews-amd-buys-taalas",
+    "source": "Latent Space",
+    "topic": "供应链",
+    "region": "intl",
+    "published": "2026-08-07T05:13:46",
+    "author": ""
+  },
+  {
+    "title": "[AINews] Jeff, Sanjay, Oriol, and Quoc depart DeepMind; Demis to Chair; Koray to SVP — what is going on at GDM???",
+    "url": "https://www.latent.space/p/ainews-jeff-sanjay-oriol-and-quoc",
+    "source": "Latent Space",
+    "topic": "供应链",
+    "region": "intl",
+    "published": "2026-08-06T04:34:11",
+    "author": "Latent.Space"
+  },
+  {
+    "title": "The Inference Engineering Masterclass — Philip Kiely & Ali Taha, Baseten",
+    "url": "https://www.latent.space/p/inference-eng",
+    "source": "Latent Space",
+    "topic": "供应链",
+    "region": "intl",
+    "published": "2026-08-03T21:44:03",
+    "author": ""
+  },
+  {
+    "title": "[AINews] Black Forest Labs FLUX 3 - Multimodal Flow Models that beat Seedance 2.0, Gemini Omni and Grok Imagine, and FLUX-mimic video-action robotics model",
+    "url": "https://www.latent.space/p/ainews-black-forest-labs-flux-3-multimodal",
+    "source": "Latent Space",
+    "topic": "供应链",
+    "region": "intl",
+    "published": "2026-07-24T04:30:12",
+    "author": ""
+  },
+  {
+    "title": "🔬Causal Models Need Causal Data - Xaira’s X-Cell model for Drug Discovery (Bo Wang & Ci Chu, Chief Discovery Officer & Chief AI Scientist)",
+    "url": "https://www.latent.space/p/xaira",
+    "source": "Latent Space",
+    "topic": "供应链",
+    "region": "intl",
+    "published": "2026-07-21T19:34:06",
+    "author": "RJ Honicky"
+  },
+  {
+    "title": "The costs of monitoring: Does self-catching the wandering mind influence task performance and/or residual probe-caught mind-wandering?",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42574796/",
+    "source": "PubMed",
+    "topic": "心理学",
+    "region": "intl",
+    "published": "2026",
+    "author": "Adrian Berk Safati, Paul Seli, Daniel Smilek"
+  },
+  {
+    "title": "Research on the influencing factors of decision-making preferences for the rescue treatment of elderly patients with chronic diseases.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42574778/",
+    "source": "PubMed",
+    "topic": "心理学",
+    "region": "intl",
+    "published": "2026",
+    "author": "Dan Wei, Qian Chen, Tingting Jiang"
+  },
+  {
+    "title": "Securing Patient-Centered Decision Making With Adults With Intellectual and Developmental Disabilities.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42574727/",
+    "source": "PubMed",
+    "topic": "心理学",
+    "region": "intl",
+    "published": "2026",
+    "author": "Isaac Baldwin, Allison M McCarthy"
+  },
+  {
+    "title": "Influence of Fitness on Exercise Blood Pressure and Cardiac Structure: Data from the Exercise Stress Test Collaboration (EXERTION).",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42574709/",
+    "source": "PubMed",
+    "topic": "心理学",
+    "region": "intl",
+    "published": "2026",
+    "author": "Catalina P Silva-Ruiz, James E Sharman, Petr Otahal, Philip Roberts-Thomson"
+  },
+  {
+    "title": "Comparison of Brain Age With Standard MRI Assessment for Dementia Risk Stratification in Subjective and Mild Cognitive Impairment.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42574695/",
+    "source": "PubMed",
+    "topic": "心理学",
+    "region": "intl",
+    "published": "2026",
+    "author": "Stefan De Vries, Katalin Farkas, Hanneke F M Rhodius-Meester, Argonde Corien Van Harten"
+  },
+  {
+    "title": "不再拆机飞线：借助 ACC 实现旧手机直供电「改造」",
+    "url": "https://sspai.com/prime/story/direct-power-supply-mod",
+    "source": "少数派",
+    "topic": "心理学",
+    "region": "cn",
+    "published": "2026-08-10T13:50:02",
+    "author": "谷丰"
   }
 ]
