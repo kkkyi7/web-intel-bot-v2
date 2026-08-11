@@ -1,0 +1,44 @@
+{
+  "date": "2026-08-11",
+  "profile": "kizty",
+  "generated_at": "2026-08-11 01:34",
+  "stats": {
+    "topics_ran": [
+      "AI大事",
+      "世界时事",
+      "技术圈",
+      "GitHub 动态"
+    ],
+    "total_selected": 25,
+    "total_fetched": 136
+  },
+  "top3": [
+    {
+      "topic": "AI大事",
+      "title": "OpenAI给10亿用户免费换上GPT-5.6",
+      "tldr": "OpenAI把最新模型GPT-5.6免费开放给所有用户，覆盖网页、App和API，不再需要订阅Plus或企业版，10亿月活用户都能直接用上最强推理和编程能力。",
+      "score": 9,
+      "url": "https://www.infoq.cn/article/RXRuR3TN9msNMAUWRtCl?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "source_count": 1
+    },
+    {
+      "topic": "世界时事",
+      "title": "禁止对华出口光刻机，美欧将成最大输家",
+      "tldr": "法国学者发文说，美国限制对华出口光刻机，短期能拖慢中国，但长期反而逼中国自研，最终欧洲丢市场、美国多对手，俩都是输家。",
+      "score": 9,
+      "url": "https://www.guancha.cn/economy/2026_08_09_826688_s.shtml",
+      "source": "观察者网",
+      "source_count": 1
+    },
+    {
+      "topic": "技术圈",
+      "title": "Meta 发布 Muse Glimmer：30B 参数本地常驻 Agent 模型",
+      "tldr": "Meta 开源了一个 30B 参数的模型，能在单张消费级显卡上跑，专门为本地 24 小时常驻的 AI Agent 设计，还顺带预告了下一代基础模型的开源计划。",
+      "score": 9,
+      "url": "https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model",
+      "source": "HackerNews",
+      "source_count": 1
+    }
+  ]
+}
