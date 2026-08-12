@@ -1,7 +1,7 @@
 {
   "date": "2026-08-12",
   "profile": "kizty",
-  "generated_at": "2026-08-12 01:35",
+  "generated_at": "2026-08-12 03:37",
   "stats": {
     "topics_ran": [
       "AI大事",
@@ -10,35 +10,35 @@
       "技术圈",
       "GitHub 动态"
     ],
-    "total_selected": 31,
-    "total_fetched": 155
+    "total_selected": 33,
+    "total_fetched": 163
   },
   "top3": [
     {
       "topic": "AI大事",
-      "title": "窃取闭源大模型推理链",
-      "tldr": "研究者发现Anthropic、OpenAI和Google的模型用同一个密钥加密思维链，把加密块喂给同系列弱模型再越狱，就能还原强模型的隐藏推理内容，目前已被修复。",
+      "title": "窃取专有LLM API的推理轨迹",
+      "tldr": "安全研究人员发现，OpenAI、Anthropic、Google的模型用同一个密钥加密推理过程，把加密块喂给同系列弱模型，就能越狱让它吐出强模型的原始推理内容。目前厂商已修复。",
       "score": 9,
       "url": "https://simonwillison.net/2026/Aug/11/stealing-reasoning-traces/#atom-everything",
       "source": "Simon Willison",
       "source_count": 2
     },
     {
-      "topic": "AI大事",
-      "title": "AMD 收购 Taalas，定制 ASIC 押注推理",
-      "tldr": "AMD 收购了做定制 AI 芯片的 Taalas，加上 Meta 新模型成本碾压、OpenAI 合并模型版本，整个行业在往“垂直整合 + 极致性价比”方向猛冲。",
+      "topic": "技术圈",
+      "title": "Nvidia 的高风险赌局",
+      "tldr": "Stratechery 分析 Nvidia 当前处境：硬件虽强，但 CUDA 软件生态的开发者体验极差，且中国正在自建全栈替代。文章认为 Nvidia 的护城河比想象中脆弱，需求增长的二阶假设可能被高估。",
       "score": 9,
-      "url": "https://www.latent.space/p/ainews-amd-buys-taalas",
-      "source": "Latent Space",
+      "url": "https://stratechery.com/2026/nvidias-risky-business/",
+      "source": "HackerNews",
       "source_count": 1
     },
     {
-      "topic": "技术圈",
-      "title": "Go 是 AI 辅助软件工程的理想语言",
-      "tldr": "Google 官方博客发文论证 Go 语言最适合 AI 辅助编程，理由是语法简单、工具链完善、编译快，AI 生成的代码更容易被审查和修复。HN 评论区吵翻了，有人支持有人反对。",
-      "score": 9,
-      "url": "https://developers.googleblog.com/why-go-is-an-ideal-language-for-ai-assisted-software-engineering/",
-      "source": "HackerNews",
+      "topic": "世界时事",
+      "title": "与美国AI竞争，中国遇到哪些困难？",
+      "tldr": "复旦大学教授分析美国三届政府对华AI政策演变，从点状限制到制度封锁再到生态争夺，同时指出中国大模型在核心技术、产业应用和全球生态上仍有差距。",
+      "score": 8,
+      "url": "https://www.guancha.cn/caicuihong/2026_08_10_826772_s.shtml",
+      "source": "观察者网",
       "source_count": 1
     }
   ]

@@ -1,12 +1,84 @@
 [
   {
+    "title": "ConVAWG: A Retrieval-Grounded Framework for Controlled Synthetic Dialogue Generation in Violence Against Women and Girls",
+    "url": "http://arxiv.org/abs/2608.11200v1",
+    "source": "arXiv",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-08-11T17:57:34",
+    "author": "Chen Lyu, Xingwei Tan, Simon Cullen, Shelley Wilson, Lois Arthurs, Arshad Jhumka, Gabriele Pergola"
+  },
+  {
+    "title": "Beyond a Bag of Features: Set-Level Instability in Sparse Autoencoders",
+    "url": "http://arxiv.org/abs/2608.11197v1",
+    "source": "arXiv",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-08-11T17:55:59",
+    "author": "Nikolai Bolik, Lennart Stöpler, Artur Andrzejak"
+  },
+  {
+    "title": "MultiModal Code-Switching: Interleaving Visual Objects into Language for Explicit Object-Level Alignment",
+    "url": "http://arxiv.org/abs/2608.11167v1",
+    "source": "arXiv",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-08-11T17:28:52",
+    "author": "Changhao Xiang, Shangyu Xing, Zhen Wu, Jianbing Zhang, Xinyu Dai"
+  },
+  {
+    "title": "Role of Personality in Conversational Information Seeking",
+    "url": "http://arxiv.org/abs/2608.11164v1",
+    "source": "arXiv",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-08-11T17:26:24",
+    "author": "Abdisalam Abukar, Junchen Fu, Chengli Zhai, Joemon M. Jose"
+  },
+  {
+    "title": "Scheduling Mixed RL Rollouts Beyond Prefix Locality",
+    "url": "http://arxiv.org/abs/2608.11152v1",
+    "source": "arXiv",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-08-11T17:10:50",
+    "author": "Zetao Hong, Song Yuan, Yuanhao Ding, Yibo Zhu, Daxin Jiang, Zhibin Wang, Chen Tian"
+  },
+  {
+    "title": "PRMU: A Corpus-Free Benchmark for Person-Centric Knowledge Unlearning in Multimodal Large Language Models",
+    "url": "http://arxiv.org/abs/2608.11149v1",
+    "source": "arXiv",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-08-11T17:09:28",
+    "author": "Huafeng Chen, Yueming Lyu, Ziyuan Chen, Wenda Tan, Chenyang Si, Liucheng Guo, Caifeng Shan"
+  },
+  {
+    "title": "The Illusion of Cross-Lingual Safety in Low-Resource Languages",
+    "url": "http://arxiv.org/abs/2608.11146v1",
+    "source": "arXiv",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-08-11T17:05:26",
+    "author": "Abigail Oppong, P Sam Sahil, Tadesse Destaw Belay, Maryam Ibrahim Mukhtar, Esmael Ahmed Abdu, Tassallah Abdullahi, Jessica Oparebea, Saminu Mohammad Aliyu, Idris Abdulmumin, Abubakar Juma Chilala, Nic"
+  },
+  {
+    "title": "Attention-Path Fragility as an Uncertainty Signal in Large Language Models",
+    "url": "http://arxiv.org/abs/2608.11138v1",
+    "source": "arXiv",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-08-11T16:59:02",
+    "author": "Minsoo Kim, Sungyoung Ji, Kisung Moon, Ilyong Yoon"
+  },
+  {
     "title": "Compression is prediction",
     "url": "https://ngrok.com/blog/compression-is-prediction",
     "source": "HackerNews",
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-08-11T19:49:44",
-    "author": "nikolay · 246 pts · 106 comments"
+    "author": "nikolay · 315 pts · 131 comments"
   },
   {
     "title": "Mojo 1.0",
@@ -15,7 +87,7 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-08-11T16:56:46",
-    "author": "dayanruben · 285 pts · 128 comments"
+    "author": "dayanruben · 316 pts · 146 comments"
   },
   {
     "title": "Stealing Reasoning Traces from Proprietary LLM APIs",
@@ -24,7 +96,7 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-08-11T13:22:00",
-    "author": "quantumgarbage · 485 pts · 205 comments"
+    "author": "quantumgarbage · 532 pts · 222 comments"
   },
   {
     "title": "OpenAI’s head of ethics leaves less than a year after joining",
@@ -33,7 +105,7 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-08-11T12:23:07",
-    "author": "ilamont · 273 pts · 344 comments"
+    "author": "ilamont · 318 pts · 355 comments"
   },
   {
     "title": "Go is an ideal language for AI-assisted software engineering",
@@ -42,7 +114,7 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-08-11T16:57:09",
-    "author": "0xedb · 257 pts · 315 comments"
+    "author": "0xedb · 300 pts · 349 comments"
   },
   {
     "title": "England set to be one of the first countries to eliminate hepatitis C",
@@ -51,7 +123,7 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-08-11T12:41:59",
-    "author": "stevekemp · 488 pts · 350 comments"
+    "author": "stevekemp · 498 pts · 360 comments"
   },
   {
     "title": "Nvidia's Risky Business",
@@ -60,7 +132,7 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-08-11T10:02:00",
-    "author": "jonbaer · 293 pts · 139 comments"
+    "author": "jonbaer · 308 pts · 144 comments"
   },
   {
     "title": "London Underground begins scanning passengers' faces",
@@ -69,7 +141,16 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-08-11T09:40:02",
-    "author": "BlueBerry2001 · 220 pts · 252 comments"
+    "author": "BlueBerry2001 · 247 pts · 264 comments"
+  },
+  {
+    "title": "小扎万字长文炮轰闭源：蒸馏无罪，Meta 正式重回开源模型路线",
+    "url": "https://www.infoq.cn/article/9sy33cA91Fp8z5mlOvNu?utm_source=rss&utm_medium=article",
+    "source": "InfoQ 中文",
+    "topic": "AI大事",
+    "region": "cn",
+    "published": "2026-08-12T10:43:48",
+    "author": "褚杏娟"
   },
   {
     "title": "把 AI 视频的钱花在刀刃上，不是每一刀上",
@@ -122,7 +203,7 @@
     "source": "InfoQ 中文",
     "topic": "AI大事",
     "region": "cn",
-    "published": "2026-08-11T12:34:19",
+    "published": "2026-08-11T12:34:18",
     "author": "世界人工智能开源大赛"
   },
   {
@@ -151,15 +232,6 @@
     "region": "cn",
     "published": "2026-08-11T09:00:00",
     "author": "LangAlpha团队"
-  },
-  {
-    "title": "当 human in the loop 变成“闭着眼睛点确认”，企业Agent 安全还能靠谁？",
-    "url": "https://www.infoq.cn/article/5qWsLD6JV8N2zDgGuhK9?utm_source=rss&utm_medium=article",
-    "source": "InfoQ 中文",
-    "topic": "AI大事",
-    "region": "cn",
-    "published": "2026-08-10T17:29:12",
-    "author": "AICon 全球人工智能开发与应用大会"
   },
   {
     "title": "一家新能源大厂，如何撑起全球最大AI算力超级单体？",
@@ -846,6 +918,15 @@
     "author": "Julie Bort"
   },
   {
+    "title": "Saber denies replacing Rideshare Stimulator&#8217;s writers with ChatGPT",
+    "url": "https://www.theverge.com/games/978558/rideshare-stimulator-writer-ai-saber-interactive",
+    "source": "The Verge AI",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-08-12T00:39:26",
+    "author": "Jay Peters"
+  },
+  {
     "title": "ChatGPT and Gemini both just passed 1 billion users",
     "url": "https://www.theverge.com/ai-artificial-intelligence/978113/chatgpt-gemini-1-billion-users",
     "source": "The Verge AI",
@@ -909,15 +990,6 @@
     "author": "Jess Weatherbed"
   },
   {
-    "title": "The AI takeover of mathematics has begun",
-    "url": "https://www.theverge.com/ai-artificial-intelligence/977273/the-ai-takeover-of-mathematics-has-begun",
-    "source": "The Verge AI",
-    "topic": "AI大事",
-    "region": "intl",
-    "published": "2026-08-11T11:00:00",
-    "author": "Robert Hart"
-  },
-  {
     "title": "Make it readable",
     "url": "https://www.bensbites.com/p/make-it-readable",
     "source": "Ben's Bites",
@@ -972,13 +1044,13 @@
     "author": ""
   },
   {
-    "title": "承载与延续历史：都市书店的“真实感”从何而来？",
-    "url": "https://m.thepaper.cn/detail/33720426",
+    "title": "135家私募打新宇树科技获配：头部量化扎堆入围 ，梁文锋旗下幻方、九章拿下私募最大份额",
+    "url": "https://m.thepaper.cn/detail/33764096",
     "source": "澎湃新闻",
     "topic": "世界时事",
     "region": "cn",
-    "published": "2026-08-12T01:12:34",
-    "author": "李明洁"
+    "published": "2026-08-12T01:44:52",
+    "author": "澎湃新闻记者 孙铭蔚"
   },
   {
     "title": "影子调查丨失落的壁上丹青：河北蔚县古壁画遭盗窃与损毁，保护陷困境",
@@ -990,13 +1062,22 @@
     "author": "澎湃新闻记者 王健"
   },
   {
-    "title": "释新闻｜关键时刻伊朗高层发生重大人事变动，传递了什么信息？",
-    "url": "https://m.thepaper.cn/detail/33760391",
-    "source": "澎湃新闻",
+    "title": "长鑫上市，股权财政的转型尝试",
+    "url": "https://opinion.caixin.com/2026-08-12/102473306.html",
+    "source": "财新网",
     "topic": "世界时事",
     "region": "cn",
-    "published": "2026-08-11T23:18:46",
-    "author": "澎湃新闻记者 李怡彬"
+    "published": "2026-08-12T01:48:53",
+    "author": ""
+  },
+  {
+    "title": "今日开盘：两市平开 沪指跌幅0.01%",
+    "url": "https://finance.caixin.com/2026-08-12/102473297.html",
+    "source": "财新网",
+    "topic": "世界时事",
+    "region": "cn",
+    "published": "2026-08-12T01:29:53",
+    "author": ""
   },
   {
     "title": "【市场动态】伊朗战争致巴拿马运河拥堵",
@@ -1050,24 +1131,6 @@
     "topic": "世界时事",
     "region": "cn",
     "published": "2026-08-11T15:03:56",
-    "author": ""
-  },
-  {
-    "title": "车市低迷延续至下半年 7月国内乘用车零售同比下跌超20%",
-    "url": "https://www.caixin.com/2026-08-11/102473247.html",
-    "source": "财新网",
-    "topic": "世界时事",
-    "region": "cn",
-    "published": "2026-08-11T14:25:15",
-    "author": ""
-  },
-  {
-    "title": "南京高官龙翔 四罪名成立一审获刑死缓",
-    "url": "https://china.caixin.com/2026-08-11/102473219.html",
-    "source": "财新网",
-    "topic": "世界时事",
-    "region": "cn",
-    "published": "2026-08-11T11:55:40",
     "author": ""
   },
   {
@@ -1212,7 +1275,7 @@
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-08-11T19:49:44",
-    "author": "nikolay · 247 pts · 106 comments"
+    "author": "nikolay · 315 pts · 132 comments"
   },
   {
     "title": "Mojo 1.0",
@@ -1221,7 +1284,7 @@
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-08-11T16:56:46",
-    "author": "dayanruben · 285 pts · 128 comments"
+    "author": "dayanruben · 316 pts · 146 comments"
   },
   {
     "title": "Stealing Reasoning Traces from Proprietary LLM APIs",
@@ -1230,7 +1293,7 @@
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-08-11T13:22:00",
-    "author": "quantumgarbage · 485 pts · 205 comments"
+    "author": "quantumgarbage · 532 pts · 222 comments"
   },
   {
     "title": "OpenAI’s head of ethics leaves less than a year after joining",
@@ -1239,7 +1302,7 @@
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-08-11T12:23:07",
-    "author": "ilamont · 273 pts · 344 comments"
+    "author": "ilamont · 319 pts · 355 comments"
   },
   {
     "title": "Go is an ideal language for AI-assisted software engineering",
@@ -1248,7 +1311,7 @@
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-08-11T16:57:09",
-    "author": "0xedb · 260 pts · 316 comments"
+    "author": "0xedb · 300 pts · 350 comments"
   },
   {
     "title": "England set to be one of the first countries to eliminate hepatitis C",
@@ -1257,7 +1320,7 @@
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-08-11T12:41:59",
-    "author": "stevekemp · 488 pts · 350 comments"
+    "author": "stevekemp · 498 pts · 360 comments"
   },
   {
     "title": "Nvidia's Risky Business",
@@ -1266,7 +1329,7 @@
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-08-11T10:02:00",
-    "author": "jonbaer · 293 pts · 139 comments"
+    "author": "jonbaer · 308 pts · 144 comments"
   },
   {
     "title": "London Underground begins scanning passengers' faces",
@@ -1275,7 +1338,16 @@
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-08-11T09:40:02",
-    "author": "BlueBerry2001 · 220 pts · 252 comments"
+    "author": "BlueBerry2001 · 247 pts · 265 comments"
+  },
+  {
+    "title": "openai/openai-python 发布 v3.0.0",
+    "url": "https://github.com/openai/openai-python/releases/tag/v3.0.0",
+    "source": "GitHubRelease",
+    "topic": "GitHub 动态",
+    "region": "intl",
+    "published": "2026-08-12T01:54:46",
+    "author": "openai-sdks[bot]"
   },
   {
     "title": "openai/openai-python 发布 v2.54.0",
