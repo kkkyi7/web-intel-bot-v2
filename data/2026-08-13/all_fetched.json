@@ -1,12 +1,84 @@
 [
   {
+    "title": "The Role Specialization Model (RSM): Coordinating LLM-Based Tools in Agentic Software Development - An Exploratory Case Study",
+    "url": "http://arxiv.org/abs/2608.12311v1",
+    "source": "arXiv",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-08-12T17:57:16",
+    "author": "Carlos Alberto Fernández-y-Fernández, Jorge R. Aguilar-Cisneros"
+  },
+  {
+    "title": "Constructing Dynamic Master Logic Models as Knowledge Graphs for Complex System Diagnostics Using Retrieval-Augmented Large Language Models",
+    "url": "http://arxiv.org/abs/2608.12304v1",
+    "source": "arXiv",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-08-12T17:50:39",
+    "author": "Saman Marandi, Yu-Shu Hu, Mohammad Modarres"
+  },
+  {
+    "title": "Teaching a Large Language Model Tutor to Withhold the Answer: A Supervisor Architecture and an Evidence-Driven Method for Tuning Socratic Behavior",
+    "url": "http://arxiv.org/abs/2608.12292v1",
+    "source": "arXiv",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-08-12T17:35:58",
+    "author": "Yusuf Pisan"
+  },
+  {
+    "title": "Beyond Trial-and-Error: Agentic Optimization for Image-to-Video Adherence",
+    "url": "http://arxiv.org/abs/2608.12290v1",
+    "source": "arXiv",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-08-12T17:35:16",
+    "author": "Aman Tyagi, Hemanth Boinpally, Jonathan Chen, Douglas Gebert, Steven Hickson"
+  },
+  {
+    "title": "PatternFormer: Learning Multiple Solution Patterns in Reaction--Diffusion Systems",
+    "url": "http://arxiv.org/abs/2608.12286v1",
+    "source": "arXiv",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-08-12T17:31:38",
+    "author": "Zhipeng Chang, Wenpeng Yin, Wenrui Hao"
+  },
+  {
+    "title": "Large Language Model-Driven Small-Capitalization Trading: Integrating Financial News Sentiment, Macroeconomic Indicators, and Technical Signals",
+    "url": "http://arxiv.org/abs/2608.12283v1",
+    "source": "arXiv",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-08-12T17:28:03",
+    "author": "Alireza Kargarzadeh, Nariman Khaledian, Navid Parvini, Arman Khaledian"
+  },
+  {
+    "title": "Convergent Detour Hijacking: Task-Preserving Resource Amplification in Skill-Based LLM Agents",
+    "url": "http://arxiv.org/abs/2608.12273v1",
+    "source": "arXiv",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-08-12T17:12:49",
+    "author": "Junliang Liu, Ruoyu Li, Wenxin Tang, Jingyu Xiao, Zhenyu Liu, Jingheng Xu, Laizhong Cui"
+  },
+  {
+    "title": "Diagram-MMU: A Multi-Modal Benchmark for Scientific Diagrams",
+    "url": "http://arxiv.org/abs/2608.12262v1",
+    "source": "arXiv",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-08-12T17:04:13",
+    "author": "Weihao Bo, Shan Zhang, Yanpeng Sun, Jie Liu, Yongke Yao, Jinhao Du, Wei He, Kai Zou, Zechao Li, Jingdong Wang"
+  },
+  {
     "title": "DeepSeek V4 Pro 0813",
     "url": "https://openrouter.ai/deepseek/deepseek-v4-pro-0813",
     "source": "HackerNews",
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-08-12T16:04:50",
-    "author": "explosion-s · 732 pts · 280 comments"
+    "author": "explosion-s · 791 pts · 304 comments"
   },
   {
     "title": "Delta",
@@ -15,7 +87,7 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-08-12T18:19:59",
-    "author": "khy · 386 pts · 128 comments"
+    "author": "khy · 437 pts · 147 comments"
   },
   {
     "title": "Tailscale Traces Database Corruption to 16y/o SQLite WAL-Reset Bug",
@@ -24,7 +96,7 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-08-12T14:22:30",
-    "author": "ropbear · 793 pts · 141 comments"
+    "author": "ropbear · 856 pts · 164 comments"
   },
   {
     "title": "Qwen3.8-2.4T",
@@ -33,7 +105,7 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-08-12T15:01:17",
-    "author": "Philpax · 491 pts · 106 comments"
+    "author": "Philpax · 523 pts · 115 comments"
   },
   {
     "title": "2026 Eclipse Webcams",
@@ -42,7 +114,7 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-08-12T11:53:01",
-    "author": "zoenolan · 458 pts · 124 comments"
+    "author": "zoenolan · 459 pts · 124 comments"
   },
   {
     "title": "Tim King, AmigaDOS developer, has died",
@@ -51,16 +123,7 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-08-12T14:09:11",
-    "author": "doener · 235 pts · 29 comments"
-  },
-  {
-    "title": "Someone is running mass vulnerability scans, spoofing AI bots like ClaudeBot",
-    "url": "https://knownagents.com/insights",
-    "source": "HackerNews",
-    "topic": "AI大事",
-    "region": "intl",
-    "published": "2026-08-12T14:02:46",
-    "author": "gavinhking · 229 pts · 166 comments"
+    "author": "doener · 243 pts · 30 comments"
   },
   {
     "title": "Grok 4.6",
@@ -69,7 +132,7 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-08-12T15:32:50",
-    "author": "iLuddite · 398 pts · 396 comments"
+    "author": "iLuddite · 435 pts · 423 comments"
   },
   {
     "title": "uBlock Origin Is Giving Up the Fight to Keep Ads Off Facebook",
@@ -78,7 +141,7 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-08-12T11:28:27",
-    "author": "Markoff · 295 pts · 422 comments"
+    "author": "Markoff · 333 pts · 456 comments"
   },
   {
     "title": "Why tiny JPEGs look different in Chrome",
@@ -87,7 +150,16 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-08-12T14:00:54",
-    "author": "gutechh · 253 pts · 59 comments"
+    "author": "gutechh · 269 pts · 59 comments"
+  },
+  {
+    "title": "Someone is running mass vulnerability scans, spoofing AI bots like ClaudeBot",
+    "url": "https://knownagents.com/insights",
+    "source": "HackerNews",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-08-12T14:02:46",
+    "author": "gavinhking · 242 pts · 181 comments"
   },
   {
     "title": "AI is removing the middle class of software engineering?",
@@ -96,16 +168,25 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-08-12T13:20:05",
-    "author": "florianherrengt · 716 pts · 646 comments"
+    "author": "florianherrengt · 763 pts · 707 comments"
   },
   {
-    "title": "Grok 4.6 scores 61 on the Artificial Analysis Intelligence Index",
-    "url": "https://artificialanalysis.ai/articles/grok-4-6-benchmarks-and-analysis",
-    "source": "HackerNews",
+    "title": "与运行时无关的 AI 工作流：一种兼顾生产环境稳定性和快速评估迭代的模式",
+    "url": "https://www.infoq.cn/article/Za8vaFWPCM7LtuRfhDmD?utm_source=rss&utm_medium=article",
+    "source": "InfoQ 中文",
     "topic": "AI大事",
-    "region": "intl",
-    "published": "2026-08-12T16:54:25",
-    "author": "wertyk · 316 pts · 322 comments"
+    "region": "cn",
+    "published": "2026-08-13T11:06:51",
+    "author": "作者：Mateus Moury"
+  },
+  {
+    "title": "智象未来 (HiDream.ai)算法科学家潘滢炜博士确认出席AICon深圳，将分享“从 Token 预测到状态预测：迈向世界模型的原生全模态之路”",
+    "url": "https://www.infoq.cn/article/9d9Oik3uZpqfjbfElZaq?utm_source=rss&utm_medium=article",
+    "source": "InfoQ 中文",
+    "topic": "AI大事",
+    "region": "cn",
+    "published": "2026-08-13T10:00:00",
+    "author": "AICon 全球人工智能开发与应用大会"
   },
   {
     "title": "从亚百毫秒级启动到生产级部署，腾讯云为何重构 Agent 沙箱？",
@@ -178,24 +259,6 @@
     "region": "cn",
     "published": "2026-08-11T17:19:44",
     "author": "Ricky Ho,贾天下"
-  },
-  {
-    "title": "为 Agentic Enterprise 实现 ROI：企业高管需要关注的 3 个关键因素 ｜ 技术趋势",
-    "url": "https://www.infoq.cn/article/fe63sMOT127Pu7QpHP3a?utm_source=rss&utm_medium=article",
-    "source": "InfoQ 中文",
-    "topic": "AI大事",
-    "region": "cn",
-    "published": "2026-08-11T17:19:15",
-    "author": "Amy Kodl"
-  },
-  {
-    "title": "OpenAI 代理群利用 Artifactory 零日漏洞逃离沙箱并入侵 Hugging Face",
-    "url": "https://www.infoq.cn/article/gkzDEyCF5U4DtKAa1Eee?utm_source=rss&utm_medium=article",
-    "source": "InfoQ 中文",
-    "topic": "AI大事",
-    "region": "cn",
-    "published": "2026-08-11T16:36:00",
-    "author": "作者：Olimpiu Pop"
   },
   {
     "title": "国产具身智能创全球新纪录！以30%成本跑赢 Figure AI 45%效率，聪明的具身大脑成关键",
@@ -405,6 +468,15 @@
     "author": ""
   },
   {
+    "title": "alchemy-utils 0.1a0",
+    "url": "https://simonwillison.net/2026/Aug/12/alchemy-utils/",
+    "source": "Simon Willison",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-08-12T19:51:30",
+    "author": ""
+  },
+  {
     "title": "Quoting Florian Herrengt",
     "url": "https://simonwillison.net/2026/Aug/12/florian-herrengt/",
     "source": "Simon Willison",
@@ -456,15 +528,6 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-08-09T23:31:39",
-    "author": ""
-  },
-  {
-    "title": "GitHub Models is now retired",
-    "url": "https://simonwillison.net/2026/Aug/9/github-models-is-now-retired/",
-    "source": "Simon Willison",
-    "topic": "AI大事",
-    "region": "intl",
-    "published": "2026-08-09T22:48:05",
     "author": ""
   },
   {
@@ -585,6 +648,15 @@
     "author": "李华"
   },
   {
+    "title": "[AINews] SpaceXAI Grok 4.6 and Grok @Bot",
+    "url": "https://www.latent.space/p/ainews-spacexai-grok-46-and-grok",
+    "source": "Latent Space",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-08-13T01:53:47",
+    "author": ""
+  },
+  {
     "title": "[AINews] How to steal a Reasoning Trace",
     "url": "https://www.latent.space/p/ainews-how-to-steal-a-reasoning-trace",
     "source": "Latent Space",
@@ -628,15 +700,6 @@
     "region": "intl",
     "published": "2026-08-07T05:13:46",
     "author": ""
-  },
-  {
-    "title": "[AINews] Jeff, Sanjay, Oriol, and Quoc depart DeepMind; Demis to Chair; Koray to SVP — what is going on at GDM???",
-    "url": "https://www.latent.space/p/ainews-jeff-sanjay-oriol-and-quoc",
-    "source": "Latent Space",
-    "topic": "AI大事",
-    "region": "intl",
-    "published": "2026-08-06T04:34:11",
-    "author": "Latent.Space"
   },
   {
     "title": "From assistance to execution: How enterprises put AI to work",
@@ -999,31 +1062,13 @@
     "author": ""
   },
   {
-    "title": "苏翊鸣被联合国任命为“体育促土地”大使",
-    "url": "https://m.thepaper.cn/detail/33773875",
+    "title": "新闻蒸馏器｜高市政府加速收紧外国人政策，日本舆论担忧“吸引力下降”",
+    "url": "https://m.thepaper.cn/detail/33774167",
     "source": "澎湃新闻",
     "topic": "世界时事",
     "region": "cn",
-    "published": "2026-08-13T00:46:17",
-    "author": "卢星吉/@新华社"
-  },
-  {
-    "title": "“老革命”重新出山：伊朗挺过权力过渡风险期，国内政治更趋保守",
-    "url": "https://m.thepaper.cn/detail/33771530",
-    "source": "澎湃新闻",
-    "topic": "世界时事",
-    "region": "cn",
-    "published": "2026-08-13T00:12:09",
-    "author": "澎湃新闻特约撰稿 金良祥"
-  },
-  {
-    "title": "经纬度：汽车出口连破纪录，为稳外贸提供有力支撑",
-    "url": "https://m.thepaper.cn/detail/33768942",
-    "source": "澎湃新闻",
-    "topic": "世界时事",
-    "region": "cn",
-    "published": "2026-08-12T23:49:36",
-    "author": "予恒"
+    "published": "2026-08-13T03:14:26",
+    "author": "澎湃新闻记者 南博一"
   },
   {
     "title": "深度｜为逼光伏制造回流，特朗普再挥大棒：瞄准对手，反伤自身",
@@ -1035,22 +1080,22 @@
     "author": "澎湃新闻记者 杨漾"
   },
   {
-    "title": "黄仁勋力推的5000亿美元AI融资平台，是金融创新还是债务泡沫？",
-    "url": "https://m.thepaper.cn/detail/33770912",
-    "source": "澎湃新闻",
+    "title": "【市场动态】黑石考虑放弃30亿美元债务融资计划",
+    "url": "https://database.caixin.com/2026-08-13/102473624.html",
+    "source": "财新网",
     "topic": "世界时事",
     "region": "cn",
-    "published": "2026-08-12T23:32:47",
-    "author": "澎湃新闻记者 胡含嫣"
+    "published": "2026-08-13T02:06:37",
+    "author": ""
   },
   {
-    "title": "中共中央 全国人大常委会 国务院 全国政协讣告 朱镕基同志逝世",
-    "url": "https://m.thepaper.cn/detail/33769071",
-    "source": "澎湃新闻",
+    "title": "英伟达联手美国六大资管公司，开创AI基建融资新纪元",
+    "url": "https://opinion.caixin.com/2026-08-13/102473614.html",
+    "source": "财新网",
     "topic": "世界时事",
     "region": "cn",
-    "published": "2026-08-12T10:02:06",
-    "author": "新华社"
+    "published": "2026-08-13T01:50:14",
+    "author": ""
   },
   {
     "title": "今日开盘：两市双双高开 沪指涨幅0.27%",
@@ -1095,51 +1140,6 @@
     "topic": "世界时事",
     "region": "cn",
     "published": "2026-08-12T13:52:41",
-    "author": ""
-  },
-  {
-    "title": "美国7月CPI环比上涨0.1% 或巩固美联储暂不加息立场",
-    "url": "https://international.caixin.com/2026-08-12/102473544.html",
-    "source": "财新网",
-    "topic": "世界时事",
-    "region": "cn",
-    "published": "2026-08-12T13:28:31",
-    "author": ""
-  },
-  {
-    "title": "为什么设立？政策目的何在？央行全解银行间市场数据报告库",
-    "url": "https://finance.caixin.com/2026-08-12/102473537.html",
-    "source": "财新网",
-    "topic": "世界时事",
-    "region": "cn",
-    "published": "2026-08-12T12:59:51",
-    "author": ""
-  },
-  {
-    "title": "央行推动短端利率调控框架 综合运用、适时调整货币政策工具",
-    "url": "https://finance.caixin.com/2026-08-12/102473532.html",
-    "source": "财新网",
-    "topic": "世界时事",
-    "region": "cn",
-    "published": "2026-08-12T12:50:03",
-    "author": ""
-  },
-  {
-    "title": "富途老虎期权内幕交易案锁定45人 共获利1.55亿美元",
-    "url": "https://finance.caixin.com/2026-08-12/102473497.html",
-    "source": "财新网",
-    "topic": "世界时事",
-    "region": "cn",
-    "published": "2026-08-12T12:13:01",
-    "author": ""
-  },
-  {
-    "title": "广东进口额连续五个月同比增长逾三成 芯片涨价放大进口增量",
-    "url": "https://economy.caixin.com/2026-08-12/102473475.html",
-    "source": "财新网",
-    "topic": "世界时事",
-    "region": "cn",
-    "published": "2026-08-12T11:47:17",
     "author": ""
   },
   {
@@ -1275,7 +1275,7 @@
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-08-12T16:04:50",
-    "author": "explosion-s · 733 pts · 282 comments"
+    "author": "explosion-s · 791 pts · 305 comments"
   },
   {
     "title": "Delta",
@@ -1284,7 +1284,7 @@
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-08-12T18:19:59",
-    "author": "khy · 386 pts · 128 comments"
+    "author": "khy · 437 pts · 148 comments"
   },
   {
     "title": "Tailscale Traces Database Corruption to 16y/o SQLite WAL-Reset Bug",
@@ -1293,7 +1293,7 @@
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-08-12T14:22:30",
-    "author": "ropbear · 795 pts · 141 comments"
+    "author": "ropbear · 857 pts · 164 comments"
   },
   {
     "title": "Qwen3.8-2.4T",
@@ -1302,7 +1302,7 @@
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-08-12T15:01:17",
-    "author": "Philpax · 492 pts · 106 comments"
+    "author": "Philpax · 523 pts · 115 comments"
   },
   {
     "title": "2026 Eclipse Webcams",
@@ -1311,7 +1311,7 @@
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-08-12T11:53:01",
-    "author": "zoenolan · 458 pts · 124 comments"
+    "author": "zoenolan · 459 pts · 124 comments"
   },
   {
     "title": "Tim King, AmigaDOS developer, has died",
@@ -1320,16 +1320,7 @@
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-08-12T14:09:11",
-    "author": "doener · 235 pts · 29 comments"
-  },
-  {
-    "title": "Someone is running mass vulnerability scans, spoofing AI bots like ClaudeBot",
-    "url": "https://knownagents.com/insights",
-    "source": "HackerNews",
-    "topic": "技术圈",
-    "region": "intl",
-    "published": "2026-08-12T14:02:46",
-    "author": "gavinhking · 230 pts · 166 comments"
+    "author": "doener · 244 pts · 30 comments"
   },
   {
     "title": "Grok 4.6",
@@ -1338,7 +1329,7 @@
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-08-12T15:32:50",
-    "author": "iLuddite · 398 pts · 397 comments"
+    "author": "iLuddite · 436 pts · 423 comments"
   },
   {
     "title": "uBlock Origin Is Giving Up the Fight to Keep Ads Off Facebook",
@@ -1347,7 +1338,7 @@
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-08-12T11:28:27",
-    "author": "Markoff · 296 pts · 424 comments"
+    "author": "Markoff · 333 pts · 457 comments"
   },
   {
     "title": "Why tiny JPEGs look different in Chrome",
@@ -1356,7 +1347,16 @@
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-08-12T14:00:54",
-    "author": "gutechh · 253 pts · 59 comments"
+    "author": "gutechh · 269 pts · 59 comments"
+  },
+  {
+    "title": "Someone is running mass vulnerability scans, spoofing AI bots like ClaudeBot",
+    "url": "https://knownagents.com/insights",
+    "source": "HackerNews",
+    "topic": "技术圈",
+    "region": "intl",
+    "published": "2026-08-12T14:02:46",
+    "author": "gavinhking · 242 pts · 181 comments"
   },
   {
     "title": "AI is removing the middle class of software engineering?",
@@ -1365,25 +1365,16 @@
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-08-12T13:20:05",
-    "author": "florianherrengt · 716 pts · 648 comments"
+    "author": "florianherrengt · 764 pts · 709 comments"
   },
   {
-    "title": "Grok 4.6 scores 61 on the Artificial Analysis Intelligence Index",
-    "url": "https://artificialanalysis.ai/articles/grok-4-6-benchmarks-and-analysis",
-    "source": "HackerNews",
-    "topic": "技术圈",
-    "region": "intl",
-    "published": "2026-08-12T16:54:25",
-    "author": "wertyk · 316 pts · 322 comments"
-  },
-  {
-    "title": "openai/openai-python 发布 v3.0.0",
-    "url": "https://github.com/openai/openai-python/releases/tag/v3.0.0",
+    "title": "langchain-ai/langchain 发布 langchain-anthropic==1.5.6",
+    "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-anthropic%3D%3D1.5.6",
     "source": "GitHubRelease",
     "topic": "GitHub 动态",
     "region": "intl",
-    "published": "2026-08-12T01:54:46",
-    "author": "openai-sdks[bot]"
+    "published": "2026-08-13T02:31:03",
+    "author": "github-actions[bot]"
   },
   {
     "title": "anthropics/claude-code 发布 v2.1.229",
@@ -1429,5 +1420,194 @@
     "region": "intl",
     "published": "2026-08-12T13:25:30",
     "author": "next-js-bot[bot]"
+  },
+  {
+    "title": "A Graph Neural Network--Guided Genetic Algorithm for Physical Internet Supply Chain Optimization under Cost Uncertainty",
+    "url": "http://arxiv.org/abs/2608.10245v1",
+    "source": "arXiv",
+    "topic": "供应链",
+    "region": "intl",
+    "published": "2026-08-10T21:26:59",
+    "author": "Faezeh Ardali, Gerald M. Knapp"
+  },
+  {
+    "title": "The Impact of Demand Forecasting on Delay and Jitter in DVB-Based Beam-Hopping LEO Networks",
+    "url": "http://arxiv.org/abs/2608.07901v1",
+    "source": "arXiv",
+    "topic": "供应链",
+    "region": "intl",
+    "published": "2026-08-08T03:58:39",
+    "author": "Yekta Demirci, Guillaume Mantelet, Stéphane Martel, Jean-François Frigon, Gunes Karabulut Kurt"
+  },
+  {
+    "title": "Implicit Differentiation for Measurement-Efficient Bilevel Quantum-Classical Optimization",
+    "url": "http://arxiv.org/abs/2608.07717v1",
+    "source": "arXiv",
+    "topic": "供应链",
+    "region": "intl",
+    "published": "2026-08-07T19:03:43",
+    "author": "Tobias Rohe, Markus Baumann, Federico Harjes Ruiloba, Maximilian Zorn, Jonas Stein, Claudia Linnhoff-Popien"
+  },
+  {
+    "title": "Variable-Horizon Workforce Demand Forecasting with an Aggregate Demand Constraint for Construction Workforce Planning",
+    "url": "http://arxiv.org/abs/2608.05551v1",
+    "source": "arXiv",
+    "topic": "供应链",
+    "region": "intl",
+    "published": "2026-08-06T03:07:00",
+    "author": "Hanbyeol Park, Jaehyeon Heo, Taekhyun Park, Minseong Kim, Hyerim Bae"
+  },
+  {
+    "title": "SynEnergy: Anomaly Semantic-Guided Diffusion for Synthetic Energy Data Generation",
+    "url": "http://arxiv.org/abs/2608.03087v1",
+    "source": "arXiv",
+    "topic": "供应链",
+    "region": "intl",
+    "published": "2026-08-04T04:00:10",
+    "author": "Lin Jiang, Dahai Yu, Ravikumar Gelli, Guang Wang"
+  },
+  {
+    "title": "MBDiff: Multi-view Behavior-aware Diffusion Model for Probabilistic Utility Data Imputation",
+    "url": "http://arxiv.org/abs/2607.29177v1",
+    "source": "arXiv",
+    "topic": "供应链",
+    "region": "intl",
+    "published": "2026-07-31T08:58:54",
+    "author": "Rongchao Xu, Lin Jiang, Dahai Yu, Ximiao Li, Guang Wang"
+  },
+  {
+    "title": "PipeNetwork/minimax-h3-mlx",
+    "url": "https://simonwillison.net/2026/Aug/4/minimax-h3-mlx/",
+    "source": "Simon Willison",
+    "topic": "供应链",
+    "region": "intl",
+    "published": "2026-08-04T19:10:09",
+    "author": ""
+  },
+  {
+    "title": "iPhone 20 周年版不会被取消，但也不是你想象的样子",
+    "url": "https://www.ifanr.com/1674661?utm_source=rss&utm_medium=rss&utm_campaign=",
+    "source": "爱范儿",
+    "topic": "供应链",
+    "region": "cn",
+    "published": "2026-08-11T10:00:43",
+    "author": "马扶摇"
+  },
+  {
+    "title": "对话智界赵长江：用旧时代的逻辑，经营不好 AI 时代的汽车公司",
+    "url": "https://www.ifanr.com/1674637?utm_source=rss&utm_medium=rss&utm_campaign=",
+    "source": "爱范儿",
+    "topic": "供应链",
+    "region": "cn",
+    "published": "2026-08-11T02:27:27",
+    "author": "刘学文"
+  },
+  {
+    "title": "早报｜苹果20周年iPhone或因良率问题取消/小米校招AI岗位增加50%/极氪回应7X充电场站过热",
+    "url": "https://www.ifanr.com/1674633?utm_source=rss&utm_medium=rss&utm_campaign=",
+    "source": "爱范儿",
+    "topic": "供应链",
+    "region": "cn",
+    "published": "2026-08-11T00:44:25",
+    "author": "郑廷旭"
+  },
+  {
+    "title": "[AINews] Muse Glimmer and Spark: Open Weights return Personal Superintelligence promise",
+    "url": "https://www.latent.space/p/ainews-muse-glimmer-and-spark-open",
+    "source": "Latent Space",
+    "topic": "供应链",
+    "region": "intl",
+    "published": "2026-08-11T05:16:41",
+    "author": ""
+  },
+  {
+    "title": "[AINews] AMD buys Taalas",
+    "url": "https://www.latent.space/p/ainews-amd-buys-taalas",
+    "source": "Latent Space",
+    "topic": "供应链",
+    "region": "intl",
+    "published": "2026-08-07T05:13:46",
+    "author": ""
+  },
+  {
+    "title": "[AINews] Jeff, Sanjay, Oriol, and Quoc depart DeepMind; Demis to Chair; Koray to SVP — what is going on at GDM???",
+    "url": "https://www.latent.space/p/ainews-jeff-sanjay-oriol-and-quoc",
+    "source": "Latent Space",
+    "topic": "供应链",
+    "region": "intl",
+    "published": "2026-08-06T04:34:11",
+    "author": "Latent.Space"
+  },
+  {
+    "title": "The Inference Engineering Masterclass — Philip Kiely & Ali Taha, Baseten",
+    "url": "https://www.latent.space/p/inference-eng",
+    "source": "Latent Space",
+    "topic": "供应链",
+    "region": "intl",
+    "published": "2026-08-03T21:44:03",
+    "author": ""
+  },
+  {
+    "title": "[AINews] Black Forest Labs FLUX 3 - Multimodal Flow Models that beat Seedance 2.0, Gemini Omni and Grok Imagine, and FLUX-mimic video-action robotics model",
+    "url": "https://www.latent.space/p/ainews-black-forest-labs-flux-3-multimodal",
+    "source": "Latent Space",
+    "topic": "供应链",
+    "region": "intl",
+    "published": "2026-07-24T04:30:12",
+    "author": ""
+  },
+  {
+    "title": "Toward a psychology of real-life decision-making.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42586903/",
+    "source": "PubMed",
+    "topic": "心理学",
+    "region": "intl",
+    "published": "2026",
+    "author": "Alexander Schakowski, Dominik Deffner, Marwa M Kavelaars, Lou M Haux"
+  },
+  {
+    "title": "AI-driven Assessment of Vertebral Rotation in Adolescent Idiopathic Scoliosis Using Weight-bearing Cone-beam CT.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42586897/",
+    "source": "PubMed",
+    "topic": "心理学",
+    "region": "intl",
+    "published": "2026",
+    "author": "Jianrong He, Zejun Liang, Fanzhuang Rong, Zengtong Chen"
+  },
+  {
+    "title": "Prediction of Central Lymph Node Metastasis in Papillary Thyroid Microcarcinoma Using a Deep Learning Radiomics Model Based on SAM3 Automatic Segmentation of Ultrasound Images: A Multicenter Cohort Study.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42586895/",
+    "source": "PubMed",
+    "topic": "心理学",
+    "region": "intl",
+    "published": "2026",
+    "author": "Jun Song, Yuan Zhang, Xiachuan Qin, Xiaoling Liu"
+  },
+  {
+    "title": "AI in GME education.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42586857/",
+    "source": "PubMed",
+    "topic": "心理学",
+    "region": "intl",
+    "published": "2026",
+    "author": "Cherna Cherfrere, Carla M Davis"
+  },
+  {
+    "title": "Do YouTube videos facilitate informed decisions about knee osteoarthritis treatment? A cross-sectional analysis of German-language videos.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42586805/",
+    "source": "PubMed",
+    "topic": "心理学",
+    "region": "intl",
+    "published": "2026",
+    "author": "Sandro Zacher, Jürgen Kasper, Julia Lauberger, Julia Lühnen"
+  },
+  {
+    "title": "对话少数派老麦：从 Palm、WebOS 到 AI 硬件，依然不想成为多数派",
+    "url": "https://sspai.com/post/113352",
+    "source": "少数派",
+    "topic": "心理学",
+    "region": "cn",
+    "published": "2026-08-12T07:00:00",
+    "author": "少数派播客"
   }
 ]
