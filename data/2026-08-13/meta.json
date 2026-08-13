@@ -1,0 +1,45 @@
+{
+  "date": "2026-08-13",
+  "profile": "kizty",
+  "generated_at": "2026-08-13 01:35",
+  "stats": {
+    "topics_ran": [
+      "AI大事",
+      "世界时事",
+      "变现路径",
+      "技术圈",
+      "GitHub 动态"
+    ],
+    "total_selected": 26,
+    "total_fetched": 159
+  },
+  "top3": [
+    {
+      "topic": "技术圈",
+      "title": "DeepSeek V4 Pro 0813 发布，开发者实测反馈热烈",
+      "tldr": "DeepSeek 发布 V4 Pro 0813 新版本，开发者们在 HN 上晒实测：便宜、快、能扛重活，有人跑仿真引擎、有人做开发，性价比口碑爆了。",
+      "score": 9,
+      "url": "https://openrouter.ai/deepseek/deepseek-v4-pro-0813",
+      "source": "HackerNews",
+      "source_count": 1
+    },
+    {
+      "topic": "AI大事",
+      "title": "从辅助到执行：企业如何让AI真正干活",
+      "tldr": "OpenAI发了一份企业采用AI的研究报告，核心发现是企业正从用AI聊天写东西，转向用Agent和Codex这类工具让AI直接执行任务，而且头部公司已经靠这个拉开差距。",
+      "score": 9,
+      "url": "https://openai.com/index/how-enterprises-put-ai-to-work",
+      "source": "OpenAI Blog",
+      "source_count": 1
+    },
+    {
+      "topic": "世界时事",
+      "title": "深度｜为逼光伏制造回流，特朗普再挥大棒：瞄准对手，反伤自身",
+      "tldr": "美国对进口光伏产品设最低价和加税，想逼制造业回流，但实际伤盟友、推高自家成本，对中国影响有限，核心矛盾还是国内产能过剩。",
+      "score": 8,
+      "url": "https://m.thepaper.cn/detail/33773012",
+      "source": "澎湃新闻",
+      "source_count": 1
+    }
+  ]
+}

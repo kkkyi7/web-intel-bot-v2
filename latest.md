@@ -1,47 +1,47 @@
-# 情报 Brief · 2026-08-12
+# 情报 Brief · 2026-08-13
 
 ## 今日 TOP3
 
-1. **窃取专有LLM API的推理轨迹** · 分9 · 2信源
-   安全研究人员发现，OpenAI、Anthropic、Google的模型用同一个密钥加密推理过程，把加密块喂给同系列弱模型，就能越狱让它吐出强模型的原始推理内容。目前厂商已修复。
-   https://simonwillison.net/2026/Aug/11/stealing-reasoning-traces/#atom-everything
+1. **DeepSeek V4 Pro 0813 发布，开发者实测反馈热烈** · 分9
+   DeepSeek 发布 V4 Pro 0813 新版本，开发者们在 HN 上晒实测：便宜、快、能扛重活，有人跑仿真引擎、有人做开发，性价比口碑爆了。
+   https://openrouter.ai/deepseek/deepseek-v4-pro-0813
 
-2. **Nvidia 的高风险赌局** · 分9
-   Stratechery 分析 Nvidia 当前处境：硬件虽强，但 CUDA 软件生态的开发者体验极差，且中国正在自建全栈替代。文章认为 Nvidia 的护城河比想象中脆弱，需求增长的二阶假设可能被高估。
-   https://stratechery.com/2026/nvidias-risky-business/
+2. **从辅助到执行：企业如何让AI真正干活** · 分9
+   OpenAI发了一份企业采用AI的研究报告，核心发现是企业正从用AI聊天写东西，转向用Agent和Codex这类工具让AI直接执行任务，而且头部公司已经靠这个拉开差距。
+   https://openai.com/index/how-enterprises-put-ai-to-work
 
-3. **与美国AI竞争，中国遇到哪些困难？** · 分8
-   复旦大学教授分析美国三届政府对华AI政策演变，从点状限制到制度封锁再到生态争夺，同时指出中国大模型在核心技术、产业应用和全球生态上仍有差距。
-   https://www.guancha.cn/caicuihong/2026_08_10_826772_s.shtml
+3. **深度｜为逼光伏制造回流，特朗普再挥大棒：瞄准对手，反伤自身** · 分8
+   美国对进口光伏产品设最低价和加税，想逼制造业回流，但实际伤盟友、推高自家成本，对中国影响有限，核心矛盾还是国内产能过剩。
+   https://m.thepaper.cn/detail/33773012
 
 ## 今日精选
 
-### AI大事
-- [窃取专有LLM API的推理轨迹](https://simonwillison.net/2026/Aug/11/stealing-reasoning-traces/#atom-everything) · Simon Willison · 分9
-  安全研究人员发现，OpenAI、Anthropic、Google的模型用同一个密钥加密推理过程，把加密块喂给同系列弱模型，就能越狱让它吐出强模型的原始推理内容。目前厂商已修复。
-- [让AI输出更易读](https://www.bensbites.com/p/make-it-readable) · Ben's Bites · 分9
-  作者发现AI输出越来越难读，测试了两个提示词指令组合，一个用简化技术英语标准，一个模拟ADHD风格，让输出变得简洁易读，效果提升十倍。
-- [Claude Code 自动模式成为 Pro、Max 和 Team 套餐默认设置](https://simonwillison.net/2026/Aug/8/auto-mode/#atom-everything) · Simon Willison · 分9
-  Anthropic 把 Claude Code 的自动模式设为默认，并发布安全评测数据证明它比人类审批更可靠，能拦截 89% 的危险操作，同时声称已基本解决提示注入攻击。
-
 ### GitHub 动态
-- [Claude Code 发布 v2.1.228 修复更新](https://github.com/anthropics/claude-code/releases/tag/v2.1.228) · GitHubRelease · 分9
-  Claude Code 发了个小版本更新，修了一堆 bug，包括 Windows 下 Git 找不到、会话界面卡死、远程控制串消息等问题，还加固了从 claude.ai 同步的技能安全。
-- [LangChain 发布 1.3.15 版本更新](https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.3.15) · GitHubRelease · 分9
-  LangChain 发布了 1.3.15 小版本更新，主要修复了 Agent 中间件、工具调用、历史记录保存等一堆 bug，同时给 AgentMiddleware 加了 trace_policy 配置…
-- [OpenAI Python SDK 发布 v3.0.0 大版本更新](https://github.com/openai/openai-python/releases/tag/v3.0.0) · GitHubRelease · 分8
-  OpenAI 官方 Python 库发布 3.0 大版本，默认 HTTP 客户端换成 HTTPX2，不再自动安装 httpx，老代码需要迁移，属于破坏性更新。
+- [Claude Code 发布 v2.1.229 更新](https://github.com/anthropics/claude-code/releases/tag/v2.1.229) · GitHubRelease · 分9
+  Claude Code 发了个小版本更新，主要修了一堆崩溃和连接问题，还加了远程控制会话恢复、插件市场命令源等功能，让开发者在终端里用 AI 写代码更稳。
 
 ### 技术圈
-- [Nvidia 的高风险赌局](https://stratechery.com/2026/nvidias-risky-business/) · HackerNews · 分9
-  Stratechery 分析 Nvidia 当前处境：硬件虽强，但 CUDA 软件生态的开发者体验极差，且中国正在自建全栈替代。文章认为 Nvidia 的护城河比想象中脆弱，需求增长的二阶假设可能被高…
-- [压缩即预测](https://ngrok.com/blog/compression-is-prediction) · HackerNews · 分8
-  这篇文章讨论一个核心观点：压缩和预测本质上是同一件事。能高效压缩数据的系统，往往也具备强大的预测能力，这背后是信息论和机器学习的内在统一，对理解智能本质有启发。
+- [DeepSeek V4 Pro 0813 发布，开发者实测反馈热烈](https://openrouter.ai/deepseek/deepseek-v4-pro-0813) · HackerNews · 分9
+  DeepSeek 发布 V4 Pro 0813 新版本，开发者们在 HN 上晒实测：便宜、快、能扛重活，有人跑仿真引擎、有人做开发，性价比口碑爆了。
+- [Qwen3.8-2.4T 开源，性能对标 Opus 4.5](https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B) · HackerNews · 分9
+  阿里开源了超大 MoE 模型 Qwen3.8-2.4T，95B 激活参数，1bit 量化后仅 397GB，性能对标 Claude Opus 4.5，但开源权重版砍掉了视觉和长上下文。
+- [AI 正在消灭软件工程的中产阶级？](https://blog.florianherrengt.com/ai-removing-middle-class-software-engineering.html) · HackerNews · 分9
+  HN 热帖讨论 AI 对软件工程师分层的影响：好工程师借助 AI 杠杆放大产出，差工程师则把坏代码的破坏力放大十倍，中间层“搬砖型”岗位正在被压缩。
+- [Tailscale 数据库损坏源于 SQLite 十六年 WAL 重置 Bug](https://tailscale.com/blog/sqlite-wal-reset-bug) · HackerNews · 分8
+  Tailscale 发现一个潜伏十六年的 SQLite 底层 Bug 导致用户数据库损坏，他们花钱请 SQLite 团队开发调试工具定位并修复了问题，过程写成了详细技术复盘。
+
+### AI大事
+- [Grok 4.6 发布，性能对标 Fable 且价格更低](https://x.ai/news/grok-4-6) · HackerNews · 分9
+  xAI 发布 Grok 4.6，基准测试超过 GPT-5.6-Sol，API 价格比 Kimi K3 便宜，且在 Cursor 订阅里用量很慷慨。社区讨论集中在它是否靠蒸馏或刷榜追上 Fable，以及…
+- [从辅助到执行：企业如何让AI真正干活](https://openai.com/index/how-enterprises-put-ai-to-work) · OpenAI Blog · 分9
+  OpenAI发了一份企业采用AI的研究报告，核心发现是企业正从用AI聊天写东西，转向用Agent和Codex这类工具让AI直接执行任务，而且头部公司已经靠这个拉开差距。
+- [窃取专有LLM API的推理轨迹](https://simonwillison.net/2026/Aug/11/stealing-reasoning-traces/) · Simon Willison · 分9
+  研究者发现Anthropic、OpenAI、Google返回给客户的加密推理链块，在同一模型家族内共用同一把密钥，可以把强模型的推理块喂给弱模型，越狱后还原明文推理过程。目前已被修复。
+- [Claude 新水印惹争议，用户怕被抓包](https://techcrunch.com/2026/08/12/some-claude-users-are-mad-that-anthropics-new-watermarks-will-catch-them-cheating-at-their-jobs-classes/) · TechCrunch AI · 分8
+  Anthropic 给 Claude 输出加了隐形水印，方便识别内容是不是 AI 写的。结果不少用户慌了，怕在工作或作业里用 AI 被老师或老板发现，跑到社交媒体上吐槽。
 
 ### 世界时事
-- [长鑫上市，股权财政的转型尝试](https://opinion.caixin.com/2026-08-12/102473306.html) · 财新网 · 分8
-  长鑫科技登陆科创板，成为史上最大IPO，合肥国资十年陪跑换来万亿市值。这篇文章分析地方政府从土地财政转向股权财政的逻辑、挑战和制度创新，说白了就是政府当VC的故事。
-- [Manus恢复独立运营，腾讯等股东向Meta购回](https://www.caixin.com/2026-08-12/102473266.html) · 财新网 · 分8
-  Manus这家AI Agent公司被Meta收购后又拆出来了，原因是发改委要求撤销外资收购，腾讯等老股东花20亿美元把股份买回来，公司恢复独立运营。
+- [深度｜为逼光伏制造回流，特朗普再挥大棒：瞄准对手，反伤自身](https://m.thepaper.cn/detail/33773012) · 澎湃新闻 · 分8
+  美国对进口光伏产品设最低价和加税，想逼制造业回流，但实际伤盟友、推高自家成本，对中国影响有限，核心矛盾还是国内产能过剩。
 
-_更新于 2026-08-12 03:37 · web-intel-bot_
+_更新于 2026-08-13 01:35 · web-intel-bot_
