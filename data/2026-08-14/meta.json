@@ -1,46 +1,45 @@
 {
   "date": "2026-08-14",
   "profile": "kizty",
-  "generated_at": "2026-08-14 01:36",
+  "generated_at": "2026-08-14 03:39",
   "stats": {
     "topics_ran": [
       "AI大事",
       "世界时事",
-      "变现路径",
       "技术圈",
       "GitHub 动态",
       "心理学",
       "供应链"
     ],
-    "total_selected": 36,
-    "total_fetched": 163
+    "total_selected": 43,
+    "total_fetched": 181
   },
   "top3": [
     {
       "topic": "AI大事",
-      "title": "SpaceXAI 发布 Grok 4.6 与 Grok @Bot",
-      "tldr": "xAI 发布 Grok 4.6，性能对标 GPT-5.6 和 Claude，但价格远低于对手，主打长时运行代理和知识工作场景，同时推出 Grok @Bot 协作功能，Cursor 团队已将其集成并获好评。",
+      "title": "DeepSeek V4 Pro 0813 上线，权重已开源",
+      "tldr": "DeepSeek 新模型 V4 Pro 0813 通过 API 上线，权重随后在 Hugging Face 开源，1.7T 参数、893GB，且不同推理等级输出差异明显。",
       "score": 9,
-      "url": "https://www.latent.space/p/ainews-spacexai-grok-46-and-grok",
-      "source": "Latent Space",
+      "url": "https://simonwillison.net/2026/Aug/12/deepseek-v4-pro-0813/",
+      "source": "Simon Willison",
       "source_count": 1
     },
     {
-      "topic": "世界时事",
-      "title": "产能过剩、反内卷与内需不足",
-      "tldr": "文章说整治产能过剩的政策只能改变贸易顺差结构，改不了总额。真正要解决顺差问题得靠国内结构改革，拿大众裁员当例子说明中国制造崛起才是核心变量。",
-      "score": 8,
-      "url": "https://opinion.caixin.com/2026-08-13/102473808.html",
-      "source": "财新网",
+      "topic": "供应链",
+      "title": "图神经网络引导遗传算法优化实物互联网供应链",
+      "tldr": "这篇论文用图神经网络帮遗传算法做初始化，解决实物互联网里工厂、仓库、零售商三级网络的分配和补货问题，在成本不确定时比传统算法更稳更快。",
+      "score": 9,
+      "url": "http://arxiv.org/abs/2608.10245v1",
+      "source": "arXiv",
       "source_count": 1
     },
     {
-      "topic": "AI大事",
-      "title": "Claude一举扫清2000阶以下哈达玛矩阵！AI开始清空数学待解列表",
-      "tldr": "Anthropic的Claude模型在数学推理上取得突破，用AI辅助证明扫清了2000阶以下所有哈达玛矩阵的存在性问题，这是AI在纯数学领域的一次标志性胜利。",
-      "score": 8,
-      "url": "https://www.qbitai.com/2026/08/472016.html",
-      "source": "量子位",
+      "topic": "技术圈",
+      "title": "选择无聊的技术",
+      "tldr": "一篇 2015 年的经典文章，核心观点是每家公司创新资源有限，应该把创新花在刀刃上，其余技术栈尽量选成熟稳定的“无聊技术”。HN 网友重新热议，并把它和 AI Agent 时代联系起来。",
+      "score": 9,
+      "url": "https://mcfunley.com/choose-boring-technology",
+      "source": "HackerNews",
       "source_count": 1
     }
   ]

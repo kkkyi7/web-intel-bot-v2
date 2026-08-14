@@ -1,12 +1,84 @@
 [
   {
+    "title": "AutoDesign: Meta-Harness Optimization for Long-Horizon Agentic Design",
+    "url": "http://arxiv.org/abs/2608.13560v1",
+    "source": "arXiv",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-08-13T17:59:57",
+    "author": "Yaxin Luo, Haobin Jiang, Jialv Zou, Xu Huang, Wenhao Yan, Haodong Li, Zhengrong Yue, Jing Li, Xiaofu Chen, Xiaohan Zhao, Jiacheng Liu, Jiacheng Cui, Zhiqiang Shen, Xiaotong Li"
+  },
+  {
+    "title": "QuoteBench: How Matched Scores Can Hide Command-Path Failures",
+    "url": "http://arxiv.org/abs/2608.13547v1",
+    "source": "arXiv",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-08-13T17:57:20",
+    "author": "Shangao Li, Yao Zhang, Volker Tresp, Yuanyuan Yang"
+  },
+  {
+    "title": "LittleLearner: Language Models Under Pedagogically Controlled Knowledge Exposure",
+    "url": "http://arxiv.org/abs/2608.13545v1",
+    "source": "arXiv",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-08-13T17:56:12",
+    "author": "Fanfei Li, Jana Zeller, Manuel Prada-Corral, Thaddäus Wiedemer, Prasanna Mayilvahanan, Ryan Cotterell, Wieland Brendel"
+  },
+  {
+    "title": "SAEVerbalizer: Generating Explanations for Sparse Autoencoder Features via Representation Verbalization",
+    "url": "http://arxiv.org/abs/2608.13538v1",
+    "source": "arXiv",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-08-13T17:54:11",
+    "author": "Weihan Meng, Hongzhu Guo, Yi Jing, Dewen Liu, Zijun Yao, Xiaozhi Wang, Lei Hou, Juanzi Li"
+  },
+  {
+    "title": "DFM Mimir v1: An Open HRM Delivering Frontier Performance at 1B Parameters Using Only Permissible Post-Training Data",
+    "url": "http://arxiv.org/abs/2608.13517v1",
+    "source": "arXiv",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-08-13T17:37:53",
+    "author": "Peter Schneider-Kamp, Jacob Nielsen, Gianluca Barmina, Kenneth Enevoldsen, Lukas Galke Poech"
+  },
+  {
+    "title": "On the Structural Limits of Machine Learning Decision Systems: An Information-Theoretic, Interaction-Based, and Stochastic-Dynamical Perspective",
+    "url": "http://arxiv.org/abs/2608.13510v1",
+    "source": "arXiv",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-08-13T17:34:41",
+    "author": "Nestor R. Barraza, Gabriel Pena"
+  },
+  {
+    "title": "OpScale: Operator-level Provisioning and Autoscaling for LLM Serving",
+    "url": "http://arxiv.org/abs/2608.13499v1",
+    "source": "arXiv",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-08-13T17:28:54",
+    "author": "Xingqi Cui, Chieh-Jan Mike Liang, Ziang Tang, Jiarong Xing, Haoran Qiu"
+  },
+  {
+    "title": "YAVIN: A Unified Architecture for Secure Edge Processing in Memory",
+    "url": "http://arxiv.org/abs/2608.13496v1",
+    "source": "arXiv",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-08-13T17:25:44",
+    "author": "Shouzhi Fang, William C. Tegge, Md Omar Faruque, Peipei Zhou, Endadul Hoque, Alex K. Jones"
+  },
+  {
     "title": "Gemini 3.7 Flash",
     "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/",
     "source": "HackerNews",
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-08-13T17:23:22",
-    "author": "thisisauserid · 614 pts · 341 comments"
+    "author": "thisisauserid · 658 pts · 375 comments"
   },
   {
     "title": "Accelerating GPT-5.6 Sol Ultrafast",
@@ -15,7 +87,7 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-08-13T18:10:02",
-    "author": "pr337h4m · 417 pts · 174 comments"
+    "author": "pr337h4m · 463 pts · 194 comments"
   },
   {
     "title": "DeepSeek Harness developer preview",
@@ -24,7 +96,7 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-08-13T12:58:02",
-    "author": "bjin · 554 pts · 241 comments"
+    "author": "bjin · 581 pts · 247 comments"
   },
   {
     "title": "Mistral OCR 4.1",
@@ -33,7 +105,7 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-08-13T17:05:12",
-    "author": "spelk · 250 pts · 99 comments"
+    "author": "spelk · 267 pts · 106 comments"
   },
   {
     "title": "Choose Boring Technology (2015)",
@@ -42,7 +114,7 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-08-13T17:48:13",
-    "author": "tosh · 247 pts · 131 comments"
+    "author": "tosh · 280 pts · 140 comments"
   },
   {
     "title": "Spaghettifying DRAM",
@@ -51,7 +123,25 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-08-13T14:17:13",
-    "author": "matt_d · 494 pts · 137 comments"
+    "author": "matt_d · 519 pts · 143 comments"
+  },
+  {
+    "title": "Understanding is the new bottleneck",
+    "url": "https://www.geoffreylitt.com/2026/07/02/understanding-is-the-new-bottleneck",
+    "source": "HackerNews",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-08-13T18:47:19",
+    "author": "sebg · 231 pts · 129 comments"
+  },
+  {
+    "title": "Donkey.bas is 45 Years Old – 131 line of Glory",
+    "url": "https://donkeybas.com/",
+    "source": "HackerNews",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-08-13T17:45:50",
+    "author": "jkrauska · 200 pts · 90 comments"
   },
   {
     "title": "Nine PBS sues Iron Mountain over blocked access to archival data",
@@ -60,7 +150,34 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-08-13T13:14:12",
-    "author": "vinayakborkar · 242 pts · 135 comments"
+    "author": "vinayakborkar · 263 pts · 151 comments"
+  },
+  {
+    "title": "Ordinary abundance",
+    "url": "https://ordinaryabundance.com/",
+    "source": "HackerNews",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-08-13T13:39:41",
+    "author": "yen223 · 235 pts · 131 comments"
+  },
+  {
+    "title": "AI 智能体开始参与交付，谁来证明它没有“动手脚”？IBM 与 Red Hat 给出一套新方案",
+    "url": "https://www.infoq.cn/article/AJz1m242RSJLpXpsC1eg?utm_source=rss&utm_medium=article",
+    "source": "InfoQ 中文",
+    "topic": "AI大事",
+    "region": "cn",
+    "published": "2026-08-14T10:35:35",
+    "author": "作者：Craig Risi"
+  },
+  {
+    "title": "涛思数据创始人&CEO陶建辉博士确认出席AICon深圳，将分享“大模型在工业场景落地的挑战与实践”",
+    "url": "https://www.infoq.cn/article/Uiz6Ovab2eKT0T9q3Nzp?utm_source=rss&utm_medium=article",
+    "source": "InfoQ 中文",
+    "topic": "AI大事",
+    "region": "cn",
+    "published": "2026-08-14T10:00:00",
+    "author": "AICon 全球人工智能开发与应用大会"
   },
   {
     "title": "从“开放模型”到“开放生态”，AI 开源进入下半场",
@@ -133,15 +250,6 @@
     "region": "cn",
     "published": "2026-08-12T14:25:14",
     "author": "AICon 全球人工智能开发与应用大会"
-  },
-  {
-    "title": "小扎万字长文炮轰闭源：蒸馏无罪，Meta 正式重回开源模型路线",
-    "url": "https://www.infoq.cn/article/9sy33cA91Fp8z5mlOvNu?utm_source=rss&utm_medium=article",
-    "source": "InfoQ 中文",
-    "topic": "AI大事",
-    "region": "cn",
-    "published": "2026-08-12T10:43:48",
-    "author": "褚杏娟"
   },
   {
     "title": "深度体验DeepSeek Harness，我原谅它涨价了",
@@ -369,6 +477,15 @@
     "author": ""
   },
   {
+    "title": "llm-gemini 0.33",
+    "url": "https://simonwillison.net/2026/Aug/13/llm-gemini/",
+    "source": "Simon Willison",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-08-13T19:37:34",
+    "author": ""
+  },
+  {
     "title": "DeepSeek V4 Pro 0813 (on OpenRouter)",
     "url": "https://simonwillison.net/2026/Aug/12/deepseek-v4-pro-0813/",
     "source": "Simon Willison",
@@ -414,15 +531,6 @@
     "author": ""
   },
   {
-    "title": "Introducing Muse Glimmer",
-    "url": "https://simonwillison.net/2026/Aug/10/introducing-muse-glimmer/",
-    "source": "Simon Willison",
-    "topic": "AI大事",
-    "region": "intl",
-    "published": "2026-08-10T23:56:03",
-    "author": ""
-  },
-  {
     "title": "科技爱好者周刊（第 408 期）：你需要知道的 AI 缓存知识",
     "url": "http://www.ruanyifeng.com/blog/2026/08/weekly-issue-408.html",
     "source": "阮一峰周刊",
@@ -448,6 +556,33 @@
     "region": "cn",
     "published": "2026-07-31T00:08:55",
     "author": "阮一峰"
+  },
+  {
+    "title": "爱范儿独家｜谷歌不再追逐前沿， DeepMind 或大幅裁员",
+    "url": "https://www.ifanr.com/1675196?utm_source=rss&utm_medium=rss&utm_campaign=",
+    "source": "爱范儿",
+    "topic": "AI大事",
+    "region": "cn",
+    "published": "2026-08-14T02:22:17",
+    "author": "杜晨"
+  },
+  {
+    "title": "DeepSeek V4 Flash 之后，大模型开始卷「智效比」了",
+    "url": "https://www.ifanr.com/1675156?utm_source=rss&utm_medium=rss&utm_campaign=",
+    "source": "爱范儿",
+    "topic": "AI大事",
+    "region": "cn",
+    "published": "2026-08-14T02:14:56",
+    "author": "李超凡"
+  },
+  {
+    "title": "早报｜曝iPhone全线涨价100美元/ChatGPT开始拥有你的电脑历史/长鑫科技市值超过腾讯",
+    "url": "https://www.ifanr.com/1675193?utm_source=rss&utm_medium=rss&utm_campaign=",
+    "source": "爱范儿",
+    "topic": "AI大事",
+    "region": "cn",
+    "published": "2026-08-14T00:30:02",
+    "author": "郑廷旭"
   },
   {
     "title": "9.99 万元起，EV 版 9 分钟充到 97%，秦 MAX 正式上市",
@@ -511,33 +646,6 @@
     "region": "cn",
     "published": "2026-08-13T01:04:57",
     "author": "莫崇宇"
-  },
-  {
-    "title": "早报｜9999起，荣耀Robot Phone发布/Google发布Pixel 11系列/岚图董事长卢放:开发周期短不等于「速成车」",
-    "url": "https://www.ifanr.com/1674986?utm_source=rss&utm_medium=rss&utm_campaign=",
-    "source": "爱范儿",
-    "topic": "AI大事",
-    "region": "cn",
-    "published": "2026-08-13T00:04:10",
-    "author": "郑廷旭"
-  },
-  {
-    "title": "回来了，马斯克带着 24 小时干活的 Agent 回来了",
-    "url": "https://www.ifanr.com/1674851?utm_source=rss&utm_medium=rss&utm_campaign=",
-    "source": "爱范儿",
-    "topic": "AI大事",
-    "region": "cn",
-    "published": "2026-08-12T22:55:47",
-    "author": "彭海星"
-  },
-  {
-    "title": "实测 DeepSeek V4 Pro 正式版：能力直逼 Fable 5，还藏了一个大招",
-    "url": "https://www.ifanr.com/1674965?utm_source=rss&utm_medium=rss&utm_campaign=",
-    "source": "爱范儿",
-    "topic": "AI大事",
-    "region": "cn",
-    "published": "2026-08-12T22:55:33",
-    "author": "彭海星"
   },
   {
     "title": "[AINews] SpaceXAI Grok 4.6 and Grok @Bot",
@@ -828,15 +936,6 @@
     "author": "Amanda Silberling"
   },
   {
-    "title": "Microsoft’s Clippy-like Mico character is no longer the face of Copilot",
-    "url": "https://www.theverge.com/tech/979871/microsoft-copilot-mico-retired",
-    "source": "The Verge AI",
-    "topic": "AI大事",
-    "region": "intl",
-    "published": "2026-08-13T21:42:38",
-    "author": "Emma Roth"
-  },
-  {
     "title": "OpenAI is losing its second executive this week",
     "url": "https://www.theverge.com/ai-artificial-intelligence/979815/openai-denise-dresser-leaving-executive-departure",
     "source": "The Verge AI",
@@ -900,6 +999,15 @@
     "author": "Terrence O’Brien"
   },
   {
+    "title": "Google’s Pixel Watch 5 dives deeper into AI and health",
+    "url": "https://www.theverge.com/tech/978094/pixel-watch-5-hands-on-made-by-google-gemini-wearables-smartwatch",
+    "source": "The Verge AI",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-08-12T14:00:00",
+    "author": "Victoria Song"
+  },
+  {
     "title": "Grok Bot is not what you think",
     "url": "https://www.bensbites.com/p/grok-bot-is-not-what-you-think",
     "source": "Ben's Bites",
@@ -954,40 +1062,76 @@
     "author": ""
   },
   {
-    "title": "人民日报寰宇平：突破底线，日本“新型军国主义”成势为患",
-    "url": "https://m.thepaper.cn/detail/33780267",
+    "title": "新闻蒸馏器丨美国首次授权私企对境外网络犯罪发动攻击，引发争议",
+    "url": "https://m.thepaper.cn/detail/33780847",
     "source": "澎湃新闻",
     "topic": "世界时事",
     "region": "cn",
-    "published": "2026-08-13T23:36:37",
-    "author": "人民日报"
+    "published": "2026-08-14T03:23:23",
+    "author": "澎湃新闻记者 南博一"
   },
   {
-    "title": "“走在多瑙河上”：一场大旱如何冲击欧洲生态、航运与能源安全",
-    "url": "https://m.thepaper.cn/detail/33775848",
+    "title": "戎默｜可与人言无二三：箭垛式人物、域外汉籍与文史疑案",
+    "url": "https://m.thepaper.cn/detail/33719842",
     "source": "澎湃新闻",
     "topic": "世界时事",
     "region": "cn",
-    "published": "2026-08-13T23:23:16",
-    "author": "澎湃新闻首席记者 刘栋"
+    "published": "2026-08-14T03:15:31",
+    "author": "戎默"
   },
   {
-    "title": "五粮液“挺价”新措施：经销商不得低于800元抛售第八代五粮液，批价月内已明显上涨",
-    "url": "https://m.thepaper.cn/detail/33778388",
+    "title": "白宫“金蝉脱壳”：一辆餐饮车为何引发美国政坛与媒体大地震｜907编辑部",
+    "url": "https://m.thepaper.cn/detail/33779446",
     "source": "澎湃新闻",
     "topic": "世界时事",
     "region": "cn",
-    "published": "2026-08-13T23:17:32",
-    "author": "澎湃新闻记者 郭莎莎"
+    "published": "2026-08-14T03:10:31",
+    "author": "澎湃新闻"
   },
   {
-    "title": "单项冠军县，何以扛打｜辽西凌源：撑起全国三成鲜切百合供给",
-    "url": "https://m.thepaper.cn/detail/33760419",
-    "source": "澎湃新闻",
+    "title": "缪延亮：“三重约束”下的市场方向",
+    "url": "https://opinion.caixin.com/2026-08-14/102474035.html",
+    "source": "财新网",
     "topic": "世界时事",
     "region": "cn",
-    "published": "2026-08-13T23:04:42",
-    "author": "澎湃新闻记者 张成杰 复旦大学新闻学院记录中国团队 盛旸 李大武 苏畅 王婧杨 鲁一 雍琢玉 陈若卉 郑楠溪 杨欣 孟觉之"
+    "published": "2026-08-14T03:18:13",
+    "author": ""
+  },
+  {
+    "title": "忆朱镕基总理首次访美与CNN专访｜纪念",
+    "url": "https://mini.caixin.com/2026-08-14/102474003.html",
+    "source": "财新网",
+    "topic": "世界时事",
+    "region": "cn",
+    "published": "2026-08-14T02:03:10",
+    "author": ""
+  },
+  {
+    "title": "AI通胀：一个中期风险",
+    "url": "https://opinion.caixin.com/2026-08-14/102473999.html",
+    "source": "财新网",
+    "topic": "世界时事",
+    "region": "cn",
+    "published": "2026-08-14T01:50:52",
+    "author": ""
+  },
+  {
+    "title": "主权基金集中现身SpaceX股东名单 持仓规模首次曝光",
+    "url": "https://finance.caixin.com/2026-08-14/102473990.html",
+    "source": "财新网",
+    "topic": "世界时事",
+    "region": "cn",
+    "published": "2026-08-14T01:39:30",
+    "author": ""
+  },
+  {
+    "title": "今日开盘：小幅高开 沪指涨幅0.08%",
+    "url": "https://finance.caixin.com/2026-08-14/102473980.html",
+    "source": "财新网",
+    "topic": "世界时事",
+    "region": "cn",
+    "published": "2026-08-14T01:29:53",
+    "author": ""
   },
   {
     "title": "【市场动态】OpenAI年化营收有望突破400亿美元",
@@ -1032,51 +1176,6 @@
     "topic": "世界时事",
     "region": "cn",
     "published": "2026-08-13T14:53:57",
-    "author": ""
-  },
-  {
-    "title": "7月中国新能源汽车新车销量占比首次突破60%",
-    "url": "https://www.caixin.com/2026-08-13/102473903.html",
-    "source": "财新网",
-    "topic": "世界时事",
-    "region": "cn",
-    "published": "2026-08-13T14:44:12",
-    "author": ""
-  },
-  {
-    "title": "文远知行辅助驾驶业务起量 目标2029年实现公司盈亏平衡",
-    "url": "https://www.caixin.com/2026-08-13/102473893.html",
-    "source": "财新网",
-    "topic": "世界时事",
-    "region": "cn",
-    "published": "2026-08-13T14:08:20",
-    "author": ""
-  },
-  {
-    "title": "外资扫货韩股 淡马锡调仓布局",
-    "url": "https://finance.caixin.com/2026-08-13/102473878.html",
-    "source": "财新网",
-    "topic": "世界时事",
-    "region": "cn",
-    "published": "2026-08-13T13:06:59",
-    "author": ""
-  },
-  {
-    "title": "多省审计报告点名国企对外投资 风险管控不力、国有资产管理薄弱",
-    "url": "https://finance.caixin.com/2026-08-13/102473825.html",
-    "source": "财新网",
-    "topic": "世界时事",
-    "region": "cn",
-    "published": "2026-08-13T10:18:33",
-    "author": ""
-  },
-  {
-    "title": "产能过剩、反内卷与内需不足",
-    "url": "https://opinion.caixin.com/2026-08-13/102473808.html",
-    "source": "财新网",
-    "topic": "世界时事",
-    "region": "cn",
-    "published": "2026-08-13T09:03:28",
     "author": ""
   },
   {
@@ -1206,22 +1305,13 @@
     "author": ""
   },
   {
-    "title": "走通上架流程，拥抱新兴生态：《鸿蒙应用上架指南》上线",
-    "url": "https://sspai.com/post/112887",
-    "source": "少数派",
-    "topic": "变现路径",
-    "region": "cn",
-    "published": "2026-08-11T05:59:27",
-    "author": "少数派编辑部"
-  },
-  {
     "title": "Gemini 3.7 Flash",
     "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/",
     "source": "HackerNews",
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-08-13T17:23:22",
-    "author": "thisisauserid · 614 pts · 342 comments"
+    "author": "thisisauserid · 658 pts · 375 comments"
   },
   {
     "title": "Accelerating GPT-5.6 Sol Ultrafast",
@@ -1230,7 +1320,7 @@
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-08-13T18:10:02",
-    "author": "pr337h4m · 417 pts · 174 comments"
+    "author": "pr337h4m · 463 pts · 195 comments"
   },
   {
     "title": "DeepSeek Harness developer preview",
@@ -1239,7 +1329,7 @@
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-08-13T12:58:02",
-    "author": "bjin · 555 pts · 241 comments"
+    "author": "bjin · 581 pts · 247 comments"
   },
   {
     "title": "Mistral OCR 4.1",
@@ -1248,7 +1338,7 @@
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-08-13T17:05:12",
-    "author": "spelk · 251 pts · 99 comments"
+    "author": "spelk · 267 pts · 106 comments"
   },
   {
     "title": "Choose Boring Technology (2015)",
@@ -1257,7 +1347,7 @@
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-08-13T17:48:13",
-    "author": "tosh · 251 pts · 131 comments"
+    "author": "tosh · 280 pts · 140 comments"
   },
   {
     "title": "Spaghettifying DRAM",
@@ -1266,7 +1356,25 @@
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-08-13T14:17:13",
-    "author": "matt_d · 494 pts · 138 comments"
+    "author": "matt_d · 519 pts · 143 comments"
+  },
+  {
+    "title": "Understanding is the new bottleneck",
+    "url": "https://www.geoffreylitt.com/2026/07/02/understanding-is-the-new-bottleneck",
+    "source": "HackerNews",
+    "topic": "技术圈",
+    "region": "intl",
+    "published": "2026-08-13T18:47:19",
+    "author": "sebg · 231 pts · 129 comments"
+  },
+  {
+    "title": "Donkey.bas is 45 Years Old – 131 line of Glory",
+    "url": "https://donkeybas.com/",
+    "source": "HackerNews",
+    "topic": "技术圈",
+    "region": "intl",
+    "published": "2026-08-13T17:45:50",
+    "author": "jkrauska · 201 pts · 91 comments"
   },
   {
     "title": "Nine PBS sues Iron Mountain over blocked access to archival data",
@@ -1275,7 +1383,7 @@
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-08-13T13:14:12",
-    "author": "vinayakborkar · 242 pts · 135 comments"
+    "author": "vinayakborkar · 263 pts · 151 comments"
   },
   {
     "title": "Ordinary abundance",
@@ -1284,7 +1392,7 @@
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-08-13T13:39:41",
-    "author": "yen223 · 207 pts · 117 comments"
+    "author": "yen223 · 235 pts · 131 comments"
   },
   {
     "title": "anthropics/anthropic-sdk-python 发布 v0.122.0",
@@ -1302,15 +1410,6 @@
     "topic": "GitHub 动态",
     "region": "intl",
     "published": "2026-08-13T13:15:00",
-    "author": "github-actions[bot]"
-  },
-  {
-    "title": "langchain-ai/langchain 发布 langchain-anthropic==1.5.6",
-    "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-anthropic%3D%3D1.5.6",
-    "source": "GitHubRelease",
-    "topic": "GitHub 动态",
-    "region": "intl",
-    "published": "2026-08-13T02:31:03",
     "author": "github-actions[bot]"
   },
   {
@@ -1341,6 +1440,15 @@
     "author": "ashwin-ant"
   },
   {
+    "title": "siyuan-note/siyuan 发布 SiYuan v3.8.1-beta.1",
+    "url": "https://github.com/siyuan-note/siyuan/releases/tag/v3.8.1-beta.1",
+    "source": "GitHubRelease",
+    "topic": "GitHub 动态",
+    "region": "intl",
+    "published": "2026-08-14T02:18:31",
+    "author": "github-actions[bot]"
+  },
+  {
     "title": "vercel/next.js 发布 v16.3.1",
     "url": "https://github.com/vercel/next.js/releases/tag/v16.3.1",
     "source": "GitHubRelease",
@@ -1359,49 +1467,49 @@
     "author": "next-js-bot[bot]"
   },
   {
-    "title": "Deactivation of Cardiac Devices at the End of Life: Clinical and Ethical Challenges.",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42593585/",
+    "title": "Exploring emotional intelligence through emotional journaling: a qualitative study of young students.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42595698/",
     "source": "PubMed",
     "topic": "心理学",
     "region": "intl",
     "published": "2026",
-    "author": "Marie-Gabrielle Courtès, Fiona Ecarnot, Mathilde Giffard"
+    "author": "Sleiman El Hajj, Myriam El Khoury-Malhame, Rita Doumit, Roni Chaaya"
   },
   {
-    "title": "GPR84 and Neuroinflammation: A Receptor Worth Targeting, or A Target Worth Reconsidering?",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42593576/",
+    "title": "Comparative performance of large language models for foot and ankle clinical decision support: A multi-rater evaluation of seven models.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42595676/",
     "source": "PubMed",
     "topic": "心理学",
     "region": "intl",
     "published": "2026",
-    "author": "Julia Jarco, Natalia Malek"
+    "author": "Kwang Hwan ParK, Dong Woo Shim, Jin Woo Lee, Hak Jun Kim"
   },
   {
-    "title": "Understanding patient perspectives on breast cancer risk: a qualitative study to inform genetic testing communication in the primary care setting.",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42593556/",
+    "title": "The problem/hypothesis/objective cycle: A metacognitive framework for structuring clinical reasoning in intensive care units.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42595661/",
     "source": "PubMed",
     "topic": "心理学",
     "region": "intl",
     "published": "2026",
-    "author": "Jennifer McGuire, Vanessa Diaz, Katherine Sterba, Kevin S Hughes"
+    "author": "Francisco Ney Villacorta Córdova, Paula Carina González Casquet, Santiago Adolfo Parraga Garabi, Teresa Farre Monjo"
   },
   {
-    "title": "Stereotactic radiotherapy in brain metastases: SRS/FSRT paradox and preferences of radiation oncologists in Türkiye (TROD 10-010 study).",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42593513/",
+    "title": "Can Multiomics Modeling Enable Accurate Prediction of Microsatellite Instability in Colorectal Cancer?",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42595634/",
     "source": "PubMed",
     "topic": "心理学",
     "region": "intl",
     "published": "2026",
-    "author": "Berna Akkus Yildirim, Caglayan Selenge Beduk Esen, Sezin Yuce Sari, Enis Ozyar"
+    "author": "Weiqun Ao, Yijiang Huang, Guoqun Mao, Wei Wang"
   },
   {
-    "title": "Optimization of ground-based optical network configuration for geosynchronous orbit observation.",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42593476/",
+    "title": "Outcomes of Coronary Artery Bypass Graft Surgery in Octogenarians: Results From the Australian Cardiac Surgery Database.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42595626/",
     "source": "PubMed",
     "topic": "心理学",
     "region": "intl",
     "published": "2026",
-    "author": "Dongbo Che, Kainan Yao, Jianli Wang, Zhiqiang Xu"
+    "author": "Nicholas McNamara, Michael Williams, John Brookes, Paul Bannon"
   },
   {
     "title": "对话少数派老麦：从 Palm、WebOS 到 AI 硬件，依然不想成为多数派",
@@ -1411,6 +1519,60 @@
     "region": "cn",
     "published": "2026-08-12T07:00:00",
     "author": "少数派播客"
+  },
+  {
+    "title": "On the global feature importance for interpretable and trustworthy heat demand forecasting",
+    "url": "http://arxiv.org/abs/2608.13039v1",
+    "source": "arXiv",
+    "topic": "供应链",
+    "region": "intl",
+    "published": "2026-08-13T10:05:25",
+    "author": "Milan Zdravković"
+  },
+  {
+    "title": "Demand Transfer Estimation at Scale via Restricted Logit Modeling",
+    "url": "http://arxiv.org/abs/2608.12680v1",
+    "source": "arXiv",
+    "topic": "供应链",
+    "region": "intl",
+    "published": "2026-08-13T00:37:13",
+    "author": "Lakshya Garg, Deep Narayan Mishra, Swapnil Yadav, Haoan Wang, Sujal Alugubelli, Karthik Kumaran, Anupriya Sharma"
+  },
+  {
+    "title": "A Graph Neural Network--Guided Genetic Algorithm for Physical Internet Supply Chain Optimization under Cost Uncertainty",
+    "url": "http://arxiv.org/abs/2608.10245v1",
+    "source": "arXiv",
+    "topic": "供应链",
+    "region": "intl",
+    "published": "2026-08-10T21:26:59",
+    "author": "Faezeh Ardali, Gerald M. Knapp"
+  },
+  {
+    "title": "The Impact of Demand Forecasting on Delay and Jitter in DVB-Based Beam-Hopping LEO Networks",
+    "url": "http://arxiv.org/abs/2608.07901v1",
+    "source": "arXiv",
+    "topic": "供应链",
+    "region": "intl",
+    "published": "2026-08-08T03:58:39",
+    "author": "Yekta Demirci, Guillaume Mantelet, Stéphane Martel, Jean-François Frigon, Gunes Karabulut Kurt"
+  },
+  {
+    "title": "Implicit Differentiation for Measurement-Efficient Bilevel Quantum-Classical Optimization",
+    "url": "http://arxiv.org/abs/2608.07717v1",
+    "source": "arXiv",
+    "topic": "供应链",
+    "region": "intl",
+    "published": "2026-08-07T19:03:43",
+    "author": "Tobias Rohe, Markus Baumann, Federico Harjes Ruiloba, Maximilian Zorn, Jonas Stein, Claudia Linnhoff-Popien"
+  },
+  {
+    "title": "Variable-Horizon Workforce Demand Forecasting with an Aggregate Demand Constraint for Construction Workforce Planning",
+    "url": "http://arxiv.org/abs/2608.05551v1",
+    "source": "arXiv",
+    "topic": "供应链",
+    "region": "intl",
+    "published": "2026-08-06T03:07:00",
+    "author": "Hanbyeol Park, Jaehyeon Heo, Taekhyun Park, Minseong Kim, Hyerim Bae"
   },
   {
     "title": "9.99 万元起，EV 版 9 分钟充到 97%，秦 MAX 正式上市",
