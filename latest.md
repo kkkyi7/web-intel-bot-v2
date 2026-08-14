@@ -1,45 +1,47 @@
-# 情报 Brief · 2026-08-13
+# 情报 Brief · 2026-08-14
 
 ## 今日 TOP3
 
-1. **Claude Opus 5 系统提示词全文公开** · 分9
-   Simon Willison 拿到了 Claude Opus 5 的系统提示词全文，里面详细说明了 Anthropic 如何让模型处理出口管制这类敏感政治话题，核心是让模型保持事实陈述、不表达个人立场。
-   https://simonwillison.net/2026/Aug/9/claude-opus-5-system-prompt/
+1. **SpaceXAI 发布 Grok 4.6 与 Grok @Bot** · 分9
+   xAI 发布 Grok 4.6，性能对标 GPT-5.6 和 Claude，但价格远低于对手，主打长时运行代理和知识工作场景，同时推出 Grok @Bot 协作功能，Cursor 团队已将其集成并获好评。
+   https://www.latent.space/p/ainews-spacexai-grok-46-and-grok
 
-2. **DeepSeek V4 Pro 0813 发布** · 分9
-   DeepSeek 发布 V4 Pro 0813 版本，HN 上开发者实测反馈：在流量模拟和分布式物理引擎任务上表现惊艳，成本极低，有人花 12.5 美元跑了 20 亿 token 还带缓存命中。
-   https://openrouter.ai/deepseek/deepseek-v4-pro-0813
+2. **产能过剩、反内卷与内需不足** · 分8
+   文章说整治产能过剩的政策只能改变贸易顺差结构，改不了总额。真正要解决顺差问题得靠国内结构改革，拿大众裁员当例子说明中国制造崛起才是核心变量。
+   https://opinion.caixin.com/2026-08-13/102473808.html
 
-3. **深度：为逼光伏制造回流，特朗普再挥大棒** · 分8
-   美国对进口多晶硅和光伏组件设最低价加关税，想逼制造业回流。但业内普遍认为伤不到中国，反而推高美国自身光伏成本和电价，盟友也遭殃。
-   https://m.thepaper.cn/detail/33773012
+3. **Claude一举扫清2000阶以下哈达玛矩阵！AI开始清空数学待解列表** · 分8
+   Anthropic的Claude模型在数学推理上取得突破，用AI辅助证明扫清了2000阶以下所有哈达玛矩阵的存在性问题，这是AI在纯数学领域的一次标志性胜利。
+   https://www.qbitai.com/2026/08/472016.html
 
 ## 今日精选
 
-### AI大事
-- [与运行时无关的 AI 工作流：一种兼顾生产环境稳定性和快速评估迭代的模式](https://www.infoq.cn/article/Za8vaFWPCM7LtuRfhDmD?utm_source=rss&utm_medium=article) · InfoQ 中文 · 分9
-  讲的是把 AI 工作流和具体运行环境解耦，让同一个流程既能快速测试新模型，又能在生产环境稳定跑，不用每次改代码重部署。
-- [SpaceXAI 发布 Grok 4.6 与 Grok @Bot](https://www.latent.space/p/ainews-spacexai-grok-46-and-grok) · Latent Space · 分9
-  xAI 发布 Grok 4.6，主打长时运行智能体和知识工作，性价比远超同级模型，同时推出 Grok @Bot 协作工具，Cursor 团队并入后首秀获好评。
-- [Diagram-MMU：科学图表多模态基准](http://arxiv.org/abs/2608.12262v1) · arXiv · 分9
-  一个专门测试多模态大模型读科学图表能力的基准，发现模型看图问答还行，但把图转成代码和改代码很难，Claude-4.6 Opus 在代理模式下三项全提升。
-- [窃取专有LLM API的推理轨迹](https://simonwillison.net/2026/Aug/11/stealing-reasoning-traces/) · Simon Willison · 分9
-  一篇论文发现Anthropic、OpenAI和Google返回给客户的加密推理链可以用同一家族的弱模型解密，通过越狱弱模型就能还原强模型的隐藏思考内容。目前已修复，但对LLM安全设计有重大启示。
-- [Claude Opus 5 系统提示词全文公开](https://simonwillison.net/2026/Aug/9/claude-opus-5-system-prompt/) · Simon Willison · 分9
-  Simon Willison 拿到了 Claude Opus 5 的系统提示词全文，里面详细说明了 Anthropic 如何让模型处理出口管制这类敏感政治话题，核心是让模型保持事实陈述、不表达个人立场…
+### GitHub 动态
+- [Claude Code 更新：子代理分叉与跨会话消息](https://github.com/anthropics/claude-code/releases/tag/v2.1.232) · GitHubRelease · 分9
+  Claude Code 命令行工具更新，默认开启子代理分叉功能，支持跨会话直接发消息，并新增 GitLab 令牌保护和插件市场支持，提升开发协作效率。
 
 ### 技术圈
-- [DeepSeek V4 Pro 0813 发布](https://openrouter.ai/deepseek/deepseek-v4-pro-0813) · HackerNews · 分9
-  DeepSeek 发布 V4 Pro 0813 版本，HN 上开发者实测反馈：在流量模拟和分布式物理引擎任务上表现惊艳，成本极低，有人花 12.5 美元跑了 20 亿 token 还带缓存命中。
-- [Qwen 发布 2.4T 参数开源模型，性能对标 Opus 4.8](https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B) · HackerNews · 分9
-  阿里开源了超大 MoE 模型 Qwen3.8，2.4T 总参数但只激活 95B，性能对标 Claude Opus 4.8，但开源权重和量化版本让个人开发者也能跑起来。
-- [AI 正在消灭软件工程的中产阶级吗](https://blog.florianherrengt.com/ai-removing-middle-class-software-engineering.html) · HackerNews · 分9
-  HackerNews 热帖讨论 AI 对软件工程岗位结构的影响，核心观点是 AI 正在压缩中间层工程师的生存空间，但资深工程师反而更难被替代，同时低水平工程师借助 AI 可能放大技术债。
+- [选择无聊的技术](https://mcfunley.com/choose-boring-technology) · HackerNews · 分9
+  一篇 2015 年的经典文章，讲每家公司创新资源有限，应该把创新精力花在核心业务上，底层技术选型尽量用成熟稳定的方案。HN 上重新翻出来讨论，结合 AI Agent 时代有了新解读。
+- [DeepSeek Harness 开发者预览版发布](https://deepseek.com/harness/en/) · HackerNews · 分9
+  DeepSeek 开源了一个叫 Harness 的 AI Agent 开发框架，核心卖点是全流程可追踪、插件热加载，还配套发了一篇论文。目前是早期预览版，MIT 协议。
+
+### AI大事
+- [GPT-5.6 开发者构建指南](https://openai.com/index/builders-guide-to-gpt-5-6) · OpenAI Blog · 分9
+  OpenAI 官方发了一篇面向开发者的 GPT-5.6 使用指南，重点讲初创公司怎么用更聪明的模型选择和新的 Responses API，把 AI Agent 做得更快更省钱。
+- [SpaceXAI 发布 Grok 4.6 与 Grok @Bot](https://www.latent.space/p/ainews-spacexai-grok-46-and-grok) · Latent Space · 分9
+  xAI 发布 Grok 4.6，性能对标 GPT-5.6 和 Claude，但价格远低于对手，主打长时运行代理和知识工作场景，同时推出 Grok @Bot 协作功能，Cursor 团队已将其集成并获好…
+- [DeepSeek V4 Pro 0813 上线 OpenRouter](https://simonwillison.net/2026/Aug/12/deepseek-v4-pro-0813/) · Simon Willison · 分9
+  DeepSeek 发布新版 V4 Pro 模型，仅通过 API 提供，权重已开源，1.7T 参数，文件 893GB。作者测试发现不同推理强度下模型输出风格差异极大，这在其他模型上没见过。
+- [窃取专有LLM API的推理轨迹](https://simonwillison.net/2026/Aug/11/stealing-reasoning-traces/) · Simon Willison · 分9
+  一篇论文发现Anthropic、OpenAI、Google返回的加密思维链块可被跨会话重放，用同系列最弱模型越狱后能解出最强模型的明文推理内容，目前厂商已修复。
+- [PPT Master：AI 生成原生 PowerPoint 的开源项目](https://github.com/hugohe3/ppt-master) · GitHub Trending · 分9
+  这个开源工具让 AI 直接生成真正可编辑的 PPTX 文件，支持原生形状、动画、图表和音频旁白，还能用你自己的模板，不是简单填模板那种。
+- [RAGFlow：开源RAG引擎融合Agent能力](https://github.com/infiniflow/ragflow) · GitHub Trending · 分9
+  RAGFlow是一个开源RAG引擎，把文档解析、知识库检索和Agent能力打包成一套完整方案，让企业能快速把复杂数据变成可用的AI问答系统，支持自部署和多种数据源。
 
 ### 供应链
-- [图神经网络引导遗传算法优化物理互联网供应链](http://arxiv.org/abs/2608.10245v1) · arXiv · 分9
-  这篇论文提出用图神经网络帮遗传算法做初始化，解决物理互联网供应链里工厂、仓库、零售商三层网络的分配和运输优化问题，在成本不确定时比传统算法更稳更快。
-- [变时域用工需求预测：引入总量约束的施工人力规划](http://arxiv.org/abs/2608.05551v1) · arXiv · 分9
-  施工项目里每个任务完工时间不同，预测用工需求时预测长度得跟着变，而且每天预测人数加起来必须等于事先定好的总人数。这篇提出一个叫 CP-RAF 的方法，用相似历史任务做加权平均来分配剩余人力，既满足总量…
+- [推理工程大师课：Baseten 的实战分享](https://www.latent.space/p/inference-eng) · Latent Space · 分9
+  Baseten 两位专家聊推理工程，讲怎么把开源模型变成又快又省的生产级 API，包括量化、缓存、投机解码等优化手段，能带来 20% 到 200% 的性能提升，还提到推理和训练正在融合。
 
-_更新于 2026-08-13 03:42 · web-intel-bot_
+_更新于 2026-08-14 01:36 · web-intel-bot_
