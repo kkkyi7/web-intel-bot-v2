@@ -1,7 +1,7 @@
 {
   "date": "2026-08-15",
   "profile": "kizty",
-  "generated_at": "2026-08-15 01:35",
+  "generated_at": "2026-08-15 02:36",
   "stats": {
     "topics_ran": [
       "AI大事",
@@ -9,35 +9,35 @@
       "技术圈",
       "GitHub 动态"
     ],
-    "total_selected": 25,
-    "total_fetched": 151
+    "total_selected": 27,
+    "total_fetched": 157
   },
   "top3": [
     {
       "topic": "AI大事",
-      "title": "OpenAI 推出 Ultrafast 模式，GPT-5.6 Sol 提速 14 倍",
-      "tldr": "OpenAI 给旗舰模型 GPT-5.6 Sol 加了个叫 Ultrafast 的加速模式，推理速度快了 14 倍，主要想拉拢企业客户，现在先开放预览。",
+      "title": "DeepSeek + Pi 王炸组合跑赢 Claude Code？Pi创始人：这套组合我早押中了",
+      "tldr": "文章讨论开发者用 DeepSeek 模型搭配 Pi 这个工具，在编程任务上跑赢了 Claude Code，Pi 创始人说这套组合他早就押中了。核心是低成本模型加特定工具链可能改写编程工具格局。",
       "score": 9,
-      "url": "https://techcrunch.com/2026/08/13/openai-introduces-ultrafast-a-new-mode-that-makes-gpt-5-6-sol-work-at-14x-the-speed/",
-      "source": "TechCrunch AI",
-      "source_count": 2
-    },
-    {
-      "topic": "世界时事",
-      "title": "美日联手开发南鸟岛稀土，挑战中国供应链",
-      "tldr": "美日想在南鸟岛附近深海开采稀土，目标是在2028年前搞出商业化方案，打破中国对稀土尤其是重稀土的垄断。目前还在早期勘探阶段，技术和成本挑战都很大，但政治信号很明确。",
-      "score": 8,
-      "url": "https://www.guancha.cn/internation/2026_08_13_827146_s.shtml",
-      "source": "观察者网",
+      "url": "https://www.infoq.cn/article/XpFUaftcEE3iLgGzYGZi?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
       "source_count": 1
     },
     {
-      "topic": "技术圈",
-      "title": "Qwen 3.8 27B 发布",
-      "tldr": "阿里开源的新一代本地大模型 Qwen 3.8 27B，在推理能力和代码生成上表现惊艳，社区实测在个人笔记本上就能跑出极高质量的结果，引发关于开源模型能否取代闭源巨头的讨论。",
+      "topic": "AI大事",
+      "title": "OpenAI 发布 Ultrafast 模式，GPT-5.6 Sol 提速 14 倍",
+      "tldr": "OpenAI 给旗舰模型 GPT-5.6 Sol 加了个叫 Ultrafast 的加速模式，推理速度快了 14 倍，先给企业客户试用，明显是想抢企业级 AI 市场。",
       "score": 9,
-      "url": "https://huggingface.co/Qwen/Qwen3.8-27B-FP8",
-      "source": "HackerNews",
+      "url": "https://techcrunch.com/2026/08/13/openai-introduces-ultrafast-a-new-mode-that-makes-gpt-5-6-sol-work-at-14x-the-speed/",
+      "source": "TechCrunch AI",
+      "source_count": 1
+    },
+    {
+      "topic": "世界时事",
+      "title": "特朗普称将宣布霍尔木兹海峡为美国领土",
+      "tldr": "美伊在霍尔木兹海峡激烈对峙，特朗普放话要宣布该海峡为美国领土，伊朗击落美军死神无人机，美国组建多国无人机部队施压，地区冲突风险陡增。",
+      "score": 8,
+      "url": "https://m.thepaper.cn/detail/33786908",
+      "source": "澎湃新闻",
       "source_count": 1
     }
   ]

@@ -1,12 +1,93 @@
 [
   {
+    "title": "AutoDesign: Meta-Harness Optimization for Long-Horizon Agentic Design",
+    "url": "http://arxiv.org/abs/2608.13560v1",
+    "source": "arXiv",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-08-13T17:59:57",
+    "author": "Yaxin Luo, Haobin Jiang, Jialv Zou, Xu Huang, Wenhao Yan, Haodong Li, Zhengrong Yue, Jing Li, Xiaofu Chen, Xiaohan Zhao, Jiacheng Liu, Jiacheng Cui, Zhiqiang Shen, Xiaotong Li"
+  },
+  {
+    "title": "QuoteBench: How Matched Scores Can Hide Command-Path Failures",
+    "url": "http://arxiv.org/abs/2608.13547v1",
+    "source": "arXiv",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-08-13T17:57:20",
+    "author": "Shangao Li, Yao Zhang, Volker Tresp, Yuanyuan Yang"
+  },
+  {
+    "title": "LittleLearner: Language Models Under Pedagogically Controlled Knowledge Exposure",
+    "url": "http://arxiv.org/abs/2608.13545v1",
+    "source": "arXiv",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-08-13T17:56:12",
+    "author": "Fanfei Li, Jana Zeller, Manuel Prada-Corral, Thaddäus Wiedemer, Prasanna Mayilvahanan, Ryan Cotterell, Wieland Brendel"
+  },
+  {
+    "title": "SAEVerbalizer: Generating Explanations for Sparse Autoencoder Features via Representation Verbalization",
+    "url": "http://arxiv.org/abs/2608.13538v1",
+    "source": "arXiv",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-08-13T17:54:11",
+    "author": "Weihan Meng, Hongzhu Guo, Yi Jing, Dewen Liu, Zijun Yao, Xiaozhi Wang, Lei Hou, Juanzi Li"
+  },
+  {
+    "title": "DFM Mimir v1: An Open HRM Delivering Frontier Performance at 1B Parameters Using Only Permissible Post-Training Data",
+    "url": "http://arxiv.org/abs/2608.13517v1",
+    "source": "arXiv",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-08-13T17:37:53",
+    "author": "Peter Schneider-Kamp, Jacob Nielsen, Gianluca Barmina, Kenneth Enevoldsen, Lukas Galke Poech"
+  },
+  {
+    "title": "On the Structural Limits of Machine Learning Decision Systems: An Information-Theoretic, Interaction-Based, and Stochastic-Dynamical Perspective",
+    "url": "http://arxiv.org/abs/2608.13510v1",
+    "source": "arXiv",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-08-13T17:34:41",
+    "author": "Nestor R. Barraza, Gabriel Pena"
+  },
+  {
+    "title": "OpScale: Operator-level Provisioning and Autoscaling for LLM Serving",
+    "url": "http://arxiv.org/abs/2608.13499v1",
+    "source": "arXiv",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-08-13T17:28:54",
+    "author": "Xingqi Cui, Chieh-Jan Mike Liang, Ziang Tang, Jiarong Xing, Haoran Qiu"
+  },
+  {
+    "title": "YAVIN: A Unified Architecture for Secure Edge Processing in Memory",
+    "url": "http://arxiv.org/abs/2608.13496v1",
+    "source": "arXiv",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-08-13T17:25:44",
+    "author": "Shouzhi Fang, William C. Tegge, Md Omar Faruque, Peipei Zhou, Endadul Hoque, Alex K. Jones"
+  },
+  {
     "title": "Qwen 3.8 27B",
     "url": "https://huggingface.co/Qwen/Qwen3.8-27B-FP8",
     "source": "HackerNews",
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-08-14T15:00:00",
-    "author": "erdaltoprak · 899 pts · 586 comments"
+    "author": "erdaltoprak · 928 pts · 603 comments"
+  },
+  {
+    "title": "Going Dark, and the era of law enforcement hacking",
+    "url": "https://blog.cryptographyengineering.com/2026/08/14/everything-is-about-to-go-dark/",
+    "source": "HackerNews",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-08-14T20:52:44",
+    "author": "vslira · 220 pts · 124 comments"
   },
   {
     "title": "Why does Opus 5 feel worse to work with?",
@@ -15,7 +96,7 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-08-14T10:12:48",
-    "author": "numeri · 781 pts · 723 comments"
+    "author": "numeri · 801 pts · 734 comments"
   },
   {
     "title": "Google is making private AI practical with homomorphic encryption",
@@ -24,7 +105,7 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-08-14T15:43:10",
-    "author": "u1hcw9nx · 276 pts · 166 comments"
+    "author": "u1hcw9nx · 291 pts · 173 comments"
   },
   {
     "title": "RustDesk now supports true unattended remote access on Wayland",
@@ -33,16 +114,7 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-08-14T16:12:52",
-    "author": "rustdesk · 217 pts · 94 comments"
-  },
-  {
-    "title": "AI by Hand",
-    "url": "https://www.byhand.ai/",
-    "source": "HackerNews",
-    "topic": "AI大事",
-    "region": "intl",
-    "published": "2026-08-14T15:58:59",
-    "author": "sans_souse · 202 pts · 17 comments"
+    "author": "rustdesk · 229 pts · 96 comments"
   },
   {
     "title": "Firefox is now the last major browser that still supports uBlock Origin",
@@ -51,16 +123,16 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-08-14T19:03:20",
-    "author": "DemiGuru · 391 pts · 156 comments"
+    "author": "DemiGuru · 448 pts · 171 comments"
   },
   {
-    "title": "Seven books I keep close because I love them",
-    "url": "https://blog.plover.com/2026/08/02/",
+    "title": "AI by Hand",
+    "url": "https://www.byhand.ai/",
     "source": "HackerNews",
     "topic": "AI大事",
     "region": "intl",
-    "published": "2026-08-14T15:03:26",
-    "author": "surprisetalk · 296 pts · 131 comments"
+    "published": "2026-08-14T15:58:59",
+    "author": "sans_souse · 213 pts · 18 comments"
   },
   {
     "title": "GLM-5.3: Frontier coding with emergent cyber capabilities",
@@ -69,7 +141,25 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-08-14T05:19:59",
-    "author": "pella · 1028 pts · 515 comments"
+    "author": "pella · 1035 pts · 515 comments"
+  },
+  {
+    "title": "Seven books I keep close because I love them",
+    "url": "https://blog.plover.com/2026/08/02/",
+    "source": "HackerNews",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-08-14T15:03:26",
+    "author": "surprisetalk · 303 pts · 134 comments"
+  },
+  {
+    "title": "面向多模态推理的高效长上下文建模｜AICon深圳",
+    "url": "https://www.infoq.cn/article/OgbViICigja8tasE0lwi?utm_source=rss&utm_medium=article",
+    "source": "InfoQ 中文",
+    "topic": "AI大事",
+    "region": "cn",
+    "published": "2026-08-15T10:00:00",
+    "author": "AICon 全球人工智能开发与应用大会"
   },
   {
     "title": "33%增速、126%留存：Snowflake 用一份财报，把“AI落地难”讲成了印钞机故事",
@@ -151,15 +241,6 @@
     "region": "cn",
     "published": "2026-08-14T14:24:20",
     "author": "Tina"
-  },
-  {
-    "title": "AI 正在重塑故障处理流程，但棘手问题仍需人类解决",
-    "url": "https://www.infoq.cn/article/dxzigmlmI6BN4MWqYNI2?utm_source=rss&utm_medium=article",
-    "source": "InfoQ 中文",
-    "topic": "AI大事",
-    "region": "cn",
-    "published": "2026-08-14T13:54:40",
-    "author": "作者：Craig Risi"
   },
   {
     "title": "太初元碁助力国家级“AI+教育”大赛 “AI+加速卡模型适配赛道”开启招募",
@@ -963,40 +1044,22 @@
     "author": ""
   },
   {
-    "title": "讲座预告｜从数字经济到AI超级个体的中国经验",
-    "url": "https://m.thepaper.cn/detail/33784420",
+    "title": "金正恩凭吊抗日革命烈士",
+    "url": "https://m.thepaper.cn/detail/33787348",
     "source": "澎湃新闻",
     "topic": "世界时事",
     "region": "cn",
-    "published": "2026-08-15T01:18:32",
-    "author": "澎湃新闻记者 王俊期 整理"
+    "published": "2026-08-15T02:00:53",
+    "author": "王天僚/新华社客户端"
   },
   {
-    "title": "普京致电金正恩：俄朝正在各方面积极合作",
-    "url": "https://m.thepaper.cn/detail/33787041",
+    "title": "活力中国调研行｜重新开业一个月接待游客人次近百万，曾经“沉睡古城”如何被盘活？",
+    "url": "https://m.thepaper.cn/detail/33786320",
     "source": "澎湃新闻",
     "topic": "世界时事",
     "region": "cn",
-    "published": "2026-08-15T01:08:18",
-    "author": "王天僚/新华社"
-  },
-  {
-    "title": "特朗普证实部署中东的“林肯”号航母将被替换",
-    "url": "https://m.thepaper.cn/detail/33786987",
-    "source": "澎湃新闻",
-    "topic": "世界时事",
-    "region": "cn",
-    "published": "2026-08-15T01:04:51",
-    "author": "黄强、颜亮/新华社客户端"
-  },
-  {
-    "title": "不喊口号只“做饭”，《欢迎来龙餐馆》如何打动全球观众？",
-    "url": "https://m.thepaper.cn/detail/33784717",
-    "source": "澎湃新闻",
-    "topic": "世界时事",
-    "region": "cn",
-    "published": "2026-08-15T00:36:35",
-    "author": ""
+    "published": "2026-08-15T01:52:32",
+    "author": "澎湃新闻记者 唐莹莹"
   },
   {
     "title": "特朗普称将宣布霍尔木兹海峡为“美国领土” ，伊朗称击落美军无人机",
@@ -1024,15 +1087,6 @@
     "region": "cn",
     "published": "2026-08-14T23:15:14",
     "author": "澎湃新闻首席记者 田忠方"
-  },
-  {
-    "title": "贵州茅台上半年净利下滑1.95%，i茅台收入超400亿元贡献四成营收",
-    "url": "https://m.thepaper.cn/detail/33785696",
-    "source": "澎湃新闻",
-    "topic": "世界时事",
-    "region": "cn",
-    "published": "2026-08-14T23:09:35",
-    "author": "澎湃新闻记者 郭莎莎"
   },
   {
     "title": "【周刊提前读】国企抢夺一二线“地王” 楼市“K型分化”延伸土地市场",
@@ -1203,16 +1257,16 @@
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-08-14T15:00:00",
-    "author": "erdaltoprak · 901 pts · 586 comments"
+    "author": "erdaltoprak · 929 pts · 604 comments"
   },
   {
-    "title": "Why does Opus 5 feel worse to work with?",
-    "url": "https://mun-logadan.github.io/why-does-opus-5-feel-worse/",
+    "title": "Going Dark, and the era of law enforcement hacking",
+    "url": "https://blog.cryptographyengineering.com/2026/08/14/everything-is-about-to-go-dark/",
     "source": "HackerNews",
     "topic": "技术圈",
     "region": "intl",
-    "published": "2026-08-14T10:12:48",
-    "author": "numeri · 782 pts · 724 comments"
+    "published": "2026-08-14T20:52:44",
+    "author": "vslira · 220 pts · 124 comments"
   },
   {
     "title": "Google is making private AI practical with homomorphic encryption",
@@ -1221,7 +1275,7 @@
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-08-14T15:43:10",
-    "author": "u1hcw9nx · 277 pts · 166 comments"
+    "author": "u1hcw9nx · 292 pts · 174 comments"
   },
   {
     "title": "RustDesk now supports true unattended remote access on Wayland",
@@ -1230,16 +1284,7 @@
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-08-14T16:12:52",
-    "author": "rustdesk · 217 pts · 94 comments"
-  },
-  {
-    "title": "AI by Hand",
-    "url": "https://www.byhand.ai/",
-    "source": "HackerNews",
-    "topic": "技术圈",
-    "region": "intl",
-    "published": "2026-08-14T15:58:59",
-    "author": "sans_souse · 202 pts · 17 comments"
+    "author": "rustdesk · 229 pts · 96 comments"
   },
   {
     "title": "Firefox is now the last major browser that still supports uBlock Origin",
@@ -1248,16 +1293,25 @@
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-08-14T19:03:20",
-    "author": "DemiGuru · 393 pts · 157 comments"
+    "author": "DemiGuru · 452 pts · 172 comments"
   },
   {
-    "title": "Seven books I keep close because I love them",
-    "url": "https://blog.plover.com/2026/08/02/",
+    "title": "AI by Hand",
+    "url": "https://www.byhand.ai/",
     "source": "HackerNews",
     "topic": "技术圈",
     "region": "intl",
-    "published": "2026-08-14T15:03:26",
-    "author": "surprisetalk · 296 pts · 131 comments"
+    "published": "2026-08-14T15:58:59",
+    "author": "sans_souse · 214 pts · 18 comments"
+  },
+  {
+    "title": "Why does Opus 5 feel worse to work with?",
+    "url": "https://mun-logadan.github.io/why-does-opus-5-feel-worse/",
+    "source": "HackerNews",
+    "topic": "技术圈",
+    "region": "intl",
+    "published": "2026-08-14T10:12:48",
+    "author": "numeri · 801 pts · 734 comments"
   },
   {
     "title": "GLM-5.3: Frontier coding with emergent cyber capabilities",
@@ -1266,7 +1320,16 @@
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-08-14T05:19:59",
-    "author": "pella · 1028 pts · 515 comments"
+    "author": "pella · 1035 pts · 515 comments"
+  },
+  {
+    "title": "Seven books I keep close because I love them",
+    "url": "https://blog.plover.com/2026/08/02/",
+    "source": "HackerNews",
+    "topic": "技术圈",
+    "region": "intl",
+    "published": "2026-08-14T15:03:26",
+    "author": "surprisetalk · 304 pts · 134 comments"
   },
   {
     "title": "openai/openai-python 发布 v3.1.0",
@@ -1320,15 +1383,6 @@
     "topic": "GitHub 动态",
     "region": "intl",
     "published": "2026-08-14T17:14:04",
-    "author": "github-actions[bot]"
-  },
-  {
-    "title": "siyuan-note/siyuan 发布 SiYuan v3.8.1-beta.1",
-    "url": "https://github.com/siyuan-note/siyuan/releases/tag/v3.8.1-beta.1",
-    "source": "GitHubRelease",
-    "topic": "GitHub 动态",
-    "region": "intl",
-    "published": "2026-08-14T02:18:31",
     "author": "github-actions[bot]"
   },
   {
