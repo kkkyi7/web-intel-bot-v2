@@ -1,0 +1,44 @@
+{
+  "date": "2026-08-16",
+  "profile": "kizty",
+  "generated_at": "2026-08-16 01:35",
+  "stats": {
+    "topics_ran": [
+      "AI大事",
+      "世界时事",
+      "技术圈",
+      "GitHub 动态"
+    ],
+    "total_selected": 17,
+    "total_fetched": 135
+  },
+  "top3": [
+    {
+      "topic": "AI大事",
+      "title": "DeepSeek + Pi 王炸组合跑赢 Claude Code？Pi创始人：这套组合我早押中了",
+      "tldr": "一篇关于AI编程工具组合的实战评测，讨论DeepSeek模型搭配Pi框架在编码任务上表现超过Claude Code，Pi创始人回应说这是早有预判的组合策略。",
+      "score": 9,
+      "url": "https://www.infoq.cn/article/XpFUaftcEE3iLgGzYGZi?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "source_count": 1
+    },
+    {
+      "topic": "技术圈",
+      "title": "用 Codex 自动研究，内核提速 232 倍",
+      "tldr": "作者用 OpenAI 的 Codex 做自动化研究循环，对 GPU 内核代码做基准测试、剖析、验证、改进，最终实现 232 倍提速。HN 讨论区里有人复现类似方法，也有人指出这类优化容易过拟合特定输入。",
+      "score": 9,
+      "url": "https://sankalp.bearblog.dev/autoresearch/",
+      "source": "HackerNews",
+      "source_count": 1
+    },
+    {
+      "topic": "技术圈",
+      "title": "与AI协作更像领导力而非编码",
+      "tldr": "HN上讨论一个观点：现在用AI干活，核心能力从写代码变成了“管理”AI。有人赞同说这是管理问题，有人反对说技术理解仍然关键，还举了不懂技术的领导被AI坑惨的例子。",
+      "score": 9,
+      "url": "https://allen.bargi.org/notes/working-with-ai-feels-like-leadership/",
+      "source": "HackerNews",
+      "source_count": 1
+    }
+  ]
+}
