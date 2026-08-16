@@ -1,12 +1,84 @@
 [
   {
+    "title": "AutoDesign: Meta-Harness Optimization for Long-Horizon Agentic Design",
+    "url": "http://arxiv.org/abs/2608.13560v1",
+    "source": "arXiv",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-08-13T17:59:57",
+    "author": "Yaxin Luo, Haobin Jiang, Jialv Zou, Xu Huang, Wenhao Yan, Haodong Li, Zhengrong Yue, Jing Li, Xiaofu Chen, Xiaohan Zhao, Jiacheng Liu, Jiacheng Cui, Zhiqiang Shen, Xiaotong Li"
+  },
+  {
+    "title": "QuoteBench: How Matched Scores Can Hide Command-Path Failures",
+    "url": "http://arxiv.org/abs/2608.13547v1",
+    "source": "arXiv",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-08-13T17:57:20",
+    "author": "Shangao Li, Yao Zhang, Volker Tresp, Yuanyuan Yang"
+  },
+  {
+    "title": "LittleLearner: Language Models Under Pedagogically Controlled Knowledge Exposure",
+    "url": "http://arxiv.org/abs/2608.13545v1",
+    "source": "arXiv",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-08-13T17:56:12",
+    "author": "Fanfei Li, Jana Zeller, Manuel Prada-Corral, Thaddäus Wiedemer, Prasanna Mayilvahanan, Ryan Cotterell, Wieland Brendel"
+  },
+  {
+    "title": "SAEVerbalizer: Generating Explanations for Sparse Autoencoder Features via Representation Verbalization",
+    "url": "http://arxiv.org/abs/2608.13538v1",
+    "source": "arXiv",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-08-13T17:54:11",
+    "author": "Weihan Meng, Hongzhu Guo, Yi Jing, Dewen Liu, Zijun Yao, Xiaozhi Wang, Lei Hou, Juanzi Li"
+  },
+  {
+    "title": "DFM Mimir v1: An Open HRM Delivering Frontier Performance at 1B Parameters Using Only Permissible Post-Training Data",
+    "url": "http://arxiv.org/abs/2608.13517v1",
+    "source": "arXiv",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-08-13T17:37:53",
+    "author": "Peter Schneider-Kamp, Jacob Nielsen, Gianluca Barmina, Kenneth Enevoldsen, Lukas Galke Poech"
+  },
+  {
+    "title": "On the Structural Limits of Machine Learning Decision Systems: An Information-Theoretic, Interaction-Based, and Stochastic-Dynamical Perspective",
+    "url": "http://arxiv.org/abs/2608.13510v1",
+    "source": "arXiv",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-08-13T17:34:41",
+    "author": "Nestor R. Barraza, Gabriel Pena"
+  },
+  {
+    "title": "OpScale: Operator-level Provisioning and Autoscaling for LLM Serving",
+    "url": "http://arxiv.org/abs/2608.13499v1",
+    "source": "arXiv",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-08-13T17:28:54",
+    "author": "Xingqi Cui, Chieh-Jan Mike Liang, Ziang Tang, Jiarong Xing, Haoran Qiu"
+  },
+  {
+    "title": "YAVIN: A Unified Architecture for Secure Edge Processing in Memory",
+    "url": "http://arxiv.org/abs/2608.13496v1",
+    "source": "arXiv",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-08-13T17:25:44",
+    "author": "Shouzhi Fang, William C. Tegge, Md Omar Faruque, Peipei Zhou, Endadul Hoque, Alex K. Jones"
+  },
+  {
     "title": "Semaglutide linked to lower predicted dementia risk",
     "url": "https://alz-journals.onlinelibrary.wiley.com/doi/10.1002/dad2.70432",
     "source": "HackerNews",
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-08-15T15:58:53",
-    "author": "randycupertino · 343 pts · 240 comments"
+    "author": "randycupertino · 361 pts · 251 comments"
   },
   {
     "title": "At-home test for infected ticks could improve Lyme Disease diagnosis",
@@ -15,7 +87,7 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-08-15T14:04:49",
-    "author": "gmays · 210 pts · 77 comments"
+    "author": "gmays · 218 pts · 78 comments"
   },
   {
     "title": "RISC-V: They Should Have Known Better",
@@ -24,7 +96,7 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-08-14T12:50:56",
-    "author": "dmitrygr · 230 pts · 297 comments"
+    "author": "dmitrygr · 240 pts · 307 comments"
   },
   {
     "title": "Auto-research with codex: How I achieved a 232x Faster Kernel",
@@ -33,7 +105,7 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-08-15T11:00:02",
-    "author": "tosh · 392 pts · 86 comments"
+    "author": "tosh · 399 pts · 89 comments"
   },
   {
     "title": "AI has access to a vastly larger working memory than the human brain",
@@ -42,7 +114,7 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-08-15T18:13:02",
-    "author": "rzk · 408 pts · 366 comments"
+    "author": "rzk · 424 pts · 373 comments"
   },
   {
     "title": "Working with AI feels more like leadership than coding",
@@ -51,7 +123,16 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-08-15T10:39:41",
-    "author": "allenb · 264 pts · 171 comments"
+    "author": "allenb · 272 pts · 176 comments"
+  },
+  {
+    "title": "从代码生成到研发闭环：AI Coding 在金融科技 SDLC 中的落地实践｜AICon深圳",
+    "url": "https://www.infoq.cn/article/LflwIiIVHRZlakxDgexC?utm_source=rss&utm_medium=article",
+    "source": "InfoQ 中文",
+    "topic": "AI大事",
+    "region": "cn",
+    "published": "2026-08-16T10:00:00",
+    "author": "AICon 全球人工智能开发与应用大会"
   },
   {
     "title": "Cloudflare Computer 发布：让 AI 智能体拥有持久化运行环境",
@@ -133,15 +214,6 @@
     "region": "cn",
     "published": "2026-08-14T14:34:30",
     "author": "Tina"
-  },
-  {
-    "title": "从“会用”到“驾驭”：AI Coding 进入生产环境的真实碰撞",
-    "url": "https://www.infoq.cn/article/ydy2QDIAzQ1L314UH4qc?utm_source=rss&utm_medium=article",
-    "source": "InfoQ 中文",
-    "topic": "AI大事",
-    "region": "cn",
-    "published": "2026-08-14T14:28:52",
-    "author": "AICon 全球人工智能开发与应用大会"
   },
   {
     "title": "至知研究院提出大模型可解释性新路线：拆权重，数据成本不到1%",
@@ -819,15 +891,6 @@
     "author": "Julie Bort"
   },
   {
-    "title": "Have a laugh at AI’s expense by roleplaying as a chatbot",
-    "url": "https://www.theverge.com/entertainment/980502/roleplay-as-an-ai-chatbot",
-    "source": "The Verge AI",
-    "topic": "AI大事",
-    "region": "intl",
-    "published": "2026-08-15T20:45:00",
-    "author": "Terrence O’Brien"
-  },
-  {
     "title": "Mark Zuckerberg has an Instagzam",
     "url": "https://www.theverge.com/podcast/980367/instagram-logo-new-zuckerberg-ai-vergecast",
     "source": "The Verge AI",
@@ -891,6 +954,15 @@
     "author": "Charles Pulliam-Moore"
   },
   {
+    "title": "Does Google even want to win at AI?",
+    "url": "https://www.theverge.com/podcast/979370/google-deepmind-ai-race-lose-jeff-dean-demis-hassabis",
+    "source": "The Verge AI",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-08-13T14:10:31",
+    "author": "Nilay Patel"
+  },
+  {
     "title": "Ben's session #2",
     "url": "https://www.bensbites.com/p/bens-session-2",
     "source": "Ben's Bites",
@@ -945,22 +1017,13 @@
     "author": ""
   },
   {
-    "title": "中国驻菲律宾使馆发言人16问菲防长特奥多罗",
-    "url": "https://m.thepaper.cn/detail/33791735",
+    "title": "奥德赛、龙餐馆，是电影的解药吗？",
+    "url": "https://m.thepaper.cn/detail/33787986",
     "source": "澎湃新闻",
     "topic": "世界时事",
     "region": "cn",
-    "published": "2026-08-15T23:33:55",
-    "author": "“中国驻菲律宾大使馆”微信公号"
-  },
-  {
-    "title": "人民日报刊文纪念江泽民同志诞辰100周年：在中国特色社会主义道路上不断创造无愧于时代和人民的新业绩",
-    "url": "https://m.thepaper.cn/detail/33791729",
-    "source": "澎湃新闻",
-    "topic": "世界时事",
-    "region": "cn",
-    "published": "2026-08-15T23:19:55",
-    "author": "中共中央党史和文献研究院/人民日报"
+    "published": "2026-08-16T02:18:14",
+    "author": "定焦One"
   },
   {
     "title": "海航一航班备降俄罗斯 更换飞机后再飞曼彻斯特",
@@ -1149,7 +1212,7 @@
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-08-15T15:58:53",
-    "author": "randycupertino · 347 pts · 240 comments"
+    "author": "randycupertino · 362 pts · 251 comments"
   },
   {
     "title": "At-home test for infected ticks could improve Lyme Disease diagnosis",
@@ -1158,7 +1221,7 @@
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-08-15T14:04:49",
-    "author": "gmays · 210 pts · 77 comments"
+    "author": "gmays · 218 pts · 78 comments"
   },
   {
     "title": "RISC-V: They Should Have Known Better",
@@ -1167,7 +1230,7 @@
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-08-14T12:50:56",
-    "author": "dmitrygr · 230 pts · 297 comments"
+    "author": "dmitrygr · 240 pts · 307 comments"
   },
   {
     "title": "Auto-research with codex: How I achieved a 232x Faster Kernel",
@@ -1176,7 +1239,7 @@
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-08-15T11:00:02",
-    "author": "tosh · 393 pts · 86 comments"
+    "author": "tosh · 399 pts · 89 comments"
   },
   {
     "title": "AI has access to a vastly larger working memory than the human brain",
@@ -1185,7 +1248,7 @@
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-08-15T18:13:02",
-    "author": "rzk · 408 pts · 367 comments"
+    "author": "rzk · 424 pts · 373 comments"
   },
   {
     "title": "Working with AI feels more like leadership than coding",
@@ -1194,7 +1257,7 @@
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-08-15T10:39:41",
-    "author": "allenb · 266 pts · 171 comments"
+    "author": "allenb · 272 pts · 176 comments"
   },
   {
     "title": "siyuan-note/siyuan 发布 SiYuan v3.8.1-beta.3",
@@ -1213,5 +1276,158 @@
     "region": "intl",
     "published": "2026-08-15T23:52:35",
     "author": "next-js-bot[bot]"
+  },
+  {
+    "title": "Declining to Offer: Autonomy and Moral Responsibility in Surgical Decision-Making.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42603269/",
+    "source": "PubMed",
+    "topic": "心理学",
+    "region": "intl",
+    "published": "2026",
+    "author": "Julia Botvinov, Howard M Ross, Bryan C Pilkington"
+  },
+  {
+    "title": "Integrated multi-omics profiling of amniotic fluid identifies predictive biomarkers for fetal growth restriction trajectories.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42603261/",
+    "source": "PubMed",
+    "topic": "心理学",
+    "region": "intl",
+    "published": "2026",
+    "author": "Yan Cao, Wenjing Hao, Yan Wang, Chongchong Chai"
+  },
+  {
+    "title": "Supporting geriatric thinking and management: adaptation of the Geriatrics 5Ms to Danish healthcare context.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42603254/",
+    "source": "PubMed",
+    "topic": "心理学",
+    "region": "intl",
+    "published": "2026",
+    "author": "Lone Winther Lietzen, Rune Dall Jensen, Ryan Z Chippendale, Anna Skovsbo Vamdrup-Andersen"
+  },
+  {
+    "title": "Biomarkers in Irritable Bowel Syndrome: Bridging Gut-Brain Mechanisms to Precision Care.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42603224/",
+    "source": "PubMed",
+    "topic": "心理学",
+    "region": "intl",
+    "published": "2026",
+    "author": "Manjeet Kumar Goyal, Omesh Goyal, Rishi Chowdhary, Tanisha Sehgal"
+  },
+  {
+    "title": "Prenatal Exposure to Anxiolytics: A Critical Review on Brain Development and Neurobehavioral Manifestations in Offspring.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42603213/",
+    "source": "PubMed",
+    "topic": "心理学",
+    "region": "intl",
+    "published": "2026",
+    "author": "K P Singh, Anamika Dubey"
+  },
+  {
+    "title": "声擎×少数派｜「角落新声」征文活动获奖结果公布",
+    "url": "https://sspai.com/post/111709",
+    "source": "少数派",
+    "topic": "心理学",
+    "region": "cn",
+    "published": "2026-08-14T03:44:03",
+    "author": "少数派编辑部"
+  },
+  {
+    "title": "On the global feature importance for interpretable and trustworthy heat demand forecasting",
+    "url": "http://arxiv.org/abs/2608.13039v1",
+    "source": "arXiv",
+    "topic": "供应链",
+    "region": "intl",
+    "published": "2026-08-13T10:05:25",
+    "author": "Milan Zdravković"
+  },
+  {
+    "title": "Demand Transfer Estimation at Scale via Restricted Logit Modeling",
+    "url": "http://arxiv.org/abs/2608.12680v1",
+    "source": "arXiv",
+    "topic": "供应链",
+    "region": "intl",
+    "published": "2026-08-13T00:37:13",
+    "author": "Lakshya Garg, Deep Narayan Mishra, Swapnil Yadav, Haoan Wang, Sujal Alugubelli, Karthik Kumaran, Anupriya Sharma"
+  },
+  {
+    "title": "A Graph Neural Network--Guided Genetic Algorithm for Physical Internet Supply Chain Optimization under Cost Uncertainty",
+    "url": "http://arxiv.org/abs/2608.10245v1",
+    "source": "arXiv",
+    "topic": "供应链",
+    "region": "intl",
+    "published": "2026-08-10T21:26:59",
+    "author": "Faezeh Ardali, Gerald M. Knapp"
+  },
+  {
+    "title": "The Impact of Demand Forecasting on Delay and Jitter in DVB-Based Beam-Hopping LEO Networks",
+    "url": "http://arxiv.org/abs/2608.07901v1",
+    "source": "arXiv",
+    "topic": "供应链",
+    "region": "intl",
+    "published": "2026-08-08T03:58:39",
+    "author": "Yekta Demirci, Guillaume Mantelet, Stéphane Martel, Jean-François Frigon, Gunes Karabulut Kurt"
+  },
+  {
+    "title": "Implicit Differentiation for Measurement-Efficient Bilevel Quantum-Classical Optimization",
+    "url": "http://arxiv.org/abs/2608.07717v1",
+    "source": "arXiv",
+    "topic": "供应链",
+    "region": "intl",
+    "published": "2026-08-07T19:03:43",
+    "author": "Tobias Rohe, Markus Baumann, Federico Harjes Ruiloba, Maximilian Zorn, Jonas Stein, Claudia Linnhoff-Popien"
+  },
+  {
+    "title": "Variable-Horizon Workforce Demand Forecasting with an Aggregate Demand Constraint for Construction Workforce Planning",
+    "url": "http://arxiv.org/abs/2608.05551v1",
+    "source": "arXiv",
+    "topic": "供应链",
+    "region": "intl",
+    "published": "2026-08-06T03:07:00",
+    "author": "Hanbyeol Park, Jaehyeon Heo, Taekhyun Park, Minseong Kim, Hyerim Bae"
+  },
+  {
+    "title": "9.99 万元起，EV 版 9 分钟充到 97%，秦 MAX 正式上市",
+    "url": "https://www.ifanr.com/1675157?utm_source=rss&utm_medium=rss&utm_campaign=",
+    "source": "爱范儿",
+    "topic": "供应链",
+    "region": "cn",
+    "published": "2026-08-13T13:35:08",
+    "author": "陈世琛"
+  },
+  {
+    "title": "[AINews] Muse Glimmer and Spark: Open Weights return Personal Superintelligence promise",
+    "url": "https://www.latent.space/p/ainews-muse-glimmer-and-spark-open",
+    "source": "Latent Space",
+    "topic": "供应链",
+    "region": "intl",
+    "published": "2026-08-11T05:16:41",
+    "author": ""
+  },
+  {
+    "title": "[AINews] AMD buys Taalas",
+    "url": "https://www.latent.space/p/ainews-amd-buys-taalas",
+    "source": "Latent Space",
+    "topic": "供应链",
+    "region": "intl",
+    "published": "2026-08-07T05:13:46",
+    "author": ""
+  },
+  {
+    "title": "[AINews] Jeff, Sanjay, Oriol, and Quoc depart DeepMind; Demis to Chair; Koray to SVP — what is going on at GDM???",
+    "url": "https://www.latent.space/p/ainews-jeff-sanjay-oriol-and-quoc",
+    "source": "Latent Space",
+    "topic": "供应链",
+    "region": "intl",
+    "published": "2026-08-06T04:34:11",
+    "author": "Latent.Space"
+  },
+  {
+    "title": "The Inference Engineering Masterclass — Philip Kiely & Ali Taha, Baseten",
+    "url": "https://www.latent.space/p/inference-eng",
+    "source": "Latent Space",
+    "topic": "供应链",
+    "region": "intl",
+    "published": "2026-08-03T21:44:03",
+    "author": ""
   }
 ]
