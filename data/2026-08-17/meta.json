@@ -1,0 +1,44 @@
+{
+  "date": "2026-08-17",
+  "profile": "kizty",
+  "generated_at": "2026-08-17 01:35",
+  "stats": {
+    "topics_ran": [
+      "AI大事",
+      "世界时事",
+      "技术圈",
+      "GitHub 动态"
+    ],
+    "total_selected": 23,
+    "total_fetched": 141
+  },
+  "top3": [
+    {
+      "topic": "世界时事",
+      "title": "美国施压苹果弃用中国存储芯片",
+      "tldr": "美国商务部长公开施压苹果，要求别用中国长鑫和长江存储的芯片，但苹果因为AI导致全球存储涨价缺货，已经在测试中国芯片，两边正在较劲。",
+      "score": 9,
+      "url": "https://www.guancha.cn/internation/2026_08_16_827499_s.shtml",
+      "source": "观察者网",
+      "source_count": 1
+    },
+    {
+      "topic": "AI大事",
+      "title": "Grok 4.6 发布，SpaceX 团队打造最强效率模型",
+      "tldr": "xAI 发布 Grok 4.6，性能对标 GPT-5.6 和 Claude，但价格便宜一大截，主打长任务代理和知识工作场景，被圈内人称为新的默认编程模型。",
+      "score": 9,
+      "url": "https://www.latent.space/p/ainews-spacexai-grok-46-and-grok",
+      "source": "Latent Space",
+      "source_count": 1
+    },
+    {
+      "topic": "AI大事",
+      "title": "DeepSeek + Pi 王炸组合跑赢 Claude Code？Pi创始人：这套组合我早押中了",
+      "tldr": "DeepSeek 的编程模型搭配 Pi 这个开源工具，组合起来在真实编码任务上表现超过 Claude Code，Pi 创始人说自己早就押中了这个方向。",
+      "score": 9,
+      "url": "https://www.infoq.cn/article/XpFUaftcEE3iLgGzYGZi?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "source_count": 1
+    }
+  ]
+}
