@@ -1,7 +1,7 @@
 {
   "date": "2026-08-17",
   "profile": "kizty",
-  "generated_at": "2026-08-17 01:35",
+  "generated_at": "2026-08-17 02:41",
   "stats": {
     "topics_ran": [
       "AI大事",
@@ -9,35 +9,35 @@
       "技术圈",
       "GitHub 动态"
     ],
-    "total_selected": 23,
-    "total_fetched": 141
+    "total_selected": 27,
+    "total_fetched": 157
   },
   "top3": [
     {
-      "topic": "世界时事",
-      "title": "美国施压苹果弃用中国存储芯片",
-      "tldr": "美国商务部长公开施压苹果，要求别用中国长鑫和长江存储的芯片，但苹果因为AI导致全球存储涨价缺货，已经在测试中国芯片，两边正在较劲。",
-      "score": 9,
-      "url": "https://www.guancha.cn/internation/2026_08_16_827499_s.shtml",
-      "source": "观察者网",
-      "source_count": 1
-    },
-    {
       "topic": "AI大事",
-      "title": "Grok 4.6 发布，SpaceX 团队打造最强效率模型",
-      "tldr": "xAI 发布 Grok 4.6，性能对标 GPT-5.6 和 Claude，但价格便宜一大截，主打长任务代理和知识工作场景，被圈内人称为新的默认编程模型。",
+      "title": "编程能力提高50%！GLM-5.3 满分通过 GPT-5.6 测试",
+      "tldr": "智谱的 GLM-5.3 在 GPT-5.6 自己出的编程测试里拿了满分，编程能力比上一代提升一半，这是国产大模型在代码能力上的一次正面硬刚。",
       "score": 9,
-      "url": "https://www.latent.space/p/ainews-spacexai-grok-46-and-grok",
-      "source": "Latent Space",
-      "source_count": 1
-    },
-    {
-      "topic": "AI大事",
-      "title": "DeepSeek + Pi 王炸组合跑赢 Claude Code？Pi创始人：这套组合我早押中了",
-      "tldr": "DeepSeek 的编程模型搭配 Pi 这个开源工具，组合起来在真实编码任务上表现超过 Claude Code，Pi 创始人说自己早就押中了这个方向。",
-      "score": 9,
-      "url": "https://www.infoq.cn/article/XpFUaftcEE3iLgGzYGZi?utm_source=rss&utm_medium=article",
+      "url": "https://www.infoq.cn/article/xWyWwu4ZNptlhpb15tia?utm_source=rss&utm_medium=article",
       "source": "InfoQ 中文",
+      "source_count": 2
+    },
+    {
+      "topic": "技术圈",
+      "title": "Claude 官方公开系统提示词",
+      "tldr": "Anthropic 首次公开了 Claude 各版本的系统提示词全文，Simon Willison 还做了 Git 历史对比，能清楚看到 Opus 4.8 到 Opus 5 之间模型行为指令的演变。",
+      "score": 9,
+      "url": "https://platform.claude.com/docs/en/release-notes/system-prompts",
+      "source": "HackerNews",
+      "source_count": 1
+    },
+    {
+      "topic": "技术圈",
+      "title": "Stripe 超 70 亿美元收购 AI 公司 OpenRouter",
+      "tldr": "Stripe 花 70 多亿美金买下 AI 模型路由平台 OpenRouter，从支付巨头跨界做 LLM 的中间层，相当于把 AI 调用也变成像刷卡一样的标准化服务。",
+      "score": 8,
+      "url": "https://www.bloomberg.com/news/articles/2026-08-16/stripe-nears-deal-to-buy-ai-firm-openrouter-for-over-7-billion",
+      "source": "HackerNews",
       "source_count": 1
     }
   ]
