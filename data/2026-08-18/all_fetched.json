@@ -1,12 +1,84 @@
 [
   {
+    "title": "Don't Drop the BATON: Long-Horizon Robot Manipulation via Agentic Subtask Exploration and Transition-aware Memory",
+    "url": "http://arxiv.org/abs/2608.16889v1",
+    "source": "arXiv",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-08-17T17:59:57",
+    "author": "Bingxin Xu, Yuzhang Shang, Emilio Ferrara"
+  },
+  {
+    "title": "Evaluating Beyond the Screen: Collective Assessment of AI-Generated Business Plans with Resource-Constrained Entrepreneurs",
+    "url": "http://arxiv.org/abs/2608.16886v1",
+    "source": "arXiv",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-08-17T17:59:16",
+    "author": "Qi Zhao, Marjory Pineda, Ketul Chhaya, Aakash Gautam, Yasmine Kotturi"
+  },
+  {
+    "title": "HarnessEval-W: Agentifying the Evaluation of Visual Worlds",
+    "url": "http://arxiv.org/abs/2608.16859v1",
+    "source": "arXiv",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-08-17T17:43:24",
+    "author": "Weiliang Chen, Haowen Sun, Jun Gao, Jiawei Chi, Hanyang Wang, Qiyu Dai, Yihao Li, Hao Li, Jingnan Gao, Yi-Hsin Hung, Xingzhuo Guo, Shangchen Miao, Zhiyuan Shi, Xiang Li, Fengrui Tian, Weihua Du, Ziqi"
+  },
+  {
+    "title": "Policy Iteration with Human Feedback: Bringing Post-Training RL to In-context Learning",
+    "url": "http://arxiv.org/abs/2608.16831v1",
+    "source": "arXiv",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-08-17T17:16:43",
+    "author": "Minh-Ha Nguyen, Cathy Shyr"
+  },
+  {
+    "title": "When State Becomes an Attack Surface: State-Semantic Injection in LLM-Driven Embodied Agents",
+    "url": "http://arxiv.org/abs/2608.16806v1",
+    "source": "arXiv",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-08-17T17:02:07",
+    "author": "Jiawei Liu, Jiacheng Guo, Tian Zhang, Yiwei Xu, Juan Wang, Jinlin Fan, Bowen Xiao, Chi Guo, Keyan Guo, Hongxin Hu"
+  },
+  {
+    "title": "ClawGym II: Exploring Black-Box RL on Agent Harness",
+    "url": "http://arxiv.org/abs/2608.16798v1",
+    "source": "arXiv",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-08-17T16:53:03",
+    "author": "Huatong Song, Fei Bai, Ming Yang, Renyuan Li, Jia Deng, Jujie He, Zhange Zhang, Daixuan Cheng, Yan Xing, Qi Yun, Xuxing Chen, Danyang Li, Feng Chang, Chuan Hao, Ran Tao, Jian Yang, Bryan Dai, Wayne Xi"
+  },
+  {
+    "title": "Historical Backtesting for Scientific Question Discovery: A Protocol and Astronomy Pilot",
+    "url": "http://arxiv.org/abs/2608.16795v1",
+    "source": "arXiv",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-08-17T16:51:06",
+    "author": "Hui Mao"
+  },
+  {
+    "title": "\"This Is So Claude!\" Towards a Theory of the Recognition of AI Character Without Reidentification",
+    "url": "http://arxiv.org/abs/2608.16789v1",
+    "source": "arXiv",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-08-17T16:44:57",
+    "author": "Michele Loi"
+  },
+  {
     "title": "How Bluesky draws its logo on screenshots",
     "url": "https://timmarinin.net/2026/bluesky-screenshots/",
     "source": "HackerNews",
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-08-17T22:20:40",
-    "author": "gavide · 205 pts · 151 comments"
+    "author": "gavide · 247 pts · 181 comments"
   },
   {
     "title": "A Preview of DuckDB v2.0",
@@ -15,7 +87,7 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-08-17T13:46:27",
-    "author": "ibotty · 531 pts · 95 comments"
+    "author": "ibotty · 552 pts · 98 comments"
   },
   {
     "title": "AI-Generated GitHub Copilot “Autofix” Allowed Compromise of Snowflake's Jira",
@@ -24,16 +96,7 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-08-17T14:18:38",
-    "author": "galnagli · 315 pts · 125 comments"
-  },
-  {
-    "title": "GPT 5.6 Sol is the best \"vision\" model OpenAI ever released",
-    "url": "https://blog.roboflow.com/openai-gpt-5-6/",
-    "source": "HackerNews",
-    "topic": "AI大事",
-    "region": "intl",
-    "published": "2026-08-17T12:09:42",
-    "author": "plurby · 300 pts · 152 comments"
+    "author": "galnagli · 319 pts · 126 comments"
   },
   {
     "title": "AI;DR (AI; Didn't Read)",
@@ -42,7 +105,16 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-08-17T19:47:15",
-    "author": "mooreds · 578 pts · 365 comments"
+    "author": "mooreds · 621 pts · 389 comments"
+  },
+  {
+    "title": "GPT 5.6 Sol is the best \"vision\" model OpenAI ever released",
+    "url": "https://blog.roboflow.com/openai-gpt-5-6/",
+    "source": "HackerNews",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-08-17T12:09:42",
+    "author": "plurby · 305 pts · 154 comments"
   },
   {
     "title": "How to disable or avoid intrusive AI",
@@ -51,7 +123,7 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-08-17T14:07:56",
-    "author": "ColinWright · 252 pts · 155 comments"
+    "author": "ColinWright · 260 pts · 158 comments"
   },
   {
     "title": "Ask HN: Alternatives to GitHub",
@@ -60,16 +132,16 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-08-17T13:59:17",
-    "author": "dhruv3006 · 491 pts · 315 comments"
+    "author": "dhruv3006 · 501 pts · 321 comments"
   },
   {
-    "title": "Qwen3.8 27B scores 52 on Artificial Analysis",
-    "url": "https://artificialanalysis.ai/models/qwen3-8-27b",
-    "source": "HackerNews",
+    "title": "Agentic AI 在普惠健康险的创新与实践｜AICon深圳",
+    "url": "https://www.infoq.cn/article/3MxCwCyMpwcWjpvKJ7u4?utm_source=rss&utm_medium=article",
+    "source": "InfoQ 中文",
     "topic": "AI大事",
-    "region": "intl",
-    "published": "2026-08-17T17:25:17",
-    "author": "anana_ · 305 pts · 134 comments"
+    "region": "cn",
+    "published": "2026-08-18T10:00:00",
+    "author": "AICon 全球人工智能开发与应用大会"
   },
   {
     "title": "当 AI 遇见 FinOps：Snowflake 如何为 AI 时代重新定义成本管理 | 技术趋势",
@@ -151,15 +223,6 @@
     "region": "cn",
     "published": "2026-08-17T09:46:59",
     "author": "傅宇琪,褚杏娟"
-  },
-  {
-    "title": "编程能力提高50%！GLM-5.3 满分通过了GPT-5.6给的Coding 测试",
-    "url": "https://www.infoq.cn/article/xWyWwu4ZNptlhpb15tia?utm_source=rss&utm_medium=article",
-    "source": "InfoQ 中文",
-    "topic": "AI大事",
-    "region": "cn",
-    "published": "2026-08-17T09:44:16",
-    "author": "褚杏娟"
   },
   {
     "title": "菲尔兹奖得主：AI现在主要靠「抬杠」突破重大数学猜想",
@@ -450,6 +513,15 @@
     "author": "阮一峰"
   },
   {
+    "title": "87 岁富豪花 2.7 亿元买下法拉利，史上最贵电车诞生！",
+    "url": "https://www.ifanr.com/1675437?utm_source=rss&utm_medium=rss&utm_campaign=",
+    "source": "爱范儿",
+    "topic": "AI大事",
+    "region": "cn",
+    "published": "2026-08-18T01:39:56",
+    "author": "李华"
+  },
+  {
     "title": "早报｜宇树「超人」原地跳高2米/小米SU7系列交付突破50万台/豆包支持手机远程操作电脑",
     "url": "https://www.ifanr.com/1675451?utm_source=rss&utm_medium=rss&utm_campaign=",
     "source": "爱范儿",
@@ -529,15 +601,6 @@
     "region": "cn",
     "published": "2026-08-15T00:40:29",
     "author": "郑廷旭"
-  },
-  {
-    "title": "23.98 万元起，大五座魏牌 V8X 上市，并非 V9X 的减法",
-    "url": "https://www.ifanr.com/1675246?utm_source=rss&utm_medium=rss&utm_campaign=",
-    "source": "爱范儿",
-    "topic": "AI大事",
-    "region": "cn",
-    "published": "2026-08-14T13:55:07",
-    "author": "陈世琛"
   },
   {
     "title": "[AINews] Stripe buys OpenRouter for $7B",
@@ -954,6 +1017,15 @@
     "author": ""
   },
   {
+    "title": "组织他人非法销售管制兴奋剂类物质，夏某某等人非法经营案一审宣判",
+    "url": "https://m.thepaper.cn/detail/33803769",
+    "source": "澎湃新闻",
+    "topic": "世界时事",
+    "region": "cn",
+    "published": "2026-08-18T02:02:20",
+    "author": "央视新闻"
+  },
+  {
     "title": "首席展望｜中欧基金任飞：当技术没有停滞时，AI驱动的制造业周期谈不上过剩",
     "url": "https://m.thepaper.cn/detail/33798908",
     "source": "澎湃新闻",
@@ -972,12 +1044,39 @@
     "author": "谢希瑶、王聿昊/新华社客户端、商务部网站"
   },
   {
+    "title": "“供强需弱”的深层逻辑",
+    "url": "https://opinion.caixin.com/2026-08-18/102475237.html",
+    "source": "财新网",
+    "topic": "世界时事",
+    "region": "cn",
+    "published": "2026-08-18T02:13:15",
+    "author": ""
+  },
+  {
+    "title": "今日开盘：小幅低开 沪指跌幅0.08%",
+    "url": "https://finance.caixin.com/2026-08-18/102475225.html",
+    "source": "财新网",
+    "topic": "世界时事",
+    "region": "cn",
+    "published": "2026-08-18T01:29:53",
+    "author": ""
+  },
+  {
     "title": "财政亟需加大宽松力度",
     "url": "https://opinion.caixin.com/2026-08-18/102475213.html",
     "source": "财新网",
     "topic": "世界时事",
     "region": "cn",
     "published": "2026-08-18T00:39:05",
+    "author": ""
+  },
+  {
+    "title": "【交易簿】阿里出售游戏业务 互联网大厂整合资源聚焦AI",
+    "url": "https://database.caixin.com/2026-08-18/102475208.html",
+    "source": "财新网",
+    "topic": "世界时事",
+    "region": "cn",
+    "published": "2026-08-18T00:34:01",
     "author": ""
   },
   {
@@ -999,16 +1098,7 @@
     "author": ""
   },
   {
-    "title": "特朗普突释对朝鲜善意 要求大幅缩减韩美军演规模",
-    "url": "https://international.caixin.com/2026-08-17/102475156.html",
-    "source": "财新网",
-    "topic": "世界时事",
-    "region": "cn",
-    "published": "2026-08-17T14:25:50",
-    "author": ""
-  },
-  {
-    "title": "“大限”已至，美伊各放狠话",
+    "title": "特朗普威胁“炸掉”阿曼，伊朗警告对美“全面进攻”",
     "url": "https://www.guancha.cn/internation/2026_08_18_827660_s.shtml",
     "source": "观察者网",
     "topic": "世界时事",
@@ -1022,8 +1112,8 @@
     "source": "观察者网",
     "topic": "世界时事",
     "region": "cn",
-    "published": "2026-08-17T14:28:27",
-    "author": ""
+    "published": "2026-08-17T14:28:29",
+    "author": "张雅琦"
   },
   {
     "title": "60天“大限”已至，“伊朗想让美国付出更大代价”",
@@ -1031,8 +1121,8 @@
     "source": "观察者网",
     "topic": "世界时事",
     "region": "cn",
-    "published": "2026-08-17T10:00:48",
-    "author": "芮瑞"
+    "published": "2026-08-17T10:00:46",
+    "author": ""
   },
   {
     "title": "澳前总理给现任支招：对华关系，别先看美国脸色",
@@ -1158,7 +1248,7 @@
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-08-17T22:20:40",
-    "author": "gavide · 206 pts · 152 comments"
+    "author": "gavide · 247 pts · 183 comments"
   },
   {
     "title": "A Preview of DuckDB v2.0",
@@ -1167,7 +1257,7 @@
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-08-17T13:46:27",
-    "author": "ibotty · 532 pts · 95 comments"
+    "author": "ibotty · 552 pts · 98 comments"
   },
   {
     "title": "AI-Generated GitHub Copilot “Autofix” Allowed Compromise of Snowflake's Jira",
@@ -1176,16 +1266,7 @@
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-08-17T14:18:38",
-    "author": "galnagli · 316 pts · 125 comments"
-  },
-  {
-    "title": "GPT 5.6 Sol is the best \"vision\" model OpenAI ever released",
-    "url": "https://blog.roboflow.com/openai-gpt-5-6/",
-    "source": "HackerNews",
-    "topic": "技术圈",
-    "region": "intl",
-    "published": "2026-08-17T12:09:42",
-    "author": "plurby · 300 pts · 152 comments"
+    "author": "galnagli · 319 pts · 126 comments"
   },
   {
     "title": "AI;DR (AI; Didn't Read)",
@@ -1194,7 +1275,16 @@
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-08-17T19:47:15",
-    "author": "mooreds · 581 pts · 366 comments"
+    "author": "mooreds · 623 pts · 389 comments"
+  },
+  {
+    "title": "GPT 5.6 Sol is the best \"vision\" model OpenAI ever released",
+    "url": "https://blog.roboflow.com/openai-gpt-5-6/",
+    "source": "HackerNews",
+    "topic": "技术圈",
+    "region": "intl",
+    "published": "2026-08-17T12:09:42",
+    "author": "plurby · 305 pts · 154 comments"
   },
   {
     "title": "How to disable or avoid intrusive AI",
@@ -1203,7 +1293,7 @@
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-08-17T14:07:56",
-    "author": "ColinWright · 252 pts · 155 comments"
+    "author": "ColinWright · 260 pts · 158 comments"
   },
   {
     "title": "Ask HN: Alternatives to GitHub",
@@ -1212,16 +1302,7 @@
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-08-17T13:59:17",
-    "author": "dhruv3006 · 492 pts · 315 comments"
-  },
-  {
-    "title": "Qwen3.8 27B scores 52 on Artificial Analysis",
-    "url": "https://artificialanalysis.ai/models/qwen3-8-27b",
-    "source": "HackerNews",
-    "topic": "技术圈",
-    "region": "intl",
-    "published": "2026-08-17T17:25:17",
-    "author": "anana_ · 305 pts · 134 comments"
+    "author": "dhruv3006 · 501 pts · 321 comments"
   },
   {
     "title": "openai/openai-python 发布 v3.2.0",
@@ -1231,6 +1312,15 @@
     "region": "intl",
     "published": "2026-08-17T19:13:27",
     "author": "openai-sdks[bot]"
+  },
+  {
+    "title": "langchain-ai/langchain 发布 langchain-openai==1.5.2a1",
+    "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.5.2a1",
+    "source": "GitHubRelease",
+    "topic": "GitHub 动态",
+    "region": "intl",
+    "published": "2026-08-18T01:51:38",
+    "author": "github-actions[bot]"
   },
   {
     "title": "langchain-ai/langchain 发布 langchain-core==1.5.6",
@@ -1314,6 +1404,60 @@
     "author": "Emelia J Benjamin, Gregory M Marcus, Paul L Hess"
   },
   {
+    "title": "ReasonCast: Agentic Demand Forecasting with Selective Semantic Reasoning",
+    "url": "http://arxiv.org/abs/2608.15291v1",
+    "source": "arXiv",
+    "topic": "供应链",
+    "region": "intl",
+    "published": "2026-08-15T15:46:46",
+    "author": "Ziyue Yang, Chaolin Xu, Yijing Wang, Tiankai Gu, Hui Yang, Yanhong Lin, Kaiyuan Liu, Fei Xiao"
+  },
+  {
+    "title": "On the global feature importance for interpretable and trustworthy heat demand forecasting",
+    "url": "http://arxiv.org/abs/2608.13039v1",
+    "source": "arXiv",
+    "topic": "供应链",
+    "region": "intl",
+    "published": "2026-08-13T10:05:25",
+    "author": "Milan Zdravković"
+  },
+  {
+    "title": "Demand Transfer Estimation at Scale via Restricted Logit Modeling",
+    "url": "http://arxiv.org/abs/2608.12680v1",
+    "source": "arXiv",
+    "topic": "供应链",
+    "region": "intl",
+    "published": "2026-08-13T00:37:13",
+    "author": "Lakshya Garg, Deep Narayan Mishra, Swapnil Yadav, Haoan Wang, Sujal Alugubelli, Karthik Kumaran, Anupriya Sharma"
+  },
+  {
+    "title": "A Graph Neural Network--Guided Genetic Algorithm for Physical Internet Supply Chain Optimization under Cost Uncertainty",
+    "url": "http://arxiv.org/abs/2608.10245v1",
+    "source": "arXiv",
+    "topic": "供应链",
+    "region": "intl",
+    "published": "2026-08-10T21:26:59",
+    "author": "Faezeh Ardali, Gerald M. Knapp"
+  },
+  {
+    "title": "The Impact of Demand Forecasting on Delay and Jitter in DVB-Based Beam-Hopping LEO Networks",
+    "url": "http://arxiv.org/abs/2608.07901v1",
+    "source": "arXiv",
+    "topic": "供应链",
+    "region": "intl",
+    "published": "2026-08-08T03:58:39",
+    "author": "Yekta Demirci, Guillaume Mantelet, Stéphane Martel, Jean-François Frigon, Gunes Karabulut Kurt"
+  },
+  {
+    "title": "Implicit Differentiation for Measurement-Efficient Bilevel Quantum-Classical Optimization",
+    "url": "http://arxiv.org/abs/2608.07717v1",
+    "source": "arXiv",
+    "topic": "供应链",
+    "region": "intl",
+    "published": "2026-08-07T19:03:43",
+    "author": "Tobias Rohe, Markus Baumann, Federico Harjes Ruiloba, Maximilian Zorn, Jonas Stein, Claudia Linnhoff-Popien"
+  },
+  {
     "title": "欧洲创纪录热浪杀死了 2.5 万人",
     "url": "https://www.solidot.org/story?sid=85107",
     "source": "Solidot",
@@ -1321,6 +1465,15 @@
     "region": "intl",
     "published": "2026-08-16T15:52:05",
     "author": ""
+  },
+  {
+    "title": "34.99 万元起，神行者 8 要证明自己不是一台「新能源路虎」",
+    "url": "https://www.ifanr.com/1675258?utm_source=rss&utm_medium=rss&utm_campaign=",
+    "source": "爱范儿",
+    "topic": "供应链",
+    "region": "cn",
+    "published": "2026-08-14T16:00:55",
+    "author": "李华"
   },
   {
     "title": "9.99 万元起，EV 版 9 分钟充到 97%，秦 MAX 正式上市",
