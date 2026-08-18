@@ -1,0 +1,45 @@
+{
+  "date": "2026-08-18",
+  "profile": "kizty",
+  "generated_at": "2026-08-18 01:36",
+  "stats": {
+    "topics_ran": [
+      "AI大事",
+      "世界时事",
+      "技术圈",
+      "GitHub 动态",
+      "供应链"
+    ],
+    "total_selected": 33,
+    "total_fetched": 152
+  },
+  "top3": [
+    {
+      "topic": "AI大事",
+      "title": "阿里 Qwen 半年下载量破 30 亿",
+      "tldr": "Hugging Face 报告显示阿里 Qwen 模型半年下载 30 亿次全球第一，远超谷歌和 Meta，且中国开源模型在参数规模、许可证开放度上全面压制美国。",
+      "score": 9,
+      "url": "https://www.solidot.org/story?sid=85118",
+      "source": "Solidot",
+      "source_count": 1
+    },
+    {
+      "topic": "AI大事",
+      "title": "Qwen 3.8 27B 在 AI 智能指数拿下 52 分",
+      "tldr": "阿里开源的小模型 Qwen 3.8 27B，在第三方评测里拿到了和 GPT-5.6 一样的分数，比两个超大模型只差一分，说明小模型性能已经逼近顶级大模型。",
+      "score": 9,
+      "url": "https://simonwillison.net/2026/Aug/17/qwen-38-27b-scores-52/",
+      "source": "Simon Willison",
+      "source_count": 2
+    },
+    {
+      "topic": "供应链",
+      "title": "推理工程大师课：Baseten 实战解析",
+      "tldr": "Baseten 两位专家讲推理工程，核心是把训练好的模型变成又快又便宜的生产级 API。聊了量化、缓存路由、投机解码等优化手段，能让模型提速 20% 到 200%，还讲了如何把不同模型的组件拼在一起用。",
+      "score": 9,
+      "url": "https://www.latent.space/p/inference-eng",
+      "source": "Latent Space",
+      "source_count": 1
+    }
+  ]
+}
