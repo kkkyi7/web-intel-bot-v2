@@ -1,0 +1,46 @@
+{
+  "date": "2026-08-19",
+  "profile": "kizty",
+  "generated_at": "2026-08-19 01:37",
+  "stats": {
+    "topics_ran": [
+      "AI大事",
+      "世界时事",
+      "技术圈",
+      "GitHub 动态",
+      "心理学",
+      "供应链"
+    ],
+    "total_selected": 38,
+    "total_fetched": 170
+  },
+  "top3": [
+    {
+      "topic": "AI大事",
+      "title": "Qwen 3.8 27B 跑出 52 分，追平 GPT-5.6",
+      "tldr": "阿里开源的小模型 Qwen 3.8 27B 在第三方评测里拿了 52 分，跟 GPT-5.6 最高配置打平，只比两个超大模型低一分，说明小模型能力已经逼近顶级大模型。",
+      "score": 9,
+      "url": "https://simonwillison.net/2026/Aug/17/qwen-38-27b-scores-52/",
+      "source": "Simon Willison",
+      "source_count": 1
+    },
+    {
+      "topic": "供应链",
+      "title": "AMD 收购 Taalas，定制芯片成 AI 军备赛新焦点",
+      "tldr": "AMD 收购了 AI 芯片初创公司 Taalas，押注定制 ASIC 芯片路线。同时 Meta 的 Muse Spark 模型靠性价比和推理能力冲进第一梯队，OpenAI 则合并模型并大幅放开免费额度。",
+      "score": 8,
+      "url": "https://www.latent.space/p/ainews-amd-buys-taalas",
+      "source": "Latent Space",
+      "source_count": 1
+    },
+    {
+      "topic": "技术圈",
+      "title": "Cursor 发布 Origin，对标 GitHub",
+      "tldr": "Cursor 推出代码托管平台 Origin，直接对标 GitHub。评论区吵翻了，主要担心它被马斯克收购后数据喂给 Grok，也有人质疑这名字会让 AI 混淆指令。",
+      "score": 9,
+      "url": "https://cursor.com/changelog/origin-code-hosting",
+      "source": "HackerNews",
+      "source_count": 1
+    }
+  ]
+}
