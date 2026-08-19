@@ -1,12 +1,84 @@
 [
   {
+    "title": "Multi-Agent AI System for Radiology Report Structuring and Quality Assurance with Independent Radiologist Evaluation",
+    "url": "http://arxiv.org/abs/2608.18072v1",
+    "source": "arXiv",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-08-18T17:57:08",
+    "author": "Iryna Hartsock, Cesar Lam, Christopher Otteni, Aliya Qayyum, Robert Gatenby, Cyrillo Araujo, Ghulam Rasool"
+  },
+  {
+    "title": "Delegation Asymmetry in Agentic Recommender Systems: Measuring Two-Sided Receptivity in Online Dating",
+    "url": "http://arxiv.org/abs/2608.18058v1",
+    "source": "arXiv",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-08-18T17:51:16",
+    "author": "Daria Leshchikova, Valentina V. Kuskova, Dmitry Zaytsev, Valerii Klimov"
+  },
+  {
+    "title": "Counterexamples to Sato's Weak F-Equivalence Conjecture and a Gorenstein Refinement",
+    "url": "http://arxiv.org/abs/2608.18054v1",
+    "source": "arXiv",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-08-18T17:47:28",
+    "author": "Avik Chakravarty, Daeboem Choi, Shengjing Xu"
+  },
+  {
+    "title": "Where A Small Language Model Helps in Invoice Categorisation, Understood Through Embedding Geometry",
+    "url": "http://arxiv.org/abs/2608.18033v1",
+    "source": "arXiv",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-08-18T17:28:01",
+    "author": "Emma Ceccherini, Daniel Lawson, Anjulika Salhan"
+  },
+  {
+    "title": "Chain-of-Experience for Continual LLM Improvement",
+    "url": "http://arxiv.org/abs/2608.18027v1",
+    "source": "arXiv",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-08-18T17:22:54",
+    "author": "Haoqin Tu, Yunhao Fang, Yizhong Wang, Cihang Xie, Shen Yan"
+  },
+  {
+    "title": "An equidistribution conjecture for quotient-closed and submodule-closed subcategories",
+    "url": "http://arxiv.org/abs/2608.18024v1",
+    "source": "arXiv",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-08-18T17:19:04",
+    "author": "Haruhisa Enomoto"
+  },
+  {
+    "title": "Can Large Language Models Explain Flight Safety Events? A Prior-Guided Semantic LLM-based Approach",
+    "url": "http://arxiv.org/abs/2608.18017v1",
+    "source": "arXiv",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-08-18T17:11:40",
+    "author": "Lu Xu, Xu Li, Linjiang Zheng, Fan Li, Riquan Zhang, Jiaxing Shang"
+  },
+  {
+    "title": "The IOL-AI Challenge: An Open Challenge towards Advancing Linguistic Reasoning",
+    "url": "http://arxiv.org/abs/2608.18011v1",
+    "source": "arXiv",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-08-18T17:00:43",
+    "author": "Eduardo Sánchez, Rita Berrada, Dan-Mircea Mirea, Sara Rajaee, Alexander Piperski, Ana Meta Dolinar, Boris Iomdin, Andrey Nikulin, Mariya Shmatova, Marzieh Fadaee, Julia Kreutzer"
+  },
+  {
     "title": "The Amazon tax",
     "url": "https://seths.blog/2026/08/the-amazon-tax/",
     "source": "HackerNews",
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-08-18T13:22:38",
-    "author": "herbertl · 927 pts · 537 comments"
+    "author": "herbertl · 960 pts · 552 comments"
   },
   {
     "title": "How does IKEA come up with names for its products?",
@@ -15,7 +87,7 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-08-18T18:11:53",
-    "author": "NaOH · 222 pts · 140 comments"
+    "author": "NaOH · 241 pts · 145 comments"
   },
   {
     "title": "Turbovec – Google's TurboQuant for vector search in Rust",
@@ -24,7 +96,7 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-08-18T18:07:21",
-    "author": "fittingopposite · 202 pts · 27 comments"
+    "author": "fittingopposite · 212 pts · 28 comments"
   },
   {
     "title": "Using the railway network as a flatbed scanner",
@@ -33,7 +105,7 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-08-18T12:43:54",
-    "author": "otherayden · 399 pts · 64 comments"
+    "author": "otherayden · 410 pts · 66 comments"
   },
   {
     "title": "Cursor launches Origin, GitHub alternative",
@@ -42,16 +114,7 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-08-17T17:02:44",
-    "author": "tomasreimers · 462 pts · 361 comments"
-  },
-  {
-    "title": "Beware Management Consultants",
-    "url": "https://about.iceland.co.uk/our-story/the-dark-ages/beware-management-consultants/",
-    "source": "HackerNews",
-    "topic": "AI大事",
-    "region": "intl",
-    "published": "2026-08-18T19:29:51",
-    "author": "KolmogorovComp · 437 pts · 122 comments"
+    "author": "tomasreimers · 483 pts · 378 comments"
   },
   {
     "title": "Fixing a bricked Framework laptop",
@@ -60,7 +123,7 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-08-18T13:18:40",
-    "author": "jp_sc · 355 pts · 242 comments"
+    "author": "jp_sc · 362 pts · 254 comments"
   },
   {
     "title": "Memory prices climb 500% in 12 months",
@@ -69,7 +132,16 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-08-17T17:52:37",
-    "author": "haunter · 480 pts · 386 comments"
+    "author": "haunter · 503 pts · 403 comments"
+  },
+  {
+    "title": "Beware Management Consultants",
+    "url": "https://about.iceland.co.uk/our-story/the-dark-ages/beware-management-consultants/",
+    "source": "HackerNews",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-08-18T19:29:51",
+    "author": "KolmogorovComp · 450 pts · 123 comments"
   },
   {
     "title": "Universal health coverage could save $1T and 114k lives a year: study",
@@ -78,25 +150,16 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-08-17T15:49:57",
-    "author": "karakoram · 707 pts · 792 comments"
+    "author": "karakoram · 735 pts · 805 comments"
   },
   {
-    "title": "Norway should buy OpenAI",
-    "url": "https://www.onethousandmeans.com/p/norway-should-buy-openai",
-    "source": "HackerNews",
+    "title": "让 Agent 真正驱动销售增长——FDE 模式下的业务流重构实战｜AICon深圳",
+    "url": "https://www.infoq.cn/article/vrlSsJUrdpfGqsj3CTZK?utm_source=rss&utm_medium=article",
+    "source": "InfoQ 中文",
     "topic": "AI大事",
-    "region": "intl",
-    "published": "2026-08-18T19:30:29",
-    "author": "alexeigannon · 206 pts · 226 comments"
-  },
-  {
-    "title": "Claude Code May–August 2026 weekly limits promotion",
-    "url": "https://support.claude.com/en/articles/15910845-claude-code-may-august-2026-weekly-limits-promotion",
-    "source": "HackerNews",
-    "topic": "AI大事",
-    "region": "intl",
-    "published": "2026-08-18T17:02:15",
-    "author": "tyre · 256 pts · 226 comments"
+    "region": "cn",
+    "published": "2026-08-19T10:00:00",
+    "author": "AICon 全球人工智能开发与应用大会"
   },
   {
     "title": "Snowflake CoCo AI 成本优化指南：7 个关键方法 | 技术实践",
@@ -180,15 +243,6 @@
     "author": "AICon 全球人工智能开发与应用大会"
   },
   {
-    "title": "当 AI 遇见 FinOps：Snowflake 如何为 AI 时代重新定义成本管理 | 技术趋势",
-    "url": "https://www.infoq.cn/article/0MLCGOPXzzILTxB8CORk?utm_source=rss&utm_medium=article",
-    "source": "InfoQ 中文",
-    "topic": "AI大事",
-    "region": "cn",
-    "published": "2026-08-17T18:47:40",
-    "author": "Christine Avanessians"
-  },
-  {
     "title": "网易传媒发布”蜜蜂AI” ：从工具到伙伴，让AI更懂人",
     "url": "https://www.qbitai.com/2026/08/474857.html",
     "source": "量子位",
@@ -234,17 +288,8 @@
     "author": ""
   },
   {
-    "title": "usestrix/strix",
-    "url": "https://github.com/usestrix/strix",
-    "source": "GitHub Trending",
-    "topic": "AI大事",
-    "region": "intl",
-    "published": "",
-    "author": ""
-  },
-  {
-    "title": "nautechsystems/nautilus_trader",
-    "url": "https://github.com/nautechsystems/nautilus_trader",
+    "title": "chaitanyagiri/munder-difflin",
+    "url": "https://github.com/chaitanyagiri/munder-difflin",
     "source": "GitHub Trending",
     "topic": "AI大事",
     "region": "intl",
@@ -261,6 +306,15 @@
     "author": ""
   },
   {
+    "title": "volcengine/OpenViking",
+    "url": "https://github.com/volcengine/OpenViking",
+    "source": "GitHub Trending",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "",
+    "author": ""
+  },
+  {
     "title": "mukul975/Anthropic-Cybersecurity-Skills",
     "url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
     "source": "GitHub Trending",
@@ -270,8 +324,8 @@
     "author": ""
   },
   {
-    "title": "AlexsJones/llmfit",
-    "url": "https://github.com/AlexsJones/llmfit",
+    "title": "public-apis/public-apis",
+    "url": "https://github.com/public-apis/public-apis",
     "source": "GitHub Trending",
     "topic": "AI大事",
     "region": "intl",
@@ -279,8 +333,26 @@
     "author": ""
   },
   {
-    "title": "santifer/career-ops",
-    "url": "https://github.com/santifer/career-ops",
+    "title": "basecamp/omarchy",
+    "url": "https://github.com/basecamp/omarchy",
+    "source": "GitHub Trending",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "",
+    "author": ""
+  },
+  {
+    "title": "agalwood/Motrix",
+    "url": "https://github.com/agalwood/Motrix",
+    "source": "GitHub Trending",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "",
+    "author": ""
+  },
+  {
+    "title": "NawfalMotii79/PLFM_RADAR",
+    "url": "https://github.com/NawfalMotii79/PLFM_RADAR",
     "source": "GitHub Trending",
     "topic": "AI大事",
     "region": "intl",
@@ -290,24 +362,6 @@
   {
     "title": "jundot/omlx",
     "url": "https://github.com/jundot/omlx",
-    "source": "GitHub Trending",
-    "topic": "AI大事",
-    "region": "intl",
-    "published": "",
-    "author": ""
-  },
-  {
-    "title": "immich-app/immich",
-    "url": "https://github.com/immich-app/immich",
-    "source": "GitHub Trending",
-    "topic": "AI大事",
-    "region": "intl",
-    "published": "",
-    "author": ""
-  },
-  {
-    "title": "cordiverse/cordis",
-    "url": "https://github.com/cordiverse/cordis",
     "source": "GitHub Trending",
     "topic": "AI大事",
     "region": "intl",
@@ -1008,22 +1062,49 @@
     "author": ""
   },
   {
-    "title": "伊朗否认向阿联酋发射导弹",
-    "url": "https://m.thepaper.cn/detail/33807952",
+    "title": "股市跌、房价涨与“死亡交叉”：李在明如何动了韩国人的奶酪",
+    "url": "https://m.thepaper.cn/detail/33808077",
     "source": "澎湃新闻",
     "topic": "世界时事",
     "region": "cn",
-    "published": "2026-08-19T01:24:49",
-    "author": "新华社客户端"
+    "published": "2026-08-19T02:27:31",
+    "author": "澎湃新闻特约撰稿 赵懿黑"
   },
   {
-    "title": "美媒：特朗普寻求今秋与金正恩会晤",
-    "url": "https://m.thepaper.cn/detail/33807959",
+    "title": "新闻蒸馏器｜乌前防长挑战泽连斯基，呼吁战时举行总统大选",
+    "url": "https://m.thepaper.cn/detail/33808071",
     "source": "澎湃新闻",
     "topic": "世界时事",
     "region": "cn",
-    "published": "2026-08-19T01:24:49",
-    "author": "黄强、徐剑梅/新华社"
+    "published": "2026-08-19T02:21:21",
+    "author": "澎湃新闻记者 南博一"
+  },
+  {
+    "title": "首席展望｜摩根士丹利邢自强：政策核心在存量发力，全球AI周期仍将支撑中国出口",
+    "url": "https://m.thepaper.cn/detail/33799448",
+    "source": "澎湃新闻",
+    "topic": "世界时事",
+    "region": "cn",
+    "published": "2026-08-19T02:16:20",
+    "author": "澎湃新闻记者 孙铭蔚"
+  },
+  {
+    "title": "谈大模型、昆仑芯与AI投资，李彦宏：基础大模型竞争还未埃落定，会持续投入",
+    "url": "https://m.thepaper.cn/detail/33807896",
+    "source": "澎湃新闻",
+    "topic": "世界时事",
+    "region": "cn",
+    "published": "2026-08-19T02:14:21",
+    "author": "澎湃新闻记者 吴雨欣"
+  },
+  {
+    "title": "王毅将访问韩国、印尼",
+    "url": "https://m.thepaper.cn/detail/33807989",
+    "source": "澎湃新闻",
+    "topic": "世界时事",
+    "region": "cn",
+    "published": "2026-08-19T01:09:35",
+    "author": "外交部网站"
   },
   {
     "title": "为何冒死游向欧洲？一场结构困境、虚假信息和地缘博弈交织的边境危机",
@@ -1033,6 +1114,24 @@
     "region": "cn",
     "published": "2026-08-18T23:26:25",
     "author": "澎湃新闻记者 陈沁涵"
+  },
+  {
+    "title": "巴拿马运河通航限制的影响",
+    "url": "https://opinion.caixin.com/2026-08-19/102475574.html",
+    "source": "财新网",
+    "topic": "世界时事",
+    "region": "cn",
+    "published": "2026-08-19T02:20:07",
+    "author": ""
+  },
+  {
+    "title": "AI风险防范与治理：中美两国路径初探",
+    "url": "https://opinion.caixin.com/2026-08-19/102475562.html",
+    "source": "财新网",
+    "topic": "世界时事",
+    "region": "cn",
+    "published": "2026-08-19T01:49:49",
+    "author": ""
   },
   {
     "title": "【市场动态】通胀、赤字与AI融资齐袭 多国长期主权债收益率升至十余年高位",
@@ -1080,30 +1179,12 @@
     "author": ""
   },
   {
-    "title": "百度二季度净利同比大降近七成 AI搜索冲击显著",
+    "title": "百度二季度收入同比降4% AI搜索持续拖累广告业务",
     "url": "https://www.caixin.com/2026-08-19/102475509.html",
     "source": "财新网",
     "topic": "世界时事",
     "region": "cn",
-    "published": "2026-08-18T23:04:21",
-    "author": ""
-  },
-  {
-    "title": "住房公积金新规正式亮相 缴存覆盖面更广、申请提取手续简化",
-    "url": "https://finance.caixin.com/2026-08-18/102475453.html",
-    "source": "财新网",
-    "topic": "世界时事",
-    "region": "cn",
-    "published": "2026-08-18T12:24:06",
-    "author": ""
-  },
-  {
-    "title": "7月“新三样”出口额增五成 劳动密集型产品出口持续改善｜贸易月报",
-    "url": "https://www.caixin.com/2026-08-18/102475446.html",
-    "source": "财新网",
-    "topic": "世界时事",
-    "region": "cn",
-    "published": "2026-08-18T12:11:04",
+    "published": "2026-08-18T23:04:20",
     "author": ""
   },
   {
@@ -1257,7 +1338,7 @@
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-08-18T13:22:38",
-    "author": "herbertl · 929 pts · 537 comments"
+    "author": "herbertl · 960 pts · 553 comments"
   },
   {
     "title": "How does IKEA come up with names for its products?",
@@ -1266,7 +1347,7 @@
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-08-18T18:11:53",
-    "author": "NaOH · 222 pts · 140 comments"
+    "author": "NaOH · 241 pts · 145 comments"
   },
   {
     "title": "Turbovec – Google's TurboQuant for vector search in Rust",
@@ -1275,7 +1356,7 @@
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-08-18T18:07:21",
-    "author": "fittingopposite · 202 pts · 27 comments"
+    "author": "fittingopposite · 212 pts · 28 comments"
   },
   {
     "title": "Using the railway network as a flatbed scanner",
@@ -1284,7 +1365,7 @@
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-08-18T12:43:54",
-    "author": "otherayden · 400 pts · 64 comments"
+    "author": "otherayden · 410 pts · 66 comments"
   },
   {
     "title": "Cursor launches Origin, GitHub alternative",
@@ -1293,7 +1374,7 @@
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-08-17T17:02:44",
-    "author": "tomasreimers · 463 pts · 361 comments"
+    "author": "tomasreimers · 485 pts · 379 comments"
   },
   {
     "title": "Fixing a bricked Framework laptop",
@@ -1302,16 +1383,7 @@
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-08-18T13:18:40",
-    "author": "jp_sc · 356 pts · 242 comments"
-  },
-  {
-    "title": "Beware Management Consultants",
-    "url": "https://about.iceland.co.uk/our-story/the-dark-ages/beware-management-consultants/",
-    "source": "HackerNews",
-    "topic": "技术圈",
-    "region": "intl",
-    "published": "2026-08-18T19:29:51",
-    "author": "KolmogorovComp · 439 pts · 122 comments"
+    "author": "jp_sc · 362 pts · 254 comments"
   },
   {
     "title": "Memory prices climb 500% in 12 months",
@@ -1320,7 +1392,16 @@
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-08-17T17:52:37",
-    "author": "haunter · 480 pts · 386 comments"
+    "author": "haunter · 503 pts · 403 comments"
+  },
+  {
+    "title": "Beware Management Consultants",
+    "url": "https://about.iceland.co.uk/our-story/the-dark-ages/beware-management-consultants/",
+    "source": "HackerNews",
+    "topic": "技术圈",
+    "region": "intl",
+    "published": "2026-08-18T19:29:51",
+    "author": "KolmogorovComp · 450 pts · 123 comments"
   },
   {
     "title": "Universal health coverage could save $1T and 114k lives a year: study",
@@ -1329,25 +1410,7 @@
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-08-17T15:49:57",
-    "author": "karakoram · 709 pts · 793 comments"
-  },
-  {
-    "title": "Norway should buy OpenAI",
-    "url": "https://www.onethousandmeans.com/p/norway-should-buy-openai",
-    "source": "HackerNews",
-    "topic": "技术圈",
-    "region": "intl",
-    "published": "2026-08-18T19:30:29",
-    "author": "alexeigannon · 206 pts · 226 comments"
-  },
-  {
-    "title": "Claude Code May–August 2026 weekly limits promotion",
-    "url": "https://support.claude.com/en/articles/15910845-claude-code-may-august-2026-weekly-limits-promotion",
-    "source": "HackerNews",
-    "topic": "技术圈",
-    "region": "intl",
-    "published": "2026-08-18T17:02:15",
-    "author": "tyre · 256 pts · 227 comments"
+    "author": "karakoram · 737 pts · 805 comments"
   },
   {
     "title": "openai/openai-python 发布 v3.3.0",
@@ -1357,15 +1420,6 @@
     "region": "intl",
     "published": "2026-08-18T21:17:03",
     "author": "openai-sdks[bot]"
-  },
-  {
-    "title": "langchain-ai/langchain 发布 langchain-openai==1.5.2a1",
-    "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.5.2a1",
-    "source": "GitHubRelease",
-    "topic": "GitHub 动态",
-    "region": "intl",
-    "published": "2026-08-18T01:51:38",
-    "author": "github-actions[bot]"
   },
   {
     "title": "langchain-ai/langchain 发布 langchain-openai==1.5.2",
@@ -1429,104 +1483,5 @@
     "region": "intl",
     "published": "2026-08-18T07:42:19",
     "author": "antas-marcin"
-  },
-  {
-    "title": "Evaluating Telemedical Supervision for Critical Anesthesia Scenarios: Randomized Controlled Simulation Study.",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42612211/",
-    "source": "PubMed",
-    "topic": "心理学",
-    "region": "intl",
-    "published": "2026",
-    "author": "Jonas Roth, Verena Voigt, Michael Schauwinhold, Andreas Follmann"
-  },
-  {
-    "title": "The Challenges of AI Applications in Health Care: Qualitative Study.",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42612210/",
-    "source": "PubMed",
-    "topic": "心理学",
-    "region": "intl",
-    "published": "2026",
-    "author": "Lilin Qiu, Shuyao Li, Yumei Liang, Shuyu Lu"
-  },
-  {
-    "title": "Digital Physical Exercise Interventions for Cognitive Functions in Older Adults: Systematic Review and Bayesian Network Meta-Analysis of Randomized Controlled Trials.",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42612199/",
-    "source": "PubMed",
-    "topic": "心理学",
-    "region": "intl",
-    "published": "2026",
-    "author": "Qing Hu, Siyi Sun, Jingru Zhu, Xiaoke Zhong"
-  },
-  {
-    "title": "The Impact of Digitalization on European General Practice From the Perspective of General Practitioners: Systematic Review.",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42612165/",
-    "source": "PubMed",
-    "topic": "心理学",
-    "region": "intl",
-    "published": "2026",
-    "author": "Julia Magdalena Fuger, Lisa Niehoff, Erika Zelko"
-  },
-  {
-    "title": "AI for Prognosis Among People Living With HIV: Protocol for a Systematic Review and Meta-Analysis.",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42612074/",
-    "source": "PubMed",
-    "topic": "心理学",
-    "region": "intl",
-    "published": "2026",
-    "author": "Degninou Yehadji, Markus Hofmann, Petros Isaakidis, Smaila Alidou"
-  },
-  {
-    "title": "App+1 | 让任务栏更有用：WindowSill",
-    "url": "https://sspai.com/post/113438",
-    "source": "少数派",
-    "topic": "心理学",
-    "region": "cn",
-    "published": "2026-08-18T06:30:00",
-    "author": "北鸮"
-  },
-  {
-    "title": "34.99 万元起，神行者 8 要证明自己不是一台「新能源路虎」",
-    "url": "https://www.ifanr.com/1675258?utm_source=rss&utm_medium=rss&utm_campaign=",
-    "source": "爱范儿",
-    "topic": "供应链",
-    "region": "cn",
-    "published": "2026-08-14T16:00:55",
-    "author": "李华"
-  },
-  {
-    "title": "[AINews] Muse Glimmer and Spark: Open Weights return Personal Superintelligence promise",
-    "url": "https://www.latent.space/p/ainews-muse-glimmer-and-spark-open",
-    "source": "Latent Space",
-    "topic": "供应链",
-    "region": "intl",
-    "published": "2026-08-11T05:16:41",
-    "author": ""
-  },
-  {
-    "title": "[AINews] AMD buys Taalas",
-    "url": "https://www.latent.space/p/ainews-amd-buys-taalas",
-    "source": "Latent Space",
-    "topic": "供应链",
-    "region": "intl",
-    "published": "2026-08-07T05:13:46",
-    "author": ""
-  },
-  {
-    "title": "[AINews] Jeff, Sanjay, Oriol, and Quoc depart DeepMind; Demis to Chair; Koray to SVP — what is going on at GDM???",
-    "url": "https://www.latent.space/p/ainews-jeff-sanjay-oriol-and-quoc",
-    "source": "Latent Space",
-    "topic": "供应链",
-    "region": "intl",
-    "published": "2026-08-06T04:34:11",
-    "author": "Latent.Space"
-  },
-  {
-    "title": "The Inference Engineering Masterclass — Philip Kiely & Ali Taha, Baseten",
-    "url": "https://www.latent.space/p/inference-eng",
-    "source": "Latent Space",
-    "topic": "供应链",
-    "region": "intl",
-    "published": "2026-08-03T21:44:03",
-    "author": ""
   }
 ]
