@@ -1,42 +1,43 @@
 {
   "date": "2026-08-20",
   "profile": "kizty",
-  "generated_at": "2026-08-20 01:35",
+  "generated_at": "2026-08-20 02:38",
   "stats": {
     "topics_ran": [
       "AI大事",
       "世界时事",
       "技术圈",
       "GitHub 动态",
-      "心理学"
+      "心理学",
+      "供应链"
     ],
-    "total_selected": 32,
-    "total_fetched": 164
+    "total_selected": 43,
+    "total_fetched": 188
   },
   "top3": [
     {
       "topic": "AI大事",
-      "title": "Qwen 3.8 27B 评测得分追平 GPT-5.6",
-      "tldr": "阿里开源的小模型 Qwen 3.8 27B 在第三方智能评测中拿到 52 分，跟 GPT-5.6 最高配打平，只比两个万亿级参数的大模型低一分，性价比炸裂。",
-      "score": 9,
+      "title": "Qwen 3.8 27B 评分 52，追平 GPT-5.6",
+      "tldr": "Qwen 3.8 27B 这个开源小模型，在第三方评测里拿到了 52 分，跟 GPT-5.6 Luna 打平，只比两个超大参数模型低一分。小模型干翻大模型，开源干翻闭源，这事儿对做 AI 产品的人冲击很大。",
+      "score": 10,
       "url": "https://simonwillison.net/2026/Aug/17/qwen-38-27b-scores-52/",
       "source": "Simon Willison",
       "source_count": 1
     },
     {
       "topic": "AI大事",
-      "title": "前沿模型成本与开源权重崛起推动模型路由需求",
-      "tldr": "Glean 公司靠模型路由帮企业省钱，自动为每个任务选最合适的模型，甚至不用 LLM 就用计算器。成本能降 4 倍，ARR 三年涨到 3 亿美元。",
+      "title": "Stripe 80 亿美元收购 OpenRouter",
+      "tldr": "Stripe 花 80 亿美元买下 AI 模型聚合平台 OpenRouter，相当于把「模型调用」做成了像支付一样的标准化基础设施生意，Token 成了企业新的核心货币。",
       "score": 9,
-      "url": "https://www.latent.space/p/glean-model-routing",
-      "source": "Latent Space",
+      "url": "https://www.ifanr.com/1675718?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "source": "爱范儿",
       "source_count": 1
     },
     {
       "topic": "世界时事",
-      "title": "被台积电断供后，华为昇腾如何突围",
-      "tldr": "观察者网对话浙大教授，聊华为昇腾在被台积电断供后，如何从单卡追赶转向系统级创新，用韬定律和软硬协同走通国产算力规模化商用这条路。",
-      "score": 8,
+      "title": "被台积电断供后，华为如何昇腾",
+      "tldr": "华为昇腾芯片在被台积电断供后，靠系统级创新和软硬件协同硬闯出一条路，从单卡比拼转向超节点系统突围，还和DeepSeek等国产大模型深度绑定，目标是建立自主算力生态。",
+      "score": 9,
       "url": "https://www.guancha.cn/FangXingDong/2026_08_19_827910_s.shtml",
       "source": "观察者网",
       "source_count": 1
