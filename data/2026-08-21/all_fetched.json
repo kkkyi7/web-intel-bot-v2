@@ -1,12 +1,84 @@
 [
   {
+    "title": "ConceptGuard: Benchmarking Context-Sensitive Unlearning in Large Language Models",
+    "url": "http://arxiv.org/abs/2608.20338v1",
+    "source": "arXiv",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-08-20T17:59:57",
+    "author": "Sahil Kale, Ian Harris"
+  },
+  {
+    "title": "An Agentic Approach for Active Data Collection, Travel Behavior Modeling, and Weather-Sensitive Demand Prediction",
+    "url": "http://arxiv.org/abs/2608.20320v1",
+    "source": "arXiv",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-08-20T17:57:42",
+    "author": "Narges Ahmadi, Yubo Jiao, Jônatas Augusto Manzolli, Jiangbo Yu, Luis Miranda-Moreno"
+  },
+  {
+    "title": "AI4AI-Bench: Benchmarking LLM Agents in Algorithmic Design for Recursive Self-Improvement",
+    "url": "http://arxiv.org/abs/2608.20318v1",
+    "source": "arXiv",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-08-20T17:56:59",
+    "author": "Yizhe Chi, Wenyi Li, Deyao Hong, Xiaoqiu Wang, Mingju Gao, Kaisen Yang, Bingxiang He, Youjie Zheng, Calvin Xiao, Qinhuai Na"
+  },
+  {
+    "title": "Pandora's AI Model Routing Box: Efficient Allocation with Costly Value Estimation",
+    "url": "http://arxiv.org/abs/2608.20316v1",
+    "source": "arXiv",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-08-20T17:54:37",
+    "author": "Adam Fisch, Shubhendu Trivedi, Fantine Huot, William W. Cohen, Michael Kaisers, Mirella Lapata, Kate Larson, Jacob Eisenstein"
+  },
+  {
+    "title": "MidTool: Mid-training Data Synthesis for Agentic Tool Use",
+    "url": "http://arxiv.org/abs/2608.20314v1",
+    "source": "arXiv",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-08-20T17:53:59",
+    "author": "Fengqing Jiang, Yite Wang, Boyi Liu, Zhaoyang Wang, Canwen Xu, Zhewei Yao, Radha Poovendran, Yuxiong He"
+  },
+  {
+    "title": "Calibration-Induced Degeneracy in LLM Financial Forecasting: An Audit-Trailed Case Study on Next-Day Market Risk",
+    "url": "http://arxiv.org/abs/2608.20304v1",
+    "source": "arXiv",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-08-20T17:42:21",
+    "author": "Arin Mohanty"
+  },
+  {
+    "title": "Inject, Align, Recover: Staged Post-Training for Retrieval-Free Document Knowledge Internalization",
+    "url": "http://arxiv.org/abs/2608.20281v1",
+    "source": "arXiv",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-08-20T17:14:24",
+    "author": "Qian Kou, Xiaofeng Shi, Xiaosong Qiu, Hua Zhou"
+  },
+  {
+    "title": "Which Eviction Policy Should an LLM Cache Use? A Systematic Study Across Workloads, Capacities, and Encoders",
+    "url": "http://arxiv.org/abs/2608.20280v1",
+    "source": "arXiv",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-08-20T17:14:19",
+    "author": "Yash Kulkarni, Shubham Harkare, Arvind Suresh Yogesh Babu"
+  },
+  {
     "title": "The August 17 outage, and the work ahead",
     "url": "https://github.blog/news-insights/company-news/the-august-17-outage-and-the-work-ahead/",
     "source": "HackerNews",
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-08-20T19:22:24",
-    "author": "0xedb · 310 pts · 347 comments"
+    "author": "0xedb · 345 pts · 388 comments"
   },
   {
     "title": "Consumer Rights Wiki",
@@ -15,7 +87,7 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-08-20T18:19:51",
-    "author": "gregsadetsky · 213 pts · 30 comments"
+    "author": "gregsadetsky · 236 pts · 34 comments"
   },
   {
     "title": "Aaron Swartz was prosecuted for scraping, while Meta does it without consequence",
@@ -24,16 +96,7 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-08-20T20:07:26",
-    "author": "speckx · 941 pts · 215 comments"
-  },
-  {
-    "title": "AliExpress runs silent WebAudio fingerprinting that breaks Bluetooth multipoint",
-    "url": "https://blog.laserphile.com/2026/08/aliexpress-webpage-keeping-multipoint.html",
-    "source": "HackerNews",
-    "topic": "AI大事",
-    "region": "intl",
-    "published": "2026-08-20T10:08:52",
-    "author": "emctech · 874 pts · 286 comments"
+    "author": "speckx · 1067 pts · 235 comments"
   },
   {
     "title": "HTML Can Do That",
@@ -42,7 +105,16 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-08-19T15:11:36",
-    "author": "encyclopedism · 568 pts · 162 comments"
+    "author": "encyclopedism · 594 pts · 165 comments"
+  },
+  {
+    "title": "I should have loved biology (2020)",
+    "url": "https://jsomers.net/i-should-have-loved-biology/",
+    "source": "HackerNews",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-08-20T17:50:02",
+    "author": "tyre · 204 pts · 75 comments"
   },
   {
     "title": "Malicious Rust crate Arrayref runs a build-time payload",
@@ -51,25 +123,7 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-08-20T13:23:12",
-    "author": "abhisek · 393 pts · 364 comments"
-  },
-  {
-    "title": "Show HN: Huzzah – a novel approach to coding with AI",
-    "url": "https://www.danielvaughn.dev/posts/huzzah/",
-    "source": "HackerNews",
-    "topic": "AI大事",
-    "region": "intl",
-    "published": "2026-08-20T19:05:36",
-    "author": "danielvaughn · 219 pts · 117 comments"
-  },
-  {
-    "title": "Show HN: I trained a 125M model to autocomplete piano on-device",
-    "url": "https://simedw.com/2026/08/20/midi-autocomplete/",
-    "source": "HackerNews",
-    "topic": "AI大事",
-    "region": "intl",
-    "published": "2026-08-20T12:04:38",
-    "author": "simedw · 500 pts · 106 comments"
+    "author": "abhisek · 407 pts · 366 comments"
   },
   {
     "title": "CIA funding helped keep NeXT afloat in the 80s",
@@ -78,7 +132,43 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-08-20T00:15:01",
-    "author": "EwanG · 329 pts · 207 comments"
+    "author": "EwanG · 348 pts · 211 comments"
+  },
+  {
+    "title": "Show HN: I trained a 125M model to autocomplete piano on-device",
+    "url": "https://simedw.com/2026/08/20/midi-autocomplete/",
+    "source": "HackerNews",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-08-20T12:04:38",
+    "author": "simedw · 523 pts · 108 comments"
+  },
+  {
+    "title": "Show HN: Huzzah – a novel approach to coding with AI",
+    "url": "https://www.danielvaughn.dev/posts/huzzah/",
+    "source": "HackerNews",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-08-20T19:05:36",
+    "author": "danielvaughn · 227 pts · 134 comments"
+  },
+  {
+    "title": "AliExpress runs silent WebAudio fingerprinting that breaks Bluetooth multipoint",
+    "url": "https://blog.laserphile.com/2026/08/aliexpress-webpage-keeping-multipoint.html",
+    "source": "HackerNews",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-08-20T10:08:52",
+    "author": "emctech · 906 pts · 295 comments"
+  },
+  {
+    "title": "OpenAI 之后又是 Anthropic，Claude 将攻击延伸至公共互联网",
+    "url": "https://www.infoq.cn/article/9FZ8z60yB4tS4WQEP4dw?utm_source=rss&utm_medium=article",
+    "source": "InfoQ 中文",
+    "topic": "AI大事",
+    "region": "cn",
+    "published": "2026-08-21T10:25:50",
+    "author": "作者：Olimpiu Pop"
   },
   {
     "title": "CFP 开放 | KCD 杭州站邀您共议 Agent 时代的云原生、可观测与大模型推理",
@@ -153,15 +243,6 @@
     "author": "李冬梅"
   },
   {
-    "title": "AI for Science进入新阶段：机器人正在成为科研新基础设施",
-    "url": "https://www.infoq.cn/article/LrAzoZZQiecRCtyVX1u9?utm_source=rss&utm_medium=article",
-    "source": "InfoQ 中文",
-    "topic": "AI大事",
-    "region": "cn",
-    "published": "2026-08-19T16:22:01",
-    "author": "蔡芳芳"
-  },
-  {
     "title": "明道云举办首届 Real AI Contest，面向真实落地的企业 AI 应用",
     "url": "https://xie.infoq.cn/article/6724ff083cc2192487d818695?utm_source=rss&utm_medium=article",
     "source": "InfoQ 中文",
@@ -171,44 +252,53 @@
     "author": "明道云"
   },
   {
-    "title": "harry0703/MoneyPrinterTurbo",
-    "url": "https://github.com/harry0703/MoneyPrinterTurbo",
-    "source": "GitHub Trending",
+    "title": "这届“WRC必看”：全栈AI、20+超难家务，8.99万带回家",
+    "url": "https://www.qbitai.com/2026/08/476280.html",
+    "source": "量子位",
     "topic": "AI大事",
-    "region": "intl",
-    "published": "",
-    "author": ""
+    "region": "cn",
+    "published": "2026-08-20T10:17:47",
+    "author": "林, 方舟"
   },
   {
-    "title": "volcengine/OpenViking",
-    "url": "https://github.com/volcengine/OpenViking",
-    "source": "GitHub Trending",
+    "title": "光帆AI技术正式落地韶音OpenFit 2 AI耳机，携手突破AI边界",
+    "url": "https://www.qbitai.com/2026/08/476281.html",
+    "source": "量子位",
     "topic": "AI大事",
-    "region": "intl",
-    "published": "",
-    "author": ""
+    "region": "cn",
+    "published": "2026-08-20T10:13:45",
+    "author": "量子位的朋友们"
   },
   {
-    "title": "chaitanyagiri/munder-difflin",
-    "url": "https://github.com/chaitanyagiri/munder-difflin",
-    "source": "GitHub Trending",
+    "title": "闭源RSI的严父：18个Agent自主科研，Kimi K3靠Harness逼近Opus 5",
+    "url": "https://www.qbitai.com/2026/08/476199.html",
+    "source": "量子位",
     "topic": "AI大事",
-    "region": "intl",
-    "published": "",
-    "author": ""
+    "region": "cn",
+    "published": "2026-08-20T09:46:23",
+    "author": "henry"
   },
   {
-    "title": "mukul975/Anthropic-Cybersecurity-Skills",
-    "url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
-    "source": "GitHub Trending",
+    "title": "攻克行业级柔性操作难题！招商局狮子山人工智能实验室首次亮相WRC 2026",
+    "url": "https://www.qbitai.com/2026/08/476129.html",
+    "source": "量子位",
     "topic": "AI大事",
-    "region": "intl",
-    "published": "",
-    "author": ""
+    "region": "cn",
+    "published": "2026-08-20T09:22:05",
+    "author": "思邈"
   },
   {
-    "title": "nautechsystems/nautilus_trader",
-    "url": "https://github.com/nautechsystems/nautilus_trader",
+    "title": "华尔街实测8款全球主流Agent：千问办公综合排名第一",
+    "url": "https://www.qbitai.com/2026/08/476070.html",
+    "source": "量子位",
+    "topic": "AI大事",
+    "region": "cn",
+    "published": "2026-08-20T01:06:45",
+    "author": "量子位的朋友们"
+  },
+  {
+    "title": "modular/modular",
+    "url": "https://github.com/modular/modular",
     "source": "GitHub Trending",
     "topic": "AI大事",
     "region": "intl",
@@ -225,6 +315,15 @@
     "author": ""
   },
   {
+    "title": "AprilNEA/OpenLogi",
+    "url": "https://github.com/AprilNEA/OpenLogi",
+    "source": "GitHub Trending",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "",
+    "author": ""
+  },
+  {
     "title": "obra/superpowers",
     "url": "https://github.com/obra/superpowers",
     "source": "GitHub Trending",
@@ -234,8 +333,8 @@
     "author": ""
   },
   {
-    "title": "jundot/omlx",
-    "url": "https://github.com/jundot/omlx",
+    "title": "cursor/plugins",
+    "url": "https://github.com/cursor/plugins",
     "source": "GitHub Trending",
     "topic": "AI大事",
     "region": "intl",
@@ -252,8 +351,35 @@
     "author": ""
   },
   {
-    "title": "immich-app/immich",
-    "url": "https://github.com/immich-app/immich",
+    "title": "akitaonrails/ai-memory",
+    "url": "https://github.com/akitaonrails/ai-memory",
+    "source": "GitHub Trending",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "",
+    "author": ""
+  },
+  {
+    "title": "harry0703/MoneyPrinterTurbo",
+    "url": "https://github.com/harry0703/MoneyPrinterTurbo",
+    "source": "GitHub Trending",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "",
+    "author": ""
+  },
+  {
+    "title": "agent-substrate/substrate",
+    "url": "https://github.com/agent-substrate/substrate",
+    "source": "GitHub Trending",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "",
+    "author": ""
+  },
+  {
+    "title": "chaitanyagiri/munder-difflin",
+    "url": "https://github.com/chaitanyagiri/munder-difflin",
     "source": "GitHub Trending",
     "topic": "AI大事",
     "region": "intl",
@@ -900,13 +1026,31 @@
     "author": ""
   },
   {
-    "title": "业绩不及预期，海外市场承压，泡泡玛特王宁：去年是一美遮百丑",
-    "url": "https://m.thepaper.cn/detail/33822767",
+    "title": "沃尔玛大跌9%！上财季美国同店销售额增速不及预期，中国区净销售额增两成",
+    "url": "https://m.thepaper.cn/detail/33820913",
     "source": "澎湃新闻",
     "topic": "世界时事",
     "region": "cn",
-    "published": "2026-08-21T01:20:09",
-    "author": "澎湃新闻记者 吴雨欣"
+    "published": "2026-08-21T02:37:04",
+    "author": "澎湃新闻记者 邵冰燕"
+  },
+  {
+    "title": "财政部：正在继续研究制定财政金融协同的新政策和新举措，预计今年下半年推出",
+    "url": "https://m.thepaper.cn/detail/33823479",
+    "source": "澎湃新闻",
+    "topic": "世界时事",
+    "region": "cn",
+    "published": "2026-08-21T02:32:26",
+    "author": "澎湃新闻记者 滕晗"
+  },
+  {
+    "title": "财政部副部长：聚“小钱”为“大钱”，集中财力保障国家重大战略任务和基本民生",
+    "url": "https://m.thepaper.cn/detail/33823397",
+    "source": "澎湃新闻",
+    "topic": "世界时事",
+    "region": "cn",
+    "published": "2026-08-21T02:30:51",
+    "author": "澎湃新闻记者 滕晗"
   },
   {
     "title": "清华学者对话外卖骑手：如何把“清凉”给到具体的人？｜907编辑部",
@@ -934,6 +1078,33 @@
     "region": "cn",
     "published": "2026-08-20T23:38:05",
     "author": "澎湃新闻记者 杨文钦"
+  },
+  {
+    "title": "【市场动态】调查显示，美国10年期国债收益率今年将突破5%",
+    "url": "https://database.caixin.com/2026-08-21/102476348.html",
+    "source": "财新网",
+    "topic": "世界时事",
+    "region": "cn",
+    "published": "2026-08-21T02:32:33",
+    "author": ""
+  },
+  {
+    "title": "长和诉巴拿马：争的不只是两个港口",
+    "url": "https://opinion.caixin.com/2026-08-21/102476346.html",
+    "source": "财新网",
+    "topic": "世界时事",
+    "region": "cn",
+    "published": "2026-08-21T01:54:02",
+    "author": ""
+  },
+  {
+    "title": "财新闻｜多地宣布调整最低工资标准",
+    "url": "https://mini.caixin.com/2026-08-21/102476342.html",
+    "source": "财新网",
+    "topic": "世界时事",
+    "region": "cn",
+    "published": "2026-08-21T01:40:43",
+    "author": ""
   },
   {
     "title": "今日开盘：两市双双低开 沪指跌幅0.32%",
@@ -981,15 +1152,6 @@
     "author": ""
   },
   {
-    "title": "【交易簿】波士顿动力估值暴涨背后：现代汽车与软银的期权博弈",
-    "url": "https://database.caixin.com/2026-08-21/102476260.html",
-    "source": "财新网",
-    "topic": "世界时事",
-    "region": "cn",
-    "published": "2026-08-21T00:00:00",
-    "author": ""
-  },
-  {
     "title": "T早报｜宇树上市后王兴兴首次演讲；七月智能消费增长迅速；黑神话系列第二部游戏作品发布时机演示",
     "url": "https://www.caixin.com/2026-08-21/102476287.html",
     "source": "财新网",
@@ -1008,21 +1170,12 @@
     "author": ""
   },
   {
-    "title": "财经早知道｜上海出台“沪八条”，首套房商贷首付最低15%",
-    "url": "https://finance.caixin.com/2026-08-21/102476274.html",
-    "source": "财新网",
+    "title": "美方警告“不许中美通吃”，哈萨克斯坦会怎么选？",
+    "url": "https://www.guancha.cn/internation/2026_08_21_828072_s.shtml",
+    "source": "观察者网",
     "topic": "世界时事",
     "region": "cn",
-    "published": "2026-08-20T23:02:01",
-    "author": ""
-  },
-  {
-    "title": "视线｜史上最年轻白宫新闻秘书莱维特辞职 将白宫简报室变成“爆款生产车间”",
-    "url": "https://photos.caixin.com/2026-08-20/102476235.html",
-    "source": "财新网",
-    "topic": "世界时事",
-    "region": "cn",
-    "published": "2026-08-20T14:49:31",
+    "published": "2026-08-21T01:24:44",
     "author": ""
   },
   {
@@ -1107,15 +1260,6 @@
     "author": ""
   },
   {
-    "title": "“意料之外”，美国指望他打破外交僵局",
-    "url": "https://www.guancha.cn/internation/2026_08_18_827786_s.shtml",
-    "source": "观察者网",
-    "topic": "世界时事",
-    "region": "cn",
-    "published": "2026-08-18T15:03:57",
-    "author": ""
-  },
-  {
     "title": "霍爾木茲海峽動盪，如何在巴拿馬運河引發中美角力？",
     "url": "https://www.bbc.com/zhongwen/articles/cdj013krm3no/trad?at_medium=RSS&at_campaign=rss",
     "source": "BBC 中文",
@@ -1185,7 +1329,7 @@
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-08-20T19:22:24",
-    "author": "0xedb · 311 pts · 348 comments"
+    "author": "0xedb · 345 pts · 389 comments"
   },
   {
     "title": "Consumer Rights Wiki",
@@ -1194,7 +1338,7 @@
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-08-20T18:19:51",
-    "author": "gregsadetsky · 213 pts · 30 comments"
+    "author": "gregsadetsky · 238 pts · 34 comments"
   },
   {
     "title": "Aaron Swartz was prosecuted for scraping, while Meta does it without consequence",
@@ -1203,16 +1347,7 @@
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-08-20T20:07:26",
-    "author": "speckx · 943 pts · 217 comments"
-  },
-  {
-    "title": "AliExpress runs silent WebAudio fingerprinting that breaks Bluetooth multipoint",
-    "url": "https://blog.laserphile.com/2026/08/aliexpress-webpage-keeping-multipoint.html",
-    "source": "HackerNews",
-    "topic": "技术圈",
-    "region": "intl",
-    "published": "2026-08-20T10:08:52",
-    "author": "emctech · 874 pts · 286 comments"
+    "author": "speckx · 1071 pts · 237 comments"
   },
   {
     "title": "HTML Can Do That",
@@ -1221,7 +1356,16 @@
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-08-19T15:11:36",
-    "author": "encyclopedism · 570 pts · 162 comments"
+    "author": "encyclopedism · 594 pts · 165 comments"
+  },
+  {
+    "title": "I should have loved biology (2020)",
+    "url": "https://jsomers.net/i-should-have-loved-biology/",
+    "source": "HackerNews",
+    "topic": "技术圈",
+    "region": "intl",
+    "published": "2026-08-20T17:50:02",
+    "author": "tyre · 204 pts · 75 comments"
   },
   {
     "title": "Malicious Rust crate Arrayref runs a build-time payload",
@@ -1230,25 +1374,7 @@
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-08-20T13:23:12",
-    "author": "abhisek · 393 pts · 364 comments"
-  },
-  {
-    "title": "Show HN: Huzzah – a novel approach to coding with AI",
-    "url": "https://www.danielvaughn.dev/posts/huzzah/",
-    "source": "HackerNews",
-    "topic": "技术圈",
-    "region": "intl",
-    "published": "2026-08-20T19:05:36",
-    "author": "danielvaughn · 220 pts · 117 comments"
-  },
-  {
-    "title": "Show HN: I trained a 125M model to autocomplete piano on-device",
-    "url": "https://simedw.com/2026/08/20/midi-autocomplete/",
-    "source": "HackerNews",
-    "topic": "技术圈",
-    "region": "intl",
-    "published": "2026-08-20T12:04:38",
-    "author": "simedw · 500 pts · 106 comments"
+    "author": "abhisek · 407 pts · 366 comments"
   },
   {
     "title": "CIA funding helped keep NeXT afloat in the 80s",
@@ -1257,7 +1383,34 @@
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-08-20T00:15:01",
-    "author": "EwanG · 330 pts · 207 comments"
+    "author": "EwanG · 348 pts · 212 comments"
+  },
+  {
+    "title": "Show HN: I trained a 125M model to autocomplete piano on-device",
+    "url": "https://simedw.com/2026/08/20/midi-autocomplete/",
+    "source": "HackerNews",
+    "topic": "技术圈",
+    "region": "intl",
+    "published": "2026-08-20T12:04:38",
+    "author": "simedw · 523 pts · 108 comments"
+  },
+  {
+    "title": "Show HN: Huzzah – a novel approach to coding with AI",
+    "url": "https://www.danielvaughn.dev/posts/huzzah/",
+    "source": "HackerNews",
+    "topic": "技术圈",
+    "region": "intl",
+    "published": "2026-08-20T19:05:36",
+    "author": "danielvaughn · 227 pts · 134 comments"
+  },
+  {
+    "title": "AliExpress runs silent WebAudio fingerprinting that breaks Bluetooth multipoint",
+    "url": "https://blog.laserphile.com/2026/08/aliexpress-webpage-keeping-multipoint.html",
+    "source": "HackerNews",
+    "topic": "技术圈",
+    "region": "intl",
+    "published": "2026-08-20T10:08:52",
+    "author": "emctech · 907 pts · 295 comments"
   },
   {
     "title": "anthropics/anthropic-sdk-python 发布 v1.0.0",
@@ -1330,59 +1483,5 @@
     "region": "intl",
     "published": "2026-08-20T12:55:59",
     "author": "antas-marcin"
-  },
-  {
-    "title": "AAOS Appropriate Use Criteria Summary: Treatment of Mid-Shaft Clavicle Fractures.",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42623521/",
-    "source": "PubMed",
-    "topic": "心理学",
-    "region": "intl",
-    "published": "2026",
-    "author": "William D Lack, Omkar Baxi, Henry Bone Ellis, Barbara Krause"
-  },
-  {
-    "title": "Experiences and economic decision-making.",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42623458/",
-    "source": "PubMed",
-    "topic": "心理学",
-    "region": "intl",
-    "published": "2026",
-    "author": "Imran Rasul"
-  },
-  {
-    "title": "MIC-based tuberculosis drug susceptibility testing using Sensititre MYCOTB: a diagnostic accuracy meta-analysis.",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42623427/",
-    "source": "PubMed",
-    "topic": "心理学",
-    "region": "intl",
-    "published": "2026",
-    "author": "Daniel Raj D, Mukesh Kumar G, Jitendra Singh, Sabir Ali"
-  },
-  {
-    "title": "Mild Autonomous Cortisol Secretion and Metabolic Syndrome: An Emerging Clinical Link.",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42623426/",
-    "source": "PubMed",
-    "topic": "心理学",
-    "region": "intl",
-    "published": "2026",
-    "author": "Leili Rahimi, Sasan Mirfakhraee, Oksana Hamidi"
-  },
-  {
-    "title": "Social and emotional skills for nurturing parenting: A qualitative examination.",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42623383/",
-    "source": "PubMed",
-    "topic": "心理学",
-    "region": "intl",
-    "published": "2026",
-    "author": "Luciana Beccassino, Juliana Borbón, Jorge Cuartas, Catalina Rey-Guerra"
-  },
-  {
-    "title": "十年阅读历程，这是我的阅读工具推荐",
-    "url": "https://sspai.com/post/113567",
-    "source": "少数派",
-    "topic": "心理学",
-    "region": "cn",
-    "published": "2026-08-20T07:25:47",
-    "author": "ElijahLee"
   }
 ]

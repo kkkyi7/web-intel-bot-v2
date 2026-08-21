@@ -1,44 +1,43 @@
 {
   "date": "2026-08-21",
   "profile": "kizty",
-  "generated_at": "2026-08-21 01:35",
+  "generated_at": "2026-08-21 02:44",
   "stats": {
     "topics_ran": [
       "AI大事",
       "世界时事",
       "技术圈",
-      "GitHub 动态",
-      "心理学"
+      "GitHub 动态"
     ],
-    "total_selected": 33,
-    "total_fetched": 154
+    "total_selected": 29,
+    "total_fetched": 165
   },
   "top3": [
     {
       "topic": "AI大事",
-      "title": "80亿美元！Stripe收购OpenRouter",
-      "tldr": "Stripe花80多亿美元买下OpenRouter，相当于把全球最大的AI模型中转站收入囊中。以后开发者调用各种大模型API、算Token费用，可能都走Stripe的支付和计费体系，AI模型调用正在变成像水电一样的基础设施生意。",
+      "title": "闭源RSI的严父：18个Agent自主科研，Kimi K3靠Harness逼近Opus 5",
+      "tldr": "月之暗面发布Kimi K3，用18个Agent组成科研团队自主跑实验和写代码，在数学和编程基准上逼近OpenAI Opus 5，走的是闭源路线上的递归自我改进。",
       "score": 9,
-      "url": "https://www.ifanr.com/1675718?utm_source=rss&utm_medium=rss&utm_campaign=",
-      "source": "爱范儿",
+      "url": "https://www.qbitai.com/2026/08/476199.html",
+      "source": "量子位",
       "source_count": 1
     },
     {
       "topic": "世界时事",
-      "title": "被台积电断供后，华为昇腾如何突围",
-      "tldr": "观察者网专访浙大教授方兴东，聊华为昇腾在被台积电断供后，如何从单卡比拼转向系统级突围，以及国产算力生态建设、软硬件协同的现状与挑战。",
-      "score": 9,
+      "title": "被台积电断供后，华为如何昇腾",
+      "tldr": "观察者网对话浙大教授方兴东，聊华为昇腾在被台积电断供后，如何从单卡追赶转向系统级突围，以及国产算力生态建设和软硬件协同的现状与挑战。",
+      "score": 8,
       "url": "https://www.guancha.cn/FangXingDong/2026_08_19_827910_s.shtml",
       "source": "观察者网",
       "source_count": 1
     },
     {
       "topic": "AI大事",
-      "title": "ChatGPT 发布后三分之一的网页疑似 AI 生成",
-      "tldr": "一项研究发现，自 ChatGPT 上线以来新发布的网页里，大约三分之一有 AI 参与写作或编辑的痕迹。这说明 AI 已经大规模渗透进内容生产，网络上的\"人味\"正在被稀释。",
-      "score": 8,
-      "url": "https://techcrunch.com/2026/08/20/a-third-of-webpages-published-since-chatgpts-launch-show-signs-of-ai-authorship-study-finds/",
-      "source": "TechCrunch AI",
+      "title": "前沿模型成本与开源权重崛起推动模型路由需求",
+      "tldr": "这篇讲的是企业级AI部署中模型路由越来越重要，Glean这家公司靠自动选模型帮企业省钱，成本比Claude Code低四倍，还刚被Stripe以70多亿美元收购了OpenRouter，说明这个赛道正热。",
+      "score": 9,
+      "url": "https://www.latent.space/p/glean-model-routing",
+      "source": "Latent Space",
       "source_count": 1
     }
   ]
