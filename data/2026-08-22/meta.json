@@ -1,0 +1,46 @@
+{
+  "date": "2026-08-22",
+  "profile": "kizty",
+  "generated_at": "2026-08-22 01:36",
+  "stats": {
+    "topics_ran": [
+      "AI大事",
+      "世界时事",
+      "技术圈",
+      "GitHub 动态",
+      "供应链",
+      "心理学"
+    ],
+    "total_selected": 34,
+    "total_fetched": 155
+  },
+  "top3": [
+    {
+      "topic": "技术圈",
+      "title": "DeepSeek 发布 v4 Flash 视觉实验版",
+      "tldr": "DeepSeek 出了个带视觉能力的实验模型，能把图片转成 token 计费，自动缩放分辨率，但社区反馈读钟表这种精细任务还不行，OCR 精度也有限。",
+      "score": 9,
+      "url": "https://api-docs.deepseek.com/guides/vision/",
+      "source": "HackerNews",
+      "source_count": 1
+    },
+    {
+      "topic": "AI大事",
+      "title": "ChatGPT 搜索大规模启用 site: 限定符",
+      "tldr": "ChatGPT 搜索在 GPT-5.6 更新后，自动使用 site: 限定符的查询比例从不到 0.5% 暴涨到 16% 以上，说明 OpenAI 正在大幅调整搜索策略，同时减少对 Reddit 等特定来源的依赖。",
+      "score": 9,
+      "url": "https://simonwillison.net/2026/Aug/20/chatgpt-search-now-uses-the-siteoperator-at-scale/",
+      "source": "Simon Willison",
+      "source_count": 1
+    },
+    {
+      "topic": "世界时事",
+      "title": "被台积电断供后，华为如何昇腾",
+      "tldr": "观察者网对话浙大教授方兴东，聊华为昇腾在被台积电断供后，如何从单卡追赶转向系统突围，以及国产算力在制造、生态、软硬协同上的现状和挑战。",
+      "score": 8,
+      "url": "https://www.guancha.cn/FangXingDong/2026_08_19_827910_s.shtml",
+      "source": "观察者网",
+      "source_count": 1
+    }
+  ]
+}
