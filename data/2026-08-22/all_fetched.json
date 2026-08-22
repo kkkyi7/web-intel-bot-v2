@@ -1,12 +1,75 @@
 [
   {
-    "title": "Kobo can run apps now",
-    "url": "https://bandarlabs.github.io/Cobalt/",
-    "source": "HackerNews",
+    "title": "ConceptGuard: Benchmarking Context-Sensitive Unlearning in Large Language Models",
+    "url": "http://arxiv.org/abs/2608.20338v1",
+    "source": "arXiv",
     "topic": "AI大事",
     "region": "intl",
-    "published": "2026-08-21T16:25:25",
-    "author": "thepoet · 429 pts · 144 comments"
+    "published": "2026-08-20T17:59:57",
+    "author": "Sahil Kale, Ian Harris"
+  },
+  {
+    "title": "An Agentic Approach for Active Data Collection, Travel Behavior Modeling, and Weather-Sensitive Demand Prediction",
+    "url": "http://arxiv.org/abs/2608.20320v1",
+    "source": "arXiv",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-08-20T17:57:42",
+    "author": "Narges Ahmadi, Yubo Jiao, Jônatas Augusto Manzolli, Jiangbo Yu, Luis Miranda-Moreno"
+  },
+  {
+    "title": "AI4AI-Bench: Benchmarking LLM Agents in Algorithmic Design for Recursive Self-Improvement",
+    "url": "http://arxiv.org/abs/2608.20318v1",
+    "source": "arXiv",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-08-20T17:56:59",
+    "author": "Yizhe Chi, Wenyi Li, Deyao Hong, Xiaoqiu Wang, Mingju Gao, Kaisen Yang, Bingxiang He, Youjie Zheng, Calvin Xiao, Qinhuai Na"
+  },
+  {
+    "title": "Pandora's AI Model Routing Box: Efficient Allocation with Costly Value Estimation",
+    "url": "http://arxiv.org/abs/2608.20316v1",
+    "source": "arXiv",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-08-20T17:54:37",
+    "author": "Adam Fisch, Shubhendu Trivedi, Fantine Huot, William W. Cohen, Michael Kaisers, Mirella Lapata, Kate Larson, Jacob Eisenstein"
+  },
+  {
+    "title": "MidTool: Mid-training Data Synthesis for Agentic Tool Use",
+    "url": "http://arxiv.org/abs/2608.20314v1",
+    "source": "arXiv",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-08-20T17:53:59",
+    "author": "Fengqing Jiang, Yite Wang, Boyi Liu, Zhaoyang Wang, Canwen Xu, Zhewei Yao, Radha Poovendran, Yuxiong He"
+  },
+  {
+    "title": "Calibration-Induced Degeneracy in LLM Financial Forecasting: An Audit-Trailed Case Study on Next-Day Market Risk",
+    "url": "http://arxiv.org/abs/2608.20304v1",
+    "source": "arXiv",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-08-20T17:42:21",
+    "author": "Arin Mohanty"
+  },
+  {
+    "title": "Inject, Align, Recover: Staged Post-Training for Retrieval-Free Document Knowledge Internalization",
+    "url": "http://arxiv.org/abs/2608.20281v1",
+    "source": "arXiv",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-08-20T17:14:24",
+    "author": "Qian Kou, Xiaofeng Shi, Xiaosong Qiu, Hua Zhou"
+  },
+  {
+    "title": "Which Eviction Policy Should an LLM Cache Use? A Systematic Study Across Workloads, Capacities, and Encoders",
+    "url": "http://arxiv.org/abs/2608.20280v1",
+    "source": "arXiv",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-08-20T17:14:19",
+    "author": "Yash Kulkarni, Shubham Harkare, Arvind Suresh Yogesh Babu"
   },
   {
     "title": "Felony Bench",
@@ -15,7 +78,16 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-08-21T15:17:04",
-    "author": "colinprince · 518 pts · 225 comments"
+    "author": "colinprince · 545 pts · 229 comments"
+  },
+  {
+    "title": "Kobo can run apps now",
+    "url": "https://bandarlabs.github.io/Cobalt/",
+    "source": "HackerNews",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-08-21T16:25:25",
+    "author": "thepoet · 446 pts · 149 comments"
   },
   {
     "title": "Kagi added a setting for removing paywalled links from search results",
@@ -24,16 +96,7 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-08-21T13:56:37",
-    "author": "speckx · 1009 pts · 339 comments"
-  },
-  {
-    "title": "I accidentally logged hundreds of thousands of phone calls to military bases",
-    "url": "https://lina.sh/blog/hijacking-e164-arpa",
-    "source": "HackerNews",
-    "topic": "AI大事",
-    "region": "intl",
-    "published": "2026-08-21T13:11:28",
-    "author": "gavide · 444 pts · 50 comments"
+    "author": "speckx · 1024 pts · 346 comments"
   },
   {
     "title": "Felony charges for citizen deleting phone data at US Border",
@@ -42,7 +105,16 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-08-21T12:10:13",
-    "author": "floathub · 550 pts · 725 comments"
+    "author": "floathub · 589 pts · 764 comments"
+  },
+  {
+    "title": "I accidentally logged hundreds of thousands of phone calls to military bases",
+    "url": "https://lina.sh/blog/hijacking-e164-arpa",
+    "source": "HackerNews",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-08-21T13:11:28",
+    "author": "gavide · 457 pts · 52 comments"
   },
   {
     "title": "DeepSeek-v4-flash-vision-exp",
@@ -51,7 +123,7 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-08-21T10:33:56",
-    "author": "dares2573 · 463 pts · 143 comments"
+    "author": "dares2573 · 470 pts · 144 comments"
   },
   {
     "title": "Claudette: Make Claude stop talking like a BuzzFeed article",
@@ -60,7 +132,7 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-08-21T14:31:52",
-    "author": "aakil · 201 pts · 137 comments"
+    "author": "aakil · 209 pts · 148 comments"
   },
   {
     "title": "New Worlds: We are living in the future of J.G. Ballard or William Gibson",
@@ -69,7 +141,7 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-08-21T13:07:26",
-    "author": "speckx · 205 pts · 146 comments"
+    "author": "speckx · 208 pts · 154 comments"
   },
   {
     "title": "I'm becoming AI-blind",
@@ -78,7 +150,7 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-08-21T11:48:05",
-    "author": "rcymerys · 263 pts · 276 comments"
+    "author": "rcymerys · 280 pts · 288 comments"
   },
   {
     "title": "JetBrains详细阐述了控制AI支出快速增长的首批举措",
@@ -747,15 +819,6 @@
     "author": "Julie Bort"
   },
   {
-    "title": "The DOJ is investigating a16z. What does this mean for venture capital?",
-    "url": "https://techcrunch.com/podcast/the-doj-is-investigating-a16z-what-does-this-mean-for-venture-capital/",
-    "source": "TechCrunch AI",
-    "topic": "AI大事",
-    "region": "intl",
-    "published": "2026-08-21T14:00:00",
-    "author": "Theresa Loconsolo, Anthony Ha, Kirsten Korosec, Sean O'Kane"
-  },
-  {
     "title": "Starcloud raises $250 million for orbital data centers as launch options dry up",
     "url": "https://techcrunch.com/2026/08/21/starcloud-raises-200-million-for-orbital-data-centers-as-launch-options-dry-up/",
     "source": "TechCrunch AI",
@@ -763,6 +826,15 @@
     "region": "intl",
     "published": "2026-08-21T14:00:00",
     "author": "Tim Fernholz"
+  },
+  {
+    "title": "The DOJ is investigating a16z. What does this mean for venture capital?",
+    "url": "https://techcrunch.com/podcast/the-doj-is-investigating-a16z-what-does-this-mean-for-venture-capital/",
+    "source": "TechCrunch AI",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-08-21T14:00:00",
+    "author": "Theresa Loconsolo, Anthony Ha, Kirsten Korosec, Sean O'Kane"
   },
   {
     "title": "AI data startup Micro1 reaches $500M gross run rate amid AI training boom",
@@ -936,31 +1008,22 @@
     "author": ""
   },
   {
-    "title": "落地后烧了一把火，但中国这枚火箭依然赢麻了",
-    "url": "https://m.thepaper.cn/detail/33821925",
+    "title": "平陆运河船舶过闸试行收费标准发布",
+    "url": "https://m.thepaper.cn/detail/33831294",
     "source": "澎湃新闻",
     "topic": "世界时事",
     "region": "cn",
-    "published": "2026-08-22T01:20:37",
-    "author": ""
+    "published": "2026-08-22T02:05:54",
+    "author": "邓君洋/央视新闻"
   },
   {
-    "title": "美职联官方：梅西违规用手触碰对手，被处以未公开数额的罚款",
-    "url": "https://m.thepaper.cn/detail/33831161",
+    "title": "四年五次亲历俄乌之后，看到了战事怎样的未来？｜907编辑部",
+    "url": "https://m.thepaper.cn/detail/33819525",
     "source": "澎湃新闻",
     "topic": "世界时事",
     "region": "cn",
-    "published": "2026-08-22T01:08:22",
-    "author": "澎湃新闻记者 祁东 编辑 胡杰"
-  },
-  {
-    "title": "风向哪吹，马向哪追——内蒙古呼伦贝尔散记",
-    "url": "https://m.thepaper.cn/detail/33827418",
-    "source": "澎湃新闻",
-    "topic": "世界时事",
-    "region": "cn",
-    "published": "2026-08-22T00:56:35",
-    "author": "高子华"
+    "published": "2026-08-22T01:30:02",
+    "author": "澎湃新闻"
   },
   {
     "title": "兵韬志略｜美成立西半球联合特遣部队，刺向拉美的新“南方之矛”",
@@ -970,6 +1033,24 @@
     "region": "cn",
     "published": "2026-08-21T23:39:55",
     "author": "澎湃新闻特约撰稿 凌云志"
+  },
+  {
+    "title": "国际足联重罚阿根廷队 中场球员帕雷德斯被禁赛10场",
+    "url": "https://international.caixin.com/2026-08-22/102476752.html",
+    "source": "财新网",
+    "topic": "世界时事",
+    "region": "cn",
+    "published": "2026-08-22T02:18:03",
+    "author": ""
+  },
+  {
+    "title": "【周刊提前读】AI股票7月剧烈震荡 机构调仓显示市场分歧",
+    "url": "https://database.caixin.com/2026-08-22/102476722.html",
+    "source": "财新网",
+    "topic": "世界时事",
+    "region": "cn",
+    "published": "2026-08-22T00:40:23",
+    "author": ""
   },
   {
     "title": "两部委发文规范人民币买卖 允许和禁止的情形有哪些？",
@@ -987,33 +1068,6 @@
     "topic": "世界时事",
     "region": "cn",
     "published": "2026-08-21T13:56:06",
-    "author": ""
-  },
-  {
-    "title": "特朗普政府再度施压国际刑事法院 日籍院长赤根智子遭美制裁",
-    "url": "https://international.caixin.com/2026-08-21/102476605.html",
-    "source": "财新网",
-    "topic": "世界时事",
-    "region": "cn",
-    "published": "2026-08-21T11:49:33",
-    "author": ""
-  },
-  {
-    "title": "外资公募水土不服？富达基金回应退出中国：战略无变化",
-    "url": "https://finance.caixin.com/2026-08-21/102476589.html",
-    "source": "财新网",
-    "topic": "世界时事",
-    "region": "cn",
-    "published": "2026-08-21T11:35:32",
-    "author": ""
-  },
-  {
-    "title": "下周前瞻：美国拟“经济孤立”伊朗；沃什“首秀”杰克逊霍尔年会",
-    "url": "https://china.caixin.com/2026-08-21/102476552.html",
-    "source": "财新网",
-    "topic": "世界时事",
-    "region": "cn",
-    "published": "2026-08-21T10:37:19",
     "author": ""
   },
   {
@@ -1040,8 +1094,8 @@
     "source": "观察者网",
     "topic": "世界时事",
     "region": "cn",
-    "published": "2026-08-21T09:39:16",
-    "author": "刘程辉"
+    "published": "2026-08-21T09:39:14",
+    "author": ""
   },
   {
     "title": "瑞士松了一口气",
@@ -1170,22 +1224,22 @@
     "author": ""
   },
   {
-    "title": "Kobo can run apps now",
-    "url": "https://bandarlabs.github.io/Cobalt/",
-    "source": "HackerNews",
-    "topic": "技术圈",
-    "region": "intl",
-    "published": "2026-08-21T16:25:25",
-    "author": "thepoet · 431 pts · 145 comments"
-  },
-  {
     "title": "Felony Bench",
     "url": "https://www.felonybench.com/",
     "source": "HackerNews",
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-08-21T15:17:04",
-    "author": "colinprince · 520 pts · 225 comments"
+    "author": "colinprince · 547 pts · 229 comments"
+  },
+  {
+    "title": "Kobo can run apps now",
+    "url": "https://bandarlabs.github.io/Cobalt/",
+    "source": "HackerNews",
+    "topic": "技术圈",
+    "region": "intl",
+    "published": "2026-08-21T16:25:25",
+    "author": "thepoet · 446 pts · 149 comments"
   },
   {
     "title": "Kagi added a setting for removing paywalled links from search results",
@@ -1194,16 +1248,7 @@
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-08-21T13:56:37",
-    "author": "speckx · 1009 pts · 339 comments"
-  },
-  {
-    "title": "I accidentally logged hundreds of thousands of phone calls to military bases",
-    "url": "https://lina.sh/blog/hijacking-e164-arpa",
-    "source": "HackerNews",
-    "topic": "技术圈",
-    "region": "intl",
-    "published": "2026-08-21T13:11:28",
-    "author": "gavide · 444 pts · 50 comments"
+    "author": "speckx · 1024 pts · 346 comments"
   },
   {
     "title": "Felony charges for citizen deleting phone data at US Border",
@@ -1212,7 +1257,16 @@
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-08-21T12:10:13",
-    "author": "floathub · 552 pts · 726 comments"
+    "author": "floathub · 589 pts · 764 comments"
+  },
+  {
+    "title": "I accidentally logged hundreds of thousands of phone calls to military bases",
+    "url": "https://lina.sh/blog/hijacking-e164-arpa",
+    "source": "HackerNews",
+    "topic": "技术圈",
+    "region": "intl",
+    "published": "2026-08-21T13:11:28",
+    "author": "gavide · 457 pts · 52 comments"
   },
   {
     "title": "DeepSeek-v4-flash-vision-exp",
@@ -1221,7 +1275,7 @@
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-08-21T10:33:56",
-    "author": "dares2573 · 463 pts · 143 comments"
+    "author": "dares2573 · 470 pts · 144 comments"
   },
   {
     "title": "Claudette: Make Claude stop talking like a BuzzFeed article",
@@ -1230,7 +1284,7 @@
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-08-21T14:31:52",
-    "author": "aakil · 201 pts · 137 comments"
+    "author": "aakil · 209 pts · 148 comments"
   },
   {
     "title": "New Worlds: We are living in the future of J.G. Ballard or William Gibson",
@@ -1239,7 +1293,7 @@
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-08-21T13:07:26",
-    "author": "speckx · 205 pts · 146 comments"
+    "author": "speckx · 208 pts · 154 comments"
   },
   {
     "title": "I'm becoming AI-blind",
@@ -1248,7 +1302,7 @@
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-08-21T11:48:05",
-    "author": "rcymerys · 264 pts · 277 comments"
+    "author": "rcymerys · 281 pts · 290 comments"
   },
   {
     "title": "langchain-ai/langchain 发布 langchain-perplexity==1.4.1",
@@ -1303,95 +1357,5 @@
     "region": "intl",
     "published": "2026-08-21T09:36:39",
     "author": "timneutkens"
-  },
-  {
-    "title": "比亚迪大汉预售价 24.99 万元起！第三代唐同步亮相，内饰大变样",
-    "url": "https://www.ifanr.com/1675982?utm_source=rss&utm_medium=rss&utm_campaign=",
-    "source": "爱范儿",
-    "topic": "供应链",
-    "region": "cn",
-    "published": "2026-08-21T07:17:23",
-    "author": "李华"
-  },
-  {
-    "title": "[AINews] Muse Glimmer and Spark: Open Weights return Personal Superintelligence promise",
-    "url": "https://www.latent.space/p/ainews-muse-glimmer-and-spark-open",
-    "source": "Latent Space",
-    "topic": "供应链",
-    "region": "intl",
-    "published": "2026-08-11T05:16:41",
-    "author": ""
-  },
-  {
-    "title": "[AINews] AMD buys Taalas",
-    "url": "https://www.latent.space/p/ainews-amd-buys-taalas",
-    "source": "Latent Space",
-    "topic": "供应链",
-    "region": "intl",
-    "published": "2026-08-07T05:13:46",
-    "author": ""
-  },
-  {
-    "title": "[AINews] Jeff, Sanjay, Oriol, and Quoc depart DeepMind; Demis to Chair; Koray to SVP — what is going on at GDM???",
-    "url": "https://www.latent.space/p/ainews-jeff-sanjay-oriol-and-quoc",
-    "source": "Latent Space",
-    "topic": "供应链",
-    "region": "intl",
-    "published": "2026-08-06T04:34:11",
-    "author": "Latent.Space"
-  },
-  {
-    "title": "Patient Stratification for Improving Acute Chest Pain Management and Mitigating Emergency Department Crowding: Machine Learning Model Development and Validation.",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42628009/",
-    "source": "PubMed",
-    "topic": "心理学",
-    "region": "intl",
-    "published": "2026",
-    "author": "Chih-Chia Hsieh, Shao-Chung Chu, Jung-Ting Lee, Chih-Hao Lin"
-  },
-  {
-    "title": "Effects of Type and Timing of Clinician-Facing AI Support on Patient Trust in Medical Consultations: 2 Vignette Experiments.",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42627987/",
-    "source": "PubMed",
-    "topic": "心理学",
-    "region": "intl",
-    "published": "2026",
-    "author": "Insa Schaffernak, Julia Cecil, Eesha Kokje, Anne-Kathrin Kleine"
-  },
-  {
-    "title": "Gravitas and Sprezzatura: Renaissance Virtues for the Modern Craniofacial Surgeon.",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42627976/",
-    "source": "PubMed",
-    "topic": "心理学",
-    "region": "intl",
-    "published": "2026",
-    "author": "Kun Hwang"
-  },
-  {
-    "title": "Association Between the Dietary Inflammatory Index and Cognitive Frailty in Older Adults: A Cross Sectional Analysis of NHANES Data.",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42627964/",
-    "source": "PubMed",
-    "topic": "心理学",
-    "region": "intl",
-    "published": "2026",
-    "author": "Zihan Yi, Na Zhou, Zikejimu Sun, Xiaochu Liu"
-  },
-  {
-    "title": "Three-dimensional visualisation of activities of daily living for home modification planning (VisADLs) after spinal cord injury: stakeholder perspectives from a qualitative proof-of-concept study.",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42627954/",
-    "source": "PubMed",
-    "topic": "心理学",
-    "region": "intl",
-    "published": "2026",
-    "author": "Jessica Walker, Louise Gustafsson, Hannah Simmonds, Matthew McShane"
-  },
-  {
-    "title": "十年阅读历程，这是我的阅读工具推荐",
-    "url": "https://sspai.com/post/113567",
-    "source": "少数派",
-    "topic": "心理学",
-    "region": "cn",
-    "published": "2026-08-20T07:25:47",
-    "author": "ElijahLee"
   }
 ]

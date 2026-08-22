@@ -1,45 +1,43 @@
 {
   "date": "2026-08-22",
   "profile": "kizty",
-  "generated_at": "2026-08-22 01:36",
+  "generated_at": "2026-08-22 02:34",
   "stats": {
     "topics_ran": [
       "AI大事",
       "世界时事",
       "技术圈",
-      "GitHub 动态",
-      "供应链",
-      "心理学"
+      "GitHub 动态"
     ],
-    "total_selected": 34,
-    "total_fetched": 155
+    "total_selected": 27,
+    "total_fetched": 151
   },
   "top3": [
     {
-      "topic": "技术圈",
-      "title": "DeepSeek 发布 v4 Flash 视觉实验版",
-      "tldr": "DeepSeek 出了个带视觉能力的实验模型，能把图片转成 token 计费，自动缩放分辨率，但社区反馈读钟表这种精细任务还不行，OCR 精度也有限。",
+      "topic": "AI大事",
+      "title": "AI4AI-Bench：评测LLM智能体递归自我改进算法设计能力",
+      "tldr": "这篇论文发布了一个新基准测试，专门评测AI智能体能否自己改进训练算法。结果发现，最强的AI系统也只能完成不到五分之一的最优改进，说明AI自我改进这事还早得很。",
       "score": 9,
-      "url": "https://api-docs.deepseek.com/guides/vision/",
-      "source": "HackerNews",
+      "url": "http://arxiv.org/abs/2608.20318v1",
+      "source": "arXiv",
       "source_count": 1
     },
     {
       "topic": "AI大事",
-      "title": "ChatGPT 搜索大规模启用 site: 限定符",
-      "tldr": "ChatGPT 搜索在 GPT-5.6 更新后，自动使用 site: 限定符的查询比例从不到 0.5% 暴涨到 16% 以上，说明 OpenAI 正在大幅调整搜索策略，同时减少对 Reddit 等特定来源的依赖。",
+      "title": "前沿模型成本与开源权重崛起推动模型路由需求",
+      "tldr": "Glean 公司靠模型路由帮企业省钱，自动为每个任务选最合适的模型，甚至不用 LLM 也能解决。他们 ARR 三年涨三倍，还宣称比 Claude Code 便宜四倍，核心逻辑就是成本驱动。",
       "score": 9,
-      "url": "https://simonwillison.net/2026/Aug/20/chatgpt-search-now-uses-the-siteoperator-at-scale/",
-      "source": "Simon Willison",
+      "url": "https://www.latent.space/p/glean-model-routing",
+      "source": "Latent Space",
       "source_count": 1
     },
     {
-      "topic": "世界时事",
-      "title": "被台积电断供后，华为如何昇腾",
-      "tldr": "观察者网对话浙大教授方兴东，聊华为昇腾在被台积电断供后，如何从单卡追赶转向系统突围，以及国产算力在制造、生态、软硬协同上的现状和挑战。",
-      "score": 8,
-      "url": "https://www.guancha.cn/FangXingDong/2026_08_19_827910_s.shtml",
-      "source": "观察者网",
+      "topic": "技术圈",
+      "title": "DeepSeek 发布 v4-flash 视觉实验版",
+      "tldr": "DeepSeek 新出的 v4-flash-vision-exp 模型终于支持真·图片识别了，之前模型老假装自己能看图，现在能直接处理截图和文档，但分辨率上限和时钟识别还有坑。",
+      "score": 9,
+      "url": "https://api-docs.deepseek.com/guides/vision/",
+      "source": "HackerNews",
       "source_count": 1
     }
   ]
