@@ -1,0 +1,45 @@
+{
+  "date": "2026-08-23",
+  "profile": "kizty",
+  "generated_at": "2026-08-23 01:37",
+  "stats": {
+    "topics_ran": [
+      "AI大事",
+      "世界时事",
+      "技术圈",
+      "GitHub 动态",
+      "供应链"
+    ],
+    "total_selected": 22,
+    "total_fetched": 123
+  },
+  "top3": [
+    {
+      "topic": "AI大事",
+      "title": "DeepMind 校友创办的 Inherent 称其 AI 智能体在复现研究上超越 Anthropic 和 OpenAI",
+      "tldr": "英国 AI 实验室 Inherent 由 DeepMind 校友创办，发布了一个叫 Faraday 的 AI 智能体，能自动复现科研论文的实验结果，据称表现超过了 Anthropic 和 OpenAI 的同类产品。",
+      "score": 9,
+      "url": "https://techcrunch.com/2026/08/22/inherent-founded-by-deepmind-alumni-says-its-ai-teammate-just-outperformed-anthropic-and-openai-at-replicating-research/",
+      "source": "TechCrunch AI",
+      "source_count": 1
+    },
+    {
+      "topic": "供应链",
+      "title": "Windows 是 AI PC 路上的绊脚石",
+      "tldr": "微软开始优化 Windows 在 8GB 内存设备上的表现，因为 AI 推高内存价格，硬件升级盖不住系统臃肿了。文章拆解了 Windows 变重的五个原因，本质是历史兼容和商业扩张叠加的必然结果。",
+      "score": 9,
+      "url": "https://www.ifanr.com/1676189?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "source": "爱范儿",
+      "source_count": 1
+    },
+    {
+      "topic": "世界时事",
+      "title": "中美AI军备竞赛究竟在比什么",
+      "tldr": "文章对比中美AI竞赛的两种路线：美国押注前沿技术突破，中国侧重低成本普及应用，并分析哪条路更能建立长期优势。",
+      "score": 8,
+      "url": "https://www.bbc.com/zhongwen/articles/cn5n9kqd5vvo/trad?at_medium=RSS&at_campaign=rss",
+      "source": "BBC 中文",
+      "source_count": 1
+    }
+  ]
+}
