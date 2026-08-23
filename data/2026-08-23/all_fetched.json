@@ -1,12 +1,84 @@
 [
   {
+    "title": "ConceptGuard: Benchmarking Context-Sensitive Unlearning in Large Language Models",
+    "url": "http://arxiv.org/abs/2608.20338v1",
+    "source": "arXiv",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-08-20T17:59:57",
+    "author": "Sahil Kale, Ian Harris"
+  },
+  {
+    "title": "An Agentic Approach for Active Data Collection, Travel Behavior Modeling, and Weather-Sensitive Demand Prediction",
+    "url": "http://arxiv.org/abs/2608.20320v1",
+    "source": "arXiv",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-08-20T17:57:42",
+    "author": "Narges Ahmadi, Yubo Jiao, Jônatas Augusto Manzolli, Jiangbo Yu, Luis Miranda-Moreno"
+  },
+  {
+    "title": "AI4AI-Bench: Benchmarking LLM Agents in Algorithmic Design for Recursive Self-Improvement",
+    "url": "http://arxiv.org/abs/2608.20318v1",
+    "source": "arXiv",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-08-20T17:56:59",
+    "author": "Yizhe Chi, Wenyi Li, Deyao Hong, Xiaoqiu Wang, Mingju Gao, Kaisen Yang, Bingxiang He, Youjie Zheng, Calvin Xiao, Qinhuai Na"
+  },
+  {
+    "title": "Pandora's AI Model Routing Box: Efficient Allocation with Costly Value Estimation",
+    "url": "http://arxiv.org/abs/2608.20316v1",
+    "source": "arXiv",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-08-20T17:54:37",
+    "author": "Adam Fisch, Shubhendu Trivedi, Fantine Huot, William W. Cohen, Michael Kaisers, Mirella Lapata, Kate Larson, Jacob Eisenstein"
+  },
+  {
+    "title": "MidTool: Mid-training Data Synthesis for Agentic Tool Use",
+    "url": "http://arxiv.org/abs/2608.20314v1",
+    "source": "arXiv",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-08-20T17:53:59",
+    "author": "Fengqing Jiang, Yite Wang, Boyi Liu, Zhaoyang Wang, Canwen Xu, Zhewei Yao, Radha Poovendran, Yuxiong He"
+  },
+  {
+    "title": "Calibration-Induced Degeneracy in LLM Financial Forecasting: An Audit-Trailed Case Study on Next-Day Market Risk",
+    "url": "http://arxiv.org/abs/2608.20304v1",
+    "source": "arXiv",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-08-20T17:42:21",
+    "author": "Arin Mohanty"
+  },
+  {
+    "title": "Inject, Align, Recover: Staged Post-Training for Retrieval-Free Document Knowledge Internalization",
+    "url": "http://arxiv.org/abs/2608.20281v1",
+    "source": "arXiv",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-08-20T17:14:24",
+    "author": "Qian Kou, Xiaofeng Shi, Xiaosong Qiu, Hua Zhou"
+  },
+  {
+    "title": "Which Eviction Policy Should an LLM Cache Use? A Systematic Study Across Workloads, Capacities, and Encoders",
+    "url": "http://arxiv.org/abs/2608.20280v1",
+    "source": "arXiv",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-08-20T17:14:19",
+    "author": "Yash Kulkarni, Shubham Harkare, Arvind Suresh Yogesh Babu"
+  },
+  {
     "title": "Scrap (2006)",
     "url": "https://twitter.com/moxie/status/2091218652133732491",
     "source": "HackerNews",
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-08-22T18:08:56",
-    "author": "tosh · 312 pts · 176 comments"
+    "author": "tosh · 322 pts · 177 comments"
   },
   {
     "title": "ElevenLabs, TwelveLabs, ThirteenLabs",
@@ -15,7 +87,16 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-08-22T14:54:07",
-    "author": "jemoka · 300 pts · 101 comments"
+    "author": "jemoka · 321 pts · 101 comments"
+  },
+  {
+    "title": "A Friendly Introduction to Racket",
+    "url": "https://geometridae.bearblog.dev/a-friendly-introduction-to-racket/",
+    "source": "HackerNews",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-08-22T14:08:19",
+    "author": "signa11 · 200 pts · 102 comments"
   },
   {
     "title": "Munder Difflin – Agent harness to run an office of your clones",
@@ -24,7 +105,7 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-08-22T09:49:14",
-    "author": "simonpure · 249 pts · 114 comments"
+    "author": "simonpure · 255 pts · 115 comments"
   },
   {
     "title": "Canada will match US tariffs 'dollar for dollar' as trade talks break down",
@@ -33,7 +114,7 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-08-22T06:16:57",
-    "author": "tartoran · 483 pts · 1223 comments"
+    "author": "tartoran · 500 pts · 1253 comments"
   },
   {
     "title": "Rust Glancer: Rust LSP using 100x less RAM",
@@ -42,7 +123,7 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-08-21T19:51:54",
-    "author": "matklad · 395 pts · 97 comments"
+    "author": "matklad · 399 pts · 97 comments"
   },
   {
     "title": "Cloudflare 推出 Agent Tracing：支持截断限制，不同框架的 Payload 默认记录策略存在差异",
@@ -720,15 +801,6 @@
     "author": "Julie Bort"
   },
   {
-    "title": "The DOJ is investigating a16z. What does this mean for venture capital?",
-    "url": "https://techcrunch.com/podcast/the-doj-is-investigating-a16z-what-does-this-mean-for-venture-capital/",
-    "source": "TechCrunch AI",
-    "topic": "AI大事",
-    "region": "intl",
-    "published": "2026-08-21T14:00:00",
-    "author": "Theresa Loconsolo, Anthony Ha, Kirsten Korosec, Sean O'Kane"
-  },
-  {
     "title": "Starcloud raises $250 million for orbital data centers as launch options dry up",
     "url": "https://techcrunch.com/2026/08/21/starcloud-raises-200-million-for-orbital-data-centers-as-launch-options-dry-up/",
     "source": "TechCrunch AI",
@@ -736,6 +808,15 @@
     "region": "intl",
     "published": "2026-08-21T14:00:00",
     "author": "Tim Fernholz"
+  },
+  {
+    "title": "The DOJ is investigating a16z. What does this mean for venture capital?",
+    "url": "https://techcrunch.com/podcast/the-doj-is-investigating-a16z-what-does-this-mean-for-venture-capital/",
+    "source": "TechCrunch AI",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-08-21T14:00:00",
+    "author": "Theresa Loconsolo, Anthony Ha, Kirsten Korosec, Sean O'Kane"
   },
   {
     "title": "AI data startup Micro1 reaches $500M gross run rate amid AI training boom",
@@ -873,6 +954,204 @@
     "author": ""
   },
   {
+    "title": "泽连斯基家乡购物中心遇袭致百人死伤，欧洲有意加快对乌军援",
+    "url": "https://m.thepaper.cn/detail/33834967",
+    "source": "澎湃新闻",
+    "topic": "世界时事",
+    "region": "cn",
+    "published": "2026-08-23T02:27:22",
+    "author": "澎湃新闻记者 南博一"
+  },
+  {
+    "title": "上海为世界技能大赛扩充城市推荐官队伍，涵盖多语种文旅讲解",
+    "url": "https://m.thepaper.cn/detail/33834866",
+    "source": "澎湃新闻",
+    "topic": "世界时事",
+    "region": "cn",
+    "published": "2026-08-23T02:20:52",
+    "author": "澎湃新闻高级记者 邹娟 见习记者 洪旭东"
+  },
+  {
+    "title": "未来三天南方沿海雨势强劲，中东部闷热天气仍将持续",
+    "url": "https://m.thepaper.cn/detail/33834725",
+    "source": "澎湃新闻",
+    "topic": "世界时事",
+    "region": "cn",
+    "published": "2026-08-23T02:10:44",
+    "author": "中国天气网"
+  },
+  {
+    "title": "活力中国调研行｜厦门首店经济激活城市消费新动能",
+    "url": "https://m.thepaper.cn/detail/33834840",
+    "source": "澎湃新闻",
+    "topic": "世界时事",
+    "region": "cn",
+    "published": "2026-08-23T02:10:27",
+    "author": "澎湃新闻记者 王选辉"
+  },
+  {
+    "title": "《欢迎来龙餐馆》：战事之下安有完卵，好好吃饭已成奢侈｜影视",
+    "url": "https://mini.caixin.com/2026-08-23/102477106.html",
+    "source": "财新网",
+    "topic": "世界时事",
+    "region": "cn",
+    "published": "2026-08-23T02:39:09",
+    "author": ""
+  },
+  {
+    "title": "财新闻｜旗下奶粉被控致病，美国雅培：将赔偿6.7亿美元",
+    "url": "https://mini.caixin.com/2026-08-23/102477084.html",
+    "source": "财新网",
+    "topic": "世界时事",
+    "region": "cn",
+    "published": "2026-08-23T01:39:12",
+    "author": ""
+  },
+  {
+    "title": "王君：零工经济与社保第一支柱，从雇佣依附到普遍保障",
+    "url": "https://opinion.caixin.com/2026-08-23/102477076.html",
+    "source": "财新网",
+    "topic": "世界时事",
+    "region": "cn",
+    "published": "2026-08-23T00:11:09",
+    "author": ""
+  },
+  {
+    "title": "美加关税磋商最后关头流局 美国新关税即时生效",
+    "url": "https://international.caixin.com/2026-08-22/102477026.html",
+    "source": "财新网",
+    "topic": "世界时事",
+    "region": "cn",
+    "published": "2026-08-22T14:41:45",
+    "author": ""
+  },
+  {
+    "title": "【公司速递】天孚通信二季度利润明显修复 上游光芯片瓶颈仍待解",
+    "url": "https://database.caixin.com/2026-08-22/102477024.html",
+    "source": "财新网",
+    "topic": "世界时事",
+    "region": "cn",
+    "published": "2026-08-22T13:46:07",
+    "author": ""
+  },
+  {
+    "title": "大西洋观察｜美加关系斗而不破",
+    "url": "https://international.caixin.com/2026-08-22/102476913.html",
+    "source": "财新网",
+    "topic": "世界时事",
+    "region": "cn",
+    "published": "2026-08-22T08:50:04",
+    "author": ""
+  },
+  {
+    "title": "空客：AI硬件代替跨境电商成为货运增量",
+    "url": "https://companies.caixin.com/2026-08-22/102476830.html",
+    "source": "财新网",
+    "topic": "世界时事",
+    "region": "cn",
+    "published": "2026-08-22T05:28:33",
+    "author": ""
+  },
+  {
+    "title": "国际足联重罚阿根廷队 中场球员帕雷德斯被禁赛10场",
+    "url": "https://international.caixin.com/2026-08-22/102476752.html",
+    "source": "财新网",
+    "topic": "世界时事",
+    "region": "cn",
+    "published": "2026-08-22T02:18:03",
+    "author": ""
+  },
+  {
+    "title": "卡尼强硬回击：特朗普误判，加拿大与美国“开战”",
+    "url": "https://www.guancha.cn/internation/2026_08_23_828271_s.shtml",
+    "source": "观察者网",
+    "topic": "世界时事",
+    "region": "cn",
+    "published": "2026-08-22T23:04:07",
+    "author": ""
+  },
+  {
+    "title": "中国在APEC推动一件大事：以AI保护粮食安全",
+    "url": "https://www.guancha.cn/internation/2026_08_22_828250_s.shtml",
+    "source": "观察者网",
+    "topic": "世界时事",
+    "region": "cn",
+    "published": "2026-08-22T09:54:37",
+    "author": ""
+  },
+  {
+    "title": "“美国想管中国跟谁做生意？中方绝不答应”",
+    "url": "https://www.guancha.cn/internation/2026_08_22_828222_s.shtml",
+    "source": "观察者网",
+    "topic": "世界时事",
+    "region": "cn",
+    "published": "2026-08-22T04:09:28",
+    "author": ""
+  },
+  {
+    "title": "特朗普“敲打”韩国，李在明为何反而叫好？",
+    "url": "https://www.guancha.cn/internation/2026_08_22_828189_s.shtml",
+    "source": "观察者网",
+    "topic": "世界时事",
+    "region": "cn",
+    "published": "2026-08-21T23:15:21",
+    "author": ""
+  },
+  {
+    "title": "美国对华关上的大门，该打开了",
+    "url": "https://www.guancha.cn/internation/2026_08_21_828169_s.shtml",
+    "source": "观察者网",
+    "topic": "世界时事",
+    "region": "cn",
+    "published": "2026-08-21T12:41:40",
+    "author": ""
+  },
+  {
+    "title": "重启军演、开放中国援建基地，美柬为何突然走近？",
+    "url": "https://www.guancha.cn/internation/2026_08_21_828140_s.shtml",
+    "source": "观察者网",
+    "topic": "世界时事",
+    "region": "cn",
+    "published": "2026-08-21T09:39:14",
+    "author": ""
+  },
+  {
+    "title": "瑞士松了一口气",
+    "url": "https://www.guancha.cn/internation/2026_08_21_828108_s.shtml",
+    "source": "观察者网",
+    "topic": "世界时事",
+    "region": "cn",
+    "published": "2026-08-21T06:27:34",
+    "author": ""
+  },
+  {
+    "title": "美方警告“不许中美通吃”，哈萨克斯坦会怎么选？",
+    "url": "https://www.guancha.cn/internation/2026_08_21_828072_s.shtml",
+    "source": "观察者网",
+    "topic": "世界时事",
+    "region": "cn",
+    "published": "2026-08-21T01:24:44",
+    "author": ""
+  },
+  {
+    "title": "贝森特施压中国，扬言“要么站一起，要么为敌”",
+    "url": "https://www.guancha.cn/internation/2026_08_21_828057_s.shtml",
+    "source": "观察者网",
+    "topic": "世界时事",
+    "region": "cn",
+    "published": "2026-08-20T23:02:38",
+    "author": ""
+  },
+  {
+    "title": "韩国光复节，年轻人要把亲日派放在手里“捏爆”",
+    "url": "https://www.guancha.cn/internation/2026_08_20_828042_s.shtml",
+    "source": "观察者网",
+    "topic": "世界时事",
+    "region": "cn",
+    "published": "2026-08-20T13:33:34",
+    "author": ""
+  },
+  {
     "title": "霍爾木茲海峽動盪，如何在巴拿馬運河引發中美角力？",
     "url": "https://www.bbc.com/zhongwen/articles/cdj013krm3no/trad?at_medium=RSS&at_campaign=rss",
     "source": "BBC 中文",
@@ -942,7 +1221,7 @@
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-08-22T18:08:56",
-    "author": "tosh · 313 pts · 176 comments"
+    "author": "tosh · 322 pts · 177 comments"
   },
   {
     "title": "ElevenLabs, TwelveLabs, ThirteenLabs",
@@ -951,7 +1230,16 @@
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-08-22T14:54:07",
-    "author": "jemoka · 302 pts · 101 comments"
+    "author": "jemoka · 322 pts · 101 comments"
+  },
+  {
+    "title": "A Friendly Introduction to Racket",
+    "url": "https://geometridae.bearblog.dev/a-friendly-introduction-to-racket/",
+    "source": "HackerNews",
+    "topic": "技术圈",
+    "region": "intl",
+    "published": "2026-08-22T14:08:19",
+    "author": "signa11 · 200 pts · 102 comments"
   },
   {
     "title": "Munder Difflin – Agent harness to run an office of your clones",
@@ -960,7 +1248,7 @@
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-08-22T09:49:14",
-    "author": "simonpure · 250 pts · 114 comments"
+    "author": "simonpure · 256 pts · 115 comments"
   },
   {
     "title": "Canada will match US tariffs 'dollar for dollar' as trade talks break down",
@@ -969,7 +1257,7 @@
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-08-22T06:16:57",
-    "author": "tartoran · 483 pts · 1224 comments"
+    "author": "tartoran · 501 pts · 1256 comments"
   },
   {
     "title": "Rust Glancer: Rust LSP using 100x less RAM",
@@ -978,7 +1266,7 @@
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-08-21T19:51:54",
-    "author": "matklad · 395 pts · 97 comments"
+    "author": "matklad · 399 pts · 97 comments"
   },
   {
     "title": "anthropics/claude-code 发布 v2.1.241",
@@ -1006,104 +1294,5 @@
     "region": "intl",
     "published": "2026-08-22T23:45:43",
     "author": "next-js-bot[bot]"
-  },
-  {
-    "title": "Well-Being in First Person: A Relational Construction of Psychological Well-Being Among Young People With Intellectual Disabilities.",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42630108/",
-    "source": "PubMed",
-    "topic": "心理学",
-    "region": "intl",
-    "published": "2026",
-    "author": "Javier Piñeiro-Cossio, Paz Cancino, Ignacia Celis, Saray Santana"
-  },
-  {
-    "title": "Telestroke Care in Resource - Limited Settings: A World Stroke Organization (WSO) scientific statement.",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42630091/",
-    "source": "PubMed",
-    "topic": "心理学",
-    "region": "intl",
-    "published": "2026",
-    "author": "Christine Tunkl, Leonardo Augusto Carbonera, Gordian Jan Hubert, Ayush Agarwal"
-  },
-  {
-    "title": "Summarizing the Experiences of Individuals Who Have Obesity or Larger Bodies Seeking Fertility Care: A Scoping Review.",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42630067/",
-    "source": "PubMed",
-    "topic": "心理学",
-    "region": "intl",
-    "published": "2026",
-    "author": "Brooke J Hebert, Hanna Randhawa, Virginie Blanchette, Kristi B Adamo"
-  },
-  {
-    "title": "Making the Case for Organ-on-Chip Platforms in Long-Acting Therapeutics Development.",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42629977/",
-    "source": "PubMed",
-    "topic": "心理学",
-    "region": "intl",
-    "published": "2026",
-    "author": "Charlie Gowans, Abdulwahhab Khedr, Panagiotis G Georgiou, Nehir Arik"
-  },
-  {
-    "title": "Impact of Molecular Alterations on Survival in Biliary Tract Cancers: A Retrospective Belgian Cohort Study.",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42629972/",
-    "source": "PubMed",
-    "topic": "心理学",
-    "region": "intl",
-    "published": "2026",
-    "author": "Jorine Arnouts, Léon C van Kempen, Senada Koljenović, Helena Oliveres"
-  },
-  {
-    "title": "十年阅读历程，这是我的阅读工具推荐",
-    "url": "https://sspai.com/post/113567",
-    "source": "少数派",
-    "topic": "心理学",
-    "region": "cn",
-    "published": "2026-08-20T07:25:47",
-    "author": "ElijahLee"
-  },
-  {
-    "title": "Windows 是 AI PC 路上的绊脚石",
-    "url": "https://www.ifanr.com/1676189?utm_source=rss&utm_medium=rss&utm_campaign=",
-    "source": "爱范儿",
-    "topic": "供应链",
-    "region": "cn",
-    "published": "2026-08-22T10:00:42",
-    "author": "柯铭源"
-  },
-  {
-    "title": "比亚迪大汉预售价 24.99 万元起！第三代唐同步亮相，内饰大变样",
-    "url": "https://www.ifanr.com/1675982?utm_source=rss&utm_medium=rss&utm_campaign=",
-    "source": "爱范儿",
-    "topic": "供应链",
-    "region": "cn",
-    "published": "2026-08-21T07:17:23",
-    "author": "李华"
-  },
-  {
-    "title": "[AINews] Muse Glimmer and Spark: Open Weights return Personal Superintelligence promise",
-    "url": "https://www.latent.space/p/ainews-muse-glimmer-and-spark-open",
-    "source": "Latent Space",
-    "topic": "供应链",
-    "region": "intl",
-    "published": "2026-08-11T05:16:41",
-    "author": ""
-  },
-  {
-    "title": "[AINews] AMD buys Taalas",
-    "url": "https://www.latent.space/p/ainews-amd-buys-taalas",
-    "source": "Latent Space",
-    "topic": "供应链",
-    "region": "intl",
-    "published": "2026-08-07T05:13:46",
-    "author": ""
-  },
-  {
-    "title": "[AINews] Jeff, Sanjay, Oriol, and Quoc depart DeepMind; Demis to Chair; Koray to SVP — what is going on at GDM???",
-    "url": "https://www.latent.space/p/ainews-jeff-sanjay-oriol-and-quoc",
-    "source": "Latent Space",
-    "topic": "供应链",
-    "region": "intl",
-    "published": "2026-08-06T04:34:11",
-    "author": "Latent.Space"
   }
 ]

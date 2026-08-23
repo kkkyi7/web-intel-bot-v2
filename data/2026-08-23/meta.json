@@ -1,44 +1,43 @@
 {
   "date": "2026-08-23",
   "profile": "kizty",
-  "generated_at": "2026-08-23 01:37",
+  "generated_at": "2026-08-23 02:43",
   "stats": {
     "topics_ran": [
       "AI大事",
       "世界时事",
       "技术圈",
-      "GitHub 动态",
-      "供应链"
+      "GitHub 动态"
     ],
     "total_selected": 22,
-    "total_fetched": 123
+    "total_fetched": 144
   },
   "top3": [
     {
       "topic": "AI大事",
-      "title": "DeepMind 校友创办的 Inherent 称其 AI 智能体在复现研究上超越 Anthropic 和 OpenAI",
-      "tldr": "英国 AI 实验室 Inherent 由 DeepMind 校友创办，发布了一个叫 Faraday 的 AI 智能体，能自动复现科研论文的实验结果，据称表现超过了 Anthropic 和 OpenAI 的同类产品。",
+      "title": "Superpowers：编码智能体的技能框架与开发方法论",
+      "tldr": "这是一个给 AI 编码智能体用的完整开发方法论框架，让智能体从写代码前先问清需求、出设计文档、按 TDD 节奏执行，还能自主跑两小时不跑偏。",
       "score": 9,
-      "url": "https://techcrunch.com/2026/08/22/inherent-founded-by-deepmind-alumni-says-its-ai-teammate-just-outperformed-anthropic-and-openai-at-replicating-research/",
-      "source": "TechCrunch AI",
+      "url": "https://github.com/obra/superpowers",
+      "source": "GitHub Trending",
       "source_count": 1
     },
     {
-      "topic": "供应链",
-      "title": "Windows 是 AI PC 路上的绊脚石",
-      "tldr": "微软开始优化 Windows 在 8GB 内存设备上的表现，因为 AI 推高内存价格，硬件升级盖不住系统臃肿了。文章拆解了 Windows 变重的五个原因，本质是历史兼容和商业扩张叠加的必然结果。",
+      "topic": "AI大事",
+      "title": "模拟正在接管AI：差10%，便宜100倍，快10000倍",
+      "tldr": "这篇文章讲AI训练流程从2022年起逐步用模型替代人类，从奖励信号、训练数据、教师模型到课程设计，每个环节都变成\"模拟\"，虽然质量差10%，但便宜100倍、快10000倍。",
       "score": 9,
-      "url": "https://www.ifanr.com/1676189?utm_source=rss&utm_medium=rss&utm_campaign=",
-      "source": "爱范儿",
+      "url": "https://www.latent.space/p/ainews-10-worse-100x-cheaper-10000x",
+      "source": "Latent Space",
       "source_count": 1
     },
     {
       "topic": "世界时事",
-      "title": "中美AI军备竞赛究竟在比什么",
-      "tldr": "文章对比中美AI竞赛的两种路线：美国押注前沿技术突破，中国侧重低成本普及应用，并分析哪条路更能建立长期优势。",
+      "title": "美国对华关上的大门，该打开了",
+      "tldr": "观察者网系统梳理了近十年美国对华经贸限制，从关税、华为、半导体到TikTok，指出美方以安全为名行保护主义之实，呼吁重新开放公平竞争。",
       "score": 8,
-      "url": "https://www.bbc.com/zhongwen/articles/cn5n9kqd5vvo/trad?at_medium=RSS&at_campaign=rss",
-      "source": "BBC 中文",
+      "url": "https://www.guancha.cn/internation/2026_08_21_828169_s.shtml",
+      "source": "观察者网",
       "source_count": 1
     }
   ]
