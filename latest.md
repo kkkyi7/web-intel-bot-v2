@@ -1,47 +1,45 @@
-# 情报 Brief · 2026-08-23
+# 情报 Brief · 2026-08-24
 
 ## 今日 TOP3
 
-1. **Superpowers：编码智能体的技能框架与开发方法论** · 分9
-   这是一个给 AI 编码智能体用的完整开发方法论框架，让智能体从写代码前先问清需求、出设计文档、按 TDD 节奏执行，还能自主跑两小时不跑偏。
-   https://github.com/obra/superpowers
+1. **DeepMind 校友创办的 Inherent 称其 AI 队友复现研究能力超越 Anthropic 和 OpenAI** · 分9
+   DeepMind 校友创办的英国实验室 Inherent 发布了一个叫 Faraday 的 AI 智能体，专门用来复现科学论文的实验结果，宣称在这项任务上比 Anthropic 和 OpenAI 的模型做得更好。
+   https://techcrunch.com/2026/08/22/inherent-founded-by-deepmind-alumni-says-its-ai-teammate-just-outperformed-anthropic-and-openai-at-replicating-research/
 
-2. **模拟正在接管AI：差10%，便宜100倍，快10000倍** · 分9
-   这篇文章讲AI训练流程从2022年起逐步用模型替代人类，从奖励信号、训练数据、教师模型到课程设计，每个环节都变成"模拟"，虽然质量差10%，但便宜100倍、快10000倍。
-   https://www.latent.space/p/ainews-10-worse-100x-cheaper-10000x
+2. **Anthropic 最强模型难获用户，便宜工具反而吃香** · 分9 · 2信源
+   Anthropic 把最强模型 Fable 放进高价套餐还限制用量，用户嫌贵又嫌麻烦，转头用更便宜的竞品，导致最强模型叫好不叫座。
+   https://www.ft.com/content/5ee49718-c258-4f01-aa32-7e5b76ae5245
 
-3. **美国对华关上的大门，该打开了** · 分8
-   观察者网系统梳理了近十年美国对华经贸限制，从关税、华为、半导体到TikTok，指出美方以安全为名行保护主义之实，呼吁重新开放公平竞争。
-   https://www.guancha.cn/internation/2026_08_21_828169_s.shtml
+3. **国常会部署整治大企业拖欠中小企业账款** · 分8
+   国常会开会说要大力整治大企业拖欠中小企业账款，打通连环清链条，健全账期规则，强化支付监管，严防新增拖欠，同时还有消费贷贴息扩围和英伟达服务器涨价的消息。
+   https://finance.caixin.com/2026-08-24/102477209.html
 
 ## 今日精选
 
 ### AI大事
-- [llm 0.33 发布说明](https://simonwillison.net/2026/Aug/22/llm/) · Simon Willison · 分9
-  开发者工具 llm 发布 0.33 版本，升级了底层库，给嵌入模型加了独立的 key 支持，还能把多个模板串起来用，方便组合模型和参数。
-- [Munder Difflin：用一群AI克隆体开一间办公室](https://munderdiffl.in/) · HackerNews · 分9
-  一个叫Munder Difflin的开源工具，让你本地跑一群AI代理模拟办公室协作，不烧token，一周两万用户，用《办公室》的梗来映射多代理系统的混乱。
-- [模拟正在接管AI：差10%，便宜100倍，快10000倍](https://www.latent.space/p/ainews-10-worse-100x-cheaper-10000x) · Latent Space · 分9
-  这篇文章讲AI训练流程从2022年起逐步用模型替代人类，从奖励信号、训练数据、教师模型到课程设计，每个环节都变成"模拟"，虽然质量差10%，但便宜100倍、快10000倍。
-- [ChatGPT 搜索大规模启用 site: 限定符](https://simonwillison.net/2026/Aug/20/chatgpt-search-now-uses-the-siteoperator-at-scale/) · Simon Willison · 分9
-  OpenAI 在 GPT-5.6 更新后，让 ChatGPT 搜索大量自动使用 site: 语法来限定来源网站，Reddit 被引用的比例明显下降，这背后是生成式引擎优化（GEO）这个新赛道的兴起。
-- [AI4AI-Bench：评测LLM智能体递归自我改进的算法设计能力](http://arxiv.org/abs/2608.20318v1) · arXiv · 分9
-  这篇论文发布了一个叫AI4AI-Bench的基准测试，专门检验AI智能体能不能自己改进训练算法。结果发现，目前最强的系统也只能完成不到五分之一的最优改进，说明AI自我改进这条路还非常早期。
-- [Superpowers：编码智能体的技能框架与开发方法论](https://github.com/obra/superpowers) · GitHub Trending · 分9
-  这是一个给 AI 编码智能体用的完整开发方法论框架，让智能体从写代码前先问清需求、出设计文档、按 TDD 节奏执行，还能自主跑两小时不跑偏。
-- [DeepMind 校友创办的 Inherent 称其 AI 智能体在复现研究上超越 Anthropic 与 OpenAI](https://techcrunch.com/2026/08/22/inherent-founded-by-deepmind-alumni-says-its-ai-teammate-just-outperformed-anthropic-and-openai-at-replicating-research/) · TechCrunch AI · 分8
-  一家英国 AI 实验室发布了名为 Faraday 的 AI 智能体，专门用来复现科学论文的实验结果，声称在这项任务上比 Anthropic 和 OpenAI 的模型表现更好，可能是科研自动化的一个关键…
+- [Fable 与免费午餐的终结](https://simonwillison.net/2026/Aug/23/drew-breunig/) · Simon Willison · 分9
+  Drew Breunig 说以前没必要优化编码工作流，因为新模型总会更便宜更强。但 Anthropic 的 Fable 太贵了，逼着团队开始认真分配哪些活该用贵模型、哪些用便宜模型。
+- [什么是 Harness：AI 代理的底层框架](https://earendil.com/posts/what-is-a-harness/) · HackerNews · 分9
+  HN 上关于 AI 代理开发中 Harness 概念的讨论，指连接模型与工具、控制代理行为的中间层框架，被认为是继 Agent 之后的下一个关键抽象层。
+- [DeepMind 校友创办的 Inherent 称其 AI 队友复现研究能力超越 Anthropic 和 OpenAI](https://techcrunch.com/2026/08/22/inherent-founded-by-deepmind-alumni-says-its-ai-teammate-just-outperformed-anthropic-and-openai-at-replicating-research/) · TechCrunch AI · 分9
+  DeepMind 校友创办的英国实验室 Inherent 发布了一个叫 Faraday 的 AI 智能体，专门用来复现科学论文的实验结果，宣称在这项任务上比 Anthropic 和 OpenAI 的模…
+- [模拟正在取代一切：便宜百倍快万倍](https://www.latent.space/p/ainews-10-worse-100x-cheaper-10000x) · Latent Space · 分9
+  这篇文章讲AI训练流程从奖励、数据、老师到课程，每年都有一个人工环节被模型自己取代。核心观点是：模型生成的东西虽然比人类做的差10%，但便宜100倍、快10000倍，所以模拟正在接管AI生产流水线。
+- [Superpowers：编码代理的完整开发方法论](https://github.com/obra/superpowers) · GitHub Trending · 分9
+  这是一个给 AI 编码代理用的技能框架和开发方法论，让代理先问清需求、再写代码，通过子代理分工和测试驱动开发，实现数小时自主工作。
 
 ### 技术圈
-- [Rust Glancer：内存占用仅百分之一的 Rust LSP](https://rust-glancer.github.io/blog/hello-world/) · HackerNews · 分9
-  Rust 社区出了个新 LSP 叫 Glancer，内存占用只有 rust-analyzer 的百分之一。作者用 LLM 辅助开发，还引发了关于 AI 写代码责任边界的讨论。对做开发工具和 AI 应用…
-
-### GitHub 动态
-- [Claude Code 发布 v2.1.241 修复更新](https://github.com/anthropics/claude-code/releases/tag/v2.1.241) · GitHubRelease · 分8
-  Claude Code 这个 AI 编程工具发了个小版本更新，主要修 bug 和提升稳定性，没有新功能，但对日常用的人来说体验会更顺。
+- [Anthropic 最强模型难获用户，便宜工具反而吃香](https://www.ft.com/content/5ee49718-c258-4f01-aa32-7e5b76ae5245) · HackerNews · 分9
+  Anthropic 把最强模型 Fable 放进高价套餐还限制用量，用户嫌贵又嫌麻烦，转头用更便宜的竞品，导致最强模型叫好不叫座。
+- [复杂系统如何失效（1998）](https://how.complexsystems.fail/) · HackerNews · 分9
+  一篇1998年的经典短文，讲复杂系统（如电网、医院、软件系统）的故障本质：系统天生有缺陷，靠冗余和人不断修补才勉强运转，所谓“根因分析”在复杂系统里基本是伪命题。
+- [我拥有的所有设备，都被我完全掌控](https://schlarp.com/posts/everything-i-own-owned/) · HackerNews · 分8
+  一个极客把自己所有电子设备都刷了自定义固件，包括显示器、相机、路由器，用AI辅助逆向工程，彻底掌控硬件。核心是讨论“设备所有权”和固件修改的边界。
+- [资深工程师如何发现值得解决的问题](https://lalitm.com/post/find-problems-staff-engineer/) · HackerNews · 分8
+  一位资深工程师分享自己在大厂基础设施团队里怎么找高价值问题，核心观点是别从技术出发，要从业务痛点和系统瓶颈倒推，评论区还吵了底层自主权和初创公司历练哪个更值。
 
 ### 世界时事
-- [空客：AI硬件代替跨境电商成为货运增量](https://companies.caixin.com/2026-08-22/102476830.html) · 财新网 · 分8
-  空客说跨境电商带来的航空货运增长在放缓，但AI硬件比如服务器和芯片正在成为新的货运主力，虽然运量只占7%，货值却超过一半。
+- [国常会部署整治大企业拖欠中小企业账款](https://finance.caixin.com/2026-08-24/102477209.html) · 财新网 · 分8
+  国常会开会说要大力整治大企业拖欠中小企业账款，打通连环清链条，健全账期规则，强化支付监管，严防新增拖欠，同时还有消费贷贴息扩围和英伟达服务器涨价的消息。
 
-_更新于 2026-08-23 02:44 · web-intel-bot_
+_更新于 2026-08-24 01:34 · web-intel-bot_
