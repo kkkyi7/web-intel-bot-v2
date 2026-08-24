@@ -1,43 +1,45 @@
 {
   "date": "2026-08-24",
   "profile": "kizty",
-  "generated_at": "2026-08-24 01:34",
+  "generated_at": "2026-08-24 02:45",
   "stats": {
     "topics_ran": [
       "AI大事",
       "世界时事",
       "技术圈",
-      "GitHub 动态"
+      "GitHub 动态",
+      "心理学",
+      "供应链"
     ],
-    "total_selected": 24,
-    "total_fetched": 142
+    "total_selected": 36,
+    "total_fetched": 164
   },
   "top3": [
     {
       "topic": "AI大事",
-      "title": "DeepMind 校友创办的 Inherent 称其 AI 队友复现研究能力超越 Anthropic 和 OpenAI",
-      "tldr": "DeepMind 校友创办的英国实验室 Inherent 发布了一个叫 Faraday 的 AI 智能体，专门用来复现科学论文的实验结果，宣称在这项任务上比 Anthropic 和 OpenAI 的模型做得更好。",
+      "title": "免费 Claude Code 聚合工具 FCC",
+      "tldr": "一个开源工具，把几十家 AI 模型提供商的免费额度聚合到一个入口，让你在终端、IDE 或手机里免费用 Claude Code、Codex 等编程助手，每月能薅 13 亿 token 的羊毛。",
+      "score": 9,
+      "url": "https://github.com/Alishahryar1/free-claude-code",
+      "source": "GitHub Trending",
+      "source_count": 1
+    },
+    {
+      "topic": "AI大事",
+      "title": "DeepMind 校友创办的 Inherent 称其 AI 智能体在复现研究上超越 Anthropic 和 OpenAI",
+      "tldr": "一家由 DeepMind 前员工创立的英国 AI 实验室，发布了一个叫 Faraday 的 AI 智能体，它能自动复现科研论文的实验结果，据称在这项任务上比 Anthropic 和 OpenAI 的模型表现更好。",
       "score": 9,
       "url": "https://techcrunch.com/2026/08/22/inherent-founded-by-deepmind-alumni-says-its-ai-teammate-just-outperformed-anthropic-and-openai-at-replicating-research/",
       "source": "TechCrunch AI",
       "source_count": 1
     },
     {
-      "topic": "技术圈",
-      "title": "Anthropic 最强模型难获用户，便宜工具反而吃香",
-      "tldr": "Anthropic 把最强模型 Fable 放进高价套餐还限制用量，用户嫌贵又嫌麻烦，转头用更便宜的竞品，导致最强模型叫好不叫座。",
+      "topic": "AI大事",
+      "title": "模拟仿真正在接管AI：便宜百倍快万倍",
+      "tldr": "这篇文章讲AI训练流程正全面转向模拟仿真，从奖励信号到训练数据再到老师，每个环节都从人工变成模型生成，虽然质量差10%，但成本便宜100倍、速度快10000倍，这是AI发展的核心趋势。",
       "score": 9,
-      "url": "https://www.ft.com/content/5ee49718-c258-4f01-aa32-7e5b76ae5245",
-      "source": "HackerNews",
-      "source_count": 2
-    },
-    {
-      "topic": "世界时事",
-      "title": "国常会部署整治大企业拖欠中小企业账款",
-      "tldr": "国常会开会说要大力整治大企业拖欠中小企业账款，打通连环清链条，健全账期规则，强化支付监管，严防新增拖欠，同时还有消费贷贴息扩围和英伟达服务器涨价的消息。",
-      "score": 8,
-      "url": "https://finance.caixin.com/2026-08-24/102477209.html",
-      "source": "财新网",
+      "url": "https://www.latent.space/p/ainews-10-worse-100x-cheaper-10000x",
+      "source": "Latent Space",
       "source_count": 1
     }
   ]
