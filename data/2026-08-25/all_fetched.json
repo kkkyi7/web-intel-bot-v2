@@ -1,12 +1,84 @@
 [
   {
+    "title": "How to Train a Critic Stably and Efficiently",
+    "url": "http://arxiv.org/abs/2608.23566v1",
+    "source": "arXiv",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-08-24T17:59:39",
+    "author": "Penghui Qi, Xiangxin Zhou, Wee Sun Lee"
+  },
+  {
+    "title": "SWE Refactor Bench: Can Coding Agents Complete a Long-Horizon, Whole-Repository Stack Migration?",
+    "url": "http://arxiv.org/abs/2608.23564v1",
+    "source": "arXiv",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-08-24T17:59:04",
+    "author": "Deyao Hong, Yizhe Chi, Wenyi Li, Xiaoqiu Wang, Mingju Gao, Kaisen Yang, Bingxiang He, Youjie Zheng, Calvin Xiao, Qinhuai Na"
+  },
+  {
+    "title": "When \"Do Not\" Is Not Deny: Security Rules in CLAUDE.md vs Built-In Controls",
+    "url": "http://arxiv.org/abs/2608.23550v1",
+    "source": "arXiv",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-08-24T17:52:57",
+    "author": "Ting Yan"
+  },
+  {
+    "title": "The Interaction Tax: When Communication Erases Diversity in Multi-Agent Teams",
+    "url": "http://arxiv.org/abs/2608.23541v1",
+    "source": "arXiv",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-08-24T17:45:15",
+    "author": "Summer Eunhyung Ann, Haokun Liu, Chenhao Tan"
+  },
+  {
+    "title": "Action-Aligned Retrieval with Pairwise Multimodal Reranking for Text-Based Person Anomaly Search",
+    "url": "http://arxiv.org/abs/2608.23503v1",
+    "source": "arXiv",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-08-24T17:04:34",
+    "author": "Thanh-Khoi Nguyen, Thanh-Nhan Vo, Trong-Thuan Nguyen, Minh-Triet Tran"
+  },
+  {
+    "title": "An Interactive Agent for Requirement-Driven Candidate Sourcing",
+    "url": "http://arxiv.org/abs/2608.23501v1",
+    "source": "arXiv",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-08-24T17:04:16",
+    "author": "Yuanpeng He, Fangjing Li, Xiangyu Ru, Kexin Sun, Kun Yang, Lijian Li, Chi-Man Pun, Qingsong Wen, Wenpin Jiao, Mingkai Guo, Yirong Feng, Daiheng Gao, Zhi Jin"
+  },
+  {
+    "title": "Mitigating Reasoning-Induced Misalignment via Safety-Direction Penalty",
+    "url": "http://arxiv.org/abs/2608.23497v1",
+    "source": "arXiv",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-08-24T16:57:28",
+    "author": "Yipeng Zhao, Qishun Yang, Shenzhe Zhu, Shu Yang, Di Wang"
+  },
+  {
+    "title": "SRPO: Self-Reflective Policy Optimization for Long-Horizon Reasoning",
+    "url": "http://arxiv.org/abs/2608.23493v1",
+    "source": "arXiv",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-08-24T16:55:09",
+    "author": "Jialong Liu, Yuling Shi, Ning Yang, Xiaodong Gu, Zuchao Li"
+  },
+  {
     "title": "iCloud+ Hide My Email addresses will remain on icloud.com",
     "url": "https://developer.apple.com/news/?id=1ptvdtcm",
     "source": "HackerNews",
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-08-24T22:13:40",
-    "author": "K7PJP · 210 pts · 47 comments"
+    "author": "K7PJP · 247 pts · 57 comments"
   },
   {
     "title": "Xiaomi: New CPU matches Apple cores single threaded, much faster multithreaded",
@@ -15,7 +87,7 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-08-24T15:08:17",
-    "author": "tosh · 723 pts · 487 comments"
+    "author": "tosh · 739 pts · 503 comments"
   },
   {
     "title": "MS Paint and Photos inivisibly watermark even locally generated output with GUID",
@@ -24,7 +96,7 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-08-24T15:28:04",
-    "author": "ComputerGuru · 559 pts · 225 comments"
+    "author": "ComputerGuru · 574 pts · 231 comments"
   },
   {
     "title": "The entire city of San Francisco as a video game",
@@ -33,7 +105,7 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-08-24T17:05:38",
-    "author": "centrosphere · 337 pts · 119 comments"
+    "author": "centrosphere · 359 pts · 122 comments"
   },
   {
     "title": "How Europe is killing makers and micro-entrepreneurs",
@@ -42,16 +114,7 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-08-24T13:05:25",
-    "author": "l-one-lone · 1056 pts · 654 comments"
-  },
-  {
-    "title": "Oceans hit highest temperature on record",
-    "url": "https://www.bbc.com/news/articles/c62m4gpnp78o",
-    "source": "HackerNews",
-    "topic": "AI大事",
-    "region": "intl",
-    "published": "2026-08-24T19:19:08",
-    "author": "tcp_handshaker · 390 pts · 283 comments"
+    "author": "l-one-lone · 1081 pts · 666 comments"
   },
   {
     "title": "IPFS Maintainers Winding Down",
@@ -60,7 +123,25 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-08-24T15:48:45",
-    "author": "iand · 322 pts · 162 comments"
+    "author": "iand · 331 pts · 165 comments"
+  },
+  {
+    "title": "Oceans hit highest temperature on record",
+    "url": "https://www.bbc.com/news/articles/c62m4gpnp78o",
+    "source": "HackerNews",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-08-24T19:19:08",
+    "author": "tcp_handshaker · 418 pts · 333 comments"
+  },
+  {
+    "title": "I were 17, I'd learn how to build LLMs from scratch",
+    "url": "https://twitter.com/paulg/status/2091544343589060625",
+    "source": "HackerNews",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-08-23T20:38:09",
+    "author": "bilsbie · 516 pts · 608 comments"
   },
   {
     "title": "OpenAI: GPT 5.6 Sol price reduction (until at least Nov 21)",
@@ -69,7 +150,7 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-08-24T15:22:43",
-    "author": "tosh · 291 pts · 264 comments"
+    "author": "tosh · 301 pts · 271 comments"
   },
   {
     "title": "Coding expertise is going to collapse from AI reliance",
@@ -78,7 +159,7 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-08-24T15:52:33",
-    "author": "larsfaye · 455 pts · 456 comments"
+    "author": "larsfaye · 477 pts · 468 comments"
   },
   {
     "title": "SpaceXAI 推出面向自主 AI 智能代理的 Grok Bot",
@@ -954,13 +1035,49 @@
     "author": ""
   },
   {
-    "title": "长三角硬科技早期融资：沪苏最协同，皖浙投本地",
-    "url": "https://m.thepaper.cn/detail/33839801",
+    "title": "比特币突破8.1万美元，延续近期上涨态势",
+    "url": "https://m.thepaper.cn/detail/33844713",
     "source": "澎湃新闻",
     "topic": "世界时事",
     "region": "cn",
-    "published": "2026-08-25T01:26:23",
-    "author": "澎湃研究所研究员 谢秋伊 实习生 张曼宁"
+    "published": "2026-08-25T02:33:00",
+    "author": "澎湃新闻记者 胡志挺"
+  },
+  {
+    "title": "何小鹏：人形机器人单台毛利或远超汽车，四季度汽车业务目标月销6万台",
+    "url": "https://m.thepaper.cn/detail/33844466",
+    "source": "澎湃新闻",
+    "topic": "世界时事",
+    "region": "cn",
+    "published": "2026-08-25T02:20:21",
+    "author": "澎湃新闻记者 吴遇利"
+  },
+  {
+    "title": "贸易战升级，美加隔空互骂",
+    "url": "https://m.thepaper.cn/detail/33844438",
+    "source": "澎湃新闻",
+    "topic": "世界时事",
+    "region": "cn",
+    "published": "2026-08-25T02:14:38",
+    "author": "澎湃新闻编辑 陈睿"
+  },
+  {
+    "title": "聚焦中国经济核心议题，人民日报连发4篇“钟才文”",
+    "url": "https://m.thepaper.cn/detail/33844455",
+    "source": "澎湃新闻",
+    "topic": "世界时事",
+    "region": "cn",
+    "published": "2026-08-25T02:05:19",
+    "author": "澎湃新闻记者 蒋子文"
+  },
+  {
+    "title": "外交部副部长马朝旭会见美国亚洲协会共同主席桑顿一行",
+    "url": "https://m.thepaper.cn/detail/33844474",
+    "source": "澎湃新闻",
+    "topic": "世界时事",
+    "region": "cn",
+    "published": "2026-08-25T01:50:00",
+    "author": "外交部网站"
   },
   {
     "title": "释疑｜加拿大对等反制美国，两国关税战打得有多凶？",
@@ -979,6 +1096,42 @@
     "region": "cn",
     "published": "2026-08-24T23:40:14",
     "author": "澎湃新闻记者 陆林汉"
+  },
+  {
+    "title": "【商圈】布莱恩·切斯基：设计师CEO的“创始人模式”如何带领爱彼迎翻盘？",
+    "url": "https://database.caixin.com/2026-08-25/102477615.html",
+    "source": "财新网",
+    "topic": "世界时事",
+    "region": "cn",
+    "published": "2026-08-25T01:56:41",
+    "author": ""
+  },
+  {
+    "title": "高盛：未来10年中国先进制程芯片供需缺口缩至34%",
+    "url": "https://www.caixin.com/2026-08-25/102477605.html",
+    "source": "财新网",
+    "topic": "世界时事",
+    "region": "cn",
+    "published": "2026-08-25T01:43:32",
+    "author": ""
+  },
+  {
+    "title": "【市场动态】美国财长贝森特即将公布削减赤字计划 料难获得国会支持",
+    "url": "https://database.caixin.com/2026-08-25/102477601.html",
+    "source": "财新网",
+    "topic": "世界时事",
+    "region": "cn",
+    "published": "2026-08-25T01:31:07",
+    "author": ""
+  },
+  {
+    "title": "今日开盘：两市双双低开 沪指跌幅0.48%",
+    "url": "https://finance.caixin.com/2026-08-25/102477600.html",
+    "source": "财新网",
+    "topic": "世界时事",
+    "region": "cn",
+    "published": "2026-08-25T01:29:52",
+    "author": ""
   },
   {
     "title": "【市场动态】贝森特要求相关国家切断与伊朗商业往来 否则将面临美国单方面制裁",
@@ -1026,33 +1179,6 @@
     "author": ""
   },
   {
-    "title": "SHEIN启动港股招股 IPO估值最高约270亿美元",
-    "url": "https://www.caixin.com/2026-08-24/102477465.html",
-    "source": "财新网",
-    "topic": "世界时事",
-    "region": "cn",
-    "published": "2026-08-24T10:24:27",
-    "author": ""
-  },
-  {
-    "title": "伊朗警告邻国勿配合美方经济制裁 否则将全面封锁石油外运",
-    "url": "https://international.caixin.com/2026-08-24/102477447.html",
-    "source": "财新网",
-    "topic": "世界时事",
-    "region": "cn",
-    "published": "2026-08-24T09:20:07",
-    "author": ""
-  },
-  {
-    "title": "乌克兰前防长公开持续发起挑战 泽连斯基排除战时选举可能",
-    "url": "https://international.caixin.com/2026-08-24/102477441.html",
-    "source": "财新网",
-    "topic": "世界时事",
-    "region": "cn",
-    "published": "2026-08-24T08:49:55",
-    "author": ""
-  },
-  {
     "title": "“须在伊朗和美元体系中二选一”，但没提中国",
     "url": "https://www.guancha.cn/internation/2026_08_25_828499_s.shtml",
     "source": "观察者网",
@@ -1076,8 +1202,8 @@
     "source": "观察者网",
     "topic": "世界时事",
     "region": "cn",
-    "published": "2026-08-24T10:39:38",
-    "author": "郭光昊"
+    "published": "2026-08-24T10:39:37",
+    "author": ""
   },
   {
     "title": "非洲企业偏不吃美国那套：中国AI不只是便宜",
@@ -1203,7 +1329,7 @@
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-08-24T22:13:40",
-    "author": "K7PJP · 210 pts · 47 comments"
+    "author": "K7PJP · 249 pts · 57 comments"
   },
   {
     "title": "Xiaomi: New CPU matches Apple cores single threaded, much faster multithreaded",
@@ -1212,7 +1338,7 @@
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-08-24T15:08:17",
-    "author": "tosh · 723 pts · 487 comments"
+    "author": "tosh · 739 pts · 503 comments"
   },
   {
     "title": "MS Paint and Photos inivisibly watermark even locally generated output with GUID",
@@ -1221,7 +1347,7 @@
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-08-24T15:28:04",
-    "author": "ComputerGuru · 559 pts · 226 comments"
+    "author": "ComputerGuru · 574 pts · 231 comments"
   },
   {
     "title": "The entire city of San Francisco as a video game",
@@ -1230,7 +1356,7 @@
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-08-24T17:05:38",
-    "author": "centrosphere · 338 pts · 119 comments"
+    "author": "centrosphere · 359 pts · 122 comments"
   },
   {
     "title": "How Europe is killing makers and micro-entrepreneurs",
@@ -1239,16 +1365,7 @@
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-08-24T13:05:25",
-    "author": "l-one-lone · 1056 pts · 654 comments"
-  },
-  {
-    "title": "Oceans hit highest temperature on record",
-    "url": "https://www.bbc.com/news/articles/c62m4gpnp78o",
-    "source": "HackerNews",
-    "topic": "技术圈",
-    "region": "intl",
-    "published": "2026-08-24T19:19:08",
-    "author": "tcp_handshaker · 390 pts · 284 comments"
+    "author": "l-one-lone · 1081 pts · 666 comments"
   },
   {
     "title": "IPFS Maintainers Winding Down",
@@ -1257,7 +1374,25 @@
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-08-24T15:48:45",
-    "author": "iand · 322 pts · 163 comments"
+    "author": "iand · 331 pts · 165 comments"
+  },
+  {
+    "title": "Oceans hit highest temperature on record",
+    "url": "https://www.bbc.com/news/articles/c62m4gpnp78o",
+    "source": "HackerNews",
+    "topic": "技术圈",
+    "region": "intl",
+    "published": "2026-08-24T19:19:08",
+    "author": "tcp_handshaker · 418 pts · 333 comments"
+  },
+  {
+    "title": "I were 17, I'd learn how to build LLMs from scratch",
+    "url": "https://twitter.com/paulg/status/2091544343589060625",
+    "source": "HackerNews",
+    "topic": "技术圈",
+    "region": "intl",
+    "published": "2026-08-23T20:38:09",
+    "author": "bilsbie · 516 pts · 608 comments"
   },
   {
     "title": "OpenAI: GPT 5.6 Sol price reduction (until at least Nov 21)",
@@ -1266,7 +1401,7 @@
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-08-24T15:22:43",
-    "author": "tosh · 291 pts · 264 comments"
+    "author": "tosh · 302 pts · 271 comments"
   },
   {
     "title": "Coding expertise is going to collapse from AI reliance",
@@ -1275,7 +1410,7 @@
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-08-24T15:52:33",
-    "author": "larsfaye · 455 pts · 457 comments"
+    "author": "larsfaye · 477 pts · 468 comments"
   },
   {
     "title": "mem0ai/mem0 发布 Mem0 Python SDK (v2.0.19)",
@@ -1411,6 +1546,33 @@
     "region": "intl",
     "published": "2026",
     "author": "Jun Yin, Katherine E Francis, Guilherme S Lopes, Jane So"
+  },
+  {
+    "title": "ReasonCast: Agentic Demand Forecasting with Selective Semantic Reasoning",
+    "url": "http://arxiv.org/abs/2608.15291v1",
+    "source": "arXiv",
+    "topic": "供应链",
+    "region": "intl",
+    "published": "2026-08-15T15:46:46",
+    "author": "Ziyue Yang, Chaolin Xu, Yijing Wang, Tiankai Gu, Hui Yang, Yanhong Lin, Kaiyuan Liu, Fei Xiao"
+  },
+  {
+    "title": "On the global feature importance for interpretable and trustworthy heat demand forecasting",
+    "url": "http://arxiv.org/abs/2608.13039v1",
+    "source": "arXiv",
+    "topic": "供应链",
+    "region": "intl",
+    "published": "2026-08-13T10:05:25",
+    "author": "Milan Zdravković"
+  },
+  {
+    "title": "Demand Transfer Estimation at Scale via Restricted Logit Modeling",
+    "url": "http://arxiv.org/abs/2608.12680v1",
+    "source": "arXiv",
+    "topic": "供应链",
+    "region": "intl",
+    "published": "2026-08-13T00:37:13",
+    "author": "Lakshya Garg, Deep Narayan Mishra, Swapnil Yadav, Haoan Wang, Sujal Alugubelli, Karthik Kumaran, Anupriya Sharma"
   },
   {
     "title": "追觅造车一周年：展车地库蒙灰，千人团队剩约百人，烧掉的钱谁来买单？",
