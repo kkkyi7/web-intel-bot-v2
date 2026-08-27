@@ -1,75 +1,93 @@
 [
   {
-    "title": "Unveiling Spectral Mechanisms in Training-Free LLM Text Detection",
-    "url": "http://arxiv.org/abs/2608.25944v1",
+    "title": "Zero-WAM: In-Context World-Action Modeling from Human Videos for Open-Ended Task Generalization",
+    "url": "http://arxiv.org/abs/2608.26103v1",
     "source": "arXiv",
     "topic": "AI大事",
     "region": "intl",
-    "published": "2026-08-26T16:01:17",
-    "author": "Haitong Luo, Xuying Meng, Weiyao Zhang, Wenji Zou, Shengfeng Lou, Xuefeng Jiang, Chungang Lin, Yujun Zhang"
+    "published": "2026-08-26T17:59:34",
+    "author": "Jiaming Zhou, Qihang Zhang, Gangwei Xu, Cunxin Fan, Yujie Zhao, Ruilin Wang, Yiming Luo, Shuai Yang, Xing Zhu, Yujun Shen, Junwei Liang, Yinghao Xu"
   },
   {
-    "title": "When Pruning Meets Interpretability: Preserving Sparse Autoencoder Robustness in LLMs",
-    "url": "http://arxiv.org/abs/2608.25941v1",
+    "title": "TraceML: An Empirical Analysis of Human-Agent Planning in Machine Learning Development",
+    "url": "http://arxiv.org/abs/2608.26086v1",
     "source": "arXiv",
     "topic": "AI大事",
     "region": "intl",
-    "published": "2026-08-26T15:57:42",
-    "author": "Suchit Gupte, Xueru Zhang, Mohammad Mahdi Khalili"
+    "published": "2026-08-26T17:50:13",
+    "author": "Jiarui Yan, Weiwei Sun, Sijie Li, Wenhan Li, Yiming Yang"
   },
   {
-    "title": "XREPOTEST: Benchmarking Multilingual Repository-Level Unit Test Generation for Large Language Models",
-    "url": "http://arxiv.org/abs/2608.25939v1",
+    "title": "SwarmWorld: Stigmergic technological evolution in societies of language-model agents",
+    "url": "http://arxiv.org/abs/2608.26081v1",
     "source": "arXiv",
     "topic": "AI大事",
     "region": "intl",
-    "published": "2026-08-26T15:53:43",
-    "author": "Dung Le Quang, Dong Cao Van, Nam Le Hai, Linh Ngo Van, Anh M. T. Bui, Phuong T. Nguyen"
+    "published": "2026-08-26T17:45:34",
+    "author": "Subhadeep Pal, Fiona Y. Wang, Markus J. Buehler"
   },
   {
-    "title": "Candidate supply and answer selection shape the value of LLM judging in multi-agent systems",
-    "url": "http://arxiv.org/abs/2608.25937v1",
+    "title": "StreamPI: Streaming Multimodal Temporal Modeling for Vision-Language-Action Models",
+    "url": "http://arxiv.org/abs/2608.26067v1",
     "source": "arXiv",
     "topic": "AI大事",
     "region": "intl",
-    "published": "2026-08-26T15:52:20",
-    "author": "Jia-Hao Ji, Sijie Li, Jiabei Cheng, Zixi She, Jin-Tai Yu, Zhiyuan Yuan"
+    "published": "2026-08-26T17:33:19",
+    "author": "Zhe Liu, Jinghua Hou, Yuxiang Lu, Zhenya Yang, Xianzhe Fan, Junwei Luo, Junyi Li, Ruihua Han, Zhi Hou, Hengshuang Zhao"
   },
   {
-    "title": "How Robust Are Automated Fact-Checking Systems? A Cross-Benchmark Evaluation",
-    "url": "http://arxiv.org/abs/2608.25934v1",
+    "title": "RTLGuard: A Lightweight Teacher-Student Defense for Poisoned RTL Code Generation Models",
+    "url": "http://arxiv.org/abs/2608.26049v1",
     "source": "arXiv",
     "topic": "AI大事",
     "region": "intl",
-    "published": "2026-08-26T15:50:10",
-    "author": "Aida Usmanova, Zangir Iklassov, Markus Leippold, Ricardo Usbeck"
+    "published": "2026-08-26T17:23:48",
+    "author": "Mahshid Rezakhani, Kimia Azar, Hadi Kamali"
   },
   {
-    "title": "When Composition Doesn't Add Up: Humans Identifying Defects in AI-Generated Images",
-    "url": "http://arxiv.org/abs/2608.25933v1",
+    "title": "Trace Integrity for LLM Data Agents: A Vision for Auditable Structured Reasoning in Real-World Systems",
+    "url": "http://arxiv.org/abs/2608.26036v1",
     "source": "arXiv",
     "topic": "AI大事",
     "region": "intl",
-    "published": "2026-08-26T15:47:47",
-    "author": "Ruoqi Hu, Chulin Zhao, Jiashuo Chang, Ramon Ruiz-Dolz, Hanhe Lin"
+    "published": "2026-08-26T17:15:24",
+    "author": "Srimonti Dutta, Akshata Kishore Moharir"
   },
   {
-    "title": "Repair or Resample? Rethinking Failure Debugging in LLM Multi-Agent Systems",
-    "url": "http://arxiv.org/abs/2608.25920v1",
+    "title": "Vulnerable Code Search: Transferable Attack for Code Language Models",
+    "url": "http://arxiv.org/abs/2608.26031v1",
     "source": "arXiv",
     "topic": "AI大事",
     "region": "intl",
-    "published": "2026-08-26T15:33:47",
-    "author": "Zhongwen Luan, Xiaoyu Zhang, Ming Hu, Yue Yang, Jiongchi Yu, Xiaohong Chen"
+    "published": "2026-08-26T17:11:36",
+    "author": "Kaicheng Wang, Liyan Huang, Jesse Thomason, Weihang Wang"
   },
   {
-    "title": "An Inverse Lyth Bound for Non-Attractor Inflation",
-    "url": "http://arxiv.org/abs/2608.25911v1",
+    "title": "Bayesian Optimization for Self-Driving Materials Laboratories: From Algorithms to Physics-Informed Workflows",
+    "url": "http://arxiv.org/abs/2608.26016v1",
     "source": "arXiv",
     "topic": "AI大事",
     "region": "intl",
-    "published": "2026-08-26T15:26:24",
-    "author": "William H. Kinney"
+    "published": "2026-08-26T16:59:49",
+    "author": "Yuki K. Wakabayashi, Takuma Otsuka"
+  },
+  {
+    "title": "Nvidia agrees to acquire Hugging Face for $13B",
+    "url": "https://www.businessinsider.com/nvidia-in-talks-to-buy-hugging-face-13-billion-dollars-2026-8",
+    "source": "HackerNews",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-08-27T01:12:55",
+    "author": "mfiguiere · 1249 pts · 548 comments"
+  },
+  {
+    "title": "Mechanical Turk shutting down September 30",
+    "url": "https://www.mturk.com/",
+    "source": "HackerNews",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-08-26T23:55:44",
+    "author": "tmp10423288442 · 401 pts · 116 comments"
   },
   {
     "title": "GLM-5.3-Flash",
@@ -78,43 +96,7 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-08-26T14:08:50",
-    "author": "Philpax · 879 pts · 442 comments"
-  },
-  {
-    "title": "Tailcat – Like netcat, but over Tailscale’s data plane",
-    "url": "https://github.com/tailscale/tailcat",
-    "source": "HackerNews",
-    "topic": "AI大事",
-    "region": "intl",
-    "published": "2026-08-26T17:42:22",
-    "author": "nderjung · 470 pts · 90 comments"
-  },
-  {
-    "title": "AWS Acquires DuckLabs",
-    "url": "https://ducklabs.com/news/2026/08/26/ducklabs-to-join-aws",
-    "source": "HackerNews",
-    "topic": "AI大事",
-    "region": "intl",
-    "published": "2026-08-26T12:59:26",
-    "author": "onderkalaci · 965 pts · 289 comments"
-  },
-  {
-    "title": "An ongoing 3D-printer AGPL violation",
-    "url": "https://lwn.net/SubscriberLink/1089390/46116614cc74b814/",
-    "source": "HackerNews",
-    "topic": "AI大事",
-    "region": "intl",
-    "published": "2026-08-26T17:41:40",
-    "author": "Velocifyer · 306 pts · 136 comments"
-  },
-  {
-    "title": "Qwen3.8-Flash-Next",
-    "url": "https://qwen.ai/blog?id=qwen3.8-flash-next",
-    "source": "HackerNews",
-    "topic": "AI大事",
-    "region": "intl",
-    "published": "2026-08-26T12:52:12",
-    "author": "tosh · 621 pts · 197 comments"
+    "author": "Philpax · 1053 pts · 532 comments"
   },
   {
     "title": "U.S. State Department pauses immigrant visa applications",
@@ -123,7 +105,52 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-08-26T17:22:16",
-    "author": "sss111 · 264 pts · 344 comments"
+    "author": "sss111 · 571 pts · 842 comments"
+  },
+  {
+    "title": "Tailcat – Like netcat, but over Tailscale’s data plane",
+    "url": "https://github.com/tailscale/tailcat",
+    "source": "HackerNews",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-08-26T17:42:22",
+    "author": "nderjung · 591 pts · 106 comments"
+  },
+  {
+    "title": "Asahi Linux Progress Report: Linux 7.2",
+    "url": "https://asahilinux.org/2026/08/progress-report-7-2/",
+    "source": "HackerNews",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-08-26T22:35:02",
+    "author": "pizzaiolo · 303 pts · 130 comments"
+  },
+  {
+    "title": "Worst-case glacial lake flood scenarios in a transboundary Himalayan basin 2022",
+    "url": "https://nhess.copernicus.org/articles/22/3765/2022/nhess-22-3765-2022.html",
+    "source": "HackerNews",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-08-26T22:44:03",
+    "author": "totetsu · 200 pts · 132 comments"
+  },
+  {
+    "title": "An ongoing 3D-printer AGPL violation",
+    "url": "https://lwn.net/SubscriberLink/1089390/46116614cc74b814/",
+    "source": "HackerNews",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-08-26T17:41:40",
+    "author": "Velocifyer · 418 pts · 178 comments"
+  },
+  {
+    "title": "CEO fired developers to make room for AI. Developers create open source AI CEO",
+    "url": "https://github.com/SenteLabsAI/OpenExecutive",
+    "source": "HackerNews",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-08-27T01:46:22",
+    "author": "GrumpySciGuy · 671 pts · 440 comments"
   },
   {
     "title": "Twitter Viewer – View Twitter Without Account",
@@ -132,7 +159,25 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-08-26T14:11:39",
-    "author": "motownphilly · 315 pts · 156 comments"
+    "author": "motownphilly · 477 pts · 293 comments"
+  },
+  {
+    "title": "Zohran and the Short Link",
+    "url": "https://iamwillwang.com/notes/zohran-and-the-short-link/",
+    "source": "HackerNews",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-08-26T23:50:15",
+    "author": "wxw · 214 pts · 84 comments"
+  },
+  {
+    "title": "The Hugging Face incident and the road ahead",
+    "url": "https://openai.com/index/hugging-face-incident-and-the-road-ahead/",
+    "source": "HackerNews",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-08-26T19:15:23",
+    "author": "amrrs · 267 pts · 353 comments"
   },
   {
     "title": "Nebula Sans",
@@ -141,7 +186,34 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-08-26T15:03:52",
-    "author": "GavinAnderegg · 340 pts · 129 comments"
+    "author": "GavinAnderegg · 430 pts · 172 comments"
+  },
+  {
+    "title": "FDA approves first in class targeted therapy for metastatic pancreatic cancer",
+    "url": "https://www.fda.gov/news-events/press-announcements/fda-approves-first-class-targeted-therapy-metastatic-pancreatic-cancer",
+    "source": "HackerNews",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-08-26T16:19:03",
+    "author": "leopoldj · 229 pts · 55 comments"
+  },
+  {
+    "title": "CoMaps: The Offline App That Guided Rescuers Without a Signal in Venezuela",
+    "url": "https://hotosm.org/en/news/comaps-the-offline-app-that-guided-rescuers-without-a-signal-in-the-venezuela-response/",
+    "source": "HackerNews",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-08-26T17:20:12",
+    "author": "gedankenstuecke · 291 pts · 66 comments"
+  },
+  {
+    "title": "The turbulent AI era is here",
+    "url": "https://www.gatesnotes.com/a-turbulent-ai-era-and-critical-choices-to-make",
+    "source": "HackerNews",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-08-26T15:55:15",
+    "author": "LVB · 274 pts · 261 comments"
   },
   {
     "title": "Taylor Farms: How One Company's Reach Became a National Risk",
@@ -150,7 +222,16 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-08-26T14:21:44",
-    "author": "speckx · 235 pts · 158 comments"
+    "author": "speckx · 280 pts · 192 comments"
+  },
+  {
+    "title": "AWS Acquires DuckLabs",
+    "url": "https://ducklabs.com/news/2026/08/26/ducklabs-to-join-aws",
+    "source": "HackerNews",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-08-26T12:59:26",
+    "author": "onderkalaci · 1059 pts · 307 comments"
   },
   {
     "title": "Tim Curry has died",
@@ -159,7 +240,88 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-08-26T16:03:37",
-    "author": "mykowebhn · 581 pts · 195 comments"
+    "author": "mykowebhn · 681 pts · 220 comments"
+  },
+  {
+    "title": "世界人工智能开源大赛（GOAI）初赛评审结果暨晋级名单公告",
+    "url": "https://www.infoq.cn/article/Y410fSRGi67fUrNUuzYb?utm_source=rss&utm_medium=article",
+    "source": "InfoQ 中文",
+    "topic": "AI大事",
+    "region": "cn",
+    "published": "2026-08-27T17:56:39",
+    "author": "世界人工智能开源大赛"
+  },
+  {
+    "title": "给 Agent 做“CT”：大规模 Agent 的可观测与质量保障体系",
+    "url": "https://www.infoq.cn/article/QqDSrCEGWitk7kkJg7Kj?utm_source=rss&utm_medium=article",
+    "source": "InfoQ 中文",
+    "topic": "AI大事",
+    "region": "cn",
+    "published": "2026-08-27T17:52:32",
+    "author": "作者：钱世俊"
+  },
+  {
+    "title": "大模型推理加速全链路：内存管理、编译优化、量化与并行策略",
+    "url": "https://www.infoq.cn/article/AN2AuAT58V9fe8KXD2zi?utm_source=rss&utm_medium=article",
+    "source": "InfoQ 中文",
+    "topic": "AI大事",
+    "region": "cn",
+    "published": "2026-08-27T17:47:44",
+    "author": "作者：金煜阳"
+  },
+  {
+    "title": "Cloudflare 利用 AI 智能体将 Astro GitHub 问题减少 85%",
+    "url": "https://www.infoq.cn/article/iJu3eUyEhEI373KeYhYN?utm_source=rss&utm_medium=article",
+    "source": "InfoQ 中文",
+    "topic": "AI大事",
+    "region": "cn",
+    "published": "2026-08-27T17:00:00",
+    "author": "作者：Leela Kumili"
+  },
+  {
+    "title": "Azure DevOps Remote MCP 服务器正式发布，暂不支持 Claude、ChatGPT 及 Cursor",
+    "url": "https://www.infoq.cn/article/SvTBvljtvGctvWPQRqr7?utm_source=rss&utm_medium=article",
+    "source": "InfoQ 中文",
+    "topic": "AI大事",
+    "region": "cn",
+    "published": "2026-08-27T15:27:00",
+    "author": "作者：Steef-Jan Wiggers"
+  },
+  {
+    "title": "不做手机缩小版：AI 健康记录迁到手腕，要跨过哪些工程鸿沟？",
+    "url": "https://www.infoq.cn/article/9TmFlNIk6EamqpvJIOkI?utm_source=rss&utm_medium=article",
+    "source": "InfoQ 中文",
+    "topic": "AI大事",
+    "region": "cn",
+    "published": "2026-08-27T15:10:25",
+    "author": "于曦"
+  },
+  {
+    "title": "非结构化数据的结构化处理：基于 Snowflake Cortex AI Functions | 技术实践",
+    "url": "https://www.infoq.cn/article/Xw6Nlqq7N2J0CKA0ehx8?utm_source=rss&utm_medium=article",
+    "source": "InfoQ 中文",
+    "topic": "AI大事",
+    "region": "cn",
+    "published": "2026-08-27T14:02:54",
+    "author": "Christopher Pelky"
+  },
+  {
+    "title": "千问办公首发上线Qwen3.8-Flash，生成速度提升100%，Token消耗减少75%",
+    "url": "https://www.infoq.cn/article/QEG6h1VpkiaFYUL1jUyc?utm_source=rss&utm_medium=article",
+    "source": "InfoQ 中文",
+    "topic": "AI大事",
+    "region": "cn",
+    "published": "2026-08-27T10:28:42",
+    "author": "千问办公"
+  },
+  {
+    "title": "如何把 Agent 的判断与行动变成可恢复的软件事实 | KDC 工程补篇",
+    "url": "https://www.infoq.cn/article/AkgUFEFE4uG7WIlqaO2g?utm_source=rss&utm_medium=article",
+    "source": "InfoQ 中文",
+    "topic": "AI大事",
+    "region": "cn",
+    "published": "2026-08-27T10:00:00",
+    "author": "vivo 肖博"
   },
   {
     "title": "DeepSeek 开源 Harness：AI 智能体基础设施开始“拆分”",
@@ -171,76 +333,31 @@
     "author": "作者：Olimpiu Pop"
   },
   {
-    "title": "不懂算法的工厂老兵，在 AMD 锐龙 AI Max+ 395上跑出工业智能体",
-    "url": "https://www.infoq.cn/article/RJDrRaDC1drafw0Kvoki?utm_source=rss&utm_medium=article",
-    "source": "InfoQ 中文",
+    "title": "基元律动累计融资数千万美元，推出“中国版OpenRouter”",
+    "url": "https://www.qbitai.com/2026/08/480079.html",
+    "source": "量子位",
     "topic": "AI大事",
     "region": "cn",
-    "published": "2026-08-26T16:00:40",
-    "author": "曹洋"
+    "published": "2026-08-27T05:43:00",
+    "author": "量子位的朋友们"
   },
   {
-    "title": "WhatsApp 测试 AI 反诈：消息无需上传云端",
-    "url": "https://www.infoq.cn/article/wAVlMqVg7fqPjXAyFDjC?utm_source=rss&utm_medium=article",
-    "source": "InfoQ 中文",
+    "title": "工业Agent不是“套壳”大模型！西门子百年经验灌进工业AI",
+    "url": "https://www.qbitai.com/2026/08/480005.html",
+    "source": "量子位",
     "topic": "AI大事",
     "region": "cn",
-    "published": "2026-08-26T15:00:00",
-    "author": "作者： Leela Kumili"
+    "published": "2026-08-27T02:46:35",
+    "author": "田, 晏林"
   },
   {
-    "title": "535B 大模型“直播”训练三个月：代码、数据、Loss全公开，吴恩达公开力挺",
-    "url": "https://www.infoq.cn/article/y7KTOS9YbBz0OcoyiweQ?utm_source=rss&utm_medium=article",
-    "source": "InfoQ 中文",
+    "title": "千问办公首发上线Qwen3.8-Flash，生成速度提升100%，Token消耗减少75%",
+    "url": "https://www.qbitai.com/2026/08/480001.html",
+    "source": "量子位",
     "topic": "AI大事",
     "region": "cn",
-    "published": "2026-08-26T14:51:50",
-    "author": "李冬梅"
-  },
-  {
-    "title": "企业级多智能体架构搭建与应用能力·人才培养项目",
-    "url": "https://www.infoq.cn/minibook/NZapvO5FpWP185SRLjvj?utm_source=rss&utm_medium=article",
-    "source": "InfoQ 中文",
-    "topic": "AI大事",
-    "region": "cn",
-    "published": "2026-08-26T14:21:28",
-    "author": "极客时间企业版"
-  },
-  {
-    "title": "技术革命：为 Agentic AI 时代做好准备 | 技术趋势",
-    "url": "https://www.infoq.cn/article/8ouuK09WuWA7Up35W9vb?utm_source=rss&utm_medium=article",
-    "source": "InfoQ 中文",
-    "topic": "AI大事",
-    "region": "cn",
-    "published": "2026-08-26T10:20:43",
-    "author": "Sem Sergunin"
-  },
-  {
-    "title": "Grab 借助 AI 代理将机械性分析的工作量从 44% 降至 30%",
-    "url": "https://www.infoq.cn/article/LqdtQ5sKYcEAzhCNNToE?utm_source=rss&utm_medium=article",
-    "source": "InfoQ 中文",
-    "topic": "AI大事",
-    "region": "cn",
-    "published": "2026-08-26T10:10:29",
-    "author": "作者：Leela Kumili"
-  },
-  {
-    "title": "SpaceXAI 推出面向自主 AI 智能代理的 Grok Bot",
-    "url": "https://www.infoq.cn/article/a2Y7bOxLHZfCVWtKhAtQ?utm_source=rss&utm_medium=article",
-    "source": "InfoQ 中文",
-    "topic": "AI大事",
-    "region": "cn",
-    "published": "2026-08-25T09:00:00",
-    "author": "作者：Daniel Dominguez"
-  },
-  {
-    "title": "多个 AI 智能体“同住”一台 EC2：AgentCore 推出持久计算",
-    "url": "https://www.infoq.cn/article/2IBWc7BuB2qoGao5tlQT?utm_source=rss&utm_medium=article",
-    "source": "InfoQ 中文",
-    "topic": "AI大事",
-    "region": "cn",
-    "published": "2026-08-24T15:43:00",
-    "author": "作者：Matt Saunders"
+    "published": "2026-08-27T01:45:08",
+    "author": "量子位的朋友们"
   },
   {
     "title": "神秘「牛来」模型果然是智谱！GLM首个原生多模态，还用的国产卡",
@@ -288,22 +405,13 @@
     "author": "十三"
   },
   {
-    "title": "Falcon TST 2.0获世界权威测评第一名，推动时间序列基础模型从通用预测走向金融应用",
-    "url": "https://www.qbitai.com/2026/08/479631.html",
-    "source": "量子位",
+    "title": "tt-a1i/archify",
+    "url": "https://github.com/tt-a1i/archify",
+    "source": "GitHub Trending",
     "topic": "AI大事",
-    "region": "cn",
-    "published": "2026-08-26T03:25:00",
-    "author": "量子位的朋友们"
-  },
-  {
-    "title": "深度实测「豆包工作」+飞书：目前最接近企业Agent终局的答案",
-    "url": "https://www.qbitai.com/2026/08/479348.html",
-    "source": "量子位",
-    "topic": "AI大事",
-    "region": "cn",
-    "published": "2026-08-26T02:59:02",
-    "author": "听雨"
+    "region": "intl",
+    "published": "",
+    "author": ""
   },
   {
     "title": "freestylefly/awesome-gpt-image-2",
@@ -315,8 +423,17 @@
     "author": ""
   },
   {
-    "title": "anthropics/claude-plugins-community",
-    "url": "https://github.com/anthropics/claude-plugins-community",
+    "title": "anthropics/claude-plugins-official",
+    "url": "https://github.com/anthropics/claude-plugins-official",
+    "source": "GitHub Trending",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "",
+    "author": ""
+  },
+  {
+    "title": "Alishahryar1/free-claude-code",
+    "url": "https://github.com/Alishahryar1/free-claude-code",
     "source": "GitHub Trending",
     "topic": "AI大事",
     "region": "intl",
@@ -333,26 +450,17 @@
     "author": ""
   },
   {
-    "title": "apache/maka",
-    "url": "https://github.com/apache/maka",
-    "source": "GitHub Trending",
-    "topic": "AI大事",
-    "region": "intl",
-    "published": "",
-    "author": ""
-  },
-  {
-    "title": "TauricResearch/TradingAgents",
-    "url": "https://github.com/TauricResearch/TradingAgents",
-    "source": "GitHub Trending",
-    "topic": "AI大事",
-    "region": "intl",
-    "published": "",
-    "author": ""
-  },
-  {
     "title": "AgriciDaniel/claude-obsidian",
     "url": "https://github.com/AgriciDaniel/claude-obsidian",
+    "source": "GitHub Trending",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "",
+    "author": ""
+  },
+  {
+    "title": "basecamp/omarchy",
+    "url": "https://github.com/basecamp/omarchy",
     "source": "GitHub Trending",
     "topic": "AI大事",
     "region": "intl",
@@ -378,8 +486,8 @@
     "author": ""
   },
   {
-    "title": "basecamp/omarchy",
-    "url": "https://github.com/basecamp/omarchy",
+    "title": "DietrichGebert/ponytail",
+    "url": "https://github.com/DietrichGebert/ponytail",
     "source": "GitHub Trending",
     "topic": "AI大事",
     "region": "intl",
@@ -387,12 +495,30 @@
     "author": ""
   },
   {
-    "title": "Shubhamsaboo/awesome-llm-apps",
-    "url": "https://github.com/Shubhamsaboo/awesome-llm-apps",
-    "source": "GitHub Trending",
+    "title": "亚马逊 Mechanical Turk 将于 9 月 30 日关闭",
+    "url": "https://www.solidot.org/story?sid=85212",
+    "source": "Solidot",
     "topic": "AI大事",
     "region": "intl",
-    "published": "",
+    "published": "2026-08-27T10:48:03",
+    "author": ""
+  },
+  {
+    "title": "LibreOffice 26.8 释出",
+    "url": "https://www.solidot.org/story?sid=85211",
+    "source": "Solidot",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-08-27T09:22:30",
+    "author": ""
+  },
+  {
+    "title": "英伟达同意以 129 亿美元收购 Hugging Face",
+    "url": "https://www.solidot.org/story?sid=85206",
+    "source": "Solidot",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-08-27T05:21:19",
     "author": ""
   },
   {
@@ -429,15 +555,6 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-08-26T06:26:46",
-    "author": ""
-  },
-  {
-    "title": "微软画图和照片应用生成的图像嵌入了看不见的水印",
-    "url": "https://www.solidot.org/story?sid=85192",
-    "source": "Solidot",
-    "topic": "AI大事",
-    "region": "intl",
-    "published": "2026-08-25T11:12:00",
     "author": ""
   },
   {
@@ -540,6 +657,69 @@
     "author": "阮一峰"
   },
   {
+    "title": "机器人运动会散场后，自变量给机器人建了一座「虚拟训练场」",
+    "url": "https://www.ifanr.com/1677048?utm_source=rss&utm_medium=rss&utm_campaign=",
+    "source": "爱范儿",
+    "topic": "AI大事",
+    "region": "cn",
+    "published": "2026-08-27T10:34:37",
+    "author": "李超凡"
+  },
+  {
+    "title": "为什么苹果、小米的 AI 电脑，都在死磕「内存墙」｜AI 器物志",
+    "url": "https://www.ifanr.com/1676852?utm_source=rss&utm_medium=rss&utm_campaign=",
+    "source": "爱范儿",
+    "topic": "AI大事",
+    "region": "cn",
+    "published": "2026-08-27T10:15:44",
+    "author": "郑廷旭"
+  },
+  {
+    "title": "理想换了一种活法！理想 i9、新 MEGA 即将发布，李想：纯电销量已经追平增程",
+    "url": "https://www.ifanr.com/1677019?utm_source=rss&utm_medium=rss&utm_campaign=",
+    "source": "爱范儿",
+    "topic": "AI大事",
+    "region": "cn",
+    "published": "2026-08-27T09:33:10",
+    "author": "李华"
+  },
+  {
+    "title": "智元机器人「奥运」首秀封神，戴着工牌狂揽 18 枚金牌",
+    "url": "https://www.ifanr.com/1676970?utm_source=rss&utm_medium=rss&utm_campaign=",
+    "source": "爱范儿",
+    "topic": "AI大事",
+    "region": "cn",
+    "published": "2026-08-27T08:48:38",
+    "author": "姚桐"
+  },
+  {
+    "title": "OpenAI 的中场战事",
+    "url": "https://www.ifanr.com/1676929?utm_source=rss&utm_medium=rss&utm_campaign=",
+    "source": "爱范儿",
+    "topic": "AI大事",
+    "region": "cn",
+    "published": "2026-08-27T07:24:07",
+    "author": "彭海星"
+  },
+  {
+    "title": "苹果发布会最全爆料：折叠 iPhone 和新 CEO 都来了，还有一个 One more thing",
+    "url": "https://www.ifanr.com/1676900?utm_source=rss&utm_medium=rss&utm_campaign=",
+    "source": "爱范儿",
+    "topic": "AI大事",
+    "region": "cn",
+    "published": "2026-08-27T06:25:14",
+    "author": "罗嘉阳"
+  },
+  {
+    "title": "MiniMax 违背「祖训」，企业收入暴涨 700%，偷偷变成了「卖铲子」的",
+    "url": "https://www.ifanr.com/1676874?utm_source=rss&utm_medium=rss&utm_campaign=",
+    "source": "爱范儿",
+    "topic": "AI大事",
+    "region": "cn",
+    "published": "2026-08-27T02:48:30",
+    "author": "杜晨"
+  },
+  {
     "title": "早报｜苹果新iPhone 9月10日见/特斯拉中国辟谣上海数据中心撤离/工信部:严禁未经充分测试验证的汽车产品进入市场",
     "url": "https://www.ifanr.com/1676848?utm_source=rss&utm_medium=rss&utm_campaign=",
     "source": "爱范儿",
@@ -567,67 +747,22 @@
     "author": "陈世琛"
   },
   {
-    "title": "OpenAI 自研「辣椒芯片」首测超英伟达，会让 ChatGPT 更便宜吗？",
-    "url": "https://www.ifanr.com/1676738?utm_source=rss&utm_medium=rss&utm_campaign=",
-    "source": "爱范儿",
+    "title": "[AINews] NVIDIA buys HuggingFace for $13B, as OpenAI publishes their HF incident retro",
+    "url": "https://www.latent.space/p/ainews-nvidia-buys-huggingface-for",
+    "source": "Latent Space",
     "topic": "AI大事",
-    "region": "cn",
-    "published": "2026-08-26T09:46:32",
-    "author": "张子豪"
+    "region": "intl",
+    "published": "2026-08-27T01:50:54",
+    "author": ""
   },
   {
-    "title": "早报｜6999起,苹果发布新款Mac mini/追觅官宣收缩探索阶段业务/「豆包工作」正式推出,可读取飞书上下文",
-    "url": "https://www.ifanr.com/1676731?utm_source=rss&utm_medium=rss&utm_campaign=",
-    "source": "爱范儿",
+    "title": "[AINews] Hot Chips: OpenAI’s Jalapeño, Cerebras CS-5, Groq 3 LPX, Apple M6",
+    "url": "https://www.latent.space/p/ainews-hot-chips-openais-jalapeno",
+    "source": "Latent Space",
     "topic": "AI大事",
-    "region": "cn",
-    "published": "2026-08-26T00:13:57",
-    "author": "郑廷旭"
-  },
-  {
-    "title": "刚刚，新款 Mac mini 发布！价格大涨2500元，苹果第一次为 AI 造电脑",
-    "url": "https://www.ifanr.com/1676537?utm_source=rss&utm_medium=rss&utm_campaign=",
-    "source": "爱范儿",
-    "topic": "AI大事",
-    "region": "cn",
-    "published": "2026-08-25T13:10:31",
-    "author": "莫崇宇"
-  },
-  {
-    "title": "OpenAI「亲儿子」反水，认中国模型做「赛博义父」",
-    "url": "https://www.ifanr.com/1676629?utm_source=rss&utm_medium=rss&utm_campaign=",
-    "source": "爱范儿",
-    "topic": "AI大事",
-    "region": "cn",
-    "published": "2026-08-25T12:01:44",
-    "author": "Selina"
-  },
-  {
-    "title": "QQ 宠物靠 AI 在手机复活，可我更想要一只桌宠企鹅",
-    "url": "https://www.ifanr.com/1676656?utm_source=rss&utm_medium=rss&utm_campaign=",
-    "source": "爱范儿",
-    "topic": "AI大事",
-    "region": "cn",
-    "published": "2026-08-25T07:35:58",
-    "author": "罗嘉阳"
-  },
-  {
-    "title": "Google AI 把「地球」玩坏了，这是对 10 亿人的不负责",
-    "url": "https://www.ifanr.com/1676650?utm_source=rss&utm_medium=rss&utm_campaign=",
-    "source": "爱范儿",
-    "topic": "AI大事",
-    "region": "cn",
-    "published": "2026-08-25T07:31:45",
-    "author": "罗嘉阳"
-  },
-  {
-    "title": "首发 | 影石做了十年全景相机，想让你忘记「全景相机」",
-    "url": "https://www.ifanr.com/1676648?utm_source=rss&utm_medium=rss&utm_campaign=",
-    "source": "爱范儿",
-    "topic": "AI大事",
-    "region": "cn",
-    "published": "2026-08-25T07:29:19",
-    "author": "罗嘉阳"
+    "region": "intl",
+    "published": "2026-08-27T01:31:22",
+    "author": ""
   },
   {
     "title": "Lovable CTO: The Future of SaaS Is Apps That Agents Can Use",
@@ -666,21 +801,12 @@
     "author": ""
   },
   {
-    "title": "The Evolution of the Agent Harness",
-    "url": "https://www.latent.space/p/attention-interface",
-    "source": "Latent Space",
+    "title": "Expanding OpenAI’s presence in Brazil",
+    "url": "https://openai.com/index/expanding-our-presence-in-brazil",
+    "source": "OpenAI Blog",
     "topic": "AI大事",
     "region": "intl",
-    "published": "2026-08-22T07:30:52",
-    "author": "Dan McAteer"
-  },
-  {
-    "title": "Simulation: the new Scaling Law — Joon Sung Park, Simile AI",
-    "url": "https://www.latent.space/p/simile",
-    "source": "Latent Space",
-    "topic": "AI大事",
-    "region": "intl",
-    "published": "2026-08-21T23:37:38",
+    "published": "2026-08-27T03:00:00",
     "author": ""
   },
   {
@@ -740,15 +866,6 @@
   {
     "title": "Disrupting a new covert influence campaign from Russia",
     "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-influence-campaign-russia",
-    "source": "OpenAI Blog",
-    "topic": "AI大事",
-    "region": "intl",
-    "published": "2026-08-25T00:00:00",
-    "author": ""
-  },
-  {
-    "title": "Introducing the Admin plugin for ChatGPT Work and Codex",
-    "url": "https://openai.com/index/introducing-admin-plugin",
     "source": "OpenAI Blog",
     "topic": "AI大事",
     "region": "intl",
@@ -828,7 +945,25 @@
     "author": "News from Google Team"
   },
   {
-    "title": "Viral AI startup Instinct has raised $350 million at a $2.5 billion valuation",
+    "title": "OpenAI to start showing ads on ChatGPT’s free and Go tiers in India",
+    "url": "https://techcrunch.com/2026/08/27/openai-to-start-showing-ads-on-chatgpts-free-and-go-tiers-in-india/",
+    "source": "TechCrunch AI",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-08-27T11:35:59",
+    "author": "Ivan Mehta"
+  },
+  {
+    "title": "Nvidia closes in on Hugging Face acquisition",
+    "url": "https://techcrunch.com/2026/08/26/nvidia-closes-in-on-hugging-face-acquisition/",
+    "source": "TechCrunch AI",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-08-27T06:32:51",
+    "author": "Connie Loizos"
+  },
+  {
+    "title": "Viral AI startup Instinct has raised $350M at a $2.5B valuation",
     "url": "https://techcrunch.com/2026/08/26/viral-ai-startup-instinct-has-raised-350-million-at-a-2-5-billion-valuation/",
     "source": "TechCrunch AI",
     "topic": "AI大事",
@@ -898,24 +1033,6 @@
     "region": "intl",
     "published": "2026-08-26T14:19:29",
     "author": "Rebecca Bellan"
-  },
-  {
-    "title": "Robot brain builders are pushing out of their GPT-2 era",
-    "url": "https://techcrunch.com/2026/08/26/robot-brain-builders-are-pushing-out-of-their-gpt-2-era/",
-    "source": "TechCrunch AI",
-    "topic": "AI大事",
-    "region": "intl",
-    "published": "2026-08-26T13:30:00",
-    "author": "Tim Fernholz"
-  },
-  {
-    "title": "QueryStory wants you to believe what AI is telling you",
-    "url": "https://techcrunch.com/2026/08/26/querystory-wants-you-to-believe-what-ai-is-telling-you/",
-    "source": "TechCrunch AI",
-    "topic": "AI大事",
-    "region": "intl",
-    "published": "2026-08-26T13:00:00",
-    "author": "Tim Fernholz"
   },
   {
     "title": "Nvidia is about to be a hundred-billion-dollar-a-quarter company",
@@ -1044,156 +1161,120 @@
     "author": ""
   },
   {
-    "title": "习近平主席出席上合组织峰会并访问吉尔吉斯斯坦、埃及前瞻",
-    "url": "https://h.xinhuaxmt.com/vh512/share/13258363?newstype=1001&homeshow=1",
+    "title": "重型运输机、滚装会议舱和“战略泄密”：解码CIA局长的莫斯科8小时｜907编辑部",
+    "url": "https://m.thepaper.cn/detail/33960773",
     "source": "澎湃新闻",
     "topic": "世界时事",
     "region": "cn",
-    "published": "2026-08-27T01:31:14",
-    "author": ""
+    "published": "2026-08-27T11:22:22",
+    "author": "澎湃新闻"
   },
   {
-    "title": "经纬互联・智启全球纺织新未来，2026第九届世界布商大会新闻发布会在沪举行",
-    "url": "https://m.thepaper.cn/detail/33955134",
+    "title": "大外交｜2个小组、2个会晤点、2条热线：中印特代会晤助力改善两国关系",
+    "url": "https://m.thepaper.cn/detail/33960883",
     "source": "澎湃新闻",
     "topic": "世界时事",
     "region": "cn",
-    "published": "2026-08-27T01:28:27",
-    "author": "澎湃新闻记者 邢燕"
+    "published": "2026-08-27T11:14:17",
+    "author": "澎湃新闻记者 聂舒翼"
   },
   {
-    "title": "“彩礼贷”卷土重来？江西银行回应：系不实信息，已报案",
-    "url": "https://m.thepaper.cn/detail/33954899",
+    "title": "“适应性稳定”：哈萨克斯坦首届库鲁尔泰选举与治理逻辑的变与不变",
+    "url": "https://m.thepaper.cn/detail/33959374",
     "source": "澎湃新闻",
     "topic": "世界时事",
     "region": "cn",
-    "published": "2026-08-27T00:46:29",
-    "author": "澎湃新闻见习记者 赵宇琦"
+    "published": "2026-08-27T11:05:22",
+    "author": "澎湃新闻特约撰稿 古丽孜依·白山"
   },
   {
-    "title": "视频丨窥探飞行日志等敏感数据，境外间谍盯上我国巡检无人机",
-    "url": "https://m.thepaper.cn/detail/33955030",
+    "title": "英伟达被曝129亿美元收购Hugging Face：抢开源系统客户，重返云计算市场",
+    "url": "https://m.thepaper.cn/detail/33960493",
     "source": "澎湃新闻",
     "topic": "世界时事",
     "region": "cn",
-    "published": "2026-08-26T23:50:26",
-    "author": "王莉/央视新闻"
+    "published": "2026-08-27T10:29:47",
+    "author": "澎湃新闻记者 胡含嫣"
   },
   {
-    "title": "人民日报：继续综合整治“内卷式”竞争，营造公平有序的市场竞争环境",
-    "url": "https://m.thepaper.cn/detail/33955024",
-    "source": "澎湃新闻",
-    "topic": "世界时事",
-    "region": "cn",
-    "published": "2026-08-26T23:49:12",
-    "author": "林丽鹂、刘温馨/人民日报"
-  },
-  {
-    "title": "个别地方国资提出变“土地财政”为“股权财政”口号，经济日报：切忌盲目跟投",
-    "url": "https://m.thepaper.cn/detail/33955023",
-    "source": "澎湃新闻",
-    "topic": "世界时事",
-    "region": "cn",
-    "published": "2026-08-26T23:48:55",
-    "author": "梁睿/经济日报"
-  },
-  {
-    "title": "108万元CEO班“货不对板”？牛津大学独家回应：部分中文宣传材料不实，正展开调查",
-    "url": "https://m.thepaper.cn/detail/33775039",
-    "source": "澎湃新闻",
-    "topic": "世界时事",
-    "region": "cn",
-    "published": "2026-08-26T23:30:01",
-    "author": "澎湃新闻记者 赵利新"
-  },
-  {
-    "title": "习近平对西藏日喀则市吉隆县遭受泥石流灾害作出重要指示",
-    "url": "https://m.thepaper.cn/detail/33853124",
-    "source": "澎湃新闻",
-    "topic": "世界时事",
-    "region": "cn",
-    "published": "2026-08-26T07:31:09",
-    "author": "新华社客户端"
-  },
-  {
-    "title": "今日开盘：沪指报3911.89点 跌幅0.02%",
-    "url": "https://finance.caixin.com/2026-08-27/102478398.html",
+    "title": "Meta就青少年伤害诉讼达成和解 10年分期赔款180亿美元",
+    "url": "https://www.caixin.com/2026-08-27/102478678.html",
     "source": "财新网",
     "topic": "世界时事",
     "region": "cn",
-    "published": "2026-08-27T01:29:53",
+    "published": "2026-08-27T10:17:12",
     "author": ""
   },
   {
-    "title": "智谱认领神秘模型“牛来” 测试期国产芯片提供全部推理算力",
-    "url": "https://www.caixin.com/2026-08-27/102478385.html",
+    "title": "香港住宅楼价指数结束13个月连升 7月环比微跌0.46%",
+    "url": "https://www.caixin.com/2026-08-27/102478673.html",
     "source": "财新网",
     "topic": "世界时事",
     "region": "cn",
-    "published": "2026-08-27T00:32:25",
+    "published": "2026-08-27T10:15:13",
     "author": ""
   },
   {
-    "title": "T早报｜智谱认领神秘模型“牛来”；巴西政府罚款TikTok近2亿元；MiniMax上半年收入超2025全年",
-    "url": "https://www.caixin.com/2026-08-27/102478377.html",
+    "title": "英伟达H200重返中国但收入占比不足1% 预计下财年营收增长70%",
+    "url": "https://www.caixin.com/2026-08-27/102478664.html",
     "source": "财新网",
     "topic": "世界时事",
     "region": "cn",
-    "published": "2026-08-27T00:23:50",
+    "published": "2026-08-27T09:59:17",
     "author": ""
   },
   {
-    "title": "居民医保参保下滑 研究建议资助60岁以上和低收入群体缴费",
-    "url": "https://www.caixin.com/2026-08-27/102478360.html",
+    "title": "俄乌战火波及俄罗斯跨境电商 野莓、Ozon仓库接连被袭",
+    "url": "https://international.caixin.com/2026-08-27/102478658.html",
     "source": "财新网",
     "topic": "世界时事",
     "region": "cn",
-    "published": "2026-08-26T23:19:56",
+    "published": "2026-08-27T09:47:22",
     "author": ""
   },
   {
-    "title": "分析｜“六网协同”提速，多元化投融资模式如何落地？",
-    "url": "https://www.caixin.com/2026-08-27/102478356.html",
+    "title": "尼泊尔北部山洪已致826人失踪 已找到177具遇难者遗体",
+    "url": "https://international.caixin.com/2026-08-27/102478586.html",
     "source": "财新网",
     "topic": "世界时事",
     "region": "cn",
-    "published": "2026-08-26T23:16:02",
+    "published": "2026-08-27T08:05:52",
     "author": ""
   },
   {
-    "title": "MiniMax上半年收入1.17亿美元超2025全年 8月ARR达8亿美元",
-    "url": "https://www.caixin.com/2026-08-27/102478340.html",
+    "title": "从姚明到刘翔，康复医疗有多重要｜疾辨",
+    "url": "https://opinion.caixin.com/2026-08-27/102478579.html",
     "source": "财新网",
     "topic": "世界时事",
     "region": "cn",
-    "published": "2026-08-26T23:04:21",
+    "published": "2026-08-27T07:29:37",
     "author": ""
   },
   {
-    "title": "财经早知道｜京沪外资商业地产加速换手 多项目折价四成处置",
-    "url": "https://finance.caixin.com/2026-08-27/102478338.html",
-    "source": "财新网",
+    "title": "海拔5000多米冰崩，数千万方、每秒50米……",
+    "url": "https://www.guancha.cn/internation/2026_08_27_828900_s.shtml",
+    "source": "观察者网",
     "topic": "世界时事",
     "region": "cn",
-    "published": "2026-08-26T22:55:33",
+    "published": "2026-08-27T10:46:21",
     "author": ""
   },
   {
-    "title": "韩美近期弱化朝鲜半岛“无核化”表述 双方对朝政策初现分歧",
-    "url": "https://international.caixin.com/2026-08-26/102478322.html",
-    "source": "财新网",
+    "title": "独家对话《龙餐馆》编剧：战争叙事西方说了算？不对！",
+    "url": "https://www.guancha.cn/culture/2026_08_27_828885_s.shtml",
+    "source": "观察者网",
     "topic": "世界时事",
     "region": "cn",
-    "published": "2026-08-26T14:35:17",
+    "published": "2026-08-27T08:45:42",
     "author": ""
   },
   {
-    "title": "因违规处理未成年人数据 巴西政府罚款TikTok近2亿元",
-    "url": "https://companies.caixin.com/2026-08-26/102478308.html",
-    "source": "财新网",
+    "title": "运-20驰援，西藏灾害救出2人，3人遇难、558人失联",
+    "url": "https://www.guancha.cn/politics/2026_08_27_828824_s.shtml",
+    "source": "观察者网",
     "topic": "世界时事",
     "region": "cn",
-    "published": "2026-08-26T12:37:25",
+    "published": "2026-08-27T03:09:31",
     "author": ""
   },
   {
@@ -1260,30 +1341,12 @@
     "author": ""
   },
   {
-    "title": "“须在伊朗和美元体系中二选一”，但没提中国",
-    "url": "https://www.guancha.cn/internation/2026_08_25_828499_s.shtml",
-    "source": "观察者网",
+    "title": "Meta案突以180億美元和解，或加快清算社交媒體兒童安全",
+    "url": "https://www.bbc.com/zhongwen/articles/cew9197pqzwo/trad?at_medium=RSS&at_campaign=rss",
+    "source": "BBC 中文",
     "topic": "世界时事",
     "region": "cn",
-    "published": "2026-08-24T23:25:56",
-    "author": ""
-  },
-  {
-    "title": "“从中国的角度看，这个时间点恰到好处”",
-    "url": "https://www.guancha.cn/internation/2026_08_24_828493_s.shtml",
-    "source": "观察者网",
-    "topic": "世界时事",
-    "region": "cn",
-    "published": "2026-08-24T15:08:41",
-    "author": ""
-  },
-  {
-    "title": "越南为这条中越铁路增投200多亿，钱都花哪儿了？",
-    "url": "https://www.guancha.cn/internation/2026_08_24_828465_s.shtml",
-    "source": "观察者网",
-    "topic": "世界时事",
-    "region": "cn",
-    "published": "2026-08-24T10:39:37",
+    "published": "2026-08-27T06:36:56",
     "author": ""
   },
   {
@@ -1332,49 +1395,31 @@
     "author": ""
   },
   {
+    "title": "Nvidia agrees to acquire Hugging Face for $13B",
+    "url": "https://www.businessinsider.com/nvidia-in-talks-to-buy-hugging-face-13-billion-dollars-2026-8",
+    "source": "HackerNews",
+    "topic": "技术圈",
+    "region": "intl",
+    "published": "2026-08-27T01:12:55",
+    "author": "mfiguiere · 1252 pts · 551 comments"
+  },
+  {
+    "title": "Mechanical Turk shutting down September 30",
+    "url": "https://www.mturk.com/",
+    "source": "HackerNews",
+    "topic": "技术圈",
+    "region": "intl",
+    "published": "2026-08-26T23:55:44",
+    "author": "tmp10423288442 · 401 pts · 116 comments"
+  },
+  {
     "title": "GLM-5.3-Flash",
     "url": "https://z.ai/blog/glm-5.3-flash",
     "source": "HackerNews",
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-08-26T14:08:50",
-    "author": "Philpax · 881 pts · 442 comments"
-  },
-  {
-    "title": "Tailcat – Like netcat, but over Tailscale’s data plane",
-    "url": "https://github.com/tailscale/tailcat",
-    "source": "HackerNews",
-    "topic": "技术圈",
-    "region": "intl",
-    "published": "2026-08-26T17:42:22",
-    "author": "nderjung · 470 pts · 90 comments"
-  },
-  {
-    "title": "AWS Acquires DuckLabs",
-    "url": "https://ducklabs.com/news/2026/08/26/ducklabs-to-join-aws",
-    "source": "HackerNews",
-    "topic": "技术圈",
-    "region": "intl",
-    "published": "2026-08-26T12:59:26",
-    "author": "onderkalaci · 965 pts · 289 comments"
-  },
-  {
-    "title": "An ongoing 3D-printer AGPL violation",
-    "url": "https://lwn.net/SubscriberLink/1089390/46116614cc74b814/",
-    "source": "HackerNews",
-    "topic": "技术圈",
-    "region": "intl",
-    "published": "2026-08-26T17:41:40",
-    "author": "Velocifyer · 306 pts · 136 comments"
-  },
-  {
-    "title": "Qwen3.8-Flash-Next",
-    "url": "https://qwen.ai/blog?id=qwen3.8-flash-next",
-    "source": "HackerNews",
-    "topic": "技术圈",
-    "region": "intl",
-    "published": "2026-08-26T12:52:12",
-    "author": "tosh · 621 pts · 197 comments"
+    "author": "Philpax · 1053 pts · 532 comments"
   },
   {
     "title": "U.S. State Department pauses immigrant visa applications",
@@ -1383,7 +1428,52 @@
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-08-26T17:22:16",
-    "author": "sss111 · 264 pts · 344 comments"
+    "author": "sss111 · 571 pts · 843 comments"
+  },
+  {
+    "title": "Tailcat – Like netcat, but over Tailscale’s data plane",
+    "url": "https://github.com/tailscale/tailcat",
+    "source": "HackerNews",
+    "topic": "技术圈",
+    "region": "intl",
+    "published": "2026-08-26T17:42:22",
+    "author": "nderjung · 591 pts · 106 comments"
+  },
+  {
+    "title": "Asahi Linux Progress Report: Linux 7.2",
+    "url": "https://asahilinux.org/2026/08/progress-report-7-2/",
+    "source": "HackerNews",
+    "topic": "技术圈",
+    "region": "intl",
+    "published": "2026-08-26T22:35:02",
+    "author": "pizzaiolo · 303 pts · 130 comments"
+  },
+  {
+    "title": "Worst-case glacial lake flood scenarios in a transboundary Himalayan basin 2022",
+    "url": "https://nhess.copernicus.org/articles/22/3765/2022/nhess-22-3765-2022.html",
+    "source": "HackerNews",
+    "topic": "技术圈",
+    "region": "intl",
+    "published": "2026-08-26T22:44:03",
+    "author": "totetsu · 200 pts · 132 comments"
+  },
+  {
+    "title": "An ongoing 3D-printer AGPL violation",
+    "url": "https://lwn.net/SubscriberLink/1089390/46116614cc74b814/",
+    "source": "HackerNews",
+    "topic": "技术圈",
+    "region": "intl",
+    "published": "2026-08-26T17:41:40",
+    "author": "Velocifyer · 418 pts · 178 comments"
+  },
+  {
+    "title": "CEO fired developers to make room for AI. Developers create open source AI CEO",
+    "url": "https://github.com/SenteLabsAI/OpenExecutive",
+    "source": "HackerNews",
+    "topic": "技术圈",
+    "region": "intl",
+    "published": "2026-08-27T01:46:22",
+    "author": "GrumpySciGuy · 673 pts · 440 comments"
   },
   {
     "title": "Twitter Viewer – View Twitter Without Account",
@@ -1392,7 +1482,25 @@
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-08-26T14:11:39",
-    "author": "motownphilly · 316 pts · 156 comments"
+    "author": "motownphilly · 477 pts · 293 comments"
+  },
+  {
+    "title": "Zohran and the Short Link",
+    "url": "https://iamwillwang.com/notes/zohran-and-the-short-link/",
+    "source": "HackerNews",
+    "topic": "技术圈",
+    "region": "intl",
+    "published": "2026-08-26T23:50:15",
+    "author": "wxw · 214 pts · 85 comments"
+  },
+  {
+    "title": "The Hugging Face incident and the road ahead",
+    "url": "https://openai.com/index/hugging-face-incident-and-the-road-ahead/",
+    "source": "HackerNews",
+    "topic": "技术圈",
+    "region": "intl",
+    "published": "2026-08-26T19:15:23",
+    "author": "amrrs · 267 pts · 353 comments"
   },
   {
     "title": "Nebula Sans",
@@ -1401,7 +1509,34 @@
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-08-26T15:03:52",
-    "author": "GavinAnderegg · 340 pts · 129 comments"
+    "author": "GavinAnderegg · 430 pts · 172 comments"
+  },
+  {
+    "title": "FDA approves first in class targeted therapy for metastatic pancreatic cancer",
+    "url": "https://www.fda.gov/news-events/press-announcements/fda-approves-first-class-targeted-therapy-metastatic-pancreatic-cancer",
+    "source": "HackerNews",
+    "topic": "技术圈",
+    "region": "intl",
+    "published": "2026-08-26T16:19:03",
+    "author": "leopoldj · 229 pts · 55 comments"
+  },
+  {
+    "title": "CoMaps: The Offline App That Guided Rescuers Without a Signal in Venezuela",
+    "url": "https://hotosm.org/en/news/comaps-the-offline-app-that-guided-rescuers-without-a-signal-in-the-venezuela-response/",
+    "source": "HackerNews",
+    "topic": "技术圈",
+    "region": "intl",
+    "published": "2026-08-26T17:20:12",
+    "author": "gedankenstuecke · 291 pts · 66 comments"
+  },
+  {
+    "title": "The turbulent AI era is here",
+    "url": "https://www.gatesnotes.com/a-turbulent-ai-era-and-critical-choices-to-make",
+    "source": "HackerNews",
+    "topic": "技术圈",
+    "region": "intl",
+    "published": "2026-08-26T15:55:15",
+    "author": "LVB · 274 pts · 261 comments"
   },
   {
     "title": "Taylor Farms: How One Company's Reach Became a National Risk",
@@ -1410,7 +1545,16 @@
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-08-26T14:21:44",
-    "author": "speckx · 235 pts · 158 comments"
+    "author": "speckx · 280 pts · 192 comments"
+  },
+  {
+    "title": "AWS Acquires DuckLabs",
+    "url": "https://ducklabs.com/news/2026/08/26/ducklabs-to-join-aws",
+    "source": "HackerNews",
+    "topic": "技术圈",
+    "region": "intl",
+    "published": "2026-08-26T12:59:26",
+    "author": "onderkalaci · 1059 pts · 307 comments"
   },
   {
     "title": "Tim Curry has died",
@@ -1419,7 +1563,7 @@
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-08-26T16:03:37",
-    "author": "mykowebhn · 582 pts · 195 comments"
+    "author": "mykowebhn · 681 pts · 220 comments"
   },
   {
     "title": "huggingface/transformers 发布 Release v5.16.1",
@@ -1467,6 +1611,24 @@
     "author": "openai-sdks[bot]"
   },
   {
+    "title": "mem0ai/mem0 发布 Mem0 Strands Integration (v0.1.1)",
+    "url": "https://github.com/mem0ai/mem0/releases/tag/mem0-strands-v0.1.1",
+    "source": "GitHubRelease",
+    "topic": "GitHub 动态",
+    "region": "intl",
+    "published": "2026-08-27T08:20:51",
+    "author": "kartik-mem0"
+  },
+  {
+    "title": "mem0ai/mem0 发布 Mem0 DeepSeek Plugin (v0.1.1)",
+    "url": "https://github.com/mem0ai/mem0/releases/tag/deepseek-plugin-v0.1.1",
+    "source": "GitHubRelease",
+    "topic": "GitHub 动态",
+    "region": "intl",
+    "published": "2026-08-27T08:22:06",
+    "author": "kartik-mem0"
+  },
+  {
     "title": "anthropics/claude-code 发布 v2.1.247",
     "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.247",
     "source": "GitHubRelease",
@@ -1494,12 +1656,21 @@
     "author": "github-actions[bot]"
   },
   {
-    "title": "siyuan-note/siyuan 发布 SiYuan v3.8.2-alpha.5",
-    "url": "https://github.com/siyuan-note/siyuan/releases/tag/v3.8.2-alpha.5",
+    "title": "siyuan-note/siyuan 发布 SiYuan v3.8.2-alpha.7",
+    "url": "https://github.com/siyuan-note/siyuan/releases/tag/v3.8.2-alpha.7",
     "source": "GitHubRelease",
     "topic": "GitHub 动态",
     "region": "intl",
-    "published": "2026-08-26T04:53:36",
+    "published": "2026-08-27T10:24:47",
+    "author": "github-actions[bot]"
+  },
+  {
+    "title": "siyuan-note/siyuan 发布 SiYuan v3.8.2-alpha.6",
+    "url": "https://github.com/siyuan-note/siyuan/releases/tag/v3.8.2-alpha.6",
+    "source": "GitHubRelease",
+    "topic": "GitHub 动态",
+    "region": "intl",
+    "published": "2026-08-27T09:17:43",
     "author": "github-actions[bot]"
   },
   {
@@ -1512,6 +1683,24 @@
     "author": "next-js-bot[bot]"
   },
   {
+    "title": "weaviate/weaviate 发布 v1.38.13 - MCP stateless endpoint Fix, New generative-digitalocean module",
+    "url": "https://github.com/weaviate/weaviate/releases/tag/v1.38.13",
+    "source": "GitHubRelease",
+    "topic": "GitHub 动态",
+    "region": "intl",
+    "published": "2026-08-27T10:13:43",
+    "author": "antas-marcin"
+  },
+  {
+    "title": "weaviate/weaviate 发布 v1.37.15 - LSM store and HFresh Fixes, New multi2vec-twelvelabs and generative-digitalocean modules",
+    "url": "https://github.com/weaviate/weaviate/releases/tag/v1.37.15",
+    "source": "GitHubRelease",
+    "topic": "GitHub 动态",
+    "region": "intl",
+    "published": "2026-08-27T06:41:32",
+    "author": "antas-marcin"
+  },
+  {
     "title": "weaviate/weaviate 发布 v1.39.2 - DB user API-key export/import, generative-digitalocean module, async replication & shard lifecycle fixes",
     "url": "https://github.com/weaviate/weaviate/releases/tag/v1.39.2",
     "source": "GitHubRelease",
@@ -1521,49 +1710,49 @@
     "author": "aliszka"
   },
   {
-    "title": "Digital Aids for Social Media in Adults With Traumatic Brain Injury: Longitudinal Evaluation Study.",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42647862/",
+    "title": "Are Metacognitive Beliefs and Cognitive Flexibility Associated With Cannabis Use Disorder In Adolescents? A Case-Control Study.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42656180/",
     "source": "PubMed",
     "topic": "心理学",
     "region": "intl",
     "published": "2026",
-    "author": "Dakota Sullivan, Nirav N Patel, Lisa Kakonge, Callie Y Kim"
+    "author": "Neval Kızıl, Masum Öztürk, Fatma Subaşı Turgut, Yağmur Soysal"
   },
   {
-    "title": "Managing uncertainty in antibiotic decisions: factors influencing antibiotic use among chinese parents of children in a multi-source information environment.",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42647824/",
+    "title": "Concerning uncertainty-a systematic survey of uncertainty-aware XAI.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42656164/",
     "source": "PubMed",
     "topic": "心理学",
     "region": "intl",
     "published": "2026",
-    "author": "Hong Yu, Ye Zhu, Shang Xu, Ruoyin Liao"
+    "author": "Helena Löfström, Tuwe Löfström, Anders Hjort, Fatima Rabia Yapicioglu"
   },
   {
-    "title": "Best Practices for Integrating Community Health Workers Into Care Teams and Organizations: Lessons From the Front Line.",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42647811/",
+    "title": "[Classification of systemic lupus erythematosus resting-state functional magnetic resonance imaging data based on the end-to-end model].",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42656117/",
     "source": "PubMed",
     "topic": "心理学",
     "region": "intl",
     "published": "2026",
-    "author": "Ada M Wilkinson-Lee, Dana R Hunter, Caroline R Evans, Katie C Stalker"
+    "author": "Yunyun Ma, Peng Ding, Yuqi Cheng, Tianwen Li"
   },
   {
-    "title": "EOAD-Signature Atrophy Predicts Dementia in Early-Onset MCI due to Alzheimer Disease: An MRI-Based Prognostic Biomarker.",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42647766/",
+    "title": "Prognostic Determinants of Overall Survival After Resection for Pancreatic Ductal Adenocarcinoma: A Consensus-Based Conceptual Framework.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42656018/",
     "source": "PubMed",
     "topic": "心理学",
     "region": "intl",
     "published": "2026",
-    "author": "Thiago Paranhos, Yuta Katsumi, Michael Joseph Brickhouse, Ani Eloyan"
+    "author": "Muhammad Maisam Ali, Kaleem S Ahmed, Clayton T Marcinak, Syed Ali Tayyeb Hasan"
   },
   {
-    "title": "The Role of Social Networking Sites (SNS) and mHealth Pregnancy Apps in Maternal Health Literacy and Behavior.",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42647731/",
+    "title": "Revisiting the three delays model: Persistent drivers of obstetric fistula in sub-Saharan Africa during the era of maternal health interventions.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42655997/",
     "source": "PubMed",
     "topic": "心理学",
     "region": "intl",
     "published": "2026",
-    "author": "Renee L Buster, Thomas Guffey, Supriya Rana"
+    "author": "Ahmed Abdinasir Abdulle, Ilyas Abdullahi Khalif, Aniso Mohamed Abdi, Yusuf Hared Abdi"
   },
   {
     "title": "CEDAR: Controlled and Event-Driven Demand Forecasting via Residual Decomposition",
@@ -1584,13 +1773,40 @@
     "author": "Ziyue Yang, Chaolin Xu, Yijing Wang, Tiankai Gu, Hui Yang, Yanhong Lin, Kaiyuan Liu, Fei Xiao"
   },
   {
-    "title": "On the global feature importance for interpretable and trustworthy heat demand forecasting",
-    "url": "http://arxiv.org/abs/2608.13039v1",
-    "source": "arXiv",
+    "title": "Apple Maps 加入广告",
+    "url": "https://www.solidot.org/story?sid=85210",
+    "source": "Solidot",
     "topic": "供应链",
     "region": "intl",
-    "published": "2026-08-13T10:05:25",
-    "author": "Milan Zdravković"
+    "published": "2026-08-27T08:38:19",
+    "author": ""
+  },
+  {
+    "title": "为什么苹果、小米的 AI 电脑，都在死磕「内存墙」｜AI 器物志",
+    "url": "https://www.ifanr.com/1676852?utm_source=rss&utm_medium=rss&utm_campaign=",
+    "source": "爱范儿",
+    "topic": "供应链",
+    "region": "cn",
+    "published": "2026-08-27T10:15:44",
+    "author": "郑廷旭"
+  },
+  {
+    "title": "理想换了一种活法！理想 i9、新 MEGA 即将发布，李想：纯电销量已经追平增程",
+    "url": "https://www.ifanr.com/1677019?utm_source=rss&utm_medium=rss&utm_campaign=",
+    "source": "爱范儿",
+    "topic": "供应链",
+    "region": "cn",
+    "published": "2026-08-27T09:33:10",
+    "author": "李华"
+  },
+  {
+    "title": "苹果发布会最全爆料：折叠 iPhone 和新 CEO 都来了，还有一个 One more thing",
+    "url": "https://www.ifanr.com/1676900?utm_source=rss&utm_medium=rss&utm_campaign=",
+    "source": "爱范儿",
+    "topic": "供应链",
+    "region": "cn",
+    "published": "2026-08-27T06:25:14",
+    "author": "罗嘉阳"
   },
   {
     "title": "早报｜6999起,苹果发布新款Mac mini/追觅官宣收缩探索阶段业务/「豆包工作」正式推出,可读取飞书上下文",
@@ -1629,30 +1845,12 @@
     "author": "罗嘉阳"
   },
   {
-    "title": "追觅造车一周年：展车地库蒙灰，千人团队剩约百人，烧掉的钱谁来买单？",
-    "url": "https://www.ifanr.com/1676439?utm_source=rss&utm_medium=rss&utm_campaign=",
-    "source": "爱范儿",
-    "topic": "供应链",
-    "region": "cn",
-    "published": "2026-08-25T00:49:24",
-    "author": "李华"
-  },
-  {
-    "title": "早报｜小米把「OK」藏进玄戒O3,雷军:不建议拆开看彩蛋/vivo官宣X500系列/MINI车机接入阿里与DeepSeek模型",
-    "url": "https://www.ifanr.com/1676529?utm_source=rss&utm_medium=rss&utm_campaign=",
-    "source": "爱范儿",
-    "topic": "供应链",
-    "region": "cn",
-    "published": "2026-08-25T00:25:59",
-    "author": "郑廷旭"
-  },
-  {
-    "title": "[AINews] Muse Glimmer and Spark: Open Weights return Personal Superintelligence promise",
-    "url": "https://www.latent.space/p/ainews-muse-glimmer-and-spark-open",
+    "title": "[AINews] NVIDIA buys HuggingFace for $13B, as OpenAI publishes their HF incident retro",
+    "url": "https://www.latent.space/p/ainews-nvidia-buys-huggingface-for",
     "source": "Latent Space",
     "topic": "供应链",
     "region": "intl",
-    "published": "2026-08-11T05:16:41",
+    "published": "2026-08-27T01:50:54",
     "author": ""
   }
 ]
