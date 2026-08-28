@@ -1,75 +1,75 @@
 [
   {
-    "title": "PACE: A Unified Condense-and-Extract Paradigm for Fast VLM Inference",
-    "url": "http://arxiv.org/abs/2608.27206v1",
+    "title": "UrbanGround: From Local Perception to Spatial Agency in a Real-Scale City",
+    "url": "http://arxiv.org/abs/2608.27456v1",
     "source": "arXiv",
     "topic": "AI大事",
     "region": "intl",
-    "published": "2026-08-27T14:52:09",
-    "author": "Junjie Liu, Shengyuan Ye, Xu Chen"
+    "published": "2026-08-27T17:59:33",
+    "author": "Tianjie Ju, Zheng Wu, Yueqing Sun, Yuhan Cui, Bobo Li, Shengqiong Wu, Pengzhou Cheng, Haodong Zhao, Zongru Wu, Xinbei Ma, Doris Zhang, Kunling Li, Mong-Li Lee, Wynne Hsu, Hao Fei, Qi Gu, Gongshen Liu,"
   },
   {
-    "title": "LLMs in Digital EDA: A perspective on shifting roles from Generation to Orchestration",
-    "url": "http://arxiv.org/abs/2608.27184v1",
+    "title": "CritICL: Inference-Time Weak-to-Strong Generalization from Small Language Model Failure Modes",
+    "url": "http://arxiv.org/abs/2608.27455v1",
     "source": "arXiv",
     "topic": "AI大事",
     "region": "intl",
-    "published": "2026-08-27T14:29:35",
-    "author": "Matthew Youngman, Cristian Sestito, Themis Prodromakis"
+    "published": "2026-08-27T17:59:30",
+    "author": "Yufan Wu, Yinghui He, Zhengyi Hu, Lang Wei, Ruichen Li, Qifan Yang, Ting Zhu"
   },
   {
-    "title": "TraceBench: Controlled Evaluation of LLM Agents for Time-Series Root-Cause Attribution",
-    "url": "http://arxiv.org/abs/2608.27182v1",
+    "title": "SWE-Prime: Fewer Trajectories, Better Performance",
+    "url": "http://arxiv.org/abs/2608.27449v1",
     "source": "arXiv",
     "topic": "AI大事",
     "region": "intl",
-    "published": "2026-08-27T14:29:13",
-    "author": "Tommaso Bendinelli, Artur Dox, Christian Holz"
+    "published": "2026-08-27T17:58:10",
+    "author": "Dewu Zheng, Ruizhe Ye, Yanlin Wang, Yang Ye, Hongyu Zhang, Ensheng Shi, Xilin Liu, Yuchi Ma, Jianxing Yu, Zibin Zheng"
   },
   {
-    "title": "When Text Misleads: Inconsistent-Aware Reasoning for Audio-Grounded Dialogue",
-    "url": "http://arxiv.org/abs/2608.27176v1",
+    "title": "TTPO: Test-Time Policy Optimization",
+    "url": "http://arxiv.org/abs/2608.27448v1",
     "source": "arXiv",
     "topic": "AI大事",
     "region": "intl",
-    "published": "2026-08-27T14:26:46",
-    "author": "Yen-Ju Lu, Yuzhe Wang, Yaohan Guan, Xiluo He, Jiarui Hai, Mingrui Liang, Kaavya Chaparala, Thomas Thebaud, Laureano Moro-Velazquez, Najim Dehak, Jesus Villalba"
+    "published": "2026-08-27T17:58:10",
+    "author": "Aozhe Wang, Zhengxi Lu, Jianze Wang, Shangke Lv, Ying Liu, Weiming Lu, Jun Xiao, Yueting Zhuang, Hua Yang, Qianglong Chen, Yongliang Shen"
   },
   {
-    "title": "Calibrated Enough to Know, Not Calibrated to Act: Fabricated Evidence Makes LLM Agents Commit to the Unknowable",
-    "url": "http://arxiv.org/abs/2608.27167v1",
+    "title": "From Static to Dynamic: Benchmarking Real-World Code Review with MCR-Bench",
+    "url": "http://arxiv.org/abs/2608.27442v1",
     "source": "arXiv",
     "topic": "AI大事",
     "region": "intl",
-    "published": "2026-08-27T14:20:08",
-    "author": "Pranav Aggarwal"
+    "published": "2026-08-27T17:56:24",
+    "author": "Dewu Zheng, Yanlin Wang, Xiwen Wang, Kefeng Duan, Hongyu Zhang, Xilin Liu, Yuchi Ma, Zibin Zheng"
   },
   {
-    "title": "Prediction of Prediction (PoP): Inter-Layer Activation Fusion for Single-Pass Hallucination Detection in Large Language Models",
-    "url": "http://arxiv.org/abs/2608.27165v1",
+    "title": "RedEvoAgent: Automatic Red-Teaming Agent with Experience-Driven Skill Evolution",
+    "url": "http://arxiv.org/abs/2608.27439v1",
     "source": "arXiv",
     "topic": "AI大事",
     "region": "intl",
-    "published": "2026-08-27T14:17:14",
-    "author": "Himal Badu"
+    "published": "2026-08-27T17:55:33",
+    "author": "Junjie Zhang, Hui Liu, Kecheng Chen, Xianbo Mo, Changsheng Chen, Haoliang Li"
   },
   {
-    "title": "STAR : Sentence Translation Alignment Rate for Document-to-Document Machine Translation",
-    "url": "http://arxiv.org/abs/2608.27161v1",
+    "title": "Persona-Execution Separation: An Architecture Pattern for Evolving LLM Agents under Execution Audit",
+    "url": "http://arxiv.org/abs/2608.27427v1",
     "source": "arXiv",
     "topic": "AI大事",
     "region": "intl",
-    "published": "2026-08-27T14:12:45",
-    "author": "Yichen Dong, Hao Wang, Junhui Li, Linlong Xu, Longyue Wang, Weihua Luo"
+    "published": "2026-08-27T17:50:07",
+    "author": "Yisen Xi"
   },
   {
-    "title": "AgentDV: Closed-Loop Agentic AI for Hardware Design Verification",
-    "url": "http://arxiv.org/abs/2608.27148v1",
+    "title": "Boosting LLM Exploration via Weak-Model Guidance in RLVR",
+    "url": "http://arxiv.org/abs/2608.27420v1",
     "source": "arXiv",
     "topic": "AI大事",
     "region": "intl",
-    "published": "2026-08-27T14:00:16",
-    "author": "Navya Goli, Junzhe Liu, Zhenge Jia, Umamaheswara Rao Tida"
+    "published": "2026-08-27T17:45:50",
+    "author": "Xingyu Shen, Huishuai Zhang, Peng Li, Yinchun Wang, Dongyan Zhao"
   },
   {
     "title": "Saving 100 terabytes of memory by optimizing 1.1.1.1's DNS cache",
@@ -78,7 +78,7 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-08-27T17:17:57",
-    "author": "TangerineDream · 506 pts · 139 comments"
+    "author": "TangerineDream · 817 pts · 242 comments"
   },
   {
     "title": "Small Models Have Arrived",
@@ -87,7 +87,7 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-08-27T15:56:58",
-    "author": "tosh · 448 pts · 203 comments"
+    "author": "tosh · 703 pts · 308 comments"
   },
   {
     "title": "507 Mechanical Movements",
@@ -96,7 +96,7 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-08-27T14:08:18",
-    "author": "helloplanets · 462 pts · 67 comments"
+    "author": "helloplanets · 610 pts · 76 comments"
   },
   {
     "title": "Microduck",
@@ -105,16 +105,34 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-08-27T10:57:56",
-    "author": "robotswantdata · 503 pts · 183 comments"
+    "author": "robotswantdata · 709 pts · 222 comments"
   },
   {
-    "title": "The turbulent AI era is here",
-    "url": "https://www.gatesnotes.com/work/make-ai-work-for-everyone/reader/a-turbulent-ai-era-and-critical-choices-to-make?WT.mc_id=20260826_ai-overture-2026-med-med",
+    "title": "Gemini-3.5-Transcribe",
+    "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5-transcribe/",
     "source": "HackerNews",
     "topic": "AI大事",
     "region": "intl",
-    "published": "2026-08-26T11:23:54",
-    "author": "nanna · 213 pts · 460 comments"
+    "published": "2026-08-27T18:03:42",
+    "author": "k9294 · 319 pts · 106 comments"
+  },
+  {
+    "title": "We found a division by zero bug in FFmpeg with a vibecoded fuzzer",
+    "url": "https://code.ffmpeg.org/FFmpeg/FFmpeg/issues/24290",
+    "source": "HackerNews",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-08-27T17:53:40",
+    "author": "dclavijo · 268 pts · 229 comments"
+  },
+  {
+    "title": "Gemini Omni 1.1 Flash",
+    "url": "https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash/",
+    "source": "HackerNews",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-08-27T17:06:32",
+    "author": "saretup · 280 pts · 204 comments"
   },
   {
     "title": "Show HN: The load-bearing vocabulary of Claude",
@@ -123,7 +141,7 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-08-27T08:59:49",
-    "author": "Labo333 · 344 pts · 169 comments"
+    "author": "Labo333 · 588 pts · 285 comments"
   },
   {
     "title": "Nvidia agrees to acquire Hugging Face for $13B",
@@ -132,178 +150,142 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-08-27T01:12:55",
-    "author": "mfiguiere · 1829 pts · 855 comments"
+    "author": "mfiguiere · 1915 pts · 888 comments"
   },
   {
-    "title": "世界人工智能开源大赛（GOAI）初赛评审结果暨晋级名单公告",
-    "url": "https://www.infoq.cn/article/Y410fSRGi67fUrNUuzYb?utm_source=rss&utm_medium=article",
+    "title": "Decompiling a Nintendo 64 game in 84 days",
+    "url": "https://blog.chrislewis.au/decompiling-a-nintendo-64-game-in-84-days/",
+    "source": "HackerNews",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-08-27T15:01:11",
+    "author": "knackers · 256 pts · 162 comments"
+  },
+  {
+    "title": "下一层抽象：从UX角度思考Agentic OS的样貌",
+    "url": "https://www.infoq.cn/article/c4zPz7WHXryL5Erw7xop?utm_source=rss&utm_medium=article",
     "source": "InfoQ 中文",
     "topic": "AI大事",
     "region": "cn",
-    "published": "2026-08-27T17:56:39",
+    "published": "2026-08-28T18:00:00",
+    "author": "灯火明"
+  },
+  {
+    "title": "Token消耗减少75%，千问办公创造了新的“省钱模式”",
+    "url": "https://www.infoq.cn/article/70zHFKxwRRGIjBO8EUtC?utm_source=rss&utm_medium=article",
+    "source": "InfoQ 中文",
+    "topic": "AI大事",
+    "region": "cn",
+    "published": "2026-08-28T16:54:48",
+    "author": "凌敏"
+  },
+  {
+    "title": "大模型和硬件之间，长出了一层新生意",
+    "url": "https://www.infoq.cn/article/IROW9KWVs4zSCByU8wQE?utm_source=rss&utm_medium=article",
+    "source": "InfoQ 中文",
+    "topic": "AI大事",
+    "region": "cn",
+    "published": "2026-08-28T15:57:35",
+    "author": "陈姚戈"
+  },
+  {
+    "title": "2026年中国企业AI转型洞察报告",
+    "url": "https://www.infoq.cn/minibook/oYXpDApcpvvgHIOzIOXp?utm_source=rss&utm_medium=article",
+    "source": "InfoQ 中文",
+    "topic": "AI大事",
+    "region": "cn",
+    "published": "2026-08-28T15:53:42",
+    "author": "极客时间企业版"
+  },
+  {
+    "title": "规模化 AI 代码审查：LinkedIn 的多智能体方案",
+    "url": "https://www.infoq.cn/article/A0CMcU7UVsMQreKPcKOw?utm_source=rss&utm_medium=article",
+    "source": "InfoQ 中文",
+    "topic": "AI大事",
+    "region": "cn",
+    "published": "2026-08-28T15:36:00",
+    "author": "作者：Sergio De Simone"
+  },
+  {
+    "title": "从方案走向运行｜世界人工智能开源大赛（GOAI）复赛作品提交正式开启",
+    "url": "https://www.infoq.cn/article/REPGvBlF661I4hRmvV8J?utm_source=rss&utm_medium=article",
+    "source": "InfoQ 中文",
+    "topic": "AI大事",
+    "region": "cn",
+    "published": "2026-08-28T14:20:17",
     "author": "世界人工智能开源大赛"
   },
   {
-    "title": "给 Agent 做“CT”：大规模 Agent 的可观测与质量保障体系",
-    "url": "https://www.infoq.cn/article/QqDSrCEGWitk7kkJg7Kj?utm_source=rss&utm_medium=article",
+    "title": "Cloudflare 发布 Kitesurf，一款面向 AI 智能智能体的浏览器引擎",
+    "url": "https://www.infoq.cn/article/JDYKJmiY9vTRSw47t15a?utm_source=rss&utm_medium=article",
     "source": "InfoQ 中文",
     "topic": "AI大事",
     "region": "cn",
-    "published": "2026-08-27T17:52:32",
-    "author": "作者：钱世俊"
+    "published": "2026-08-28T14:00:00",
+    "author": "作者：Renato Losio"
   },
   {
-    "title": "大模型推理加速全链路：内存管理、编译优化、量化与并行策略",
-    "url": "https://www.infoq.cn/article/AN2AuAT58V9fe8KXD2zi?utm_source=rss&utm_medium=article",
+    "title": "你的 Agent 已经上线生产环境，下一步怎么办？ | 技术实践",
+    "url": "https://www.infoq.cn/article/mKFB15kPm6Uw8fNG4Y7e?utm_source=rss&utm_medium=article",
     "source": "InfoQ 中文",
     "topic": "AI大事",
     "region": "cn",
-    "published": "2026-08-27T17:47:44",
-    "author": "作者：金煜阳"
+    "published": "2026-08-28T11:53:03",
+    "author": "Arun Agarwal"
   },
   {
-    "title": "Cloudflare 利用 AI 智能体将 Astro GitHub 问题减少 85%",
-    "url": "https://www.infoq.cn/article/iJu3eUyEhEI373KeYhYN?utm_source=rss&utm_medium=article",
+    "title": "1周半写64个PR、完成30%项目重构：一家成熟SaaS公司把Agent塞进研发全流程后",
+    "url": "https://www.infoq.cn/article/0yv69MyNwHiwY3IZXPQt?utm_source=rss&utm_medium=article",
     "source": "InfoQ 中文",
     "topic": "AI大事",
     "region": "cn",
-    "published": "2026-08-27T17:00:00",
-    "author": "作者：Leela Kumili"
+    "published": "2026-08-28T11:43:17",
+    "author": "Jackie Calapristi"
   },
   {
-    "title": "Azure DevOps Remote MCP 服务器正式发布，暂不支持 Claude、ChatGPT 及 Cursor",
-    "url": "https://www.infoq.cn/article/SvTBvljtvGctvWPQRqr7?utm_source=rss&utm_medium=article",
+    "title": "Cloudflare 将工程规范改造为 AI 强制执行的管控系统",
+    "url": "https://www.infoq.cn/article/TEgX02zINMmLVbYPyP0N?utm_source=rss&utm_medium=article",
     "source": "InfoQ 中文",
     "topic": "AI大事",
     "region": "cn",
-    "published": "2026-08-27T15:27:00",
-    "author": "作者：Steef-Jan Wiggers"
+    "published": "2026-08-28T10:53:07",
+    "author": "作者：Craig Risi"
   },
   {
-    "title": "不做手机缩小版：AI 健康记录迁到手腕，要跨过哪些工程鸿沟？",
-    "url": "https://www.infoq.cn/article/9TmFlNIk6EamqpvJIOkI?utm_source=rss&utm_medium=article",
-    "source": "InfoQ 中文",
-    "topic": "AI大事",
-    "region": "cn",
-    "published": "2026-08-27T15:10:25",
-    "author": "于曦"
-  },
-  {
-    "title": "非结构化数据的结构化处理：基于 Snowflake Cortex AI Functions | 技术实践",
-    "url": "https://www.infoq.cn/article/Xw6Nlqq7N2J0CKA0ehx8?utm_source=rss&utm_medium=article",
-    "source": "InfoQ 中文",
-    "topic": "AI大事",
-    "region": "cn",
-    "published": "2026-08-27T14:02:54",
-    "author": "Christopher Pelky"
-  },
-  {
-    "title": "千问办公首发上线Qwen3.8-Flash，生成速度提升100%，Token消耗减少75%",
-    "url": "https://www.infoq.cn/article/QEG6h1VpkiaFYUL1jUyc?utm_source=rss&utm_medium=article",
-    "source": "InfoQ 中文",
-    "topic": "AI大事",
-    "region": "cn",
-    "published": "2026-08-27T10:28:42",
-    "author": "千问办公"
-  },
-  {
-    "title": "如何把 Agent 的判断与行动变成可恢复的软件事实 | KDC 工程补篇",
-    "url": "https://www.infoq.cn/article/AkgUFEFE4uG7WIlqaO2g?utm_source=rss&utm_medium=article",
-    "source": "InfoQ 中文",
-    "topic": "AI大事",
-    "region": "cn",
-    "published": "2026-08-27T10:00:00",
-    "author": "vivo 肖博"
-  },
-  {
-    "title": "DeepSeek 开源 Harness：AI 智能体基础设施开始“拆分”",
-    "url": "https://www.infoq.cn/article/vS7tpsLPdevZhMKdtxei?utm_source=rss&utm_medium=article",
-    "source": "InfoQ 中文",
-    "topic": "AI大事",
-    "region": "cn",
-    "published": "2026-08-26T16:26:00",
-    "author": "作者：Olimpiu Pop"
-  },
-  {
-    "title": "MiniMax ARR暴涨500%，token暴涨2000%！这就是Agent红利吧",
-    "url": "https://www.qbitai.com/2026/08/480092.html",
+    "title": "《时代》周刊全球AI 100放榜，精准捕获稚晖君最“想低调”的幕后老板",
+    "url": "https://www.qbitai.com/2026/08/480666.html",
     "source": "量子位",
     "topic": "AI大事",
     "region": "cn",
-    "published": "2026-08-27T12:16:10",
-    "author": "克雷西"
+    "published": "2026-08-28T11:13:35",
+    "author": "衡宇"
   },
   {
-    "title": "基元律动累计融资数千万美元，推出“中国版OpenRouter”",
-    "url": "https://www.qbitai.com/2026/08/480079.html",
+    "title": "刚刚，港股AGI第一股杀疯了！Agent业务半年进账近5亿，Token收入Q2暴涨500%",
+    "url": "https://www.qbitai.com/2026/08/480600.html",
     "source": "量子位",
     "topic": "AI大事",
     "region": "cn",
-    "published": "2026-08-27T05:43:00",
+    "published": "2026-08-28T09:45:19",
+    "author": "一水"
+  },
+  {
+    "title": "Łukasz Kaiser领衔，2026 奇点智能技术大会北京站正式官宣",
+    "url": "https://www.qbitai.com/2026/08/480482.html",
+    "source": "量子位",
+    "topic": "AI大事",
+    "region": "cn",
+    "published": "2026-08-28T06:22:20",
     "author": "量子位的朋友们"
   },
   {
-    "title": "工业Agent不是“套壳”大模型！西门子百年经验灌进工业AI",
-    "url": "https://www.qbitai.com/2026/08/480005.html",
+    "title": "Claude开始接管物理世界！能用机械臂阻拦5000万美元打款了",
+    "url": "https://www.qbitai.com/2026/08/480487.html",
     "source": "量子位",
     "topic": "AI大事",
     "region": "cn",
-    "published": "2026-08-27T02:46:35",
-    "author": "田, 晏林"
-  },
-  {
-    "title": "千问办公首发上线Qwen3.8-Flash，生成速度提升100%，Token消耗减少75%",
-    "url": "https://www.qbitai.com/2026/08/480001.html",
-    "source": "量子位",
-    "topic": "AI大事",
-    "region": "cn",
-    "published": "2026-08-27T01:45:08",
-    "author": "量子位的朋友们"
-  },
-  {
-    "title": "神秘「牛来」模型果然是智谱！GLM首个原生多模态，还用的国产卡",
-    "url": "https://www.qbitai.com/2026/08/479919.html",
-    "source": "量子位",
-    "topic": "AI大事",
-    "region": "cn",
-    "published": "2026-08-26T16:48:12",
-    "author": "十三"
-  },
-  {
-    "title": "AI视频应用井喷，美图打开新的增长空间",
-    "url": "https://www.qbitai.com/2026/08/479895.html",
-    "source": "量子位",
-    "topic": "AI大事",
-    "region": "cn",
-    "published": "2026-08-26T10:18:10",
-    "author": "量子位的朋友们"
-  },
-  {
-    "title": "小宇宙推出《AI趋势报告》：AI创作、AI办公、协作型AI等成讨论新趋势",
-    "url": "https://www.qbitai.com/2026/08/479811.html",
-    "source": "量子位",
-    "topic": "AI大事",
-    "region": "cn",
-    "published": "2026-08-26T10:17:15",
+    "published": "2026-08-28T06:13:59",
     "author": "henry"
-  },
-  {
-    "title": "硅谷今日最热具身模型！不用后训练，看一遍就学会",
-    "url": "https://www.qbitai.com/2026/08/479834.html",
-    "source": "量子位",
-    "topic": "AI大事",
-    "region": "cn",
-    "published": "2026-08-26T10:07:09",
-    "author": "henry"
-  },
-  {
-    "title": "刚刚，Top级的视频AI免费了！我反手做了个精致版《牛来》",
-    "url": "https://www.qbitai.com/2026/08/479670.html",
-    "source": "量子位",
-    "topic": "AI大事",
-    "region": "cn",
-    "published": "2026-08-26T05:56:25",
-    "author": "十三"
   },
   {
     "title": "tt-a1i/archify",
@@ -315,8 +297,8 @@
     "author": ""
   },
   {
-    "title": "freestylefly/awesome-gpt-image-2",
-    "url": "https://github.com/freestylefly/awesome-gpt-image-2",
+    "title": "K-Dense-AI/scientific-agent-skills",
+    "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
     "source": "GitHub Trending",
     "topic": "AI大事",
     "region": "intl",
@@ -333,8 +315,8 @@
     "author": ""
   },
   {
-    "title": "Alishahryar1/free-claude-code",
-    "url": "https://github.com/Alishahryar1/free-claude-code",
+    "title": "bilawalsidhu/gods-eye-view",
+    "url": "https://github.com/bilawalsidhu/gods-eye-view",
     "source": "GitHub Trending",
     "topic": "AI大事",
     "region": "intl",
@@ -342,8 +324,8 @@
     "author": ""
   },
   {
-    "title": "MadsLorentzen/ai-job-search",
-    "url": "https://github.com/MadsLorentzen/ai-job-search",
+    "title": "abhigyanpatwari/GitNexus",
+    "url": "https://github.com/abhigyanpatwari/GitNexus",
     "source": "GitHub Trending",
     "topic": "AI大事",
     "region": "intl",
@@ -351,8 +333,8 @@
     "author": ""
   },
   {
-    "title": "AgriciDaniel/claude-obsidian",
-    "url": "https://github.com/AgriciDaniel/claude-obsidian",
+    "title": "JetBrains/go-modern-guidelines",
+    "url": "https://github.com/JetBrains/go-modern-guidelines",
     "source": "GitHub Trending",
     "topic": "AI大事",
     "region": "intl",
@@ -360,8 +342,8 @@
     "author": ""
   },
   {
-    "title": "basecamp/omarchy",
-    "url": "https://github.com/basecamp/omarchy",
+    "title": "calesthio/OpenMontage",
+    "url": "https://github.com/calesthio/OpenMontage",
     "source": "GitHub Trending",
     "topic": "AI大事",
     "region": "intl",
@@ -369,8 +351,8 @@
     "author": ""
   },
   {
-    "title": "rohitg00/ai-engineering-from-scratch",
-    "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+    "title": "abi/screenshot-to-code",
+    "url": "https://github.com/abi/screenshot-to-code",
     "source": "GitHub Trending",
     "topic": "AI大事",
     "region": "intl",
@@ -378,8 +360,8 @@
     "author": ""
   },
   {
-    "title": "tinyhumansai/openhuman",
-    "url": "https://github.com/tinyhumansai/openhuman",
+    "title": "cursor/plugins",
+    "url": "https://github.com/cursor/plugins",
     "source": "GitHub Trending",
     "topic": "AI大事",
     "region": "intl",
@@ -387,12 +369,48 @@
     "author": ""
   },
   {
-    "title": "DietrichGebert/ponytail",
-    "url": "https://github.com/DietrichGebert/ponytail",
+    "title": "freestylefly/awesome-gpt-image-2",
+    "url": "https://github.com/freestylefly/awesome-gpt-image-2",
     "source": "GitHub Trending",
     "topic": "AI大事",
     "region": "intl",
     "published": "",
+    "author": ""
+  },
+  {
+    "title": "IBM 推出双指令集处理器",
+    "url": "https://www.solidot.org/story?sid=85221",
+    "source": "Solidot",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-08-28T10:06:32",
+    "author": ""
+  },
+  {
+    "title": "法国法庭认定辐射与空乘罹患乳腺癌相关",
+    "url": "https://www.solidot.org/story?sid=85220",
+    "source": "Solidot",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-08-28T08:14:19",
+    "author": ""
+  },
+  {
+    "title": "Haiku R1/beta6 释出",
+    "url": "https://www.solidot.org/story?sid=85219",
+    "source": "Solidot",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-08-28T07:08:27",
+    "author": ""
+  },
+  {
+    "title": "Google 要求 Android 应用开发商降低内存占用",
+    "url": "https://www.solidot.org/story?sid=85218",
+    "source": "Solidot",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-08-28T06:49:13",
     "author": ""
   },
   {
@@ -447,33 +465,6 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-08-26T15:30:14",
-    "author": ""
-  },
-  {
-    "title": "月之暗面与微软、亚马逊和 Google 协商收益分成协议",
-    "url": "https://www.solidot.org/story?sid=85201",
-    "source": "Solidot",
-    "topic": "AI大事",
-    "region": "intl",
-    "published": "2026-08-26T09:30:20",
-    "author": ""
-  },
-  {
-    "title": "OpenAI 首款自研推理芯片 Jalapeño 强于英伟达 Blackwell",
-    "url": "https://www.solidot.org/story?sid=85200",
-    "source": "Solidot",
-    "topic": "AI大事",
-    "region": "intl",
-    "published": "2026-08-26T09:13:33",
-    "author": ""
-  },
-  {
-    "title": "新西兰提出法案禁止 16 岁以下儿童使用社媒和 AI 陪伴服务",
-    "url": "https://www.solidot.org/story?sid=85197",
-    "source": "Solidot",
-    "topic": "AI大事",
-    "region": "intl",
-    "published": "2026-08-26T06:26:46",
     "author": ""
   },
   {
@@ -666,6 +657,15 @@
     "author": "彭海星"
   },
   {
+    "title": "[AINews] OpenAI to reach AGI bar by end-2026",
+    "url": "https://www.latent.space/p/ainews-openai-to-reach-agi-bar-by",
+    "source": "Latent Space",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-08-28T07:12:10",
+    "author": ""
+  },
+  {
     "title": "[AINews] NVIDIA buys HuggingFace for $13B, as OpenAI publishes their HF incident retro",
     "url": "https://www.latent.space/p/ainews-nvidia-buys-huggingface-for",
     "source": "Latent Space",
@@ -711,12 +711,12 @@
     "author": ""
   },
   {
-    "title": "[AINews] 10% worse, 100x cheaper, 10000x faster: Why Simulation is taking over",
-    "url": "https://www.latent.space/p/ainews-10-worse-100x-cheaper-10000x",
-    "source": "Latent Space",
+    "title": "Supporting Thailand’s next generation of AI startups",
+    "url": "https://openai.com/index/supporting-next-generation-ai-startups-thailand",
+    "source": "OpenAI Blog",
     "topic": "AI大事",
     "region": "intl",
-    "published": "2026-08-22T07:36:00",
+    "published": "2026-08-28T02:00:00",
     "author": ""
   },
   {
@@ -780,15 +780,6 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-08-25T07:05:00",
-    "author": ""
-  },
-  {
-    "title": "Jalapeño’s first results show industry-leading speed and efficiency in AI inference",
-    "url": "https://openai.com/index/jalapeno-first-results",
-    "source": "OpenAI Blog",
-    "topic": "AI大事",
-    "region": "intl",
-    "published": "2026-08-25T07:00:00",
     "author": ""
   },
   {
@@ -864,6 +855,24 @@
     "author": "News from Google Team"
   },
   {
+    "title": "Anthropic gets its first court win over the Pentagon’s supply chain risk label",
+    "url": "https://techcrunch.com/2026/08/28/anthropic-gets-its-first-court-win-over-the-pentagons-supply-chain-risk-label/",
+    "source": "TechCrunch AI",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-08-28T12:46:12",
+    "author": "Rebecca Bellan"
+  },
+  {
+    "title": "Meta executive leaves for OpenAI as the social media giant faces growing scrutiny in India",
+    "url": "https://techcrunch.com/2026/08/28/meta-executive-leaves-for-openai-as-the-social-media-giant-faces-growing-scrutiny-in-india/",
+    "source": "TechCrunch AI",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-08-28T12:21:06",
+    "author": "Jagmeet Singh"
+  },
+  {
     "title": "Anthropic and OpenAI are joining the AI stage at TechCrunch Disrupt 2026",
     "url": "https://techcrunch.com/2026/08/27/anthropic-and-openai-are-joining-the-ai-stage-at-techcrunch-disrupt-2026/",
     "source": "TechCrunch AI",
@@ -936,22 +945,13 @@
     "author": "Ivan Mehta"
   },
   {
-    "title": "OpenAI to start showing ads on ChatGPT’s free and Go tiers in India",
-    "url": "https://techcrunch.com/2026/08/27/openai-to-start-showing-ads-on-chatgpts-free-and-go-tiers-in-india/",
-    "source": "TechCrunch AI",
+    "title": "Anthropic was illegally blacklisted by the Trump administration, court rules",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/985947/anthropic-supply-chain-risk-lawsuit-judge-ruling",
+    "source": "The Verge AI",
     "topic": "AI大事",
     "region": "intl",
-    "published": "2026-08-27T11:35:59",
-    "author": "Ivan Mehta"
-  },
-  {
-    "title": "Nvidia closes in on Hugging Face acquisition",
-    "url": "https://techcrunch.com/2026/08/26/nvidia-closes-in-on-hugging-face-acquisition/",
-    "source": "TechCrunch AI",
-    "topic": "AI大事",
-    "region": "intl",
-    "published": "2026-08-27T06:32:51",
-    "author": "Connie Loizos"
+    "published": "2026-08-28T03:14:06",
+    "author": "Hayden Field"
   },
   {
     "title": "Google’s AI note-taking app now allows you to interact with books",
@@ -1017,13 +1017,13 @@
     "author": "Stevie Bonifield"
   },
   {
-    "title": "OpenAI’s rogue AI model incident was worse than we thought",
-    "url": "https://www.theverge.com/ai-artificial-intelligence/985385/openais-rogue-ai-model-hugging-face-cybersecurity-incident-reports-metr",
-    "source": "The Verge AI",
+    "title": "How I built this",
+    "url": "https://www.bensbites.com/p/how-i-built-this-21f",
+    "source": "Ben's Bites",
     "topic": "AI大事",
     "region": "intl",
-    "published": "2026-08-26T21:36:06",
-    "author": "Hayden Field"
+    "published": "2026-08-28T12:14:10",
+    "author": ""
   },
   {
     "title": "Who let the agents in",
@@ -1071,58 +1071,22 @@
     "author": ""
   },
   {
-    "title": "Ben's session #2",
-    "url": "https://www.bensbites.com/p/bens-session-2",
-    "source": "Ben's Bites",
-    "topic": "AI大事",
-    "region": "intl",
-    "published": "2026-08-14T13:04:03",
+    "title": "「在我眼中它就是黃金」：香港捲起卡牌熱，一張卡如何從遊戲工具變資產？",
+    "url": "https://www.bbc.com/zhongwen/articles/c0j3w0wxj18o/trad?at_medium=RSS&at_campaign=rss",
+    "source": "BBC 中文",
+    "topic": "世界时事",
+    "region": "cn",
+    "published": "2026-08-28T04:32:04",
     "author": ""
   },
   {
-    "title": "金陵饭店：上半年盈利2676.75万元，同比增长15.12%",
-    "url": "https://m.thepaper.cn/detail/33962894",
-    "source": "澎湃新闻",
+    "title": "香港卡牌熱潮：一張卡如何從遊戲變資產成為「紙上黃金」？",
+    "url": "https://www.bbc.com/zhongwen/articles/cm2q7zj89qyo/trad?at_medium=RSS&at_campaign=rss",
+    "source": "BBC 中文",
     "topic": "世界时事",
     "region": "cn",
-    "published": "2026-08-28T01:20:12",
-    "author": "澎湃新闻记者 唐莹莹"
-  },
-  {
-    "title": "从“巴威”到“沙德尔”，三个台风为何接连在玉环登陆？",
-    "url": "https://m.thepaper.cn/detail/33962285",
-    "source": "澎湃新闻",
-    "topic": "世界时事",
-    "region": "cn",
-    "published": "2026-08-28T00:59:19",
-    "author": "澎湃新闻记者 张未央"
-  },
-  {
-    "title": "外卖员凌晨跨城如厕，媒体：公共设施岂能“到点下班”？",
-    "url": "https://m.thepaper.cn/detail/33964882",
-    "source": "澎湃新闻",
-    "topic": "世界时事",
-    "region": "cn",
-    "published": "2026-08-28T00:07:21",
-    "author": "李克欣/农民日报"
-  },
-  {
-    "title": "大外交｜日本跨党派议员团访华，专家：要中方单方面回应不现实",
-    "url": "https://m.thepaper.cn/detail/33961762",
-    "source": "澎湃新闻",
-    "topic": "世界时事",
-    "region": "cn",
-    "published": "2026-08-27T23:22:42",
-    "author": "澎湃新闻记者 陈沁涵"
-  },
-  {
-    "title": "美公开“黑胡子”高超导弹，高超武器将进入“白菜价”时代？",
-    "url": "https://m.thepaper.cn/detail/33959437",
-    "source": "澎湃新闻",
-    "topic": "世界时事",
-    "region": "cn",
-    "published": "2026-08-27T23:21:00",
-    "author": "澎湃新闻特约撰稿 兰顺正"
+    "published": "2026-08-28T02:06:41",
+    "author": ""
   },
   {
     "title": "Meta案突以180億美元和解，或加快清算社交媒體兒童安全",
@@ -1140,15 +1104,6 @@
     "topic": "世界时事",
     "region": "cn",
     "published": "2026-08-26T07:35:58",
-    "author": ""
-  },
-  {
-    "title": "美國制裁伊朗經濟新措施 為何對中國「鬆手」？",
-    "url": "https://www.bbc.com/zhongwen/articles/cwyz7eenrz1o/trad?at_medium=RSS&at_campaign=rss",
-    "source": "BBC 中文",
-    "topic": "世界时事",
-    "region": "cn",
-    "published": "2026-08-25T16:53:04",
     "author": ""
   },
   {
@@ -1185,7 +1140,7 @@
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-08-27T17:17:57",
-    "author": "TangerineDream · 506 pts · 139 comments"
+    "author": "TangerineDream · 818 pts · 242 comments"
   },
   {
     "title": "Small Models Have Arrived",
@@ -1194,7 +1149,7 @@
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-08-27T15:56:58",
-    "author": "tosh · 450 pts · 203 comments"
+    "author": "tosh · 703 pts · 308 comments"
   },
   {
     "title": "507 Mechanical Movements",
@@ -1203,7 +1158,7 @@
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-08-27T14:08:18",
-    "author": "helloplanets · 462 pts · 67 comments"
+    "author": "helloplanets · 610 pts · 76 comments"
   },
   {
     "title": "Microduck",
@@ -1212,16 +1167,34 @@
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-08-27T10:57:56",
-    "author": "robotswantdata · 504 pts · 183 comments"
+    "author": "robotswantdata · 711 pts · 222 comments"
   },
   {
-    "title": "The turbulent AI era is here",
-    "url": "https://www.gatesnotes.com/work/make-ai-work-for-everyone/reader/a-turbulent-ai-era-and-critical-choices-to-make?WT.mc_id=20260826_ai-overture-2026-med-med",
+    "title": "Gemini-3.5-Transcribe",
+    "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5-transcribe/",
     "source": "HackerNews",
     "topic": "技术圈",
     "region": "intl",
-    "published": "2026-08-26T11:23:54",
-    "author": "nanna · 214 pts · 460 comments"
+    "published": "2026-08-27T18:03:42",
+    "author": "k9294 · 319 pts · 106 comments"
+  },
+  {
+    "title": "We found a division by zero bug in FFmpeg with a vibecoded fuzzer",
+    "url": "https://code.ffmpeg.org/FFmpeg/FFmpeg/issues/24290",
+    "source": "HackerNews",
+    "topic": "技术圈",
+    "region": "intl",
+    "published": "2026-08-27T17:53:40",
+    "author": "dclavijo · 268 pts · 230 comments"
+  },
+  {
+    "title": "Gemini Omni 1.1 Flash",
+    "url": "https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash/",
+    "source": "HackerNews",
+    "topic": "技术圈",
+    "region": "intl",
+    "published": "2026-08-27T17:06:32",
+    "author": "saretup · 280 pts · 205 comments"
   },
   {
     "title": "Show HN: The load-bearing vocabulary of Claude",
@@ -1230,7 +1203,7 @@
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-08-27T08:59:49",
-    "author": "Labo333 · 344 pts · 169 comments"
+    "author": "Labo333 · 589 pts · 285 comments"
   },
   {
     "title": "Nvidia agrees to acquire Hugging Face for $13B",
@@ -1239,7 +1212,16 @@
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-08-27T01:12:55",
-    "author": "mfiguiere · 1829 pts · 855 comments"
+    "author": "mfiguiere · 1915 pts · 888 comments"
+  },
+  {
+    "title": "Decompiling a Nintendo 64 game in 84 days",
+    "url": "https://blog.chrislewis.au/decompiling-a-nintendo-64-game-in-84-days/",
+    "source": "HackerNews",
+    "topic": "技术圈",
+    "region": "intl",
+    "published": "2026-08-27T15:01:11",
+    "author": "knackers · 256 pts · 162 comments"
   },
   {
     "title": "anthropics/anthropic-sdk-python 发布 v1.2.0",
@@ -1305,24 +1287,6 @@
     "author": "lorenzejay"
   },
   {
-    "title": "mem0ai/mem0 发布 Mem0 Strands Integration (v0.1.1)",
-    "url": "https://github.com/mem0ai/mem0/releases/tag/mem0-strands-v0.1.1",
-    "source": "GitHubRelease",
-    "topic": "GitHub 动态",
-    "region": "intl",
-    "published": "2026-08-27T08:20:51",
-    "author": "kartik-mem0"
-  },
-  {
-    "title": "mem0ai/mem0 发布 Mem0 DeepSeek Plugin (v0.1.1)",
-    "url": "https://github.com/mem0ai/mem0/releases/tag/deepseek-plugin-v0.1.1",
-    "source": "GitHubRelease",
-    "topic": "GitHub 动态",
-    "region": "intl",
-    "published": "2026-08-27T08:22:06",
-    "author": "kartik-mem0"
-  },
-  {
     "title": "anthropics/claude-code 发布 v2.1.250",
     "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.250",
     "source": "GitHubRelease",
@@ -1341,40 +1305,22 @@
     "author": "ashwin-ant"
   },
   {
-    "title": "siyuan-note/siyuan 发布 SiYuan v3.8.2-alpha.7",
-    "url": "https://github.com/siyuan-note/siyuan/releases/tag/v3.8.2-alpha.7",
+    "title": "AppFlowy-IO/AppFlowy 发布 v0.14.0",
+    "url": "https://github.com/AppFlowy-IO/AppFlowy/releases/tag/0.14.0",
     "source": "GitHubRelease",
     "topic": "GitHub 动态",
     "region": "intl",
-    "published": "2026-08-27T10:24:47",
-    "author": "github-actions[bot]"
+    "published": "2026-08-28T06:33:00",
+    "author": "LucasXu0"
   },
   {
-    "title": "siyuan-note/siyuan 发布 SiYuan v3.8.2-alpha.6",
-    "url": "https://github.com/siyuan-note/siyuan/releases/tag/v3.8.2-alpha.6",
+    "title": "vercel/next.js 发布 v16.4.0-canary.10",
+    "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.10",
     "source": "GitHubRelease",
     "topic": "GitHub 动态",
     "region": "intl",
-    "published": "2026-08-27T09:17:43",
-    "author": "github-actions[bot]"
-  },
-  {
-    "title": "weaviate/weaviate 发布 v1.38.13 - MCP stateless endpoint Fix, New generative-digitalocean module",
-    "url": "https://github.com/weaviate/weaviate/releases/tag/v1.38.13",
-    "source": "GitHubRelease",
-    "topic": "GitHub 动态",
-    "region": "intl",
-    "published": "2026-08-27T10:13:43",
-    "author": "antas-marcin"
-  },
-  {
-    "title": "weaviate/weaviate 发布 v1.37.15 - LSM store and HFresh Fixes, New multi2vec-twelvelabs and generative-digitalocean modules",
-    "url": "https://github.com/weaviate/weaviate/releases/tag/v1.37.15",
-    "source": "GitHubRelease",
-    "topic": "GitHub 动态",
-    "region": "intl",
-    "published": "2026-08-27T06:41:32",
-    "author": "antas-marcin"
+    "published": "2026-08-28T02:14:15",
+    "author": "next-js-bot[bot]"
   },
   {
     "title": "Addendum: Managing Musculoskeletal Pain in Older Adults Through a Digital Care Solution: Secondary Analysis of a Prospective Clinical Study.",
