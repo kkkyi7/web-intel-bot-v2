@@ -72,13 +72,22 @@
     "author": "Xingyu Shen, Huishuai Zhang, Peng Li, Yinchun Wang, Dongyan Zhao"
   },
   {
+    "title": "Boot a Virtual iPhone via Apple's Virtualization.framework",
+    "url": "https://github.com/Lakr233/vphone-cli",
+    "source": "HackerNews",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-08-28T23:02:21",
+    "author": "hentrep · 238 pts · 69 comments"
+  },
+  {
     "title": "GUIs should be fully keyboard-driven",
     "url": "https://ckardaris.com/blog/2026/08/28/keyboard-driven-guis.html",
     "source": "HackerNews",
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-08-28T15:17:09",
-    "author": "ckardaris · 607 pts · 303 comments"
+    "author": "ckardaris · 757 pts · 381 comments"
   },
   {
     "title": "Htmx 4.0",
@@ -87,7 +96,7 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-08-28T13:28:56",
-    "author": "rmsaksida · 531 pts · 127 comments"
+    "author": "rmsaksida · 631 pts · 155 comments"
   },
   {
     "title": "U.S. sanctions against the A/I Collective",
@@ -96,7 +105,7 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-08-28T12:58:53",
-    "author": "exiguus · 479 pts · 459 comments"
+    "author": "exiguus · 568 pts · 555 comments"
   },
   {
     "title": "Just the rumour of a bug is enough to find an exploit these days",
@@ -105,7 +114,7 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-08-28T15:58:46",
-    "author": "avsm · 259 pts · 92 comments"
+    "author": "avsm · 303 pts · 105 comments"
   },
   {
     "title": "Inception-style curved map for turn-by-turn directions",
@@ -114,16 +123,16 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-08-28T12:29:05",
-    "author": "smoser · 426 pts · 144 comments"
+    "author": "smoser · 485 pts · 160 comments"
   },
   {
-    "title": "Judge rules Trump administration’s blacklisting of Anthropic was illegal",
-    "url": "https://www.nytimes.com/2026/08/27/technology/anthropic-government-blacklisting-ruling.html",
+    "title": "Our decision on Cursor following its acquisition by SpaceX",
+    "url": "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex/",
     "source": "HackerNews",
     "topic": "AI大事",
     "region": "intl",
-    "published": "2026-08-28T02:03:38",
-    "author": "jbegley · 527 pts · 393 comments"
+    "published": "2026-08-29T01:47:53",
+    "author": "meetpateltech · 459 pts · 234 comments"
   },
   {
     "title": "The Twelve-Factor App (2025)",
@@ -132,7 +141,7 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-08-27T22:41:11",
-    "author": "jxmorris12 · 221 pts · 121 comments"
+    "author": "jxmorris12 · 264 pts · 140 comments"
   },
   {
     "title": "GLM-5.3 is now open-weight",
@@ -141,16 +150,25 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-08-28T15:20:13",
-    "author": "jeudesprits · 586 pts · 206 comments"
+    "author": "jeudesprits · 677 pts · 226 comments"
   },
   {
-    "title": "Luanti removed from Google Play due to baseless AI copyright notice",
-    "url": "https://blog.luanti.org/2026/08/27/luanti-dmca-tracer-ai/",
-    "source": "HackerNews",
+    "title": "一句话找图，低清图再增强：HarmonyOS7 视觉 AI 如何走进真实应用",
+    "url": "https://www.infoq.cn/article/3R8f57Bow3B4kEBkPv5J?utm_source=rss&utm_medium=article",
+    "source": "InfoQ 中文",
     "topic": "AI大事",
-    "region": "intl",
-    "published": "2026-08-28T06:33:57",
-    "author": "miniBill · 444 pts · 138 comments"
+    "region": "cn",
+    "published": "2026-08-29T13:19:17",
+    "author": "王玮"
+  },
+  {
+    "title": "Agent 时代，为什么有人开始重新造 Google？",
+    "url": "https://www.infoq.cn/article/KbbHdAQFxQM7AJIYMLqR?utm_source=rss&utm_medium=article",
+    "source": "InfoQ 中文",
+    "topic": "AI大事",
+    "region": "cn",
+    "published": "2026-08-29T12:00:00",
+    "author": "蔡芳芳"
   },
   {
     "title": "下一层抽象：从UX角度思考Agentic OS的样貌",
@@ -223,24 +241,6 @@
     "region": "cn",
     "published": "2026-08-28T11:53:03",
     "author": "Arun Agarwal"
-  },
-  {
-    "title": "1周半写64个PR、完成30%项目重构：一家成熟SaaS公司把Agent塞进研发全流程后",
-    "url": "https://www.infoq.cn/article/0yv69MyNwHiwY3IZXPQt?utm_source=rss&utm_medium=article",
-    "source": "InfoQ 中文",
-    "topic": "AI大事",
-    "region": "cn",
-    "published": "2026-08-28T11:43:17",
-    "author": "Jackie Calapristi"
-  },
-  {
-    "title": "Cloudflare 将工程规范改造为 AI 强制执行的管控系统",
-    "url": "https://www.infoq.cn/article/TEgX02zINMmLVbYPyP0N?utm_source=rss&utm_medium=article",
-    "source": "InfoQ 中文",
-    "topic": "AI大事",
-    "region": "cn",
-    "published": "2026-08-28T10:53:07",
-    "author": "作者：Craig Risi"
   },
   {
     "title": "《时代》周刊全球AI 100放榜，精准捕获稚晖君最“想低调”的幕后老板",
@@ -630,6 +630,15 @@
     "author": "姚桐"
   },
   {
+    "title": "[AINews] OpenAI shuts off Cursor",
+    "url": "https://www.latent.space/p/ainews-openai-shuts-off-cursor",
+    "source": "Latent Space",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-08-29T05:11:52",
+    "author": ""
+  },
+  {
     "title": "[AINews] OpenAI to reach AGI bar by end-2026",
     "url": "https://www.latent.space/p/ainews-openai-to-reach-agi-bar-by",
     "source": "Latent Space",
@@ -675,12 +684,12 @@
     "author": "Brandon Anderson"
   },
   {
-    "title": "[AINews] Andrew Ng gets into AI Engineering",
-    "url": "https://www.latent.space/p/ainews-andrew-ng-gets-into-ai-engineering",
-    "source": "Latent Space",
+    "title": "Our decision on Cursor following its acquisition by SpaceX",
+    "url": "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex",
+    "source": "OpenAI Blog",
     "topic": "AI大事",
     "region": "intl",
-    "published": "2026-08-25T02:50:57",
+    "published": "2026-08-28T06:00:00",
     "author": ""
   },
   {
@@ -744,15 +753,6 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-08-26T00:00:00",
-    "author": ""
-  },
-  {
-    "title": "The full stack behind abundant intelligence",
-    "url": "https://openai.com/index/the-full-stack-behind-abundant-intelligence",
-    "source": "OpenAI Blog",
-    "topic": "AI大事",
-    "region": "intl",
-    "published": "2026-08-25T07:05:00",
     "author": ""
   },
   {
@@ -1044,120 +1044,84 @@
     "author": ""
   },
   {
-    "title": "中行副行长：聚焦服务客户汇率风险管理及跨境投融资需求，积极开展代客交易业务",
-    "url": "https://m.thepaper.cn/detail/33970406",
+    "title": "亿吨大港崛起：从煤海到运河的济宁逆袭",
+    "url": "https://m.thepaper.cn/detail/33971365",
     "source": "澎湃新闻",
     "topic": "世界时事",
     "region": "cn",
-    "published": "2026-08-29T01:23:15",
-    "author": "澎湃新闻记者 滕晗"
+    "published": "2026-08-29T07:30:03",
+    "author": "澎湃新闻记者 谈婧媛"
   },
   {
-    "title": "苏宁易购上半年净利1.27亿元：负债总额减超77亿元，拟不低于1元出售物流子公司",
-    "url": "https://m.thepaper.cn/detail/33969962",
+    "title": "三周连涨戛然而止！沃什鹰派讲话冲击贵金属市场，现货金价单日重挫近3%",
+    "url": "https://m.thepaper.cn/detail/33972251",
     "source": "澎湃新闻",
     "topic": "世界时事",
     "region": "cn",
-    "published": "2026-08-29T01:18:18",
-    "author": "澎湃新闻记者 邵冰燕"
+    "published": "2026-08-29T06:16:30",
+    "author": "澎湃新闻记者 孙铭蔚"
   },
   {
-    "title": "美联储主席沃什释放鹰派信号：9月加息概率升至六成，美元上涨",
-    "url": "https://m.thepaper.cn/detail/33971056",
+    "title": "上半年全国新设外商投资企业3.5万户，同比增长7.0%",
+    "url": "https://m.thepaper.cn/detail/33971603",
     "source": "澎湃新闻",
     "topic": "世界时事",
     "region": "cn",
-    "published": "2026-08-29T01:13:42",
-    "author": "澎湃新闻见习记者 赵宇琦"
-  },
-  {
-    "title": "融创中国：上半年亏损125.4亿元，已实现10余个重点项目盘活",
-    "url": "https://m.thepaper.cn/detail/33969473",
-    "source": "澎湃新闻",
-    "topic": "世界时事",
-    "region": "cn",
-    "published": "2026-08-29T01:08:27",
-    "author": "澎湃新闻首席记者 李晓青"
-  },
-  {
-    "title": "顺丰上半年扣非净利增长9%，经济快递单票收入提升6%",
-    "url": "https://m.thepaper.cn/detail/33970278",
-    "source": "澎湃新闻",
-    "topic": "世界时事",
-    "region": "cn",
-    "published": "2026-08-29T01:05:23",
-    "author": "澎湃新闻记者 邵冰燕"
-  },
-  {
-    "title": "一文读懂｜商品住房销售制度究竟怎么改，将带来哪些新变化？",
-    "url": "https://m.thepaper.cn/detail/33969418",
-    "source": "澎湃新闻",
-    "topic": "世界时事",
-    "region": "cn",
-    "published": "2026-08-29T00:15:18",
-    "author": "澎湃新闻记者 计思敏 李晓青"
-  },
-  {
-    "title": "双预警齐发！这些地方有暴雨、特大暴雨",
-    "url": "https://m.thepaper.cn/detail/33970993",
-    "source": "澎湃新闻",
-    "topic": "世界时事",
-    "region": "cn",
-    "published": "2026-08-28T23:15:33",
+    "published": "2026-08-29T04:04:42",
     "author": "央视新闻"
   },
   {
-    "title": "两部委指导金融机构设立“城市更新项目贷款”品种",
-    "url": "https://finance.caixin.com/2026-08-29/102479546.html",
+    "title": "盛松成：地方须摒弃AI投资对房地产的“替代”幻觉",
+    "url": "https://opinion.caixin.com/2026-08-29/102479683.html",
     "source": "财新网",
     "topic": "世界时事",
     "region": "cn",
-    "published": "2026-08-29T01:23:42",
+    "published": "2026-08-29T07:15:04",
     "author": ""
   },
   {
-    "title": "冰崩可以预测吗？如何利用气候风险模型防患于未然",
-    "url": "https://opinion.caixin.com/2026-08-29/102479527.html",
+    "title": "美联储的处“市”之道与沟通哲学",
+    "url": "https://opinion.caixin.com/2026-08-29/102479640.html",
     "source": "财新网",
     "topic": "世界时事",
     "region": "cn",
-    "published": "2026-08-29T00:38:45",
+    "published": "2026-08-29T06:01:23",
     "author": ""
   },
   {
-    "title": "财新闻｜拉夫罗夫披露俄美安克雷奇峰会达成“折中方案”细节",
-    "url": "https://mini.caixin.com/2026-08-29/102479522.html",
+    "title": "汇兑损失影响上半年利润 车企出海需着手应对",
+    "url": "https://www.caixin.com/2026-08-29/102479631.html",
     "source": "财新网",
     "topic": "世界时事",
     "region": "cn",
-    "published": "2026-08-29T00:29:32",
+    "published": "2026-08-29T04:03:44",
     "author": ""
   },
   {
-    "title": "沃什释出更多鹰派加息信号 承认通胀潜在趋势尚未显著改善",
-    "url": "https://international.caixin.com/2026-08-29/102479519.html",
+    "title": "沃什的相机抉择",
+    "url": "https://opinion.caixin.com/2026-08-29/102479622.html",
     "source": "财新网",
     "topic": "世界时事",
     "region": "cn",
-    "published": "2026-08-29T00:26:51",
+    "published": "2026-08-29T03:39:35",
     "author": ""
   },
   {
-    "title": "多地陆续推出房贷贴息政策 能否拉动购房需求？",
-    "url": "https://www.caixin.com/2026-08-29/102479511.html",
+    "title": "证监会重申支持房企融资",
+    "url": "https://finance.caixin.com/2026-08-29/102479580.html",
     "source": "财新网",
     "topic": "世界时事",
     "region": "cn",
-    "published": "2026-08-29T00:15:08",
+    "published": "2026-08-29T02:44:19",
     "author": ""
   },
   {
-    "title": "房地产信贷政策迎重大调整 鼓励现房销售、保障购房人权益",
-    "url": "https://finance.caixin.com/2026-08-28/102479473.html",
-    "source": "财新网",
+    "title": "美国有人坐不住了：对中国搞“广场协议”",
+    "url": "https://www.guancha.cn/internation/2026_08_29_829110_s.shtml",
+    "source": "观察者网",
     "topic": "世界时事",
     "region": "cn",
-    "published": "2026-08-28T14:23:54",
+    "published": "2026-08-29T04:57:22",
     "author": ""
   },
   {
@@ -1188,13 +1152,13 @@
     "author": ""
   },
   {
-    "title": "“巴西本10年内难撼动中国地位”",
+    "title": "“巴西短期内难撼动中国稀土地位”",
     "url": "https://www.guancha.cn/internation/2026_08_28_828961_s.shtml",
     "source": "观察者网",
     "topic": "世界时事",
     "region": "cn",
-    "published": "2026-08-28T02:13:28",
-    "author": "张红日"
+    "published": "2026-08-28T02:13:26",
+    "author": ""
   },
   {
     "title": "海拔5000多米冰崩，数千万方、每秒50米……",
@@ -1206,7 +1170,7 @@
     "author": ""
   },
   {
-    "title": "独家对话《龙餐馆》编剧：战争叙事西方说了算？不对！",
+    "title": "独家对话《龙餐馆》编剧：战争叙事西方说了算？不对！中国电影得有话语权",
     "url": "https://www.guancha.cn/culture/2026_08_27_828885_s.shtml",
     "source": "观察者网",
     "topic": "世界时事",
@@ -1239,15 +1203,6 @@
     "topic": "世界时事",
     "region": "cn",
     "published": "2026-08-26T08:31:59",
-    "author": ""
-  },
-  {
-    "title": "1厘米之差避免大洪水，“无事发生”为何值得关注？",
-    "url": "https://www.guancha.cn/ChengShi/2026_08_26_828667_s.shtml",
-    "source": "观察者网",
-    "topic": "世界时事",
-    "region": "cn",
-    "published": "2026-08-26T01:59:08",
     "author": ""
   },
   {
@@ -1314,13 +1269,22 @@
     "author": ""
   },
   {
+    "title": "Boot a Virtual iPhone via Apple's Virtualization.framework",
+    "url": "https://github.com/Lakr233/vphone-cli",
+    "source": "HackerNews",
+    "topic": "技术圈",
+    "region": "intl",
+    "published": "2026-08-28T23:02:21",
+    "author": "hentrep · 238 pts · 69 comments"
+  },
+  {
     "title": "GUIs should be fully keyboard-driven",
     "url": "https://ckardaris.com/blog/2026/08/28/keyboard-driven-guis.html",
     "source": "HackerNews",
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-08-28T15:17:09",
-    "author": "ckardaris · 607 pts · 303 comments"
+    "author": "ckardaris · 757 pts · 381 comments"
   },
   {
     "title": "Htmx 4.0",
@@ -1329,7 +1293,7 @@
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-08-28T13:28:56",
-    "author": "rmsaksida · 531 pts · 127 comments"
+    "author": "rmsaksida · 631 pts · 155 comments"
   },
   {
     "title": "U.S. sanctions against the A/I Collective",
@@ -1338,7 +1302,7 @@
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-08-28T12:58:53",
-    "author": "exiguus · 479 pts · 459 comments"
+    "author": "exiguus · 568 pts · 555 comments"
   },
   {
     "title": "Just the rumour of a bug is enough to find an exploit these days",
@@ -1347,7 +1311,7 @@
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-08-28T15:58:46",
-    "author": "avsm · 259 pts · 92 comments"
+    "author": "avsm · 303 pts · 105 comments"
   },
   {
     "title": "Inception-style curved map for turn-by-turn directions",
@@ -1356,16 +1320,16 @@
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-08-28T12:29:05",
-    "author": "smoser · 426 pts · 144 comments"
+    "author": "smoser · 486 pts · 160 comments"
   },
   {
-    "title": "Judge rules Trump administration’s blacklisting of Anthropic was illegal",
-    "url": "https://www.nytimes.com/2026/08/27/technology/anthropic-government-blacklisting-ruling.html",
+    "title": "Our decision on Cursor following its acquisition by SpaceX",
+    "url": "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex/",
     "source": "HackerNews",
     "topic": "技术圈",
     "region": "intl",
-    "published": "2026-08-28T02:03:38",
-    "author": "jbegley · 528 pts · 393 comments"
+    "published": "2026-08-29T01:47:53",
+    "author": "meetpateltech · 459 pts · 234 comments"
   },
   {
     "title": "The Twelve-Factor App (2025)",
@@ -1374,7 +1338,7 @@
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-08-27T22:41:11",
-    "author": "jxmorris12 · 221 pts · 121 comments"
+    "author": "jxmorris12 · 264 pts · 140 comments"
   },
   {
     "title": "GLM-5.3 is now open-weight",
@@ -1383,16 +1347,7 @@
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-08-28T15:20:13",
-    "author": "jeudesprits · 588 pts · 206 comments"
-  },
-  {
-    "title": "Luanti removed from Google Play due to baseless AI copyright notice",
-    "url": "https://blog.luanti.org/2026/08/27/luanti-dmca-tracer-ai/",
-    "source": "HackerNews",
-    "topic": "技术圈",
-    "region": "intl",
-    "published": "2026-08-28T06:33:57",
-    "author": "miniBill · 446 pts · 138 comments"
+    "author": "jeudesprits · 677 pts · 226 comments"
   },
   {
     "title": "openai/openai-python 发布 v3.6.0",
@@ -1422,6 +1377,24 @@
     "author": "ashwin-ant"
   },
   {
+    "title": "siyuan-note/siyuan 发布 v3.8.2-beta.3",
+    "url": "https://github.com/siyuan-note/siyuan/releases/tag/v3.8.2-beta.3",
+    "source": "GitHubRelease",
+    "topic": "GitHub 动态",
+    "region": "intl",
+    "published": "2026-08-29T05:44:49",
+    "author": "github-actions[bot]"
+  },
+  {
+    "title": "siyuan-note/siyuan 发布 v3.8.2-beta.2",
+    "url": "https://github.com/siyuan-note/siyuan/releases/tag/v3.8.2-beta.2",
+    "source": "GitHubRelease",
+    "topic": "GitHub 动态",
+    "region": "intl",
+    "published": "2026-08-29T03:28:40",
+    "author": "github-actions[bot]"
+  },
+  {
     "title": "siyuan-note/siyuan 发布 SiYuan v3.8.2-beta.1",
     "url": "https://github.com/siyuan-note/siyuan/releases/tag/v3.8.2-beta.1",
     "source": "GitHubRelease",
@@ -1429,15 +1402,6 @@
     "region": "intl",
     "published": "2026-08-28T16:59:45",
     "author": "github-actions[bot]"
-  },
-  {
-    "title": "AppFlowy-IO/AppFlowy 发布 v0.14.0",
-    "url": "https://github.com/AppFlowy-IO/AppFlowy/releases/tag/0.14.0",
-    "source": "GitHubRelease",
-    "topic": "GitHub 动态",
-    "region": "intl",
-    "published": "2026-08-28T06:33:00",
-    "author": "LucasXu0"
   },
   {
     "title": "vercel/next.js 发布 v16.4.0-canary.11",
@@ -1449,58 +1413,49 @@
     "author": "next-js-bot[bot]"
   },
   {
-    "title": "vercel/next.js 发布 v16.4.0-canary.10",
-    "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.10",
-    "source": "GitHubRelease",
-    "topic": "GitHub 动态",
-    "region": "intl",
-    "published": "2026-08-28T02:14:15",
-    "author": "next-js-bot[bot]"
-  },
-  {
-    "title": "Patient Selection for Rehabilitation of the Edentulous Maxilla: A Case Report Illustrating the Global Consensus for Clinical Guidelines Workflow.",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42664433/",
+    "title": "Mobile AI-Assisted Oral Lesion Triage for Community Oral Cancer Screening: Prospective Field Evaluation Study.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42665557/",
     "source": "PubMed",
     "topic": "心理学",
     "region": "intl",
     "published": "2026",
-    "author": "Ethan Ng, Shaun Tan, Nikos Donos, Gil Alcoforado"
+    "author": "Hao-Yun Liu, Yu-Cheng Huang, Si-Wei Chen, Ling-Ying Wei"
   },
   {
-    "title": "Profile of individuals with full-scale intelligence quotient (FSIQ) scores in the National Spina Bifida Patient Registry (NSBPR).",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42664414/",
+    "title": "Efficacy of Vibegron in Overactive Bladder: A Bayesian Cross-Trial Synthesis of Benefit Probabilities and Decision Thresholds.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42665534/",
     "source": "PubMed",
     "topic": "心理学",
     "region": "intl",
     "published": "2026",
-    "author": "Heidi Castillo, Sophia Drewry, Amy Heffelfinger, Jennifer T Queally"
+    "author": "Takanobu Yamamoto, Soichiro Yoshida, Shugo Yajima, Hiroshi Fukushima"
   },
   {
-    "title": "Association of Postoperative Slip Reduction With Patient-Reported Outcomes at Two Years After Fusion Surgery for Low-Grade Degenerative Spondylolisthesis: A Single-Center Study.",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42664375/",
+    "title": "Cognitive and experiential drivers of safety planning in tracheal intubation: a single centre focus group analysis.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42665489/",
     "source": "PubMed",
     "topic": "心理学",
     "region": "intl",
     "published": "2026",
-    "author": "Tom Folkerts, Julia Wimmer, Lukas Schönnagel, Anna-Maria Mielke"
+    "author": "Caoimhe C Duffy, Gary A Bass, Justin T Clapp, Christa-Maria Ngam"
   },
   {
-    "title": "Mental bootstrapping enables human-level concept learning in self-supervised deep models.",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42664331/",
+    "title": "A learner-driven, longitudinal model for high-value care education: early outcomes from the STARS program.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42665435/",
     "source": "PubMed",
     "topic": "心理学",
     "region": "intl",
     "published": "2026",
-    "author": "Lingxiao Yang, Muyang Lyu, Ying-Jie Wang, Xiaohua Xie"
+    "author": "Christopher Moriates, September Wallingford, Victoria Valencia, William K Silverstein"
   },
   {
-    "title": "Practical recommendations for the implementation of shared decision-making in multiple myeloma care.",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42664318/",
+    "title": "How do emergency care providers and law enforcement officers navigate the competing imperatives of saving lives and serving justice? A qualitative case study in a Ghanaian secondary hospital.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42665340/",
     "source": "PubMed",
     "topic": "心理学",
     "region": "intl",
     "published": "2026",
-    "author": "Jolien Broekmans, Elise Schoefs, Charlotte Verbeke, Lien De Proost"
+    "author": "Gordon Dugle, Thomas Moore Zielley, Gilbert Abotisem Abiiro"
   },
   {
     "title": "CEDAR: Controlled and Event-Driven Demand Forecasting via Residual Decomposition",
