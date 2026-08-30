@@ -1,21 +1,93 @@
 [
   {
-    "title": "Good Culture Is the Biggest Productivity Hack, Not AI",
-    "url": "https://newsletter.eng-leadership.com/p/good-culture-is-the-biggest-productivity",
-    "source": "HackerNews",
+    "title": "UrbanGround: From Local Perception to Spatial Agency in a Real-Scale City",
+    "url": "http://arxiv.org/abs/2608.27456v1",
+    "source": "arXiv",
     "topic": "AI大事",
     "region": "intl",
-    "published": "2026-08-29T17:19:47",
-    "author": "gpi · 247 pts · 56 comments"
+    "published": "2026-08-27T17:59:33",
+    "author": "Tianjie Ju, Zheng Wu, Yueqing Sun, Yuhan Cui, Bobo Li, Shengqiong Wu, Pengzhou Cheng, Haodong Zhao, Zongru Wu, Xinbei Ma, Doris Zhang, Kunling Li, Mong-Li Lee, Wynne Hsu, Hao Fei, Qi Gu, Gongshen Liu,"
   },
   {
-    "title": "DHS is using obscure law to snoop on journalists, non-profits, unions",
-    "url": "https://www.theguardian.com/us-news/2026/aug/29/trump-dhs-1509-summons-records-journalists-nonprofits",
+    "title": "CritICL: Inference-Time Weak-to-Strong Generalization from Small Language Model Failure Modes",
+    "url": "http://arxiv.org/abs/2608.27455v1",
+    "source": "arXiv",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-08-27T17:59:30",
+    "author": "Yufan Wu, Yinghui He, Zhengyi Hu, Lang Wei, Ruichen Li, Qifan Yang, Ting Zhu"
+  },
+  {
+    "title": "SWE-Prime: Fewer Trajectories, Better Performance",
+    "url": "http://arxiv.org/abs/2608.27449v1",
+    "source": "arXiv",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-08-27T17:58:10",
+    "author": "Dewu Zheng, Ruizhe Ye, Yanlin Wang, Yang Ye, Hongyu Zhang, Ensheng Shi, Xilin Liu, Yuchi Ma, Jianxing Yu, Zibin Zheng"
+  },
+  {
+    "title": "TTPO: Test-Time Policy Optimization",
+    "url": "http://arxiv.org/abs/2608.27448v1",
+    "source": "arXiv",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-08-27T17:58:10",
+    "author": "Aozhe Wang, Zhengxi Lu, Jianze Wang, Shangke Lv, Ying Liu, Weiming Lu, Jun Xiao, Yueting Zhuang, Hua Yang, Qianglong Chen, Yongliang Shen"
+  },
+  {
+    "title": "From Static to Dynamic: Benchmarking Real-World Code Review with MCR-Bench",
+    "url": "http://arxiv.org/abs/2608.27442v1",
+    "source": "arXiv",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-08-27T17:56:24",
+    "author": "Dewu Zheng, Yanlin Wang, Xiwen Wang, Kefeng Duan, Hongyu Zhang, Xilin Liu, Yuchi Ma, Zibin Zheng"
+  },
+  {
+    "title": "RedEvoAgent: Automatic Red-Teaming Agent with Experience-Driven Skill Evolution",
+    "url": "http://arxiv.org/abs/2608.27439v1",
+    "source": "arXiv",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-08-27T17:55:33",
+    "author": "Junjie Zhang, Hui Liu, Kecheng Chen, Xianbo Mo, Changsheng Chen, Haoliang Li"
+  },
+  {
+    "title": "Persona-Execution Separation: An Architecture Pattern for Evolving LLM Agents under Execution Audit",
+    "url": "http://arxiv.org/abs/2608.27427v1",
+    "source": "arXiv",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-08-27T17:50:07",
+    "author": "Yisen Xi"
+  },
+  {
+    "title": "Boosting LLM Exploration via Weak-Model Guidance in RLVR",
+    "url": "http://arxiv.org/abs/2608.27420v1",
+    "source": "arXiv",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-08-27T17:45:50",
+    "author": "Xingyu Shen, Huishuai Zhang, Peng Li, Yinchun Wang, Dongyan Zhao"
+  },
+  {
+    "title": "Hy4 preview",
+    "url": "https://www.tencent.com/tencent-releases-and-open-sources-tencent-hy4-preview/",
     "source": "HackerNews",
     "topic": "AI大事",
     "region": "intl",
-    "published": "2026-08-29T18:44:37",
-    "author": "firefax · 298 pts · 43 comments"
+    "published": "2026-08-29T19:33:23",
+    "author": "shenli3514 · 257 pts · 158 comments"
+  },
+  {
+    "title": "Lawmakers added $1 to car insurance policies. That money paid for Flock cameras",
+    "url": "https://www.texastribune.org/2026/08/28/texas-flock-cameras-auto-insurance-fee-mvcpa-grants/",
+    "source": "HackerNews",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-08-29T23:17:17",
+    "author": "DeepLogin · 245 pts · 129 comments"
   },
   {
     "title": "Samsung's Processing-in-Memory (PIM)",
@@ -24,7 +96,16 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-08-29T06:06:51",
-    "author": "ingve · 245 pts · 92 comments"
+    "author": "ingve · 256 pts · 98 comments"
+  },
+  {
+    "title": "Good Culture Is the Biggest Productivity Hack, Not AI",
+    "url": "https://newsletter.eng-leadership.com/p/good-culture-is-the-biggest-productivity",
+    "source": "HackerNews",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-08-29T17:19:47",
+    "author": "gpi · 348 pts · 80 comments"
   },
   {
     "title": "Boot a Virtual iPhone via Apple's Virtualization.framework",
@@ -33,16 +114,16 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-08-28T23:02:21",
-    "author": "hentrep · 380 pts · 103 comments"
+    "author": "hentrep · 397 pts · 106 comments"
   },
   {
-    "title": "StemDeck, a free, open-source and local AI stem separator",
-    "url": "https://github.com/stemdeckapp/stemdeck",
+    "title": "DHS is using obscure law to snoop on journalists, non-profits, unions",
+    "url": "https://www.theguardian.com/us-news/2026/aug/29/trump-dhs-1509-summons-records-journalists-nonprofits",
     "source": "HackerNews",
     "topic": "AI大事",
     "region": "intl",
-    "published": "2026-08-29T01:24:13",
-    "author": "thclpr · 206 pts · 58 comments"
+    "published": "2026-08-29T18:44:37",
+    "author": "firefax · 381 pts · 75 comments"
   },
   {
     "title": "一句话找图，低清图再增强：HarmonyOS7 视觉 AI 如何走进真实应用",
@@ -198,24 +279,6 @@
     "author": ""
   },
   {
-    "title": "K-Dense-AI/scientific-agent-skills",
-    "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
-    "source": "GitHub Trending",
-    "topic": "AI大事",
-    "region": "intl",
-    "published": "",
-    "author": ""
-  },
-  {
-    "title": "anthropics/claude-plugins-official",
-    "url": "https://github.com/anthropics/claude-plugins-official",
-    "source": "GitHub Trending",
-    "topic": "AI大事",
-    "region": "intl",
-    "published": "",
-    "author": ""
-  },
-  {
     "title": "bilawalsidhu/gods-eye-view",
     "url": "https://github.com/bilawalsidhu/gods-eye-view",
     "source": "GitHub Trending",
@@ -225,8 +288,44 @@
     "author": ""
   },
   {
-    "title": "abhigyanpatwari/GitNexus",
-    "url": "https://github.com/abhigyanpatwari/GitNexus",
+    "title": "K-Dense-AI/scientific-agent-skills",
+    "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+    "source": "GitHub Trending",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "",
+    "author": ""
+  },
+  {
+    "title": "tailscale/tailcat",
+    "url": "https://github.com/tailscale/tailcat",
+    "source": "GitHub Trending",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "",
+    "author": ""
+  },
+  {
+    "title": "THU-MAIC/OpenMAIC",
+    "url": "https://github.com/THU-MAIC/OpenMAIC",
+    "source": "GitHub Trending",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "",
+    "author": ""
+  },
+  {
+    "title": "p-e-w/heretic",
+    "url": "https://github.com/p-e-w/heretic",
+    "source": "GitHub Trending",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "",
+    "author": ""
+  },
+  {
+    "title": "bigskysoftware/htmx",
+    "url": "https://github.com/bigskysoftware/htmx",
     "source": "GitHub Trending",
     "topic": "AI大事",
     "region": "intl",
@@ -243,6 +342,15 @@
     "author": ""
   },
   {
+    "title": "ComposioHQ/awesome-claude-skills",
+    "url": "https://github.com/ComposioHQ/awesome-claude-skills",
+    "source": "GitHub Trending",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "",
+    "author": ""
+  },
+  {
     "title": "calesthio/OpenMontage",
     "url": "https://github.com/calesthio/OpenMontage",
     "source": "GitHub Trending",
@@ -252,30 +360,12 @@
     "author": ""
   },
   {
-    "title": "abi/screenshot-to-code",
-    "url": "https://github.com/abi/screenshot-to-code",
-    "source": "GitHub Trending",
+    "title": "中国账户试图悄悄煽动美国反数据中心情绪？",
+    "url": "https://www.solidot.org/story?sid=85232",
+    "source": "Solidot",
     "topic": "AI大事",
     "region": "intl",
-    "published": "",
-    "author": ""
-  },
-  {
-    "title": "cursor/plugins",
-    "url": "https://github.com/cursor/plugins",
-    "source": "GitHub Trending",
-    "topic": "AI大事",
-    "region": "intl",
-    "published": "",
-    "author": ""
-  },
-  {
-    "title": "freestylefly/awesome-gpt-image-2",
-    "url": "https://github.com/freestylefly/awesome-gpt-image-2",
-    "source": "GitHub Trending",
-    "topic": "AI大事",
-    "region": "intl",
-    "published": "",
+    "published": "2026-08-29T15:43:37",
     "author": ""
   },
   {
@@ -339,15 +429,6 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-08-27T16:00:29",
-    "author": ""
-  },
-  {
-    "title": "亚马逊 AI 训练设施员工谈内部工作",
-    "url": "https://www.solidot.org/story?sid=85213",
-    "source": "Solidot",
-    "topic": "AI大事",
-    "region": "intl",
-    "published": "2026-08-27T14:11:07",
     "author": ""
   },
   {
@@ -954,13 +1035,40 @@
     "author": ""
   },
   {
-    "title": "大外交｜从比什凯克到开罗：中国元首外交今起再启新程",
-    "url": "https://m.thepaper.cn/detail/33973912",
+    "title": "人形机器人冰淇淋店打工，成本、效率、稳定性仍是规模化门槛",
+    "url": "https://m.thepaper.cn/detail/33974700",
     "source": "澎湃新闻",
     "topic": "世界时事",
     "region": "cn",
-    "published": "2026-08-29T23:12:37",
-    "author": "澎湃新闻记者 杨文钦"
+    "published": "2026-08-30T05:54:24",
+    "author": "澎湃新闻记者 喻琰"
+  },
+  {
+    "title": "华夏幸福：今年上半年净亏损同比收窄，信托抵债交易已实施完毕",
+    "url": "https://m.thepaper.cn/detail/33975005",
+    "source": "澎湃新闻",
+    "topic": "世界时事",
+    "region": "cn",
+    "published": "2026-08-30T05:54:21",
+    "author": "澎湃新闻记者 刘畅"
+  },
+  {
+    "title": "习近平离京出席2026年上海合作组织峰会并对吉尔吉斯斯坦、埃及进行国事访问",
+    "url": "https://m.thepaper.cn/detail/33974849",
+    "source": "澎湃新闻",
+    "topic": "世界时事",
+    "region": "cn",
+    "published": "2026-08-30T03:01:23",
+    "author": "央视新闻"
+  },
+  {
+    "title": "房地产信托新规再规范非标投资 设置展业准入门槛",
+    "url": "https://finance.caixin.com/2026-08-30/102479852.html",
+    "source": "财新网",
+    "topic": "世界时事",
+    "region": "cn",
+    "published": "2026-08-30T03:23:52",
+    "author": ""
   },
   {
     "title": "财新闻｜交通运输部回应“建议取消ETC设备使用”",
@@ -987,6 +1095,24 @@
     "topic": "世界时事",
     "region": "cn",
     "published": "2026-08-29T14:01:17",
+    "author": ""
+  },
+  {
+    "title": "装都不装了，五角大楼成委内瑞拉石油“股东”？",
+    "url": "https://www.guancha.cn/internation/2026_08_30_829212_s.shtml",
+    "source": "观察者网",
+    "topic": "世界时事",
+    "region": "cn",
+    "published": "2026-08-30T06:38:51",
+    "author": ""
+  },
+  {
+    "title": "日本首次向印度派战机，冲着中国？",
+    "url": "https://www.guancha.cn/internation/2026_08_30_829203_s.shtml",
+    "source": "观察者网",
+    "topic": "世界时事",
+    "region": "cn",
+    "published": "2026-08-30T04:05:47",
     "author": ""
   },
   {
@@ -1026,7 +1152,7 @@
     "author": ""
   },
   {
-    "title": "48天内三台风“打卡”同条街，为何是这里？",
+    "title": "48天内三台风“打卡”同街道，为何是这里？",
     "url": "https://www.guancha.cn/ChengShi/2026_08_28_829067_s.shtml",
     "source": "观察者网",
     "topic": "世界时事",
@@ -1044,13 +1170,13 @@
     "author": ""
   },
   {
-    "title": "“巴西本10年内难撼动中国地位”",
+    "title": "“巴西短期内难撼动中国稀土地位”",
     "url": "https://www.guancha.cn/internation/2026_08_28_828961_s.shtml",
     "source": "观察者网",
     "topic": "世界时事",
     "region": "cn",
-    "published": "2026-08-28T02:13:28",
-    "author": "张红日"
+    "published": "2026-08-28T02:13:26",
+    "author": ""
   },
   {
     "title": "海拔5000多米冰崩，数千万方、每秒50米……",
@@ -1062,25 +1188,7 @@
     "author": ""
   },
   {
-    "title": "独家对话《龙餐馆》编剧：战争叙事西方说了算？不对！",
-    "url": "https://www.guancha.cn/culture/2026_08_27_828885_s.shtml",
-    "source": "观察者网",
-    "topic": "世界时事",
-    "region": "cn",
-    "published": "2026-08-27T08:45:44",
-    "author": "雷逸鸥"
-  },
-  {
-    "title": "运-20驰援，西藏灾害救出2人，3人遇难、558人失联",
-    "url": "https://www.guancha.cn/politics/2026_08_27_828824_s.shtml",
-    "source": "观察者网",
-    "topic": "世界时事",
-    "region": "cn",
-    "published": "2026-08-27T03:09:31",
-    "author": ""
-  },
-  {
-    "title": "「在我眼中它就是黃金」：香港捲起卡牌熱，一張卡如何從遊戲工具變資產？",
+    "title": "「在我眼中它就是黃金」：一張卡如何從遊戲工具變資產？",
     "url": "https://www.bbc.com/zhongwen/articles/c0j3w0wxj18o/trad?at_medium=RSS&at_campaign=rss",
     "source": "BBC 中文",
     "topic": "世界时事",
@@ -1125,15 +1233,6 @@
     "author": ""
   },
   {
-    "title": "台灣再提「普發一萬」：背後的K型經濟與政治算盤",
-    "url": "https://www.bbc.com/zhongwen/articles/cvg96l8e5q9o/trad?at_medium=RSS&at_campaign=rss",
-    "source": "BBC 中文",
-    "topic": "世界时事",
-    "region": "cn",
-    "published": "2026-08-20T08:36:06",
-    "author": ""
-  },
-  {
     "title": "中美俄的太空攻防戰：衛星如何成為現代戰爭的第一擊？",
     "url": "https://www.bbc.com/zhongwen/articles/cgljn380r59o/trad?at_medium=RSS&at_campaign=rss",
     "source": "BBC 中文",
@@ -1143,22 +1242,22 @@
     "author": ""
   },
   {
-    "title": "Good Culture Is the Biggest Productivity Hack, Not AI",
-    "url": "https://newsletter.eng-leadership.com/p/good-culture-is-the-biggest-productivity",
+    "title": "Hy4 preview",
+    "url": "https://www.tencent.com/tencent-releases-and-open-sources-tencent-hy4-preview/",
     "source": "HackerNews",
     "topic": "技术圈",
     "region": "intl",
-    "published": "2026-08-29T17:19:47",
-    "author": "gpi · 247 pts · 56 comments"
+    "published": "2026-08-29T19:33:23",
+    "author": "shenli3514 · 257 pts · 159 comments"
   },
   {
-    "title": "DHS is using obscure law to snoop on journalists, non-profits, unions",
-    "url": "https://www.theguardian.com/us-news/2026/aug/29/trump-dhs-1509-summons-records-journalists-nonprofits",
+    "title": "Lawmakers added $1 to car insurance policies. That money paid for Flock cameras",
+    "url": "https://www.texastribune.org/2026/08/28/texas-flock-cameras-auto-insurance-fee-mvcpa-grants/",
     "source": "HackerNews",
     "topic": "技术圈",
     "region": "intl",
-    "published": "2026-08-29T18:44:37",
-    "author": "firefax · 298 pts · 43 comments"
+    "published": "2026-08-29T23:17:17",
+    "author": "DeepLogin · 245 pts · 129 comments"
   },
   {
     "title": "Samsung's Processing-in-Memory (PIM)",
@@ -1167,7 +1266,25 @@
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-08-29T06:06:51",
-    "author": "ingve · 245 pts · 92 comments"
+    "author": "ingve · 256 pts · 98 comments"
+  },
+  {
+    "title": "Good Culture Is the Biggest Productivity Hack, Not AI",
+    "url": "https://newsletter.eng-leadership.com/p/good-culture-is-the-biggest-productivity",
+    "source": "HackerNews",
+    "topic": "技术圈",
+    "region": "intl",
+    "published": "2026-08-29T17:19:47",
+    "author": "gpi · 348 pts · 80 comments"
+  },
+  {
+    "title": "DHS is using obscure law to snoop on journalists, non-profits, unions",
+    "url": "https://www.theguardian.com/us-news/2026/aug/29/trump-dhs-1509-summons-records-journalists-nonprofits",
+    "source": "HackerNews",
+    "topic": "技术圈",
+    "region": "intl",
+    "published": "2026-08-29T18:44:37",
+    "author": "firefax · 382 pts · 75 comments"
   },
   {
     "title": "Boot a Virtual iPhone via Apple's Virtualization.framework",
@@ -1176,16 +1293,16 @@
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-08-28T23:02:21",
-    "author": "hentrep · 380 pts · 103 comments"
+    "author": "hentrep · 397 pts · 106 comments"
   },
   {
-    "title": "StemDeck, a free, open-source and local AI stem separator",
-    "url": "https://github.com/stemdeckapp/stemdeck",
-    "source": "HackerNews",
-    "topic": "技术圈",
+    "title": "siyuan-note/siyuan 发布 v3.8.2",
+    "url": "https://github.com/siyuan-note/siyuan/releases/tag/v3.8.2",
+    "source": "GitHubRelease",
+    "topic": "GitHub 动态",
     "region": "intl",
-    "published": "2026-08-29T01:24:13",
-    "author": "thclpr · 206 pts · 58 comments"
+    "published": "2026-08-30T04:36:15",
+    "author": "88250"
   },
   {
     "title": "siyuan-note/siyuan 发布 v3.8.2-beta.4",
@@ -1194,24 +1311,6 @@
     "topic": "GitHub 动态",
     "region": "intl",
     "published": "2026-08-29T09:42:31",
-    "author": "github-actions[bot]"
-  },
-  {
-    "title": "siyuan-note/siyuan 发布 v3.8.2-beta.3",
-    "url": "https://github.com/siyuan-note/siyuan/releases/tag/v3.8.2-beta.3",
-    "source": "GitHubRelease",
-    "topic": "GitHub 动态",
-    "region": "intl",
-    "published": "2026-08-29T05:44:49",
-    "author": "github-actions[bot]"
-  },
-  {
-    "title": "siyuan-note/siyuan 发布 v3.8.2-beta.2",
-    "url": "https://github.com/siyuan-note/siyuan/releases/tag/v3.8.2-beta.2",
-    "source": "GitHubRelease",
-    "topic": "GitHub 动态",
-    "region": "intl",
-    "published": "2026-08-29T03:28:40",
     "author": "github-actions[bot]"
   },
   {
@@ -1224,49 +1323,49 @@
     "author": "next-js-bot[bot]"
   },
   {
-    "title": "ABCDE of Deception: A Relational Research Ethics Proposal.",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42667678/",
+    "title": "CRISPR-Cas9 mediated adiA knockout in Hafnia paralvei: Implications for agmatine production and acid stress survival in a fermented dairy matrix.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42668207/",
     "source": "PubMed",
     "topic": "心理学",
     "region": "intl",
-    "published": "2026",
-    "author": "Kamiel Verbeke, Dieter Baeyens, Jan Piasecki, Tomasz Krawczyk"
+    "published": "2027",
+    "author": "Angel Casado, Sandra M Wellner, Alejandro Quirós, Ana Herrero-Fresno"
   },
   {
-    "title": "Cognitive Dysfunction in Chronic Rhinosinusitis: A Scoping Review.",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42667649/",
+    "title": "Real-world Hepatocellular Carcinoma Management and Guideline Adherence in the Netherlands: A 5-Year Multicentre Prospective Cohort Study.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42668119/",
     "source": "PubMed",
     "topic": "心理学",
     "region": "intl",
     "published": "2026",
-    "author": "Luke M O'Neil, Hannan A Qureshi, Logan Lindemann, David J Cvancara"
+    "author": "Coosje A M Verhagen, Jochem M Grossouw, Joep de Bruijne, Danny van der Helm"
   },
   {
-    "title": "Personalizing myocardial revascularization strategies in the setting of acute myocardial infarction.",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42667606/",
+    "title": "TEX264-mediated ER-phagy dysfunction contributes to Cadmium-induced ER stress: Implication of hippocampal neuronal apoptosis and cognitive deficits.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42668033/",
     "source": "PubMed",
     "topic": "心理学",
     "region": "intl",
     "published": "2026",
-    "author": "Abhyuday Mandala, Lavinia Gabara, Nick Curzen, Richard J Jabbour"
+    "author": "Yufei Gao, Luyang Cao, Yibo Hong, Hao Ke"
   },
   {
-    "title": "Shared Decision Making in the Neonatal Intensive Care Unit in Low Middle Income Countries - A Myth or A Path to Reality: Correspondence.",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42667577/",
+    "title": "The brain angiotensin converting enzyme 2 and angiotensin-(1-7) as potential therapeutic targets for the central nervous system diseases.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42668022/",
     "source": "PubMed",
     "topic": "心理学",
     "region": "intl",
     "published": "2026",
-    "author": "Nalakath A Uvais"
+    "author": "Xiaowen Peng, Xiaohui Li, Shaofeng Duan, Jiahua Shi"
   },
   {
-    "title": "Effectiveness and Safety of Trastuzumab Deruxtecan in Chinese Patients with HER2-Mutant Metastatic Non-Small Cell Lung Cancer (RERUN): Study Protocol for a Real-World, Multicenter, Prospective, Observational Study.",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42667570/",
+    "title": "Management of hyperthyroidism in pregnancy.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42667960/",
     "source": "PubMed",
     "topic": "心理学",
     "region": "intl",
     "published": "2026",
-    "author": "Jianchun Duan, Minglei Zhuo, Chunxia Su, Yibing Liu"
+    "author": "Sangeetha Gummalla, Mayura R Kesara, Spyridoula Maraka"
   },
   {
     "title": "CEDAR: Controlled and Event-Driven Demand Forecasting via Residual Decomposition",
