@@ -1,12 +1,120 @@
 [
   {
+    "title": "Clean Engineering, Unstable Measurement: A Preregistered Reliability Failure of Black-Box LLM Observers on Shared Endpoints",
+    "url": "http://arxiv.org/abs/2609.04198v1",
+    "source": "arXiv",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-09-03T17:59:43",
+    "author": "Haoyaun Zhu, Jie Zhang"
+  },
+  {
+    "title": "ESPO: Error-Structured Prompt Optimization via Diagnose, Diversify, and Stabilize",
+    "url": "http://arxiv.org/abs/2609.04197v1",
+    "source": "arXiv",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-09-03T17:59:37",
+    "author": "Lihao Liu, Peng Tang, Kunwar Yashraj Singh, Shabnam Ghadar"
+  },
+  {
+    "title": "Legibility is Not Interpretability: Comparing Judged and Actual Importance in Chain-Of-Thought Reasoning",
+    "url": "http://arxiv.org/abs/2609.04194v1",
+    "source": "arXiv",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-09-03T17:59:08",
+    "author": "Kevin Du, Alexander Hoyle, Laura Ruis, Acyr Locatelli"
+  },
+  {
+    "title": "Seeing Before Synthesizing: VLM-Guided Transition Event Discovery for Weakly-Supervised Dense Video Captioning",
+    "url": "http://arxiv.org/abs/2609.04183v1",
+    "source": "arXiv",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-09-03T17:58:02",
+    "author": "Ye-Chan Kim, Seunghee Choi, SeungJu Cha, Si-Woo Kim, Hwiseon Kim, Hyungee Kim, Dong-Jin Kim"
+  },
+  {
+    "title": "Knowledge Acquisition During Pre-training? Large Language Models Learn Better With Auxiliary Views",
+    "url": "http://arxiv.org/abs/2609.04180v1",
+    "source": "arXiv",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-09-03T17:57:02",
+    "author": "Joseph Lee, Yidi Huang, Dokyoon Kim, Shu Yang, Li Shen"
+  },
+  {
+    "title": "Rethinking On-Policy Distillation of Large Language Models II: One Training Example",
+    "url": "http://arxiv.org/abs/2609.04172v1",
+    "source": "arXiv",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-09-03T17:54:38",
+    "author": "Zixuan Fu, Bingxiang He, Yuxin Zuo, Haohuan Huang, Jinqian Zhang, Ruhang Xiao, Cheng Qian, Qinyu Luo, Huan-ang Gao, Yudong Wang, Zhiyuan Liu, Ning Ding, Chaojun Xiao"
+  },
+  {
+    "title": "A Case Study on Emergent Cheating and Whistleblowing in Autonomous Research Swarms",
+    "url": "http://arxiv.org/abs/2609.04170v1",
+    "source": "arXiv",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-09-03T17:54:09",
+    "author": "Davide Paglieri, Logan Cross, Tim Genewein, Joel Z. Leibo, Nenad Tomasev, Alexander Sasha Vezhnevets"
+  },
+  {
+    "title": "SWE-Gate: Passing Functional Tests Is Not Enough for Software Engineering Agents",
+    "url": "http://arxiv.org/abs/2609.04167v1",
+    "source": "arXiv",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-09-03T17:53:34",
+    "author": "Xin He, Yanlin Wang, Mingwei Liu, Jiachi Chen, Hongyu Zhang, Guanbin Li"
+  },
+  {
+    "title": "Cloud in a Bottle: making self-hosting accessible to everyone",
+    "url": "https://cloudinabottle.org/blog/launch-post",
+    "source": "HackerNews",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-09-06T00:03:29",
+    "author": "zplizzi · 286 pts · 125 comments"
+  },
+  {
+    "title": "The revolt of the reader",
+    "url": "https://bcantrill.dtrace.org/2026/09/05/the-revolt-of-the-reader/",
+    "source": "HackerNews",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-09-05T21:37:49",
+    "author": "chmaynard · 253 pts · 97 comments"
+  },
+  {
+    "title": "Chrome again exempts Google from user site data settings",
+    "url": "https://lapcatsoftware.com/articles/2026/9/1.html",
+    "source": "HackerNews",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-09-05T23:39:47",
+    "author": "ExMachina73 · 250 pts · 38 comments"
+  },
+  {
+    "title": "Learn Programming with OCaml",
+    "url": "https://usr.lmf.cnrs.fr/lpo/",
+    "source": "HackerNews",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-09-05T16:45:02",
+    "author": "elvis70 · 224 pts · 82 comments"
+  },
+  {
     "title": "Private German rocket makes history, reaches orbit from European soil",
     "url": "https://www.space.com/space-exploration/launches-spacecraft/isar-aerospace-second-launch-norway-andoya-spaceport-spectrum-rocket",
     "source": "HackerNews",
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-09-05T20:31:38",
-    "author": "bookmtn · 360 pts · 187 comments"
+    "author": "bookmtn · 478 pts · 250 comments"
   },
   {
     "title": "The \"$60 Gaming PC\" – AMD BC-250 (2025)",
@@ -15,7 +123,7 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-09-05T13:36:38",
-    "author": "networked · 277 pts · 85 comments"
+    "author": "networked · 324 pts · 97 comments"
   },
   {
     "title": "Discovery of a new OpenAI agent message board",
@@ -24,7 +132,7 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-09-04T11:54:53",
-    "author": "moultano · 2107 pts · 1515 comments"
+    "author": "moultano · 2157 pts · 1532 comments"
   },
   {
     "title": "Actively exploited sandbox RCE in all Chromium versions",
@@ -33,7 +141,7 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-09-04T21:52:01",
-    "author": "negura · 743 pts · 441 comments"
+    "author": "negura · 765 pts · 454 comments"
   },
   {
     "title": "Nitter has more working instances than before the takedowns",
@@ -42,7 +150,16 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-09-05T00:04:16",
-    "author": "Cider9986 · 623 pts · 301 comments"
+    "author": "Cider9986 · 659 pts · 319 comments"
+  },
+  {
+    "title": "LLMs as a Cognitive Virus",
+    "url": "https://arxiv.org/abs/2609.03344",
+    "source": "HackerNews",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-09-05T20:02:35",
+    "author": "canjobear · 242 pts · 184 comments"
   },
   {
     "title": "Statichost.eu – European static site hosting",
@@ -51,7 +168,7 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-09-04T20:34:49",
-    "author": "p4bl0 · 444 pts · 201 comments"
+    "author": "p4bl0 · 458 pts · 208 comments"
   },
   {
     "title": "Can AI design circuit boards yet?",
@@ -60,7 +177,7 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-09-04T19:48:29",
-    "author": "iopapa · 380 pts · 208 comments"
+    "author": "iopapa · 400 pts · 213 comments"
   },
   {
     "title": "鸿蒙 AI Coding 的研发新范式与工程实践",
@@ -144,13 +261,13 @@
     "author": "褚杏娟"
   },
   {
-    "title": "李飞飞首个多模态世界模型 Atlas 正式发布：从零开始预训练，几张图就能构建世界",
-    "url": "https://www.infoq.cn/article/9YiEhb3hAFtUlxOpMdGC?utm_source=rss&utm_medium=article",
-    "source": "InfoQ 中文",
+    "title": "B站首届AI创造公开赛收官，超八成参赛者为一人团队",
+    "url": "https://www.qbitai.com/2026/09/484890.html",
+    "source": "量子位",
     "topic": "AI大事",
     "region": "cn",
-    "published": "2026-09-03T16:49:43",
-    "author": "李冬梅"
+    "published": "2026-09-06T04:40:15",
+    "author": "量子位的朋友们"
   },
   {
     "title": "GPT-6带火循环Transformer，阿里早已布局",
@@ -225,24 +342,6 @@
     "author": ""
   },
   {
-    "title": "DietrichGebert/ponytail",
-    "url": "https://github.com/DietrichGebert/ponytail",
-    "source": "GitHub Trending",
-    "topic": "AI大事",
-    "region": "intl",
-    "published": "",
-    "author": ""
-  },
-  {
-    "title": "fmtlib/fmt",
-    "url": "https://github.com/fmtlib/fmt",
-    "source": "GitHub Trending",
-    "topic": "AI大事",
-    "region": "intl",
-    "published": "",
-    "author": ""
-  },
-  {
     "title": "affaan-m/ECC",
     "url": "https://github.com/affaan-m/ECC",
     "source": "GitHub Trending",
@@ -252,17 +351,8 @@
     "author": ""
   },
   {
-    "title": "anthropics/skills",
-    "url": "https://github.com/anthropics/skills",
-    "source": "GitHub Trending",
-    "topic": "AI大事",
-    "region": "intl",
-    "published": "",
-    "author": ""
-  },
-  {
-    "title": "blader/humanizer",
-    "url": "https://github.com/blader/humanizer",
+    "title": "DietrichGebert/ponytail",
+    "url": "https://github.com/DietrichGebert/ponytail",
     "source": "GitHub Trending",
     "topic": "AI大事",
     "region": "intl",
@@ -279,8 +369,8 @@
     "author": ""
   },
   {
-    "title": "JuliusBrussee/caveman",
-    "url": "https://github.com/JuliusBrussee/caveman",
+    "title": "fmtlib/fmt",
+    "url": "https://github.com/fmtlib/fmt",
     "source": "GitHub Trending",
     "topic": "AI大事",
     "region": "intl",
@@ -288,8 +378,8 @@
     "author": ""
   },
   {
-    "title": "magnitudedev/magnitude",
-    "url": "https://github.com/magnitudedev/magnitude",
+    "title": "anthropics/skills",
+    "url": "https://github.com/anthropics/skills",
     "source": "GitHub Trending",
     "topic": "AI大事",
     "region": "intl",
@@ -297,8 +387,35 @@
     "author": ""
   },
   {
-    "title": "bikini/exploitarium",
-    "url": "https://github.com/bikini/exploitarium",
+    "title": "cathrynlavery/diagram-design",
+    "url": "https://github.com/cathrynlavery/diagram-design",
+    "source": "GitHub Trending",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "",
+    "author": ""
+  },
+  {
+    "title": "anomalyco/opencode",
+    "url": "https://github.com/anomalyco/opencode",
+    "source": "GitHub Trending",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "",
+    "author": ""
+  },
+  {
+    "title": "ruvnet/ruflo",
+    "url": "https://github.com/ruvnet/ruflo",
+    "source": "GitHub Trending",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "",
+    "author": ""
+  },
+  {
+    "title": "humanlayer/skills",
+    "url": "https://github.com/humanlayer/skills",
     "source": "GitHub Trending",
     "topic": "AI大事",
     "region": "intl",
@@ -450,6 +567,15 @@
     "author": "阮一峰"
   },
   {
+    "title": "AI 降低了创造的门槛，B 站则想放大创造的回声",
+    "url": "https://www.ifanr.com/1678567?utm_source=rss&utm_medium=rss&utm_campaign=",
+    "source": "爱范儿",
+    "topic": "AI大事",
+    "region": "cn",
+    "published": "2026-09-06T06:00:38",
+    "author": "李超凡"
+  },
+  {
     "title": "GPT-6 突然全量上线，额度重置再+1，全网实测效果太离谱",
     "url": "https://www.ifanr.com/1678195?utm_source=rss&utm_medium=rss&utm_campaign=",
     "source": "爱范儿",
@@ -529,15 +655,6 @@
     "region": "cn",
     "published": "2026-09-04T00:36:58",
     "author": "彭海星"
-  },
-  {
-    "title": "早报｜全球主流AI集体宕机/GPT-6 Astra正式发布，AGI已来/微信回应「单删提示」",
-    "url": "https://www.ifanr.com/1678380?utm_source=rss&utm_medium=rss&utm_campaign=",
-    "source": "爱范儿",
-    "topic": "AI大事",
-    "region": "cn",
-    "published": "2026-09-04T00:10:13",
-    "author": "郑廷旭"
   },
   {
     "title": "OpenClaw Power, MacBook Simplicity: Five Days With Grok Bot",
@@ -954,6 +1071,42 @@
     "author": ""
   },
   {
+    "title": "9月错峰游正当时：机票低至1.5折，中高星酒店降幅可达五成以上",
+    "url": "https://m.thepaper.cn/detail/34019203",
+    "source": "澎湃新闻",
+    "topic": "世界时事",
+    "region": "cn",
+    "published": "2026-09-06T05:51:36",
+    "author": "澎湃新闻记者 唐莹莹"
+  },
+  {
+    "title": "“葫芦娃爷爷”剪除网红葫芦：失独老人与一场过载的热情",
+    "url": "https://m.thepaper.cn/detail/34019074",
+    "source": "澎湃新闻",
+    "topic": "世界时事",
+    "region": "cn",
+    "published": "2026-09-06T04:27:19",
+    "author": "澎湃新闻记者 王文娟"
+  },
+  {
+    "title": "初心不改 虽远不怠——习近平主席出席二〇二六年上海合作组织峰会并对吉尔吉斯斯坦、埃及进行国事访问纪实",
+    "url": "https://www.peopleapp.com/column/30053089507-500007683584",
+    "source": "澎湃新闻",
+    "topic": "世界时事",
+    "region": "cn",
+    "published": "2026-09-06T01:16:37",
+    "author": ""
+  },
+  {
+    "title": "《欢迎来龙餐馆》原型讲述：巴格达淘金路｜故事",
+    "url": "https://mini.caixin.com/2026-09-06/102482385.html",
+    "source": "财新网",
+    "topic": "世界时事",
+    "region": "cn",
+    "published": "2026-09-06T03:26:24",
+    "author": ""
+  },
+  {
     "title": "【周刊提前读】美债回购救得了一时 没有彻底改革或致全球危机",
     "url": "https://database.caixin.com/2026-09-05/102482161.html",
     "source": "财新网",
@@ -1062,7 +1215,7 @@
     "author": ""
   },
   {
-    "title": "福克蘭群島爭議升溫：阿根廷宣佈制裁附近油企，特朗普暗示未必協助英國",
+    "title": "福島爭議升溫：阿根廷制裁附近油企，特朗普暗示未必協助英國",
     "url": "https://www.bbc.com/zhongwen/articles/c89jgd5gn14o/trad?at_medium=RSS&at_campaign=rss",
     "source": "BBC 中文",
     "topic": "世界时事",
@@ -1098,13 +1251,49 @@
     "author": ""
   },
   {
+    "title": "Cloud in a Bottle: making self-hosting accessible to everyone",
+    "url": "https://cloudinabottle.org/blog/launch-post",
+    "source": "HackerNews",
+    "topic": "技术圈",
+    "region": "intl",
+    "published": "2026-09-06T00:03:29",
+    "author": "zplizzi · 286 pts · 125 comments"
+  },
+  {
+    "title": "The revolt of the reader",
+    "url": "https://bcantrill.dtrace.org/2026/09/05/the-revolt-of-the-reader/",
+    "source": "HackerNews",
+    "topic": "技术圈",
+    "region": "intl",
+    "published": "2026-09-05T21:37:49",
+    "author": "chmaynard · 253 pts · 97 comments"
+  },
+  {
+    "title": "Chrome again exempts Google from user site data settings",
+    "url": "https://lapcatsoftware.com/articles/2026/9/1.html",
+    "source": "HackerNews",
+    "topic": "技术圈",
+    "region": "intl",
+    "published": "2026-09-05T23:39:47",
+    "author": "ExMachina73 · 251 pts · 38 comments"
+  },
+  {
+    "title": "Learn Programming with OCaml",
+    "url": "https://usr.lmf.cnrs.fr/lpo/",
+    "source": "HackerNews",
+    "topic": "技术圈",
+    "region": "intl",
+    "published": "2026-09-05T16:45:02",
+    "author": "elvis70 · 224 pts · 83 comments"
+  },
+  {
     "title": "Private German rocket makes history, reaches orbit from European soil",
     "url": "https://www.space.com/space-exploration/launches-spacecraft/isar-aerospace-second-launch-norway-andoya-spaceport-spectrum-rocket",
     "source": "HackerNews",
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-09-05T20:31:38",
-    "author": "bookmtn · 361 pts · 187 comments"
+    "author": "bookmtn · 478 pts · 251 comments"
   },
   {
     "title": "The \"$60 Gaming PC\" – AMD BC-250 (2025)",
@@ -1113,7 +1302,7 @@
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-09-05T13:36:38",
-    "author": "networked · 278 pts · 85 comments"
+    "author": "networked · 324 pts · 97 comments"
   },
   {
     "title": "Discovery of a new OpenAI agent message board",
@@ -1122,7 +1311,7 @@
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-09-04T11:54:53",
-    "author": "moultano · 2109 pts · 1515 comments"
+    "author": "moultano · 2159 pts · 1532 comments"
   },
   {
     "title": "Actively exploited sandbox RCE in all Chromium versions",
@@ -1131,7 +1320,7 @@
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-09-04T21:52:01",
-    "author": "negura · 743 pts · 441 comments"
+    "author": "negura · 765 pts · 454 comments"
   },
   {
     "title": "Nitter has more working instances than before the takedowns",
@@ -1140,7 +1329,16 @@
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-09-05T00:04:16",
-    "author": "Cider9986 · 623 pts · 301 comments"
+    "author": "Cider9986 · 659 pts · 319 comments"
+  },
+  {
+    "title": "LLMs as a Cognitive Virus",
+    "url": "https://arxiv.org/abs/2609.03344",
+    "source": "HackerNews",
+    "topic": "技术圈",
+    "region": "intl",
+    "published": "2026-09-05T20:02:35",
+    "author": "canjobear · 242 pts · 184 comments"
   },
   {
     "title": "Statichost.eu – European static site hosting",
@@ -1149,7 +1347,7 @@
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-09-04T20:34:49",
-    "author": "p4bl0 · 444 pts · 201 comments"
+    "author": "p4bl0 · 458 pts · 208 comments"
   },
   {
     "title": "Can AI design circuit boards yet?",
@@ -1158,7 +1356,25 @@
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-09-04T19:48:29",
-    "author": "iopapa · 380 pts · 208 comments"
+    "author": "iopapa · 400 pts · 213 comments"
+  },
+  {
+    "title": "anthropics/claude-code 发布 v2.1.263",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.263",
+    "source": "GitHubRelease",
+    "topic": "GitHub 动态",
+    "region": "intl",
+    "published": "2026-09-06T02:54:20",
+    "author": "ashwin-ant"
+  },
+  {
+    "title": "siyuan-note/siyuan 发布 v3.8.3-alpha.2",
+    "url": "https://github.com/siyuan-note/siyuan/releases/tag/v3.8.3-alpha.2",
+    "source": "GitHubRelease",
+    "topic": "GitHub 动态",
+    "region": "intl",
+    "published": "2026-09-06T03:56:01",
+    "author": "github-actions[bot]"
   },
   {
     "title": "vercel/next.js 发布 v16.4.0-canary.19",
@@ -1170,49 +1386,94 @@
     "author": "next-js-bot[bot]"
   },
   {
-    "title": "Eco-Emotion Profiles Among Parents and Links to Violent and Neglectful Parenting: Parental Burnout as a Mediating Pathway.",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42698360/",
+    "title": "Diaphragm Ultrasound: State-of-the-Art Review.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42701071/",
     "source": "PubMed",
     "topic": "心理学",
     "region": "intl",
     "published": "2026",
-    "author": "Nicola Carone, Jacopo Tracchegiani, Gianluca Cruciani, Andrea Zagaria"
+    "author": "Alice Brighenti, Andrea Boccatonda, Damiano D'Ardes, Esterita Accogli"
   },
   {
-    "title": "Best Case/Worst Case: A Multisite Randomized Trial of Scenario Planning for Patients With Late-Stage Kidney Disease.",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42698358/",
+    "title": "Nurses' Experiences of Caring for Children with Cancer: A Descriptive Phenomenological Study.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42701063/",
     "source": "PubMed",
     "topic": "心理学",
     "region": "intl",
     "published": "2026",
-    "author": "Lily N Stalter, Bret M Hanlon, Kyle J Bushaw, Jenna Nitkowski"
+    "author": "Cânia Torres, Leonor Monteiro, Ana Sofia Pereira, Giovani Basso da Silva"
   },
   {
-    "title": "Stroke clinical documentation education program in Australia and New Zealand.",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42698334/",
+    "title": "Dual-Approach AI for Pediatric Supracondylar Fractures: Multiclass Radiograph Classification with Explainable AI and Diagnostic Meta-analysis of AI-Based Computational Approaches.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42701043/",
     "source": "PubMed",
     "topic": "心理学",
     "region": "intl",
     "published": "2026",
-    "author": "Catherine Burns, Ailie Sanders, Anna Ranta, Justan Banihashemi"
+    "author": "Che-Wei Lin, Febryan Setiawan, Syaifullah Hikmahtiyar, Pei-Chun Lai"
   },
   {
-    "title": "Young Autistic Children Spontaneously Take Others' Visual Perspectives.",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42698332/",
+    "title": "First-line therapy and maintenance outcomes in Chinese patients with marginal zone lymphoma: a multicenter retrospective analysis with prognostic implications for chemotherapy decision-making.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42700966/",
     "source": "PubMed",
     "topic": "心理学",
     "region": "intl",
     "published": "2026",
-    "author": "Yang Gao, Christopher Jarrold, Ruoxi Shi, Jiewei Zheng"
+    "author": "Yanyan Qiu, Yimei Weng, Xinyuan Su, Jiangrui Guo"
   },
   {
-    "title": "From daily maternal worry to adolescents' emotion dysregulation: The mediating role of maternal privacy invasion.",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42698328/",
+    "title": "Clinicians' ethical considerations regarding the use of prediction models in hand and wrist care: a qualitative study.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42700941/",
     "source": "PubMed",
     "topic": "心理学",
     "region": "intl",
     "published": "2026",
-    "author": "Yueqi Wang, Monika H Donker, Susan Branje, Shisang Peng"
+    "author": "Grada R Arends, Yara E van Kooij, Joene Rutten, Ineke Bolt"
+  },
+  {
+    "title": "Optimal Uniform Pricing for Multi-Interval Dispatch without Make-Whole Uplifts",
+    "url": "http://arxiv.org/abs/2609.00541v1",
+    "source": "arXiv",
+    "topic": "供应链",
+    "region": "intl",
+    "published": "2026-09-01T01:28:40",
+    "author": "Valentina Norambuena-Guzman, Cong Chen, Lang Tong, Timothy D. Mount"
+  },
+  {
+    "title": "A High-Resolution Synthetic EV Charging Dataset for Cold-Climate Distribution Grid Impact Analysis: Trondheim, Norway (2020-2030)",
+    "url": "http://arxiv.org/abs/2608.30199v1",
+    "source": "arXiv",
+    "topic": "供应链",
+    "region": "intl",
+    "published": "2026-08-31T03:29:40",
+    "author": "Hanieh Taraghi Nazloo, Petr Musilek"
+  },
+  {
+    "title": "Learning to Transfer Across Modes: Towards Unified Urban Mobility Forecasting",
+    "url": "http://arxiv.org/abs/2608.28273v2",
+    "source": "arXiv",
+    "topic": "供应链",
+    "region": "intl",
+    "published": "2026-08-28T12:35:51",
+    "author": "Yixuan Zhao, Man Luo"
+  },
+  {
+    "title": "Towards Scaling Reinforcement Learning to Massive Populations: Learning Mean-Field Representations",
+    "url": "http://arxiv.org/abs/2609.02928v1",
+    "source": "arXiv",
+    "topic": "供应链",
+    "region": "intl",
+    "published": "2026-08-26T18:54:16",
+    "author": "Aditya Makkar, Benjamin Unger, Jeongyeol Kwon, Mathieu Laurière, Eugene Vinitsky, Yonathan Efroni"
+  },
+  {
+    "title": "CEDAR: Controlled and Event-Driven Demand Forecasting via Residual Decomposition",
+    "url": "http://arxiv.org/abs/2608.25871v1",
+    "source": "arXiv",
+    "topic": "供应链",
+    "region": "intl",
+    "published": "2026-08-26T14:43:56",
+    "author": "Junjie Meng, Ranxu Zhang, Zi-an Zhang, Shujun Liu, Xiaoning Qi, Xiaozhou Xu, Yanyong Zhang, Hui Xiong, Chao Wang"
   },
   {
     "title": "OpenAI's rogue agents were caught communicating via public wikis",
@@ -1276,15 +1537,6 @@
     "region": "cn",
     "published": "2026-09-02T22:52:37",
     "author": "彭海星"
-  },
-  {
-    "title": "早报｜戴森发布499美元AI牙刷,带摄像头/华为、小米、荣耀手机集体涨价/最强模型Fable 5.1发布",
-    "url": "https://www.ifanr.com/1678080?utm_source=rss&utm_medium=rss&utm_campaign=",
-    "source": "爱范儿",
-    "topic": "供应链",
-    "region": "cn",
-    "published": "2026-09-02T00:18:23",
-    "author": "郑廷旭"
   },
   {
     "title": "[AINews] Claude Fable/Mythos 5.1: new SOTA model, 75% cache price cut but 70% more output tokens",
