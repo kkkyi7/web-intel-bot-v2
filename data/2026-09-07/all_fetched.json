@@ -1,84 +1,93 @@
 [
   {
-    "title": "Large Language Models for HVAC Operations in Building Energy Systems: A Critical Review of Methods, Applications, and Deployment Readiness",
-    "url": "http://arxiv.org/abs/2609.05314v1",
+    "title": "WearableQA: A Benchmark for Health Reasoning over Real-World Wearable Data",
+    "url": "http://arxiv.org/abs/2609.05405v1",
     "source": "arXiv",
     "topic": "AI大事",
     "region": "intl",
-    "published": "2026-09-04T16:08:05",
-    "author": "Alexander Neubauer, Tianzhen Hong, Han Li, Mengbo Yu, Amin Darbandi, Yannick Fürst, Martin Kriegel"
+    "published": "2026-09-04T17:52:37",
+    "author": "Ji Soo Lee, Xilun Chen, Pierce Chuang, Ashish Shenoy, Jason Wei, Dohwan Ko, Hyunwoo J. Kim, Benoit Corda"
   },
   {
-    "title": "Beyond Aggregate Scores: Behavioral Correctness Assumptions for Assessing Reference-Based Automatic Evaluation Methods",
-    "url": "http://arxiv.org/abs/2609.05289v1",
+    "title": "Multi-Step Tool-Calling over Korean Open Public APIs: A Benchmark and a Data-Synthesis Recipe",
+    "url": "http://arxiv.org/abs/2609.05395v1",
     "source": "arXiv",
     "topic": "AI大事",
     "region": "intl",
-    "published": "2026-09-04T15:43:09",
-    "author": "Maria Mahbub, Ashley Rice, Michael R. Munroe, Amidu Kamara, Amir Sadovnik"
+    "published": "2026-09-04T17:44:52",
+    "author": "Dain Kim, Eungi Cho, Kyumin Kim, Shinyeong Noh, Kyuseong Lim"
   },
   {
-    "title": "GUT: Quantifying and Optimizing the Reasoning Uncertainty of LLMs via Graph Complexity",
-    "url": "http://arxiv.org/abs/2609.05284v1",
+    "title": "Necessary or Sufficient? Evaluating LLM Explanations With Behavioural Evidence",
+    "url": "http://arxiv.org/abs/2609.05385v1",
     "source": "arXiv",
     "topic": "AI大事",
     "region": "intl",
-    "published": "2026-09-04T15:40:12",
-    "author": "Shuang Liang, Xin-Yu Hu, Xiang-Jun Ou, Shao-Qun Zhang"
+    "published": "2026-09-04T17:37:17",
+    "author": "Urja Pawar, Rajitha Ramanayake, Nabeel Kemal, Ashwin Kandath, Owen O'Neill, Guillaume Bourgeon, Houssem Chatbri"
   },
   {
-    "title": "Testing Interchangeability in LLM Agent Teams",
-    "url": "http://arxiv.org/abs/2609.05279v1",
+    "title": "Molecular Déjà Vu: Digit-Level Retrieval of Published Values in Frontier Language Models",
+    "url": "http://arxiv.org/abs/2609.05381v1",
     "source": "arXiv",
     "topic": "AI大事",
     "region": "intl",
-    "published": "2026-09-04T15:32:20",
-    "author": "Jianxin Gao, Tianyi Yu, Linna Deng, Runze Li, Zining Wang"
+    "published": "2026-09-04T17:32:48",
+    "author": "Matthias Busch, Marius Tacke, Sviatlana V. Lamaka, Mikhail L. Zheludkevich, Christian J. Cyron, Roland C. Aydin, Christian Feiler"
   },
   {
-    "title": "Don't Drop Dropout: Optimizing Layer Sparsity for Efficient LLM Training and Inference",
-    "url": "http://arxiv.org/abs/2609.05275v1",
+    "title": "When LLM Decompilers Recompile More and Preserve Less",
+    "url": "http://arxiv.org/abs/2609.05370v1",
     "source": "arXiv",
     "topic": "AI大事",
     "region": "intl",
-    "published": "2026-09-04T15:30:47",
-    "author": "Mostafa Elhoushi, Alex Pretko, Nolan Dey, Bin Claire Zhang, Gavia Gray, Gurpreet Gosal, Abdulrahman Mahmoud, Shane Bergsma, Joel Hestness"
+    "published": "2026-09-04T17:16:18",
+    "author": "Chang Liu, Edward Raff, Kristopher Micinski"
   },
   {
-    "title": "How to Speculate about Uncertainty in Agentic Coding? A Draft-Model Gate Method",
-    "url": "http://arxiv.org/abs/2609.05274v1",
+    "title": "Distill Globally, Adapt Locally: Reasoning Distillation and Product-Type Test-Time Training for Scalable Trade-Up Recommendation",
+    "url": "http://arxiv.org/abs/2609.05363v1",
     "source": "arXiv",
     "topic": "AI大事",
     "region": "intl",
-    "published": "2026-09-04T15:30:22",
-    "author": "Konstantin Grotov, Valentin Malykh"
+    "published": "2026-09-04T17:08:50",
+    "author": "Siliang Liu, Mohammad Ghasemi, Sapan Patel, Amin Banitalebi-Dehkordi"
   },
   {
-    "title": "CONTINUITY: Security-Context Contracts for Composable LLM Agent Controls",
-    "url": "http://arxiv.org/abs/2609.05269v1",
+    "title": "Development of a Humanoid Robot Prototype for Multimodal Human-Robot Interaction",
+    "url": "http://arxiv.org/abs/2609.05361v1",
     "source": "arXiv",
     "topic": "AI大事",
     "region": "intl",
-    "published": "2026-09-04T15:26:35",
-    "author": "Chris Zheng, Geng Yang"
+    "published": "2026-09-04T17:06:47",
+    "author": "Thang Tran Viet, Thanh Nguyen Canh, Huy Uong Gia, Phuc Dinh Van, Son Tran Duc, Ngoc Minh Do, Xiem HoangVan"
   },
   {
-    "title": "Trace2Tower: Transition-Aware EigenTrace Induction of Multi-Level Skills for LLM Agents",
-    "url": "http://arxiv.org/abs/2609.05261v1",
+    "title": "Who Should Grade My Work? Student Perspectives on Transparent AI-Assisted Writing Assessment in Higher Education",
+    "url": "http://arxiv.org/abs/2609.05346v1",
     "source": "arXiv",
     "topic": "AI大事",
     "region": "intl",
-    "published": "2026-09-04T15:22:39",
-    "author": "Jiazheng Sun, Boyu Yang, Binhao Yuan, Mingxuan Li, Xin Peng"
+    "published": "2026-09-04T16:49:33",
+    "author": "Rayed AlGhamdi"
   },
   {
-    "title": "Your intellectual fly is open (2025)",
-    "url": "https://bcantrill.dtrace.org/2025/12/05/your-intellectual-fly-is-open/",
+    "title": "Keep Our Servers Running",
+    "url": "https://blog.archive.org/2026/09/01/keep-our-servers-running-your-recurring-donation-goes-3x-this-september/",
     "source": "HackerNews",
     "topic": "AI大事",
     "region": "intl",
-    "published": "2026-09-06T11:56:43",
-    "author": "cyb0rg0 · 520 pts · 335 comments"
+    "published": "2026-09-07T03:29:51",
+    "author": "sonicrocketman · 203 pts · 45 comments"
+  },
+  {
+    "title": "It took a year to ship WebAssembly in Anubis",
+    "url": "https://anubis.techaro.lol/blog/2026/anubis-wasm/",
+    "source": "HackerNews",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-09-06T20:32:38",
+    "author": "xena · 215 pts · 114 comments"
   },
   {
     "title": "Nitter and XCancel resume service after legal advice",
@@ -87,7 +96,16 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-09-06T17:49:47",
-    "author": "zImPatrick · 453 pts · 238 comments"
+    "author": "zImPatrick · 617 pts · 296 comments"
+  },
+  {
+    "title": "GrapheneOS Overhauled Default Apps and Secure Clipboard",
+    "url": "https://grapheneos.social/@GrapheneOS/117225539756835649",
+    "source": "HackerNews",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-09-06T20:24:00",
+    "author": "Cider9986 · 251 pts · 184 comments"
   },
   {
     "title": "An Alien Mind",
@@ -96,7 +114,7 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-09-06T16:27:05",
-    "author": "tosh · 320 pts · 282 comments"
+    "author": "tosh · 379 pts · 337 comments"
   },
   {
     "title": "Asahi Linux on M3",
@@ -105,34 +123,34 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-09-06T14:08:59",
-    "author": "mdp2021 · 355 pts · 195 comments"
+    "author": "mdp2021 · 409 pts · 250 comments"
   },
   {
-    "title": "A/I shuts down",
-    "url": "https://keepitfree.ai/announcements/a/i-shuts-down-stay-human/",
-    "source": "HackerNews",
+    "title": "阿里前销售总监在美失踪逾半月后确认身亡；5天10万元！外国高管涌入中国“工厂游”；传DeepSeek计划采购16万颗昇腾芯片｜AI周报",
+    "url": "https://www.infoq.cn/article/boiE7qfjxSQjHKUtevvp?utm_source=rss&utm_medium=article",
+    "source": "InfoQ 中文",
     "topic": "AI大事",
-    "region": "intl",
-    "published": "2026-09-06T14:34:34",
-    "author": "captainmuon · 522 pts · 388 comments"
+    "region": "cn",
+    "published": "2026-09-07T14:05:35",
+    "author": "傅宇琪,褚杏娟"
   },
   {
-    "title": "Doomscrolling ourselves to death",
-    "url": "https://www.edwest.co.uk/p/doomscrolling-ourselves-to-death",
-    "source": "HackerNews",
+    "title": "微软将人工智能治理从政策层面转向运行时执行",
+    "url": "https://www.infoq.cn/article/STpCLL13xCQsoYrfWSLb?utm_source=rss&utm_medium=article",
+    "source": "InfoQ 中文",
     "topic": "AI大事",
-    "region": "intl",
-    "published": "2026-09-06T11:53:40",
-    "author": "shubhamjain · 365 pts · 264 comments"
+    "region": "cn",
+    "published": "2026-09-07T12:35:44",
+    "author": "作者：Leela Kumili"
   },
   {
-    "title": "Isar Aerospace reaches orbit and deploys payloads on second flight",
-    "url": "https://isaraerospace.com/press/history-for-european-spaceflight-isar-aerospace-reaches-orbit-and-deploys-payloads-on-second-flight",
-    "source": "HackerNews",
+    "title": "传统企业 AI 转型的最短路径，藏在研发部门",
+    "url": "https://www.infoq.cn/article/jrEuCFhtpA9LmGX60R1H?utm_source=rss&utm_medium=article",
+    "source": "InfoQ 中文",
     "topic": "AI大事",
-    "region": "intl",
-    "published": "2026-09-06T07:21:06",
-    "author": "mpweiher · 557 pts · 177 comments"
+    "region": "cn",
+    "published": "2026-09-07T12:04:04",
+    "author": "于曦"
   },
   {
     "title": "鸿蒙 AI Coding 的研发新范式与工程实践",
@@ -189,31 +207,13 @@
     "author": "世界人工智能开源大赛"
   },
   {
-    "title": "谷歌云发布 AI 智能体，简化数据库生命周期管理",
-    "url": "https://www.infoq.cn/article/iV0rsPyO5XZDJ7797hLJ?utm_source=rss&utm_medium=article",
-    "source": "InfoQ 中文",
+    "title": "业内首个！“千问办公”推出“多人工作台”",
+    "url": "https://www.qbitai.com/2026/09/485046.html",
+    "source": "量子位",
     "topic": "AI大事",
     "region": "cn",
-    "published": "2026-09-04T09:21:00",
-    "author": "作者：Sergio De Simone"
-  },
-  {
-    "title": "当 Agent 走出 App：WorkBuddy 的朋友圈开始向外生长",
-    "url": "https://www.infoq.cn/article/vogOaCpOeNfe0hjAXfzy?utm_source=rss&utm_medium=article",
-    "source": "InfoQ 中文",
-    "topic": "AI大事",
-    "region": "cn",
-    "published": "2026-09-03T21:19:20",
-    "author": "王玮"
-  },
-  {
-    "title": "当Agent开始“吃数据”，传统湖仓不够用了：华为云重构数据基础设施",
-    "url": "https://www.infoq.cn/article/IE4CYYwbLYYKSbg7lXfx?utm_source=rss&utm_medium=article",
-    "source": "InfoQ 中文",
-    "topic": "AI大事",
-    "region": "cn",
-    "published": "2026-09-03T17:19:14",
-    "author": "褚杏娟"
+    "published": "2026-09-07T05:04:44",
+    "author": "量子位的朋友们"
   },
   {
     "title": "具身ICL来了创业玩家！上下文成Scaling新赛道",
@@ -279,24 +279,6 @@
     "author": "量子位的朋友们"
   },
   {
-    "title": "机器人不能停下来等模型：星尘发布 SmoothRL，让在线强化学习跟上大模型的异步推理",
-    "url": "https://www.qbitai.com/2026/09/484437.html",
-    "source": "量子位",
-    "topic": "AI大事",
-    "region": "cn",
-    "published": "2026-09-04T09:19:29",
-    "author": "量子位的朋友们"
-  },
-  {
-    "title": "mattpocock/skills",
-    "url": "https://github.com/mattpocock/skills",
-    "source": "GitHub Trending",
-    "topic": "AI大事",
-    "region": "intl",
-    "published": "",
-    "author": ""
-  },
-  {
     "title": "affaan-m/ECC",
     "url": "https://github.com/affaan-m/ECC",
     "source": "GitHub Trending",
@@ -306,35 +288,8 @@
     "author": ""
   },
   {
-    "title": "DietrichGebert/ponytail",
-    "url": "https://github.com/DietrichGebert/ponytail",
-    "source": "GitHub Trending",
-    "topic": "AI大事",
-    "region": "intl",
-    "published": "",
-    "author": ""
-  },
-  {
-    "title": "NousResearch/hermes-agent",
-    "url": "https://github.com/NousResearch/hermes-agent",
-    "source": "GitHub Trending",
-    "topic": "AI大事",
-    "region": "intl",
-    "published": "",
-    "author": ""
-  },
-  {
-    "title": "fmtlib/fmt",
-    "url": "https://github.com/fmtlib/fmt",
-    "source": "GitHub Trending",
-    "topic": "AI大事",
-    "region": "intl",
-    "published": "",
-    "author": ""
-  },
-  {
-    "title": "anthropics/skills",
-    "url": "https://github.com/anthropics/skills",
+    "title": "mattpocock/skills",
+    "url": "https://github.com/mattpocock/skills",
     "source": "GitHub Trending",
     "topic": "AI大事",
     "region": "intl",
@@ -351,6 +306,24 @@
     "author": ""
   },
   {
+    "title": "NousResearch/hermes-agent",
+    "url": "https://github.com/NousResearch/hermes-agent",
+    "source": "GitHub Trending",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "",
+    "author": ""
+  },
+  {
+    "title": "openai/skills",
+    "url": "https://github.com/openai/skills",
+    "source": "GitHub Trending",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "",
+    "author": ""
+  },
+  {
     "title": "anomalyco/opencode",
     "url": "https://github.com/anomalyco/opencode",
     "source": "GitHub Trending",
@@ -360,8 +333,8 @@
     "author": ""
   },
   {
-    "title": "ruvnet/ruflo",
-    "url": "https://github.com/ruvnet/ruflo",
+    "title": "blader/humanizer",
+    "url": "https://github.com/blader/humanizer",
     "source": "GitHub Trending",
     "topic": "AI大事",
     "region": "intl",
@@ -369,8 +342,26 @@
     "author": ""
   },
   {
-    "title": "humanlayer/skills",
-    "url": "https://github.com/humanlayer/skills",
+    "title": "llvm/llvm-project",
+    "url": "https://github.com/llvm/llvm-project",
+    "source": "GitHub Trending",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "",
+    "author": ""
+  },
+  {
+    "title": "DietrichGebert/ponytail",
+    "url": "https://github.com/DietrichGebert/ponytail",
+    "source": "GitHub Trending",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "",
+    "author": ""
+  },
+  {
+    "title": "ruvnet/ruflo",
+    "url": "https://github.com/ruvnet/ruflo",
     "source": "GitHub Trending",
     "topic": "AI大事",
     "region": "intl",
@@ -1017,6 +1008,33 @@
     "author": ""
   },
   {
+    "title": "【市场动态】日本或为筹措创纪录的日元干预资金卖出了美债",
+    "url": "https://database.caixin.com/2026-09-07/102482538.html",
+    "source": "财新网",
+    "topic": "世界时事",
+    "region": "cn",
+    "published": "2026-09-07T05:51:15",
+    "author": ""
+  },
+  {
+    "title": "字节跳动获得296亿美元贷款",
+    "url": "https://www.caixin.com/2026-09-07/102482532.html",
+    "source": "财新网",
+    "topic": "世界时事",
+    "region": "cn",
+    "published": "2026-09-07T04:35:52",
+    "author": ""
+  },
+  {
+    "title": "从“内卷”出海到欧洲壁垒：中国企业面对的真正挑战",
+    "url": "https://opinion.caixin.com/2026-09-07/102482520.html",
+    "source": "财新网",
+    "topic": "世界时事",
+    "region": "cn",
+    "published": "2026-09-07T03:12:54",
+    "author": ""
+  },
+  {
     "title": "【市场动态】美国特使结束俄乌斡旋会谈 泽连斯基称准备迎接又一个艰难冬天",
     "url": "https://database.caixin.com/2026-09-07/102482480.html",
     "source": "财新网",
@@ -1071,42 +1089,6 @@
     "author": ""
   },
   {
-    "title": "第二批特别国债注资银行落地 农行、工行、进出口行合计2300亿元",
-    "url": "https://finance.caixin.com/2026-09-06/102482427.html",
-    "source": "财新网",
-    "topic": "世界时事",
-    "region": "cn",
-    "published": "2026-09-06T10:17:48",
-    "author": ""
-  },
-  {
-    "title": "财政部首次注资险企 4家获670亿元",
-    "url": "https://finance.caixin.com/2026-09-06/102482419.html",
-    "source": "财新网",
-    "topic": "世界时事",
-    "region": "cn",
-    "published": "2026-09-06T09:37:14",
-    "author": ""
-  },
-  {
-    "title": "【市场洞察】瑞银：中国AI模型性价比突出 中美差距缩窄至3到6个月",
-    "url": "https://database.caixin.com/2026-09-06/102482415.html",
-    "source": "财新网",
-    "topic": "世界时事",
-    "region": "cn",
-    "published": "2026-09-06T09:01:53",
-    "author": ""
-  },
-  {
-    "title": "《欢迎来龙餐馆》原型讲述：巴格达淘金路｜故事",
-    "url": "https://mini.caixin.com/2026-09-06/102482385.html",
-    "source": "财新网",
-    "topic": "世界时事",
-    "region": "cn",
-    "published": "2026-09-06T03:26:24",
-    "author": ""
-  },
-  {
     "title": "「在我眼中它就是黃金」：一張卡如何從遊戲工具變資產？",
     "url": "https://www.bbc.com/zhongwen/articles/c0j3w0wxj18o/trad?at_medium=RSS&at_campaign=rss",
     "source": "BBC 中文",
@@ -1134,13 +1116,22 @@
     "author": ""
   },
   {
-    "title": "Your intellectual fly is open (2025)",
-    "url": "https://bcantrill.dtrace.org/2025/12/05/your-intellectual-fly-is-open/",
+    "title": "Keep Our Servers Running",
+    "url": "https://blog.archive.org/2026/09/01/keep-our-servers-running-your-recurring-donation-goes-3x-this-september/",
     "source": "HackerNews",
     "topic": "技术圈",
     "region": "intl",
-    "published": "2026-09-06T11:56:43",
-    "author": "cyb0rg0 · 521 pts · 335 comments"
+    "published": "2026-09-07T03:29:51",
+    "author": "sonicrocketman · 205 pts · 45 comments"
+  },
+  {
+    "title": "It took a year to ship WebAssembly in Anubis",
+    "url": "https://anubis.techaro.lol/blog/2026/anubis-wasm/",
+    "source": "HackerNews",
+    "topic": "技术圈",
+    "region": "intl",
+    "published": "2026-09-06T20:32:38",
+    "author": "xena · 215 pts · 114 comments"
   },
   {
     "title": "Nitter and XCancel resume service after legal advice",
@@ -1149,7 +1140,16 @@
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-09-06T17:49:47",
-    "author": "zImPatrick · 454 pts · 238 comments"
+    "author": "zImPatrick · 617 pts · 296 comments"
+  },
+  {
+    "title": "GrapheneOS Overhauled Default Apps and Secure Clipboard",
+    "url": "https://grapheneos.social/@GrapheneOS/117225539756835649",
+    "source": "HackerNews",
+    "topic": "技术圈",
+    "region": "intl",
+    "published": "2026-09-06T20:24:00",
+    "author": "Cider9986 · 251 pts · 184 comments"
   },
   {
     "title": "An Alien Mind",
@@ -1158,7 +1158,7 @@
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-09-06T16:27:05",
-    "author": "tosh · 320 pts · 282 comments"
+    "author": "tosh · 379 pts · 338 comments"
   },
   {
     "title": "Asahi Linux on M3",
@@ -1167,43 +1167,16 @@
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-09-06T14:08:59",
-    "author": "mdp2021 · 356 pts · 195 comments"
+    "author": "mdp2021 · 410 pts · 250 comments"
   },
   {
-    "title": "A/I shuts down",
-    "url": "https://keepitfree.ai/announcements/a/i-shuts-down-stay-human/",
-    "source": "HackerNews",
-    "topic": "技术圈",
-    "region": "intl",
-    "published": "2026-09-06T14:34:34",
-    "author": "captainmuon · 522 pts · 388 comments"
-  },
-  {
-    "title": "Doomscrolling ourselves to death",
-    "url": "https://www.edwest.co.uk/p/doomscrolling-ourselves-to-death",
-    "source": "HackerNews",
-    "topic": "技术圈",
-    "region": "intl",
-    "published": "2026-09-06T11:53:40",
-    "author": "shubhamjain · 365 pts · 264 comments"
-  },
-  {
-    "title": "Isar Aerospace reaches orbit and deploys payloads on second flight",
-    "url": "https://isaraerospace.com/press/history-for-european-spaceflight-isar-aerospace-reaches-orbit-and-deploys-payloads-on-second-flight",
-    "source": "HackerNews",
-    "topic": "技术圈",
-    "region": "intl",
-    "published": "2026-09-06T07:21:06",
-    "author": "mpweiher · 557 pts · 177 comments"
-  },
-  {
-    "title": "anthropics/claude-code 发布 v2.1.263",
-    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.263",
+    "title": "siyuan-note/siyuan 发布 v3.8.3",
+    "url": "https://github.com/siyuan-note/siyuan/releases/tag/v3.8.3",
     "source": "GitHubRelease",
     "topic": "GitHub 动态",
     "region": "intl",
-    "published": "2026-09-06T02:54:20",
-    "author": "ashwin-ant"
+    "published": "2026-09-07T04:11:09",
+    "author": "88250"
   },
   {
     "title": "siyuan-note/siyuan 发布 v3.8.3-beta.1",
@@ -1224,58 +1197,49 @@
     "author": "github-actions[bot]"
   },
   {
-    "title": "siyuan-note/siyuan 发布 v3.8.3-alpha.2",
-    "url": "https://github.com/siyuan-note/siyuan/releases/tag/v3.8.3-alpha.2",
-    "source": "GitHubRelease",
-    "topic": "GitHub 动态",
-    "region": "intl",
-    "published": "2026-09-06T03:56:01",
-    "author": "github-actions[bot]"
-  },
-  {
-    "title": "Effect of the Jeffries Simulation Framework on the Core Competence of New Graduate Paediatric Surgery Nurses: A Quasi-Experimental Study.",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42702081/",
+    "title": "The eating habits and lifestyle habits of shift workers: findings from the 2018 National Health and Nutrition Survey, Japan.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42702548/",
     "source": "PubMed",
     "topic": "心理学",
     "region": "intl",
     "published": "2026",
-    "author": "Wenjing Luo, Runyu Yang, Liwei Feng, Yuanyuan Liang"
+    "author": "Tomomi Yamazaki, Kazuko Ishikawa-Takata, Hidemi Takimoto"
   },
   {
-    "title": "Targeted RNA sequencing supports risk stratification and treatment decision-making in adolescents and young adult and adult patients with acute lymphoblastic leukemia: a UK single-center experience.",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42702062/",
+    "title": "[Primary role of public health management centers in patient safety].",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42702536/",
     "source": "PubMed",
     "topic": "心理学",
     "region": "intl",
     "published": "2026",
-    "author": "Athanasia Papadaki, Robert Baker, Elisabeth Nacheva, Jenny O'Nions"
+    "author": "Hanae Okajima, Shun-Ichi Nakamura, Nobuya Kusunoki"
   },
   {
-    "title": "[What is (not) considered normal? - Contemporary challenges of establishing laboratory reference intervals].",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42702008/",
+    "title": "Quality of Life Shapes Owner Decision-Making in Canine Cancer Care: Insights From Large-Scale Online Discourse.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42702519/",
     "source": "PubMed",
     "topic": "心理学",
     "region": "intl",
     "published": "2026",
-    "author": "Éva Katinka Papp, Barna Vásárhelyi, Orsolya Márta Láng"
+    "author": "Georgina Anne Tarrant, Andi Flory, Taranpreet Singh Rai, Andrea Wright"
   },
   {
-    "title": "Evaluating AI-Enabled Voice to Text for Medical Affairs Documentation and Insight Capture: The RAPID Randomized Crossover Trial.",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42701995/",
+    "title": "An integrated quantitative valuation model of HABs impacts on coastal marine ecosystems: In the case of hypoxia.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42702403/",
     "source": "PubMed",
     "topic": "心理学",
     "region": "intl",
     "published": "2026",
-    "author": "Riaz Abbas, Jeongin Son, Marloes Oosterhof, Yosuke Amagai"
+    "author": "Yingze Xu, Xiuxian Song, Yongquan Yuan, Hua Dong"
   },
   {
-    "title": "Regulatory Evolution and the Genetic Basis of Human Brain Expansion.",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42701979/",
+    "title": "Dissociable neural correlates of tonic and phasic irritability during reward processing in young children.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42702353/",
     "source": "PubMed",
     "topic": "心理学",
     "region": "intl",
     "published": "2026",
-    "author": "Nilmini Hettiarachchi"
+    "author": "Jamilah Silver, Annika Quam, Alyssa Parker, Jillian Lee Wiggins"
   },
   {
     "title": "Is Forecasting Accuracy Enough? A Comparative Study of Traffic Forecasters for Beam-Hopping LEO Satellite Networks",
@@ -1366,6 +1330,15 @@
     "region": "intl",
     "published": "2026-09-01T15:30:12",
     "author": ""
+  },
+  {
+    "title": "在零跑的工厂里，我们找到了它能月销 10 万辆的秘密",
+    "url": "https://www.ifanr.com/1678617?utm_source=rss&utm_medium=rss&utm_campaign=",
+    "source": "爱范儿",
+    "topic": "供应链",
+    "region": "cn",
+    "published": "2026-09-07T06:01:45",
+    "author": "刘学文"
   },
   {
     "title": "专访康宁 CCO 李汉超：175 年以来，康宁始终是一家创新材料公司",
