@@ -1,12 +1,93 @@
 [
   {
+    "title": "Nuha-Speech: Building General-Purpose Arabic Speech-LLMs",
+    "url": "http://arxiv.org/abs/2609.11892v1",
+    "source": "arXiv",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-09-10T17:50:35",
+    "author": "Yingzhi Wang, Reem Alhazzani, Muhammad Alqurishi"
+  },
+  {
+    "title": "Domain-Specific Hallucination Detection in Large Language Models",
+    "url": "http://arxiv.org/abs/2609.11878v1",
+    "source": "arXiv",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-09-10T17:45:36",
+    "author": "Varun Teja Chundru, Debasmita Biswas"
+  },
+  {
+    "title": "Biology-in-the-loop: Amortized Adaptive Hit Discovery in CRISPR Screens",
+    "url": "http://arxiv.org/abs/2609.11877v1",
+    "source": "arXiv",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-09-10T17:45:18",
+    "author": "Carl Edwards, Edward De Brouwer, Xiner Li, Namkyeong Lee, Ehsan Hajiramezanali, Anne Biton, Sara Mostafavi, Gabriele Scalia"
+  },
+  {
+    "title": "The Last AI Built by Humans: Toward Genuine Recursive Self-Improvement",
+    "url": "http://arxiv.org/abs/2609.11873v1",
+    "source": "arXiv",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-09-10T17:44:23",
+    "author": "Yi Duan, Ying Liu, Zirui Tang, Haodong Chen, Jun Zhou, Yumou Liu, Bangrui Xu, Yukai Wu, Sidi Chen, Yuhan Zhou, Haoyu Wang, Xiaoyou Yu, Shaokun Han, Xuzhou Zhu, Le Zhou, Bolin Lu, Wei Zhou, Jiachen Liu"
+  },
+  {
+    "title": "RetroThinker: Enabling Retrospective Thinking in Speech LLMs",
+    "url": "http://arxiv.org/abs/2609.11864v1",
+    "source": "arXiv",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-09-10T17:41:53",
+    "author": "Yi-Jen Shih, Puyuan Peng, Abdelrahman Mohamed, David Harwath"
+  },
+  {
+    "title": "Explainability Assistant: A Conversational XAI Interface for Interpreting Energy Consumption Models",
+    "url": "http://arxiv.org/abs/2609.11860v1",
+    "source": "arXiv",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-09-10T17:40:11",
+    "author": "Rodion Krjutškov, Eduard Barbu, Nikos Sakkas, Sofia Yfanti"
+  },
+  {
+    "title": "From Parameters to Answers: How LLMs Retrieve and Use Their Internal Knowledge",
+    "url": "http://arxiv.org/abs/2609.11859v1",
+    "source": "arXiv",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-09-10T17:39:55",
+    "author": "Wenkang Wei, Yuan Fang, Renhe Jiang, Hong Cheng, Xingtong Yu"
+  },
+  {
+    "title": "BlueSTAR: Tiered Agentic Architecture for Autonomous Cyber Defense",
+    "url": "http://arxiv.org/abs/2609.11852v1",
+    "source": "arXiv",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-09-10T17:36:18",
+    "author": "Simona Boboila, Xavier Cadet, Edward Koh, Daniel Balasubramanian, Dirk Van Bruggen, Peter Chin, Alina Oprea"
+  },
+  {
+    "title": "Google no longer provides direct URLs in search results",
+    "url": "https://www.autom.dev/blog/google-search-goto-links",
+    "source": "HackerNews",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-09-12T03:14:20",
+    "author": "1e1a · 243 pts · 124 comments"
+  },
+  {
     "title": "A misalignment of AI in mathematics",
     "url": "https://mathandai.org/",
     "source": "HackerNews",
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-09-11T17:45:12",
-    "author": "meredydd · 626 pts · 676 comments"
+    "author": "meredydd · 801 pts · 796 comments"
   },
   {
     "title": "I spent $220 on Google app ads and 60% of the installs were robots",
@@ -15,7 +96,7 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-09-11T18:24:55",
-    "author": "nickabe · 286 pts · 159 comments"
+    "author": "nickabe · 428 pts · 221 comments"
   },
   {
     "title": "OpenAI agents carried out an undisclosed attack on RubyGems",
@@ -24,7 +105,16 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-09-11T23:17:42",
-    "author": "chao- · 291 pts · 176 comments"
+    "author": "chao- · 551 pts · 319 comments"
+  },
+  {
+    "title": "GrapheneOS' rewritten Messages app is released",
+    "url": "https://github.com/GrapheneOS/Messaging/releases/tag/13",
+    "source": "HackerNews",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-09-11T18:50:36",
+    "author": "microtonal · 238 pts · 157 comments"
   },
   {
     "title": "The EPA is planning to scrap public review rules for data center pollution",
@@ -33,7 +123,7 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-09-11T18:05:21",
-    "author": "doener · 346 pts · 235 comments"
+    "author": "doener · 423 pts · 296 comments"
   },
   {
     "title": "Claude is only available to people over 18 years",
@@ -42,7 +132,52 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-09-11T10:48:00",
-    "author": "Muhammad523 · 576 pts · 598 comments"
+    "author": "Muhammad523 · 616 pts · 621 comments"
+  },
+  {
+    "title": "Google will buy half the electricity from one of Finland's nuclear power plants",
+    "url": "https://www.bbc.com/news/articles/c8r6y4me2g6o",
+    "source": "HackerNews",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-09-11T00:42:41",
+    "author": "lukaspetersson · 330 pts · 299 comments"
+  },
+  {
+    "title": "两个 Token 就让 Kimi“变成”Claude？前Google DeepMind研究员意外撞上大模型的蒸馏疑云",
+    "url": "https://www.infoq.cn/article/GhA2VWxo6JTGyKIb7KdT?utm_source=rss&utm_medium=article",
+    "source": "InfoQ 中文",
+    "topic": "AI大事",
+    "region": "cn",
+    "published": "2026-09-12T10:19:25",
+    "author": "傅宇琪,Tina"
+  },
+  {
+    "title": "模型一模一样，Token 却相差 70 倍？三项实测揭开 AI 编程工具的成本黑洞",
+    "url": "https://www.infoq.cn/article/oPSaLpULlAxGxTbYXlXO?utm_source=rss&utm_medium=article",
+    "source": "InfoQ 中文",
+    "topic": "AI大事",
+    "region": "cn",
+    "published": "2026-09-12T10:13:44",
+    "author": "Janakiram MSV"
+  },
+  {
+    "title": "V4.1 Flash全面超越，开发者为何还在喷 DeepSeek：缺的不是能力，是软件工程思维",
+    "url": "https://www.infoq.cn/article/G7cublzVyXFOUX3vpz1t?utm_source=rss&utm_medium=article",
+    "source": "InfoQ 中文",
+    "topic": "AI大事",
+    "region": "cn",
+    "published": "2026-09-12T10:08:50",
+    "author": "Tina"
+  },
+  {
+    "title": "从沙箱到执行边界：蚂蚁 AI Agent 的大规模企业级实践｜QCon上海",
+    "url": "https://www.infoq.cn/article/hk3WB50fAOMDg55YVaaW?utm_source=rss&utm_medium=article",
+    "source": "InfoQ 中文",
+    "topic": "AI大事",
+    "region": "cn",
+    "published": "2026-09-12T10:00:00",
+    "author": "QCon全球软件开发大会"
   },
   {
     "title": "AI Coding 提速之后，如何补上稳定性“最后一公里”？快手柯南 AI 实践",
@@ -99,40 +234,13 @@
     "author": "郭炜"
   },
   {
-    "title": "刘震云对话马毅：人写不出来、想不到的作品，AI 模仿不了｜附完整对话",
-    "url": "https://www.infoq.cn/article/Z5ddgQ63RixMXCVzqgq7?utm_source=rss&utm_medium=article",
-    "source": "InfoQ 中文",
+    "title": "陶哲轩邓煜究竟在反对什么：AI暴力解题摧毁人类数学精神",
+    "url": "https://www.qbitai.com/2026/09/487653.html",
+    "source": "量子位",
     "topic": "AI大事",
     "region": "cn",
-    "published": "2026-09-11T13:00:35",
-    "author": "李冬梅"
-  },
-  {
-    "title": "AMD 发布锐龙AI Max PRO 400 系列，端侧智能体走向多模型协同",
-    "url": "https://www.infoq.cn/article/NizuOkFpcOPgbeClC4uL?utm_source=rss&utm_medium=article",
-    "source": "InfoQ 中文",
-    "topic": "AI大事",
-    "region": "cn",
-    "published": "2026-09-11T12:30:38",
-    "author": "李冬梅"
-  },
-  {
-    "title": "从「构建 AI」到「驾驭 AI」，如何搞定 AI 深水区的 6 个工程问题？",
-    "url": "https://www.infoq.cn/article/PyUlLla6MWSSoRLiDKbu?utm_source=rss&utm_medium=article",
-    "source": "InfoQ 中文",
-    "topic": "AI大事",
-    "region": "cn",
-    "published": "2026-09-11T10:00:00",
-    "author": "QCon全球软件开发大会"
-  },
-  {
-    "title": "Snowflake 落地中国两年：迈向智能体企业时代，关键在上下文",
-    "url": "https://www.infoq.cn/article/RCa5y6tvZXbjGKeLSGZt?utm_source=rss&utm_medium=article",
-    "source": "InfoQ 中文",
-    "topic": "AI大事",
-    "region": "cn",
-    "published": "2026-09-10T19:57:48",
-    "author": "王玮"
+    "published": "2026-09-12T04:53:58",
+    "author": "衡宇"
   },
   {
     "title": "银行Agent上岗：4200万小微经营者可用，信贷、票据、财税一把梭",
@@ -180,15 +288,6 @@
     "author": "一水"
   },
   {
-    "title": "ECCV上，顶尖学者们开始研究如何让AI做生意了",
-    "url": "https://www.qbitai.com/2026/09/486934.html",
-    "source": "量子位",
-    "topic": "AI大事",
-    "region": "cn",
-    "published": "2026-09-10T10:17:46",
-    "author": "一水"
-  },
-  {
     "title": "ayghri/i-have-adhd",
     "url": "https://github.com/ayghri/i-have-adhd",
     "source": "GitHub Trending",
@@ -207,8 +306,35 @@
     "author": ""
   },
   {
-    "title": "obra/superpowers",
-    "url": "https://github.com/obra/superpowers",
+    "title": "nab138/iloader",
+    "url": "https://github.com/nab138/iloader",
+    "source": "GitHub Trending",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "",
+    "author": ""
+  },
+  {
+    "title": "melgarafael/DeskcommCRM",
+    "url": "https://github.com/melgarafael/DeskcommCRM",
+    "source": "GitHub Trending",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "",
+    "author": ""
+  },
+  {
+    "title": "vastsa/PI-Desktop",
+    "url": "https://github.com/vastsa/PI-Desktop",
+    "source": "GitHub Trending",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "",
+    "author": ""
+  },
+  {
+    "title": "armory3d/armorpaint",
+    "url": "https://github.com/armory3d/armorpaint",
     "source": "GitHub Trending",
     "topic": "AI大事",
     "region": "intl",
@@ -225,8 +351,8 @@
     "author": ""
   },
   {
-    "title": "Tencent/teamai-cli",
-    "url": "https://github.com/Tencent/teamai-cli",
+    "title": "nashsu/llm_wiki",
+    "url": "https://github.com/nashsu/llm_wiki",
     "source": "GitHub Trending",
     "topic": "AI大事",
     "region": "intl",
@@ -234,8 +360,8 @@
     "author": ""
   },
   {
-    "title": "AlexsJones/llmfit",
-    "url": "https://github.com/AlexsJones/llmfit",
+    "title": "obra/superpowers",
+    "url": "https://github.com/obra/superpowers",
     "source": "GitHub Trending",
     "topic": "AI大事",
     "region": "intl",
@@ -243,35 +369,8 @@
     "author": ""
   },
   {
-    "title": "liquidslr/system-design-notes",
-    "url": "https://github.com/liquidslr/system-design-notes",
-    "source": "GitHub Trending",
-    "topic": "AI大事",
-    "region": "intl",
-    "published": "",
-    "author": ""
-  },
-  {
-    "title": "cathrynlavery/diagram-design",
-    "url": "https://github.com/cathrynlavery/diagram-design",
-    "source": "GitHub Trending",
-    "topic": "AI大事",
-    "region": "intl",
-    "published": "",
-    "author": ""
-  },
-  {
-    "title": "freestylefly/awesome-gpt-image-2",
-    "url": "https://github.com/freestylefly/awesome-gpt-image-2",
-    "source": "GitHub Trending",
-    "topic": "AI大事",
-    "region": "intl",
-    "published": "",
-    "author": ""
-  },
-  {
-    "title": "armory3d/armorpaint",
-    "url": "https://github.com/armory3d/armorpaint",
+    "title": "Sonarr/Sonarr",
+    "url": "https://github.com/Sonarr/Sonarr",
     "source": "GitHub Trending",
     "topic": "AI大事",
     "region": "intl",
@@ -513,6 +612,15 @@
     "author": "马扶摇"
   },
   {
+    "title": "[AINews] DeepSeek v4.1-Flash: 763B-P8B-D16B novel causal Encoder–Decoder architecture with vision marks the Return of the Whale",
+    "url": "https://www.latent.space/p/ainews-deepseek-v41-flash-763b-p8b",
+    "source": "Latent Space",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-09-12T05:56:05",
+    "author": ""
+  },
+  {
     "title": "[AINews] not much happened today",
     "url": "https://www.latent.space/p/ainews-not-much-happened-today-d3b",
     "source": "Latent Space",
@@ -555,15 +663,6 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-09-05T04:32:00",
-    "author": ""
-  },
-  {
-    "title": "[AINews] GPT-6 Astra: OpenAI’s biggest LLM launch of all time",
-    "url": "https://www.latent.space/p/ainews-gpt-6-astra-openais-biggest",
-    "source": "Latent Space",
-    "topic": "AI大事",
-    "region": "intl",
-    "published": "2026-09-04T05:18:11",
     "author": ""
   },
   {
@@ -927,13 +1026,58 @@
     "author": ""
   },
   {
-    "title": "经纬度：以智能网联新能源汽车助力汽车强国建设",
-    "url": "https://m.thepaper.cn/detail/34050488",
+    "title": "中国算力平台：全国实现一体化算力统筹监测",
+    "url": "https://m.thepaper.cn/detail/34057101",
     "source": "澎湃新闻",
     "topic": "世界时事",
     "region": "cn",
-    "published": "2026-09-12T01:16:29",
-    "author": "远山"
+    "published": "2026-09-12T05:33:10",
+    "author": "澎湃新闻记者 赵利新"
+  },
+  {
+    "title": "中国区域科技创新评价报告：上海综合科技创新水平蝉联全国第一",
+    "url": "https://m.thepaper.cn/detail/34057043",
+    "source": "澎湃新闻",
+    "topic": "世界时事",
+    "region": "cn",
+    "published": "2026-09-12T05:17:56",
+    "author": "澎湃新闻记者 蒋乐来"
+  },
+  {
+    "title": "月之暗面：网传关于创始人及员工的信息纯属虚构，系恶意造谣",
+    "url": "https://m.thepaper.cn/detail/34057015",
+    "source": "澎湃新闻",
+    "topic": "世界时事",
+    "region": "cn",
+    "published": "2026-09-12T04:29:54",
+    "author": "澎湃新闻记者 范佳来"
+  },
+  {
+    "title": "一图世界｜从喀山到新德里：中印关系“重启再出发”",
+    "url": "https://m.thepaper.cn/detail/34056449",
+    "source": "澎湃新闻",
+    "topic": "世界时事",
+    "region": "cn",
+    "published": "2026-09-12T03:42:24",
+    "author": "澎湃新闻记者 谢瑞强 彭玉洁"
+  },
+  {
+    "title": "具身智能CEO们急了：机器人得去干活，但现在能力还不够",
+    "url": "https://m.thepaper.cn/detail/34056738",
+    "source": "澎湃新闻",
+    "topic": "世界时事",
+    "region": "cn",
+    "published": "2026-09-12T03:06:45",
+    "author": "澎湃新闻记者 喻琰"
+  },
+  {
+    "title": "巴以冲突纪录片《NAZA》引起轰动，成金狮奖最大夺奖热门",
+    "url": "https://m.thepaper.cn/detail/34050067",
+    "source": "澎湃新闻",
+    "topic": "世界时事",
+    "region": "cn",
+    "published": "2026-09-12T02:04:51",
+    "author": "澎湃新闻记者 程晓筠"
   },
   {
     "title": "习近平离京赴新德里出席金砖国家领导人第十八次会晤",
@@ -945,13 +1089,31 @@
     "author": "新华社客户端"
   },
   {
-    "title": "金砖时间｜机制化建设20年的两块“金字招牌”与“大金砖”的未来挑战",
-    "url": "https://m.thepaper.cn/detail/34051173",
-    "source": "澎湃新闻",
+    "title": "“校长官邸”周家花园｜燕南园往事①",
+    "url": "https://mini.caixin.com/2026-09-12/102484273.html",
+    "source": "财新网",
     "topic": "世界时事",
     "region": "cn",
-    "published": "2026-09-11T23:24:31",
-    "author": "澎湃新闻特约撰稿 朱杰进"
+    "published": "2026-09-12T04:10:23",
+    "author": ""
+  },
+  {
+    "title": "【周刊提前读】香港学生公寓吸引各路资本入局 抢项目之后还看运营",
+    "url": "https://database.caixin.com/2026-09-12/102484220.html",
+    "source": "财新网",
+    "topic": "世界时事",
+    "region": "cn",
+    "published": "2026-09-12T01:26:18",
+    "author": ""
+  },
+  {
+    "title": "【周刊提前读】政策金融工具助力“六张网”加速 稳投资持续发力",
+    "url": "https://database.caixin.com/2026-09-12/102484211.html",
+    "source": "财新网",
+    "topic": "世界时事",
+    "region": "cn",
+    "published": "2026-09-12T01:01:16",
+    "author": ""
   },
   {
     "title": "贪污受贿1.76亿元 上实集团原总裁周军一审被判死缓",
@@ -978,15 +1140,6 @@
     "topic": "世界时事",
     "region": "cn",
     "published": "2026-09-11T13:04:06",
-    "author": ""
-  },
-  {
-    "title": "下周前瞻：美日央行分别议息；第20届亚运会开幕",
-    "url": "https://china.caixin.com/2026-09-11/102484080.html",
-    "source": "财新网",
-    "topic": "世界时事",
-    "region": "cn",
-    "published": "2026-09-11T10:49:32",
     "author": ""
   },
   {
@@ -1026,13 +1179,22 @@
     "author": ""
   },
   {
+    "title": "Google no longer provides direct URLs in search results",
+    "url": "https://www.autom.dev/blog/google-search-goto-links",
+    "source": "HackerNews",
+    "topic": "技术圈",
+    "region": "intl",
+    "published": "2026-09-12T03:14:20",
+    "author": "1e1a · 243 pts · 124 comments"
+  },
+  {
     "title": "A misalignment of AI in mathematics",
     "url": "https://mathandai.org/",
     "source": "HackerNews",
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-09-11T17:45:12",
-    "author": "meredydd · 627 pts · 677 comments"
+    "author": "meredydd · 801 pts · 797 comments"
   },
   {
     "title": "I spent $220 on Google app ads and 60% of the installs were robots",
@@ -1041,7 +1203,7 @@
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-09-11T18:24:55",
-    "author": "nickabe · 288 pts · 159 comments"
+    "author": "nickabe · 428 pts · 221 comments"
   },
   {
     "title": "OpenAI agents carried out an undisclosed attack on RubyGems",
@@ -1050,7 +1212,16 @@
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-09-11T23:17:42",
-    "author": "chao- · 291 pts · 176 comments"
+    "author": "chao- · 553 pts · 319 comments"
+  },
+  {
+    "title": "GrapheneOS' rewritten Messages app is released",
+    "url": "https://github.com/GrapheneOS/Messaging/releases/tag/13",
+    "source": "HackerNews",
+    "topic": "技术圈",
+    "region": "intl",
+    "published": "2026-09-11T18:50:36",
+    "author": "microtonal · 238 pts · 157 comments"
   },
   {
     "title": "The EPA is planning to scrap public review rules for data center pollution",
@@ -1059,7 +1230,7 @@
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-09-11T18:05:21",
-    "author": "doener · 348 pts · 235 comments"
+    "author": "doener · 424 pts · 297 comments"
   },
   {
     "title": "Claude is only available to people over 18 years",
@@ -1068,7 +1239,16 @@
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-09-11T10:48:00",
-    "author": "Muhammad523 · 576 pts · 598 comments"
+    "author": "Muhammad523 · 616 pts · 621 comments"
+  },
+  {
+    "title": "Google will buy half the electricity from one of Finland's nuclear power plants",
+    "url": "https://www.bbc.com/news/articles/c8r6y4me2g6o",
+    "source": "HackerNews",
+    "topic": "技术圈",
+    "region": "intl",
+    "published": "2026-09-11T00:42:41",
+    "author": "lukaspetersson · 330 pts · 299 comments"
   },
   {
     "title": "langchain-ai/langchain 发布 langchain-core==1.6.3",
@@ -1125,49 +1305,94 @@
     "author": "antas-marcin"
   },
   {
-    "title": "Continuous Temperature Monitoring via Wearable Devices for Fever or Infection Management in Acute Care Hospitals: Scoping Review of Clinical Implementation and Data Analytics.",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42727075/",
+    "title": "Corrigendum to \"The indirect link of emotion regulation in the associations between lability/negativity, depressed affect, and aggression in preschool children\" [Acta Psychologica 268 (2026) 107340].",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42728160/",
     "source": "PubMed",
     "topic": "心理学",
     "region": "intl",
     "published": "2026",
-    "author": "Yuwei Liu, Qimeng Zhao, Ka Li, Dawn Dowding"
+    "author": "Hasret Köklü-Yaylacı, Refika Olgan"
   },
   {
-    "title": "Community Perspectives and Behavior Change Strategies for Integrated Long-Acting Reversible Contraception and Long-Acting Injectable Preexposure Prophylaxis Roll Out for Adolescent Girls and Young Women in Uganda (COMPASS): Protocol for a Mixed Methods Implementation Science Study.",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42727073/",
+    "title": "Retraction notice to \"Beyond preferences: Rethinking shared decision-making through the lens of care' [Soc. Sci. Med. 390 (2026) 118801].",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42728142/",
     "source": "PubMed",
     "topic": "心理学",
     "region": "intl",
     "published": "2026",
-    "author": "Phionah Kibalama Ssemambo, Rita Nakalega, Benjamin H Chi, Nelson Mukiza"
+    "author": "Mauro Turrini, Roberta Valenti, Jeanette Bresson Ladegaard Knox, Aarón Zau NKosi Rio"
   },
   {
-    "title": "Association of Herpes Simplex Virus Type-1 With Dementia Outcomes: Longitudinal Retrospective Cohort Study Using Real-World Electronic Health Record Data.",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42727071/",
+    "title": "Adolescent cannabis use disorder following recreational cannabis legalization in California, USA: A population-based interrupted time series study.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42728108/",
     "source": "PubMed",
     "topic": "心理学",
     "region": "intl",
     "published": "2026",
-    "author": "Muhammad Muinul Islam, Randi Foraker, Md Saber Hossain, W David Arnold"
+    "author": "Alisa A Padon, Catherine A Cortez, Stacey E Alexeeff, Natalie E Slama"
   },
   {
-    "title": "Emerging Adults' Experiences of Digital Measurement-Based Care in Routine Mental Health Care: Qualitative Study and Conceptual Synthesis.",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42727052/",
+    "title": "Lucid Dream Control: Mechanisms, Challenges and Future Directions.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42728107/",
     "source": "PubMed",
     "topic": "心理学",
     "region": "intl",
     "published": "2026",
-    "author": "Geneca Henry, Courtney Habina, Marianne Barker, Emily Mair"
+    "author": "Clarita Bonamino, Emma Peters"
   },
   {
-    "title": "Self-report measures of beliefs about emotions for adults: a systematic review of conceptual approaches and psychometric properties using PRISMA-COSMIN methodology.",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42726933/",
+    "title": "Individualized network topography in pre-adolescent children and adults using naturalistic precision fMRI.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42728092/",
     "source": "PubMed",
     "topic": "心理学",
     "region": "intl",
     "published": "2026",
-    "author": "Luiza Walo, Sarah Tsang, Parand Derayzedeh, Ailsa Russell"
+    "author": "Shefali Rai, Kate J Godfrey, Kirk Graff, Ryann Tansey"
+  },
+  {
+    "title": "A Hilbert-Valued Functional Decomposition Framework for Explaining Time-Dependent Outputs",
+    "url": "http://arxiv.org/abs/2609.11295v1",
+    "source": "arXiv",
+    "topic": "供应链",
+    "region": "intl",
+    "published": "2026-09-10T09:25:43",
+    "author": "Sophie Hanna Langbein, Niklas Koenen, Marvin N. Wright, Julia Herbinger"
+  },
+  {
+    "title": "TD-STGT: A Spatio-Temporal Graph Transformer for Mobile Traffic Demand Forecasting",
+    "url": "http://arxiv.org/abs/2609.06636v1",
+    "source": "arXiv",
+    "topic": "供应链",
+    "region": "intl",
+    "published": "2026-09-06T14:33:19",
+    "author": "Mohamad Alkadamani, Halim Yanikomeroglu"
+  },
+  {
+    "title": "Is Forecasting Accuracy Enough? A Comparative Study of Traffic Forecasters for Beam-Hopping LEO Satellite Networks",
+    "url": "http://arxiv.org/abs/2609.04662v1",
+    "source": "arXiv",
+    "topic": "供应链",
+    "region": "intl",
+    "published": "2026-09-04T02:48:50",
+    "author": "Yekta Demirci, Guillaume Mantelet, Stéphane Martel, Jean-François Frigon, Gunes Karabulut Kurt"
+  },
+  {
+    "title": "Optimal Uniform Pricing for Multi-Interval Dispatch without Make-Whole Uplifts",
+    "url": "http://arxiv.org/abs/2609.00541v1",
+    "source": "arXiv",
+    "topic": "供应链",
+    "region": "intl",
+    "published": "2026-09-01T01:28:40",
+    "author": "Valentina Norambuena-Guzman, Cong Chen, Lang Tong, Timothy D. Mount"
+  },
+  {
+    "title": "A High-Resolution Synthetic EV Charging Dataset for Cold-Climate Distribution Grid Impact Analysis: Trondheim, Norway (2020-2030)",
+    "url": "http://arxiv.org/abs/2608.30199v1",
+    "source": "arXiv",
+    "topic": "供应链",
+    "region": "intl",
+    "published": "2026-08-31T03:29:40",
+    "author": "Hanieh Taraghi Nazloo, Petr Musilek"
   },
   {
     "title": "Quoting Zach Kehs",
