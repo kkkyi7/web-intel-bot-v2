@@ -72,40 +72,31 @@
     "author": "Xinyue Zeng, Jiawei Zhang, Yujun Yan, Dawei Zhou"
   },
   {
+    "title": "Revealing the details of how OpenAI agents hacked Hugging Face",
+    "url": "https://swarmtraces.org/",
+    "source": "HackerNews",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-09-25T21:09:27",
+    "author": "specked-citrus · 369 pts · 220 comments"
+  },
+  {
     "title": "Ollaya – Ollama for open-source, Jev-style decision models",
     "url": "https://ollaya.dev/",
     "source": "HackerNews",
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-09-25T18:33:50",
-    "author": "Ardakilic · 331 pts · 97 comments"
+    "author": "Ardakilic · 397 pts · 108 comments"
   },
   {
-    "title": "Platform-independent SIMD in Go",
-    "url": "https://go.dev/blog/simd-experiment",
+    "title": "Plan mode is dead",
+    "url": "https://www.aymannadeem.com/artificial/intelligence,/developer/tools/2026/09/24/plan-mode-is-dead.html",
     "source": "HackerNews",
     "topic": "AI大事",
     "region": "intl",
-    "published": "2026-09-25T11:47:06",
-    "author": "yurivish · 360 pts · 133 comments"
-  },
-  {
-    "title": "Git-bug: Distributed, offline-first bug tracker embedded in Git",
-    "url": "https://github.com/git-bug/git-bug",
-    "source": "HackerNews",
-    "topic": "AI大事",
-    "region": "intl",
-    "published": "2026-09-25T11:38:31",
-    "author": "alentred · 305 pts · 100 comments"
-  },
-  {
-    "title": "U.S. appeals court upholds designation of Anthropic as supply chain risk",
-    "url": "https://www.cnbc.com/2026/09/25/pentagon-anthropic-ai-risk-appeals-court.html",
-    "source": "HackerNews",
-    "topic": "AI大事",
-    "region": "intl",
-    "published": "2026-09-25T15:29:25",
-    "author": "cramer4next · 380 pts · 693 comments"
+    "published": "2026-09-25T03:59:11",
+    "author": "jmvldz · 223 pts · 205 comments"
   },
   {
     "title": "First Principles Thinking",
@@ -114,16 +105,34 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-09-25T13:55:37",
-    "author": "sunils34 · 215 pts · 97 comments"
+    "author": "sunils34 · 252 pts · 106 comments"
   },
   {
-    "title": "Ink and Switch interactive homepage",
-    "url": "https://www.inkandswitch.com/",
+    "title": "U.S. appeals court upholds designation of Anthropic as supply chain risk",
+    "url": "https://www.cnbc.com/2026/09/25/pentagon-anthropic-ai-risk-appeals-court.html",
     "source": "HackerNews",
     "topic": "AI大事",
     "region": "intl",
-    "published": "2026-09-25T09:50:25",
-    "author": "iFreilicht · 230 pts · 25 comments"
+    "published": "2026-09-25T15:29:25",
+    "author": "cramer4next · 427 pts · 740 comments"
+  },
+  {
+    "title": "Platform-independent SIMD in Go",
+    "url": "https://go.dev/blog/simd-experiment",
+    "source": "HackerNews",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-09-25T11:47:06",
+    "author": "yurivish · 376 pts · 137 comments"
+  },
+  {
+    "title": "AI 时代，技术人靠什么赢？｜QCon上海",
+    "url": "https://www.infoq.cn/article/C1Vuzh9fUmUL9i5wmDZf?utm_source=rss&utm_medium=article",
+    "source": "InfoQ 中文",
+    "topic": "AI大事",
+    "region": "cn",
+    "published": "2026-09-26T10:00:00",
+    "author": "QCon全球软件开发大会"
   },
   {
     "title": "DoorDash 借助多 Agent LLM 系统清理 6 万个 Feature Flag",
@@ -207,15 +216,6 @@
     "author": "作者：Olimpiu Pop"
   },
   {
-    "title": "OpenAI 推出分级处理框架及案例研究，用于报告模型失调问题",
-    "url": "https://www.infoq.cn/article/sFUUaaIQZH3ecXb14WVs?utm_source=rss&utm_medium=article",
-    "source": "InfoQ 中文",
-    "topic": "AI大事",
-    "region": "cn",
-    "published": "2026-09-24T11:00:00",
-    "author": "作者：Olimpiu Pop"
-  },
-  {
     "title": "OpenAI闯大祸！GPT竟黑进医保系统，黄仁勋：管不住就关掉",
     "url": "https://www.qbitai.com/2026/09/497177.html",
     "source": "量子位",
@@ -279,8 +279,17 @@
     "author": "杰西卡"
   },
   {
-    "title": "rohitg00/ai-engineering-from-scratch",
-    "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+    "title": "paperclipai/paperclip",
+    "url": "https://github.com/paperclipai/paperclip",
+    "source": "GitHub Trending",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "",
+    "author": ""
+  },
+  {
+    "title": "anthropics/claude-plugins-official",
+    "url": "https://github.com/anthropics/claude-plugins-official",
     "source": "GitHub Trending",
     "topic": "AI大事",
     "region": "intl",
@@ -297,6 +306,24 @@
     "author": ""
   },
   {
+    "title": "obra/superpowers",
+    "url": "https://github.com/obra/superpowers",
+    "source": "GitHub Trending",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "",
+    "author": ""
+  },
+  {
+    "title": "mattpocock/skills",
+    "url": "https://github.com/mattpocock/skills",
+    "source": "GitHub Trending",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "",
+    "author": ""
+  },
+  {
     "title": "dream-num/univer",
     "url": "https://github.com/dream-num/univer",
     "source": "GitHub Trending",
@@ -306,8 +333,8 @@
     "author": ""
   },
   {
-    "title": "google/ax",
-    "url": "https://github.com/google/ax",
+    "title": "anthropics/skills",
+    "url": "https://github.com/anthropics/skills",
     "source": "GitHub Trending",
     "topic": "AI大事",
     "region": "intl",
@@ -315,8 +342,8 @@
     "author": ""
   },
   {
-    "title": "NVIDIA/Model-Optimizer",
-    "url": "https://github.com/NVIDIA/Model-Optimizer",
+    "title": "androoAGI/starnet",
+    "url": "https://github.com/androoAGI/starnet",
     "source": "GitHub Trending",
     "topic": "AI大事",
     "region": "intl",
@@ -324,8 +351,8 @@
     "author": ""
   },
   {
-    "title": "FxEmbed/FxEmbed",
-    "url": "https://github.com/FxEmbed/FxEmbed",
+    "title": "derv82/wifit3",
+    "url": "https://github.com/derv82/wifit3",
     "source": "GitHub Trending",
     "topic": "AI大事",
     "region": "intl",
@@ -333,35 +360,8 @@
     "author": ""
   },
   {
-    "title": "anthropics/financial-services",
-    "url": "https://github.com/anthropics/financial-services",
-    "source": "GitHub Trending",
-    "topic": "AI大事",
-    "region": "intl",
-    "published": "",
-    "author": ""
-  },
-  {
-    "title": "HKUDS/CLI-Anything",
-    "url": "https://github.com/HKUDS/CLI-Anything",
-    "source": "GitHub Trending",
-    "topic": "AI大事",
-    "region": "intl",
-    "published": "",
-    "author": ""
-  },
-  {
-    "title": "mvt-project/mvt",
-    "url": "https://github.com/mvt-project/mvt",
-    "source": "GitHub Trending",
-    "topic": "AI大事",
-    "region": "intl",
-    "published": "",
-    "author": ""
-  },
-  {
-    "title": "obra/superpowers",
-    "url": "https://github.com/obra/superpowers",
+    "title": "kelseyhightower/kubernetes-the-hard-way",
+    "url": "https://github.com/kelseyhightower/kubernetes-the-hard-way",
     "source": "GitHub Trending",
     "topic": "AI大事",
     "region": "intl",
@@ -1035,85 +1035,94 @@
     "author": ""
   },
   {
-    "title": "为中美关系提供新的战略指引——美国各界高度评价习近平主席对美国进行国事访问",
-    "url": "https://m.thepaper.cn/detail/34153605",
+    "title": "中国学的世界对话·阿拉伯国家专场丨埃及现场，中国考古站上世界最前沿",
+    "url": "https://m.thepaper.cn/detail/34155056",
     "source": "澎湃新闻",
     "topic": "世界时事",
     "region": "cn",
-    "published": "2026-09-26T01:06:29",
+    "published": "2026-09-26T06:07:26",
+    "author": "刘金虎"
+  },
+  {
+    "title": "中国学的世界对话·阿拉伯国家专场丨中东纹饰、西亚颜料：中国陶瓷的全球史",
+    "url": "https://m.thepaper.cn/detail/34155063",
+    "source": "澎湃新闻",
+    "topic": "世界时事",
+    "region": "cn",
+    "published": "2026-09-26T06:07:11",
+    "author": "宋晓煜"
+  },
+  {
+    "title": "刘欢捐了2千万的“原创音乐公益金”管理方：会用好每一笔善款，确保用于华语原创音乐",
+    "url": "https://m.thepaper.cn/detail/34155067",
+    "source": "澎湃新闻",
+    "topic": "世界时事",
+    "region": "cn",
+    "published": "2026-09-26T05:53:27",
+    "author": "澎湃新闻记者 王诤 黄河"
+  },
+  {
+    "title": "韩正会见联合国秘书长古特雷斯，出席全球发展倡议5周年高级别对话会，宣读习近平主席贺信并致辞",
+    "url": "https://m.thepaper.cn/detail/34155002",
+    "source": "澎湃新闻",
+    "topic": "世界时事",
+    "region": "cn",
+    "published": "2026-09-26T05:40:46",
     "author": "新华社"
   },
   {
-    "title": "增进中美人民福祉，促进人类发展进步——中美元首会晤引发热烈国际反响",
-    "url": "https://m.thepaper.cn/detail/34153604",
+    "title": "安徽发布“双节”消费提示：预付充值要拒绝“最终解释权归商家”等格式条款",
+    "url": "https://m.thepaper.cn/detail/34154825",
     "source": "澎湃新闻",
     "topic": "世界时事",
     "region": "cn",
-    "published": "2026-09-26T01:03:45",
+    "published": "2026-09-26T05:18:17",
+    "author": "澎湃新闻记者 陈雷柱"
+  },
+  {
+    "title": "时政微观察丨落实中美关系新定位，习主席指明方向",
+    "url": "https://content-static.cctvnews.cctv.com/snow-book/index.html?item_id=2726871064107442603&toc_style_id=feeds_default&track_id=32020B73-59FB-48FA-A2F9-BEBE2796AC4F_812051312229&share_to=copy_url",
+    "source": "澎湃新闻",
+    "topic": "世界时事",
+    "region": "cn",
+    "published": "2026-09-26T04:35:01",
+    "author": ""
+  },
+  {
+    "title": "美媒：特朗普拒绝伊朗七日内重开霍尔木兹海峡提议",
+    "url": "https://m.thepaper.cn/detail/34154520",
+    "source": "澎湃新闻",
+    "topic": "世界时事",
+    "region": "cn",
+    "published": "2026-09-26T03:18:34",
     "author": "新华社"
   },
   {
-    "title": "长三角铁路今日预计发旅客290万人次，大部分方向尚有余票",
-    "url": "https://m.thepaper.cn/detail/34153591",
+    "title": "“核”已至此：当我们谈论核威胁时，我们在谈论什么",
+    "url": "https://m.thepaper.cn/detail/34073842",
     "source": "澎湃新闻",
     "topic": "世界时事",
     "region": "cn",
-    "published": "2026-09-26T01:02:01",
-    "author": "澎湃新闻记者 邵冰燕"
+    "published": "2026-09-26T02:35:10",
+    "author": "柏蓓蕾"
   },
   {
-    "title": "视频丨基于尊重、公平、对等，中美共同构建建设性战略稳定关系",
-    "url": "https://m.thepaper.cn/detail/34153503",
+    "title": "斩获亚运7金，张展硕游出“小孩哥”，游向“大魔王”",
+    "url": "https://m.thepaper.cn/detail/34153875",
     "source": "澎湃新闻",
     "topic": "世界时事",
     "region": "cn",
-    "published": "2026-09-26T01:01:27",
-    "author": "央视新闻"
+    "published": "2026-09-26T02:14:24",
+    "author": "澎湃新闻特约撰稿 来一"
   },
   {
-    "title": "体坛联播｜齐达内执教法国首秀赢球，姆巴佩进球后伤退",
-    "url": "https://m.thepaper.cn/detail/34153252",
-    "source": "澎湃新闻",
+    "title": "美国驻华大使：两国领导人解决棘手问题的互信在加强",
+    "url": "https://international.caixin.com/2026-09-26/102488836.html",
+    "source": "财新网",
     "topic": "世界时事",
     "region": "cn",
-    "published": "2026-09-26T00:38:19",
-    "author": "澎湃新闻记者 蒲垚磊"
-  },
-  {
-    "title": "澎湃读报丨主要央媒头版继续聚焦“中美元首华盛顿会晤”",
-    "url": "https://m.thepaper.cn/detail/34152938",
-    "source": "澎湃新闻",
-    "topic": "世界时事",
-    "region": "cn",
-    "published": "2026-09-26T00:28:16",
-    "author": "澎湃新闻记者 姚文逋"
-  },
-  {
-    "title": "在名古屋看到大型赛事的未来：一城办赛、多城争抢的时代或许正在远去",
-    "url": "https://m.thepaper.cn/detail/34152949",
-    "source": "澎湃新闻",
-    "topic": "世界时事",
-    "region": "cn",
-    "published": "2026-09-26T00:21:40",
-    "author": "赖志凯/工人日报"
-  },
-  {
-    "title": "视频丨“平平”“福双”将赴美，中美开启新一轮大熊猫保护国际合作",
-    "url": "https://m.thepaper.cn/detail/34153171",
-    "source": "澎湃新闻",
-    "topic": "世界时事",
-    "region": "cn",
-    "published": "2026-09-25T23:25:44",
-    "author": "央视新闻"
-  },
-  {
-    "title": "美中贸易全国委员会会长谭森：“稳定的经贸关系为美中带来实实在在的利益”",
-    "url": "https://m.thepaper.cn/detail/34152936",
-    "source": "澎湃新闻",
-    "topic": "世界时事",
-    "region": "cn",
-    "published": "2026-09-25T23:01:50",
-    "author": "李志伟/人民日报"
+    "published": "2026-09-26T02:21:22",
+    "author": ""
   },
   {
     "title": "【周刊提前读】美日欧接连加息 全球资产配置迎变盘",
@@ -1131,6 +1140,15 @@
     "topic": "世界时事",
     "region": "cn",
     "published": "2026-09-26T01:10:07",
+    "author": ""
+  },
+  {
+    "title": "【周刊提前读】徐小庆专栏：AI投资趋弱 美债收益率或掉头向下",
+    "url": "https://database.caixin.com/2026-09-26/102488784.html",
+    "source": "财新网",
+    "topic": "世界时事",
+    "region": "cn",
+    "published": "2026-09-26T01:02:07",
     "author": ""
   },
   {
@@ -1167,24 +1185,6 @@
     "topic": "世界时事",
     "region": "cn",
     "published": "2026-09-25T12:02:38",
-    "author": ""
-  },
-  {
-    "title": "恩格斯停顿会重演吗？人工智能时代的资本、劳动与分配（二）",
-    "url": "https://opinion.caixin.com/2026-09-25/102488739.html",
-    "source": "财新网",
-    "topic": "世界时事",
-    "region": "cn",
-    "published": "2026-09-25T09:59:06",
-    "author": ""
-  },
-  {
-    "title": "北京落实新房销售新规 存量项目设置预售过渡期",
-    "url": "https://www.caixin.com/2026-09-25/102488720.html",
-    "source": "财新网",
-    "topic": "世界时事",
-    "region": "cn",
-    "published": "2026-09-25T05:39:15",
     "author": ""
   },
   {
@@ -1242,6 +1242,15 @@
     "author": ""
   },
   {
+    "title": "習近平訪美晤特朗普：中美競賽誰領先？美國民眾怎麼看",
+    "url": "https://www.bbc.com/zhongwen/articles/ckddvj0jy3zgo/trad?at_medium=RSS&at_campaign=rss",
+    "source": "BBC 中文",
+    "topic": "世界时事",
+    "region": "cn",
+    "published": "2026-09-26T02:51:55",
+    "author": ""
+  },
+  {
     "title": "中美AI競賽：世界變得更危險還是更安全？",
     "url": "https://www.bbc.com/zhongwen/articles/cwx2zmzd63gxo/trad?at_medium=RSS&at_campaign=rss",
     "source": "BBC 中文",
@@ -1257,15 +1266,6 @@
     "topic": "世界时事",
     "region": "cn",
     "published": "2026-09-25T07:22:44",
-    "author": ""
-  },
-  {
-    "title": "習近平訪美晤特朗普：中美競賽誰領先？美國民眾怎麼看",
-    "url": "https://www.bbc.com/zhongwen/articles/ckddvj0jy3zgo/trad?at_medium=RSS&at_campaign=rss",
-    "source": "BBC 中文",
-    "topic": "世界时事",
-    "region": "cn",
-    "published": "2026-09-24T02:16:44",
     "author": ""
   },
   {
@@ -1323,40 +1323,31 @@
     "author": ""
   },
   {
+    "title": "Revealing the details of how OpenAI agents hacked Hugging Face",
+    "url": "https://swarmtraces.org/",
+    "source": "HackerNews",
+    "topic": "技术圈",
+    "region": "intl",
+    "published": "2026-09-25T21:09:27",
+    "author": "specked-citrus · 369 pts · 220 comments"
+  },
+  {
     "title": "Ollaya – Ollama for open-source, Jev-style decision models",
     "url": "https://ollaya.dev/",
     "source": "HackerNews",
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-09-25T18:33:50",
-    "author": "Ardakilic · 333 pts · 97 comments"
+    "author": "Ardakilic · 398 pts · 108 comments"
   },
   {
-    "title": "Platform-independent SIMD in Go",
-    "url": "https://go.dev/blog/simd-experiment",
+    "title": "Plan mode is dead",
+    "url": "https://www.aymannadeem.com/artificial/intelligence,/developer/tools/2026/09/24/plan-mode-is-dead.html",
     "source": "HackerNews",
     "topic": "技术圈",
     "region": "intl",
-    "published": "2026-09-25T11:47:06",
-    "author": "yurivish · 360 pts · 133 comments"
-  },
-  {
-    "title": "Git-bug: Distributed, offline-first bug tracker embedded in Git",
-    "url": "https://github.com/git-bug/git-bug",
-    "source": "HackerNews",
-    "topic": "技术圈",
-    "region": "intl",
-    "published": "2026-09-25T11:38:31",
-    "author": "alentred · 305 pts · 100 comments"
-  },
-  {
-    "title": "U.S. appeals court upholds designation of Anthropic as supply chain risk",
-    "url": "https://www.cnbc.com/2026/09/25/pentagon-anthropic-ai-risk-appeals-court.html",
-    "source": "HackerNews",
-    "topic": "技术圈",
-    "region": "intl",
-    "published": "2026-09-25T15:29:25",
-    "author": "cramer4next · 380 pts · 693 comments"
+    "published": "2026-09-25T03:59:11",
+    "author": "jmvldz · 224 pts · 205 comments"
   },
   {
     "title": "First Principles Thinking",
@@ -1365,16 +1356,25 @@
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-09-25T13:55:37",
-    "author": "sunils34 · 215 pts · 97 comments"
+    "author": "sunils34 · 252 pts · 106 comments"
   },
   {
-    "title": "Ink and Switch interactive homepage",
-    "url": "https://www.inkandswitch.com/",
+    "title": "U.S. appeals court upholds designation of Anthropic as supply chain risk",
+    "url": "https://www.cnbc.com/2026/09/25/pentagon-anthropic-ai-risk-appeals-court.html",
     "source": "HackerNews",
     "topic": "技术圈",
     "region": "intl",
-    "published": "2026-09-25T09:50:25",
-    "author": "iFreilicht · 230 pts · 25 comments"
+    "published": "2026-09-25T15:29:25",
+    "author": "cramer4next · 427 pts · 740 comments"
+  },
+  {
+    "title": "Platform-independent SIMD in Go",
+    "url": "https://go.dev/blog/simd-experiment",
+    "source": "HackerNews",
+    "topic": "技术圈",
+    "region": "intl",
+    "published": "2026-09-25T11:47:06",
+    "author": "yurivish · 376 pts · 137 comments"
   },
   {
     "title": "langchain-ai/langchain 发布 langchain-fireworks==1.6.3",
@@ -1422,6 +1422,15 @@
     "author": "chrmarti"
   },
   {
+    "title": "siyuan-note/siyuan 发布 v3.8.6-alpha.6",
+    "url": "https://github.com/siyuan-note/siyuan/releases/tag/v3.8.6-alpha.6",
+    "source": "GitHubRelease",
+    "topic": "GitHub 动态",
+    "region": "intl",
+    "published": "2026-09-26T03:20:49",
+    "author": "github-actions[bot]"
+  },
+  {
     "title": "siyuan-note/siyuan 发布 v3.8.6-alpha.5",
     "url": "https://github.com/siyuan-note/siyuan/releases/tag/v3.8.6-alpha.5",
     "source": "GitHubRelease",
@@ -1467,49 +1476,49 @@
     "author": "g-despot"
   },
   {
-    "title": "SAFE_DTx: Safety-First Framework for AI-Driven Personalization in Digital Therapeutics.",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42789929/",
+    "title": "Unloader Bracing Is a Biomechanically Rational and Clinically Useful Intervention in Selected Patients With Tibiofemoral Joint Cartilage Pathology: A Modified Delphi Consensus Study.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42791228/",
     "source": "PubMed",
     "topic": "心理学",
     "region": "intl",
     "published": "2026",
-    "author": "Dohyoung Rim"
+    "author": "Jonathan T Super, Luke V Tollefson, Iain R Murray, Jorge Chahla"
   },
   {
-    "title": "Exergame Intervention for Habit Formation, Lifestyle Adjustment, and Health Ownership Enhancement Among Hong Kong's Older Adults: Multisession, Single-Group, Pre-Post Pilot Study.",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42789792/",
+    "title": "The Onset of Parental Loss of a Child Decreases Psychosocial Well-Being Among Persons 40 Years and Older: Longitudinal Evidence from South Africa, 2015-2022.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42791223/",
     "source": "PubMed",
     "topic": "心理学",
     "region": "intl",
     "published": "2026",
-    "author": "Siqiang Wang, Yi Sun, Chun Yin Chung, Yin-Leng Theng"
+    "author": "Supa Pengpid, Karl Peltzer, André Hajek"
   },
   {
-    "title": "Exploring Associations Between the MMPI-3 and Measures of Borderline Personality Disorder, Posttraumatic Stress Disorder, and Dissociation in a Sample of Incarcerated Women.",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42789787/",
+    "title": "Retraction notice to \"Increased hemispheric functional connectivity compensates speech perception in older adults with hearing loss\" [Brain Res. 1876 (2026) 150201].",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42791167/",
     "source": "PubMed",
     "topic": "心理学",
     "region": "intl",
     "published": "2026",
-    "author": "Tasha R Phillips, Megan R Whitman, Kaci F Holmes, Jacob R Brown"
+    "author": "Yi Liu, Junhua Ding, Songjian Wang, Nuonan Kou"
   },
   {
-    "title": "Evidence for Clinical Skills Training Using Virtual Reality in Nursing and Midwifery Education: Protocol for an Umbrella Review.",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42789785/",
+    "title": "Quality assessment of radiographs through AI-driven feedback: A randomized comparative study on radiographer response in lateral knee radiographs.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42791131/",
     "source": "PubMed",
     "topic": "心理学",
     "region": "intl",
     "published": "2026",
-    "author": "Tshepo Kabelo Mohale, Wilma Ten Ham-Baloyi, Olivia Baorapetsi Baloyi, Emelda Zandile Gumede"
+    "author": "S Lysdahlgaard, J Jensen, M R V Pedersen, M W Kusk"
   },
   {
-    "title": "User Satisfaction With Assistive, Rehabilitation, and Training Technologies: Questionnaire Development and Content Validation Study.",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42789783/",
+    "title": "Beyond treatment: Ethical decision-making and palliative care in critically ill patients with cancer.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42791129/",
     "source": "PubMed",
     "topic": "心理学",
     "region": "intl",
     "published": "2026",
-    "author": "Oskar Cvjetičanin, Ivana Marić, Nejc Šarabon"
+    "author": "Eric Mayor-Vázquez, Beatriz Lobo-Valbuena, Santiago Cruz Montesinos, Rubén D Camargo"
   },
   {
     "title": "Conformal Robustness in Prediction-Driven Decision-Making",
