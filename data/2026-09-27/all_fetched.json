@@ -72,13 +72,40 @@
     "author": "Xinyue Zeng, Jiawei Zhang, Yujun Yan, Dawei Zhou"
   },
   {
+    "title": "Does Georgism work? Five years later",
+    "url": "https://www.astralcodexten.com/p/does-georgism-work-five-years-later",
+    "source": "HackerNews",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-09-25T13:48:38",
+    "author": "silveraxe93 · 242 pts · 159 comments"
+  },
+  {
     "title": "PipePipe: NewPipe hard fork implementing SponsorBlock",
     "url": "https://github.com/InfinityLoop1308/PipePipe",
     "source": "HackerNews",
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-09-25T10:55:40",
-    "author": "Qision · 317 pts · 168 comments"
+    "author": "Qision · 380 pts · 206 comments"
+  },
+  {
+    "title": "DeepSeek Elastic Compute (DSec)",
+    "url": "https://arxiv.org/abs/2609.22978",
+    "source": "HackerNews",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-09-26T18:22:41",
+    "author": "shenli3514 · 226 pts · 75 comments"
+  },
+  {
+    "title": "Show HN: Reladraw – A diagram language where you decide where to place things",
+    "url": "https://github.com/reladraw/reladraw",
+    "source": "HackerNews",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-09-26T17:10:40",
+    "author": "jpwalsh234 · 259 pts · 75 comments"
   },
   {
     "title": "Fifteen years later, the Apple Cards origin story",
@@ -87,16 +114,43 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-09-26T09:13:41",
-    "author": "ksec · 340 pts · 88 comments"
+    "author": "ksec · 383 pts · 95 comments"
   },
   {
-    "title": "Breaking Up with Google Play: Why Conversations Is Now Free",
-    "url": "https://gultsch.de/posts/breaking-up-with-google-play/",
+    "title": "ASML says it sold 'absolutely nothing' in Europe in 2026",
+    "url": "https://www.tomshardware.com/tech-industry/semiconductors/asml-says-its-sells-absolutely-nothing-in-europe-calls-on-eu-to-help-create-demand",
     "source": "HackerNews",
     "topic": "AI大事",
     "region": "intl",
-    "published": "2026-09-26T10:55:56",
-    "author": "ezst · 638 pts · 251 comments"
+    "published": "2026-09-25T13:49:06",
+    "author": "MC995 · 228 pts · 553 comments"
+  },
+  {
+    "title": "How to keep enjoying programming in a world of LLMs",
+    "url": "https://discourse.haskell.org/t/how-to-keep-enjoying-programming-in-a-world-of-llms/14705",
+    "source": "HackerNews",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-09-26T09:41:58",
+    "author": "signa11 · 201 pts · 247 comments"
+  },
+  {
+    "title": "谷歌 Kotlin 版 ADK 实现与 Python 版功能对齐，支持端侧 AI",
+    "url": "https://www.infoq.cn/article/sQV4EomjPP0J3hM3lyF9?utm_source=rss&utm_medium=article",
+    "source": "InfoQ 中文",
+    "topic": "AI大事",
+    "region": "cn",
+    "published": "2026-09-27T10:00:00",
+    "author": "作者：Sergio De Simone"
+  },
+  {
+    "title": "可控、可测、可进化——B2B跨境支付的 AI 驾驭实践｜QCon上海",
+    "url": "https://www.infoq.cn/article/UC6jk6tu7fWE5bDO8oQw?utm_source=rss&utm_medium=article",
+    "source": "InfoQ 中文",
+    "topic": "AI大事",
+    "region": "cn",
+    "published": "2026-09-27T10:00:00",
+    "author": "QCon全球软件开发大会"
   },
   {
     "title": "阿里巴巴开源 AI 辅助代码评审工具 OpenCodeReview",
@@ -169,24 +223,6 @@
     "region": "cn",
     "published": "2026-09-24T16:34:30",
     "author": "王玮"
-  },
-  {
-    "title": "29 小时攻破浏览器，GPT-6 Astra 成为 OpenAI 首个“严重级”模型",
-    "url": "https://www.infoq.cn/article/b5oxzJyafr0lkZexoo8E?utm_source=rss&utm_medium=article",
-    "source": "InfoQ 中文",
-    "topic": "AI大事",
-    "region": "cn",
-    "published": "2026-09-24T16:00:00",
-    "author": "作者：Steef-Jan Wiggers"
-  },
-  {
-    "title": "GPT-6猛砍价，Opus 5.5忙“变好用”：模型价格战，已经不能只看API定价",
-    "url": "https://www.infoq.cn/article/VSIsPFiO2hrjBi30wDfE?utm_source=rss&utm_medium=article",
-    "source": "InfoQ 中文",
-    "topic": "AI大事",
-    "region": "cn",
-    "published": "2026-09-24T13:44:32",
-    "author": "褚杏娟"
   },
   {
     "title": "AI开始研究Physical AI：FSD级团队亮出首版模型Simate-beta，空降RoboDojo",
@@ -270,15 +306,6 @@
     "author": ""
   },
   {
-    "title": "anthropics/claude-plugins-official",
-    "url": "https://github.com/anthropics/claude-plugins-official",
-    "source": "GitHub Trending",
-    "topic": "AI大事",
-    "region": "intl",
-    "published": "",
-    "author": ""
-  },
-  {
     "title": "vectorize-io/hindsight",
     "url": "https://github.com/vectorize-io/hindsight",
     "source": "GitHub Trending",
@@ -288,17 +315,8 @@
     "author": ""
   },
   {
-    "title": "obra/superpowers",
-    "url": "https://github.com/obra/superpowers",
-    "source": "GitHub Trending",
-    "topic": "AI大事",
-    "region": "intl",
-    "published": "",
-    "author": ""
-  },
-  {
-    "title": "mattpocock/skills",
-    "url": "https://github.com/mattpocock/skills",
+    "title": "NVIDIA/Model-Optimizer",
+    "url": "https://github.com/NVIDIA/Model-Optimizer",
     "source": "GitHub Trending",
     "topic": "AI大事",
     "region": "intl",
@@ -315,8 +333,8 @@
     "author": ""
   },
   {
-    "title": "anthropics/skills",
-    "url": "https://github.com/anthropics/skills",
+    "title": "tensorflow/tensorflow",
+    "url": "https://github.com/tensorflow/tensorflow",
     "source": "GitHub Trending",
     "topic": "AI大事",
     "region": "intl",
@@ -324,8 +342,8 @@
     "author": ""
   },
   {
-    "title": "androoAGI/starnet",
-    "url": "https://github.com/androoAGI/starnet",
+    "title": "rohitg00/ai-engineering-from-scratch",
+    "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
     "source": "GitHub Trending",
     "topic": "AI大事",
     "region": "intl",
@@ -333,8 +351,8 @@
     "author": ""
   },
   {
-    "title": "derv82/wifit3",
-    "url": "https://github.com/derv82/wifit3",
+    "title": "openbao/openbao",
+    "url": "https://github.com/openbao/openbao",
     "source": "GitHub Trending",
     "topic": "AI大事",
     "region": "intl",
@@ -342,8 +360,26 @@
     "author": ""
   },
   {
-    "title": "kelseyhightower/kubernetes-the-hard-way",
-    "url": "https://github.com/kelseyhightower/kubernetes-the-hard-way",
+    "title": "block/buzz",
+    "url": "https://github.com/block/buzz",
+    "source": "GitHub Trending",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "",
+    "author": ""
+  },
+  {
+    "title": "microsoft/vscode",
+    "url": "https://github.com/microsoft/vscode",
+    "source": "GitHub Trending",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "",
+    "author": ""
+  },
+  {
+    "title": "zhaoxuya520/reverse-skill",
+    "url": "https://github.com/zhaoxuya520/reverse-skill",
     "source": "GitHub Trending",
     "topic": "AI大事",
     "region": "intl",
@@ -783,6 +819,15 @@
     "author": "Denise Ho"
   },
   {
+    "title": "Google tests buying from Walmart-owned Flipkart through Gemini and AI Mode in India",
+    "url": "https://techcrunch.com/2026/09/26/google-tests-buying-from-walmart-owned-flipkart-through-gemini-and-ai-mode-in-india/",
+    "source": "TechCrunch AI",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-09-27T01:30:00",
+    "author": "Jagmeet Singh"
+  },
+  {
     "title": "Insurers claim AI is already increasing healthcare costs",
     "url": "https://techcrunch.com/2026/09/26/insurers-claim-ai-is-already-increasing-healthcare-costs/",
     "source": "TechCrunch AI",
@@ -862,15 +907,6 @@
     "region": "intl",
     "published": "2026-09-25T17:24:36",
     "author": "Tim Fernholz"
-  },
-  {
-    "title": "Meta is putting its muscle behind Muse as the AI app takes off",
-    "url": "https://techcrunch.com/2026/09/25/meta-is-putting-its-muscle-behind-muse-as-the-ai-app-takes-off/",
-    "source": "TechCrunch AI",
-    "topic": "AI大事",
-    "region": "intl",
-    "published": "2026-09-25T16:16:52",
-    "author": "Sarah Perez"
   },
   {
     "title": "OpenAI pauses training of its ‘most capable models’",
@@ -999,6 +1035,42 @@
     "author": ""
   },
   {
+    "title": "媒体评“3分钟内申请退票被扣费75%”：按“规定”，也要看是否公平",
+    "url": "https://m.thepaper.cn/detail/34160078",
+    "source": "澎湃新闻",
+    "topic": "世界时事",
+    "region": "cn",
+    "published": "2026-09-27T06:27:22",
+    "author": "李霞/北京日报"
+  },
+  {
+    "title": "气候资讯｜9月全球前沿气候科学研究&极端天气气候事件",
+    "url": "https://m.thepaper.cn/detail/34116466",
+    "source": "澎湃新闻",
+    "topic": "世界时事",
+    "region": "cn",
+    "published": "2026-09-27T03:31:24",
+    "author": "澎湃新闻记者 张颖"
+  },
+  {
+    "title": "视频丨通过碰瓷刷“存在感”？起底菲律宾的南海“碰瓷链”",
+    "url": "https://m.thepaper.cn/detail/34159504",
+    "source": "澎湃新闻",
+    "topic": "世界时事",
+    "region": "cn",
+    "published": "2026-09-27T03:20:49",
+    "author": "央视新闻"
+  },
+  {
+    "title": "玉渊谭天丨中美关系，需要一个穿越时间的答案",
+    "url": "https://m.thepaper.cn/detail/34159270",
+    "source": "澎湃新闻",
+    "topic": "世界时事",
+    "region": "cn",
+    "published": "2026-09-27T02:34:07",
+    "author": "玉渊谭天/央视新闻"
+  },
+  {
     "title": "时政微纪录丨习主席的华盛顿时间：书写中美关系历史新篇",
     "url": "https://content-static.cctvnews.cctv.com/snow-book/index.html?item_id=7831597446354476680&toc_style_id=feeds_default&share_to=copy_url&track_id=fd928a6c-1f4d-4b58-9e23-1fa44efc7ace",
     "source": "澎湃新闻",
@@ -1006,51 +1078,6 @@
     "region": "cn",
     "published": "2026-09-27T01:27:52",
     "author": ""
-  },
-  {
-    "title": "新项目、新赛道、新方向，沪明合作助力三明产业升级",
-    "url": "https://m.thepaper.cn/detail/34156829",
-    "source": "澎湃新闻",
-    "topic": "世界时事",
-    "region": "cn",
-    "published": "2026-09-27T01:24:34",
-    "author": "澎湃新闻记者 吴跃伟"
-  },
-  {
-    "title": "内存、硬盘涨完现在轮到显示屏了？显示屏也要买不起了？",
-    "url": "https://m.thepaper.cn/detail/34151052",
-    "source": "澎湃新闻",
-    "topic": "世界时事",
-    "region": "cn",
-    "published": "2026-09-27T01:24:20",
-    "author": ""
-  },
-  {
-    "title": "200多元的希尔顿，越开越多",
-    "url": "https://m.thepaper.cn/detail/34151296",
-    "source": "澎湃新闻",
-    "topic": "世界时事",
-    "region": "cn",
-    "published": "2026-09-27T01:23:58",
-    "author": "财天COVER"
-  },
-  {
-    "title": "考虑重新采购F-16战机，美空军为何想吃“回头草”？",
-    "url": "https://m.thepaper.cn/detail/34126108",
-    "source": "澎湃新闻",
-    "topic": "世界时事",
-    "region": "cn",
-    "published": "2026-09-26T23:18:22",
-    "author": "澎湃新闻特约撰稿 魏利群 顾靖"
-  },
-  {
-    "title": "人民日报金轩：智能经济何以塑造中国发展新优势",
-    "url": "https://m.thepaper.cn/detail/34158613",
-    "source": "澎湃新闻",
-    "topic": "世界时事",
-    "region": "cn",
-    "published": "2026-09-26T23:00:21",
-    "author": "金轩/人民日报"
   },
   {
     "title": "火线评论｜中美元首华盛顿会谈的启示：重温历史感召 共应未来变局",
@@ -1116,12 +1143,21 @@
     "author": ""
   },
   {
-    "title": "财新闻｜超越上届，中国游泳队狂揽30金结束本届亚运会征程",
-    "url": "https://mini.caixin.com/2026-09-26/102488780.html",
-    "source": "财新网",
+    "title": "“芯片问题未随这对表亲上主桌，中国内功更强了”",
+    "url": "https://www.guancha.cn/GuoJi%C2%B7ZhanLue/2026_09_27_902365_s.shtml",
+    "source": "观察者网",
     "topic": "世界时事",
     "region": "cn",
-    "published": "2026-09-26T00:55:55",
+    "published": "2026-09-27T05:50:00",
+    "author": ""
+  },
+  {
+    "title": "中美谈完，日本车企松了口气：熬过去了，但…",
+    "url": "https://www.guancha.cn/GuoJi%C2%B7ZhanLue/2026_09_27_902355_s.shtml",
+    "source": "观察者网",
+    "topic": "世界时事",
+    "region": "cn",
+    "published": "2026-09-27T02:30:00",
     "author": ""
   },
   {
@@ -1158,15 +1194,6 @@
     "topic": "世界时事",
     "region": "cn",
     "published": "2026-09-23T23:09:00",
-    "author": ""
-  },
-  {
-    "title": "中美元首再会晤，中方有何期待？",
-    "url": "https://www.guancha.cn/GuoJi%C2%B7ZhanLue/2026_09_23_901168_s.shtml",
-    "source": "观察者网",
-    "topic": "世界时事",
-    "region": "cn",
-    "published": "2026-09-22T23:34:00",
     "author": ""
   },
   {
@@ -1251,13 +1278,40 @@
     "author": ""
   },
   {
+    "title": "Does Georgism work? Five years later",
+    "url": "https://www.astralcodexten.com/p/does-georgism-work-five-years-later",
+    "source": "HackerNews",
+    "topic": "技术圈",
+    "region": "intl",
+    "published": "2026-09-25T13:48:38",
+    "author": "silveraxe93 · 242 pts · 159 comments"
+  },
+  {
     "title": "PipePipe: NewPipe hard fork implementing SponsorBlock",
     "url": "https://github.com/InfinityLoop1308/PipePipe",
     "source": "HackerNews",
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-09-25T10:55:40",
-    "author": "Qision · 317 pts · 168 comments"
+    "author": "Qision · 380 pts · 206 comments"
+  },
+  {
+    "title": "DeepSeek Elastic Compute (DSec)",
+    "url": "https://arxiv.org/abs/2609.22978",
+    "source": "HackerNews",
+    "topic": "技术圈",
+    "region": "intl",
+    "published": "2026-09-26T18:22:41",
+    "author": "shenli3514 · 226 pts · 75 comments"
+  },
+  {
+    "title": "Show HN: Reladraw – A diagram language where you decide where to place things",
+    "url": "https://github.com/reladraw/reladraw",
+    "source": "HackerNews",
+    "topic": "技术圈",
+    "region": "intl",
+    "published": "2026-09-26T17:10:40",
+    "author": "jpwalsh234 · 259 pts · 75 comments"
   },
   {
     "title": "Fifteen years later, the Apple Cards origin story",
@@ -1266,16 +1320,25 @@
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-09-26T09:13:41",
-    "author": "ksec · 340 pts · 88 comments"
+    "author": "ksec · 383 pts · 95 comments"
   },
   {
-    "title": "Breaking Up with Google Play: Why Conversations Is Now Free",
-    "url": "https://gultsch.de/posts/breaking-up-with-google-play/",
+    "title": "ASML says it sold 'absolutely nothing' in Europe in 2026",
+    "url": "https://www.tomshardware.com/tech-industry/semiconductors/asml-says-its-sells-absolutely-nothing-in-europe-calls-on-eu-to-help-create-demand",
     "source": "HackerNews",
     "topic": "技术圈",
     "region": "intl",
-    "published": "2026-09-26T10:55:56",
-    "author": "ezst · 638 pts · 251 comments"
+    "published": "2026-09-25T13:49:06",
+    "author": "MC995 · 228 pts · 554 comments"
+  },
+  {
+    "title": "How to keep enjoying programming in a world of LLMs",
+    "url": "https://discourse.haskell.org/t/how-to-keep-enjoying-programming-in-a-world-of-llms/14705",
+    "source": "HackerNews",
+    "topic": "技术圈",
+    "region": "intl",
+    "published": "2026-09-26T09:41:58",
+    "author": "signa11 · 201 pts · 247 comments"
   },
   {
     "title": "logseq/logseq 发布 Desktop app Nightly Release 20260926",
@@ -1284,6 +1347,15 @@
     "topic": "GitHub 动态",
     "region": "intl",
     "published": "2026-09-26T15:51:34",
+    "author": "github-actions[bot]"
+  },
+  {
+    "title": "siyuan-note/siyuan 发布 v3.8.6-alpha.9",
+    "url": "https://github.com/siyuan-note/siyuan/releases/tag/v3.8.6-alpha.9",
+    "source": "GitHubRelease",
+    "topic": "GitHub 动态",
+    "region": "intl",
+    "published": "2026-09-27T06:42:47",
     "author": "github-actions[bot]"
   },
   {
@@ -1305,15 +1377,6 @@
     "author": "github-actions[bot]"
   },
   {
-    "title": "siyuan-note/siyuan 发布 v3.8.6-alpha.6",
-    "url": "https://github.com/siyuan-note/siyuan/releases/tag/v3.8.6-alpha.6",
-    "source": "GitHubRelease",
-    "topic": "GitHub 动态",
-    "region": "intl",
-    "published": "2026-09-26T03:20:49",
-    "author": "github-actions[bot]"
-  },
-  {
     "title": "vercel/next.js 发布 v16.4.0-canary.50",
     "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.50",
     "source": "GitHubRelease",
@@ -1332,49 +1395,49 @@
     "author": "next-js-bot[bot]"
   },
   {
-    "title": "Dignity of older adults among nursing homes: A scoping review.",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42798273/",
+    "title": "Radiation dose knowledge and imaging referral practices among emergency department clinicians: implications for justification and radiation safety.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42800792/",
     "source": "PubMed",
     "topic": "心理学",
     "region": "intl",
     "published": "2026",
-    "author": "Yujia Liu, Xueying Li, Yanjie Wang"
+    "author": "Hossein Nadri, Marziyeh Tahmasbi"
   },
   {
-    "title": "Top Ten Tips Palliative Care Clinicians Should Know About Collaborating with Consultation-Liaison Psychiatry.",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42798252/",
+    "title": "Perioperative patient blood management program led and managed by anesthesiologists via a clinical pathway-focused approach: A single-center quality improvement study.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42800729/",
     "source": "PubMed",
     "topic": "心理学",
     "region": "intl",
     "published": "2026",
-    "author": "Ann C Schwartz, Paul Noufi, Damien M Miran, Katiuska J Ramirez"
+    "author": "Chen-Fuh Lam, Yu Lin, Ya-Ling Mai, Hsu-Tang Liu"
   },
   {
-    "title": "Neural Correlates of Apathy in Multiple System Atrophy: A Clinical and Perfusion Imaging Study.",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42798249/",
+    "title": "Structural and interagency influences on mandated health assessments for children in out-of-home care in Sweden: a qualitative study of child protection services workers.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42800716/",
     "source": "PubMed",
     "topic": "心理学",
     "region": "intl",
     "published": "2026",
-    "author": "Yuki Nakagawa, Atsuhiko Sugiyama, Yoshikazu Nakano, Hajime Yokota"
+    "author": "Godfried Van Agthoven, Gabriel Otterman, Rajna Knez, Kathi Makoroff"
   },
   {
-    "title": "Interleukin-17A Links Obesity-Induced Inflammation to Behavioral Disorders and Autonomic Imbalance.",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42798224/",
+    "title": "When standard rectal cancer treatment conflicts with pregnancy preservation: a multidisciplinary clinical challenge.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42800700/",
     "source": "PubMed",
     "topic": "心理学",
     "region": "intl",
     "published": "2026",
-    "author": "Jing-Ting Fu, Ya-Hsin Liu, Hui-Ting Huang, Yu-Min Kuo"
+    "author": "Saida Sakhri, Fethia Abidi, Louay Grari, Amina Mokrani"
   },
   {
-    "title": "A juvenile homicide associated with a left-sided cerebral arteriovenous malformation.",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42798217/",
+    "title": "A simplified scoring system for predicting total hip arthroplasty in hematologic cancer patients with osteonecrosis of the femoral head following allogeneic hematopoietic stem cell transplantation.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42800663/",
     "source": "PubMed",
     "topic": "心理学",
     "region": "intl",
     "published": "2026",
-    "author": "Abhilasha Khurana, Natalie Myers, Wade Myers"
+    "author": "Yun He, Peng Zhao, Yejun Wu, Bo Yang"
   },
   {
     "title": "Conformal Robustness in Prediction-Driven Decision-Making",
