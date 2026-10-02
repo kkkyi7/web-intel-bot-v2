@@ -6,7 +6,7 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-10-01T19:33:05",
-    "author": "sergiotapia · 743 pts · 255 comments"
+    "author": "sergiotapia · 1098 pts · 342 comments"
   },
   {
     "title": "Clef: Open-weight decision models, and new RL fine-tuning platform",
@@ -15,7 +15,16 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-10-01T16:18:57",
-    "author": "jasondavies · 426 pts · 159 comments"
+    "author": "jasondavies · 484 pts · 173 comments"
+  },
+  {
+    "title": "SvelteKit 3",
+    "url": "https://svelte.dev/blog/sveltekit-3-is-here",
+    "source": "HackerNews",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-10-01T20:14:23",
+    "author": "sampsn · 224 pts · 75 comments"
   },
   {
     "title": "Pi Durable",
@@ -24,7 +33,16 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-10-01T19:24:08",
-    "author": "paulsmith · 219 pts · 23 comments"
+    "author": "paulsmith · 332 pts · 39 comments"
+  },
+  {
+    "title": "Several vulnerabilities have been discovered in the Linux kernel",
+    "url": "https://lwn.net/Articles/1097401/",
+    "source": "HackerNews",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-10-01T23:10:44",
+    "author": "luispa · 233 pts · 160 comments"
   },
   {
     "title": "StreetComplete on iOS is now in public beta",
@@ -33,16 +51,7 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-10-01T10:59:57",
-    "author": "Snowly · 522 pts · 130 comments"
-  },
-  {
-    "title": "RIP, vector database",
-    "url": "https://turbopuffer.com/blog/rip-vector-database",
-    "source": "HackerNews",
-    "topic": "AI大事",
-    "region": "intl",
-    "published": "2026-10-01T16:01:56",
-    "author": "razin · 273 pts · 78 comments"
+    "author": "Snowly · 550 pts · 147 comments"
   },
   {
     "title": "Git 3.0's upcoming SHA-256 default will be a costly mistake",
@@ -51,7 +60,34 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-10-01T16:57:03",
-    "author": "chmaynard · 201 pts · 218 comments"
+    "author": "chmaynard · 320 pts · 309 comments"
+  },
+  {
+    "title": "RIP, vector database",
+    "url": "https://turbopuffer.com/blog/rip-vector-database",
+    "source": "HackerNews",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-10-01T16:01:56",
+    "author": "razin · 308 pts · 84 comments"
+  },
+  {
+    "title": "Various Projects Find Hidden SDR Capabilities in ESP32 Microcontrollers",
+    "url": "https://www.rtl-sdr.com/various-projects-independently-find-hidden-sdr-capabilities-in-esp32-microcontrollers/",
+    "source": "HackerNews",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-10-01T15:07:42",
+    "author": "nkw · 210 pts · 34 comments"
+  },
+  {
+    "title": "Cloudflare K2: serverless event streams",
+    "url": "https://blog.cloudflare.com/cloudflare-k2-streams/",
+    "source": "HackerNews",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-10-01T14:09:10",
+    "author": "elffjs · 228 pts · 90 comments"
   },
   {
     "title": "How to speed up the Rust compiler in September 2026",
@@ -60,7 +96,25 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-10-01T12:44:38",
-    "author": "trickypr · 230 pts · 118 comments"
+    "author": "trickypr · 245 pts · 137 comments"
+  },
+  {
+    "title": "Andrew Kelley 专访：他为何创建 Zig、禁止 AI 贡献以及将 Zig 从 GitHub 移出",
+    "url": "https://www.infoq.cn/article/eRbEA3dMd58RNPqp5D8S?utm_source=rss&utm_medium=article",
+    "source": "InfoQ 中文",
+    "topic": "AI大事",
+    "region": "cn",
+    "published": "2026-10-02T13:00:00",
+    "author": "作者： Bruno Couriol"
+  },
+  {
+    "title": "别再给 Agent 一个“毛坯房”了：构建 Agent 拎包入住的开发环境实践｜QCon上海",
+    "url": "https://www.infoq.cn/article/DEyrayxufObhpoeZgOKT?utm_source=rss&utm_medium=article",
+    "source": "InfoQ 中文",
+    "topic": "AI大事",
+    "region": "cn",
+    "published": "2026-10-02T10:00:00",
+    "author": "QCon全球软件开发大会"
   },
   {
     "title": "刚刚，Gemini 4 Argon 发布：多项基测碾压 GPT-6 Astra，已参与谷歌 80 万行内核代码迁移",
@@ -133,24 +187,6 @@
     "region": "cn",
     "published": "2026-09-30T11:52:00",
     "author": "杨过"
-  },
-  {
-    "title": "AIGC 驱动的内容生产力变革--Vidu 多模态大模型的创新与实践｜QCon上海",
-    "url": "https://www.infoq.cn/article/OBQpdcB1xURrJMRlrJZ1?utm_source=rss&utm_medium=article",
-    "source": "InfoQ 中文",
-    "topic": "AI大事",
-    "region": "cn",
-    "published": "2026-09-30T10:00:00",
-    "author": "QCon全球软件开发大会"
-  },
-  {
-    "title": "Agent 不只烧 Token：为什么 Agent Sandbox 正在变得重要？",
-    "url": "https://www.infoq.cn/article/he0zFgEyStxF9kOh70AP?utm_source=rss&utm_medium=article",
-    "source": "InfoQ 中文",
-    "topic": "AI大事",
-    "region": "cn",
-    "published": "2026-09-29T18:36:43",
-    "author": "凌敏"
   },
   {
     "title": "谷歌Gemini 4突然发布！RSI加持，GPT和Opus都让让",
@@ -450,6 +486,24 @@
     "author": "阮一峰"
   },
   {
+    "title": "你的下一台「泡面盖」，何必是塑料的？",
+    "url": "https://www.ifanr.com/1682870?utm_source=rss&utm_medium=rss&utm_campaign=",
+    "source": "爱范儿",
+    "topic": "AI大事",
+    "region": "cn",
+    "published": "2026-10-02T06:10:00",
+    "author": "郑廷旭"
+  },
+  {
+    "title": "和 Opus 5.5 同题交卷，MiniMax M3.1 让 Flash 开始超纲了",
+    "url": "https://www.ifanr.com/1682850?utm_source=rss&utm_medium=rss&utm_campaign=",
+    "source": "爱范儿",
+    "topic": "AI大事",
+    "region": "cn",
+    "published": "2026-10-02T06:01:25",
+    "author": "爱范儿"
+  },
+  {
     "title": "华为 Mate 90 系列发布：最强 Mate来了，5999 起即日开售",
     "url": "https://www.ifanr.com/1682801?utm_source=rss&utm_medium=rss&utm_campaign=",
     "source": "爱范儿",
@@ -522,22 +576,13 @@
     "author": "彭海星"
   },
   {
-    "title": "DeepSeek Harness桌面版实测：更像「个人助理」，还给你送钱",
-    "url": "https://www.ifanr.com/1682532?utm_source=rss&utm_medium=rss&utm_campaign=",
-    "source": "爱范儿",
+    "title": "[AINews] Pi 1.0, Pi Durable, and AIE NYC",
+    "url": "https://www.latent.space/p/ainews-pi-10-pi-durable-and-aie-nyc",
+    "source": "Latent Space",
     "topic": "AI大事",
-    "region": "cn",
-    "published": "2026-09-29T16:07:49",
-    "author": "张子豪"
-  },
-  {
-    "title": "9.99 万元起！现代艾尼氪 V 上市，十万级最先锋的设计来了",
-    "url": "https://www.ifanr.com/1682479?utm_source=rss&utm_medium=rss&utm_campaign=",
-    "source": "爱范儿",
-    "topic": "AI大事",
-    "region": "cn",
-    "published": "2026-09-29T10:23:29",
-    "author": "陈世琛"
+    "region": "intl",
+    "published": "2026-10-02T06:40:53",
+    "author": ""
   },
   {
     "title": "Academia is for Ambition — Alex Zhang, MIT",
@@ -582,15 +627,6 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-09-29T02:55:27",
-    "author": ""
-  },
-  {
-    "title": "[AINews] Opus 5.5 is good at explainer videos",
-    "url": "https://www.latent.space/p/ainews-opus-55-is-good-at-explainer",
-    "source": "Latent Space",
-    "topic": "AI大事",
-    "region": "intl",
-    "published": "2026-09-29T02:44:29",
     "author": ""
   },
   {
@@ -954,58 +990,22 @@
     "author": ""
   },
   {
-    "title": "对话诺奖“潜力股”米尼奥：回忆研究生涯中最兴奋时刻，曾与中国专家合作超20年",
-    "url": "https://m.thepaper.cn/detail/34190245",
+    "title": "AI安全风波持续：OpenAI解雇三人，动用7000块GPU排查智能体异常活动",
+    "url": "https://m.thepaper.cn/detail/34191283",
     "source": "澎湃新闻",
     "topic": "世界时事",
     "region": "cn",
-    "published": "2026-10-02T01:26:02",
-    "author": "澎湃新闻记者 季敬杰"
+    "published": "2026-10-02T06:16:32",
+    "author": "澎湃新闻记者 秦盛"
   },
   {
-    "title": "美股10月开门红：三大指数微涨，半导体板块走势回暖",
-    "url": "https://m.thepaper.cn/detail/34190439",
-    "source": "澎湃新闻",
+    "title": "图集｜香港举办国庆烟花汇演 超3万枚烟花维港绽放",
+    "url": "https://photos.caixin.com/2026-10-02/102490319.html",
+    "source": "财新网",
     "topic": "世界时事",
     "region": "cn",
-    "published": "2026-10-02T01:13:48",
-    "author": "澎湃新闻首席记者 田忠方"
-  },
-  {
-    "title": "A级景区接连被摘牌或降级，经济日报刊文：A级评定不是“铁饭碗”",
-    "url": "https://m.thepaper.cn/detail/34190357",
-    "source": "澎湃新闻",
-    "topic": "世界时事",
-    "region": "cn",
-    "published": "2026-10-02T00:57:58",
-    "author": "夏先清/经济日报"
-  },
-  {
-    "title": "他在上海张江研究拓扑量子计算，“赶上了基础研究的好时候”",
-    "url": "https://m.thepaper.cn/detail/34187131",
-    "source": "澎湃新闻",
-    "topic": "世界时事",
-    "region": "cn",
-    "published": "2026-10-01T23:30:13",
-    "author": "澎湃新闻高级记者 邹娟 见习记者 洪旭东"
-  },
-  {
-    "title": "9月造车新势力交付量出炉：零跑再超10万辆，小鹏、小米站上4万辆",
-    "url": "https://m.thepaper.cn/detail/34187895",
-    "source": "澎湃新闻",
-    "topic": "世界时事",
-    "region": "cn",
-    "published": "2026-10-01T23:25:03",
-    "author": "澎湃新闻记者 吴遇利"
-  },
-  {
-    "title": "中国驻美国大使接受美《新闻周刊》专访：谈习近平对美进行国事访问和中美关系",
-    "url": "https://m.thepaper.cn/detail/34190175",
-    "source": "澎湃新闻",
-    "topic": "世界时事",
-    "region": "cn",
-    "published": "2026-10-01T23:03:39",
-    "author": "“中国驻美国大使馆”微信公号"
+    "published": "2026-10-02T03:45:21",
+    "author": ""
   },
   {
     "title": "AI是否存在泡沫？",
@@ -1044,42 +1044,6 @@
     "author": ""
   },
   {
-    "title": "【市场洞察】低库存放大油价弹性 如何判断化工板块配置机会？",
-    "url": "https://database.caixin.com/2026-09-30/102490181.html",
-    "source": "财新网",
-    "topic": "世界时事",
-    "region": "cn",
-    "published": "2026-09-30T15:07:10",
-    "author": ""
-  },
-  {
-    "title": "AI数据中心全球布局加速 区域竞争聚焦资源与基础设施",
-    "url": "https://topics.caixin.com/2026-09-30/102490179.html",
-    "source": "财新网",
-    "topic": "世界时事",
-    "region": "cn",
-    "published": "2026-09-30T15:03:10",
-    "author": ""
-  },
-  {
-    "title": "关键矿产受关注度空前 如何应对新机遇与不确定性？",
-    "url": "https://topics.caixin.com/2026-09-30/102490158.html",
-    "source": "财新网",
-    "topic": "世界时事",
-    "region": "cn",
-    "published": "2026-09-30T14:04:04",
-    "author": ""
-  },
-  {
-    "title": "新加坡的AI机会：帮助技术落地、赢得信任并规模出口",
-    "url": "https://topics.caixin.com/2026-09-30/102490153.html",
-    "source": "财新网",
-    "topic": "世界时事",
-    "region": "cn",
-    "published": "2026-09-30T13:29:06",
-    "author": ""
-  },
-  {
     "title": "特朗普催账，韩国先掏2000亿美元",
     "url": "https://www.guancha.cn/GuoJi%C2%B7ZhanLue/2026_10_01_902877_s.shtml",
     "source": "观察者网",
@@ -1113,24 +1077,6 @@
     "topic": "世界时事",
     "region": "cn",
     "published": "2026-09-28T08:21:00",
-    "author": ""
-  },
-  {
-    "title": "中美越谈越稳，日本犯嘀咕：那我呢？",
-    "url": "https://www.guancha.cn/GuoJi%C2%B7ZhanLue/2026_09_28_902444_s.shtml",
-    "source": "观察者网",
-    "topic": "世界时事",
-    "region": "cn",
-    "published": "2026-09-28T00:32:00",
-    "author": ""
-  },
-  {
-    "title": "无视美国制裁，尼加拉瓜正大量向中企出售黄金矿权",
-    "url": "https://www.guancha.cn/GuoJi%C2%B7ZhanLue/2026_09_27_902413_s.shtml",
-    "source": "观察者网",
-    "topic": "世界时事",
-    "region": "cn",
-    "published": "2026-09-27T10:25:00",
     "author": ""
   },
   {
@@ -1212,7 +1158,7 @@
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-10-01T19:33:05",
-    "author": "sergiotapia · 744 pts · 256 comments"
+    "author": "sergiotapia · 1098 pts · 342 comments"
   },
   {
     "title": "Clef: Open-weight decision models, and new RL fine-tuning platform",
@@ -1221,7 +1167,16 @@
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-10-01T16:18:57",
-    "author": "jasondavies · 427 pts · 159 comments"
+    "author": "jasondavies · 485 pts · 173 comments"
+  },
+  {
+    "title": "SvelteKit 3",
+    "url": "https://svelte.dev/blog/sveltekit-3-is-here",
+    "source": "HackerNews",
+    "topic": "技术圈",
+    "region": "intl",
+    "published": "2026-10-01T20:14:23",
+    "author": "sampsn · 224 pts · 75 comments"
   },
   {
     "title": "Pi Durable",
@@ -1230,7 +1185,16 @@
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-10-01T19:24:08",
-    "author": "paulsmith · 221 pts · 23 comments"
+    "author": "paulsmith · 332 pts · 39 comments"
+  },
+  {
+    "title": "Several vulnerabilities have been discovered in the Linux kernel",
+    "url": "https://lwn.net/Articles/1097401/",
+    "source": "HackerNews",
+    "topic": "技术圈",
+    "region": "intl",
+    "published": "2026-10-01T23:10:44",
+    "author": "luispa · 234 pts · 160 comments"
   },
   {
     "title": "StreetComplete on iOS is now in public beta",
@@ -1239,16 +1203,7 @@
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-10-01T10:59:57",
-    "author": "Snowly · 522 pts · 130 comments"
-  },
-  {
-    "title": "RIP, vector database",
-    "url": "https://turbopuffer.com/blog/rip-vector-database",
-    "source": "HackerNews",
-    "topic": "技术圈",
-    "region": "intl",
-    "published": "2026-10-01T16:01:56",
-    "author": "razin · 274 pts · 78 comments"
+    "author": "Snowly · 550 pts · 147 comments"
   },
   {
     "title": "Git 3.0's upcoming SHA-256 default will be a costly mistake",
@@ -1257,7 +1212,34 @@
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-10-01T16:57:03",
-    "author": "chmaynard · 201 pts · 218 comments"
+    "author": "chmaynard · 320 pts · 310 comments"
+  },
+  {
+    "title": "RIP, vector database",
+    "url": "https://turbopuffer.com/blog/rip-vector-database",
+    "source": "HackerNews",
+    "topic": "技术圈",
+    "region": "intl",
+    "published": "2026-10-01T16:01:56",
+    "author": "razin · 308 pts · 84 comments"
+  },
+  {
+    "title": "Various Projects Find Hidden SDR Capabilities in ESP32 Microcontrollers",
+    "url": "https://www.rtl-sdr.com/various-projects-independently-find-hidden-sdr-capabilities-in-esp32-microcontrollers/",
+    "source": "HackerNews",
+    "topic": "技术圈",
+    "region": "intl",
+    "published": "2026-10-01T15:07:42",
+    "author": "nkw · 210 pts · 34 comments"
+  },
+  {
+    "title": "Cloudflare K2: serverless event streams",
+    "url": "https://blog.cloudflare.com/cloudflare-k2-streams/",
+    "source": "HackerNews",
+    "topic": "技术圈",
+    "region": "intl",
+    "published": "2026-10-01T14:09:10",
+    "author": "elffjs · 228 pts · 90 comments"
   },
   {
     "title": "How to speed up the Rust compiler in September 2026",
@@ -1266,7 +1248,7 @@
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-10-01T12:44:38",
-    "author": "trickypr · 230 pts · 118 comments"
+    "author": "trickypr · 245 pts · 137 comments"
   },
   {
     "title": "openai/openai-python 发布 v3.23.0",
@@ -1305,13 +1287,13 @@
     "author": "github-actions[bot]"
   },
   {
-    "title": "AppFlowy-IO/AppFlowy 发布 v0.14.6",
-    "url": "https://github.com/AppFlowy-IO/AppFlowy/releases/tag/0.14.6",
+    "title": "vercel/next.js 发布 v16.4.0-canary.57",
+    "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.57",
     "source": "GitHubRelease",
     "topic": "GitHub 动态",
     "region": "intl",
-    "published": "2026-10-01T03:32:58",
-    "author": "LucasXu0"
+    "published": "2026-10-02T03:44:18",
+    "author": "next-js-bot[bot]"
   },
   {
     "title": "vercel/next.js 发布 v16.4.0-canary.56",
@@ -1350,49 +1332,49 @@
     "author": "antas-marcin"
   },
   {
-    "title": "Pheochromocytoma Across the Perioperative Course: Current Concepts and Clinical Management.",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42819666/",
+    "title": "Persistent and recurrent musculoskeletal pain in young athletes: an overlooked biopsychosocial determinant of return to sport trajectories - a focused narrative review.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42823357/",
     "source": "PubMed",
     "topic": "心理学",
     "region": "intl",
     "published": "2026",
-    "author": "Aibek E Mirrakhimov, Nicole Bashall"
+    "author": "Jordi Miró, Adrià Miró, Guillermo Ceniza-Bordallo, Juan P Sanabria-Mazo"
   },
   {
-    "title": "Machine Learning in Stem Cell Research: From Biological Data to Clinical Translation.",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42819612/",
+    "title": "Individual Differences in Dopaminergic Modulation of Exploration-Exploitation Behaviour.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42823352/",
     "source": "PubMed",
     "topic": "心理学",
     "region": "intl",
     "published": "2026",
-    "author": "Anna Nicolaou, Yan Hong, Delong Zhou, Geovanni Geukgeuzian"
+    "author": "Elke Smith, Hendrik Theis, Thilo van Eimeren, Kilian Knauth"
   },
   {
-    "title": "Eight-month functional and scar outcomes following conservative management of an extensive diabetic foot soft-tissue defect using high-purity type I collagen matrix and negative pressure wound therapy: a case report.",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42819562/",
+    "title": "Surgical extrusion with the Seif surgical extrusion protocol: Up to seven-year outcomes in 201 consecutive treatments.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42823284/",
     "source": "PubMed",
     "topic": "心理学",
     "region": "intl",
     "published": "2026",
-    "author": "Naveen Narayan"
+    "author": "Vala Seif"
   },
   {
-    "title": "Gender diversity and cholesterol in early adolescence: Findings from the Adolescent Brain Cognitive Development Study.",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42819458/",
+    "title": "Serum biomarkers in structural deterioration of surgical bioprosthetic aortic valves: A systematic review and meta-analysis.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42823272/",
     "source": "PubMed",
     "topic": "心理学",
     "region": "intl",
     "published": "2026",
-    "author": "Jason M Nagata, Priyadharshini Balasubramanian, Audrey Lopez, Christiane K Helmer"
+    "author": "Zeyad Kholeif, Mohamed Doma, Rana Rashwan, Ahmed Elmorsy Mohamed"
   },
   {
-    "title": "Relationship between anger expression and coping strategies in women experiencing pregnancy loss: A longitudinal follow-up study.",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42819446/",
+    "title": "RE-AIMing for Better Maternal Health: Nurse Leader Experiences With Quality Care Collaborative Toolkits Across 10 States.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42823251/",
     "source": "PubMed",
     "topic": "心理学",
     "region": "intl",
     "published": "2026",
-    "author": "Esranur C Coskun, Sukran E Pinar"
+    "author": "Mallika Bhandarkar, Gabriela Alvarado, Dana Schultz, Priya Batra"
   },
   {
     "title": "PS5 越狱取得突破",
