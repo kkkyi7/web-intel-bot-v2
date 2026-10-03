@@ -78,16 +78,7 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-10-01T22:23:07",
-    "author": "hn_acker · 503 pts · 223 comments"
-  },
-  {
-    "title": "Apple Pass Designer",
-    "url": "https://developer.apple.com/pass-designer/",
-    "source": "HackerNews",
-    "topic": "AI大事",
-    "region": "intl",
-    "published": "2026-10-02T19:06:56",
-    "author": "soheilpro · 315 pts · 212 comments"
+    "author": "hn_acker · 591 pts · 257 comments"
   },
   {
     "title": "Mike Tomlin spent 12 years building a Minecraft city",
@@ -96,7 +87,52 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-10-01T18:20:18",
-    "author": "CoryOndrejka · 271 pts · 75 comments"
+    "author": "CoryOndrejka · 408 pts · 102 comments"
+  },
+  {
+    "title": "Apple Pass Designer",
+    "url": "https://developer.apple.com/pass-designer/",
+    "source": "HackerNews",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-10-02T19:06:56",
+    "author": "soheilpro · 388 pts · 237 comments"
+  },
+  {
+    "title": "A 12-year sequence of telescope images of a star and four planets orbiting",
+    "url": "https://bsky.app/profile/theplanetaryguy.com/post/3mwucf5ert22f",
+    "source": "HackerNews",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-10-02T11:07:17",
+    "author": "mariuz · 247 pts · 53 comments"
+  },
+  {
+    "title": "Loss of cell identity drives human aging: Two new papers",
+    "url": "https://erictopol.substack.com/p/loss-of-cell-identity-drives-human",
+    "source": "HackerNews",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-10-01T20:02:57",
+    "author": "bookofjoe · 222 pts · 65 comments"
+  },
+  {
+    "title": "With most information hidden, the game Stratego had stumped AI until now",
+    "url": "https://arstechnica.com/science/2026/10/ai-finally-beat-the-best-stratego-player-in-history-and-did-it-on-a-budget/",
+    "source": "HackerNews",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-10-02T14:11:24",
+    "author": "PaulHoule · 205 pts · 98 comments"
+  },
+  {
+    "title": "From the creator of Redis; run LLM locally with ds4",
+    "url": "https://dwarfstar.sh/",
+    "source": "HackerNews",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-10-02T18:01:16",
+    "author": "fibo · 209 pts · 56 comments"
   },
   {
     "title": "FLUX 3 Image",
@@ -105,7 +141,16 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-10-01T19:24:29",
-    "author": "minimaxir · 270 pts · 59 comments"
+    "author": "minimaxir · 313 pts · 68 comments"
+  },
+  {
+    "title": "Greg Kroah-Hartman – Security in the LLM Age [video]",
+    "url": "https://www.youtube.com/watch?v=NnV_cWeoo5Q",
+    "source": "HackerNews",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-10-02T02:51:27",
+    "author": "usernomdeguerre · 221 pts · 59 comments"
   },
   {
     "title": "Sites in ChatGPT",
@@ -114,7 +159,16 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-10-01T22:22:21",
-    "author": "polvi · 208 pts · 216 comments"
+    "author": "polvi · 250 pts · 241 comments"
+  },
+  {
+    "title": "Show HN: Giving Opus 5.5 a simulated paint canvas",
+    "url": "https://stillwet.art/",
+    "source": "HackerNews",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-10-02T00:27:56",
+    "author": "alstonite · 257 pts · 78 comments"
   },
   {
     "title": "The Legend of von Neumann (1973) [pdf]",
@@ -123,16 +177,16 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-10-02T13:18:32",
-    "author": "suopspaces · 243 pts · 139 comments"
+    "author": "suopspaces · 271 pts · 145 comments"
   },
   {
-    "title": "Zig v0.17.0",
-    "url": "https://ziglang.org/download/0.17.0/release-notes.html",
-    "source": "HackerNews",
+    "title": "企业级 Agent Infra 架构实践：从安全沙箱到网络管控与身份治理｜QCon上海",
+    "url": "https://www.infoq.cn/article/bLB8RQ6sd3ZGQts0D4tP?utm_source=rss&utm_medium=article",
+    "source": "InfoQ 中文",
     "topic": "AI大事",
-    "region": "intl",
-    "published": "2026-10-02T20:56:36",
-    "author": "ErenayDev · 207 pts · 129 comments"
+    "region": "cn",
+    "published": "2026-10-03T10:00:00",
+    "author": "QCon全球软件开发大会"
   },
   {
     "title": "Andrew Kelley 专访：他为何创建 Zig、禁止 AI 贡献以及将 Zig 从 GitHub 移出",
@@ -216,13 +270,13 @@
     "author": "李文朋"
   },
   {
-    "title": "首发！openJiuwen workSwarm全双工多模态 ，像聊天一样与Agent交互，昇腾算力原生亲和",
-    "url": "https://www.infoq.cn/article/fOuaRtwuySyZsS0iGg7N?utm_source=rss&utm_medium=article",
-    "source": "InfoQ 中文",
+    "title": "OpenAI安全团队持续地震！负责人离职，三名员工因泄密被开",
+    "url": "https://www.qbitai.com/2026/10/501368.html",
+    "source": "量子位",
     "topic": "AI大事",
     "region": "cn",
-    "published": "2026-09-30T11:52:00",
-    "author": "杨过"
+    "published": "2026-10-03T04:41:24",
+    "author": "衡宇"
   },
   {
     "title": "openJiuwen X-Router自演进模型路由技术首发，昇腾亲和，Agent越跑越省，实测减少50+%Token消耗",
@@ -270,26 +324,8 @@
     "author": "田, 晏林"
   },
   {
-    "title": "Manus 2.0回来了！给AI配手机号和钱包，还能拉群干活",
-    "url": "https://www.qbitai.com/2026/09/499592.html",
-    "source": "量子位",
-    "topic": "AI大事",
-    "region": "cn",
-    "published": "2026-09-30T07:58:37",
-    "author": "henry"
-  },
-  {
-    "title": "刚刚，GPT-6 Astra接上宇树G1，把厨房收拾了！",
-    "url": "https://www.qbitai.com/2026/09/499493.html",
-    "source": "量子位",
-    "topic": "AI大事",
-    "region": "cn",
-    "published": "2026-09-30T07:54:54",
-    "author": "henry"
-  },
-  {
-    "title": "NVIDIA/OpenShell",
-    "url": "https://github.com/NVIDIA/OpenShell",
+    "title": "Panniantong/Agent-Reach",
+    "url": "https://github.com/Panniantong/Agent-Reach",
     "source": "GitHub Trending",
     "topic": "AI大事",
     "region": "intl",
@@ -297,8 +333,8 @@
     "author": ""
   },
   {
-    "title": "debpalash/VoiceStudio",
-    "url": "https://github.com/debpalash/VoiceStudio",
+    "title": "JuliusBrussee/caveman",
+    "url": "https://github.com/JuliusBrussee/caveman",
     "source": "GitHub Trending",
     "topic": "AI大事",
     "region": "intl",
@@ -306,17 +342,8 @@
     "author": ""
   },
   {
-    "title": "mvschwarz/openrig",
-    "url": "https://github.com/mvschwarz/openrig",
-    "source": "GitHub Trending",
-    "topic": "AI大事",
-    "region": "intl",
-    "published": "",
-    "author": ""
-  },
-  {
-    "title": "mksglu/context-mode",
-    "url": "https://github.com/mksglu/context-mode",
+    "title": "obra/superpowers",
+    "url": "https://github.com/obra/superpowers",
     "source": "GitHub Trending",
     "topic": "AI大事",
     "region": "intl",
@@ -333,26 +360,8 @@
     "author": ""
   },
   {
-    "title": "harry0703/MoneyPrinterTurbo",
-    "url": "https://github.com/harry0703/MoneyPrinterTurbo",
-    "source": "GitHub Trending",
-    "topic": "AI大事",
-    "region": "intl",
-    "published": "",
-    "author": ""
-  },
-  {
-    "title": "openclaw/openclaw",
-    "url": "https://github.com/openclaw/openclaw",
-    "source": "GitHub Trending",
-    "topic": "AI大事",
-    "region": "intl",
-    "published": "",
-    "author": ""
-  },
-  {
-    "title": "ComposioHQ/awesome-claude-skills",
-    "url": "https://github.com/ComposioHQ/awesome-claude-skills",
+    "title": "pbakaus/impeccable",
+    "url": "https://github.com/pbakaus/impeccable",
     "source": "GitHub Trending",
     "topic": "AI大事",
     "region": "intl",
@@ -369,8 +378,35 @@
     "author": ""
   },
   {
+    "title": "NVIDIA/OpenShell",
+    "url": "https://github.com/NVIDIA/OpenShell",
+    "source": "GitHub Trending",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "",
+    "author": ""
+  },
+  {
+    "title": "coreyhaines31/marketingskills",
+    "url": "https://github.com/coreyhaines31/marketingskills",
+    "source": "GitHub Trending",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "",
+    "author": ""
+  },
+  {
     "title": "heygen-com/hyperframes",
     "url": "https://github.com/heygen-com/hyperframes",
+    "source": "GitHub Trending",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "",
+    "author": ""
+  },
+  {
+    "title": "mksglu/context-mode",
+    "url": "https://github.com/mksglu/context-mode",
     "source": "GitHub Trending",
     "topic": "AI大事",
     "region": "intl",
@@ -990,40 +1026,67 @@
     "author": ""
   },
   {
-    "title": "韦力｜两湖官书局如何重塑晚清出版",
-    "url": "https://m.thepaper.cn/detail/34171406",
+    "title": "特朗普：对伊朗下一步行动“进展顺利”",
+    "url": "https://m.thepaper.cn/detail/34194908",
     "source": "澎湃新闻",
     "topic": "世界时事",
     "region": "cn",
-    "published": "2026-10-03T01:28:54",
-    "author": "韦力"
+    "published": "2026-10-03T06:27:29",
+    "author": "新华社客户端"
   },
   {
-    "title": "电子行业登顶9月私募调研榜首，这些个股最受青睐",
-    "url": "https://m.thepaper.cn/detail/34190822",
+    "title": "以色列飞迪拜航班全部取消",
+    "url": "https://m.thepaper.cn/detail/34194790",
     "source": "澎湃新闻",
     "topic": "世界时事",
     "region": "cn",
-    "published": "2026-10-03T00:38:07",
-    "author": "澎湃新闻记者 孙铭蔚"
+    "published": "2026-10-03T06:10:25",
+    "author": "冯国芮、王卓伦、陈君清/新华社客户端"
   },
   {
-    "title": "美国9月新增非农就业岗位大幅减少，美联储加息预期进一步降温",
-    "url": "https://m.thepaper.cn/detail/34193959",
+    "title": "解读｜选前暂停领事服务，特朗普政府能否影响巴西大选？",
+    "url": "https://m.thepaper.cn/detail/34194388",
     "source": "澎湃新闻",
     "topic": "世界时事",
     "region": "cn",
-    "published": "2026-10-03T00:15:34",
-    "author": "刘亚南/新华社"
-  },
-  {
-    "title": "深度｜渴望中资的阿富汗塔利班，留不住曾想淘金的中国商人",
-    "url": "https://m.thepaper.cn/detail/34179076",
-    "source": "澎湃新闻",
-    "topic": "世界时事",
-    "region": "cn",
-    "published": "2026-10-02T23:08:23",
+    "published": "2026-10-03T05:06:00",
     "author": "澎湃新闻记者 黄粤涵"
+  },
+  {
+    "title": "新华社：留给中国女足的时间，还有多少？",
+    "url": "https://m.thepaper.cn/detail/34194643",
+    "source": "澎湃新闻",
+    "topic": "世界时事",
+    "region": "cn",
+    "published": "2026-10-03T05:01:10",
+    "author": "肖世尧、王海洲/新华社客户端"
+  },
+  {
+    "title": "迪拜航空副驾驶承认意图“坠毁飞机”，飞行员筛查能否识别隐蔽风险？",
+    "url": "https://m.thepaper.cn/detail/34194286",
+    "source": "澎湃新闻",
+    "topic": "世界时事",
+    "region": "cn",
+    "published": "2026-10-03T04:44:56",
+    "author": "澎湃新闻记者 南博一"
+  },
+  {
+    "title": "奔赴“县”场｜这座高速服务区，凭什么一天吸引近8万人",
+    "url": "https://m.thepaper.cn/detail/34191472",
+    "source": "澎湃新闻",
+    "topic": "世界时事",
+    "region": "cn",
+    "published": "2026-10-03T03:00:51",
+    "author": "澎湃新闻记者 王磊"
+  },
+  {
+    "title": "欧洲市场复苏贡献增量 特斯拉第三季度交付超预期",
+    "url": "https://www.caixin.com/2026-10-03/102490583.html",
+    "source": "财新网",
+    "topic": "世界时事",
+    "region": "cn",
+    "published": "2026-10-03T06:16:25",
+    "author": ""
   },
   {
     "title": "看不见的《交锋》｜影视",
@@ -1071,42 +1134,6 @@
     "author": ""
   },
   {
-    "title": "“农产滞销，帮帮我们”，止于怜悯的助农直播能走多远？",
-    "url": "https://www.guancha.cn/ChengShi/2026_10_02_902606_s.shtml",
-    "source": "观察者网",
-    "topic": "世界时事",
-    "region": "cn",
-    "published": "2026-10-02T13:58:00",
-    "author": ""
-  },
-  {
-    "title": "特朗普催账，韩国先掏2000亿美元",
-    "url": "https://www.guancha.cn/GuoJi%C2%B7ZhanLue/2026_10_01_902877_s.shtml",
-    "source": "观察者网",
-    "topic": "世界时事",
-    "region": "cn",
-    "published": "2026-10-01T02:50:00",
-    "author": ""
-  },
-  {
-    "title": "德法“磨刀霍霍”，中方把话挑明了",
-    "url": "https://www.guancha.cn/GuoJi%C2%B7ZhanLue/2026_09_30_902774_s.shtml",
-    "source": "观察者网",
-    "topic": "世界时事",
-    "region": "cn",
-    "published": "2026-09-30T07:59:00",
-    "author": ""
-  },
-  {
-    "title": "这就是欧盟，“没人高兴”",
-    "url": "https://www.guancha.cn/GuoJi%C2%B7ZhanLue/2026_09_29_902620_s.shtml",
-    "source": "观察者网",
-    "topic": "世界时事",
-    "region": "cn",
-    "published": "2026-09-29T09:47:00",
-    "author": ""
-  },
-  {
     "title": "「救了174人的生命」：杜拜航空劫機案，遭刺傷的印度機師是誰？",
     "url": "https://www.bbc.com/zhongwen/articles/c61585j4vlkgo/trad?at_medium=RSS&at_campaign=rss",
     "source": "BBC 中文",
@@ -1143,24 +1170,6 @@
     "author": ""
   },
   {
-    "title": "習近平訪美晤特朗普：中美競賽誰領先？美國民眾怎麼看",
-    "url": "https://www.bbc.com/zhongwen/articles/ckddvj0jy3zgo/trad?at_medium=RSS&at_campaign=rss",
-    "source": "BBC 中文",
-    "topic": "世界时事",
-    "region": "cn",
-    "published": "2026-09-26T02:51:55",
-    "author": ""
-  },
-  {
-    "title": "中美AI競賽：世界變得更危險還是更安全？",
-    "url": "https://www.bbc.com/zhongwen/articles/cwx2zmzd63gxo/trad?at_medium=RSS&at_campaign=rss",
-    "source": "BBC 中文",
-    "topic": "世界时事",
-    "region": "cn",
-    "published": "2026-09-25T08:12:02",
-    "author": ""
-  },
-  {
     "title": "數百艘中國漁船出現在越南外海，北京想要什麼？",
     "url": "https://www.bbc.com/zhongwen/articles/ck1l6ynmmvlvo/trad?at_medium=RSS&at_campaign=rss",
     "source": "BBC 中文",
@@ -1194,16 +1203,7 @@
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-10-01T22:23:07",
-    "author": "hn_acker · 505 pts · 223 comments"
-  },
-  {
-    "title": "Apple Pass Designer",
-    "url": "https://developer.apple.com/pass-designer/",
-    "source": "HackerNews",
-    "topic": "技术圈",
-    "region": "intl",
-    "published": "2026-10-02T19:06:56",
-    "author": "soheilpro · 315 pts · 213 comments"
+    "author": "hn_acker · 591 pts · 257 comments"
   },
   {
     "title": "Mike Tomlin spent 12 years building a Minecraft city",
@@ -1212,7 +1212,52 @@
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-10-01T18:20:18",
-    "author": "CoryOndrejka · 272 pts · 75 comments"
+    "author": "CoryOndrejka · 408 pts · 102 comments"
+  },
+  {
+    "title": "Apple Pass Designer",
+    "url": "https://developer.apple.com/pass-designer/",
+    "source": "HackerNews",
+    "topic": "技术圈",
+    "region": "intl",
+    "published": "2026-10-02T19:06:56",
+    "author": "soheilpro · 389 pts · 237 comments"
+  },
+  {
+    "title": "A 12-year sequence of telescope images of a star and four planets orbiting",
+    "url": "https://bsky.app/profile/theplanetaryguy.com/post/3mwucf5ert22f",
+    "source": "HackerNews",
+    "topic": "技术圈",
+    "region": "intl",
+    "published": "2026-10-02T11:07:17",
+    "author": "mariuz · 247 pts · 53 comments"
+  },
+  {
+    "title": "Loss of cell identity drives human aging: Two new papers",
+    "url": "https://erictopol.substack.com/p/loss-of-cell-identity-drives-human",
+    "source": "HackerNews",
+    "topic": "技术圈",
+    "region": "intl",
+    "published": "2026-10-01T20:02:57",
+    "author": "bookofjoe · 222 pts · 66 comments"
+  },
+  {
+    "title": "With most information hidden, the game Stratego had stumped AI until now",
+    "url": "https://arstechnica.com/science/2026/10/ai-finally-beat-the-best-stratego-player-in-history-and-did-it-on-a-budget/",
+    "source": "HackerNews",
+    "topic": "技术圈",
+    "region": "intl",
+    "published": "2026-10-02T14:11:24",
+    "author": "PaulHoule · 205 pts · 98 comments"
+  },
+  {
+    "title": "From the creator of Redis; run LLM locally with ds4",
+    "url": "https://dwarfstar.sh/",
+    "source": "HackerNews",
+    "topic": "技术圈",
+    "region": "intl",
+    "published": "2026-10-02T18:01:16",
+    "author": "fibo · 209 pts · 56 comments"
   },
   {
     "title": "FLUX 3 Image",
@@ -1221,7 +1266,16 @@
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-10-01T19:24:29",
-    "author": "minimaxir · 271 pts · 59 comments"
+    "author": "minimaxir · 313 pts · 68 comments"
+  },
+  {
+    "title": "Greg Kroah-Hartman – Security in the LLM Age [video]",
+    "url": "https://www.youtube.com/watch?v=NnV_cWeoo5Q",
+    "source": "HackerNews",
+    "topic": "技术圈",
+    "region": "intl",
+    "published": "2026-10-02T02:51:27",
+    "author": "usernomdeguerre · 221 pts · 59 comments"
   },
   {
     "title": "Sites in ChatGPT",
@@ -1230,7 +1284,16 @@
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-10-01T22:22:21",
-    "author": "polvi · 208 pts · 216 comments"
+    "author": "polvi · 250 pts · 241 comments"
+  },
+  {
+    "title": "Show HN: Giving Opus 5.5 a simulated paint canvas",
+    "url": "https://stillwet.art/",
+    "source": "HackerNews",
+    "topic": "技术圈",
+    "region": "intl",
+    "published": "2026-10-02T00:27:56",
+    "author": "alstonite · 257 pts · 78 comments"
   },
   {
     "title": "The Legend of von Neumann (1973) [pdf]",
@@ -1239,16 +1302,7 @@
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-10-02T13:18:32",
-    "author": "suopspaces · 243 pts · 140 comments"
-  },
-  {
-    "title": "Zig v0.17.0",
-    "url": "https://ziglang.org/download/0.17.0/release-notes.html",
-    "source": "HackerNews",
-    "topic": "技术圈",
-    "region": "intl",
-    "published": "2026-10-02T20:56:36",
-    "author": "ErenayDev · 208 pts · 129 comments"
+    "author": "suopspaces · 271 pts · 145 comments"
   },
   {
     "title": "openai/openai-python 发布 v3.24.0",
@@ -1287,6 +1341,15 @@
     "author": "github-actions[bot]"
   },
   {
+    "title": "siyuan-note/siyuan 发布 v3.8.7-alpha.3",
+    "url": "https://github.com/siyuan-note/siyuan/releases/tag/v3.8.7-alpha.3",
+    "source": "GitHubRelease",
+    "topic": "GitHub 动态",
+    "region": "intl",
+    "published": "2026-10-03T01:33:50",
+    "author": "github-actions[bot]"
+  },
+  {
     "title": "vercel/next.js 发布 v16.4.0-canary.58",
     "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.58",
     "source": "GitHubRelease",
@@ -1296,58 +1359,49 @@
     "author": "next-js-bot[bot]"
   },
   {
-    "title": "vercel/next.js 发布 v16.4.0-canary.57",
-    "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.57",
-    "source": "GitHubRelease",
-    "topic": "GitHub 动态",
-    "region": "intl",
-    "published": "2026-10-02T03:44:18",
-    "author": "next-js-bot[bot]"
-  },
-  {
-    "title": "Clinician Trust and Human Factors in AI-Enabled Clinical Decision Support in Acute Care: Mixed Methods Study.",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42826375/",
+    "title": "Institutionalizing mathematical modelling for public health decision-making: moving from ad hoc collaboration to a sustainable system in Thailand.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42827045/",
     "source": "PubMed",
     "topic": "心理学",
     "region": "intl",
     "published": "2026",
-    "author": "Meghana Darla, Danielle Miltz, Khushboo Chandnani, Saptarshi Purkayastha"
+    "author": "Warittakorn Kategeaw, Thipsukhon Sathapanasiri, Phayom Sookaneknun Olson, Damon Toth"
   },
   {
-    "title": "Decoding Treatment Response and Prognosis in Unresectable Locally Advanced Non-Small Cell Lung Cancer by Integrating Spatiotemporal Heterogeneity From",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42826363/",
+    "title": "The whole is greater than the sum of its parts: Evaluating systems of assessment as complex adaptive systems.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42827027/",
     "source": "PubMed",
     "topic": "心理学",
     "region": "intl",
     "published": "2026",
-    "author": "Yu Ji, Jiaqi Wang, Meixia Zhou, Yaru Wang"
+    "author": "Phil Hider, Dario Torre, Sylvia Heeneman, Tim J Wilkinson"
   },
   {
-    "title": "Identification of independent predictors of successful external cephalic version: A retrospective multicenter study.",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42826269/",
+    "title": "RIFM 60th Anniversary Special Issue: Toxicological Impact of RIFM Science Throughout the Years.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42826879/",
     "source": "PubMed",
     "topic": "心理学",
     "region": "intl",
     "published": "2026",
-    "author": "Yali Yang, Qiaofang Yang, Xufei Fan"
+    "author": "G Frank Gerberick"
   },
   {
-    "title": "Standardizing Disaster Health Data Visualization Using Fast Healthcare Interoperability Resources in Indonesia: Dashboard Development and Technical Evaluation.",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42826230/",
+    "title": "Survival Outcomes of Ovarian-Sparing Surgery for Early-Stage Adult Granulosa Cell Tumor.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42826858/",
     "source": "PubMed",
     "topic": "心理学",
     "region": "intl",
     "published": "2026",
-    "author": "Hiro Putra Faisal, Masaharu Nakayama"
+    "author": "Fiamma L Van Biema, Yongmei Huang, Delanie Ludmir, Kevin J Rouse"
   },
   {
-    "title": "Psychological and computational evidence that merit is a constructed evaluative process.",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42826185/",
+    "title": "40 Hz Transcutaneous Auricular Vagus Nerve Stimulation Enhances Verbal Free Recall in Healthy Adults by Modulating Frontal Theta Oscillations.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42826854/",
     "source": "PubMed",
     "topic": "心理学",
     "region": "intl",
     "published": "2026",
-    "author": "Sarah Vahed, Alan G Sanfey"
+    "author": "Yinpei Luo, Shu Yin, Liping Chen, Haiyin Gao"
   },
   {
     "title": "Probabilistic electrical power demand forecasting with uncertainty quantification",
