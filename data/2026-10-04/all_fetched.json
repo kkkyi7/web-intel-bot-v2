@@ -72,13 +72,40 @@
     "author": "Cristian McGee, El Houcine Bergou, Aritra Dutta"
   },
   {
+    "title": "Tell HN: Bob Cringely has died",
+    "url": "https://news.ycombinator.com/item?id=49949438",
+    "source": "HackerNews",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-10-04T00:50:52",
+    "author": "paveworld · 354 pts · 67 comments"
+  },
+  {
+    "title": "The work by Valve's Timur Kristóf on improving old AMD GPUs on Linux",
+    "url": "https://www.phoronix.com/news/XDC-2026-Valve-Timur-AMDGPU",
+    "source": "HackerNews",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-10-03T19:14:48",
+    "author": "speckx · 234 pts · 27 comments"
+  },
+  {
+    "title": "We're going to need default hard budget caps on pretty much everything",
+    "url": "https://simonwillison.net/2026/Oct/3/default-hard-budget-caps/",
+    "source": "HackerNews",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-10-04T00:20:16",
+    "author": "elffjs · 373 pts · 184 comments"
+  },
+  {
     "title": "Hole Punch: Sling your spaceship around gravitational fields",
     "url": "https://notoriousbfg.com/hole-punch/",
     "source": "HackerNews",
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-10-03T18:06:45",
-    "author": "trwhite · 230 pts · 58 comments"
+    "author": "trwhite · 276 pts · 62 comments"
   },
   {
     "title": "Kolibri: A Sovereign Open-Weight Model",
@@ -87,16 +114,16 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-10-03T09:36:04",
-    "author": "bastitx · 510 pts · 298 comments"
+    "author": "bastitx · 582 pts · 311 comments"
   },
   {
-    "title": "Federal judge calls Flock 'indiscriminate mass surveillance'",
-    "url": "https://techcrunch.com/2026/10/03/federal-judge-calls-flock-indiscriminate-mass-surveillance/",
-    "source": "HackerNews",
+    "title": "Agent 的记忆不在对话里：把企业数仓沉淀为可治理的共享语义记忆｜QCon上海",
+    "url": "https://www.infoq.cn/article/M4mgbKf4RDv5AKTwQvFH?utm_source=rss&utm_medium=article",
+    "source": "InfoQ 中文",
     "topic": "AI大事",
-    "region": "intl",
-    "published": "2026-10-03T22:07:13",
-    "author": "sbulaev · 294 pts · 190 comments"
+    "region": "cn",
+    "published": "2026-10-04T10:00:00",
+    "author": "QCon全球软件开发大会"
   },
   {
     "title": "企业级 Agent Infra 架构实践：从安全沙箱到网络管控与身份治理｜QCon上海",
@@ -180,13 +207,13 @@
     "author": "Denise Persson"
   },
   {
-    "title": "一个忘关的开关，与企业Agent的全栈技术账单",
-    "url": "https://www.infoq.cn/article/z9VP6ZQ3vCxTrk1VdU5D?utm_source=rss&utm_medium=article",
-    "source": "InfoQ 中文",
+    "title": "最火AI岗位FDE：月薪5万，都干这些…",
+    "url": "https://www.qbitai.com/2026/10/501506.html",
+    "source": "量子位",
     "topic": "AI大事",
     "region": "cn",
-    "published": "2026-09-30T12:10:15",
-    "author": "李文朋"
+    "published": "2026-10-04T06:05:35",
+    "author": "田, 晏林"
   },
   {
     "title": "GPT-6要“吃掉”3D公司？这家公司不到2年ARR翻百倍，破1亿美元",
@@ -243,42 +270,6 @@
     "author": "鹭羽"
   },
   {
-    "title": "OpenAI推理之父最新访谈！数学只是多智能体时代的开胃菜",
-    "url": "https://www.qbitai.com/2026/09/499654.html",
-    "source": "量子位",
-    "topic": "AI大事",
-    "region": "cn",
-    "published": "2026-09-30T14:03:43",
-    "author": "衡宇"
-  },
-  {
-    "title": "Panniantong/Agent-Reach",
-    "url": "https://github.com/Panniantong/Agent-Reach",
-    "source": "GitHub Trending",
-    "topic": "AI大事",
-    "region": "intl",
-    "published": "",
-    "author": ""
-  },
-  {
-    "title": "JuliusBrussee/caveman",
-    "url": "https://github.com/JuliusBrussee/caveman",
-    "source": "GitHub Trending",
-    "topic": "AI大事",
-    "region": "intl",
-    "published": "",
-    "author": ""
-  },
-  {
-    "title": "obra/superpowers",
-    "url": "https://github.com/obra/superpowers",
-    "source": "GitHub Trending",
-    "topic": "AI大事",
-    "region": "intl",
-    "published": "",
-    "author": ""
-  },
-  {
     "title": "DietrichGebert/ponytail",
     "url": "https://github.com/DietrichGebert/ponytail",
     "source": "GitHub Trending",
@@ -297,8 +288,8 @@
     "author": ""
   },
   {
-    "title": "mattpocock/skills",
-    "url": "https://github.com/mattpocock/skills",
+    "title": "affaan-m/ECC",
+    "url": "https://github.com/affaan-m/ECC",
     "source": "GitHub Trending",
     "topic": "AI大事",
     "region": "intl",
@@ -306,8 +297,8 @@
     "author": ""
   },
   {
-    "title": "NVIDIA/OpenShell",
-    "url": "https://github.com/NVIDIA/OpenShell",
+    "title": "Effect-TS/effect",
+    "url": "https://github.com/Effect-TS/effect",
     "source": "GitHub Trending",
     "topic": "AI大事",
     "region": "intl",
@@ -315,8 +306,8 @@
     "author": ""
   },
   {
-    "title": "coreyhaines31/marketingskills",
-    "url": "https://github.com/coreyhaines31/marketingskills",
+    "title": "JuliusBrussee/caveman",
+    "url": "https://github.com/JuliusBrussee/caveman",
     "source": "GitHub Trending",
     "topic": "AI大事",
     "region": "intl",
@@ -324,8 +315,8 @@
     "author": ""
   },
   {
-    "title": "heygen-com/hyperframes",
-    "url": "https://github.com/heygen-com/hyperframes",
+    "title": "Panniantong/Agent-Reach",
+    "url": "https://github.com/Panniantong/Agent-Reach",
     "source": "GitHub Trending",
     "topic": "AI大事",
     "region": "intl",
@@ -333,8 +324,35 @@
     "author": ""
   },
   {
-    "title": "mksglu/context-mode",
-    "url": "https://github.com/mksglu/context-mode",
+    "title": "pingdotgg/t3code",
+    "url": "https://github.com/pingdotgg/t3code",
+    "source": "GitHub Trending",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "",
+    "author": ""
+  },
+  {
+    "title": "thedotmack/claude-mem",
+    "url": "https://github.com/thedotmack/claude-mem",
+    "source": "GitHub Trending",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "",
+    "author": ""
+  },
+  {
+    "title": "cloudflare/cloudflare-os",
+    "url": "https://github.com/cloudflare/cloudflare-os",
+    "source": "GitHub Trending",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "",
+    "author": ""
+  },
+  {
+    "title": "addyosmani/agent-skills",
+    "url": "https://github.com/addyosmani/agent-skills",
     "source": "GitHub Trending",
     "topic": "AI大事",
     "region": "intl",
@@ -918,174 +936,12 @@
     "author": ""
   },
   {
-    "title": "澎湃早晚报｜早餐湃·中东“空中浩劫”",
-    "url": "https://m.thepaper.cn/papernews/morningEveningPaper?n=268268",
-    "source": "澎湃新闻",
-    "topic": "世界时事",
-    "region": "cn",
-    "published": "2026-10-04T01:11:36",
-    "author": ""
-  },
-  {
-    "title": "机构研判A股节后大概率回暖",
-    "url": "https://m.thepaper.cn/detail/34197324",
-    "source": "澎湃新闻",
-    "topic": "世界时事",
-    "region": "cn",
-    "published": "2026-10-04T00:55:07",
-    "author": "中国经济网"
-  },
-  {
-    "title": "通胀冲击历史性升温，日本民众餐桌承压",
-    "url": "https://m.thepaper.cn/detail/34197229",
-    "source": "澎湃新闻",
-    "topic": "世界时事",
-    "region": "cn",
-    "published": "2026-10-03T23:51:39",
-    "author": "三里河/中新社"
-  },
-  {
-    "title": "对话西湖大学林文斌，谈诺奖“潜力股”努佐：对研究始终保持批判性审视视角",
-    "url": "https://m.thepaper.cn/detail/34195687",
-    "source": "澎湃新闻",
-    "topic": "世界时事",
-    "region": "cn",
-    "published": "2026-10-03T23:35:31",
-    "author": "澎湃新闻记者 喻琰"
-  },
-  {
-    "title": "明查｜用Xbox手柄就能控制激光武器摧毁伊朗基础设施？误导信息，还做不到",
-    "url": "https://m.thepaper.cn/detail/34195629",
-    "source": "澎湃新闻",
-    "topic": "世界时事",
-    "region": "cn",
-    "published": "2026-10-03T23:26:22",
-    "author": "明查员 陶亚迪 袁源"
-  },
-  {
-    "title": "巴西大选今迎“左右对决”：卢拉与博索纳罗之子胶着，谁能破解选后难治？",
-    "url": "https://m.thepaper.cn/detail/34194192",
-    "source": "澎湃新闻",
-    "topic": "世界时事",
-    "region": "cn",
-    "published": "2026-10-03T23:20:45",
-    "author": "澎湃新闻记者 黄粤涵"
-  },
-  {
-    "title": "中东“空中浩劫”丨勇者们与6岁女孩的故事",
-    "url": "https://m.thepaper.cn/detail/34195822",
-    "source": "澎湃新闻",
-    "topic": "世界时事",
-    "region": "cn",
-    "published": "2026-10-03T23:20:09",
-    "author": "澎湃新闻记者 杨一"
-  },
-  {
-    "title": "视线｜每天两列慢货车的百年火车站 每周一市集人潮熙攘",
-    "url": "https://photos.caixin.com/2026-10-03/102490589.html",
-    "source": "财新网",
-    "topic": "世界时事",
-    "region": "cn",
-    "published": "2026-10-03T07:08:06",
-    "author": ""
-  },
-  {
-    "title": "欧洲市场复苏贡献增量 特斯拉第三季度交付超预期",
-    "url": "https://www.caixin.com/2026-10-03/102490583.html",
-    "source": "财新网",
-    "topic": "世界时事",
-    "region": "cn",
-    "published": "2026-10-03T06:16:25",
-    "author": ""
-  },
-  {
-    "title": "看不见的《交锋》｜影视",
-    "url": "https://mini.caixin.com/2026-10-03/102490500.html",
-    "source": "财新网",
-    "topic": "世界时事",
-    "region": "cn",
-    "published": "2026-10-03T00:56:35",
-    "author": ""
-  },
-  {
-    "title": "特朗普威胁11月选举后或恢复对伊攻击 美军又向中东增兵",
-    "url": "https://international.caixin.com/2026-10-02/102490481.html",
-    "source": "财新网",
-    "topic": "世界时事",
-    "region": "cn",
-    "published": "2026-10-02T14:35:30",
-    "author": ""
-  },
-  {
-    "title": "美国9月新增就业2.9万逊于预期 中期选举前不加息概率升至83%",
-    "url": "https://international.caixin.com/2026-10-02/102490477.html",
-    "source": "财新网",
-    "topic": "世界时事",
-    "region": "cn",
-    "published": "2026-10-02T13:57:15",
-    "author": ""
-  },
-  {
-    "title": "图集｜迪拜航空副驾驶图谋人为坠机 乘客合力擒凶安全备降",
-    "url": "https://photos.caixin.com/2026-10-02/102490450.html",
-    "source": "财新网",
-    "topic": "世界时事",
-    "region": "cn",
-    "published": "2026-10-02T12:55:55",
-    "author": ""
-  },
-  {
-    "title": "泽连斯基怂恿特朗普：制裁中俄企业",
-    "url": "https://www.guancha.cn/GuoJi%C2%B7ZhanLue/2026_10_04_903139_s.shtml",
-    "source": "观察者网",
-    "topic": "世界时事",
-    "region": "cn",
-    "published": "2026-10-03T23:39:00",
-    "author": ""
-  },
-  {
-    "title": "美国想建“中国之外钨链”，先撞上现实",
-    "url": "https://www.guancha.cn/GuoJi%C2%B7ZhanLue/2026_10_03_903084_s.shtml",
-    "source": "观察者网",
-    "topic": "世界时事",
-    "region": "cn",
-    "published": "2026-10-03T06:21:00",
-    "author": ""
-  },
-  {
-    "title": "“农产滞销，帮帮我们”，止于怜悯的助农直播能走多远？",
-    "url": "https://www.guancha.cn/ChengShi/2026_10_02_902606_s.shtml",
-    "source": "观察者网",
-    "topic": "世界时事",
-    "region": "cn",
-    "published": "2026-10-02T13:58:00",
-    "author": ""
-  },
-  {
-    "title": "特朗普催账，韩国先掏2000亿美元",
-    "url": "https://www.guancha.cn/GuoJi%C2%B7ZhanLue/2026_10_01_902877_s.shtml",
-    "source": "观察者网",
-    "topic": "世界时事",
-    "region": "cn",
-    "published": "2026-10-01T02:50:00",
-    "author": ""
-  },
-  {
-    "title": "德法“磨刀霍霍”，中方把话挑明了",
-    "url": "https://www.guancha.cn/GuoJi%C2%B7ZhanLue/2026_09_30_902774_s.shtml",
-    "source": "观察者网",
-    "topic": "世界时事",
-    "region": "cn",
-    "published": "2026-09-30T07:59:00",
-    "author": ""
-  },
-  {
-    "title": "「救了174人的生命」：杜拜航空劫機案，遭刺傷的印度機師是誰？",
-    "url": "https://www.bbc.com/zhongwen/articles/c61585j4vlkgo/trad?at_medium=RSS&at_campaign=rss",
+    "title": "迪拜航空劫機案：阿聯酋官員稱副駕駛用應急斧頭砍傷機長",
+    "url": "https://www.bbc.com/zhongwen/articles/ck20w70p4n5wo/trad?at_medium=RSS&at_campaign=rss",
     "source": "BBC 中文",
     "topic": "世界时事",
     "region": "cn",
-    "published": "2026-10-02T08:24:10",
+    "published": "2026-10-04T02:44:22",
     "author": ""
   },
   {
@@ -1143,13 +999,40 @@
     "author": ""
   },
   {
+    "title": "Tell HN: Bob Cringely has died",
+    "url": "https://news.ycombinator.com/item?id=49949438",
+    "source": "HackerNews",
+    "topic": "技术圈",
+    "region": "intl",
+    "published": "2026-10-04T00:50:52",
+    "author": "paveworld · 354 pts · 69 comments"
+  },
+  {
+    "title": "The work by Valve's Timur Kristóf on improving old AMD GPUs on Linux",
+    "url": "https://www.phoronix.com/news/XDC-2026-Valve-Timur-AMDGPU",
+    "source": "HackerNews",
+    "topic": "技术圈",
+    "region": "intl",
+    "published": "2026-10-03T19:14:48",
+    "author": "speckx · 234 pts · 27 comments"
+  },
+  {
+    "title": "We're going to need default hard budget caps on pretty much everything",
+    "url": "https://simonwillison.net/2026/Oct/3/default-hard-budget-caps/",
+    "source": "HackerNews",
+    "topic": "技术圈",
+    "region": "intl",
+    "published": "2026-10-04T00:20:16",
+    "author": "elffjs · 375 pts · 184 comments"
+  },
+  {
     "title": "Hole Punch: Sling your spaceship around gravitational fields",
     "url": "https://notoriousbfg.com/hole-punch/",
     "source": "HackerNews",
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-10-03T18:06:45",
-    "author": "trwhite · 230 pts · 58 comments"
+    "author": "trwhite · 276 pts · 62 comments"
   },
   {
     "title": "Kolibri: A Sovereign Open-Weight Model",
@@ -1158,16 +1041,7 @@
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-10-03T09:36:04",
-    "author": "bastitx · 510 pts · 298 comments"
-  },
-  {
-    "title": "Federal judge calls Flock 'indiscriminate mass surveillance'",
-    "url": "https://techcrunch.com/2026/10/03/federal-judge-calls-flock-indiscriminate-mass-surveillance/",
-    "source": "HackerNews",
-    "topic": "技术圈",
-    "region": "intl",
-    "published": "2026-10-03T22:07:13",
-    "author": "sbulaev · 294 pts · 190 comments"
+    "author": "bastitx · 583 pts · 311 comments"
   },
   {
     "title": "anthropics/claude-code 发布 v2.1.289",
@@ -1188,15 +1062,6 @@
     "author": "github-actions[bot]"
   },
   {
-    "title": "siyuan-note/siyuan 发布 v3.8.7-alpha.3",
-    "url": "https://github.com/siyuan-note/siyuan/releases/tag/v3.8.7-alpha.3",
-    "source": "GitHubRelease",
-    "topic": "GitHub 动态",
-    "region": "intl",
-    "published": "2026-10-03T01:33:50",
-    "author": "github-actions[bot]"
-  },
-  {
     "title": "vercel/next.js 发布 v16.4.0-canary.59",
     "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0-canary.59",
     "source": "GitHubRelease",
@@ -1206,49 +1071,49 @@
     "author": "next-js-bot[bot]"
   },
   {
-    "title": "Pediatric Spinal Cord Astrocytoma With Granular Cell-Like Morphology and KIAA1549::BRAF Fusion.",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42827401/",
+    "title": "The SOAR project: Developing a framework for screening for older adults' abuse risk.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42829298/",
     "source": "PubMed",
     "topic": "心理学",
     "region": "intl",
     "published": "2026",
-    "author": "Yuka Ogawa, Takeshi Hiu, Hiroko Hayashi, Kenta Masui"
+    "author": "Yoram Barak, Paul Glue, Linda Hobbs, Lara Vlietstra"
   },
   {
-    "title": "Predictive Value of Follow-Up CT in Conservatively Managed Traumatic Brain Injury.",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42827387/",
+    "title": "Caregiver's perspectives toward genome sequencing in children with neurodevelopmental disorders: Integrating genomic information into pediatric care.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42829253/",
     "source": "PubMed",
     "topic": "心理学",
     "region": "intl",
     "published": "2026",
-    "author": "Hatem Marie, Dana Abdullatif Alkandari, Maximilian Peter Forssten, Yousef AlHussaini"
+    "author": "Gabriella E George, Rebecca Schecter, Joane Padilla, Andrej Bogojevic"
   },
   {
-    "title": "A Conceptual Roadmap toward Informed Prenatal Genetic Screening and Diagnostic Testing: A Qualitative Study.",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42827345/",
+    "title": "Focused performance assessment predicts ability to perform open thoracic trauma procedures.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42829236/",
     "source": "PubMed",
     "topic": "心理学",
     "region": "intl",
     "published": "2026",
-    "author": "Miller S Finkelstein, John F P Bridges, Norah L Crossnohere, Christina Collart"
+    "author": "Pamela Andreatta, Benjamin L Scott, Matthew Bradley, Mark Bowyer"
   },
   {
-    "title": "Family-Related Factors, Parenting Practices, and Cognitive Attitudes in the Risk of Functional Gastrointestinal Diseases: A Cross-Sectional Study.",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42827340/",
+    "title": "A Holistic Patient-Centered Lifestyle Intervention for Health Promotion in Southern Peru.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42829209/",
     "source": "PubMed",
     "topic": "心理学",
     "region": "intl",
     "published": "2026",
-    "author": "Ming Shen, Shu-Ming Ji, Ming-Fang Wei, Wei Wang"
+    "author": "Brian C Marlia-Larsen, Victor J Villasante, Lori Jo Marlia-Larsen, Diana R Jolles"
   },
   {
-    "title": "Perceived Barriers Among Midwives to Implementation of the Modified Partograph in a Public Hospital in Gauteng Province, South Africa.",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42827304/",
+    "title": "Does ageing increase vulnerability to hypoglycaemia and hyperglycaemia? A systematic review of physiological and cognitive responses.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42829186/",
     "source": "PubMed",
     "topic": "心理学",
     "region": "intl",
     "published": "2026",
-    "author": "Mariatha Yazbek, Carin Maree, Rebotile V Morobe, Florence F Mafisa"
+    "author": "Steven Trawley, Antoine Christiaens, Amanda N Stephens, Sybil A McAuley"
   },
   {
     "title": "Probabilistic electrical power demand forecasting with uncertainty quantification",
