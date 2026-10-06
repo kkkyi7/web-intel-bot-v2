@@ -1,93 +1,21 @@
 [
   {
-    "title": "PyINE: A Framework for Scalable Elicitation and Oversight via Code Execution",
-    "url": "http://arxiv.org/abs/2610.04737v1",
-    "source": "arXiv",
-    "topic": "AI大事",
-    "region": "intl",
-    "published": "2026-10-03T20:03:43",
-    "author": "Pierre-Luc St-Charles, Alessandro Palmas, Damiano Fornasiere, Storm Lei, Mirko Bronzi, Jean-Pierre Falet, Iulian Serban, Yoshua Bengio"
-  },
-  {
-    "title": "Verb-ICL: Rethinking In-Context Learning for Structured Prediction",
-    "url": "http://arxiv.org/abs/2610.04725v1",
-    "source": "arXiv",
-    "topic": "AI大事",
-    "region": "intl",
-    "published": "2026-10-03T19:30:17",
-    "author": "Fan Bai, Hengshuo Miao, Sanjit S Batra, Hamid Reza Hassanzadeh, Ardavan Saeedi, Mark Dredze"
-  },
-  {
-    "title": "Not Self-Decidable: LLMs Cannot Draw the Boundary of What an Agent Verifier Can Check",
-    "url": "http://arxiv.org/abs/2610.04699v1",
-    "source": "arXiv",
-    "topic": "AI大事",
-    "region": "intl",
-    "published": "2026-10-03T18:25:12",
-    "author": "Anthony Rhodes"
-  },
-  {
-    "title": "Understanding Errors in LLM-Based Question Answering over Imperfect Tables",
-    "url": "http://arxiv.org/abs/2610.04687v1",
-    "source": "arXiv",
-    "topic": "AI大事",
-    "region": "intl",
-    "published": "2026-10-03T18:03:41",
-    "author": "Baowen Zhang, Wei Fan, Ruman Wang, Hangting Ye"
-  },
-  {
-    "title": "Steering Speech-Language Models: Training-Free Task Specialization via Contrastive Activation Addition",
-    "url": "http://arxiv.org/abs/2610.04683v1",
-    "source": "arXiv",
-    "topic": "AI大事",
-    "region": "intl",
-    "published": "2026-10-03T17:53:30",
-    "author": "Séverin Baroudi, Yanis Labrak, Pierfrancesco Melucci, Sergio Burdisso, Petr Motlicek, Hervé Bredin, Mirco Ravanelli, Ricard Marxer"
-  },
-  {
-    "title": "Extracting Persona Subspaces Through Iterative Nullspace Projection For Modulation",
-    "url": "http://arxiv.org/abs/2610.04676v1",
-    "source": "arXiv",
-    "topic": "AI大事",
-    "region": "intl",
-    "published": "2026-10-03T17:45:24",
-    "author": "Ananya Malik, Mai ElSherief"
-  },
-  {
-    "title": "MASBench: Benchmarking LLM-based Multi-Agent Collaboration under Partial Observability",
-    "url": "http://arxiv.org/abs/2610.04672v1",
-    "source": "arXiv",
-    "topic": "AI大事",
-    "region": "intl",
-    "published": "2026-10-03T17:40:24",
-    "author": "Qizhi Chu, Zekai Yu, Sijie Wen, Yang Liu, Chen Qian, Cheng Yang, Chuan Shi, Zhiyuan Liu"
-  },
-  {
-    "title": "RETRACE: From Entangled Repair Histories to Reusable Experience for CI Repair",
-    "url": "http://arxiv.org/abs/2610.04658v1",
-    "source": "arXiv",
-    "topic": "AI大事",
-    "region": "intl",
-    "published": "2026-10-03T17:08:17",
-    "author": "Rabeya Khatun Muna, Muhammad Ahasanuzzaman, Nakhla Rafi, Yisen Xu, Jinqiu Yang, Tse-Hsun Chen"
-  },
-  {
-    "title": "ChatGPT is adding real cartoonists' signatures to fake New Yorker cartoons",
-    "url": "https://www.niemanlab.org/2026/10/chatgpt-is-adding-real-cartoonists-signatures-to-fake-new-yorker-cartoons/",
-    "source": "HackerNews",
-    "topic": "AI大事",
-    "region": "intl",
-    "published": "2026-10-05T22:46:45",
-    "author": "rdmuser · 207 pts · 104 comments"
-  },
-  {
     "title": "Beam: Reflection's 501B open-weight model",
     "url": "https://reflection.ai/blog/introducing-beam",
     "source": "HackerNews",
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-10-05T19:16:35",
-    "author": "Philpax · 302 pts · 78 comments"
+    "author": "Philpax · 419 pts · 131 comments"
+  },
+  {
+    "title": "Example.com just launched the biggest redesign in decades",
+    "url": "https://www.debugbear.com/blog/example-dot-com-redesign-history",
+    "source": "HackerNews",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-10-05T22:55:11",
+    "author": "jgx0 · 203 pts · 117 comments"
   },
   {
     "title": "Opus 5.5 agents discover two room-temperature magnetic semiconductor candidates",
@@ -96,16 +24,7 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-10-05T21:00:21",
-    "author": "outlier99 · 202 pts · 153 comments"
-  },
-  {
-    "title": "Web Search API",
-    "url": "https://developers.cloudflare.com/changelog/post/2026-10-02-introducing-web-search-api/",
-    "source": "HackerNews",
-    "topic": "AI大事",
-    "region": "intl",
-    "published": "2026-10-05T10:47:06",
-    "author": "tosh · 482 pts · 221 comments"
+    "author": "outlier99 · 327 pts · 210 comments"
   },
   {
     "title": "Anthropic reported diary entry to police, woman faces felony charge",
@@ -114,7 +33,25 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-10-05T05:37:40",
-    "author": "emptybits · 534 pts · 455 comments"
+    "author": "emptybits · 704 pts · 538 comments"
+  },
+  {
+    "title": "Web Search API",
+    "url": "https://developers.cloudflare.com/changelog/post/2026-10-02-introducing-web-search-api/",
+    "source": "HackerNews",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-10-05T10:47:06",
+    "author": "tosh · 531 pts · 241 comments"
+  },
+  {
+    "title": "ChatGPT is adding real cartoonists' signatures to fake New Yorker cartoons",
+    "url": "https://www.niemanlab.org/2026/10/chatgpt-is-adding-real-cartoonists-signatures-to-fake-new-yorker-cartoons/",
+    "source": "HackerNews",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-10-05T22:46:45",
+    "author": "rdmuser · 396 pts · 294 comments"
   },
   {
     "title": "Apple and a hacker's future",
@@ -123,7 +60,16 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-10-05T10:05:02",
-    "author": "maguay · 204 pts · 183 comments"
+    "author": "maguay · 245 pts · 213 comments"
+  },
+  {
+    "title": "AI + SRE ≠ AISRE：AI 如何真正进入生产运维闭环｜QCon上海",
+    "url": "https://www.infoq.cn/article/u70P77XPmsXmRBciu6fL?utm_source=rss&utm_medium=article",
+    "source": "InfoQ 中文",
+    "topic": "AI大事",
+    "region": "cn",
+    "published": "2026-10-06T10:00:00",
+    "author": "QCon全球软件开发大会"
   },
   {
     "title": "DataAgent - 快手大数据生产与分析的智能化探索之路｜QCon上海",
@@ -207,15 +153,6 @@
     "author": "作者：Craig Risi"
   },
   {
-    "title": "DeepSeek 开源昇腾平台基础设施组件，覆盖 TileLang、计算库与分布式通信库",
-    "url": "https://www.infoq.cn/article/t5i2Yv2z0LwIbK36lteR?utm_source=rss&utm_medium=article",
-    "source": "InfoQ 中文",
-    "topic": "AI大事",
-    "region": "cn",
-    "published": "2026-09-30T19:40:16",
-    "author": "林绮蓓"
-  },
-  {
     "title": "刚刚，Hinton发了首篇RSI论文",
     "url": "https://www.qbitai.com/2026/10/501705.html",
     "source": "量子位",
@@ -297,26 +234,8 @@
     "author": ""
   },
   {
-    "title": "pbakaus/impeccable",
-    "url": "https://github.com/pbakaus/impeccable",
-    "source": "GitHub Trending",
-    "topic": "AI大事",
-    "region": "intl",
-    "published": "",
-    "author": ""
-  },
-  {
-    "title": "coreyhaines31/marketingskills",
-    "url": "https://github.com/coreyhaines31/marketingskills",
-    "source": "GitHub Trending",
-    "topic": "AI大事",
-    "region": "intl",
-    "published": "",
-    "author": ""
-  },
-  {
-    "title": "DietrichGebert/ponytail",
-    "url": "https://github.com/DietrichGebert/ponytail",
+    "title": "thedotmack/claude-mem",
+    "url": "https://github.com/thedotmack/claude-mem",
     "source": "GitHub Trending",
     "topic": "AI大事",
     "region": "intl",
@@ -326,6 +245,24 @@
   {
     "title": "earthtojake/text-to-cad",
     "url": "https://github.com/earthtojake/text-to-cad",
+    "source": "GitHub Trending",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "",
+    "author": ""
+  },
+  {
+    "title": "pingdotgg/t3code",
+    "url": "https://github.com/pingdotgg/t3code",
+    "source": "GitHub Trending",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "",
+    "author": ""
+  },
+  {
+    "title": "boykopovar/AnyPS5",
+    "url": "https://github.com/boykopovar/AnyPS5",
     "source": "GitHub Trending",
     "topic": "AI大事",
     "region": "intl",
@@ -351,15 +288,6 @@
     "author": ""
   },
   {
-    "title": "pingdotgg/t3code",
-    "url": "https://github.com/pingdotgg/t3code",
-    "source": "GitHub Trending",
-    "topic": "AI大事",
-    "region": "intl",
-    "published": "",
-    "author": ""
-  },
-  {
     "title": "caddyserver/caddy",
     "url": "https://github.com/caddyserver/caddy",
     "source": "GitHub Trending",
@@ -369,8 +297,17 @@
     "author": ""
   },
   {
-    "title": "michael-denyer/pstack-claude",
-    "url": "https://github.com/michael-denyer/pstack-claude",
+    "title": "DuarteSantos8/openGym",
+    "url": "https://github.com/DuarteSantos8/openGym",
+    "source": "GitHub Trending",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "",
+    "author": ""
+  },
+  {
+    "title": "cloudflare/cloudflare-os",
+    "url": "https://github.com/cloudflare/cloudflare-os",
     "source": "GitHub Trending",
     "topic": "AI大事",
     "region": "intl",
@@ -567,6 +504,15 @@
     "author": "郑廷旭"
   },
   {
+    "title": "[AINews] Reflection Beam - 501B-A23B American Open Model",
+    "url": "https://www.latent.space/p/ainews-reflection-beam-501b-a23b",
+    "source": "Latent Space",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-10-06T06:28:43",
+    "author": ""
+  },
+  {
     "title": "[AINews] not much happened today",
     "url": "https://www.latent.space/p/ainews-not-much-happened-today-cee",
     "source": "Latent Space",
@@ -609,15 +555,6 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-10-01T06:45:05",
-    "author": ""
-  },
-  {
-    "title": "Why Dwarkesh is Wrong about Computer Use + How OpenAI shipped its Jev competitor in 1 Week",
-    "url": "https://www.latent.space/p/devday-2026",
-    "source": "Latent Space",
-    "topic": "AI大事",
-    "region": "intl",
-    "published": "2026-09-30T22:23:40",
     "author": ""
   },
   {
@@ -981,58 +918,76 @@
     "author": ""
   },
   {
-    "title": "美股科技股普涨助力，纳指再创收盘新高，布油跌逾1.8%",
-    "url": "https://m.thepaper.cn/detail/34204203",
+    "title": "麦加防卫联盟首次启动，土耳其和巴基斯坦将向沙特派兵",
+    "url": "https://m.thepaper.cn/detail/34204683",
     "source": "澎湃新闻",
     "topic": "世界时事",
     "region": "cn",
-    "published": "2026-10-06T01:08:07",
-    "author": "澎湃新闻记者 孙铭蔚"
+    "published": "2026-10-06T07:18:42",
+    "author": "澎湃新闻记者 南博一"
   },
   {
-    "title": "光遗传学斩获2026年诺奖，哪些药企有布局？进展如何？",
-    "url": "https://m.thepaper.cn/detail/34202882",
+    "title": "沙特禁摄、禁发、禁传拦截导弹和无人机信息，中使馆发提醒",
+    "url": "https://m.thepaper.cn/detail/34204788",
     "source": "澎湃新闻",
     "topic": "世界时事",
     "region": "cn",
-    "published": "2026-10-06T00:40:10",
-    "author": "澎湃新闻首席记者 李潇潇"
+    "published": "2026-10-06T06:08:35",
+    "author": "“中国驻沙特大使馆”微信公号"
   },
   {
-    "title": "体坛联播｜替补入4球法国逆转比利时，意大利送土耳其四连败",
-    "url": "https://m.thepaper.cn/detail/34204167",
+    "title": "GLP-1错失诺奖，独家对话主要发现者霍尔斯特：中国科学突破只是时间问题",
+    "url": "https://m.thepaper.cn/detail/34204786",
     "source": "澎湃新闻",
     "topic": "世界时事",
     "region": "cn",
-    "published": "2026-10-06T00:23:46",
-    "author": "澎湃新闻记者 胡杰 编辑 马作宇"
+    "published": "2026-10-06T05:47:41",
+    "author": "澎湃新闻记者 季敬杰"
   },
   {
-    "title": "美股三大股指集体收涨，纳指创收盘新高，纳斯达克金龙中国指数涨1.71%",
-    "url": "https://m.thepaper.cn/detail/34204191",
+    "title": "巴西总统选举首轮博索纳罗之子领先，25日举行第二轮投票",
+    "url": "https://m.thepaper.cn/detail/34204354",
     "source": "澎湃新闻",
     "topic": "世界时事",
     "region": "cn",
-    "published": "2026-10-06T00:19:59",
-    "author": "中新经纬"
+    "published": "2026-10-06T05:32:24",
+    "author": "澎湃新闻记者 南博一"
   },
   {
-    "title": "奔赴“县”场｜一篇未能抵达现场的报道：长海县与网红海豹“娜娜”",
-    "url": "https://m.thepaper.cn/detail/34201346",
+    "title": "奔赴“县”场｜“千年纸乡”夹江：工艺大县的体验化转型",
+    "url": "https://m.thepaper.cn/detail/34202418",
     "source": "澎湃新闻",
     "topic": "世界时事",
     "region": "cn",
-    "published": "2026-10-05T23:27:58",
-    "author": "澎湃新闻记者 韩雨亭"
+    "published": "2026-10-06T05:31:31",
+    "author": "澎湃新闻记者 林平"
   },
   {
-    "title": "人物｜从山地游击战到扰乱全球市场，胡塞武装的神秘领导人是谁？",
-    "url": "https://m.thepaper.cn/detail/34200933",
+    "title": "国庆黄金周即将收官，上海口岸入境外籍旅客热度不减",
+    "url": "https://m.thepaper.cn/detail/34204678",
     "source": "澎湃新闻",
     "topic": "世界时事",
     "region": "cn",
-    "published": "2026-10-05T23:12:38",
-    "author": "澎湃新闻记者 李怡彬"
+    "published": "2026-10-06T05:02:56",
+    "author": "澎湃新闻记者 邓玲玮 通讯员 曹乃文"
+  },
+  {
+    "title": "从资金链看政策空间",
+    "url": "https://opinion.caixin.com/2026-10-06/102490893.html",
+    "source": "财新网",
+    "topic": "世界时事",
+    "region": "cn",
+    "published": "2026-10-06T06:26:35",
+    "author": ""
+  },
+  {
+    "title": "AMD天价收购World Labs，AI教母李飞飞“起飞”还是“招安”",
+    "url": "https://opinion.caixin.com/2026-10-06/102490891.html",
+    "source": "财新网",
+    "topic": "世界时事",
+    "region": "cn",
+    "published": "2026-10-06T05:29:03",
+    "author": ""
   },
   {
     "title": "视线｜与墓穴为邻 菲律宾逾万贫民寄居公墓",
@@ -1050,6 +1005,15 @@
     "topic": "世界时事",
     "region": "cn",
     "published": "2026-10-05T00:50:52",
+    "author": ""
+  },
+  {
+    "title": "中国国庆21亿人次大迁徙，日媒闹心：不来日本…",
+    "url": "https://www.guancha.cn/GuoJi%C2%B7ZhanLue/2026_10_06_903318_s.shtml",
+    "source": "观察者网",
+    "topic": "世界时事",
+    "region": "cn",
+    "published": "2026-10-06T05:12:00",
     "author": ""
   },
   {
@@ -1089,15 +1053,6 @@
     "author": ""
   },
   {
-    "title": "迪拜航空劫機案：阿聯酋官員稱副駕駛用應急斧頭砍傷機長",
-    "url": "https://www.bbc.com/zhongwen/articles/ck20w70p4n5wo/trad?at_medium=RSS&at_campaign=rss",
-    "source": "BBC 中文",
-    "topic": "世界时事",
-    "region": "cn",
-    "published": "2026-10-04T02:44:22",
-    "author": ""
-  },
-  {
     "title": "機師刀刺同僚企圖劫機 杜拜往以色列航班乘客化解空難",
     "url": "https://www.bbc.com/zhongwen/articles/ck3rerpdp7x9o/trad?at_medium=RSS&at_campaign=rss",
     "source": "BBC 中文",
@@ -1125,15 +1080,6 @@
     "author": ""
   },
   {
-    "title": "香港提出「人民幣支付政府開支」為何引發「去美元化」憂慮？",
-    "url": "https://www.bbc.com/zhongwen/articles/c65y501pjww4o/trad?at_medium=RSS&at_campaign=rss",
-    "source": "BBC 中文",
-    "topic": "世界时事",
-    "region": "cn",
-    "published": "2026-09-23T03:20:25",
-    "author": ""
-  },
-  {
     "title": "從年輕縣官到國家主席：習近平41年來的訪美影像",
     "url": "https://www.bbc.com/zhongwen/articles/c9zrz24j8pdvo/trad?at_medium=RSS&at_campaign=rss",
     "source": "BBC 中文",
@@ -1143,22 +1089,22 @@
     "author": ""
   },
   {
-    "title": "ChatGPT is adding real cartoonists' signatures to fake New Yorker cartoons",
-    "url": "https://www.niemanlab.org/2026/10/chatgpt-is-adding-real-cartoonists-signatures-to-fake-new-yorker-cartoons/",
-    "source": "HackerNews",
-    "topic": "技术圈",
-    "region": "intl",
-    "published": "2026-10-05T22:46:45",
-    "author": "rdmuser · 208 pts · 105 comments"
-  },
-  {
     "title": "Beam: Reflection's 501B open-weight model",
     "url": "https://reflection.ai/blog/introducing-beam",
     "source": "HackerNews",
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-10-05T19:16:35",
-    "author": "Philpax · 302 pts · 78 comments"
+    "author": "Philpax · 419 pts · 131 comments"
+  },
+  {
+    "title": "Example.com just launched the biggest redesign in decades",
+    "url": "https://www.debugbear.com/blog/example-dot-com-redesign-history",
+    "source": "HackerNews",
+    "topic": "技术圈",
+    "region": "intl",
+    "published": "2026-10-05T22:55:11",
+    "author": "jgx0 · 203 pts · 117 comments"
   },
   {
     "title": "Opus 5.5 agents discover two room-temperature magnetic semiconductor candidates",
@@ -1167,16 +1113,7 @@
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-10-05T21:00:21",
-    "author": "outlier99 · 202 pts · 153 comments"
-  },
-  {
-    "title": "Web Search API",
-    "url": "https://developers.cloudflare.com/changelog/post/2026-10-02-introducing-web-search-api/",
-    "source": "HackerNews",
-    "topic": "技术圈",
-    "region": "intl",
-    "published": "2026-10-05T10:47:06",
-    "author": "tosh · 482 pts · 221 comments"
+    "author": "outlier99 · 327 pts · 210 comments"
   },
   {
     "title": "Anthropic reported diary entry to police, woman faces felony charge",
@@ -1185,7 +1122,25 @@
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-10-05T05:37:40",
-    "author": "emptybits · 534 pts · 455 comments"
+    "author": "emptybits · 704 pts · 538 comments"
+  },
+  {
+    "title": "Web Search API",
+    "url": "https://developers.cloudflare.com/changelog/post/2026-10-02-introducing-web-search-api/",
+    "source": "HackerNews",
+    "topic": "技术圈",
+    "region": "intl",
+    "published": "2026-10-05T10:47:06",
+    "author": "tosh · 531 pts · 241 comments"
+  },
+  {
+    "title": "ChatGPT is adding real cartoonists' signatures to fake New Yorker cartoons",
+    "url": "https://www.niemanlab.org/2026/10/chatgpt-is-adding-real-cartoonists-signatures-to-fake-new-yorker-cartoons/",
+    "source": "HackerNews",
+    "topic": "技术圈",
+    "region": "intl",
+    "published": "2026-10-05T22:46:45",
+    "author": "rdmuser · 396 pts · 294 comments"
   },
   {
     "title": "Apple and a hacker's future",
@@ -1194,7 +1149,16 @@
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-10-05T10:05:02",
-    "author": "maguay · 204 pts · 183 comments"
+    "author": "maguay · 245 pts · 213 comments"
+  },
+  {
+    "title": "anthropics/claude-code 发布 v2.1.291",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.291",
+    "source": "GitHubRelease",
+    "topic": "GitHub 动态",
+    "region": "intl",
+    "published": "2026-10-06T03:55:19",
+    "author": "ashwin-ant"
   },
   {
     "title": "anthropics/claude-code 发布 v2.1.290",
@@ -1233,94 +1197,49 @@
     "author": "timvisee"
   },
   {
-    "title": "Explainable Machine Learning-Based Prediction of Progression-Free Survival in Prostate Cancer: Retrospective Cohort Study.",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42832781/",
+    "title": "Uptake and useability of a digital solution to assessing behaviours of concern in the emergency department: A multi-methods study.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42833966/",
     "source": "PubMed",
     "topic": "心理学",
     "region": "intl",
     "published": "2026",
-    "author": "Hein Minn Tun, Lin Naing, Owais Ahmed Malik, Muhammad Syafiq Abdullah"
+    "author": "Belinda Munroe, Kate Curtis, Sarah Kourouche, Rachel Morland"
   },
   {
-    "title": "10 Years of BRAVE Self-Help Service Delivery for Child and Adolescent Anxiety in Australia: Open Effectiveness-Implementation Trial.",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42832756/",
+    "title": "Artificial intelligence in osteoarthritis and osteoporosis: implications for management and research.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42833930/",
     "source": "PubMed",
     "topic": "心理学",
     "region": "intl",
     "published": "2026",
-    "author": "Sonja March, Alimila Hayixibayi, Arlen Kate Rowe, Jay Michel Stevens"
+    "author": "Jessica L Fairley, Mohit Kapoor, Divya Sharma"
   },
   {
-    "title": "Participatory Design of AI-Based Clinical Decision Support Systems: Scoping Review.",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42832741/",
+    "title": "Efficacy and Safety of Olaparib plus Abiraterone Versus Placebo plus Abiraterone in the Non-BRCA Mutation Subgroup of Patients with Metastatic Castration-resistant Prostate Cancer in the PROpel Trial.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42833926/",
     "source": "PubMed",
     "topic": "心理学",
     "region": "intl",
     "published": "2026",
-    "author": "Tabea Rambach, Patricia Gleim, Carolin Heizmann, Philipp Kellmeyer"
+    "author": "Niven Mehra, Noel W Clarke, Andrew J Armstrong, Mototsugu Oya"
   },
   {
-    "title": "Use of Vaginal Estrogen in Breast and Gynecologic Cancer Survivors.",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42832731/",
+    "title": "Cognitive Outcomes After Carotid Artery Stenting Versus Carotid Endarterectomy in Patients With Asymptomatic Carotid Stenosis: A Propensity Score-Matched Cohort Study.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42833891/",
     "source": "PubMed",
     "topic": "心理学",
     "region": "intl",
     "published": "2026",
-    "author": "Jersey B Burns, Mariam M AlHilli, Azka Ali, Erin Roesch"
+    "author": "Sabha Ahmed, Jay Kakadiya, Vidhi Dhaduk, Ankit Arora"
   },
   {
-    "title": "Provider-Sponsored Health Plans Negotiated Lower Prices For Health Services Compared With Traditional Insurers, 2024.",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42832714/",
+    "title": "Ethics of opportunistic genomic screening in paediatrics: rethinking the risk-benefit ratio.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42833867/",
     "source": "PubMed",
     "topic": "心理学",
     "region": "intl",
     "published": "2026",
-    "author": "Mitchell Mead, Cody Lendon Mullens, Adrian Diaz, Andrew M Ibrahim"
-  },
-  {
-    "title": "LLM-enhanced spatio-temporal learning for grid-level docked bike sharing demand prediction",
-    "url": "http://arxiv.org/abs/2610.03834v1",
-    "source": "arXiv",
-    "topic": "供应链",
-    "region": "intl",
-    "published": "2026-10-02T12:31:46",
-    "author": "Xuxilu Zhang, Francesc Soriguera"
-  },
-  {
-    "title": "Validated Data Onboarding for AI Demand Forecasting on U.S. Building Meter Data: Design, Controlled Evaluation, and a Corrected Negative Result",
-    "url": "http://arxiv.org/abs/2610.02397v1",
-    "source": "arXiv",
-    "topic": "供应链",
-    "region": "intl",
-    "published": "2026-10-01T19:23:37",
-    "author": "Yixuan Liang"
-  },
-  {
-    "title": "Probabilistic electrical power demand forecasting with uncertainty quantification",
-    "url": "http://arxiv.org/abs/2609.34120v1",
-    "source": "arXiv",
-    "topic": "供应链",
-    "region": "intl",
-    "published": "2026-09-28T01:58:57",
-    "author": "Mahesh Neupane, Pragya Dhungana, Pradip Khatri, Swechhya Baskota, Hariom Dhungana"
-  },
-  {
-    "title": "Dynamic factor and double PCA models for partially observed survival curves: Forecasting demand in short-term rental markets",
-    "url": "http://arxiv.org/abs/2609.31190v1",
-    "source": "arXiv",
-    "topic": "供应链",
-    "region": "intl",
-    "published": "2026-09-25T12:22:00",
-    "author": "Marthe Elisabeth Aastveit, Alex Lenkoski, Thordis Thorarinsdottir"
-  },
-  {
-    "title": "EXAONE Demand 1.0: A Time Series Foundation Model for Demand Forecasting",
-    "url": "http://arxiv.org/abs/2609.30880v1",
-    "source": "arXiv",
-    "topic": "供应链",
-    "region": "intl",
-    "published": "2026-09-25T06:37:39",
-    "author": "Seunghan Lee, Sangjun Han, Jun Seo, Junhyeok Kang, Jaehoon Lee, Tae Yoon Lim, Dongwan Kang, Hwanil Choi, Minjae Kim, Sungdong Yoo, Soonyoung Lee, Wonbin Ahn"
+    "author": "Emily Wheeler, Wayne Shelton, Gina Geis"
   },
   {
     "title": "We're going to need default hard budget caps on pretty much everything",
