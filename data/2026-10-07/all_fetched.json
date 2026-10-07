@@ -1,75 +1,75 @@
 [
   {
-    "title": "Rethinking Visual Provenance: Detection and Watermarking Across Direct Visual Generation and LLM-Driven Code Rendering",
-    "url": "http://arxiv.org/abs/2610.08137v1",
+    "title": "IdeaAnchor: Teaching LLMs to Turn Literature into Research Ideas",
+    "url": "http://arxiv.org/abs/2610.08781v1",
     "source": "arXiv",
     "topic": "AI大事",
     "region": "intl",
-    "published": "2026-10-06T10:53:19",
-    "author": "Zheng Gao, Xiaoyu Li, Zhicheng Bao, Yang Song, Jiaojiao Jiang"
+    "published": "2026-10-06T17:59:01",
+    "author": "Ziyu Chen, Yilun Zhao, Jiashuo Sun, Yiling Ma, Manasi Patwardhan, Arman Cohan"
   },
   {
-    "title": "Do LLMs Act on What They Know? From Partner Representations to Cooperative Actions",
-    "url": "http://arxiv.org/abs/2610.08129v1",
+    "title": "Sherpa: Teaching LLMs to Teach Adaptively",
+    "url": "http://arxiv.org/abs/2610.08778v1",
     "source": "arXiv",
     "topic": "AI大事",
     "region": "intl",
-    "published": "2026-10-06T10:44:55",
-    "author": "Yuhwan Jeong, Jinnyeong Yang, Kuk-Jin Yoon"
+    "published": "2026-10-06T17:58:18",
+    "author": "Weixian Xu, Yanzhe Zhang, Zora Zhiruo Wang, Changyu Chen, Diyi Yang"
   },
   {
-    "title": "ChartBmkAgent: Harness-Governed Multi-Agent Construction of Chart QA Benchmarks from Sparse Error-Taxonomy Specifications",
-    "url": "http://arxiv.org/abs/2610.08106v1",
+    "title": "Agent in a Bottle: Can LLM Agents Turn Their Capabilities Into Cheap, Scalable Artifacts?",
+    "url": "http://arxiv.org/abs/2610.08775v1",
     "source": "arXiv",
     "topic": "AI大事",
     "region": "intl",
-    "published": "2026-10-06T10:31:28",
-    "author": "Langxi Huang, Pingping Zhang, Lanyun Zhu, Chunyang Jiang, Jiawei Shao, Haocheng Yuan, Peilin Chen"
+    "published": "2026-10-06T17:57:19",
+    "author": "Ankit Sonthalia, Haritz Puerto, Alexander Rubinstein, Martin Gubri, Seong Joon Oh"
   },
   {
-    "title": "Beyond Corrected Memory: Execution Consistency in Multi-Agent Systems",
-    "url": "http://arxiv.org/abs/2610.08101v1",
+    "title": "The Missing Minimal Pair: Stereotype Evaluation in LLMs",
+    "url": "http://arxiv.org/abs/2610.08747v1",
     "source": "arXiv",
     "topic": "AI大事",
     "region": "intl",
-    "published": "2026-10-06T10:29:41",
-    "author": "Zhe Yu, Zixuan Wang, Peidong Wang, Hehai Lin, Ruochen Zhao, Chengwei Qin"
+    "published": "2026-10-06T17:41:44",
+    "author": "Nataliya Stepanova, Ivan Titov, Emily Allaway, Björn Ross"
   },
   {
-    "title": "Surviving the Router: Optimizing Skill Injections for Retrieval and Execution",
-    "url": "http://arxiv.org/abs/2610.08098v1",
+    "title": "BARE-AI: Bit-Flip Attack Resilience in AI Hardware through Built-in Performance Monitors",
+    "url": "http://arxiv.org/abs/2610.08739v1",
     "source": "arXiv",
     "topic": "AI大事",
     "region": "intl",
-    "published": "2026-10-06T10:28:27",
-    "author": "Haneen Najjar, Luca Scionis, Haritz Puerto, Sahar Abdelnabi"
+    "published": "2026-10-06T17:38:24",
+    "author": "Habibur Rahaman, Swastik Bhattacharya, Sanjay Das, Kanad Basu, Swarup Bhunia"
   },
   {
-    "title": "Natural Language Questions as an Interface for Knowledge Graphs: QRAKEN Graph Distillation and Semantic Self-Healing",
-    "url": "http://arxiv.org/abs/2610.08095v1",
+    "title": "WorldSolver: Can LLM Agents Simulate the Physical Dynamics via Solver Generation?",
+    "url": "http://arxiv.org/abs/2610.08720v1",
     "source": "arXiv",
     "topic": "AI大事",
     "region": "intl",
-    "published": "2026-10-06T10:24:26",
-    "author": "Remo Grillo, Lukas Klic, Giovanni Colavizza"
+    "published": "2026-10-06T17:26:26",
+    "author": "Siru Jiang, Yongzhe Lyu, Shuo Lu, Yubin Wang, Yuxiang Zhang, Yue Liao, Bin Wang, Jian Liang, Tieniu Tan"
   },
   {
-    "title": "SAGE: Semantic Anchor-Guided Evolution for Grounded Medical QA Data Synthesis",
-    "url": "http://arxiv.org/abs/2610.08093v1",
+    "title": "Agreement Is Not Validity: Cross-Model LLM Consensus in Diagnosing Student Failure Modes in K-12 Math Tutoring Dialogue",
+    "url": "http://arxiv.org/abs/2610.08703v1",
     "source": "arXiv",
     "topic": "AI大事",
     "region": "intl",
-    "published": "2026-10-06T10:23:16",
-    "author": "Chuan Li, Chengyu Wang, Cen Chen, Ye Lyu, Mingyuan Fan, Ming Gao"
+    "published": "2026-10-06T17:16:03",
+    "author": "Clayton Cohn, Joyce Fonteles, Kirk Vanacore, Gianni Mazza, Candida Crawford, Tom Hooper, Gautam Biswas, Rene Kizilcec"
   },
   {
-    "title": "Explainable Rule Mining of IPv6 Extension-Header Presence Patterns from Paired-Vantage Captures",
-    "url": "http://arxiv.org/abs/2610.08090v1",
+    "title": "PrimitiveCAD: An LLM-Based Point-to-CAD Reconstruction with Primitive-Aware Tokenization and Operation Alignment",
+    "url": "http://arxiv.org/abs/2610.08698v1",
     "source": "arXiv",
     "topic": "AI大事",
     "region": "intl",
-    "published": "2026-10-06T10:21:12",
-    "author": "Priyanka Sinha, Nikolaos Kekatos, Stylianos Basagiannis, Antonio Anastasio Bruto da Costa, Alexios Lekidis, Pabitra Mitra, Tom Nianios, Elpiniki Papageorgiou"
+    "published": "2026-10-06T17:13:46",
+    "author": "Jian Gao, Kailin Bi, Jiamin Xu, Jinlan Xu, Gang Xu"
   },
   {
     "title": "Sharing AI progress in mathematics",
@@ -78,7 +78,16 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-10-06T22:17:21",
-    "author": "OfficialTurkey · 395 pts · 322 comments"
+    "author": "OfficialTurkey · 791 pts · 727 comments"
+  },
+  {
+    "title": "Decisions API is in public beta",
+    "url": "https://developers.openai.com/api/docs/guides/decisions",
+    "source": "HackerNews",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-10-06T20:57:25",
+    "author": "chiefstorm · 253 pts · 113 comments"
   },
   {
     "title": "Mistral Large 4",
@@ -87,7 +96,7 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-10-06T13:15:49",
-    "author": "Philpax · 1588 pts · 961 comments"
+    "author": "Philpax · 1734 pts · 1026 comments"
   },
   {
     "title": "EmbeddingGemma 2: An open, lightweight multimodal embedding model",
@@ -96,16 +105,16 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-10-06T16:03:49",
-    "author": "ilreb · 214 pts · 29 comments"
+    "author": "ilreb · 297 pts · 31 comments"
   },
   {
-    "title": "Nobel Prize in Physics 2026: Francis Halzen",
-    "url": "https://www.nobelprize.org/prizes/physics/2026/",
+    "title": "AnyPS5: Port PS5 binaries to PC without emulation (87% system libraries mapped)",
+    "url": "https://github.com/boykopovar/AnyPS5",
     "source": "HackerNews",
     "topic": "AI大事",
     "region": "intl",
-    "published": "2026-10-06T09:48:46",
-    "author": "solarist · 529 pts · 175 comments"
+    "published": "2026-10-06T23:28:08",
+    "author": "Fe2O3 · 219 pts · 169 comments"
   },
   {
     "title": "OpenTPU – An open-source AI accelerator, developed by AI",
@@ -114,16 +123,16 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-10-06T16:23:25",
-    "author": "fsbonetto · 230 pts · 294 comments"
+    "author": "fsbonetto · 276 pts · 331 comments"
   },
   {
-    "title": "Gleam doesn't compile to Erlang source anymore",
-    "url": "https://gleam.run/news/gleam-doesnt-compile-to-erlang-source-anymore/",
+    "title": "What's Earth's dominant species by mass?",
+    "url": "https://signoregalilei.com/2026/09/27/whats-earths-dominant-species-by-mass/",
     "source": "HackerNews",
     "topic": "AI大事",
     "region": "intl",
-    "published": "2026-10-06T08:08:20",
-    "author": "ingve · 297 pts · 125 comments"
+    "published": "2026-10-06T12:40:03",
+    "author": "surprisetalk · 212 pts · 145 comments"
   },
   {
     "title": "AI + SRE ≠ AISRE：AI 如何真正进入生产运维闭环｜QCon上海",
@@ -207,13 +216,22 @@
     "author": "作者：Olimpiu Pop"
   },
   {
-    "title": "GitLab Duo 通过微软 Foundry 扩展自托管 AI 选项",
-    "url": "https://www.infoq.cn/article/cA9rSEGKphbJHIiTQKMv?utm_source=rss&utm_medium=article",
-    "source": "InfoQ 中文",
+    "title": "Meshy 跻身 a16z 消费级 AI 应用月收入 Top 50，为榜单唯一 AI 3D 公司",
+    "url": "https://www.qbitai.com/2026/10/501791.html",
+    "source": "量子位",
     "topic": "AI大事",
     "region": "cn",
-    "published": "2026-09-30T20:37:48",
-    "author": "作者：Craig Risi"
+    "published": "2026-10-07T06:39:36",
+    "author": "量子位的朋友们"
+  },
+  {
+    "title": "OpenAI一夜甩出722篇数学论文！黎曼霍奇BSD全上阵，数学家：读不过来",
+    "url": "https://www.qbitai.com/2026/10/501749.html",
+    "source": "量子位",
+    "topic": "AI大事",
+    "region": "cn",
+    "published": "2026-10-07T01:05:13",
+    "author": "听雨"
   },
   {
     "title": "不er，咋陶哲轩也成AI减速派了？？",
@@ -268,24 +286,6 @@
     "region": "cn",
     "published": "2026-10-04T06:05:35",
     "author": "田, 晏林"
-  },
-  {
-    "title": "GPT-6要“吃掉”3D公司？这家公司不到2年ARR翻百倍，破1亿美元",
-    "url": "https://www.qbitai.com/2026/10/501451.html",
-    "source": "量子位",
-    "topic": "AI大事",
-    "region": "cn",
-    "published": "2026-10-04T00:53:29",
-    "author": "听雨"
-  },
-  {
-    "title": "DeepSeek扩招！弹性计算团队大量HC，尤其需要资深工程师",
-    "url": "https://www.qbitai.com/2026/10/501381.html",
-    "source": "量子位",
-    "topic": "AI大事",
-    "region": "cn",
-    "published": "2026-10-03T07:54:43",
-    "author": "闻乐"
   },
   {
     "title": "tester-army/e2e",
@@ -405,6 +405,15 @@
     "author": ""
   },
   {
+    "title": "Quoting Jake Boggan",
+    "url": "https://simonwillison.net/2026/Oct/7/jake-boggan/",
+    "source": "Simon Willison",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-10-07T04:47:55",
+    "author": ""
+  },
+  {
     "title": "OpenAI “rogue” agent activities found on Wikimedia projects",
     "url": "https://simonwillison.net/2026/Oct/7/openai-rogue-agents-wikimedia/",
     "source": "Simon Willison",
@@ -465,15 +474,6 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-10-06T15:17:39",
-    "author": ""
-  },
-  {
-    "title": "Quoting Felix Rieseberg",
-    "url": "https://simonwillison.net/2026/Oct/5/felix-rieseberg/",
-    "source": "Simon Willison",
-    "topic": "AI大事",
-    "region": "intl",
-    "published": "2026-10-05T23:56:47",
     "author": ""
   },
   {
@@ -567,6 +567,15 @@
     "author": "郑廷旭"
   },
   {
+    "title": "[AINews] Quasi-Riemann-Hypothesis: OpenAI publishes 722 math papers solving 90 of the top 500 open math problems; “the most significant moment” in >100 years of mathematics",
+    "url": "https://www.latent.space/p/ainews-quasi-riemann-hypothesis-openai",
+    "source": "Latent Space",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-10-07T04:55:44",
+    "author": ""
+  },
+  {
     "title": "[AINews] Reflection Beam - 501B-A23B American Open Model",
     "url": "https://www.latent.space/p/ainews-reflection-beam-501b-a23b",
     "source": "Latent Space",
@@ -609,15 +618,6 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-10-02T00:28:04",
-    "author": ""
-  },
-  {
-    "title": "[AINews] Gemini 4 Argon: GDM’s answer to Astra/Fable, with 1M output",
-    "url": "https://www.latent.space/p/ainews-gemini-4-argon-gdms-answer",
-    "source": "Latent Space",
-    "topic": "AI大事",
-    "region": "intl",
-    "published": "2026-10-01T06:45:05",
     "author": ""
   },
   {
@@ -981,57 +981,84 @@
     "author": ""
   },
   {
-    "title": "“中国挑战提供反思机会：日本车企得改变打法”",
-    "url": "https://www.guancha.cn/GuoJi%C2%B7ZhanLue/2026_10_06_903335_s.shtml",
-    "source": "观察者网",
+    "title": "长春大冬会奖牌发布，取名“吉梦”",
+    "url": "https://m.thepaper.cn/detail/34208216",
+    "source": "澎湃新闻",
     "topic": "世界时事",
     "region": "cn",
-    "published": "2026-10-06T10:17:00",
+    "published": "2026-10-07T06:44:25",
+    "author": "央视新闻"
+  },
+  {
+    "title": "奔赴“县”场｜山东青州：一座县级博物馆凭什么大放异彩？",
+    "url": "https://m.thepaper.cn/detail/34207882",
+    "source": "澎湃新闻",
+    "topic": "世界时事",
+    "region": "cn",
+    "published": "2026-10-07T06:21:49",
+    "author": "澎湃新闻记者 杨喆"
+  },
+  {
+    "title": "国庆档电影票房破11亿！多部影片官宣海外上映计划",
+    "url": "https://m.thepaper.cn/detail/34208135",
+    "source": "澎湃新闻",
+    "topic": "世界时事",
+    "region": "cn",
+    "published": "2026-10-07T06:08:05",
+    "author": "央视新闻"
+  },
+  {
+    "title": "国内航线燃油附加费上涨，10月10日起单程最高90元",
+    "url": "https://m.thepaper.cn/detail/34208000",
+    "source": "澎湃新闻",
+    "topic": "世界时事",
+    "region": "cn",
+    "published": "2026-10-07T05:04:09",
+    "author": "澎湃新闻记者 邵冰燕"
+  },
+  {
+    "title": "“非洲手机之王”传音控股拟全球发售8664.83万股H股，预计10月15日在港交所挂牌上市",
+    "url": "https://m.thepaper.cn/detail/34207660",
+    "source": "澎湃新闻",
+    "topic": "世界时事",
+    "region": "cn",
+    "published": "2026-10-07T04:08:37",
+    "author": "澎湃新闻首席记者 李晓青"
+  },
+  {
+    "title": "坐着轮椅看世界：海参崴五日，不便却独特｜纪行",
+    "url": "https://mini.caixin.com/2026-10-07/102490976.html",
+    "source": "财新网",
+    "topic": "世界时事",
+    "region": "cn",
+    "published": "2026-10-07T03:23:18",
     "author": ""
   },
   {
-    "title": "中国国庆21亿人次大迁徙，日媒闹心：不来日本…",
-    "url": "https://www.guancha.cn/GuoJi%C2%B7ZhanLue/2026_10_06_903318_s.shtml",
-    "source": "观察者网",
+    "title": "从资金链看政策空间",
+    "url": "https://opinion.caixin.com/2026-10-06/102490893.html",
+    "source": "财新网",
     "topic": "世界时事",
     "region": "cn",
-    "published": "2026-10-06T05:12:00",
+    "published": "2026-10-06T06:26:35",
     "author": ""
   },
   {
-    "title": "“随着美国扰乱全球贸易，中国和越南正加强运输联系”",
-    "url": "https://www.guancha.cn/GuoJi%C2%B7ZhanLue/2026_10_05_903257_s.shtml",
-    "source": "观察者网",
+    "title": "AMD天价收购World Labs，AI教母李飞飞“起飞”还是“招安”",
+    "url": "https://opinion.caixin.com/2026-10-06/102490891.html",
+    "source": "财新网",
     "topic": "世界时事",
     "region": "cn",
-    "published": "2026-10-05T09:10:00",
+    "published": "2026-10-06T05:29:03",
     "author": ""
   },
   {
-    "title": "泽连斯基怂恿特朗普：制裁中俄企业",
-    "url": "https://www.guancha.cn/GuoJi%C2%B7ZhanLue/2026_10_04_903139_s.shtml",
-    "source": "观察者网",
+    "title": "视线｜与墓穴为邻 菲律宾逾万贫民寄居公墓",
+    "url": "https://photos.caixin.com/2026-10-05/102490807.html",
+    "source": "财新网",
     "topic": "世界时事",
     "region": "cn",
-    "published": "2026-10-03T23:39:00",
-    "author": ""
-  },
-  {
-    "title": "美国想建“中国之外钨链”，先撞上现实",
-    "url": "https://www.guancha.cn/GuoJi%C2%B7ZhanLue/2026_10_03_903084_s.shtml",
-    "source": "观察者网",
-    "topic": "世界时事",
-    "region": "cn",
-    "published": "2026-10-03T06:21:00",
-    "author": ""
-  },
-  {
-    "title": "“农产滞销，帮帮我们”，止于怜悯的助农直播能走多远？",
-    "url": "https://www.guancha.cn/ChengShi/2026_10_02_902606_s.shtml",
-    "source": "观察者网",
-    "topic": "世界时事",
-    "region": "cn",
-    "published": "2026-10-02T13:58:00",
+    "published": "2026-10-05T14:10:54",
     "author": ""
   },
   {
@@ -1077,7 +1104,16 @@
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-10-06T22:17:21",
-    "author": "OfficialTurkey · 397 pts · 324 comments"
+    "author": "OfficialTurkey · 791 pts · 728 comments"
+  },
+  {
+    "title": "Decisions API is in public beta",
+    "url": "https://developers.openai.com/api/docs/guides/decisions",
+    "source": "HackerNews",
+    "topic": "技术圈",
+    "region": "intl",
+    "published": "2026-10-06T20:57:25",
+    "author": "chiefstorm · 254 pts · 113 comments"
   },
   {
     "title": "Mistral Large 4",
@@ -1086,7 +1122,7 @@
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-10-06T13:15:49",
-    "author": "Philpax · 1588 pts · 961 comments"
+    "author": "Philpax · 1735 pts · 1028 comments"
   },
   {
     "title": "EmbeddingGemma 2: An open, lightweight multimodal embedding model",
@@ -1095,16 +1131,16 @@
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-10-06T16:03:49",
-    "author": "ilreb · 215 pts · 29 comments"
+    "author": "ilreb · 297 pts · 31 comments"
   },
   {
-    "title": "Nobel Prize in Physics 2026: Francis Halzen",
-    "url": "https://www.nobelprize.org/prizes/physics/2026/",
+    "title": "AnyPS5: Port PS5 binaries to PC without emulation (87% system libraries mapped)",
+    "url": "https://github.com/boykopovar/AnyPS5",
     "source": "HackerNews",
     "topic": "技术圈",
     "region": "intl",
-    "published": "2026-10-06T09:48:46",
-    "author": "solarist · 529 pts · 175 comments"
+    "published": "2026-10-06T23:28:08",
+    "author": "Fe2O3 · 222 pts · 170 comments"
   },
   {
     "title": "OpenTPU – An open-source AI accelerator, developed by AI",
@@ -1113,16 +1149,16 @@
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-10-06T16:23:25",
-    "author": "fsbonetto · 230 pts · 294 comments"
+    "author": "fsbonetto · 277 pts · 331 comments"
   },
   {
-    "title": "Gleam doesn't compile to Erlang source anymore",
-    "url": "https://gleam.run/news/gleam-doesnt-compile-to-erlang-source-anymore/",
+    "title": "What's Earth's dominant species by mass?",
+    "url": "https://signoregalilei.com/2026/09/27/whats-earths-dominant-species-by-mass/",
     "source": "HackerNews",
     "topic": "技术圈",
     "region": "intl",
-    "published": "2026-10-06T08:08:20",
-    "author": "ingve · 298 pts · 125 comments"
+    "published": "2026-10-06T12:40:03",
+    "author": "surprisetalk · 212 pts · 145 comments"
   },
   {
     "title": "huggingface/transformers 发布 Release v5.19.0",
@@ -1167,15 +1203,6 @@
     "topic": "GitHub 动态",
     "region": "intl",
     "published": "2026-10-06T18:59:30",
-    "author": "ashwin-ant"
-  },
-  {
-    "title": "anthropics/claude-code 发布 v2.1.291",
-    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.291",
-    "source": "GitHubRelease",
-    "topic": "GitHub 动态",
-    "region": "intl",
-    "published": "2026-10-06T03:55:19",
     "author": "ashwin-ant"
   },
   {
@@ -1233,6 +1260,15 @@
     "author": "next-js-bot[bot]"
   },
   {
+    "title": "weaviate/weaviate 发布 v1.40.0 - Alter Schema Drop Vector Index, HFresh MUVERA, RQ-4 quantization",
+    "url": "https://github.com/weaviate/weaviate/releases/tag/v1.40.0",
+    "source": "GitHubRelease",
+    "topic": "GitHub 动态",
+    "region": "intl",
+    "published": "2026-10-07T06:58:25",
+    "author": "antas-marcin"
+  },
+  {
     "title": "weaviate/weaviate 发布 v1.39.10 - LSM store and Async indexing Fixes, Configurable module settings",
     "url": "https://github.com/weaviate/weaviate/releases/tag/v1.39.10",
     "source": "GitHubRelease",
@@ -1260,49 +1296,49 @@
     "author": "antas-marcin"
   },
   {
-    "title": "Movement and Frontal Theta Activity During Step-Based Exergaming in Healthy Younger and Older Adults: Laboratory-Based Cross-Sectional Study.",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42837659/",
+    "title": "PET/CT in benign bone disorders: An update.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42838827/",
     "source": "PubMed",
     "topic": "心理学",
     "region": "intl",
     "published": "2026",
-    "author": "Nina Skjæret-Maroni, Helen Müller, Phillip Anders, Karoline Blix Grønvik"
+    "author": "Ben F Bulten, Wouter van der Bruggen"
   },
   {
-    "title": "Comparative Efficacy and Acceptability of Transdiagnostic Psychotherapies for Emotional Disorders: Protocol for a Network Meta-Analysis of Randomized Controlled Trials.",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42837654/",
+    "title": "Conducting pressure ulcer prevention trials within a platform trial framework: Opportunities and lessons from the WHiTE14-PRESSURE3 trial.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42838792/",
     "source": "PubMed",
     "topic": "心理学",
     "region": "intl",
     "published": "2026",
-    "author": "Qiaosi Cai, Yihan Zeng, Noelia Jiménez-Orenga, Clara Miguel"
+    "author": "Clare Greenwood, Elizabeth McGinnis, Jane Nixon, Matt Costa"
   },
   {
-    "title": "Extent of Digital Health Fragmentation and Potential Implications for Antimicrobial Prescribing: Rapid Evidence Review.",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42837652/",
+    "title": "Expert diagnostic reasoning in breast pathology: insights from international masterclass question-and-answer sessions.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42838737/",
     "source": "PubMed",
     "topic": "心理学",
     "region": "intl",
     "published": "2026",
-    "author": "Verena Schneider, Akish Luintel, Bethan Balch, Shivani Gangadia"
+    "author": "Emad A Rakha, Cecily Quinn, Abeer M Shaaban, Elena Provenzano"
   },
   {
-    "title": "Evaluating Acceptance and Use of Digital Health Platforms for Consultation and Medication Delivery Among Men Who Have Sex With Men and Transgender People Living With HIV: Cross-Sectional Survey Informed by an Extended UTAUT Approach.",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42837536/",
+    "title": "Career anchors of Finnish chief physicians' career pathways to leadership.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42838734/",
     "source": "PubMed",
     "topic": "心理学",
     "region": "intl",
     "published": "2026",
-    "author": "Emmanuel Oluwatosin Oluokun, Festus Fatai Adedoyin, Huseyin Dogan, Nan Jiang"
+    "author": "Sari Huikko-Tarvainen"
   },
   {
-    "title": "Effectiveness of Chatbots in Mental Health Screening and Assessment: Systematic Review.",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42837528/",
+    "title": "Multidisciplinary Consensus on Improving the Care Pathway for Overactive Bladder from an Adherence Perspective: The claVHes Consensus.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42838641/",
     "source": "PubMed",
     "topic": "心理学",
     "region": "intl",
     "published": "2026",
-    "author": "Isabel Morales Gil, Inés Marti-Estevez, Sandra Doval, José Miguel Gutiérrez-Carrillo"
+    "author": "A Casteig Blanco, M Merino, A Cornet Cortada"
   },
   {
     "title": "Logic-Logit: A Logic-Based Approach to Choice Modeling",
