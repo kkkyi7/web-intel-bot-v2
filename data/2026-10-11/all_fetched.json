@@ -72,13 +72,31 @@
     "author": "Andy Liu, Mehar Bhatia, Karolina Stanczak, Mona Diab, Vered Shwartz, Daniel Fried"
   },
   {
+    "title": "Build your own decision model",
+    "url": "https://nishtahir.com/build-your-own-decision-model/",
+    "source": "HackerNews",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-10-10T22:50:10",
+    "author": "softwaredoug · 233 pts · 58 comments"
+  },
+  {
+    "title": "A city-building game in which the city would prefer you didn't",
+    "url": "https://housing.over.pizza/",
+    "source": "HackerNews",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-10-10T20:31:50",
+    "author": "JumpCrisscross · 302 pts · 95 comments"
+  },
+  {
     "title": "The Lightbulb Computer",
     "url": "https://lightbulbcomputer.com/",
     "source": "HackerNews",
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-10-10T04:12:26",
-    "author": "oskarth · 236 pts · 42 comments"
+    "author": "oskarth · 363 pts · 58 comments"
   },
   {
     "title": "Talorys – A self-hosted personal AI agent on Cloudflare's free tier",
@@ -87,34 +105,7 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-10-10T10:52:09",
-    "author": "rociiu · 247 pts · 121 comments"
-  },
-  {
-    "title": "REA Reverse – Engineer Anything",
-    "url": "https://rea.tools/",
-    "source": "HackerNews",
-    "topic": "AI大事",
-    "region": "intl",
-    "published": "2026-10-10T00:37:07",
-    "author": "modinfo · 705 pts · 303 comments"
-  },
-  {
-    "title": "Bitwarden Dual License Model",
-    "url": "https://community.bitwarden.com/t/published-version-update-in-app-stores/102750",
-    "source": "HackerNews",
-    "topic": "AI大事",
-    "region": "intl",
-    "published": "2026-10-10T14:32:50",
-    "author": "Cider9986 · 346 pts · 249 comments"
-  },
-  {
-    "title": "Apple/macOS removed from official Unix registry",
-    "url": "https://www.opengroup.org//openbrand/register/",
-    "source": "HackerNews",
-    "topic": "AI大事",
-    "region": "intl",
-    "published": "2026-10-10T10:57:31",
-    "author": "john_alan · 253 pts · 219 comments"
+    "author": "rociiu · 281 pts · 130 comments"
   },
   {
     "title": "Telegram Desktop vulnerability allowed any user's file to be stolen",
@@ -123,7 +114,7 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-10-10T03:02:47",
-    "author": "g-b-r · 413 pts · 265 comments"
+    "author": "g-b-r · 445 pts · 280 comments"
   },
   {
     "title": "I would like the value of my home to rise, while my property taxes fall",
@@ -132,7 +123,25 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-10-10T13:29:03",
-    "author": "colinprince · 216 pts · 512 comments"
+    "author": "colinprince · 245 pts · 548 comments"
+  },
+  {
+    "title": "利用 AI 代码智能体优化软件架构的五种方法",
+    "url": "https://www.infoq.cn/article/soRObi5sjdTTUM95zLJK?utm_source=rss&utm_medium=article",
+    "source": "InfoQ 中文",
+    "topic": "AI大事",
+    "region": "cn",
+    "published": "2026-10-11T10:04:31",
+    "author": "作者：Pierre Pureur, Kurt Bittner, Todd Miller"
+  },
+  {
+    "title": "AI 时代的移动端稳定性保障 —— 柯南 AI Agent 实践｜QCon上海",
+    "url": "https://www.infoq.cn/article/FTtTLqvzJeMiE03IowFP?utm_source=rss&utm_medium=article",
+    "source": "InfoQ 中文",
+    "topic": "AI大事",
+    "region": "cn",
+    "published": "2026-10-11T10:00:00",
+    "author": "QCon全球软件开发大会"
   },
   {
     "title": "模型开放之后，AI能力为什么仍难以复用？",
@@ -207,24 +216,6 @@
     "author": "李冬梅"
   },
   {
-    "title": "企业AI 走向生产环境，如何避免新一轮技术锁定",
-    "url": "https://www.infoq.cn/article/kPhRafpM3Wr6umvUBPQV?utm_source=rss&utm_medium=article",
-    "source": "InfoQ 中文",
-    "topic": "AI大事",
-    "region": "cn",
-    "published": "2026-10-10T13:08:22",
-    "author": "李冬梅"
-  },
-  {
-    "title": "当代码不再稀缺：大型工程 AI 狂欢下的确定性底座｜QCon上海",
-    "url": "https://www.infoq.cn/article/0LiYFbYJtkttVMpDVkWC?utm_source=rss&utm_medium=article",
-    "source": "InfoQ 中文",
-    "topic": "AI大事",
-    "region": "cn",
-    "published": "2026-10-10T10:00:00",
-    "author": "QCon全球软件开发大会"
-  },
-  {
     "title": "联想天禧自研代码智能体TianxiCode斩获SWE-bench-Live全球第一",
     "url": "https://www.qbitai.com/2026/10/502422.html",
     "source": "量子位",
@@ -288,8 +279,8 @@
     "author": ""
   },
   {
-    "title": "mattpocock/skills",
-    "url": "https://github.com/mattpocock/skills",
+    "title": "storytold/artcraft",
+    "url": "https://github.com/storytold/artcraft",
     "source": "GitHub Trending",
     "topic": "AI大事",
     "region": "intl",
@@ -306,8 +297,8 @@
     "author": ""
   },
   {
-    "title": "alibaba/open-code-review",
-    "url": "https://github.com/alibaba/open-code-review",
+    "title": "mksglu/context-mode",
+    "url": "https://github.com/mksglu/context-mode",
     "source": "GitHub Trending",
     "topic": "AI大事",
     "region": "intl",
@@ -315,8 +306,8 @@
     "author": ""
   },
   {
-    "title": "anthropics/knowledge-work-plugins",
-    "url": "https://github.com/anthropics/knowledge-work-plugins",
+    "title": "mattpocock/skills",
+    "url": "https://github.com/mattpocock/skills",
     "source": "GitHub Trending",
     "topic": "AI大事",
     "region": "intl",
@@ -324,8 +315,8 @@
     "author": ""
   },
   {
-    "title": "BerriAI/litellm",
-    "url": "https://github.com/BerriAI/litellm",
+    "title": "flutter/flutter",
+    "url": "https://github.com/flutter/flutter",
     "source": "GitHub Trending",
     "topic": "AI大事",
     "region": "intl",
@@ -333,8 +324,8 @@
     "author": ""
   },
   {
-    "title": "addyosmani/agent-skills",
-    "url": "https://github.com/addyosmani/agent-skills",
+    "title": "tensorflow/tensorflow",
+    "url": "https://github.com/tensorflow/tensorflow",
     "source": "GitHub Trending",
     "topic": "AI大事",
     "region": "intl",
@@ -342,8 +333,8 @@
     "author": ""
   },
   {
-    "title": "storytold/artcraft",
-    "url": "https://github.com/storytold/artcraft",
+    "title": "hugohe3/ppt-master",
+    "url": "https://github.com/hugohe3/ppt-master",
     "source": "GitHub Trending",
     "topic": "AI大事",
     "region": "intl",
@@ -351,12 +342,21 @@
     "author": ""
   },
   {
-    "title": "Robbyant/lingbot-map",
-    "url": "https://github.com/Robbyant/lingbot-map",
+    "title": "pytorch/pytorch",
+    "url": "https://github.com/pytorch/pytorch",
     "source": "GitHub Trending",
     "topic": "AI大事",
     "region": "intl",
     "published": "",
+    "author": ""
+  },
+  {
+    "title": "使用 AI 十分钟就会削弱你挑战难题的意志力",
+    "url": "https://www.solidot.org/story?sid=85575",
+    "source": "Solidot",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-10-10T10:27:26",
     "author": ""
   },
   {
@@ -393,15 +393,6 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-10-09T08:14:08",
-    "author": ""
-  },
-  {
-    "title": "Manus 成功融资逾 5 亿美元",
-    "url": "https://www.solidot.org/story?sid=85554",
-    "source": "Solidot",
-    "topic": "AI大事",
-    "region": "intl",
-    "published": "2026-10-08T13:59:39",
     "author": ""
   },
   {
@@ -477,6 +468,24 @@
     "author": ""
   },
   {
+    "title": "DDR4 内存重出江湖，PC 终于癫成我不认识的样子",
+    "url": "https://www.ifanr.com/1683529?utm_source=rss&utm_medium=rss&utm_campaign=",
+    "source": "爱范儿",
+    "topic": "AI大事",
+    "region": "cn",
+    "published": "2026-10-11T04:30:19",
+    "author": "郑廷旭"
+  },
+  {
+    "title": "AMD YES！老哥给老车插上显卡，手搓「真智驾」",
+    "url": "https://www.ifanr.com/1683790?utm_source=rss&utm_medium=rss&utm_campaign=",
+    "source": "爱范儿",
+    "topic": "AI大事",
+    "region": "cn",
+    "published": "2026-10-11T02:03:27",
+    "author": "李华"
+  },
+  {
     "title": "早报｜曝苹果iPhone Duo加单30%/四部门拟禁全隐藏式车门把手/长鑫首款服务器产品或年底推出",
     "url": "https://www.ifanr.com/1683829?utm_source=rss&utm_medium=rss&utm_campaign=",
     "source": "爱范儿",
@@ -547,24 +556,6 @@
     "region": "cn",
     "published": "2026-10-09T10:44:32",
     "author": "李华"
-  },
-  {
-    "title": "陶哲轩转发抵制声明，数学界和OpenAI彻底撕破脸",
-    "url": "https://www.ifanr.com/1683401?utm_source=rss&utm_medium=rss&utm_campaign=",
-    "source": "爱范儿",
-    "topic": "AI大事",
-    "region": "cn",
-    "published": "2026-10-09T10:21:04",
-    "author": "张子豪"
-  },
-  {
-    "title": "新款理想 i6 六项升级公布，旗舰配置下放，要做「全球爆款」！",
-    "url": "https://www.ifanr.com/1683385?utm_source=rss&utm_medium=rss&utm_campaign=",
-    "source": "爱范儿",
-    "topic": "AI大事",
-    "region": "cn",
-    "published": "2026-10-09T10:06:43",
-    "author": "陈世琛"
   },
   {
     "title": "[Subscriber Exclusive] NYC Subscriber Meetups!",
@@ -1026,15 +1017,6 @@
     "author": ""
   },
   {
-    "title": "昔日武汉“抗疫市长”周先旺 22年“捞”了6050万余元",
-    "url": "https://china.caixin.com/2026-10-10/102492156.html",
-    "source": "财新网",
-    "topic": "世界时事",
-    "region": "cn",
-    "published": "2026-10-10T09:46:47",
-    "author": ""
-  },
-  {
     "title": "美国对中、美、加拿大及德国公司的芯片输电零件产品进行337调查",
     "url": "https://www.caixin.com/2026-10-10/102492142.html",
     "source": "财新网",
@@ -1059,96 +1041,6 @@
     "topic": "世界时事",
     "region": "cn",
     "published": "2026-10-10T08:09:08",
-    "author": ""
-  },
-  {
-    "title": "中欧就混动汽车贸易达成谅解 有望避免加征关税",
-    "url": "https://www.caixin.com/2026-10-10/102492100.html",
-    "source": "财新网",
-    "topic": "世界时事",
-    "region": "cn",
-    "published": "2026-10-10T06:44:29",
-    "author": ""
-  },
-  {
-    "title": "越南拆殖民建筑、重建古代皇宫，世界遗产为何允许？",
-    "url": "https://www.guancha.cn/GuoJi%C2%B7ZhanLue/2026_10_11_903823_s.shtml",
-    "source": "观察者网",
-    "topic": "世界时事",
-    "region": "cn",
-    "published": "2026-10-10T23:40:00",
-    "author": ""
-  },
-  {
-    "title": "中欧“各退一步”，开了一个好头",
-    "url": "https://www.guancha.cn/GuoJi%C2%B7ZhanLue/2026_10_10_903775_s.shtml",
-    "source": "观察者网",
-    "topic": "世界时事",
-    "region": "cn",
-    "published": "2026-10-10T09:17:00",
-    "author": ""
-  },
-  {
-    "title": "“俄罗斯将立即向美国及全球市场供应柴油”",
-    "url": "https://www.guancha.cn/GuoJi%C2%B7ZhanLue/2026_10_10_903714_s.shtml",
-    "source": "观察者网",
-    "topic": "世界时事",
-    "region": "cn",
-    "published": "2026-10-09T23:37:00",
-    "author": ""
-  },
-  {
-    "title": "“伊斯兰版北约”成真？巴基斯坦军队已赴沙特",
-    "url": "https://www.guancha.cn/GuoJi%C2%B7ZhanLue/2026_10_08_903563_s.shtml",
-    "source": "观察者网",
-    "topic": "世界时事",
-    "region": "cn",
-    "published": "2026-10-08T14:03:00",
-    "author": ""
-  },
-  {
-    "title": "新加坡外长抱屈：对中美说“不”，难啊",
-    "url": "https://www.guancha.cn/GuoJi%C2%B7ZhanLue/2026_10_08_903456_s.shtml",
-    "source": "观察者网",
-    "topic": "世界时事",
-    "region": "cn",
-    "published": "2026-10-08T04:46:00",
-    "author": ""
-  },
-  {
-    "title": "意外落后博索纳罗之子，卢拉团队紧急“换打法”",
-    "url": "https://www.guancha.cn/GuoJi%C2%B7ZhanLue/2026_10_07_903382_s.shtml",
-    "source": "观察者网",
-    "topic": "世界时事",
-    "region": "cn",
-    "published": "2026-10-07T05:27:00",
-    "author": ""
-  },
-  {
-    "title": "日媒反思：中国挑战提供机会，我们得改打法",
-    "url": "https://www.guancha.cn/GuoJi%C2%B7ZhanLue/2026_10_06_903335_s.shtml",
-    "source": "观察者网",
-    "topic": "世界时事",
-    "region": "cn",
-    "published": "2026-10-06T10:17:00",
-    "author": ""
-  },
-  {
-    "title": "中国国庆21亿人次大迁徙，日媒闹心：不来日本…",
-    "url": "https://www.guancha.cn/GuoJi%C2%B7ZhanLue/2026_10_06_903318_s.shtml",
-    "source": "观察者网",
-    "topic": "世界时事",
-    "region": "cn",
-    "published": "2026-10-06T05:12:00",
-    "author": ""
-  },
-  {
-    "title": "法國學生示威：憤怒背後隱藏著什麼？",
-    "url": "https://www.bbc.com/zhongwen/articles/crz98g94n9k5o/trad?at_medium=RSS&at_campaign=rss",
-    "source": "BBC 中文",
-    "topic": "世界时事",
-    "region": "cn",
-    "published": "2026-10-09T09:42:25",
     "author": ""
   },
   {
@@ -1179,13 +1071,31 @@
     "author": ""
   },
   {
+    "title": "Build your own decision model",
+    "url": "https://nishtahir.com/build-your-own-decision-model/",
+    "source": "HackerNews",
+    "topic": "技术圈",
+    "region": "intl",
+    "published": "2026-10-10T22:50:10",
+    "author": "softwaredoug · 234 pts · 58 comments"
+  },
+  {
+    "title": "A city-building game in which the city would prefer you didn't",
+    "url": "https://housing.over.pizza/",
+    "source": "HackerNews",
+    "topic": "技术圈",
+    "region": "intl",
+    "published": "2026-10-10T20:31:50",
+    "author": "JumpCrisscross · 302 pts · 95 comments"
+  },
+  {
     "title": "The Lightbulb Computer",
     "url": "https://lightbulbcomputer.com/",
     "source": "HackerNews",
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-10-10T04:12:26",
-    "author": "oskarth · 236 pts · 43 comments"
+    "author": "oskarth · 363 pts · 58 comments"
   },
   {
     "title": "Talorys – A self-hosted personal AI agent on Cloudflare's free tier",
@@ -1194,34 +1104,7 @@
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-10-10T10:52:09",
-    "author": "rociiu · 247 pts · 121 comments"
-  },
-  {
-    "title": "REA Reverse – Engineer Anything",
-    "url": "https://rea.tools/",
-    "source": "HackerNews",
-    "topic": "技术圈",
-    "region": "intl",
-    "published": "2026-10-10T00:37:07",
-    "author": "modinfo · 705 pts · 303 comments"
-  },
-  {
-    "title": "Bitwarden Dual License Model",
-    "url": "https://community.bitwarden.com/t/published-version-update-in-app-stores/102750",
-    "source": "HackerNews",
-    "topic": "技术圈",
-    "region": "intl",
-    "published": "2026-10-10T14:32:50",
-    "author": "Cider9986 · 346 pts · 249 comments"
-  },
-  {
-    "title": "Apple/macOS removed from official Unix registry",
-    "url": "https://www.opengroup.org//openbrand/register/",
-    "source": "HackerNews",
-    "topic": "技术圈",
-    "region": "intl",
-    "published": "2026-10-10T10:57:31",
-    "author": "john_alan · 253 pts · 219 comments"
+    "author": "rociiu · 281 pts · 130 comments"
   },
   {
     "title": "Telegram Desktop vulnerability allowed any user's file to be stolen",
@@ -1230,7 +1113,7 @@
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-10-10T03:02:47",
-    "author": "g-b-r · 414 pts · 265 comments"
+    "author": "g-b-r · 445 pts · 280 comments"
   },
   {
     "title": "I would like the value of my home to rise, while my property taxes fall",
@@ -1239,7 +1122,7 @@
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-10-10T13:29:03",
-    "author": "colinprince · 217 pts · 512 comments"
+    "author": "colinprince · 245 pts · 548 comments"
   },
   {
     "title": "logseq/logseq 发布 Desktop app Nightly Release 20261010",
@@ -1248,6 +1131,15 @@
     "topic": "GitHub 动态",
     "region": "intl",
     "published": "2026-10-10T15:38:46",
+    "author": "github-actions[bot]"
+  },
+  {
+    "title": "siyuan-note/siyuan 发布 v3.8.7-alpha.8",
+    "url": "https://github.com/siyuan-note/siyuan/releases/tag/v3.8.7-alpha.8",
+    "source": "GitHubRelease",
+    "topic": "GitHub 动态",
+    "region": "intl",
+    "published": "2026-10-11T03:56:46",
     "author": "github-actions[bot]"
   },
   {
@@ -1368,6 +1260,15 @@
     "author": "Mahesh Neupane, Pragya Dhungana, Pradip Khatri, Swechhya Baskota, Hariom Dhungana"
   },
   {
+    "title": "能访问丹麦 CPR 系统的一个管理员账号密码是 123456",
+    "url": "https://www.solidot.org/story?sid=85576",
+    "source": "Solidot",
+    "topic": "供应链",
+    "region": "intl",
+    "published": "2026-10-10T11:28:09",
+    "author": ""
+  },
+  {
     "title": "We're going to need default hard budget caps on pretty much everything",
     "url": "https://simonwillison.net/2026/Oct/3/default-hard-budget-caps/",
     "source": "Simon Willison",
@@ -1375,6 +1276,15 @@
     "region": "intl",
     "published": "2026-10-03T23:34:02",
     "author": ""
+  },
+  {
+    "title": "AMD YES！老哥给老车插上显卡，手搓「真智驾」",
+    "url": "https://www.ifanr.com/1683790?utm_source=rss&utm_medium=rss&utm_campaign=",
+    "source": "爱范儿",
+    "topic": "供应链",
+    "region": "cn",
+    "published": "2026-10-11T02:03:27",
+    "author": "李华"
   },
   {
     "title": "早报｜曝苹果iPhone Duo加单30%/四部门拟禁全隐藏式车门把手/长鑫首款服务器产品或年底推出",
