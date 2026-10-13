@@ -72,13 +72,22 @@
     "author": "Oktie Hassanzadeh, Dharmashankar Subramanian"
   },
   {
+    "title": "The baffling intelligence of a single cell (2024)",
+    "url": "https://jsomers.net/e-coli-chemotaxis/",
+    "source": "HackerNews",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-10-11T11:02:30",
+    "author": "jsomers · 227 pts · 34 comments"
+  },
+  {
     "title": "GLM-Legal",
     "url": "https://z.ai/blog/glm-legal",
     "source": "HackerNews",
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-10-12T16:11:45",
-    "author": "ilreb · 423 pts · 247 comments"
+    "author": "ilreb · 535 pts · 307 comments"
   },
   {
     "title": "A Modern Web App in C",
@@ -87,7 +96,7 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-10-12T16:13:10",
-    "author": "prophittcorey · 389 pts · 160 comments"
+    "author": "prophittcorey · 530 pts · 222 comments"
   },
   {
     "title": "Hackers activate automatic defrosting in supermarket fridges across Europe",
@@ -96,7 +105,7 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-10-12T12:16:42",
-    "author": "Zeekaas · 436 pts · 648 comments"
+    "author": "Zeekaas · 640 pts · 773 comments"
   },
   {
     "title": "Turn a WiFi 7 Router into a 320Msps Software Defined Radio Receiver",
@@ -105,25 +114,7 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-10-12T12:41:58",
-    "author": "djfergus · 256 pts · 68 comments"
-  },
-  {
-    "title": "Citroen revives the 2CV for an electric age",
-    "url": "https://www.bbc.com/news/articles/c620r33plgppo",
-    "source": "HackerNews",
-    "topic": "AI大事",
-    "region": "intl",
-    "published": "2026-10-12T12:09:09",
-    "author": "scrlk · 266 pts · 316 comments"
-  },
-  {
-    "title": "Codex CLI installs a persistent, self-updating background daemon by default",
-    "url": "https://github.com/openai/codex/issues/48195",
-    "source": "HackerNews",
-    "topic": "AI大事",
-    "region": "intl",
-    "published": "2026-10-12T18:29:04",
-    "author": "whimblepop · 453 pts · 237 comments"
+    "author": "djfergus · 335 pts · 89 comments"
   },
   {
     "title": "AI is a tool and using it well takes skill",
@@ -132,7 +123,25 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-10-12T21:40:18",
-    "author": "layer8 · 226 pts · 205 comments"
+    "author": "layer8 · 373 pts · 294 comments"
+  },
+  {
+    "title": "Citroen revives the 2CV for an electric age",
+    "url": "https://www.bbc.com/news/articles/c620r33plgppo",
+    "source": "HackerNews",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-10-12T12:09:09",
+    "author": "scrlk · 320 pts · 350 comments"
+  },
+  {
+    "title": "Codex CLI installs a persistent, self-updating background daemon by default",
+    "url": "https://github.com/openai/codex/issues/48195",
+    "source": "HackerNews",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-10-12T18:29:04",
+    "author": "whimblepop · 548 pts · 272 comments"
   },
   {
     "title": "Muse Wonder",
@@ -141,16 +150,7 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-10-12T16:48:01",
-    "author": "meetpateltech · 520 pts · 294 comments"
-  },
-  {
-    "title": "Show HN: PS2 games statically recompiled to WebAssembly",
-    "url": "https://github.com/snuri00/ps2-web-recomp",
-    "source": "HackerNews",
-    "topic": "AI大事",
-    "region": "intl",
-    "published": "2026-10-12T06:46:53",
-    "author": "deadxwarrior · 269 pts · 142 comments"
+    "author": "meetpateltech · 618 pts · 327 comments"
   },
   {
     "title": "Thinking will become a hobby",
@@ -159,16 +159,52 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-10-12T16:54:08",
-    "author": "pranitha_m · 225 pts · 293 comments"
+    "author": "pranitha_m · 271 pts · 374 comments"
   },
   {
-    "title": "'AI' Is Not a Tool by Rich Hickey",
-    "url": "https://www.linkedin.com/pulse/ai-tool-rich-hickey-kjl8e",
+    "title": "Terence Tao: Math 2.0 [pdf]",
+    "url": "https://teorth.github.io/tao-web/slides/math-2-0-caltech-2026.pdf",
     "source": "HackerNews",
     "topic": "AI大事",
     "region": "intl",
-    "published": "2026-10-12T18:00:25",
-    "author": "svieira · 214 pts · 106 comments"
+    "published": "2026-10-11T13:16:45",
+    "author": "Anon84 · 533 pts · 529 comments"
+  },
+  {
+    "title": "高通终于认真做 Linux 了：Snapdragon X2 支持提前进入上游",
+    "url": "https://www.infoq.cn/article/OjlADL5itjO3PcVHsuMB?utm_source=rss&utm_medium=article",
+    "source": "InfoQ 中文",
+    "topic": "AI大事",
+    "region": "cn",
+    "published": "2026-10-13T13:25:00",
+    "author": "作者：Olimpiu Pop"
+  },
+  {
+    "title": "20年技术品牌建设都成浮云：编程智能体如何选择其首选工具",
+    "url": "https://www.infoq.cn/article/MrxaqhrQBMrZTcSGEgL1?utm_source=rss&utm_medium=article",
+    "source": "InfoQ 中文",
+    "topic": "AI大事",
+    "region": "cn",
+    "published": "2026-10-13T11:56:10",
+    "author": "Adrian Bridgwater"
+  },
+  {
+    "title": "Meta、OpenAI、Google集体杀入，个人Agent一夜爆红：YC CEO说真正的 AGI 已经在你电脑里",
+    "url": "https://www.infoq.cn/article/pkFg3POvaTwJt9lei8Vj?utm_source=rss&utm_medium=article",
+    "source": "InfoQ 中文",
+    "topic": "AI大事",
+    "region": "cn",
+    "published": "2026-10-13T11:45:54",
+    "author": "傅宇琪,Tina"
+  },
+  {
+    "title": "GitHub新晋顶流REA：当大模型能逆向一切，软件行业还剩什么？",
+    "url": "https://www.infoq.cn/article/BEJ6IXREBoXspGmXRQHj?utm_source=rss&utm_medium=article",
+    "source": "InfoQ 中文",
+    "topic": "AI大事",
+    "region": "cn",
+    "published": "2026-10-13T11:40:05",
+    "author": "Tina"
   },
   {
     "title": "从 Agent 到 Loop：AI 正如何重构软件工程？｜QCon 上海 2026 即将开幕",
@@ -214,42 +250,6 @@
     "region": "cn",
     "published": "2026-10-11T10:00:00",
     "author": "QCon全球软件开发大会"
-  },
-  {
-    "title": "模型开放之后，AI能力为什么仍难以复用？",
-    "url": "https://www.infoq.cn/article/rKRPT18fGxtjipPAeaLa?utm_source=rss&utm_medium=article",
-    "source": "InfoQ 中文",
-    "topic": "AI大事",
-    "region": "cn",
-    "published": "2026-10-10T17:10:50",
-    "author": "世界人工智能开源大赛"
-  },
-  {
-    "title": "Rails 之父 DHH 狂吹 Rust 快 150 倍，被开发者翻代码后群嘲",
-    "url": "https://www.infoq.cn/article/jri7etqXIv2dp6RsiSHh?utm_source=rss&utm_medium=article",
-    "source": "InfoQ 中文",
-    "topic": "AI大事",
-    "region": "cn",
-    "published": "2026-10-10T15:24:10",
-    "author": "Tina"
-  },
-  {
-    "title": "CLAUDE.md 还是 AGENTS.md？Anthropic 的答案是：以后都不用",
-    "url": "https://www.infoq.cn/article/MAo3KoDWm9FGIcKau9AK?utm_source=rss&utm_medium=article",
-    "source": "InfoQ 中文",
-    "topic": "AI大事",
-    "region": "cn",
-    "published": "2026-10-10T15:18:57",
-    "author": "傅宇琪,Tina"
-  },
-  {
-    "title": "OpenAI 只用 15 天，就杀死了估值 100 亿美元的 Jev？",
-    "url": "https://www.infoq.cn/article/qmoRIQ1TceKfKwGlXN0S?utm_source=rss&utm_medium=article",
-    "source": "InfoQ 中文",
-    "topic": "AI大事",
-    "region": "cn",
-    "published": "2026-10-10T15:11:32",
-    "author": "Tina"
   },
   {
     "title": "华为AI靠RSI通关25款游戏！操作次数比人类少56%",
@@ -324,8 +324,17 @@
     "author": ""
   },
   {
-    "title": "boykopovar/AnyPS5",
-    "url": "https://github.com/boykopovar/AnyPS5",
+    "title": "bilawalsidhu/gods-eye-view",
+    "url": "https://github.com/bilawalsidhu/gods-eye-view",
+    "source": "GitHub Trending",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "",
+    "author": ""
+  },
+  {
+    "title": "mksglu/context-mode",
+    "url": "https://github.com/mksglu/context-mode",
     "source": "GitHub Trending",
     "topic": "AI大事",
     "region": "intl",
@@ -342,26 +351,17 @@
     "author": ""
   },
   {
+    "title": "open-webui/open-webui",
+    "url": "https://github.com/open-webui/open-webui",
+    "source": "GitHub Trending",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "",
+    "author": ""
+  },
+  {
     "title": "cathrynlavery/diagram-design",
     "url": "https://github.com/cathrynlavery/diagram-design",
-    "source": "GitHub Trending",
-    "topic": "AI大事",
-    "region": "intl",
-    "published": "",
-    "author": ""
-  },
-  {
-    "title": "bilawalsidhu/gods-eye-view",
-    "url": "https://github.com/bilawalsidhu/gods-eye-view",
-    "source": "GitHub Trending",
-    "topic": "AI大事",
-    "region": "intl",
-    "published": "",
-    "author": ""
-  },
-  {
-    "title": "pytorch/pytorch",
-    "url": "https://github.com/pytorch/pytorch",
     "source": "GitHub Trending",
     "topic": "AI大事",
     "region": "intl",
@@ -378,12 +378,30 @@
     "author": ""
   },
   {
-    "title": "chrislgarry/Apollo-11",
-    "url": "https://github.com/chrislgarry/Apollo-11",
+    "title": "microsoft/BitNet",
+    "url": "https://github.com/microsoft/BitNet",
     "source": "GitHub Trending",
     "topic": "AI大事",
     "region": "intl",
     "published": "",
+    "author": ""
+  },
+  {
+    "title": "Alishahryar1/free-claude-code",
+    "url": "https://github.com/Alishahryar1/free-claude-code",
+    "source": "GitHub Trending",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "",
+    "author": ""
+  },
+  {
+    "title": "黑客加热联网的超市冰箱，导致食物变质和设备起火",
+    "url": "https://www.solidot.org/story?sid=85593",
+    "source": "Solidot",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-10-13T06:14:53",
     "author": ""
   },
   {
@@ -447,15 +465,6 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-10-10T09:05:17",
-    "author": ""
-  },
-  {
-    "title": "全球 PC 出货量三季度暴跌逾 20%",
-    "url": "https://www.solidot.org/story?sid=85572",
-    "source": "Solidot",
-    "topic": "AI大事",
-    "region": "intl",
-    "published": "2026-10-10T07:53:37",
     "author": ""
   },
   {
@@ -1035,93 +1044,93 @@
     "author": ""
   },
   {
-    "title": "【市场动态】泽连斯基称若拒绝能源停火 乌克兰将继续对俄进行远程打击",
-    "url": "https://database.caixin.com/2026-10-13/102492701.html",
+    "title": "【公司速递】达美航空：高油价挤压盈利 需求韧性暂未受影响",
+    "url": "https://database.caixin.com/2026-10-13/102492876.html",
     "source": "财新网",
     "topic": "世界时事",
     "region": "cn",
-    "published": "2026-10-13T01:23:18",
+    "published": "2026-10-13T07:45:10",
     "author": ""
   },
   {
-    "title": "T早报｜微软总裁再次呼吁监管AI；新能源汽车出口优惠收紧；胡塞武装再袭利雅得机场致1死11伤",
-    "url": "https://www.caixin.com/2026-10-13/102492690.html",
+    "title": "【华尔街原声】凯雷集团：AI投资热潮或使私募信贷面临集中度风险",
+    "url": "https://database.caixin.com/2026-10-13/102492868.html",
     "source": "财新网",
     "topic": "世界时事",
     "region": "cn",
-    "published": "2026-10-13T00:36:28",
+    "published": "2026-10-13T07:25:06",
     "author": ""
   },
   {
-    "title": "【市场动态】哈萨克斯坦开始出售黄金储备 因美债收益率上涨增强美元吸引力",
-    "url": "https://database.caixin.com/2026-10-13/102492684.html",
+    "title": "【商圈】胡幼桃的江西往事：财政技术派官员的“两幅面孔”",
+    "url": "https://database.caixin.com/2026-10-13/102492865.html",
     "source": "财新网",
     "topic": "世界时事",
     "region": "cn",
-    "published": "2026-10-13T00:29:52",
+    "published": "2026-10-13T07:17:58",
     "author": ""
   },
   {
-    "title": "【市场动态】美国要取消20年期国债？华尔街热议贝森特是否再有惊人之举",
-    "url": "https://database.caixin.com/2026-10-13/102492682.html",
+    "title": "同样的债务率，不同的风险价格",
+    "url": "https://opinion.caixin.com/2026-10-13/102492817.html",
     "source": "财新网",
     "topic": "世界时事",
     "region": "cn",
-    "published": "2026-10-13T00:22:41",
+    "published": "2026-10-13T06:05:46",
     "author": ""
   },
   {
-    "title": "从“驾驭”到“预期”：2026年经济学诺奖对中国宏观政策的启发",
-    "url": "https://opinion.caixin.com/2026-10-13/102492678.html",
+    "title": "马斯克拿下800MHz颠覆运营商，广电坐拥黄金频段却何以沦为附庸",
+    "url": "https://opinion.caixin.com/2026-10-13/102492809.html",
     "source": "财新网",
     "topic": "世界时事",
     "region": "cn",
-    "published": "2026-10-12T23:18:17",
+    "published": "2026-10-13T04:37:29",
     "author": ""
   },
   {
-    "title": "财经早知道｜新能源汽车增值税出口退税率下调至9%",
-    "url": "https://finance.caixin.com/2026-10-13/102492673.html",
+    "title": "落实中美经贸磋商成果 VISA获筹银行卡清算机构",
+    "url": "https://finance.caixin.com/2026-10-13/102492805.html",
     "source": "财新网",
     "topic": "世界时事",
     "region": "cn",
-    "published": "2026-10-12T22:59:41",
+    "published": "2026-10-13T04:36:49",
     "author": ""
   },
   {
-    "title": "宏观经济学的重建：霍尔与伍德福德的诺奖贡献",
-    "url": "https://opinion.caixin.com/2026-10-12/102492657.html",
+    "title": "一个人的“善举”和北美的两亿只椋鸟｜自然",
+    "url": "https://mini.caixin.com/2026-10-13/102492763.html",
     "source": "财新网",
     "topic": "世界时事",
     "region": "cn",
-    "published": "2026-10-12T14:52:48",
+    "published": "2026-10-13T03:55:35",
     "author": ""
   },
   {
-    "title": "特朗普“能源停火”再引俄乌歧异表态 泽连斯基称“不知情”",
-    "url": "https://international.caixin.com/2026-10-12/102492653.html",
+    "title": "彭文生：人口结构、被动城镇化与提振消费需求",
+    "url": "https://opinion.caixin.com/2026-10-13/102492732.html",
     "source": "财新网",
     "topic": "世界时事",
     "region": "cn",
-    "published": "2026-10-12T14:49:20",
+    "published": "2026-10-13T03:39:12",
     "author": ""
   },
   {
-    "title": "新能源汽车出口优惠收紧 增值税退税率降至9%",
-    "url": "https://www.caixin.com/2026-10-12/102492637.html",
+    "title": "消费为何难解内需之急",
+    "url": "https://opinion.caixin.com/2026-10-13/102492718.html",
     "source": "财新网",
     "topic": "世界时事",
     "region": "cn",
-    "published": "2026-10-12T13:32:43",
+    "published": "2026-10-13T02:52:05",
     "author": ""
   },
   {
-    "title": "当央行学会倾听市场：2026年诺贝尔经济学奖重新定义宏观稳定的秘密",
-    "url": "https://opinion.caixin.com/2026-10-12/102492635.html",
+    "title": "【华尔街原声】RBC：石油运输危机推高亚洲购油成本",
+    "url": "https://database.caixin.com/2026-10-13/102492706.html",
     "source": "财新网",
     "topic": "世界时事",
     "region": "cn",
-    "published": "2026-10-12T13:28:04",
+    "published": "2026-10-13T02:05:15",
     "author": ""
   },
   {
@@ -1143,7 +1152,7 @@
     "author": ""
   },
   {
-    "title": "被问美俄柴油协议，她兜圈子：欧盟刚加1600项制裁",
+    "title": "被问美俄柴油协议，她兜圈子：欧盟加了1600项制裁",
     "url": "https://www.guancha.cn/GuoJi%C2%B7ZhanLue/2026_10_12_903999_s.shtml",
     "source": "观察者网",
     "topic": "世界时事",
@@ -1184,8 +1193,8 @@
     "source": "观察者网",
     "topic": "世界时事",
     "region": "cn",
-    "published": "2026-10-10T09:17:00",
-    "author": ""
+    "published": "2026-10-10T14:38:18",
+    "author": "张红日"
   },
   {
     "title": "“俄罗斯将立即向美国及全球市场供应柴油”",
@@ -1194,15 +1203,6 @@
     "topic": "世界时事",
     "region": "cn",
     "published": "2026-10-09T23:37:00",
-    "author": ""
-  },
-  {
-    "title": "“伊斯兰版北约”成真？巴基斯坦军队已赴沙特",
-    "url": "https://www.guancha.cn/GuoJi%C2%B7ZhanLue/2026_10_08_903563_s.shtml",
-    "source": "观察者网",
-    "topic": "世界时事",
-    "region": "cn",
-    "published": "2026-10-08T14:03:00",
     "author": ""
   },
   {
@@ -1233,13 +1233,22 @@
     "author": ""
   },
   {
+    "title": "The baffling intelligence of a single cell (2024)",
+    "url": "https://jsomers.net/e-coli-chemotaxis/",
+    "source": "HackerNews",
+    "topic": "技术圈",
+    "region": "intl",
+    "published": "2026-10-11T11:02:30",
+    "author": "jsomers · 227 pts · 34 comments"
+  },
+  {
     "title": "GLM-Legal",
     "url": "https://z.ai/blog/glm-legal",
     "source": "HackerNews",
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-10-12T16:11:45",
-    "author": "ilreb · 423 pts · 247 comments"
+    "author": "ilreb · 535 pts · 307 comments"
   },
   {
     "title": "A Modern Web App in C",
@@ -1248,7 +1257,7 @@
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-10-12T16:13:10",
-    "author": "prophittcorey · 389 pts · 160 comments"
+    "author": "prophittcorey · 531 pts · 222 comments"
   },
   {
     "title": "Hackers activate automatic defrosting in supermarket fridges across Europe",
@@ -1257,7 +1266,7 @@
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-10-12T12:16:42",
-    "author": "Zeekaas · 436 pts · 648 comments"
+    "author": "Zeekaas · 640 pts · 774 comments"
   },
   {
     "title": "Turn a WiFi 7 Router into a 320Msps Software Defined Radio Receiver",
@@ -1266,25 +1275,7 @@
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-10-12T12:41:58",
-    "author": "djfergus · 256 pts · 68 comments"
-  },
-  {
-    "title": "Citroen revives the 2CV for an electric age",
-    "url": "https://www.bbc.com/news/articles/c620r33plgppo",
-    "source": "HackerNews",
-    "topic": "技术圈",
-    "region": "intl",
-    "published": "2026-10-12T12:09:09",
-    "author": "scrlk · 266 pts · 316 comments"
-  },
-  {
-    "title": "Codex CLI installs a persistent, self-updating background daemon by default",
-    "url": "https://github.com/openai/codex/issues/48195",
-    "source": "HackerNews",
-    "topic": "技术圈",
-    "region": "intl",
-    "published": "2026-10-12T18:29:04",
-    "author": "whimblepop · 453 pts · 238 comments"
+    "author": "djfergus · 335 pts · 89 comments"
   },
   {
     "title": "AI is a tool and using it well takes skill",
@@ -1293,7 +1284,25 @@
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-10-12T21:40:18",
-    "author": "layer8 · 226 pts · 206 comments"
+    "author": "layer8 · 373 pts · 294 comments"
+  },
+  {
+    "title": "Citroen revives the 2CV for an electric age",
+    "url": "https://www.bbc.com/news/articles/c620r33plgppo",
+    "source": "HackerNews",
+    "topic": "技术圈",
+    "region": "intl",
+    "published": "2026-10-12T12:09:09",
+    "author": "scrlk · 320 pts · 351 comments"
+  },
+  {
+    "title": "Codex CLI installs a persistent, self-updating background daemon by default",
+    "url": "https://github.com/openai/codex/issues/48195",
+    "source": "HackerNews",
+    "topic": "技术圈",
+    "region": "intl",
+    "published": "2026-10-12T18:29:04",
+    "author": "whimblepop · 548 pts · 272 comments"
   },
   {
     "title": "Muse Wonder",
@@ -1302,16 +1311,7 @@
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-10-12T16:48:01",
-    "author": "meetpateltech · 520 pts · 294 comments"
-  },
-  {
-    "title": "Show HN: PS2 games statically recompiled to WebAssembly",
-    "url": "https://github.com/snuri00/ps2-web-recomp",
-    "source": "HackerNews",
-    "topic": "技术圈",
-    "region": "intl",
-    "published": "2026-10-12T06:46:53",
-    "author": "deadxwarrior · 269 pts · 142 comments"
+    "author": "meetpateltech · 618 pts · 327 comments"
   },
   {
     "title": "Thinking will become a hobby",
@@ -1320,16 +1320,16 @@
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-10-12T16:54:08",
-    "author": "pranitha_m · 225 pts · 293 comments"
+    "author": "pranitha_m · 271 pts · 375 comments"
   },
   {
-    "title": "'AI' Is Not a Tool by Rich Hickey",
-    "url": "https://www.linkedin.com/pulse/ai-tool-rich-hickey-kjl8e",
+    "title": "Terence Tao: Math 2.0 [pdf]",
+    "url": "https://teorth.github.io/tao-web/slides/math-2-0-caltech-2026.pdf",
     "source": "HackerNews",
     "topic": "技术圈",
     "region": "intl",
-    "published": "2026-10-12T18:00:25",
-    "author": "svieira · 216 pts · 106 comments"
+    "published": "2026-10-11T13:16:45",
+    "author": "Anon84 · 533 pts · 529 comments"
   },
   {
     "title": "langchain-ai/langchain 发布 langchain==1.4.5",
@@ -1377,24 +1377,6 @@
     "author": "github-actions[bot]"
   },
   {
-    "title": "siyuan-note/siyuan 发布 v3.8.7-beta.3",
-    "url": "https://github.com/siyuan-note/siyuan/releases/tag/v3.8.7-beta.3",
-    "source": "GitHubRelease",
-    "topic": "GitHub 动态",
-    "region": "intl",
-    "published": "2026-10-12T05:49:20",
-    "author": "github-actions[bot]"
-  },
-  {
-    "title": "siyuan-note/siyuan 发布 v3.8.7-beta.2",
-    "url": "https://github.com/siyuan-note/siyuan/releases/tag/v3.8.7-beta.2",
-    "source": "GitHubRelease",
-    "topic": "GitHub 动态",
-    "region": "intl",
-    "published": "2026-10-12T03:29:23",
-    "author": "github-actions[bot]"
-  },
-  {
     "title": "vercel/next.js 发布 v16.5.0-canary.9",
     "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.9",
     "source": "GitHubRelease",
@@ -1402,6 +1384,15 @@
     "region": "intl",
     "published": "2026-10-12T23:53:03",
     "author": "next-js-bot[bot]"
+  },
+  {
+    "title": "weaviate/weaviate 发布 v1.40.1 - Schema drop and recreate class Fix, Reindex vector dimensions at startup performance improvement",
+    "url": "https://github.com/weaviate/weaviate/releases/tag/v1.40.1",
+    "source": "GitHubRelease",
+    "topic": "GitHub 动态",
+    "region": "intl",
+    "published": "2026-10-13T06:35:30",
+    "author": "antas-marcin"
   },
   {
     "title": "weaviate/weaviate 发布 v1.39.12 - Schema drop and recreate class Fix, Reindex vector dimensions at startup performance improvement",
@@ -1422,103 +1413,49 @@
     "author": "antas-marcin"
   },
   {
-    "title": "Integrating cooperative breeding with reciprocity and culture extends Hamilton's rule to humans.",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42863074/",
+    "title": "Videolaryngostroboscopy to Therapy Translational Framework: Bridging Laryngeal Imaging and Voice Therapy via Biomechanical Inference.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42864248/",
     "source": "PubMed",
     "topic": "心理学",
     "region": "intl",
     "published": "2026",
-    "author": "Alessandra Cassar, Daniel Friedman, Shreeja Guha, Timothy Wilkins"
+    "author": "Marcelo José Rodríguez-Cruz"
   },
   {
-    "title": "Endocannabinoid Signaling and Mood Regulation.",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42862946/",
+    "title": "Handling missingness in electronic health record laboratory data for secondary use: a decision-making process.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42864134/",
     "source": "PubMed",
     "topic": "心理学",
     "region": "intl",
     "published": "2026",
-    "author": "Aditya Rayasam, Cecilia J Hillard"
+    "author": "Dirk H van Dalen, Kai van de Poll, Angèle P M Kerckhoffs, Marcel A L M van Assen"
   },
   {
-    "title": "Understanding cell fate decisions with temporal attention.",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42862872/",
+    "title": "Implementing a patient-centred and evidence-based intervention to reduce BEnzodiazepine and sedative-hypnotic use to improve patient SAFEty and quality of care (BE-SAFE): study protocol of a cluster randomised controlled trial.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42864131/",
     "source": "PubMed",
     "topic": "心理学",
     "region": "intl",
     "published": "2026",
-    "author": "Florian Bürger, Martim Dias Gomes, Adrián E Granada, Noémie Moreau"
+    "author": "Maria-Lisa Kleinert, Sarah Atighetchi, Julia Isabel Beck, Lucy Bolt"
   },
   {
-    "title": "Neuropeptides in Immunometabolism and Neuroinflammation: Insights from Traditional Chinese Medicine.",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42862796/",
+    "title": "Working With AI and Robotic Systems While Preserving Clinical Judgement, Professional Accountability and Person-Centred Care: Critical Care Nurses' Perspectives.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42864074/",
     "source": "PubMed",
     "topic": "心理学",
     "region": "intl",
     "published": "2026",
-    "author": "Chung-Hsin Wu, Chi-Feng Cheng, Thi Kim Ngan Nguyen, Li-Yu Su"
+    "author": "Tuba Sengul, Dilek Yilmaz Akyaz, Buse Macit Kaplan, Yunus Emre Akyol"
   },
   {
-    "title": "Diagnosis-Day Prothrombin Time and Transaminase as Exploratory Risk-Stratification Indicators for Severe Neonatal Outcomes in Acute Fatty Liver of Pregnancy.",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42862769/",
+    "title": "Migration as a transformative force shaping beliefs about and readiness for advance care planning among Thai immigrants in Australia: A qualitative exploration.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42863999/",
     "source": "PubMed",
     "topic": "心理学",
     "region": "intl",
     "published": "2026",
-    "author": "Dong Xu, Peiyue Jiang, Hong Chen, Lihua Shao"
-  },
-  {
-    "title": "Sequential Conformal Calibration under Recursive Selection",
-    "url": "http://arxiv.org/abs/2610.12937v1",
-    "source": "arXiv",
-    "topic": "供应链",
-    "region": "intl",
-    "published": "2026-10-09T03:38:10",
-    "author": "Yuning Yang, Zexuan Liu, Tianci Wang, Danlin Li"
-  },
-  {
-    "title": "Predictive Rerouting of Connected and Automated Vehicles Using Traffic and Charging Demand Forecasts",
-    "url": "http://arxiv.org/abs/2610.10532v1",
-    "source": "arXiv",
-    "topic": "供应链",
-    "region": "intl",
-    "published": "2026-10-07T17:58:52",
-    "author": "Tony Kinchen, Ting Bai, Andreas A. Malikopoulos"
-  },
-  {
-    "title": "Logic-Logit: A Logic-Based Approach to Choice Modeling",
-    "url": "http://arxiv.org/abs/2610.05501v1",
-    "source": "arXiv",
-    "topic": "供应链",
-    "region": "intl",
-    "published": "2026-10-04T20:14:20",
-    "author": "Shuhan Zhang, Wendi Ren, Shuang Li"
-  },
-  {
-    "title": "Integrated omics reveals actionable drivers of bioactive variation in US milk",
-    "url": "http://arxiv.org/abs/2610.04970v1",
-    "source": "arXiv",
-    "topic": "供应链",
-    "region": "intl",
-    "published": "2026-10-04T05:35:46",
-    "author": "Cheng-En Tan, Mariana Barboza, Pagkratios Tagkopoulos, Shanghyeon Kim, Lukas Maximilian Masopust, Ivor Prado, Muhammad Adil Salim, Fangzhou Li, George Berdovskiy, Ilias Apostolakos, Brandon Invergo, K"
-  },
-  {
-    "title": "LLM-enhanced spatio-temporal learning for grid-level docked bike sharing demand prediction",
-    "url": "http://arxiv.org/abs/2610.03834v1",
-    "source": "arXiv",
-    "topic": "供应链",
-    "region": "intl",
-    "published": "2026-10-02T12:31:46",
-    "author": "Xuxilu Zhang, Francesc Soriguera"
-  },
-  {
-    "title": "Validated Data Onboarding for AI Demand Forecasting on U.S. Building Meter Data: Design, Controlled Evaluation, and a Corrected Negative Result",
-    "url": "http://arxiv.org/abs/2610.02397v1",
-    "source": "arXiv",
-    "topic": "供应链",
-    "region": "intl",
-    "published": "2026-10-01T19:23:37",
-    "author": "Yixuan Liang"
+    "author": "Pawita Limsomwong, Anna Collins, Peter Hudson, Supakorn Sripaew"
   },
   {
     "title": "能访问丹麦 CPR 系统的一个管理员账号密码是 123456",
@@ -1591,15 +1528,6 @@
     "region": "cn",
     "published": "2026-10-10T00:14:25",
     "author": "郑廷旭"
-  },
-  {
-    "title": "苹果 CEO 最爱的汽车品牌，要推出新超跑了",
-    "url": "https://www.ifanr.com/1683229?utm_source=rss&utm_medium=rss&utm_campaign=",
-    "source": "爱范儿",
-    "topic": "供应链",
-    "region": "cn",
-    "published": "2026-10-08T12:24:31",
-    "author": "李华"
   },
   {
     "title": "Inside-Out AI: Rebuilding Airbnb Behind the Scenes and Across the Guest Experience",
