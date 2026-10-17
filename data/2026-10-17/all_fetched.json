@@ -1,84 +1,21 @@
 [
   {
-    "title": "Discovering state-of-the-art quantum circuits with large language models",
-    "url": "http://arxiv.org/abs/2610.22367v1",
-    "source": "arXiv",
-    "topic": "AI大事",
-    "region": "intl",
-    "published": "2026-10-15T17:59:20",
-    "author": "Andi Gu, Alek H. Kemeny, Susanne F. Yelin, Mikhail D. Lukin"
-  },
-  {
-    "title": "Grounding Generative Verification in 3D Content",
-    "url": "http://arxiv.org/abs/2610.22360v1",
-    "source": "arXiv",
-    "topic": "AI大事",
-    "region": "intl",
-    "published": "2026-10-15T17:59:01",
-    "author": "Shuanglin Li, Jiaying Lin, Shuquan Ye"
-  },
-  {
-    "title": "MLExpert: Towards a Generalist Agentic Model for Autonomous Machine Learning Engineering",
-    "url": "http://arxiv.org/abs/2610.22344v1",
-    "source": "arXiv",
-    "topic": "AI大事",
-    "region": "intl",
-    "published": "2026-10-15T17:56:32",
-    "author": "Shangheng Du, Jinxin Shi, Shuaiyu Zhang, Yiming Wu, Junpeng Zhao, Shiyang Feng, Xin Li, Liang He, Xiangchao Yan, Bo Zhang"
-  },
-  {
-    "title": "3DCodeVerse: Exploring 3D Worlds as Code",
-    "url": "http://arxiv.org/abs/2610.22341v1",
-    "source": "arXiv",
-    "topic": "AI大事",
-    "region": "intl",
-    "published": "2026-10-15T17:56:07",
-    "author": "Yipeng Gao, Ziyao Zeng, Jinfa Huang, Yijiang Li, Haolin Xiong, Wang Qin, Xinlei Yu, Youheng Yao, Jie Zhang, Kun-Yu Lin, Rong Liu, Yinyuan Zhao, Yajie Zhao, Meiqi Guo, Jiebo Luo, Lei Shu, Yunhao Ge, Xi"
-  },
-  {
-    "title": "Evaluation Awareness Beyond English: Do LLMs Act Differently When Tested in Indic Languages?",
-    "url": "http://arxiv.org/abs/2610.22333v1",
-    "source": "arXiv",
-    "topic": "AI大事",
-    "region": "intl",
-    "published": "2026-10-15T17:53:33",
-    "author": "Trizal Garg, Sibayan Mitra, Arya Karanjkar, Advait Singh, Jagat Sesh Challa, Yash Sinha, Siddharth Mehrotra, Dhruv Kumar, Pratham Yogish Maliya"
-  },
-  {
-    "title": "Designing Transformers for Continuous Diffusion Language Models",
-    "url": "http://arxiv.org/abs/2610.22330v1",
-    "source": "arXiv",
-    "topic": "AI大事",
-    "region": "intl",
-    "published": "2026-10-15T17:52:31",
-    "author": "Weijian Luo, Yujian Chen, Hao Jiang, Guang Cheng, Tianyang Hu"
-  },
-  {
-    "title": "Training Reasoning Models to Generate Diverse Scientific Ideas",
-    "url": "http://arxiv.org/abs/2610.22324v1",
-    "source": "arXiv",
-    "topic": "AI大事",
-    "region": "intl",
-    "published": "2026-10-15T17:52:12",
-    "author": "Manya Wadhwa, Pranav Narayanan Venkit, Hiroaki Hayashi, Yu Li, Tuhin Chakrabarty, Chien-Sheng Wu"
-  },
-  {
-    "title": "Learning to Steer LLM Agents and Multi-Agent Systems",
-    "url": "http://arxiv.org/abs/2610.22316v1",
-    "source": "arXiv",
-    "topic": "AI大事",
-    "region": "intl",
-    "published": "2026-10-15T17:51:17",
-    "author": "Leyang Shen, Yaxin Gong, Yang Zhang, Chenxiao Fan, Jiakai Wang, Dong Wang, Yang Liu, Fuli Feng, Chun Kai Ling, Tat-Seng Chua"
-  },
-  {
     "title": "Tesla Roadster",
     "url": "https://www.tesla.com/roadster",
     "source": "HackerNews",
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-10-16T01:32:45",
-    "author": "shekhar101 · 1183 pts · 2124 comments"
+    "author": "shekhar101 · 1319 pts · 2356 comments"
+  },
+  {
+    "title": "Llama.cpp on a jailbroken PS5: run any GGUF model natively on the console",
+    "url": "https://github.com/cobanov/PS5LM",
+    "source": "HackerNews",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-10-16T18:32:35",
+    "author": "Anon84 · 245 pts · 63 comments"
   },
   {
     "title": "Claude reveals ECDSA curve origins",
@@ -87,16 +24,25 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-10-16T18:55:59",
-    "author": "ahlCVA · 667 pts · 269 comments"
+    "author": "ahlCVA · 790 pts · 300 comments"
   },
   {
-    "title": "Waymo in Toronto",
-    "url": "https://waymo.com/blog/2026/10/waymo-in-toronto/",
+    "title": "You could have invented transformers from memory",
+    "url": "https://alexwang.ai/posts/associative-memory/",
     "source": "HackerNews",
     "topic": "AI大事",
     "region": "intl",
-    "published": "2026-10-16T14:44:17",
-    "author": "ChrisArchitect · 266 pts · 374 comments"
+    "published": "2026-10-16T19:01:17",
+    "author": "speckx · 215 pts · 60 comments"
+  },
+  {
+    "title": "eBay Restricts Listings of Radio Equipment, but Exempts Ham-Band-Only Gear",
+    "url": "https://www.arrl.org/arrlletterissue?issue=2026-10-15#eBay-Restricts-Listings-of-Radio-Equipment_-But-Exempts-Ham-Band-Only-Gear",
+    "source": "HackerNews",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-10-16T18:06:17",
+    "author": "7402 · 203 pts · 161 comments"
   },
   {
     "title": "Apple ML Research: Muse Spark Open with MLX on Mac Studio",
@@ -105,16 +51,16 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-10-16T13:43:48",
-    "author": "antipaul · 265 pts · 121 comments"
+    "author": "antipaul · 295 pts · 144 comments"
   },
   {
-    "title": "How the Claude Code team does code review",
-    "url": "https://claude.dev/blog/solving-code-review-at-anthropic/",
+    "title": "JPEG XL vs. AVIF for web use-cases",
+    "url": "https://jakearchibald.com/2026/jpeg-xl-vs-avif/",
     "source": "HackerNews",
     "topic": "AI大事",
     "region": "intl",
-    "published": "2026-10-16T19:04:47",
-    "author": "pretext · 233 pts · 219 comments"
+    "published": "2026-10-16T16:12:02",
+    "author": "farlight · 228 pts · 158 comments"
   },
   {
     "title": "90% of US working hours are spent on tasks not covered well by AI benchmarks",
@@ -123,16 +69,61 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-10-16T17:08:38",
-    "author": "speckx · 395 pts · 330 comments"
+    "author": "speckx · 456 pts · 394 comments"
   },
   {
-    "title": "I Love Software Rendering",
+    "title": "How the Claude Code team does code review",
+    "url": "https://claude.dev/blog/solving-code-review-at-anthropic/",
+    "source": "HackerNews",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-10-16T19:04:47",
+    "author": "pretext · 295 pts · 274 comments"
+  },
+  {
+    "title": "Show HN: Gemini 4 Argon plays StarCraft",
+    "url": "https://starskirmish.com/bench/v0-2/",
+    "source": "HackerNews",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-10-16T14:18:44",
+    "author": "__cayenne__ · 206 pts · 90 comments"
+  },
+  {
+    "title": "I love software rendering",
     "url": "https://www.jamesfmackenzie.com/2026/10/13/i-love-software-rendering/",
     "source": "HackerNews",
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-10-16T12:52:08",
-    "author": "speckx · 287 pts · 189 comments"
+    "author": "speckx · 311 pts · 197 comments"
+  },
+  {
+    "title": "Waymo in Toronto",
+    "url": "https://waymo.com/blog/2026/10/waymo-in-toronto/",
+    "source": "HackerNews",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-10-16T14:44:17",
+    "author": "ChrisArchitect · 305 pts · 409 comments"
+  },
+  {
+    "title": "The World Is Not a Dataset - Building AI Systems That Continuously Learn from Reality｜QCon上海",
+    "url": "https://www.infoq.cn/article/JMZ6WUx4a4cVqAwhwviU?utm_source=rss&utm_medium=article",
+    "source": "InfoQ 中文",
+    "topic": "AI大事",
+    "region": "cn",
+    "published": "2026-10-17T10:00:00",
+    "author": "QCon全球软件开发大会"
+  },
+  {
+    "title": "Java 近期新闻：JobRunr 9、OpenXava 8、Quarkus、LangChain4j、JNoSQL、Lathe",
+    "url": "https://www.infoq.cn/article/AF1qxLVCRls3R6MdWwBh?utm_source=rss&utm_medium=article",
+    "source": "InfoQ 中文",
+    "topic": "AI大事",
+    "region": "cn",
+    "published": "2026-10-17T10:00:00",
+    "author": "作者：Michael Redlich"
   },
   {
     "title": "聚焦 AI 场景落地与 FDE 创新，2026 人工智能产业大会专项活动在济南举行",
@@ -207,85 +198,49 @@
     "author": "QCon全球软件开发大会"
   },
   {
-    "title": "拍照和翻译救不了AI眼镜？千问2218元起推新硬件，要抢现实世界里的上下文",
-    "url": "https://www.infoq.cn/article/wMMAbsA4UOtYlAl1fH4T?utm_source=rss&utm_medium=article",
-    "source": "InfoQ 中文",
-    "topic": "AI大事",
-    "region": "cn",
-    "published": "2026-10-15T23:06:01",
-    "author": "青和"
-  },
-  {
-    "title": "阶跃星辰开放 Step 5 Preview 权重：长程 Agent 的竞争，延伸到上下文管理与训练系统",
-    "url": "https://www.infoq.cn/article/EwqsJX6f03ODRac6Kk4c?utm_source=rss&utm_medium=article",
-    "source": "InfoQ 中文",
-    "topic": "AI大事",
-    "region": "cn",
-    "published": "2026-10-15T20:09:59",
-    "author": "李冬梅"
-  },
-  {
-    "title": "库克：苹果智能接入阿里千问大模型，10月底在中国发布测试版本",
-    "url": "https://www.qbitai.com/2026/10/503640.html",
+    "title": "清华特奖得主AI创业再+1：GeoPT一作入局物理世界模型",
+    "url": "https://www.qbitai.com/2026/10/503880.html",
     "source": "量子位",
     "topic": "AI大事",
     "region": "cn",
-    "published": "2026-10-15T09:43:29",
+    "published": "2026-10-16T12:54:54",
+    "author": "梦晨"
+  },
+  {
+    "title": "说真话就能拿10万？网易叭哥说重金求“真需求”，不卡专业学历",
+    "url": "https://www.qbitai.com/2026/10/503861.html",
+    "source": "量子位",
+    "topic": "AI大事",
+    "region": "cn",
+    "published": "2026-10-16T08:07:33",
     "author": "量子位的朋友们"
   },
   {
-    "title": "量子位智库发布Agent落地报告！拆解企业智能化六大断点，附全链路破局框架",
-    "url": "https://www.qbitai.com/2026/10/503614.html",
+    "title": "霸榜三大基准！优必选 Thinker-WM：多模态统一表征，单模型实现六大能力",
+    "url": "https://www.qbitai.com/2026/10/503843.html",
     "source": "量子位",
     "topic": "AI大事",
     "region": "cn",
-    "published": "2026-10-15T08:48:31",
-    "author": "思邈"
-  },
-  {
-    "title": "2026 TMOT首个AI智能体走进电音现场，让听众成为音乐共创者",
-    "url": "https://www.qbitai.com/2026/10/503611.html",
-    "source": "量子位",
-    "topic": "AI大事",
-    "region": "cn",
-    "published": "2026-10-15T08:16:19",
+    "published": "2026-10-16T08:00:31",
     "author": "量子位的朋友们"
   },
   {
-    "title": "这个双十一，百灵新模型干起活来不烧心",
-    "url": "https://www.qbitai.com/2026/10/503532.html",
+    "title": "范式智能联合睿思智联推出开源一站式  生产级 AI 部署平台 “模域ModelSphere”",
+    "url": "https://www.qbitai.com/2026/10/503829.html",
     "source": "量子位",
     "topic": "AI大事",
     "region": "cn",
-    "published": "2026-10-15T07:35:24",
-    "author": "鹭羽"
-  },
-  {
-    "title": "AI时代，商学院这样培养未来商业领袖",
-    "url": "https://www.qbitai.com/2026/10/503504.html",
-    "source": "量子位",
-    "topic": "AI大事",
-    "region": "cn",
-    "published": "2026-10-15T07:22:34",
-    "author": "思邈"
-  },
-  {
-    "title": "苹果AI国内上线，阿里百度浮出水面",
-    "url": "https://www.qbitai.com/2026/10/503497.html",
-    "source": "量子位",
-    "topic": "AI大事",
-    "region": "cn",
-    "published": "2026-10-15T06:52:45",
+    "published": "2026-10-16T07:16:11",
     "author": "量子位的朋友们"
   },
   {
-    "title": "前华为小艺大模型负责人创业，押注“主动式物理AI”",
-    "url": "https://www.qbitai.com/2026/10/503446.html",
+    "title": "68岁亚马逊CTO：别让恐惧，替企业做AI决策",
+    "url": "https://www.qbitai.com/2026/10/503815.html",
     "source": "量子位",
     "topic": "AI大事",
     "region": "cn",
-    "published": "2026-10-15T06:35:46",
-    "author": "程浅"
+    "published": "2026-10-16T07:01:31",
+    "author": "十三"
   },
   {
     "title": "morluto/rea",
@@ -1008,15 +963,6 @@
     "author": ""
   },
   {
-    "title": "禁止出口目录拟增列部分生物医药技术，涉及CGT、小核酸等",
-    "url": "https://www.caixin.com/2026-10-16/102494136.html",
-    "source": "财新网",
-    "topic": "世界时事",
-    "region": "cn",
-    "published": "2026-10-16T13:17:09",
-    "author": ""
-  },
-  {
     "title": "被中方制裁了，他还嘴硬：对台关系不可谈判",
     "url": "https://www.guancha.cn/GuoJi%C2%B7ZhanLue/2026_10_17_904687_s.shtml",
     "source": "观察者网",
@@ -1071,15 +1017,6 @@
     "author": ""
   },
   {
-    "title": "被问美俄柴油协议，她兜圈子：欧盟刚加1600项制裁",
-    "url": "https://www.guancha.cn/GuoJi%C2%B7ZhanLue/2026_10_12_903999_s.shtml",
-    "source": "观察者网",
-    "topic": "世界时事",
-    "region": "cn",
-    "published": "2026-10-12T11:11:00",
-    "author": ""
-  },
-  {
     "title": "美沙冬是毒還是藥？從香港經驗看台灣選戰戒毒爭議",
     "url": "https://www.bbc.com/zhongwen/watch/cmwyq699de35o/trad?at_medium=RSS&at_campaign=rss",
     "source": "BBC 中文",
@@ -1113,7 +1050,16 @@
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-10-16T01:32:45",
-    "author": "shekhar101 · 1184 pts · 2126 comments"
+    "author": "shekhar101 · 1319 pts · 2356 comments"
+  },
+  {
+    "title": "Llama.cpp on a jailbroken PS5: run any GGUF model natively on the console",
+    "url": "https://github.com/cobanov/PS5LM",
+    "source": "HackerNews",
+    "topic": "技术圈",
+    "region": "intl",
+    "published": "2026-10-16T18:32:35",
+    "author": "Anon84 · 246 pts · 63 comments"
   },
   {
     "title": "Claude reveals ECDSA curve origins",
@@ -1122,16 +1068,25 @@
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-10-16T18:55:59",
-    "author": "ahlCVA · 668 pts · 269 comments"
+    "author": "ahlCVA · 790 pts · 300 comments"
   },
   {
-    "title": "Waymo in Toronto",
-    "url": "https://waymo.com/blog/2026/10/waymo-in-toronto/",
+    "title": "You could have invented transformers from memory",
+    "url": "https://alexwang.ai/posts/associative-memory/",
     "source": "HackerNews",
     "topic": "技术圈",
     "region": "intl",
-    "published": "2026-10-16T14:44:17",
-    "author": "ChrisArchitect · 266 pts · 374 comments"
+    "published": "2026-10-16T19:01:17",
+    "author": "speckx · 216 pts · 60 comments"
+  },
+  {
+    "title": "eBay Restricts Listings of Radio Equipment, but Exempts Ham-Band-Only Gear",
+    "url": "https://www.arrl.org/arrlletterissue?issue=2026-10-15#eBay-Restricts-Listings-of-Radio-Equipment_-But-Exempts-Ham-Band-Only-Gear",
+    "source": "HackerNews",
+    "topic": "技术圈",
+    "region": "intl",
+    "published": "2026-10-16T18:06:17",
+    "author": "7402 · 203 pts · 161 comments"
   },
   {
     "title": "Apple ML Research: Muse Spark Open with MLX on Mac Studio",
@@ -1140,16 +1095,16 @@
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-10-16T13:43:48",
-    "author": "antipaul · 265 pts · 121 comments"
+    "author": "antipaul · 295 pts · 144 comments"
   },
   {
-    "title": "How the Claude Code team does code review",
-    "url": "https://claude.dev/blog/solving-code-review-at-anthropic/",
+    "title": "JPEG XL vs. AVIF for web use-cases",
+    "url": "https://jakearchibald.com/2026/jpeg-xl-vs-avif/",
     "source": "HackerNews",
     "topic": "技术圈",
     "region": "intl",
-    "published": "2026-10-16T19:04:47",
-    "author": "pretext · 233 pts · 219 comments"
+    "published": "2026-10-16T16:12:02",
+    "author": "farlight · 228 pts · 158 comments"
   },
   {
     "title": "90% of US working hours are spent on tasks not covered well by AI benchmarks",
@@ -1158,16 +1113,43 @@
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-10-16T17:08:38",
-    "author": "speckx · 395 pts · 330 comments"
+    "author": "speckx · 456 pts · 394 comments"
   },
   {
-    "title": "I Love Software Rendering",
+    "title": "How the Claude Code team does code review",
+    "url": "https://claude.dev/blog/solving-code-review-at-anthropic/",
+    "source": "HackerNews",
+    "topic": "技术圈",
+    "region": "intl",
+    "published": "2026-10-16T19:04:47",
+    "author": "pretext · 295 pts · 274 comments"
+  },
+  {
+    "title": "Show HN: Gemini 4 Argon plays StarCraft",
+    "url": "https://starskirmish.com/bench/v0-2/",
+    "source": "HackerNews",
+    "topic": "技术圈",
+    "region": "intl",
+    "published": "2026-10-16T14:18:44",
+    "author": "__cayenne__ · 207 pts · 90 comments"
+  },
+  {
+    "title": "I love software rendering",
     "url": "https://www.jamesfmackenzie.com/2026/10/13/i-love-software-rendering/",
     "source": "HackerNews",
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-10-16T12:52:08",
-    "author": "speckx · 288 pts · 189 comments"
+    "author": "speckx · 311 pts · 197 comments"
+  },
+  {
+    "title": "Waymo in Toronto",
+    "url": "https://waymo.com/blog/2026/10/waymo-in-toronto/",
+    "source": "HackerNews",
+    "topic": "技术圈",
+    "region": "intl",
+    "published": "2026-10-16T14:44:17",
+    "author": "ChrisArchitect · 305 pts · 409 comments"
   },
   {
     "title": "huggingface/transformers 发布 Release v5.20.1",
@@ -1215,30 +1197,12 @@
     "author": "ashwin-ant"
   },
   {
-    "title": "logseq/logseq 发布 Desktop app Nightly Release 20261016",
-    "url": "https://github.com/logseq/logseq/releases/tag/nightly",
-    "source": "GitHubRelease",
-    "topic": "GitHub 动态",
-    "region": "intl",
-    "published": "2026-10-16T01:35:15",
-    "author": "github-actions[bot]"
-  },
-  {
     "title": "siyuan-note/siyuan 发布 v3.8.8-alpha.3",
     "url": "https://github.com/siyuan-note/siyuan/releases/tag/v3.8.8-alpha.3",
     "source": "GitHubRelease",
     "topic": "GitHub 动态",
     "region": "intl",
     "published": "2026-10-16T17:50:16",
-    "author": "github-actions[bot]"
-  },
-  {
-    "title": "siyuan-note/siyuan 发布 v3.8.8-alpha.2",
-    "url": "https://github.com/siyuan-note/siyuan/releases/tag/v3.8.8-alpha.2",
-    "source": "GitHubRelease",
-    "topic": "GitHub 动态",
-    "region": "intl",
-    "published": "2026-10-16T04:36:38",
     "author": "github-actions[bot]"
   },
   {
@@ -1251,94 +1215,49 @@
     "author": "next-js-bot[bot]"
   },
   {
-    "title": "Cochlear Implantation and Cognitive Function in Adults: A Systematic Review and Meta-analysis.",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42886997/",
+    "title": "The Integrative Temporal Identity Model (TIM-E) for complex psychotrauma: A randomized comparative pilot study.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42888160/",
     "source": "PubMed",
     "topic": "心理学",
     "region": "intl",
     "published": "2026",
-    "author": "Christi A Joyce, Kelly Zhang, Joost J A Stultiens, Kelsey A Kidd"
+    "author": "Erwan Dieu, Alix Lavandier, Samantha Aljoboory"
   },
   {
-    "title": "",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42886879/",
+    "title": "Autistic burnout: Early insights from a systematic review on characteristics, precipitating factors, and protective mechanisms.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42888159/",
     "source": "PubMed",
     "topic": "心理学",
     "region": "intl",
     "published": "2026",
-    "author": "Seung Hyun Jang, Jinsei Jung"
+    "author": "Priscille Bory, Marine Fiorentino, Laura Bérenguier, Anne Denis"
   },
   {
-    "title": "A Primer on",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42886875/",
+    "title": "Active Surveillance for Intermediate-risk Prostate Cancer: Implications of AI-enabled Pattern Quantification.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42888115/",
     "source": "PubMed",
     "topic": "心理学",
     "region": "intl",
     "published": "2026",
-    "author": "Baris Alten, Natalie L Ullman, Giulia Porcari, Kelly L Sloane"
+    "author": "Gesa Mittmann, Roderick C N van den Bergh, Samson W Fine, Andrew J Vickers"
   },
   {
-    "title": "Recommendations for the Management of Spontaneous Intracranial Hypotension With Spinal Longitudinal Epidural CSF Collection: A Delphi Study.",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42886874/",
+    "title": "An electrochemical sensor platform for rapid nucleic acid detection of Influenza A in unamplified samples and machine-learning-assisted infection diagnosis.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42887976/",
     "source": "PubMed",
     "topic": "心理学",
     "region": "intl",
     "published": "2026",
-    "author": "Soyoun Choi, Ian Carroll, Deborah I Friedman, Peter G Kranz"
+    "author": "Yuqing Li, Haifeng He, Jianchun Wang, Jianghong Wu"
   },
   {
-    "title": "Digital Nudges Among New Gym Members: Controlled Formative Evaluation of Gym Attendance, Exercise Self-Efficacy, Habit Strength, and Exercise Adherence.",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42886855/",
+    "title": "The Underwater Mindset in Emergency Surgery.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42887887/",
     "source": "PubMed",
     "topic": "心理学",
     "region": "intl",
     "published": "2026",
-    "author": "Maor Gabay, Ofer Levi, Lupsa Marius Matichescu, Mihaela Oravitan"
-  },
-  {
-    "title": "Long Term Pediatric Vaccine Tender Scheduling with Quantity Discounts",
-    "url": "http://arxiv.org/abs/2610.19045v1",
-    "source": "arXiv",
-    "topic": "供应链",
-    "region": "intl",
-    "published": "2026-10-13T18:38:45",
-    "author": "Nicholas Uhorchak, Ruben Proano, Sandra Eksioglu, Burak Eksioglu"
-  },
-  {
-    "title": "Sequential Conformal Calibration under Recursive Selection",
-    "url": "http://arxiv.org/abs/2610.12937v2",
-    "source": "arXiv",
-    "topic": "供应链",
-    "region": "intl",
-    "published": "2026-10-09T03:38:10",
-    "author": "Yuning Yang, Zexuan Liu, Tianci Wang, Danlin Li"
-  },
-  {
-    "title": "Predictive Rerouting of Connected and Automated Vehicles Using Traffic and Charging Demand Forecasts",
-    "url": "http://arxiv.org/abs/2610.10532v1",
-    "source": "arXiv",
-    "topic": "供应链",
-    "region": "intl",
-    "published": "2026-10-07T17:58:52",
-    "author": "Tony Kinchen, Ting Bai, Andreas A. Malikopoulos"
-  },
-  {
-    "title": "Logic-Logit: A Logic-Based Approach to Choice Modeling",
-    "url": "http://arxiv.org/abs/2610.05501v1",
-    "source": "arXiv",
-    "topic": "供应链",
-    "region": "intl",
-    "published": "2026-10-04T20:14:20",
-    "author": "Shuhan Zhang, Wendi Ren, Shuang Li"
-  },
-  {
-    "title": "Integrated omics reveals actionable drivers of bioactive variation in US milk",
-    "url": "http://arxiv.org/abs/2610.04970v1",
-    "source": "arXiv",
-    "topic": "供应链",
-    "region": "intl",
-    "published": "2026-10-04T05:35:46",
-    "author": "Cheng-En Tan, Mariana Barboza, Pagkratios Tagkopoulos, Shanghyeon Kim, Lukas Maximilian Masopust, Ivor Prado, Muhammad Adil Salim, Fangzhou Li, George Berdovskiy, Ilias Apostolakos, Brandon Invergo, K"
+    "author": "Perini Davina"
   },
   {
     "title": "Hello Python 3.15, goodbye 3.10, and now I can use 3.11",
