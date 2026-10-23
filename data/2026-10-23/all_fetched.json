@@ -1,12 +1,93 @@
 [
   {
-    "title": "Quad9 (DNS Resolver) to Exit France",
-    "url": "https://quad9.net/news/blog/au-revoir-france/",
+    "title": "Reliable AI-Assisted Decisions via Selective Auditing",
+    "url": "http://arxiv.org/abs/2610.31662v1",
+    "source": "arXiv",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-10-22T17:59:22",
+    "author": "Isaac Gibbs, Elise L. Han, Ryan J. Tibshirani, Tijana Zrnic"
+  },
+  {
+    "title": "Cost-Aware Abstention for LLM-Based IT Ticket Classification",
+    "url": "http://arxiv.org/abs/2610.31657v1",
+    "source": "arXiv",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-10-22T17:58:52",
+    "author": "Sachin Gupta"
+  },
+  {
+    "title": "EpiSEM-Bench: Evaluating Safety and Evidence Recovery in LLM Agents under Missing Evidence",
+    "url": "http://arxiv.org/abs/2610.31650v1",
+    "source": "arXiv",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-10-22T17:57:04",
+    "author": "Qijin Zhang, Hanzhen Wang, Yuehan Zhao, Haoyu Dai, Yao Shu, Zhongxiang Dai, Shuang Qiu"
+  },
+  {
+    "title": "Lenses make many points: Pure point spectrum disproves Simon's $L^2$ conjecture",
+    "url": "http://arxiv.org/abs/2610.31637v1",
+    "source": "arXiv",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-10-22T17:52:23",
+    "author": "Simon Becker, Mengxuan Yang"
+  },
+  {
+    "title": "Can an Agent Debug a Web Corpus? Agentic Auditing of Slovak FineWeb2",
+    "url": "http://arxiv.org/abs/2610.31636v1",
+    "source": "arXiv",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-10-22T17:52:22",
+    "author": "Marek Šuppa, Ivan Vykopal, Jaroslav Kopčan"
+  },
+  {
+    "title": "Questioning Instrumental Convergence in RLVR: Checkpoint Evidence from OLMo-3",
+    "url": "http://arxiv.org/abs/2610.31624v1",
+    "source": "arXiv",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-10-22T17:44:41",
+    "author": "Barış Alparslan, Sandy Tanwisuth, Caleb Petterson"
+  },
+  {
+    "title": "The Critical 2D KPZ Process",
+    "url": "http://arxiv.org/abs/2610.31614v1",
+    "source": "arXiv",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-10-22T17:40:36",
+    "author": "Quentin Berger, Francesco Caravenna, Jeremy Clark, Alexander Dunlap, Yu Gu, Ziyang Liu, Shuta Nakajima, Rongfeng Sun, Li-Cheng Tsai, Zuodi Xie, Nikos Zygouras"
+  },
+  {
+    "title": "How Ground Truth Shapes Retrieval Scores: Evidence-Aware Evaluation of a Retrieval-Augmented Generation System for Breast Lesions",
+    "url": "http://arxiv.org/abs/2610.31606v1",
+    "source": "arXiv",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-10-22T17:36:14",
+    "author": "Miguel Mochizuki Silva, Samuel Ismael, Mateus C. Dias, Thaís Gaudêncio, Yuri Malheiros, Barufaldi"
+  },
+  {
+    "title": "Docker is weird",
+    "url": "https://codeandcake.dev/posts/2026-10-22-docker-is-weird",
     "source": "HackerNews",
     "topic": "AI大事",
     "region": "intl",
-    "published": "2026-10-22T14:32:38",
-    "author": "farrokhi · 997 pts · 359 comments"
+    "published": "2026-10-22T23:45:56",
+    "author": "psxuaw · 315 pts · 156 comments"
+  },
+  {
+    "title": "LLMs are making formal software verification feasible at a much larger scale",
+    "url": "https://www.anthropic.com/research/formal-verification",
+    "source": "HackerNews",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-10-22T22:54:43",
+    "author": "johnbender · 250 pts · 136 comments"
   },
   {
     "title": "OpenShell – A safe, private runtime for fleets of autonomous AI agents",
@@ -15,16 +96,7 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-10-22T17:44:06",
-    "author": "niemandhier · 295 pts · 154 comments"
-  },
-  {
-    "title": "Woman faces six years in prison over Cash App account she never opened",
-    "url": "https://www.techspot.com/news/114296-woman-spends-three-nights-jail-faces-six-years.html",
-    "source": "HackerNews",
-    "topic": "AI大事",
-    "region": "intl",
-    "published": "2026-10-22T13:11:00",
-    "author": "oidar · 492 pts · 506 comments"
+    "author": "niemandhier · 354 pts · 186 comments"
   },
   {
     "title": "Every AI model has the same \"controversial\" take on humans",
@@ -33,16 +105,7 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-10-22T16:08:00",
-    "author": "rakannimer · 234 pts · 298 comments"
-  },
-  {
-    "title": "Getting ready to operate GNU Taler in Germany",
-    "url": "https://www.taler.net/en/news/2026-13.html",
-    "source": "HackerNews",
-    "topic": "AI大事",
-    "region": "intl",
-    "published": "2026-10-22T16:14:31",
-    "author": "dewey · 227 pts · 85 comments"
+    "author": "rakannimer · 327 pts · 363 comments"
   },
   {
     "title": "Run full iOS 16.5 firmware on Android Devices",
@@ -51,70 +114,25 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-10-22T15:26:22",
-    "author": "aghuang · 321 pts · 124 comments"
+    "author": "aghuang · 377 pts · 137 comments"
   },
   {
-    "title": "Jailbreaking the Switch 2",
-    "url": "https://pepsipu.com/blog/2026-10-switch2-jailbreak-ns2jb/",
+    "title": "Getting ready to operate GNU Taler in Germany",
+    "url": "https://www.taler.net/en/news/2026-13.html",
     "source": "HackerNews",
     "topic": "AI大事",
     "region": "intl",
-    "published": "2026-10-22T08:01:52",
-    "author": "ledoge · 719 pts · 250 comments"
+    "published": "2026-10-22T16:14:31",
+    "author": "dewey · 250 pts · 101 comments"
   },
   {
-    "title": "eMudhra to exit global SSL/TLS certificate business",
-    "url": "https://emudhra.com/en/press-release/emudhra-to-exit-global-ssl-tls-certificate-business",
+    "title": "Quad9 to exit France",
+    "url": "https://quad9.net/news/blog/au-revoir-france/",
     "source": "HackerNews",
     "topic": "AI大事",
     "region": "intl",
-    "published": "2026-10-22T13:33:39",
-    "author": "bo0tzz · 928 pts · 628 comments"
-  },
-  {
-    "title": "Tell HN: I unknowingly broke the PHP RCE embargo. I am sorry.",
-    "url": "https://news.ycombinator.com/item?id=50193416",
-    "source": "HackerNews",
-    "topic": "AI大事",
-    "region": "intl",
-    "published": "2026-10-22T10:11:44",
-    "author": "petecooper · 365 pts · 156 comments"
-  },
-  {
-    "title": "Xbox wants you to pay 24 to 40 cents per hour to stream games you bought",
-    "url": "https://arstechnica.com/gaming/2026/10/xbox-wants-you-to-pay-24-to-40-cents-per-hour-to-stream-games-you-already-bought/",
-    "source": "HackerNews",
-    "topic": "AI大事",
-    "region": "intl",
-    "published": "2026-10-22T11:42:03",
-    "author": "entryleveljobsc · 202 pts · 198 comments"
-  },
-  {
-    "title": "Faster than earcut: triangulating 3.7M map polygons in 489 ms",
-    "url": "https://globus.software/blog/2026/10/16/cutting-map-polygons/",
-    "source": "HackerNews",
-    "topic": "AI大事",
-    "region": "intl",
-    "published": "2026-10-22T09:31:18",
-    "author": "molind · 202 pts · 38 comments"
-  },
-  {
-    "title": "A farewell to Arc browser",
-    "url": "https://arc.net/",
-    "source": "HackerNews",
-    "topic": "AI大事",
-    "region": "intl",
-    "published": "2026-10-22T16:27:47",
-    "author": "suhdonghwi · 229 pts · 208 comments"
-  },
-  {
-    "title": "What’s getting pwned right now",
-    "url": "https://pwn.watch/",
-    "source": "HackerNews",
-    "topic": "AI大事",
-    "region": "intl",
-    "published": "2026-10-22T14:08:12",
-    "author": "mrkd · 342 pts · 159 comments"
+    "published": "2026-10-22T14:32:38",
+    "author": "farrokhi · 1108 pts · 385 comments"
   },
   {
     "title": "WorldTUI: I trained a 360M model to pretend to be a terminal",
@@ -123,7 +141,79 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-10-22T02:18:41",
-    "author": "alphax314 · 504 pts · 156 comments"
+    "author": "alphax314 · 516 pts · 162 comments"
+  },
+  {
+    "title": "Tell HN: I unknowingly broke the PHP RCE embargo. I am sorry.",
+    "url": "https://news.ycombinator.com/item?id=50193416",
+    "source": "HackerNews",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-10-22T10:11:44",
+    "author": "petecooper · 473 pts · 192 comments"
+  },
+  {
+    "title": "Xbox wants you to pay 24 to 40 cents per hour to stream games you bought",
+    "url": "https://arstechnica.com/gaming/2026/10/xbox-wants-you-to-pay-24-to-40-cents-per-hour-to-stream-games-you-already-bought/",
+    "source": "HackerNews",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-10-22T11:42:03",
+    "author": "entryleveljobsc · 268 pts · 235 comments"
+  },
+  {
+    "title": "eMudhra to exit global SSL/TLS certificate business",
+    "url": "https://emudhra.com/en/press-release/emudhra-to-exit-global-ssl-tls-certificate-business",
+    "source": "HackerNews",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-10-22T13:33:39",
+    "author": "bo0tzz · 1000 pts · 664 comments"
+  },
+  {
+    "title": "Faster than earcut: triangulating 3.7M map polygons in 489 ms",
+    "url": "https://globus.software/blog/2026/10/16/cutting-map-polygons/",
+    "source": "HackerNews",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-10-22T09:31:18",
+    "author": "molind · 214 pts · 40 comments"
+  },
+  {
+    "title": "Jailbreaking the Switch 2",
+    "url": "https://pepsipu.com/blog/2026-10-switch2-jailbreak-ns2jb/",
+    "source": "HackerNews",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-10-22T08:01:52",
+    "author": "ledoge · 768 pts · 268 comments"
+  },
+  {
+    "title": "Xcode 27.2 推出对智能体友好、有效减少合并冲突的 JSON 项目配置格式",
+    "url": "https://www.infoq.cn/article/7ResdjAZYy8yltOh6drM?utm_source=rss&utm_medium=article",
+    "source": "InfoQ 中文",
+    "topic": "AI大事",
+    "region": "cn",
+    "published": "2026-10-23T13:00:00",
+    "author": "作者：Sergio De Simone"
+  },
+  {
+    "title": "讯飞发布新一代端到端交互模型：语音大模型调用量暴涨20倍，端侧已实现约70%云端能力",
+    "url": "https://www.infoq.cn/article/Md0kdMxGI6flIbZXH1yg?utm_source=rss&utm_medium=article",
+    "source": "InfoQ 中文",
+    "topic": "AI大事",
+    "region": "cn",
+    "published": "2026-10-23T11:39:27",
+    "author": "褚杏娟"
+  },
+  {
+    "title": "Foresight AI 正式可用，Gremlin 将智能体引入可靠性工程",
+    "url": "https://www.infoq.cn/article/2bKQkdiAcGEycHJLYPv5?utm_source=rss&utm_medium=article",
+    "source": "InfoQ 中文",
+    "topic": "AI大事",
+    "region": "cn",
+    "published": "2026-10-23T11:15:00",
+    "author": "作者：Matt Saunders"
   },
   {
     "title": "DeepSeek千亿融资逼近收官：结盟完美世界、中芯聚源等产业资本，募资翻倍押注具身智能",
@@ -189,33 +279,6 @@
     "author": "火山引擎视频云"
   },
   {
-    "title": "从试点到规模化落地：制造业领导者如何推动 AI 应用并赢得高管层支持 ｜ 技术趋势",
-    "url": "https://www.infoq.cn/article/Ms3bMt5OcUyYMHwfaXgM?utm_source=rss&utm_medium=article",
-    "source": "InfoQ 中文",
-    "topic": "AI大事",
-    "region": "cn",
-    "published": "2026-10-21T18:00:00",
-    "author": "Angela Marrujo Fornaca"
-  },
-  {
-    "title": "推动 AI 规模化落地的三大经验：来自公共部门领导者的实践洞察 ｜ 技术趋势",
-    "url": "https://www.infoq.cn/article/GVcxHscrQqv9HXGRowJh?utm_source=rss&utm_medium=article",
-    "source": "InfoQ 中文",
-    "topic": "AI大事",
-    "region": "cn",
-    "published": "2026-10-21T15:19:41",
-    "author": "Jennifer Chronis"
-  },
-  {
-    "title": "又一国产决策模型发布！准确率超过微软和Jev等决策模型",
-    "url": "https://www.qbitai.com/2026/10/504879.html",
-    "source": "量子位",
-    "topic": "AI大事",
-    "region": "cn",
-    "published": "2026-10-22T09:07:05",
-    "author": "量子位的朋友们"
-  },
-  {
     "title": "既能“做选择题”，也能“做填空题”——星辰意图理解模型Xing4.0-29B-Intent发布",
     "url": "https://www.qbitai.com/2026/10/504832.html",
     "source": "量子位",
@@ -261,8 +324,8 @@
     "author": "量子位的朋友们"
   },
   {
-    "title": "cloudflare/security-audit-skill",
-    "url": "https://github.com/cloudflare/security-audit-skill",
+    "title": "php/php-src",
+    "url": "https://github.com/php/php-src",
     "source": "GitHub Trending",
     "topic": "AI大事",
     "region": "intl",
@@ -270,26 +333,8 @@
     "author": ""
   },
   {
-    "title": "vllm-project/vllm",
-    "url": "https://github.com/vllm-project/vllm",
-    "source": "GitHub Trending",
-    "topic": "AI大事",
-    "region": "intl",
-    "published": "",
-    "author": ""
-  },
-  {
-    "title": "stablyai/orca",
-    "url": "https://github.com/stablyai/orca",
-    "source": "GitHub Trending",
-    "topic": "AI大事",
-    "region": "intl",
-    "published": "",
-    "author": ""
-  },
-  {
-    "title": "headroomlabs-ai/headroom",
-    "url": "https://github.com/headroomlabs-ai/headroom",
+    "title": "anthropics/knowledge-work-plugins",
+    "url": "https://github.com/anthropics/knowledge-work-plugins",
     "source": "GitHub Trending",
     "topic": "AI大事",
     "region": "intl",
@@ -306,8 +351,17 @@
     "author": ""
   },
   {
-    "title": "Comfy-Org/ComfyUI",
-    "url": "https://github.com/Comfy-Org/ComfyUI",
+    "title": "cloudflare/security-audit-skill",
+    "url": "https://github.com/cloudflare/security-audit-skill",
+    "source": "GitHub Trending",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "",
+    "author": ""
+  },
+  {
+    "title": "Graphify-Labs/graphify",
+    "url": "https://github.com/Graphify-Labs/graphify",
     "source": "GitHub Trending",
     "topic": "AI大事",
     "region": "intl",
@@ -324,8 +378,8 @@
     "author": ""
   },
   {
-    "title": "twentyhq/twenty",
-    "url": "https://github.com/twentyhq/twenty",
+    "title": "fastapi/fastapi",
+    "url": "https://github.com/fastapi/fastapi",
     "source": "GitHub Trending",
     "topic": "AI大事",
     "region": "intl",
@@ -333,8 +387,8 @@
     "author": ""
   },
   {
-    "title": "shiyu-coder/Kronos",
-    "url": "https://github.com/shiyu-coder/Kronos",
+    "title": "luongnv89/claude-howto",
+    "url": "https://github.com/luongnv89/claude-howto",
     "source": "GitHub Trending",
     "topic": "AI大事",
     "region": "intl",
@@ -342,12 +396,66 @@
     "author": ""
   },
   {
-    "title": "akitaonrails/ai-memory",
-    "url": "https://github.com/akitaonrails/ai-memory",
+    "title": "Meloong-Git/PCL",
+    "url": "https://github.com/Meloong-Git/PCL",
     "source": "GitHub Trending",
     "topic": "AI大事",
     "region": "intl",
     "published": "",
+    "author": ""
+  },
+  {
+    "title": "趋势科技在公开的内核邮件列表上披露内核漏洞",
+    "url": "https://www.solidot.org/story?sid=85688",
+    "source": "Solidot",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-10-23T03:30:41",
+    "author": ""
+  },
+  {
+    "title": "逾半数美国人认为 AI 对社会有害",
+    "url": "https://www.solidot.org/story?sid=85686",
+    "source": "Solidot",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-10-23T03:28:59",
+    "author": ""
+  },
+  {
+    "title": "OpenClaw 作者称他上个月花掉了千万美元的 Tokens",
+    "url": "https://www.solidot.org/story?sid=85682",
+    "source": "Solidot",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-10-23T03:22:08",
+    "author": ""
+  },
+  {
+    "title": "微软下一代 Xbox 游戏机售价在 1200-1800 美元之间",
+    "url": "https://www.solidot.org/story?sid=85677",
+    "source": "Solidot",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-10-21T14:55:37",
+    "author": ""
+  },
+  {
+    "title": "AI 增加了英国公务员的工作量",
+    "url": "https://www.solidot.org/story?sid=85676",
+    "source": "Solidot",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-10-21T14:45:08",
+    "author": ""
+  },
+  {
+    "title": "Meta 被勒令公布授权通过 BT 下载盗版电子书的员工名单",
+    "url": "https://www.solidot.org/story?sid=85672",
+    "source": "Solidot",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-10-21T10:03:59",
     "author": ""
   },
   {
@@ -567,6 +675,15 @@
     "author": ""
   },
   {
+    "title": "OpenAI and Poland’s NASK partner to advance AI safety and security",
+    "url": "https://openai.com/index/openai-nask-ai-safety-security-partnership",
+    "source": "OpenAI Blog",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-10-23T00:00:00",
+    "author": ""
+  },
+  {
     "title": "What FDE means at OpenAI",
     "url": "https://openai.com/index/forward-deployed-engineering-means",
     "source": "OpenAI Blog",
@@ -623,15 +740,6 @@
   {
     "title": "Patch the Planet: global response coordination as agents uncover critical vulnerabilities",
     "url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities",
-    "source": "OpenAI Blog",
-    "topic": "AI大事",
-    "region": "intl",
-    "published": "2026-10-21T07:00:00",
-    "author": ""
-  },
-  {
-    "title": "How we built ChatGPT’s novel ad stack for user trust and relevance",
-    "url": "https://openai.com/index/building-chatgpt-ad-stack",
     "source": "OpenAI Blog",
     "topic": "AI大事",
     "region": "intl",
@@ -711,6 +819,15 @@
     "author": "Scott Strand"
   },
   {
+    "title": "Uber rival inDrive eyes 2027 robotaxi tests in Central Asia with Pony.ai and Nvidia",
+    "url": "https://techcrunch.com/2026/10/22/uber-rival-indrive-eyes-2027-robotaxi-tests-in-central-asia-with-pony-ai-and-nvidia/",
+    "source": "TechCrunch AI",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-10-23T04:00:00",
+    "author": "Jagmeet Singh"
+  },
+  {
     "title": "Left alone with nothing to do, AI agents started playing",
     "url": "https://techcrunch.com/2026/10/22/left-alone-with-nothing-to-do-ai-agents-started-playing/",
     "source": "TechCrunch AI",
@@ -738,15 +855,6 @@
     "author": "Lucas Ropek"
   },
   {
-    "title": "Canva releases its first image generation model",
-    "url": "https://techcrunch.com/2026/10/22/canva-releases-its-first-image-generation-model/",
-    "source": "TechCrunch AI",
-    "topic": "AI大事",
-    "region": "intl",
-    "published": "2026-10-22T19:00:00",
-    "author": "Ivan Mehta"
-  },
-  {
     "title": "OpenAI makes its Jev competitor widely available as decision model competition heats up",
     "url": "https://techcrunch.com/2026/10/22/openai-makes-its-jev-competitor-widely-available-as-decision-model-competition-heats-up/",
     "source": "TechCrunch AI",
@@ -754,6 +862,15 @@
     "region": "intl",
     "published": "2026-10-22T19:00:00",
     "author": "Tim Fernholz"
+  },
+  {
+    "title": "Canva releases its first image generation model",
+    "url": "https://techcrunch.com/2026/10/22/canva-releases-its-first-image-generation-model/",
+    "source": "TechCrunch AI",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-10-22T19:00:00",
+    "author": "Ivan Mehta"
   },
   {
     "title": "Microsoft’s Mustafa Suleyman says its AI outperforms doctors on hard cases as he chases ‘medical superintelligence’",
@@ -790,15 +907,6 @@
     "region": "intl",
     "published": "2026-10-22T15:03:58",
     "author": "Lauren Forristal"
-  },
-  {
-    "title": "Claude Duet app is Anthropic’s bet on agents",
-    "url": "https://techcrunch.com/2026/10/22/claude-duet-app-is-anthropics-bet-on-agents/",
-    "source": "TechCrunch AI",
-    "topic": "AI大事",
-    "region": "intl",
-    "published": "2026-10-22T13:53:26",
-    "author": "Ivan Mehta"
   },
   {
     "title": "Canva’s first AI image model plans designs before generating them",
@@ -924,6 +1032,51 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-10-06T13:01:18",
+    "author": ""
+  },
+  {
+    "title": "下一个辉瑞，会是中国生物科技公司吗",
+    "url": "https://opinion.caixin.com/2026-10-23/102496390.html",
+    "source": "财新网",
+    "topic": "世界时事",
+    "region": "cn",
+    "published": "2026-10-23T04:38:02",
+    "author": ""
+  },
+  {
+    "title": "图集｜朝韩对立升级 朝鲜宣布重启对韩扩音器广播 加固边境村庄防务",
+    "url": "https://photos.caixin.com/2026-10-23/102496303.html",
+    "source": "财新网",
+    "topic": "世界时事",
+    "region": "cn",
+    "published": "2026-10-23T02:43:54",
+    "author": ""
+  },
+  {
+    "title": "超级细菌死亡风险地图出炉，全球耐药菌引起的死亡在加速｜健保",
+    "url": "https://mini.caixin.com/2026-10-23/102496298.html",
+    "source": "财新网",
+    "topic": "世界时事",
+    "region": "cn",
+    "published": "2026-10-23T02:33:01",
+    "author": ""
+  },
+  {
+    "title": "彭文生：全球宏观经济平衡——地缘经济时代的变与不变",
+    "url": "https://opinion.caixin.com/2026-10-23/102496268.html",
+    "source": "财新网",
+    "topic": "世界时事",
+    "region": "cn",
+    "published": "2026-10-23T01:51:46",
+    "author": ""
+  },
+  {
+    "title": "【市场动态】印度尼西亚据悉考虑年内再次发行熊猫债 融资至多100亿元人民币",
+    "url": "https://database.caixin.com/2026-10-23/102496264.html",
+    "source": "财新网",
+    "topic": "世界时事",
+    "region": "cn",
+    "published": "2026-10-23T01:43:52",
     "author": ""
   },
   {
@@ -1062,15 +1215,6 @@
     "author": ""
   },
   {
-    "title": "特朗普習近平峰會：沒有說出口的議題可能更重要",
-    "url": "https://www.bbc.com/zhongwen/articles/cmzxzl450p2no/trad?at_medium=RSS&at_campaign=rss",
-    "source": "BBC 中文",
-    "topic": "世界时事",
-    "region": "cn",
-    "published": "2026-09-29T03:48:29",
-    "author": ""
-  },
-  {
     "title": "從年輕縣官到國家主席：習近平41年來的訪美影像",
     "url": "https://www.bbc.com/zhongwen/articles/c9zrz24j8pdvo/trad?at_medium=RSS&at_campaign=rss",
     "source": "BBC 中文",
@@ -1080,13 +1224,22 @@
     "author": ""
   },
   {
-    "title": "Quad9 (DNS Resolver) to Exit France",
-    "url": "https://quad9.net/news/blog/au-revoir-france/",
+    "title": "Docker is weird",
+    "url": "https://codeandcake.dev/posts/2026-10-22-docker-is-weird",
     "source": "HackerNews",
     "topic": "技术圈",
     "region": "intl",
-    "published": "2026-10-22T14:32:38",
-    "author": "farrokhi · 998 pts · 360 comments"
+    "published": "2026-10-22T23:45:56",
+    "author": "psxuaw · 319 pts · 157 comments"
+  },
+  {
+    "title": "LLMs are making formal software verification feasible at a much larger scale",
+    "url": "https://www.anthropic.com/research/formal-verification",
+    "source": "HackerNews",
+    "topic": "技术圈",
+    "region": "intl",
+    "published": "2026-10-22T22:54:43",
+    "author": "johnbender · 250 pts · 136 comments"
   },
   {
     "title": "OpenShell – A safe, private runtime for fleets of autonomous AI agents",
@@ -1095,16 +1248,7 @@
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-10-22T17:44:06",
-    "author": "niemandhier · 296 pts · 154 comments"
-  },
-  {
-    "title": "Woman faces six years in prison over Cash App account she never opened",
-    "url": "https://www.techspot.com/news/114296-woman-spends-three-nights-jail-faces-six-years.html",
-    "source": "HackerNews",
-    "topic": "技术圈",
-    "region": "intl",
-    "published": "2026-10-22T13:11:00",
-    "author": "oidar · 493 pts · 508 comments"
+    "author": "niemandhier · 354 pts · 186 comments"
   },
   {
     "title": "Every AI model has the same \"controversial\" take on humans",
@@ -1113,16 +1257,7 @@
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-10-22T16:08:00",
-    "author": "rakannimer · 235 pts · 300 comments"
-  },
-  {
-    "title": "Getting ready to operate GNU Taler in Germany",
-    "url": "https://www.taler.net/en/news/2026-13.html",
-    "source": "HackerNews",
-    "topic": "技术圈",
-    "region": "intl",
-    "published": "2026-10-22T16:14:31",
-    "author": "dewey · 227 pts · 85 comments"
+    "author": "rakannimer · 328 pts · 365 comments"
   },
   {
     "title": "Run full iOS 16.5 firmware on Android Devices",
@@ -1131,25 +1266,34 @@
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-10-22T15:26:22",
-    "author": "aghuang · 323 pts · 124 comments"
+    "author": "aghuang · 379 pts · 137 comments"
   },
   {
-    "title": "Jailbreaking the Switch 2",
-    "url": "https://pepsipu.com/blog/2026-10-switch2-jailbreak-ns2jb/",
+    "title": "Getting ready to operate GNU Taler in Germany",
+    "url": "https://www.taler.net/en/news/2026-13.html",
     "source": "HackerNews",
     "topic": "技术圈",
     "region": "intl",
-    "published": "2026-10-22T08:01:52",
-    "author": "ledoge · 719 pts · 250 comments"
+    "published": "2026-10-22T16:14:31",
+    "author": "dewey · 250 pts · 101 comments"
   },
   {
-    "title": "eMudhra to exit global SSL/TLS certificate business",
-    "url": "https://emudhra.com/en/press-release/emudhra-to-exit-global-ssl-tls-certificate-business",
+    "title": "Quad9 to exit France",
+    "url": "https://quad9.net/news/blog/au-revoir-france/",
     "source": "HackerNews",
     "topic": "技术圈",
     "region": "intl",
-    "published": "2026-10-22T13:33:39",
-    "author": "bo0tzz · 929 pts · 629 comments"
+    "published": "2026-10-22T14:32:38",
+    "author": "farrokhi · 1108 pts · 385 comments"
+  },
+  {
+    "title": "WorldTUI: I trained a 360M model to pretend to be a terminal",
+    "url": "https://simedw.com/2026/10/21/world-model-terminal/",
+    "source": "HackerNews",
+    "topic": "技术圈",
+    "region": "intl",
+    "published": "2026-10-22T02:18:41",
+    "author": "alphax314 · 516 pts · 162 comments"
   },
   {
     "title": "Tell HN: I unknowingly broke the PHP RCE embargo. I am sorry.",
@@ -1158,7 +1302,7 @@
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-10-22T10:11:44",
-    "author": "petecooper · 365 pts · 156 comments"
+    "author": "petecooper · 473 pts · 193 comments"
   },
   {
     "title": "Xbox wants you to pay 24 to 40 cents per hour to stream games you bought",
@@ -1167,7 +1311,16 @@
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-10-22T11:42:03",
-    "author": "entryleveljobsc · 203 pts · 198 comments"
+    "author": "entryleveljobsc · 268 pts · 235 comments"
+  },
+  {
+    "title": "eMudhra to exit global SSL/TLS certificate business",
+    "url": "https://emudhra.com/en/press-release/emudhra-to-exit-global-ssl-tls-certificate-business",
+    "source": "HackerNews",
+    "topic": "技术圈",
+    "region": "intl",
+    "published": "2026-10-22T13:33:39",
+    "author": "bo0tzz · 1003 pts · 664 comments"
   },
   {
     "title": "Faster than earcut: triangulating 3.7M map polygons in 489 ms",
@@ -1176,25 +1329,16 @@
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-10-22T09:31:18",
-    "author": "molind · 202 pts · 38 comments"
+    "author": "molind · 214 pts · 40 comments"
   },
   {
-    "title": "A farewell to Arc browser",
-    "url": "https://arc.net/",
+    "title": "Jailbreaking the Switch 2",
+    "url": "https://pepsipu.com/blog/2026-10-switch2-jailbreak-ns2jb/",
     "source": "HackerNews",
     "topic": "技术圈",
     "region": "intl",
-    "published": "2026-10-22T16:27:47",
-    "author": "suhdonghwi · 229 pts · 208 comments"
-  },
-  {
-    "title": "What’s getting pwned right now",
-    "url": "https://pwn.watch/",
-    "source": "HackerNews",
-    "topic": "技术圈",
-    "region": "intl",
-    "published": "2026-10-22T14:08:12",
-    "author": "mrkd · 342 pts · 159 comments"
+    "published": "2026-10-22T08:01:52",
+    "author": "ledoge · 769 pts · 268 comments"
   },
   {
     "title": "openai/openai-python 发布 v3.37.0",
@@ -1203,15 +1347,6 @@
     "topic": "GitHub 动态",
     "region": "intl",
     "published": "2026-10-22T20:03:54",
-    "author": "openai-sdks[bot]"
-  },
-  {
-    "title": "openai/openai-python 发布 v3.36.1",
-    "url": "https://github.com/openai/openai-python/releases/tag/v3.36.1",
-    "source": "GitHubRelease",
-    "topic": "GitHub 动态",
-    "region": "intl",
-    "published": "2026-10-22T03:32:31",
     "author": "openai-sdks[bot]"
   },
   {
@@ -1230,15 +1365,6 @@
     "topic": "GitHub 动态",
     "region": "intl",
     "published": "2026-10-22T22:18:57",
-    "author": "ashwin-ant"
-  },
-  {
-    "title": "anthropics/claude-code 发布 v2.1.308",
-    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.308",
-    "source": "GitHubRelease",
-    "topic": "GitHub 动态",
-    "region": "intl",
-    "published": "2026-10-22T04:34:55",
     "author": "ashwin-ant"
   },
   {
@@ -1323,58 +1449,67 @@
     "author": "generall"
   },
   {
-    "title": "Dihydromyricetin Alleviates Reserpine-Induced Depression by Modulating the Microbiota-Gut-Brain Axis.",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42905003/",
+    "title": "The Impact of Male Genital Dermatology in the Field of Andrology.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42908175/",
     "source": "PubMed",
     "topic": "心理学",
     "region": "intl",
     "published": "2026",
-    "author": "Zikang Wang, Yuanyuan Lu, Yiqiao Zhao, Hao Li"
+    "author": "Mahmoud Ziada, Asif Muneer"
   },
   {
-    "title": "Multitask Deep Learning Model for Predicting Lymph Node Metastasis and Disease-Free Survival From Cytology Images in Bladder Cancer: A Multicenter Study With Pan-Cytology Validation.",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42904771/",
+    "title": "Effectiveness of a continuous ergonomic program on workplace health and cognitive strain in university employees.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42908159/",
     "source": "PubMed",
     "topic": "心理学",
     "region": "intl",
     "published": "2026",
-    "author": "Guibin Hong, Fan Jiang, Ye Xie, Xiaowei Huang"
+    "author": "Ismail Shokrolahi, Sajjad Panahifar"
   },
   {
-    "title": "[Emotional intelligence and scientific leadership in medical organizations].",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42904711/",
+    "title": "Rethinking permits-to-work: From bureaucracy to safety practice.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42908149/",
     "source": "PubMed",
     "topic": "心理学",
     "region": "intl",
     "published": "2026",
-    "author": "T I Bonkalo, E A Volodarskaya"
+    "author": "Vitor Fernando Sg Pereira, Adson Resende, Mariana Martins, Lucas Chrisostimo Farah"
   },
   {
-    "title": "What Does the Pharmaceutical Industry Look for in Pharmacology Graduates? A Thematic Analysis of Semi-Structured Interviews With Pharmaceutical Industry Employees on Their Perceptions of Pharmacology Graduates.",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42904605/",
+    "title": "How prior beliefs shape the interpretation of a randomized trial: a Bayesian re-examination of the CROSSFIRE trial.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42908137/",
     "source": "PubMed",
     "topic": "心理学",
     "region": "intl",
     "published": "2026",
-    "author": "John Broad"
+    "author": "Rob Parisien, David Ring, Teun Teunis"
   },
   {
-    "title": "Design and Practice of Undergraduate Biochemistry Experiments Based on the DOK Model: A Case Study of HPLC Quantification of TMZ in Mouse Tissues.",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42904578/",
+    "title": "Acute caffeine and carbohydrate strategies for fatigue-related sport-specific performance in team-sport athletes: a systematic review and multilevel meta-analysis.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42908119/",
     "source": "PubMed",
     "topic": "心理学",
     "region": "intl",
     "published": "2026",
-    "author": "Bing Xiao, Maocui Zhu, Ziyi Li, Shimin Wang"
+    "author": "Shu Xie, Xueming Wen"
   },
   {
-    "title": "从试点到规模化落地：制造业领导者如何推动 AI 应用并赢得高管层支持 ｜ 技术趋势",
-    "url": "https://www.infoq.cn/article/Ms3bMt5OcUyYMHwfaXgM?utm_source=rss&utm_medium=article",
-    "source": "InfoQ 中文",
+    "title": "Enhancing Cross-Grade Generalization in Banana Variety Classification via Hybrid CNN-Transformers and Knowledge Self-Distillation",
+    "url": "http://arxiv.org/abs/2610.29008v1",
+    "source": "arXiv",
     "topic": "供应链",
-    "region": "cn",
-    "published": "2026-10-21T18:00:00",
-    "author": "Angela Marrujo Fornaca"
+    "region": "intl",
+    "published": "2026-10-21T00:19:09",
+    "author": "Khush Kataruka, Mohammad Muzammila, Zahid Akhtar, Raghavendra Ramachandra, Praveen Kumar Chandaliya"
+  },
+  {
+    "title": "Long Term Pediatric Vaccine Tender Scheduling with Quantity Discounts",
+    "url": "http://arxiv.org/abs/2610.19045v1",
+    "source": "arXiv",
+    "topic": "供应链",
+    "region": "intl",
+    "published": "2026-10-13T18:38:45",
+    "author": "Nicholas Uhorchak, Ruben Proano, Sandra Eksioglu, Burak Eksioglu"
   },
   {
     "title": "Battle Drones - a vibe coded RTS with audio-based multiplayer",
