@@ -78,16 +78,7 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-10-30T17:25:15",
-    "author": "DHowett · 242 pts · 64 comments"
-  },
-  {
-    "title": "Backdoor in Claude Code for VS Code extension on the Cursor Marketplace",
-    "url": "https://phorion.io/blog/offical-claude-code-vsx-compromise/",
-    "source": "HackerNews",
-    "topic": "AI大事",
-    "region": "intl",
-    "published": "2026-10-30T07:09:12",
-    "author": "_chall · 771 pts · 484 comments"
+    "author": "DHowett · 283 pts · 79 comments"
   },
   {
     "title": "Northflank Breached",
@@ -96,7 +87,7 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-10-30T15:10:31",
-    "author": "js4ever · 358 pts · 272 comments"
+    "author": "js4ever · 410 pts · 303 comments"
   },
   {
     "title": "The $6.3B Binance hack was pulled off in just 20 minutes",
@@ -105,7 +96,16 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-10-30T12:50:01",
-    "author": "domhudson · 308 pts · 216 comments"
+    "author": "domhudson · 414 pts · 279 comments"
+  },
+  {
+    "title": "Show HN: A working Nintendo in ~1GB of Qwen weights",
+    "url": "https://github.com/dbreunig/nesformer",
+    "source": "HackerNews",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-10-30T16:40:22",
+    "author": "dbreunig · 235 pts · 119 comments"
   },
   {
     "title": "Florilegium: Procedural Flowers in LaTeX",
@@ -114,7 +114,7 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-10-30T15:48:12",
-    "author": "nanna · 216 pts · 36 comments"
+    "author": "nanna · 249 pts · 44 comments"
   },
   {
     "title": "The federated code forge",
@@ -123,16 +123,16 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-10-30T15:44:29",
-    "author": "zlliang · 231 pts · 77 comments"
+    "author": "zlliang · 267 pts · 84 comments"
   },
   {
-    "title": "Through Captain Jean-Luc Picard, Patrick Stewart taught us the measure of a man",
-    "url": "https://www.bostonglobe.com/2026/10/29/metro/patrick-stewart-picard-star-trek-the-next-generation/",
+    "title": "Backdoor in Claude Code for VS Code extension on the Cursor Marketplace",
+    "url": "https://phorion.io/blog/offical-claude-code-vsx-compromise/",
     "source": "HackerNews",
     "topic": "AI大事",
     "region": "intl",
-    "published": "2026-10-30T20:23:30",
-    "author": "apress · 203 pts · 121 comments"
+    "published": "2026-10-30T07:09:12",
+    "author": "_chall · 871 pts · 513 comments"
   },
   {
     "title": "Azure's Weakest Link – Five Full Cross-Tenant Compromises",
@@ -141,7 +141,16 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-10-30T10:06:15",
-    "author": "swq115 · 262 pts · 51 comments"
+    "author": "swq115 · 301 pts · 57 comments"
+  },
+  {
+    "title": "Through Captain Jean-Luc Picard, Patrick Stewart taught us the measure of a man",
+    "url": "https://www.bostonglobe.com/2026/10/29/metro/patrick-stewart-picard-star-trek-the-next-generation/",
+    "source": "HackerNews",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-10-30T20:23:30",
+    "author": "apress · 286 pts · 156 comments"
   },
   {
     "title": "AI isn't replacing SREs, it's deskilling them",
@@ -150,7 +159,25 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-10-30T15:52:18",
-    "author": "dorianniemiec · 503 pts · 379 comments"
+    "author": "dorianniemiec · 567 pts · 414 comments"
+  },
+  {
+    "title": "We're releasing the weights of Mistral Large 4",
+    "url": "https://mistral.ai/news/mistral-large-4-oss/",
+    "source": "HackerNews",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-10-29T14:13:21",
+    "author": "kuberwastaken · 1689 pts · 436 comments"
+  },
+  {
+    "title": "当AI从“会想”走向“会干”——腾讯云与英特尔共筑Agentic AI执行新底座",
+    "url": "https://www.infoq.cn/article/acC46slIVKJg1O0ac8w4?utm_source=rss&utm_medium=article",
+    "source": "InfoQ 中文",
+    "topic": "AI大事",
+    "region": "cn",
+    "published": "2026-10-31T14:49:01",
+    "author": "李文朋"
   },
   {
     "title": "终于不是 AI 了：Lambda 直接运行 Express，API Gateway 还需要吗？",
@@ -216,24 +243,6 @@
     "author": "作者：Matt Saunders"
   },
   {
-    "title": "谷歌赢了 AI 排行榜，却没赢下华尔街：Gemini 4 Carbon 登顶背后的昂贵代价",
-    "url": "https://www.infoq.cn/article/dXwHCW7kjGX1kjPqtla9?utm_source=rss&utm_medium=article",
-    "source": "InfoQ 中文",
-    "topic": "AI大事",
-    "region": "cn",
-    "published": "2026-10-29T20:13:07",
-    "author": "李冬梅"
-  },
-  {
-    "title": "AI+增长：员工提效了，企业为什么没多赚钱？｜上海鲸阙AI联合创始人 沈涛分享",
-    "url": "https://www.infoq.cn/article/aK6ADSkIvwf265yc8PuT?utm_source=rss&utm_medium=article",
-    "source": "InfoQ 中文",
-    "topic": "AI大事",
-    "region": "cn",
-    "published": "2026-10-29T18:00:23",
-    "author": "木子"
-  },
-  {
     "title": "Claude新模型曝光：新Fable，新Opus…",
     "url": "https://www.qbitai.com/2026/10/506674.html",
     "source": "量子位",
@@ -288,35 +297,8 @@
     "author": "听雨"
   },
   {
-    "title": "HKUDS/DeepTutor",
-    "url": "https://github.com/HKUDS/DeepTutor",
-    "source": "GitHub Trending",
-    "topic": "AI大事",
-    "region": "intl",
-    "published": "",
-    "author": ""
-  },
-  {
-    "title": "obra/superpowers",
-    "url": "https://github.com/obra/superpowers",
-    "source": "GitHub Trending",
-    "topic": "AI大事",
-    "region": "intl",
-    "published": "",
-    "author": ""
-  },
-  {
-    "title": "pbakaus/impeccable",
-    "url": "https://github.com/pbakaus/impeccable",
-    "source": "GitHub Trending",
-    "topic": "AI大事",
-    "region": "intl",
-    "published": "",
-    "author": ""
-  },
-  {
-    "title": "JetBrains/thinkrail",
-    "url": "https://github.com/JetBrains/thinkrail",
+    "title": "thedotmack/claude-mem",
+    "url": "https://github.com/thedotmack/claude-mem",
     "source": "GitHub Trending",
     "topic": "AI大事",
     "region": "intl",
@@ -333,26 +315,8 @@
     "author": ""
   },
   {
-    "title": "nightly-labs/openbot",
-    "url": "https://github.com/nightly-labs/openbot",
-    "source": "GitHub Trending",
-    "topic": "AI大事",
-    "region": "intl",
-    "published": "",
-    "author": ""
-  },
-  {
-    "title": "elayadesign/ai-design-skills",
-    "url": "https://github.com/elayadesign/ai-design-skills",
-    "source": "GitHub Trending",
-    "topic": "AI大事",
-    "region": "intl",
-    "published": "",
-    "author": ""
-  },
-  {
-    "title": "thedotmack/claude-mem",
-    "url": "https://github.com/thedotmack/claude-mem",
+    "title": "pbakaus/impeccable",
+    "url": "https://github.com/pbakaus/impeccable",
     "source": "GitHub Trending",
     "topic": "AI大事",
     "region": "intl",
@@ -369,8 +333,53 @@
     "author": ""
   },
   {
-    "title": "togg53192-cmd/jailbreaks",
-    "url": "https://github.com/togg53192-cmd/jailbreaks",
+    "title": "Renhuai123/ziwei-doushu",
+    "url": "https://github.com/Renhuai123/ziwei-doushu",
+    "source": "GitHub Trending",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "",
+    "author": ""
+  },
+  {
+    "title": "expo/skills",
+    "url": "https://github.com/expo/skills",
+    "source": "GitHub Trending",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "",
+    "author": ""
+  },
+  {
+    "title": "macro-inc/macro",
+    "url": "https://github.com/macro-inc/macro",
+    "source": "GitHub Trending",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "",
+    "author": ""
+  },
+  {
+    "title": "mattpocock/skills",
+    "url": "https://github.com/mattpocock/skills",
+    "source": "GitHub Trending",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "",
+    "author": ""
+  },
+  {
+    "title": "pingdotgg/t3code",
+    "url": "https://github.com/pingdotgg/t3code",
+    "source": "GitHub Trending",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "",
+    "author": ""
+  },
+  {
+    "title": "HKUDS/DeepTutor",
+    "url": "https://github.com/HKUDS/DeepTutor",
     "source": "GitHub Trending",
     "topic": "AI大事",
     "region": "intl",
@@ -540,6 +549,15 @@
     "author": ""
   },
   {
+    "title": "刚刚，国行 Apple 智能官宣，但满血 SiriAI 还得等",
+    "url": "https://www.ifanr.com/1687012?utm_source=rss&utm_medium=rss&utm_campaign=",
+    "source": "爱范儿",
+    "topic": "AI大事",
+    "region": "cn",
+    "published": "2026-10-31T01:37:05",
+    "author": "罗嘉阳"
+  },
+  {
     "title": "早报｜iPhone国行AI官宣！千问接入Siri/DeepSeek千亿融资曝光/于东来建议支持「消费入座」",
     "url": "https://www.ifanr.com/1686979?utm_source=rss&utm_medium=rss&utm_campaign=",
     "source": "爱范儿",
@@ -621,13 +639,13 @@
     "author": "郑廷旭"
   },
   {
-    "title": "13.98 万元起！小鹏 MONA L05 正式上市，大五座 SUV 市场的卷王来了",
-    "url": "https://www.ifanr.com/1686761?utm_source=rss&utm_medium=rss&utm_campaign=",
-    "source": "爱范儿",
+    "title": "[AINews] Google admits AI Mode hurts Search revenue; -15% $500B drop worst since 2004 IPO. AI Bear Market coming?",
+    "url": "https://latent.space/p/ainews-google-admits-ai-mode-hurts-search-revenue-15-500b-drop-worst-since-2004-ipo-ai-bear-market-c/",
+    "source": "Latent Space",
     "topic": "AI大事",
-    "region": "cn",
-    "published": "2026-10-29T14:17:14",
-    "author": "陈世琛"
+    "region": "intl",
+    "published": "2026-10-31T05:00:48",
+    "author": "swyx .ai"
   },
   {
     "title": "[AINews] Building AIE CODE: The top Coding Agent Conference",
@@ -672,15 +690,6 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-10-28T08:50:30",
-    "author": "swyx .ai"
-  },
-  {
-    "title": "How Anthropic ships Claude with Claude: Separating the Brain from the Hands",
-    "url": "https://latent.space/p/opus55/",
-    "source": "Latent Space",
-    "topic": "AI大事",
-    "region": "intl",
-    "published": "2026-10-27T18:53:10",
     "author": "swyx .ai"
   },
   {
@@ -1044,6 +1053,24 @@
     "author": ""
   },
   {
+    "title": "英特尔业绩不及预期股价下挫 美股科技板块缘何连日下挫",
+    "url": "https://www.caixin.com/2026-10-31/102499487.html",
+    "source": "财新网",
+    "topic": "世界时事",
+    "region": "cn",
+    "published": "2026-10-31T06:54:25",
+    "author": ""
+  },
+  {
+    "title": "欧盟启动混动汽车保障措施调查 中欧此前已达成谅解",
+    "url": "https://www.caixin.com/2026-10-31/102499433.html",
+    "source": "财新网",
+    "topic": "世界时事",
+    "region": "cn",
+    "published": "2026-10-31T03:40:13",
+    "author": ""
+  },
+  {
     "title": "财新闻｜“三桶油”最新财报出炉：中国石化前三季度净利同比增30%，中国石油增21.9%，中国海油增16.8%",
     "url": "https://mini.caixin.com/2026-10-31/102499300.html",
     "source": "财新网",
@@ -1053,57 +1080,48 @@
     "author": ""
   },
   {
-    "title": "福岛核事故15年后东电公司再遭判赔 废炉作业仍棘手",
-    "url": "https://international.caixin.com/2026-10-30/102499277.html",
-    "source": "财新网",
+    "title": "陈文玲：不只建桥修路，“一带一路”究竟改变了什么？",
+    "url": "https://www.guancha.cn/ZhengZhi/2026_10_30_906377_s.shtml",
+    "source": "观察者网",
     "topic": "世界时事",
     "region": "cn",
-    "published": "2026-10-30T15:06:58",
+    "published": "2026-10-30T09:49:00",
     "author": ""
   },
   {
-    "title": "结汇如潮 在岸和离岸人民币对美元分别升破6.66和6.65",
-    "url": "https://finance.caixin.com/2026-10-30/102499248.html",
-    "source": "财新网",
+    "title": "“民主社会主义”崛起，能撬动美国对华政策吗？",
+    "url": "https://www.guancha.cn/mengweizhan/2026_10_30_906127_s.shtml",
+    "source": "观察者网",
     "topic": "世界时事",
     "region": "cn",
-    "published": "2026-10-30T14:18:23",
+    "published": "2026-10-30T05:07:00",
     "author": ""
   },
   {
-    "title": "GPT周报｜苹果一周内发布可触屏MacBook等新品；谷歌发布新一代前沿模型Gemini 4 Carbon；Kimi首次推出Pro版本模型",
-    "url": "https://www.caixin.com/2026-10-30/102499220.html",
-    "source": "财新网",
+    "title": "“我无法中立”，欧洲央行行长突然辞职遭猛批",
+    "url": "https://www.guancha.cn/GuoJi%C2%B7ZhanLue/2026_10_30_906345_s.shtml",
+    "source": "观察者网",
     "topic": "世界时事",
     "region": "cn",
-    "published": "2026-10-30T13:06:39",
+    "published": "2026-10-30T00:06:00",
     "author": ""
   },
   {
-    "title": "美国逆变器进口政策趋严 中企将受哪些影响？｜出海·能源",
-    "url": "https://www.caixin.com/2026-10-30/102499209.html",
-    "source": "财新网",
+    "title": "人民币涨到四年新高，一个反常的好现象将再次出现？",
+    "url": "https://www.guancha.cn/CaiJing/2026_10_27_905990_s.shtml",
+    "source": "观察者网",
     "topic": "世界时事",
     "region": "cn",
-    "published": "2026-10-30T11:57:44",
+    "published": "2026-10-27T11:09:00",
     "author": ""
   },
   {
-    "title": "央行政策利率“换锚”落地：隔夜正式接棒7天期逆回购",
-    "url": "https://finance.caixin.com/2026-10-30/102499195.html",
-    "source": "财新网",
+    "title": "朝鮮「精英」黑客組織是誰？為何成為幣安63億美元盜竊案的頭號嫌疑者？",
+    "url": "https://www.bbc.com/zhongwen/articles/cqe8rpl8wjd0o/trad?at_medium=RSS&at_campaign=rss",
+    "source": "BBC 中文",
     "topic": "世界时事",
     "region": "cn",
-    "published": "2026-10-30T11:36:23",
-    "author": ""
-  },
-  {
-    "title": "中国电动两轮车前三季度出口额增长近四成 拉美和非洲增速领先",
-    "url": "https://www.caixin.com/2026-10-30/102499178.html",
-    "source": "财新网",
-    "topic": "世界时事",
-    "region": "cn",
-    "published": "2026-10-30T11:05:30",
+    "published": "2026-10-31T07:02:07",
     "author": ""
   },
   {
@@ -1185,16 +1203,7 @@
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-10-30T17:25:15",
-    "author": "DHowett · 242 pts · 65 comments"
-  },
-  {
-    "title": "Backdoor in Claude Code for VS Code extension on the Cursor Marketplace",
-    "url": "https://phorion.io/blog/offical-claude-code-vsx-compromise/",
-    "source": "HackerNews",
-    "topic": "技术圈",
-    "region": "intl",
-    "published": "2026-10-30T07:09:12",
-    "author": "_chall · 771 pts · 484 comments"
+    "author": "DHowett · 283 pts · 79 comments"
   },
   {
     "title": "Northflank Breached",
@@ -1203,7 +1212,7 @@
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-10-30T15:10:31",
-    "author": "js4ever · 358 pts · 272 comments"
+    "author": "js4ever · 410 pts · 303 comments"
   },
   {
     "title": "The $6.3B Binance hack was pulled off in just 20 minutes",
@@ -1212,7 +1221,16 @@
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-10-30T12:50:01",
-    "author": "domhudson · 309 pts · 216 comments"
+    "author": "domhudson · 414 pts · 279 comments"
+  },
+  {
+    "title": "Show HN: A working Nintendo in ~1GB of Qwen weights",
+    "url": "https://github.com/dbreunig/nesformer",
+    "source": "HackerNews",
+    "topic": "技术圈",
+    "region": "intl",
+    "published": "2026-10-30T16:40:22",
+    "author": "dbreunig · 235 pts · 119 comments"
   },
   {
     "title": "Florilegium: Procedural Flowers in LaTeX",
@@ -1221,7 +1239,7 @@
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-10-30T15:48:12",
-    "author": "nanna · 216 pts · 36 comments"
+    "author": "nanna · 249 pts · 44 comments"
   },
   {
     "title": "The federated code forge",
@@ -1230,16 +1248,16 @@
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-10-30T15:44:29",
-    "author": "zlliang · 231 pts · 77 comments"
+    "author": "zlliang · 267 pts · 84 comments"
   },
   {
-    "title": "Through Captain Jean-Luc Picard, Patrick Stewart taught us the measure of a man",
-    "url": "https://www.bostonglobe.com/2026/10/29/metro/patrick-stewart-picard-star-trek-the-next-generation/",
+    "title": "Backdoor in Claude Code for VS Code extension on the Cursor Marketplace",
+    "url": "https://phorion.io/blog/offical-claude-code-vsx-compromise/",
     "source": "HackerNews",
     "topic": "技术圈",
     "region": "intl",
-    "published": "2026-10-30T20:23:30",
-    "author": "apress · 203 pts · 122 comments"
+    "published": "2026-10-30T07:09:12",
+    "author": "_chall · 871 pts · 513 comments"
   },
   {
     "title": "Azure's Weakest Link – Five Full Cross-Tenant Compromises",
@@ -1248,7 +1266,16 @@
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-10-30T10:06:15",
-    "author": "swq115 · 262 pts · 51 comments"
+    "author": "swq115 · 301 pts · 57 comments"
+  },
+  {
+    "title": "Through Captain Jean-Luc Picard, Patrick Stewart taught us the measure of a man",
+    "url": "https://www.bostonglobe.com/2026/10/29/metro/patrick-stewart-picard-star-trek-the-next-generation/",
+    "source": "HackerNews",
+    "topic": "技术圈",
+    "region": "intl",
+    "published": "2026-10-30T20:23:30",
+    "author": "apress · 286 pts · 157 comments"
   },
   {
     "title": "AI isn't replacing SREs, it's deskilling them",
@@ -1257,7 +1284,16 @@
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-10-30T15:52:18",
-    "author": "dorianniemiec · 503 pts · 379 comments"
+    "author": "dorianniemiec · 567 pts · 415 comments"
+  },
+  {
+    "title": "We're releasing the weights of Mistral Large 4",
+    "url": "https://mistral.ai/news/mistral-large-4-oss/",
+    "source": "HackerNews",
+    "topic": "技术圈",
+    "region": "intl",
+    "published": "2026-10-29T14:13:21",
+    "author": "kuberwastaken · 1689 pts · 436 comments"
   },
   {
     "title": "huggingface/transformers 发布 Patch release v5.22.1",
@@ -1305,49 +1341,49 @@
     "author": "next-js-bot[bot]"
   },
   {
-    "title": "[Not Available].",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42962149/",
+    "title": "Moral Residue as Structural Burden: A Critical Ethnography of Palliative Care Nurses in Family-Centred End-of-Life Care in Chinese Tertiary Hospitals.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42963191/",
     "source": "PubMed",
     "topic": "心理学",
     "region": "intl",
     "published": "2026",
-    "author": "Kerstin Paschke, Isabel Brandhorst, Tobias Renner, Frank W Paulus"
+    "author": "Rouxin Wang, Yanjun Wu, Yanyan Lu, Wubin He"
   },
   {
-    "title": "An Exceptional Mobility Group Among Older Adults: Protocol for the Super Movers Study.",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42962081/",
+    "title": "Changes in Long-Term Care Needs, Healthcare Costs, and Mortality Risk After Transcatheter Aortic Valve Implantation in Japan: The Longevity Improvement & Fair Evidence Study.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42963183/",
     "source": "PubMed",
     "topic": "心理学",
     "region": "intl",
     "published": "2026",
-    "author": "Chathathayil Mohammedali Shafeeque, Kelly Cotton, Sanish Sathyan, Emmeline I Ayers"
+    "author": "Toshiharu Sassa, Megumi Maeda, Futoshi Oda, Tomohiro Sakamoto"
   },
   {
-    "title": "From Academic Integrity to Professional Formation in Generative AI-Supported Nursing Education: Integrative Review.",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42962069/",
+    "title": "Haematology and biochemistry parameters for koalas (Phascolarctos cinereus) on Raymond Island, Victoria: use of point-of-care analysers.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42963181/",
     "source": "PubMed",
     "topic": "心理学",
     "region": "intl",
     "published": "2026",
-    "author": "Peter Hartin, Paul Baretta"
+    "author": "R A Jelic, Vsa Mella, N Courtman, J F Hammer"
   },
   {
-    "title": "Involvement of users and caregivers in mental healthcare decision-making within low-and middle-income countries: A scoping review.",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42962062/",
+    "title": "Vaccine Decision-Making is Based on Primary Prevention Strategies.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42963170/",
     "source": "PubMed",
     "topic": "心理学",
     "region": "intl",
     "published": "2026",
-    "author": "Action Amos, Sandra Jumbe, Thiyara Bandara, Sadiya Begum"
+    "author": "Donna Hallas"
   },
   {
-    "title": "",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42962009/",
+    "title": "Performance-Metacognition Dissociation During Fear Memory Recall: Role of Task Sequence and Prefrontal TMS.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42963131/",
     "source": "PubMed",
     "topic": "心理学",
     "region": "intl",
     "published": "2026",
-    "author": "Marie-Laure Arotcarena, Maria Fouka, Elena G Gialinaki, Marianna Giannopoulou"
+    "author": "Piercesare Grimaldi, Eugenio Manassero, Paola Berchialla, Benedetto Sacchetti"
   },
   {
     "title": "A Deep Learning Framework for Quantile Demand Forecasting in E-commerce with Doubly Censored Data",
