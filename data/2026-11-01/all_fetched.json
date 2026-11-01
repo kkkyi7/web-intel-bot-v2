@@ -78,7 +78,16 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-10-31T19:56:53",
-    "author": "karpathy · 697 pts · 237 comments"
+    "author": "karpathy · 1136 pts · 338 comments"
+  },
+  {
+    "title": "An Italian farmer found some unknown seeds in his attic and planted them",
+    "url": "https://www.smithsonianmag.com/science-nature/italian-farmer-found-unknown-seeds-attic-with-nothing-lose-planted-them-result-biblical-180989644/",
+    "source": "HackerNews",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-10-31T22:41:06",
+    "author": "ecares · 344 pts · 96 comments"
   },
   {
     "title": "TCP Use-After-Free: CVE-2026-98432 / CVSS 9.8",
@@ -87,16 +96,16 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-10-31T19:16:30",
-    "author": "oger · 334 pts · 157 comments"
+    "author": "oger · 472 pts · 218 comments"
   },
   {
-    "title": "Molly (Signal fork) has not been updated since 3 months and is vulnerable",
-    "url": "https://piefed.world/post/1503394",
+    "title": "Jepsen: ParticleDB 1.1.4",
+    "url": "https://jepsen.io/analyses/particledb-1.1.4",
     "source": "HackerNews",
     "topic": "AI大事",
     "region": "intl",
-    "published": "2026-10-31T10:23:41",
-    "author": "DeepLogin · 301 pts · 177 comments"
+    "published": "2026-10-31T13:39:52",
+    "author": "aphyr · 247 pts · 137 comments"
   },
   {
     "title": "Do the math: How we took over ChatGPT accounts",
@@ -105,7 +114,25 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-10-31T10:30:11",
-    "author": "armcat · 302 pts · 149 comments"
+    "author": "armcat · 322 pts · 160 comments"
+  },
+  {
+    "title": "Anthropic blocks users for anything touching training larger models",
+    "url": "https://twitter.com/jiahaoshao1/status/2116475922190922088",
+    "source": "HackerNews",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-10-31T19:39:19",
+    "author": "pretext · 319 pts · 180 comments"
+  },
+  {
+    "title": "如果 AI 幻觉也有预算，超支之后该怎么办？",
+    "url": "https://www.infoq.cn/article/z8vQa2zzGyLiTxIZ8PXH?utm_source=rss&utm_medium=article",
+    "source": "InfoQ 中文",
+    "topic": "AI大事",
+    "region": "cn",
+    "published": "2026-11-01T10:00:00",
+    "author": "作者：Craig Risi"
   },
   {
     "title": "AI 编程导师挑战低端 Android 手机！不用服务器，Python 和 SQL 直接在浏览器里运行",
@@ -189,15 +216,6 @@
     "author": "李冬梅"
   },
   {
-    "title": "Chainguard 推出面向 AI 编码智能体的安全工作区与安全校验能力",
-    "url": "https://www.infoq.cn/article/UNli8x0wc8XUNjI5ETya?utm_source=rss&utm_medium=article",
-    "source": "InfoQ 中文",
-    "topic": "AI大事",
-    "region": "cn",
-    "published": "2026-10-30T09:23:00",
-    "author": "作者：Matt Saunders"
-  },
-  {
     "title": "世界模型首次指导设计芯片！超大核NPU700TOPS，99%算力可用",
     "url": "https://www.qbitai.com/2026/10/506866.html",
     "source": "量子位",
@@ -261,6 +279,42 @@
     "author": ""
   },
   {
+    "title": "mattpocock/skills",
+    "url": "https://github.com/mattpocock/skills",
+    "source": "GitHub Trending",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "",
+    "author": ""
+  },
+  {
+    "title": "Donchitos/Claude-Code-Game-Studios",
+    "url": "https://github.com/Donchitos/Claude-Code-Game-Studios",
+    "source": "GitHub Trending",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "",
+    "author": ""
+  },
+  {
+    "title": "pingdotgg/t3code",
+    "url": "https://github.com/pingdotgg/t3code",
+    "source": "GitHub Trending",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "",
+    "author": ""
+  },
+  {
+    "title": "Renhuai123/ziwei-doushu",
+    "url": "https://github.com/Renhuai123/ziwei-doushu",
+    "source": "GitHub Trending",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "",
+    "author": ""
+  },
+  {
     "title": "milind-soni/OpenMausBot",
     "url": "https://github.com/milind-soni/OpenMausBot",
     "source": "GitHub Trending",
@@ -279,8 +333,8 @@
     "author": ""
   },
   {
-    "title": "CopilotKit/OpenBot",
-    "url": "https://github.com/CopilotKit/OpenBot",
+    "title": "obra/superpowers",
+    "url": "https://github.com/obra/superpowers",
     "source": "GitHub Trending",
     "topic": "AI大事",
     "region": "intl",
@@ -288,44 +342,8 @@
     "author": ""
   },
   {
-    "title": "Renhuai123/ziwei-doushu",
-    "url": "https://github.com/Renhuai123/ziwei-doushu",
-    "source": "GitHub Trending",
-    "topic": "AI大事",
-    "region": "intl",
-    "published": "",
-    "author": ""
-  },
-  {
-    "title": "expo/skills",
-    "url": "https://github.com/expo/skills",
-    "source": "GitHub Trending",
-    "topic": "AI大事",
-    "region": "intl",
-    "published": "",
-    "author": ""
-  },
-  {
-    "title": "macro-inc/macro",
-    "url": "https://github.com/macro-inc/macro",
-    "source": "GitHub Trending",
-    "topic": "AI大事",
-    "region": "intl",
-    "published": "",
-    "author": ""
-  },
-  {
-    "title": "mattpocock/skills",
-    "url": "https://github.com/mattpocock/skills",
-    "source": "GitHub Trending",
-    "topic": "AI大事",
-    "region": "intl",
-    "published": "",
-    "author": ""
-  },
-  {
-    "title": "pingdotgg/t3code",
-    "url": "https://github.com/pingdotgg/t3code",
+    "title": "lightpanda-io/browser",
+    "url": "https://github.com/lightpanda-io/browser",
     "source": "GitHub Trending",
     "topic": "AI大事",
     "region": "intl",
@@ -1080,15 +1098,6 @@
     "author": ""
   },
   {
-    "title": "英特尔业绩不及预期股价下挫 美股科技板块缘何连日下挫",
-    "url": "https://www.caixin.com/2026-10-31/102499487.html",
-    "source": "财新网",
-    "topic": "世界时事",
-    "region": "cn",
-    "published": "2026-10-31T06:54:25",
-    "author": ""
-  },
-  {
     "title": "陈文玲：不只建桥修路，“一带一路”究竟改变了什么？",
     "url": "https://www.guancha.cn/ZhengZhi/2026_10_30_906377_s.shtml",
     "source": "观察者网",
@@ -1116,7 +1125,7 @@
     "author": ""
   },
   {
-    "title": "朝鮮「精英」黑客組織是誰？為何成為幣安63億美元盜竊案的頭號嫌疑者？",
+    "title": "朝鮮「精英」黑客為何成為幣安63億美元盜竊案的頭號嫌犯？",
     "url": "https://www.bbc.com/zhongwen/articles/cqe8rpl8wjd0o/trad?at_medium=RSS&at_campaign=rss",
     "source": "BBC 中文",
     "topic": "世界时事",
@@ -1125,12 +1134,21 @@
     "author": ""
   },
   {
-    "title": "中共五中全會閉幕：出席委員較本屆初減少四分之一 張升民罕見增選入政治局",
+    "title": "中共五中全會：出席委員減少四分之一 張升民罕見增選入政治局",
     "url": "https://www.bbc.com/zhongwen/articles/cmr4y17q4vxxo/trad?at_medium=RSS&at_campaign=rss",
     "source": "BBC 中文",
     "topic": "世界时事",
     "region": "cn",
     "published": "2026-10-29T13:01:39",
+    "author": ""
+  },
+  {
+    "title": "特朗普重返白宮後，如何從五方面改變美國移民政策？",
+    "url": "https://www.bbc.com/zhongwen/articles/cmy83lne67zqo/trad?at_medium=RSS&at_campaign=rss",
+    "source": "BBC 中文",
+    "topic": "世界时事",
+    "region": "cn",
+    "published": "2026-10-27T00:17:41",
     "author": ""
   },
   {
@@ -1185,7 +1203,16 @@
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-10-31T19:56:53",
-    "author": "karpathy · 702 pts · 237 comments"
+    "author": "karpathy · 1137 pts · 339 comments"
+  },
+  {
+    "title": "An Italian farmer found some unknown seeds in his attic and planted them",
+    "url": "https://www.smithsonianmag.com/science-nature/italian-farmer-found-unknown-seeds-attic-with-nothing-lose-planted-them-result-biblical-180989644/",
+    "source": "HackerNews",
+    "topic": "技术圈",
+    "region": "intl",
+    "published": "2026-10-31T22:41:06",
+    "author": "ecares · 346 pts · 96 comments"
   },
   {
     "title": "TCP Use-After-Free: CVE-2026-98432 / CVSS 9.8",
@@ -1194,16 +1221,16 @@
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-10-31T19:16:30",
-    "author": "oger · 334 pts · 157 comments"
+    "author": "oger · 473 pts · 218 comments"
   },
   {
-    "title": "Molly (Signal fork) has not been updated since 3 months and is vulnerable",
-    "url": "https://piefed.world/post/1503394",
+    "title": "Jepsen: ParticleDB 1.1.4",
+    "url": "https://jepsen.io/analyses/particledb-1.1.4",
     "source": "HackerNews",
     "topic": "技术圈",
     "region": "intl",
-    "published": "2026-10-31T10:23:41",
-    "author": "DeepLogin · 301 pts · 177 comments"
+    "published": "2026-10-31T13:39:52",
+    "author": "aphyr · 247 pts · 137 comments"
   },
   {
     "title": "Do the math: How we took over ChatGPT accounts",
@@ -1212,7 +1239,25 @@
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-10-31T10:30:11",
-    "author": "armcat · 302 pts · 149 comments"
+    "author": "armcat · 322 pts · 160 comments"
+  },
+  {
+    "title": "Anthropic blocks users for anything touching training larger models",
+    "url": "https://twitter.com/jiahaoshao1/status/2116475922190922088",
+    "source": "HackerNews",
+    "topic": "技术圈",
+    "region": "intl",
+    "published": "2026-10-31T19:39:19",
+    "author": "pretext · 319 pts · 181 comments"
+  },
+  {
+    "title": "siyuan-note/siyuan 发布 v3.8.10-alpha.2",
+    "url": "https://github.com/siyuan-note/siyuan/releases/tag/v3.8.10-alpha.2",
+    "source": "GitHubRelease",
+    "topic": "GitHub 动态",
+    "region": "intl",
+    "published": "2026-11-01T06:25:38",
+    "author": "github-actions[bot]"
   },
   {
     "title": "siyuan-note/siyuan 发布 v3.8.10-alpha.1",
@@ -1242,49 +1287,49 @@
     "author": "next-js-bot[bot]"
   },
   {
-    "title": "Dual-site multifocal HD-tDCS modulates bilingual language control via brain activity and connectivity.",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42964297/",
+    "title": "Management of Intensive Care Unit Admission of Patients With Blood Cancer.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42966639/",
     "source": "PubMed",
     "topic": "心理学",
     "region": "intl",
     "published": "2026",
-    "author": "Qianwen Chang, Xuedi Liu, Qinpu Dang, Jingyu Chen"
+    "author": "Camille Francou, Bernard Tardy, Emmanuelle Tavernier, Margot Brossard"
   },
   {
-    "title": "Factors enabling and hindering students' career interest in nursing: a scoping review of four decades of evidence (1984-2025).",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42964289/",
+    "title": "Neuron-specific Drp1 deletion exacerbates hippocampal synaptic dysfunction and spatial memory impairment during high-fat diet-induced metabolic stress.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42966615/",
     "source": "PubMed",
     "topic": "心理学",
     "region": "intl",
     "published": "2026",
-    "author": "Rika Sarfika, Windy Freska, Dewi Eka Putri, I Made Moh Yanuar Saifudin"
+    "author": "Eun Ae Jeong, Hyun Joo Shin, Eun-Jin Kim, Yoonsub Kim"
   },
   {
-    "title": "Nurses' experiences of delivering palliative care in Asia: a qualitative systematic review.",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42964281/",
+    "title": "Antenatal multiple micronutrients versus iron-folic acid supplementation and infant neurodevelopment: a systematic review and meta-analysis.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42966567/",
     "source": "PubMed",
     "topic": "心理学",
     "region": "intl",
     "published": "2026",
-    "author": "Agung Subakti Nuzulullail, Halfie Zaqiyah Gusti Puspitasari, Dwina Oktavia Deli, Dana Prayoga Irawan"
+    "author": "Jitender Nagpal, Sarika Tyagi, Swapnil Rawat, Ramasheesh Yadav"
   },
   {
-    "title": "Asymmetric Migration Shapes Genetic Structure of the Invasive Avian Vampire Fly (Philornis downsi) Across the Galápagos Islands.",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42963950/",
+    "title": "Metagenomic Features of Oral Microbiome in Tibetan Dental Caries Patients: An Exploratory Study.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42966564/",
     "source": "PubMed",
     "topic": "心理学",
     "region": "intl",
     "published": "2026",
-    "author": "Abbie C Hay, Sonia Kleindorfer, Lauren K Common, Sally Potter"
+    "author": "Zhiyan Li, Bohan Shi, Ning Luo, Chong Zhao"
   },
   {
-    "title": "Editorial Commentary: Patellar Tendon-Lateral Trochlear Ridge Distance May Outperform Tibial Tubercle-Trochlear Groove for Assessing Patellar Containment, but Trochlear Dysplasia and Patellar Height Are Likely the Culprits.",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42963902/",
+    "title": "Limited Evidence for Non-Invasive Brain Stimulation as a Cognitive Enhancer in Neurodevelopmental Disorders: A Multilevel Meta-Analysis of Sham-Controlled Trials.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42966552/",
     "source": "PubMed",
     "topic": "心理学",
     "region": "intl",
     "published": "2026",
-    "author": "Lafi S Khalil, Sercan Yalcin"
+    "author": "Jiangbo Ying, Pushpal Desarkar, Terri Rodak, Veronica Yan Kiu Yu"
   },
   {
     "title": "A Deep Learning Framework for Quantile Demand Forecasting in E-commerce with Doubly Censored Data",
