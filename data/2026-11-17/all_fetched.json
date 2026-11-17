@@ -1,0 +1,1460 @@
+[
+  {
+    "title": "Carnegie Mellon is putting computer science courses on YouTube for free",
+    "url": "https://www.cs.cmu.edu/learn/",
+    "source": "HackerNews",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-11-16T20:43:36",
+    "author": "pcompeau · 667 pts · 112 comments"
+  },
+  {
+    "title": "BugMeNot has closed",
+    "url": "https://www.bugmenot.com/",
+    "source": "HackerNews",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-11-16T21:32:17",
+    "author": "lode · 308 pts · 157 comments"
+  },
+  {
+    "title": "Frame – 31.5\" color ePaper display",
+    "url": "https://trmnl.com/blog/introducing-frame",
+    "source": "HackerNews",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-11-16T16:23:22",
+    "author": "geerlingguy · 290 pts · 205 comments"
+  },
+  {
+    "title": "Jiff 1.0: A datetime library for Rust",
+    "url": "https://burntsushi.net/jiff/",
+    "source": "HackerNews",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-11-16T16:53:39",
+    "author": "burntsushi · 305 pts · 73 comments"
+  },
+  {
+    "title": "Grazing sheep in fields with solar arrays",
+    "url": "https://news.cornell.edu/stories/2026/10/sheep-grazing-solar-fields-offers-farmers-economic-ecological-gains",
+    "source": "HackerNews",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-11-16T17:27:46",
+    "author": "PaulHoule · 213 pts · 219 comments"
+  },
+  {
+    "title": "Technical issue at JPMorgan Chase triggers online banking delays for US banks",
+    "url": "https://apnews.com/article/bank-outage-chase-wells-fargo-truist-50fee2693c22f597fa6ca51a97ef2cda",
+    "source": "HackerNews",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-11-16T18:31:30",
+    "author": "samk3nny · 708 pts · 588 comments"
+  },
+  {
+    "title": "Microsoft blames monster email outage on software defect introduced in July fix",
+    "url": "https://www.theregister.com/saas/2026/11/16/microsoft-blames-monster-email-outage-on-software-defect-introduced-in-july-fix/5310026",
+    "source": "HackerNews",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-11-16T13:18:22",
+    "author": "Bender · 214 pts · 157 comments"
+  },
+  {
+    "title": "The Secret ThinkPad Powerbutton Code to Bring Dead Laptops Back to Life (2007)",
+    "url": "https://masnick.com/posts/the-secret-thinkpad-powerbutton-code-to-bring-dead-laptops-back-to-life/",
+    "source": "HackerNews",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-11-16T11:39:31",
+    "author": "sammatilda · 297 pts · 115 comments"
+  },
+  {
+    "title": "Many of Amazon’s Black Friday and Cyber Monday “deals” offered no savings",
+    "url": "http://groundworkcollaborative.org/news/amazons-decoy-deals-groundwork-investigation-reveals-nearly-1-in-3-black-friday-and-cyber-monday-deals-advertised-by-amazon-offered-no-savings-to-shoppers-nearly-1-in-10-w/",
+    "source": "HackerNews",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-11-16T13:39:07",
+    "author": "DeepLogin · 835 pts · 508 comments"
+  },
+  {
+    "title": "DigitalOcean Managed Agents为AI智能体提供托管云基础设施",
+    "url": "https://www.infoq.cn/article/LjVeWVAsBWwaiifdMRiu?utm_source=rss&utm_medium=article",
+    "source": "InfoQ 中文",
+    "topic": "AI大事",
+    "region": "cn",
+    "published": "2026-11-16T16:42:41",
+    "author": "Sergio De Simone"
+  },
+  {
+    "title": "Docker Sandbox Kit规范：将AI智能体权限打包为OCI镜像",
+    "url": "https://www.infoq.cn/article/yV89L6iMCqSLDHeSoLxo?utm_source=rss&utm_medium=article",
+    "source": "InfoQ 中文",
+    "topic": "AI大事",
+    "region": "cn",
+    "published": "2026-11-16T16:22:11",
+    "author": "作者：Claudio Masolo"
+  },
+  {
+    "title": "AI 来了，团队究竟怎么变？",
+    "url": "https://www.infoq.cn/video/ODJ7iuw7swP8TlU4SiAB?utm_source=rss&utm_medium=article",
+    "source": "InfoQ 中文",
+    "topic": "AI大事",
+    "region": "cn",
+    "published": "2026-11-16T15:56:35",
+    "author": "AICon 全球人工智能开发与应用大会"
+  },
+  {
+    "title": "Codex、Claude Code 都卷完了，居然还能跑出黑马？整个产品，现在都可以是一个提示词",
+    "url": "https://www.infoq.cn/article/8TySw9wzqf0l90keJUNf?utm_source=rss&utm_medium=article",
+    "source": "InfoQ 中文",
+    "topic": "AI大事",
+    "region": "cn",
+    "published": "2026-11-16T14:44:28",
+    "author": "傅宇琪,Tina"
+  },
+  {
+    "title": "DeepSeek又来掀桌子了！官方App全套能力开放API，联网搜索价格不到OpenAI、Claude的8%",
+    "url": "https://www.infoq.cn/article/NWmk4epBL0jPAUtpKSKb?utm_source=rss&utm_medium=article",
+    "source": "InfoQ 中文",
+    "topic": "AI大事",
+    "region": "cn",
+    "published": "2026-11-16T14:38:24",
+    "author": "褚杏娟"
+  },
+  {
+    "title": "马斯克喊话“真男人自己管理内存”，三十年系统老将警告：Rust 也拦不住 AI 制造复杂性",
+    "url": "https://www.infoq.cn/article/FWqT2oGIEl9zlyJ7HXZF?utm_source=rss&utm_medium=article",
+    "source": "InfoQ 中文",
+    "topic": "AI大事",
+    "region": "cn",
+    "published": "2026-11-16T14:28:15",
+    "author": "傅宇琪,Tina"
+  },
+  {
+    "title": "AI 写得快，谁来接住生产责任",
+    "url": "https://www.infoq.cn/article/sIqEVPmL3P9PExLjPzPW?utm_source=rss&utm_medium=article",
+    "source": "InfoQ 中文",
+    "topic": "AI大事",
+    "region": "cn",
+    "published": "2026-11-16T14:10:03",
+    "author": "腾讯云数据库"
+  },
+  {
+    "title": "AI 硬件能玩出多少新花样？这场黑客松正在寻找 20 支开发者团队",
+    "url": "https://www.infoq.cn/article/ExwZoqvAjY423YKaXcpw?utm_source=rss&utm_medium=article",
+    "source": "InfoQ 中文",
+    "topic": "AI大事",
+    "region": "cn",
+    "published": "2026-11-16T10:28:58",
+    "author": "陈姚戈"
+  },
+  {
+    "title": "Super Agent 进群：今年11.11，多了个会主动干活的“数字人队长”",
+    "url": "https://www.infoq.cn/article/myl5Mcw3iyCYv3ZJ3hwQ?utm_source=rss&utm_medium=article",
+    "source": "InfoQ 中文",
+    "topic": "AI大事",
+    "region": "cn",
+    "published": "2026-11-16T08:00:00",
+    "author": "京东零售技术"
+  },
+  {
+    "title": "Yelp AI 助手融合原生 UI 与服务端驱动 UI",
+    "url": "https://www.infoq.cn/article/1N801doFOEl2Swqey5Jy?utm_source=rss&utm_medium=article",
+    "source": "InfoQ 中文",
+    "topic": "AI大事",
+    "region": "cn",
+    "published": "2026-11-15T15:00:00",
+    "author": "作者： Leela Kumili"
+  },
+  {
+    "title": "2026甲子引力年终盛典即将启幕，AI的无限游戏进入「第二序章」｜甲子引力",
+    "url": "https://www.qbitai.com/2026/11/510526.html",
+    "source": "量子位",
+    "topic": "AI大事",
+    "region": "cn",
+    "published": "2026-11-16T08:45:17",
+    "author": "量子位的朋友们"
+  },
+  {
+    "title": "阿里正式发布Qwen4，智能体及编程能力进阶，迈向真实全场景",
+    "url": "https://www.qbitai.com/2026/11/510486.html",
+    "source": "量子位",
+    "topic": "AI大事",
+    "region": "cn",
+    "published": "2026-11-16T07:51:57",
+    "author": "量子位的朋友们"
+  },
+  {
+    "title": "今天截止！2026年度AI表彰，错过再等一年！",
+    "url": "https://www.qbitai.com/2026/11/510382.html",
+    "source": "量子位",
+    "topic": "AI大事",
+    "region": "cn",
+    "published": "2026-11-16T03:19:53",
+    "author": "量子位的朋友们"
+  },
+  {
+    "title": "提速2.48倍且画质不掉线，AI视频“降本增效”有了新解法",
+    "url": "https://www.qbitai.com/2026/11/510369.html",
+    "source": "量子位",
+    "topic": "AI大事",
+    "region": "cn",
+    "published": "2026-11-16T03:07:39",
+    "author": "思邈"
+  },
+  {
+    "title": "dream-num/univer",
+    "url": "https://github.com/dream-num/univer",
+    "source": "GitHub Trending",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "",
+    "author": ""
+  },
+  {
+    "title": "ag-ui-protocol/ag-ui",
+    "url": "https://github.com/ag-ui-protocol/ag-ui",
+    "source": "GitHub Trending",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "",
+    "author": ""
+  },
+  {
+    "title": "google-labs-code/stitch-skills",
+    "url": "https://github.com/google-labs-code/stitch-skills",
+    "source": "GitHub Trending",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "",
+    "author": ""
+  },
+  {
+    "title": "backnotprop/plannotator",
+    "url": "https://github.com/backnotprop/plannotator",
+    "source": "GitHub Trending",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "",
+    "author": ""
+  },
+  {
+    "title": "ChromeDevTools/chrome-devtools-mcp",
+    "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+    "source": "GitHub Trending",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "",
+    "author": ""
+  },
+  {
+    "title": "alibaba/open-code-review",
+    "url": "https://github.com/alibaba/open-code-review",
+    "source": "GitHub Trending",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "",
+    "author": ""
+  },
+  {
+    "title": "Tencent/LoopForge",
+    "url": "https://github.com/Tencent/LoopForge",
+    "source": "GitHub Trending",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "",
+    "author": ""
+  },
+  {
+    "title": "ggml-org/ggml",
+    "url": "https://github.com/ggml-org/ggml",
+    "source": "GitHub Trending",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "",
+    "author": ""
+  },
+  {
+    "title": "elementalsouls/Claude-BugHunter",
+    "url": "https://github.com/elementalsouls/Claude-BugHunter",
+    "source": "GitHub Trending",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "",
+    "author": ""
+  },
+  {
+    "title": "GoogleChrome/modern-web-guidance-src",
+    "url": "https://github.com/GoogleChrome/modern-web-guidance-src",
+    "source": "GitHub Trending",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "",
+    "author": ""
+  },
+  {
+    "title": "Robert Pattinson 成为第七任 007",
+    "url": "https://www.solidot.org/story?sid=85905",
+    "source": "Solidot",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-11-16T16:18:40",
+    "author": ""
+  },
+  {
+    "title": "部分因为 AI Overviews Reddit 年访问量下滑 13%",
+    "url": "https://www.solidot.org/story?sid=85899",
+    "source": "Solidot",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-11-16T09:26:54",
+    "author": ""
+  },
+  {
+    "title": "比特币币值一个半月下跌四分之一",
+    "url": "https://www.solidot.org/story?sid=85894",
+    "source": "Solidot",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-11-16T06:26:07",
+    "author": ""
+  },
+  {
+    "title": "香港迪士尼乐园 1.7 万张电子门票被盗",
+    "url": "https://www.solidot.org/story?sid=85891",
+    "source": "Solidot",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-11-15T13:15:41",
+    "author": ""
+  },
+  {
+    "title": "llm 0.37.3",
+    "url": "https://simonwillison.net/2026/Nov/16/llm/",
+    "source": "Simon Willison",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-11-16T23:57:26",
+    "author": ""
+  },
+  {
+    "title": "datasette-maplibre 0.1a0",
+    "url": "https://simonwillison.net/2026/Nov/15/datasette-maplibre/",
+    "source": "Simon Willison",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-11-15T23:58:36",
+    "author": ""
+  },
+  {
+    "title": "datasette 1.0a43",
+    "url": "https://simonwillison.net/2026/Nov/15/datasette/",
+    "source": "Simon Willison",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-11-15T23:20:27",
+    "author": ""
+  },
+  {
+    "title": "datasette-apps 0.4a0",
+    "url": "https://simonwillison.net/2026/Nov/15/datasette-apps/",
+    "source": "Simon Willison",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-11-15T04:02:45",
+    "author": ""
+  },
+  {
+    "title": "datasette-agent 0.6a0",
+    "url": "https://simonwillison.net/2026/Nov/15/datasette-agent/",
+    "source": "Simon Willison",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-11-15T03:49:47",
+    "author": ""
+  },
+  {
+    "title": "datasette-llm 0.1a11",
+    "url": "https://simonwillison.net/2026/Nov/14/datasette-llm/",
+    "source": "Simon Willison",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-11-14T23:59:28",
+    "author": ""
+  },
+  {
+    "title": "datasette-vega 0.7",
+    "url": "https://simonwillison.net/2026/Nov/14/datasette-vega/",
+    "source": "Simon Willison",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-11-14T17:09:09",
+    "author": ""
+  },
+  {
+    "title": "llm-gemini 0.37",
+    "url": "https://simonwillison.net/2026/Nov/12/llm-gemini/",
+    "source": "Simon Willison",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-11-12T22:55:19",
+    "author": ""
+  },
+  {
+    "title": "科技爱好者周刊（第 419 期）：机房来了，写字楼走了",
+    "url": "http://www.ruanyifeng.com/blog/2026/11/weekly-issue-419.html",
+    "source": "阮一峰周刊",
+    "topic": "AI大事",
+    "region": "cn",
+    "published": "2026-11-13T00:08:29",
+    "author": "阮一峰"
+  },
+  {
+    "title": "科技爱好者周刊（第 418 期）：如果科技停止在21世纪初",
+    "url": "http://www.ruanyifeng.com/blog/2026/11/weekly-issue-418.html",
+    "source": "阮一峰周刊",
+    "topic": "AI大事",
+    "region": "cn",
+    "published": "2026-11-05T23:43:55",
+    "author": "阮一峰"
+  },
+  {
+    "title": "科技爱好者周刊（第 417 期）：不要让 AI 代表你",
+    "url": "http://www.ruanyifeng.com/blog/2026/10/weekly-issue-417.html",
+    "source": "阮一峰周刊",
+    "topic": "AI大事",
+    "region": "cn",
+    "published": "2026-10-30T00:13:03",
+    "author": "阮一峰"
+  },
+  {
+    "title": "早报｜iPhone Duo新增外屏人脸解锁/曝英伟达董事会无意请回黄仁勋/华为Mate X8定档11月24日",
+    "url": "https://www.ifanr.com/1689760?utm_source=rss&utm_medium=rss&utm_campaign=",
+    "source": "爱范儿",
+    "topic": "AI大事",
+    "region": "cn",
+    "published": "2026-11-17T00:18:50",
+    "author": "郑廷旭"
+  },
+  {
+    "title": "影石这张「魔法相纸」，怎么治好了我的相册吃灰症？",
+    "url": "https://www.ifanr.com/1689594?utm_source=rss&utm_medium=rss&utm_campaign=",
+    "source": "爱范儿",
+    "topic": "AI大事",
+    "region": "cn",
+    "published": "2026-11-16T12:00:01",
+    "author": "罗嘉阳"
+  },
+  {
+    "title": "苹果眼镜明年见：没有屏幕，全靠 Siri 撑场面？",
+    "url": "https://www.ifanr.com/1689712?utm_source=rss&utm_medium=rss&utm_campaign=",
+    "source": "爱范儿",
+    "topic": "AI大事",
+    "region": "cn",
+    "published": "2026-11-16T10:53:45",
+    "author": "方俊鸣"
+  },
+  {
+    "title": "实测腾讯 Hy4 flash：花两毛钱，就能让 AI 从零做个 3D 交互网页",
+    "url": "https://www.ifanr.com/1689653?utm_source=rss&utm_medium=rss&utm_campaign=",
+    "source": "爱范儿",
+    "topic": "AI大事",
+    "region": "cn",
+    "published": "2026-11-16T09:53:01",
+    "author": "张子豪"
+  },
+  {
+    "title": "苹果智能眼镜细节曝光，居然是戴在脸上的 AirPods",
+    "url": "https://www.ifanr.com/1689616?utm_source=rss&utm_medium=rss&utm_campaign=",
+    "source": "爱范儿",
+    "topic": "AI大事",
+    "region": "cn",
+    "published": "2026-11-16T08:24:59",
+    "author": "山宗"
+  },
+  {
+    "title": "超 16 万人请愿，黄仁勋准备「回宫」",
+    "url": "https://www.ifanr.com/1689559?utm_source=rss&utm_medium=rss&utm_campaign=",
+    "source": "爱范儿",
+    "topic": "AI大事",
+    "region": "cn",
+    "published": "2026-11-16T01:11:22",
+    "author": "郑廷旭"
+  },
+  {
+    "title": "反转！黄仁勋考虑重返英伟达，科技大佬连夜组建「作战室」",
+    "url": "https://www.ifanr.com/1689549?utm_source=rss&utm_medium=rss&utm_campaign=",
+    "source": "爱范儿",
+    "topic": "AI大事",
+    "region": "cn",
+    "published": "2026-11-16T00:56:45",
+    "author": "山宗"
+  },
+  {
+    "title": "早报｜黄仁勋考虑重返英伟达担任CEO/曝苹果智能眼镜明年6月发布/微软全球大宕机结束，持续超30小时",
+    "url": "https://www.ifanr.com/1689521?utm_source=rss&utm_medium=rss&utm_campaign=",
+    "source": "爱范儿",
+    "topic": "AI大事",
+    "region": "cn",
+    "published": "2026-11-15T23:55:30",
+    "author": "郑廷旭"
+  },
+  {
+    "title": "六年磨一「球」，好听、好看、好贵｜HomePod mini 2 体验",
+    "url": "https://www.ifanr.com/1689473?utm_source=rss&utm_medium=rss&utm_campaign=",
+    "source": "爱范儿",
+    "topic": "AI大事",
+    "region": "cn",
+    "published": "2026-11-15T10:00:17",
+    "author": "郑廷旭"
+  },
+  {
+    "title": "刚刚，马斯克再创历史，人类首次用「筷子」夹住星舰飞船",
+    "url": "https://www.ifanr.com/1689501?utm_source=rss&utm_medium=rss&utm_campaign=",
+    "source": "爱范儿",
+    "topic": "AI大事",
+    "region": "cn",
+    "published": "2026-11-15T02:47:36",
+    "author": "山宗"
+  },
+  {
+    "title": "Building Visual Intelligence — Andreas Blattmann & Dustin Podell, Black Forest Labs",
+    "url": "https://latent.space/p/bfl/",
+    "source": "Latent Space",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-11-16T21:38:03",
+    "author": "swyx .ai"
+  },
+  {
+    "title": "[AINews] The No AI Slop Manifesto",
+    "url": "https://latent.space/p/ainews-the-no-ai-slop-manifesto/",
+    "source": "Latent Space",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-11-14T08:31:02",
+    "author": "swyx .ai"
+  },
+  {
+    "title": "[AINews] Jensen Huang resigns after 33 years leading NVIDIA",
+    "url": "https://latent.space/p/ainews-jensen-huang-resigns-after-33-years-leading-nvidia/",
+    "source": "Latent Space",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-11-13T09:04:13",
+    "author": "swyx .ai"
+  },
+  {
+    "title": "AI Ambition: ArtCraft Cloned Photoshop and Now Wants to \"Rebuild Everything\"",
+    "url": "https://latent.space/p/artcraft/",
+    "source": "Latent Space",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-11-13T04:17:25",
+    "author": "Richard MacManus"
+  },
+  {
+    "title": "[AINews] D-Day (Decision Models Day)",
+    "url": "https://latent.space/p/ainews-d-day-decision-models-day/",
+    "source": "Latent Space",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-11-12T05:26:54",
+    "author": "swyx .ai"
+  },
+  {
+    "title": "The Jev Revolution: What Engineers Are Already Building with System One Models",
+    "url": "https://latent.space/p/jev-revolution/",
+    "source": "Latent Space",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-11-12T05:08:20",
+    "author": "Richard MacManus"
+  },
+  {
+    "title": "Broadening access to AI for scientists",
+    "url": "https://openai.com/index/expanding-chatgpt-for-academic-researchers",
+    "source": "OpenAI Blog",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-11-16T17:00:00",
+    "author": ""
+  },
+  {
+    "title": "Strengthening the fight against online child sexual abuse with new tools and support",
+    "url": "https://openai.com/index/strengthening-online-child-safety",
+    "source": "OpenAI Blog",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-11-16T17:00:00",
+    "author": ""
+  },
+  {
+    "title": "Science at the Frontier: How scientists use ChatGPT",
+    "url": "https://openai.com/index/science-at-the-frontier",
+    "source": "OpenAI Blog",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-11-16T12:00:00",
+    "author": ""
+  },
+  {
+    "title": "LVMH’s Media Division announces strategic partnership with OpenAI",
+    "url": "https://openai.com/index/lvmh-media-division-partnership",
+    "source": "OpenAI Blog",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-11-16T09:00:00",
+    "author": ""
+  },
+  {
+    "title": "Our first phase of embedded assessments",
+    "url": "https://openai.com/index/our-first-phase-of-embedded-assessments",
+    "source": "OpenAI Blog",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-11-16T08:00:00",
+    "author": ""
+  },
+  {
+    "title": "Advancing computer-use agents for healthcare teams",
+    "url": "https://openai.com/index/advancing-computer-use-for-healthcare-teams",
+    "source": "OpenAI Blog",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-11-16T06:00:00",
+    "author": ""
+  },
+  {
+    "title": "More ways to move care forward with ChatGPT for Healthcare",
+    "url": "https://openai.com/index/more-ways-to-move-care-forward-with-chatgpt-for-healthcare",
+    "source": "OpenAI Blog",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-11-16T06:00:00",
+    "author": ""
+  },
+  {
+    "title": "The King’s Trust and OpenAI launch £1m partnership",
+    "url": "https://openai.com/index/the-kings-trust-and-openai",
+    "source": "OpenAI Blog",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-11-16T00:00:00",
+    "author": ""
+  },
+  {
+    "title": "Try Tabletop: Customizable, collaborative spaces for groups to plan, play and do more together.",
+    "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/tabletop/",
+    "source": "Google AI Blog",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-11-11T16:00:00",
+    "author": "Roman Nurik"
+  },
+  {
+    "title": "We’re bringing Adobe’s creative and productivity tools closer to your everyday Google apps.",
+    "url": "https://blog.google/company-news/inside-google/company-announcements/adobe-google-partnership-integration/",
+    "source": "Google AI Blog",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-11-10T14:00:00",
+    "author": ""
+  },
+  {
+    "title": "The latest AI news we announced in October 2026",
+    "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-october-2026/",
+    "source": "Google AI Blog",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-11-02T17:45:00",
+    "author": "Blog Team"
+  },
+  {
+    "title": "Our newest AI Quest: Mapping the human brain",
+    "url": "https://blog.google/products-and-platforms/products/education/ai-quests-polar-peaks/",
+    "source": "Google AI Blog",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-10-26T16:00:00",
+    "author": "Ronit Levavi Morad"
+  },
+  {
+    "title": "Southeast Asia’s digital economy to hit $368 billion",
+    "url": "https://blog.google/company-news/inside-google/around-the-globe/google-asia/e-conomy-sea-report-2026/",
+    "source": "Google AI Blog",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-10-21T04:00:00",
+    "author": "Nitin Gajria"
+  },
+  {
+    "title": "The latest AI news we announced in September 2026",
+    "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-september-2026/",
+    "source": "Google AI Blog",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-10-02T15:00:00",
+    "author": "Blog Team"
+  },
+  {
+    "title": "Watch the winning trailer from the Future Vision XPRIZE, The Gifted.",
+    "url": "https://blog.google/innovation-and-ai/technology/ai/winner-future-vision-xprize/",
+    "source": "Google AI Blog",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-09-28T19:00:00",
+    "author": ""
+  },
+  {
+    "title": "New experts join Google’s AI & Economy team",
+    "url": "https://blog.google/innovation-and-ai/technology/ai/expanding-ai-economy-research-bench/",
+    "source": "Google AI Blog",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-09-18T14:00:00",
+    "author": "Zanna Iscenko"
+  },
+  {
+    "title": "Cybersecurity AI startup Corma reaches $1B valuation in about 3 months",
+    "url": "https://techcrunch.com/2026/11/16/cybersecurity-ai-startup-corma-reaches-1b-valuation-in-about-3-months/",
+    "source": "TechCrunch AI",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-11-16T23:32:32",
+    "author": "Julie Bort"
+  },
+  {
+    "title": "California state AG sues OpenAI over rogue agent incidents",
+    "url": "https://techcrunch.com/2026/11/16/california-state-ag-sues-openai-over-rogue-agent-incidents/",
+    "source": "TechCrunch AI",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-11-16T20:07:13",
+    "author": "Russell Brandom"
+  },
+  {
+    "title": "Trump says ex-Nvidia CEO Jensen Huang’s affair with an alleged Chinese spy did not threaten national security",
+    "url": "https://techcrunch.com/2026/11/16/trump-says-ex-nvidia-ceo-jensen-huangs-affair-with-an-alleged-chinese-spy-did-not-threaten-national-security/",
+    "source": "TechCrunch AI",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-11-16T19:12:02",
+    "author": "Amanda Silberling"
+  },
+  {
+    "title": "Sam Altman on Nvidia without Jensen Huang: The industry will be ‘fine’",
+    "url": "https://techcrunch.com/2026/11/16/sam-altman-on-nvidia-without-jensen-huang-the-industry-will-be-fine/",
+    "source": "TechCrunch AI",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-11-16T18:11:10",
+    "author": "Rebecca Bellan"
+  },
+  {
+    "title": "FBI says Artex AI open source hacking tool used to breach networks in ‘under three hours’",
+    "url": "https://techcrunch.com/2026/11/16/fbi-says-artex-ai-open-source-hacking-tool-used-to-breach-networks-in-under-three-hours/",
+    "source": "TechCrunch AI",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-11-16T17:36:43",
+    "author": "Zack Whittaker"
+  },
+  {
+    "title": "Jordan Belfort’s new AI voice startup, Tone, wants to sell like the ‘Wolf of Wall Street’",
+    "url": "https://techcrunch.com/2026/11/16/jordan-belforts-new-ai-voice-startup-tone-wants-to-sell-like-the-wolf-of-wall-street/",
+    "source": "TechCrunch AI",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-11-16T17:10:00",
+    "author": "Connie Loizos"
+  },
+  {
+    "title": "OpenAI will embed safety researchers to investigate AI subversion",
+    "url": "https://techcrunch.com/2026/11/16/openai-will-embed-apollo-researchers-to-investigate-ai-subversion/",
+    "source": "TechCrunch AI",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-11-16T17:02:43",
+    "author": "Rebecca Bellan"
+  },
+  {
+    "title": "OpenAI releases a new image classifier and ChatGPT warnings to combat CSAM",
+    "url": "https://techcrunch.com/2026/11/16/openai-releases-a-new-image-classifier-and-chatgpt-warnings-to-combat-csam/",
+    "source": "TechCrunch AI",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-11-16T17:00:00",
+    "author": "Ivan Mehta"
+  },
+  {
+    "title": "Audible turns to AI to help users discover audiobooks",
+    "url": "https://techcrunch.com/2026/11/16/audible-turns-to-ai-to-help-users-discover-audiobooks/",
+    "source": "TechCrunch AI",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-11-16T15:52:19",
+    "author": "Sarah Perez"
+  },
+  {
+    "title": "US tightens AI chip export controls to deter Chinese companies from accessing compute remotely",
+    "url": "https://techcrunch.com/2026/11/16/us-tightens-ai-chip-export-controls-to-deter-chinese-companies-from-accessing-compute-remotely/",
+    "source": "TechCrunch AI",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-11-16T15:02:34",
+    "author": "Ram Iyer"
+  },
+  {
+    "title": "Tech leaders are convinced that Jensen Huang’s exit was a plot against him",
+    "url": "https://www.theverge.com/tech/1035027/tech-leaders-nvidia-jensen-huang-theories",
+    "source": "The Verge AI",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-11-16T23:17:34",
+    "author": "Emma Roth"
+  },
+  {
+    "title": "California sues OpenAI over rogue AI hacking incidents",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/1034815/california-openai-hugging-face-lawsuit",
+    "source": "The Verge AI",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-11-16T20:46:01",
+    "author": "Emma Roth"
+  },
+  {
+    "title": "Sam Altman says he wants everyone ‘to have a lot of RAM’",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/1034787/sam-altman-ram-shortage-semafor",
+    "source": "The Verge AI",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-11-16T20:41:28",
+    "author": "Stevie Bonifield"
+  },
+  {
+    "title": "Big Nuclear isn’t worried about the Democrats stopping data centers",
+    "url": "https://www.theverge.com/science/1034694/nuclear-energy-constellation-earnings-data-centers-democrats",
+    "source": "The Verge AI",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-11-16T20:29:37",
+    "author": "Ellen Thomas"
+  },
+  {
+    "title": "US data centers now burn more electricity than a midsized country",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/1034668/data-centers-electricity-climate-pollution-study-harvard",
+    "source": "The Verge AI",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-11-16T20:27:58",
+    "author": "Justine Calma"
+  },
+  {
+    "title": "Apple is testing daily usage limits for more complex Siri AI interactions",
+    "url": "https://www.theverge.com/tech/1034581/apple-intelligence-siri-ai-daily-usage-limits-icloud-subscription",
+    "source": "The Verge AI",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-11-16T19:24:40",
+    "author": "Andrew Liszewski"
+  },
+  {
+    "title": "OpenAI wants to stop deepfakes from overwhelming child abuse tiplines",
+    "url": "https://www.theverge.com/policy/1034527/openai-csam-classifier",
+    "source": "The Verge AI",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-11-16T19:23:45",
+    "author": "Lauren Feiner"
+  },
+  {
+    "title": "Nvidia’s board is reportedly ‘not considering’ hiring Jensen Huang back",
+    "url": "https://www.theverge.com/tech/1034501/nvidia-board-jensen-huang-not-bringing-back",
+    "source": "The Verge AI",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-11-16T18:43:35",
+    "author": "Emma Roth"
+  },
+  {
+    "title": "To the man with AI, everything looks like a task",
+    "url": "https://www.bensbites.com/p/to-the-man-with-ai-everything-looks",
+    "source": "Ben's Bites",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-11-12T14:03:11",
+    "author": "Ben Tossell"
+  },
+  {
+    "title": "How I got seduced",
+    "url": "https://www.bensbites.com/p/how-i-got-seduced",
+    "source": "Ben's Bites",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-11-10T15:35:49",
+    "author": "Ben Tossell"
+  },
+  {
+    "title": "Craft and taste",
+    "url": "https://www.bensbites.com/p/craft-and-taste",
+    "source": "Ben's Bites",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-11-05T14:02:12",
+    "author": "Ben Tossell"
+  },
+  {
+    "title": "Finding my thing",
+    "url": "https://www.bensbites.com/p/if-you-feel-behind-right-now-dont",
+    "source": "Ben's Bites",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-11-03T14:03:32",
+    "author": ""
+  },
+  {
+    "title": "AI is overwhelming and I’m doing it wrong",
+    "url": "https://www.bensbites.com/p/ai-is-overwhelming-and-im-doing-it",
+    "source": "Ben's Bites",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-10-29T14:03:54",
+    "author": ""
+  },
+  {
+    "title": "Is Anthropic the best business in the world?",
+    "url": "https://www.bensbites.com/p/is-anthropic-the-best-business-in",
+    "source": "Ben's Bites",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-10-27T14:19:32",
+    "author": ""
+  },
+  {
+    "title": "【市场洞察】外资加仓中国资产 配置窗口打开",
+    "url": "https://database.caixin.com/2026-11-17/102505578.html",
+    "source": "财新网",
+    "topic": "世界时事",
+    "region": "cn",
+    "published": "2026-11-17T01:04:31",
+    "author": ""
+  },
+  {
+    "title": "T早报｜美国限制GPU出口东南亚等 中国算力获取遭封堵；阿里文娱板块CEO樊路远卸任；工信部称将约谈应付账款规模大、故意拉长账期的车企",
+    "url": "https://www.caixin.com/2026-11-17/102505573.html",
+    "source": "财新网",
+    "topic": "世界时事",
+    "region": "cn",
+    "published": "2026-11-17T00:22:31",
+    "author": ""
+  },
+  {
+    "title": "美国限制GPU出口东南亚和巴西 中企海外租用算力之路阻断",
+    "url": "https://www.caixin.com/2026-11-17/102505559.html",
+    "source": "财新网",
+    "topic": "世界时事",
+    "region": "cn",
+    "published": "2026-11-16T23:53:35",
+    "author": ""
+  },
+  {
+    "title": "特朗普称此行或见金正恩 不介意黄仁勋回任英伟达",
+    "url": "https://international.caixin.com/2026-11-17/102505555.html",
+    "source": "财新网",
+    "topic": "世界时事",
+    "region": "cn",
+    "published": "2026-11-16T23:42:53",
+    "author": ""
+  },
+  {
+    "title": "财经早知道｜外交部谈中俄美元首会晤：具有开创性意义",
+    "url": "https://finance.caixin.com/2026-11-17/102505548.html",
+    "source": "财新网",
+    "topic": "世界时事",
+    "region": "cn",
+    "published": "2026-11-16T22:57:48",
+    "author": ""
+  },
+  {
+    "title": "记者手记｜APEC的“深圳时间”",
+    "url": "https://topics.caixin.com/2026-11-16/102505536.html",
+    "source": "财新网",
+    "topic": "世界时事",
+    "region": "cn",
+    "published": "2026-11-16T14:23:04",
+    "author": ""
+  },
+  {
+    "title": "贸易谈判代表李成钢：今年APEC要为推动亚太自贸区打造务实的行动框架",
+    "url": "https://international.caixin.com/2026-11-16/102505498.html",
+    "source": "财新网",
+    "topic": "世界时事",
+    "region": "cn",
+    "published": "2026-11-16T13:12:13",
+    "author": ""
+  },
+  {
+    "title": "英特尔和CEO陈立武遭集体诉讼 股价暴跌引披露质疑",
+    "url": "https://www.caixin.com/2026-11-16/102505490.html",
+    "source": "财新网",
+    "topic": "世界时事",
+    "region": "cn",
+    "published": "2026-11-16T13:05:55",
+    "author": ""
+  },
+  {
+    "title": "管理万亿美元资产 印尼主权基金Danantara如何布局中国？",
+    "url": "https://finance.caixin.com/2026-11-16/102505480.html",
+    "source": "财新网",
+    "topic": "世界时事",
+    "region": "cn",
+    "published": "2026-11-16T12:22:59",
+    "author": ""
+  },
+  {
+    "title": "万斯被曝考虑退出2028年竞选 面临处理与特朗普关系等考验",
+    "url": "https://international.caixin.com/2026-11-16/102505469.html",
+    "source": "财新网",
+    "topic": "世界时事",
+    "region": "cn",
+    "published": "2026-11-16T12:02:32",
+    "author": ""
+  },
+  {
+    "title": "美联储警告：美国AI热潮若落空，美股恐大跌",
+    "url": "https://www.guancha.cn/GuoJi%C2%B7ZhanLue/2026_11_17_908614_s.shtml",
+    "source": "观察者网",
+    "topic": "世界时事",
+    "region": "cn",
+    "published": "2026-11-16T23:33:00",
+    "author": ""
+  },
+  {
+    "title": "法国盯上马来西亚稀土，“但还是绕不开中国”",
+    "url": "https://www.guancha.cn/GuoJi%C2%B7ZhanLue/2026_11_16_908585_s.shtml",
+    "source": "观察者网",
+    "topic": "世界时事",
+    "region": "cn",
+    "published": "2026-11-16T13:33:00",
+    "author": ""
+  },
+  {
+    "title": "“要把非洲产品卖到中国总共分几步？三步……”",
+    "url": "https://www.guancha.cn/maoxiaojing/2026_11_16_908212_s.shtml",
+    "source": "观察者网",
+    "topic": "世界时事",
+    "region": "cn",
+    "published": "2026-11-16T03:32:00",
+    "author": ""
+  },
+  {
+    "title": "APEC峰会临近，外媒聚焦“中国机遇”",
+    "url": "https://www.guancha.cn/GuoJi%C2%B7ZhanLue/2026_11_16_908467_s.shtml",
+    "source": "观察者网",
+    "topic": "世界时事",
+    "region": "cn",
+    "published": "2026-11-16T00:07:00",
+    "author": ""
+  },
+  {
+    "title": "围堵中国的“四方安全对话”，快被特朗普搞散了",
+    "url": "https://www.guancha.cn/GuoJi%C2%B7ZhanLue/2026_11_15_908412_s.shtml",
+    "source": "观察者网",
+    "topic": "世界时事",
+    "region": "cn",
+    "published": "2026-11-15T03:55:00",
+    "author": ""
+  },
+  {
+    "title": "美国全国停飞5小时，竟是一个路由器惹的祸？",
+    "url": "https://www.guancha.cn/GuoJi%C2%B7ZhanLue/2026_11_15_908387_s.shtml",
+    "source": "观察者网",
+    "topic": "世界时事",
+    "region": "cn",
+    "published": "2026-11-14T23:31:00",
+    "author": ""
+  },
+  {
+    "title": "OpenAI、Meta、谷歌…全在 “追杀” 名单上",
+    "url": "https://www.guancha.cn/GuoJi%C2%B7ZhanLue/2026_11_14_908184_s.shtml",
+    "source": "观察者网",
+    "topic": "世界时事",
+    "region": "cn",
+    "published": "2026-11-14T04:10:00",
+    "author": ""
+  },
+  {
+    "title": "崔天凯：中美关系新定位进入APEC时刻",
+    "url": "https://www.guancha.cn/CuiTianKai/2026_11_13_908086_s.shtml",
+    "source": "观察者网",
+    "topic": "世界时事",
+    "region": "cn",
+    "published": "2026-11-13T07:05:00",
+    "author": ""
+  },
+  {
+    "title": "巴西的矿、中英的交易，欧盟凭什么说“不”？",
+    "url": "https://www.guancha.cn/GuoJi%C2%B7ZhanLue/2026_11_13_908074_s.shtml",
+    "source": "观察者网",
+    "topic": "世界时事",
+    "region": "cn",
+    "published": "2026-11-12T23:40:00",
+    "author": ""
+  },
+  {
+    "title": "派他俩当代表？欧洲还在吵",
+    "url": "https://www.guancha.cn/GuoJi%C2%B7ZhanLue/2026_11_12_908136_s.shtml",
+    "source": "观察者网",
+    "topic": "世界时事",
+    "region": "cn",
+    "published": "2026-11-12T13:25:00",
+    "author": ""
+  },
+  {
+    "title": "中美能源大戰，如何影響你的帳單？",
+    "url": "https://www.bbc.com/zhongwen/articles/cmvg2er51z1wo/trad?at_medium=RSS&at_campaign=rss",
+    "source": "BBC 中文",
+    "topic": "世界时事",
+    "region": "cn",
+    "published": "2026-11-12T01:45:18",
+    "author": ""
+  },
+  {
+    "title": "美智庫解析「技術民族主義」下的中俄軍工合作細節與限度",
+    "url": "https://www.bbc.com/zhongwen/articles/c977pge1jkmdo/trad?at_medium=RSS&at_campaign=rss",
+    "source": "BBC 中文",
+    "topic": "世界时事",
+    "region": "cn",
+    "published": "2026-11-04T00:23:34",
+    "author": ""
+  },
+  {
+    "title": "普京提議中美俄「三方會談」：特朗普響應，北京未表態，基輔反對",
+    "url": "https://www.bbc.com/zhongwen/articles/cmlyl0j445peo/trad?at_medium=RSS&at_campaign=rss",
+    "source": "BBC 中文",
+    "topic": "世界时事",
+    "region": "cn",
+    "published": "2026-10-20T08:40:09",
+    "author": ""
+  },
+  {
+    "title": "DeepSeek被美國政府系統禁用：中美AI競爭繼續升溫",
+    "url": "https://www.bbc.com/zhongwen/articles/cmy0r4kd2462o/trad?at_medium=RSS&at_campaign=rss",
+    "source": "BBC 中文",
+    "topic": "世界时事",
+    "region": "cn",
+    "published": "2026-10-20T07:42:45",
+    "author": ""
+  },
+  {
+    "title": "從年輕縣官到國家主席：習近平41年來的訪美影像",
+    "url": "https://www.bbc.com/zhongwen/articles/c9zrz24j8pdvo/trad?at_medium=RSS&at_campaign=rss",
+    "source": "BBC 中文",
+    "topic": "世界时事",
+    "region": "cn",
+    "published": "2026-09-22T14:36:55",
+    "author": ""
+  },
+  {
+    "title": "Carnegie Mellon is putting computer science courses on YouTube for free",
+    "url": "https://www.cs.cmu.edu/learn/",
+    "source": "HackerNews",
+    "topic": "技术圈",
+    "region": "intl",
+    "published": "2026-11-16T20:43:36",
+    "author": "pcompeau · 669 pts · 113 comments"
+  },
+  {
+    "title": "BugMeNot has closed",
+    "url": "https://www.bugmenot.com/",
+    "source": "HackerNews",
+    "topic": "技术圈",
+    "region": "intl",
+    "published": "2026-11-16T21:32:17",
+    "author": "lode · 311 pts · 157 comments"
+  },
+  {
+    "title": "Frame – 31.5\" color ePaper display",
+    "url": "https://trmnl.com/blog/introducing-frame",
+    "source": "HackerNews",
+    "topic": "技术圈",
+    "region": "intl",
+    "published": "2026-11-16T16:23:22",
+    "author": "geerlingguy · 290 pts · 205 comments"
+  },
+  {
+    "title": "Jiff 1.0: A datetime library for Rust",
+    "url": "https://burntsushi.net/jiff/",
+    "source": "HackerNews",
+    "topic": "技术圈",
+    "region": "intl",
+    "published": "2026-11-16T16:53:39",
+    "author": "burntsushi · 305 pts · 73 comments"
+  },
+  {
+    "title": "Grazing sheep in fields with solar arrays",
+    "url": "https://news.cornell.edu/stories/2026/10/sheep-grazing-solar-fields-offers-farmers-economic-ecological-gains",
+    "source": "HackerNews",
+    "topic": "技术圈",
+    "region": "intl",
+    "published": "2026-11-16T17:27:46",
+    "author": "PaulHoule · 213 pts · 219 comments"
+  },
+  {
+    "title": "Technical issue at JPMorgan Chase triggers online banking delays for US banks",
+    "url": "https://apnews.com/article/bank-outage-chase-wells-fargo-truist-50fee2693c22f597fa6ca51a97ef2cda",
+    "source": "HackerNews",
+    "topic": "技术圈",
+    "region": "intl",
+    "published": "2026-11-16T18:31:30",
+    "author": "samk3nny · 708 pts · 588 comments"
+  },
+  {
+    "title": "Microsoft blames monster email outage on software defect introduced in July fix",
+    "url": "https://www.theregister.com/saas/2026/11/16/microsoft-blames-monster-email-outage-on-software-defect-introduced-in-july-fix/5310026",
+    "source": "HackerNews",
+    "topic": "技术圈",
+    "region": "intl",
+    "published": "2026-11-16T13:18:22",
+    "author": "Bender · 214 pts · 159 comments"
+  },
+  {
+    "title": "The Secret ThinkPad Powerbutton Code to Bring Dead Laptops Back to Life (2007)",
+    "url": "https://masnick.com/posts/the-secret-thinkpad-powerbutton-code-to-bring-dead-laptops-back-to-life/",
+    "source": "HackerNews",
+    "topic": "技术圈",
+    "region": "intl",
+    "published": "2026-11-16T11:39:31",
+    "author": "sammatilda · 297 pts · 115 comments"
+  },
+  {
+    "title": "Many of Amazon’s Black Friday and Cyber Monday “deals” offered no savings",
+    "url": "http://groundworkcollaborative.org/news/amazons-decoy-deals-groundwork-investigation-reveals-nearly-1-in-3-black-friday-and-cyber-monday-deals-advertised-by-amazon-offered-no-savings-to-shoppers-nearly-1-in-10-w/",
+    "source": "HackerNews",
+    "topic": "技术圈",
+    "region": "intl",
+    "published": "2026-11-16T13:39:07",
+    "author": "DeepLogin · 835 pts · 508 comments"
+  },
+  {
+    "title": "anthropics/anthropic-sdk-python 发布 v2.9.0",
+    "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v2.9.0",
+    "source": "GitHubRelease",
+    "topic": "GitHub 动态",
+    "region": "intl",
+    "published": "2026-11-16T16:47:17",
+    "author": "anthropic-sdks-releaser[bot]"
+  },
+  {
+    "title": "openai/openai-python 发布 v3.52.0",
+    "url": "https://github.com/openai/openai-python/releases/tag/v3.52.0",
+    "source": "GitHubRelease",
+    "topic": "GitHub 动态",
+    "region": "intl",
+    "published": "2026-11-16T22:40:22",
+    "author": "openai-sdks[bot]"
+  },
+  {
+    "title": "anthropics/claude-code 发布 v2.1.326",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.326",
+    "source": "GitHubRelease",
+    "topic": "GitHub 动态",
+    "region": "intl",
+    "published": "2026-11-16T22:11:05",
+    "author": "claude-code-publisher[bot]"
+  },
+  {
+    "title": "logseq/logseq 发布 Desktop app Nightly Release 20261117",
+    "url": "https://github.com/logseq/logseq/releases/tag/nightly",
+    "source": "GitHubRelease",
+    "topic": "GitHub 动态",
+    "region": "intl",
+    "published": "2026-11-17T00:44:43",
+    "author": "github-actions[bot]"
+  },
+  {
+    "title": "siyuan-note/siyuan 发布 v3.8.11-beta.1",
+    "url": "https://github.com/siyuan-note/siyuan/releases/tag/v3.8.11-beta.1",
+    "source": "GitHubRelease",
+    "topic": "GitHub 动态",
+    "region": "intl",
+    "published": "2026-11-16T14:47:15",
+    "author": "github-actions[bot]"
+  },
+  {
+    "title": "siyuan-note/siyuan 发布 v3.8.11-alpha.6",
+    "url": "https://github.com/siyuan-note/siyuan/releases/tag/v3.8.11-alpha.6",
+    "source": "GitHubRelease",
+    "topic": "GitHub 动态",
+    "region": "intl",
+    "published": "2026-11-16T05:45:37",
+    "author": "github-actions[bot]"
+  },
+  {
+    "title": "vercel/next.js 发布 v16.5.0-canary.53",
+    "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.53",
+    "source": "GitHubRelease",
+    "topic": "GitHub 动态",
+    "region": "intl",
+    "published": "2026-11-16T23:44:19",
+    "author": "next-js-bot[bot]"
+  },
+  {
+    "title": "weaviate/weaviate 发布 v1.41.0-rc.0 - Namespaces, ContainsAny improvements, Semi-automatic shard rebalancing",
+    "url": "https://github.com/weaviate/weaviate/releases/tag/v1.41.0-rc.0",
+    "source": "GitHubRelease",
+    "topic": "GitHub 动态",
+    "region": "intl",
+    "published": "2026-11-16T19:37:13",
+    "author": "antas-marcin"
+  },
+  {
+    "title": "qdrant/qdrant 发布 v1.20.2",
+    "url": "https://github.com/qdrant/qdrant/releases/tag/v1.20.2",
+    "source": "GitHubRelease",
+    "topic": "GitHub 动态",
+    "region": "intl",
+    "published": "2026-11-16T13:00:46",
+    "author": "timvisee"
+  },
+  {
+    "title": "",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/43038490/",
+    "source": "PubMed",
+    "topic": "心理学",
+    "region": "intl",
+    "published": "2026",
+    "author": "Stefania Pezzoli, Alexis P Oddi, Ganna Blazhenets, Patricia A Castruita"
+  },
+  {
+    "title": "A Neandertal-derived genetic variant reduces occipital brain volume in present-day humans.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/43038442/",
+    "source": "PubMed",
+    "topic": "心理学",
+    "region": "intl",
+    "published": "2026",
+    "author": "Hugo Zeberg, Svante Pääbo"
+  },
+  {
+    "title": "Surgical Treatment of Atrial Fibrillation.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/43038425/",
+    "source": "PubMed",
+    "topic": "心理学",
+    "region": "intl",
+    "published": "2026",
+    "author": "Ali J Khiabani, Ralph J Damiano"
+  },
+  {
+    "title": "Glove stewardship framework for implementing WHO/CDC guidelines in the post-COVID era: A call for action.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/43038412/",
+    "source": "PubMed",
+    "topic": "心理学",
+    "region": "intl",
+    "published": "2026",
+    "author": "Stephanie Armstrong, Karen Weeks"
+  },
+  {
+    "title": "Pitfalls and pearls of geriatric trauma care.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/43038410/",
+    "source": "PubMed",
+    "topic": "心理学",
+    "region": "intl",
+    "published": "2026",
+    "author": "Jill Clemmons, Katherine Bendickson"
+  },
+  {
+    "title": "Yonkers Rises",
+    "url": "https://simonwillison.net/2026/Nov/10/yonkers-rises/",
+    "source": "Simon Willison",
+    "topic": "供应链",
+    "region": "intl",
+    "published": "2026-11-10T03:53:04",
+    "author": ""
+  },
+  {
+    "title": "Hide your slop PR descriptions behind <details><summary>",
+    "url": "https://simonwillison.net/2026/Nov/9/details-summary/",
+    "source": "Simon Willison",
+    "topic": "供应链",
+    "region": "intl",
+    "published": "2026-11-09T04:25:05",
+    "author": ""
+  },
+  {
+    "title": "苹果眼镜明年见：没有屏幕，全靠 Siri 撑场面？",
+    "url": "https://www.ifanr.com/1689712?utm_source=rss&utm_medium=rss&utm_campaign=",
+    "source": "爱范儿",
+    "topic": "供应链",
+    "region": "cn",
+    "published": "2026-11-16T10:53:45",
+    "author": "方俊鸣"
+  },
+  {
+    "title": "苹果智能眼镜细节曝光，居然是戴在脸上的 AirPods",
+    "url": "https://www.ifanr.com/1689616?utm_source=rss&utm_medium=rss&utm_campaign=",
+    "source": "爱范儿",
+    "topic": "供应链",
+    "region": "cn",
+    "published": "2026-11-16T08:24:59",
+    "author": "山宗"
+  },
+  {
+    "title": "反转！黄仁勋考虑重返英伟达，科技大佬连夜组建「作战室」",
+    "url": "https://www.ifanr.com/1689549?utm_source=rss&utm_medium=rss&utm_campaign=",
+    "source": "爱范儿",
+    "topic": "供应链",
+    "region": "cn",
+    "published": "2026-11-16T00:56:45",
+    "author": "山宗"
+  },
+  {
+    "title": "iPhone 20 爆料汇总：一整块玻璃，藏着苹果下一个十年",
+    "url": "https://www.ifanr.com/1689409?utm_source=rss&utm_medium=rss&utm_campaign=",
+    "source": "爱范儿",
+    "topic": "供应链",
+    "region": "cn",
+    "published": "2026-11-13T15:44:48",
+    "author": "方俊鸣"
+  },
+  {
+    "title": "Designing for Agents — Zeno Rocha, Resend",
+    "url": "https://latent.space/p/resend/",
+    "source": "Latent Space",
+    "topic": "供应链",
+    "region": "intl",
+    "published": "2026-11-10T20:05:17",
+    "author": "swyx .ai"
+  },
+  {
+    "title": "[AINews] Fable 5.2 retakes World #1 LLM spot as $ANT IPO roadshow begins",
+    "url": "https://latent.space/p/ainews-fable-5-2-retakes-world-1-llm-spot-as-ant-ipo-roadshow-begins/",
+    "source": "Latent Space",
+    "topic": "供应链",
+    "region": "intl",
+    "published": "2026-11-10T06:34:44",
+    "author": "swyx .ai"
+  },
+  {
+    "title": "What Frontier Labs Buy: A Data Deep Dive with Handshake AI — Garrett Lord & Team",
+    "url": "https://latent.space/p/handshake/",
+    "source": "Latent Space",
+    "topic": "供应链",
+    "region": "intl",
+    "published": "2026-11-09T17:15:53",
+    "author": "swyx .ai"
+  },
+  {
+    "title": "How Stanford Teaches AI-Native Engineering — Mihail Eric, Monaco",
+    "url": "https://latent.space/p/cs146s/",
+    "source": "Latent Space",
+    "topic": "供应链",
+    "region": "intl",
+    "published": "2026-11-08T21:41:44",
+    "author": "swyx .ai"
+  }
+]
