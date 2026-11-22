@@ -72,13 +72,22 @@
     "author": "George Rahul, Ronit Jahilal, Bhaskara Hanuma Vedula, Ponnurangam Kumaraguru, Pushkar Shukla"
   },
   {
+    "title": "Toyota, Nissan, and Honda to standardize parts to lower costs",
+    "url": "https://www.caranddriver.com/news/a74490092/toyota-nissan-honda-standardize-parts-lower-costs/",
+    "source": "HackerNews",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-11-22T04:04:56",
+    "author": "zdw · 371 pts · 188 comments"
+  },
+  {
     "title": "Pill to treat pancreatic cancer hailed as 'biggest breakthrough in decades'",
     "url": "https://www.theguardian.com/society/2026/nov/20/pill-pancreatic-cancer-breakthrough-daraxonrasib",
     "source": "HackerNews",
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-11-20T21:03:12",
-    "author": "rafaelc · 593 pts · 142 comments"
+    "author": "rafaelc · 916 pts · 207 comments"
   },
   {
     "title": "Lean verification of the Riemann Hypothesis",
@@ -87,7 +96,7 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-11-21T14:36:45",
-    "author": "g-b-r · 824 pts · 668 comments"
+    "author": "g-b-r · 987 pts · 821 comments"
   },
   {
     "title": "Inkling-2-Mini in 5.4 GB Memory",
@@ -96,7 +105,7 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-11-21T18:02:19",
-    "author": "k__ · 350 pts · 91 comments"
+    "author": "k__ · 442 pts · 111 comments"
   },
   {
     "title": "Detonating a pile of lead azide",
@@ -105,7 +114,16 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-11-21T13:23:14",
-    "author": "beginning_end · 517 pts · 346 comments"
+    "author": "beginning_end · 599 pts · 383 comments"
+  },
+  {
+    "title": "Getting the mind to steer the body to steer you",
+    "url": "https://notnottalmud.substack.com/p/getting-the-mind-to-steer-the-body",
+    "source": "HackerNews",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-11-20T22:11:05",
+    "author": "jger15 · 250 pts · 81 comments"
   },
   {
     "title": "My monitor was cutting my download speed by 75%",
@@ -114,43 +132,16 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-11-21T10:36:32",
-    "author": "soheilpro · 483 pts · 232 comments"
+    "author": "soheilpro · 563 pts · 267 comments"
   },
   {
-    "title": "Inkling 2 Mini",
-    "url": "https://thinkingmachines.ai/news/inkling-2-mini/",
-    "source": "HackerNews",
-    "topic": "AI大事",
-    "region": "intl",
-    "published": "2026-11-20T20:12:19",
-    "author": "jasondavies · 1384 pts · 281 comments"
-  },
-  {
-    "title": "RCE in Gnupg",
+    "title": "GnuPG Security Advisory for GPGME",
     "url": "https://lists.gnupg.org/pipermail/gnupg-announce/2026q4/000517.html",
     "source": "HackerNews",
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-11-21T08:32:58",
-    "author": "gdgghhhhh · 232 pts · 93 comments"
-  },
-  {
-    "title": "Why there are still no non-WebKit browsers on iOS",
-    "url": "https://blog.mozilla.org/en/mozilla/internet-policy/apple-ios-browser-engine-rules/",
-    "source": "HackerNews",
-    "topic": "AI大事",
-    "region": "intl",
-    "published": "2026-11-20T15:03:31",
-    "author": "lapcat · 484 pts · 269 comments"
-  },
-  {
-    "title": "Ask HN: I have been unemployed for 2y. 15 years of experience, US. What to do?",
-    "url": "https://news.ycombinator.com/item?id=50583761",
-    "source": "HackerNews",
-    "topic": "AI大事",
-    "region": "intl",
-    "published": "2026-11-20T23:18:32",
-    "author": "LetThingsBeDiff · 609 pts · 681 comments"
+    "author": "gdgghhhhh · 250 pts · 99 comments"
   },
   {
     "title": "Hurried Announcement: Alessandro Masullo GRH",
@@ -159,7 +150,25 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-11-20T18:33:14",
-    "author": "jasondavies · 2390 pts · 1160 comments"
+    "author": "jasondavies · 2408 pts · 1171 comments"
+  },
+  {
+    "title": "智能体身份国际标准化：体系布局与研制实践｜AICon北京",
+    "url": "https://www.infoq.cn/article/721YPdyIZ1D8xz20D22C?utm_source=rss&utm_medium=article",
+    "source": "InfoQ 中文",
+    "topic": "AI大事",
+    "region": "cn",
+    "published": "2026-11-22T10:00:00",
+    "author": "AICon 全球人工智能开发与应用大会"
+  },
+  {
+    "title": "亚马逊云科技推出 TorchNeuron，可以直接在 AWS Trainium 上运行 PyTorch 模型，无需任何修改",
+    "url": "https://www.infoq.cn/article/XhtWUmaolJECUhPX2jzY?utm_source=rss&utm_medium=article",
+    "source": "InfoQ 中文",
+    "topic": "AI大事",
+    "region": "cn",
+    "published": "2026-11-22T10:00:00",
+    "author": "Sergio De Simone"
   },
   {
     "title": "智能体 AI 架构：当前挑战与未来机遇",
@@ -234,22 +243,49 @@
     "author": "Sergio De Simone"
   },
   {
-    "title": "火山引擎 Agent-Native 团队的上下文管理实践｜AICon北京",
-    "url": "https://www.infoq.cn/article/YTGHxcabs0RI3btLIUxm?utm_source=rss&utm_medium=article",
-    "source": "InfoQ 中文",
+    "title": "GPT-6.2 Astra再次暴击具身模型：16项任务成功率较GPT-6 Astra翻倍",
+    "url": "https://www.qbitai.com/2026/11/511779.html",
+    "source": "量子位",
     "topic": "AI大事",
     "region": "cn",
-    "published": "2026-11-20T10:00:00",
-    "author": "AICon 全球人工智能开发与应用大会"
+    "published": "2026-11-21T06:35:59",
+    "author": "衡宇"
   },
   {
-    "title": "模型刚接进业务，CEO又要换新：红帽如何接住企业AI落地难题？",
-    "url": "https://www.infoq.cn/article/6xqcZfMgJ99ZQiGFbjym?utm_source=rss&utm_medium=article",
-    "source": "InfoQ 中文",
+    "title": "刚刚，DeepSeek V1作者创业项目曝光：开源Agent",
+    "url": "https://www.qbitai.com/2026/11/511570.html",
+    "source": "量子位",
     "topic": "AI大事",
     "region": "cn",
-    "published": "2026-11-19T18:05:40",
-    "author": "褚杏娟"
+    "published": "2026-11-21T06:32:31",
+    "author": "Jay"
+  },
+  {
+    "title": "黎曼猜想被证明？！Claude加持，34岁数学家放出Lean证明",
+    "url": "https://www.qbitai.com/2026/11/511727.html",
+    "source": "量子位",
+    "topic": "AI大事",
+    "region": "cn",
+    "published": "2026-11-20T16:07:39",
+    "author": "衡宇"
+  },
+  {
+    "title": "美国AI音乐巨头进军视频生成，底层模型来自中国MiniMax",
+    "url": "https://www.qbitai.com/2026/11/511722.html",
+    "source": "量子位",
+    "topic": "AI大事",
+    "region": "cn",
+    "published": "2026-11-20T12:18:01",
+    "author": "量子位的朋友们"
+  },
+  {
+    "title": "双系统决策+双层自进化，Agnes让Agent效率最高提速14倍，成本骤降至1/27！",
+    "url": "https://www.qbitai.com/2026/11/511582.html",
+    "source": "量子位",
+    "topic": "AI大事",
+    "region": "cn",
+    "published": "2026-11-20T05:24:11",
+    "author": "一水"
   },
   {
     "title": "elementalsouls/Claude-BugHunter",
@@ -1044,12 +1080,12 @@
     "author": ""
   },
   {
-    "title": "【周刊提前读】深圳APEC信号：全球动荡更需亚太区域开放合作",
-    "url": "https://database.caixin.com/2026-11-21/102507385.html",
-    "source": "财新网",
+    "title": "Anthropic研究AI如何忏悔，牧师：你们自己呢？",
+    "url": "https://www.guancha.cn/GuoJi%C2%B7ZhanLue/2026_11_22_909480_s.shtml",
+    "source": "观察者网",
     "topic": "世界时事",
     "region": "cn",
-    "published": "2026-11-21T00:13:47",
+    "published": "2026-11-22T06:02:00",
     "author": ""
   },
   {
@@ -1080,13 +1116,13 @@
     "author": ""
   },
   {
-    "title": "Anthropic完成史上最大IPO：美股跳水，美联储预警…",
+    "title": "Anthropic创纪录IPO：美股跳水，美联储预警…",
     "url": "https://www.guancha.cn/GuoJi%C2%B7ZhanLue/2026_11_20_909267_s.shtml",
     "source": "观察者网",
     "topic": "世界时事",
     "region": "cn",
-    "published": "2026-11-20T09:13:02",
-    "author": "沈逸心智观察所刘宗义高志凯图观中国世界科先声阿提拉·格朗皮埃尔刘秉叡张维为心智观察所阿希姆·施泰纳李天国崔洪建鲍韶山世界科先声张云昌佩佩·埃斯科巴彭润年点火Brand唐湘龙安峰山米尔斯海默殷瑞宏雁默黄仁伟刘燕婷世界科先声观·世音沈晓敏毛小菁江宇舟张仲麟李其泽周子愉世界科先声席亚洲张维为范勇鹏陈康令赵燕菁观·世音邦尼·特里亚纳杨散逸吴昆财星期六书房崔天凯韩桦沈逸施洋吕礼诗郭光昊秦测皓米尔斯海默格伦·迪森世界科先声殷之光"
+    "published": "2026-11-20T08:40:00",
+    "author": ""
   },
   {
     "title": "详讯公布！习近平主持中俄美元首会晤",
@@ -1103,8 +1139,8 @@
     "source": "观察者网",
     "topic": "世界时事",
     "region": "cn",
-    "published": "2026-11-19T11:14:27",
-    "author": "张维为心智观察所阿希姆·施泰纳李天国崔洪建鲍韶山世界科先声张云昌佩佩·埃斯科巴彭润年点火Brand唐湘龙安峰山米尔斯海默殷瑞宏雁默黄仁伟刘燕婷世界科先声观·世音沈晓敏毛小菁江宇舟张仲麟李其泽周子愉世界科先声席亚洲张维为范勇鹏陈康令赵燕菁观·世音邦尼·特里亚纳杨散逸吴昆财星期六书房崔天凯韩桦沈逸施洋吕礼诗郭光昊秦测皓米尔斯海默格伦·迪森世界科先声殷之光霍尔赫·雷西纳鲍韶山王睿森正孝丁雯洲徐东海金灿荣陈凤馨吴启讷金灿荣陈凤馨"
+    "published": "2026-11-19T11:05:00",
+    "author": ""
   },
   {
     "title": "习近平和彭丽媛为APEC与会来宾举行欢迎宴会",
@@ -1179,13 +1215,22 @@
     "author": ""
   },
   {
+    "title": "Toyota, Nissan, and Honda to standardize parts to lower costs",
+    "url": "https://www.caranddriver.com/news/a74490092/toyota-nissan-honda-standardize-parts-lower-costs/",
+    "source": "HackerNews",
+    "topic": "技术圈",
+    "region": "intl",
+    "published": "2026-11-22T04:04:56",
+    "author": "zdw · 373 pts · 189 comments"
+  },
+  {
     "title": "Pill to treat pancreatic cancer hailed as 'biggest breakthrough in decades'",
     "url": "https://www.theguardian.com/society/2026/nov/20/pill-pancreatic-cancer-breakthrough-daraxonrasib",
     "source": "HackerNews",
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-11-20T21:03:12",
-    "author": "rafaelc · 599 pts · 142 comments"
+    "author": "rafaelc · 916 pts · 207 comments"
   },
   {
     "title": "Lean verification of the Riemann Hypothesis",
@@ -1194,7 +1239,7 @@
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-11-21T14:36:45",
-    "author": "g-b-r · 828 pts · 674 comments"
+    "author": "g-b-r · 988 pts · 821 comments"
   },
   {
     "title": "Inkling-2-Mini in 5.4 GB Memory",
@@ -1203,7 +1248,7 @@
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-11-21T18:02:19",
-    "author": "k__ · 354 pts · 91 comments"
+    "author": "k__ · 443 pts · 111 comments"
   },
   {
     "title": "Detonating a pile of lead azide",
@@ -1212,7 +1257,16 @@
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-11-21T13:23:14",
-    "author": "beginning_end · 519 pts · 346 comments"
+    "author": "beginning_end · 599 pts · 383 comments"
+  },
+  {
+    "title": "Getting the mind to steer the body to steer you",
+    "url": "https://notnottalmud.substack.com/p/getting-the-mind-to-steer-the-body",
+    "source": "HackerNews",
+    "topic": "技术圈",
+    "region": "intl",
+    "published": "2026-11-20T22:11:05",
+    "author": "jger15 · 250 pts · 81 comments"
   },
   {
     "title": "My monitor was cutting my download speed by 75%",
@@ -1221,52 +1275,16 @@
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-11-21T10:36:32",
-    "author": "soheilpro · 484 pts · 232 comments"
+    "author": "soheilpro · 563 pts · 267 comments"
   },
   {
-    "title": "Inkling 2 Mini",
-    "url": "https://thinkingmachines.ai/news/inkling-2-mini/",
-    "source": "HackerNews",
-    "topic": "技术圈",
-    "region": "intl",
-    "published": "2026-11-20T20:12:19",
-    "author": "jasondavies · 1385 pts · 281 comments"
-  },
-  {
-    "title": "RCE in Gnupg",
+    "title": "GnuPG Security Advisory for GPGME",
     "url": "https://lists.gnupg.org/pipermail/gnupg-announce/2026q4/000517.html",
     "source": "HackerNews",
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-11-21T08:32:58",
-    "author": "gdgghhhhh · 232 pts · 93 comments"
-  },
-  {
-    "title": "Why there are still no non-WebKit browsers on iOS",
-    "url": "https://blog.mozilla.org/en/mozilla/internet-policy/apple-ios-browser-engine-rules/",
-    "source": "HackerNews",
-    "topic": "技术圈",
-    "region": "intl",
-    "published": "2026-11-20T15:03:31",
-    "author": "lapcat · 486 pts · 269 comments"
-  },
-  {
-    "title": "Ask HN: I have been unemployed for 2y. 15 years of experience, US. What to do?",
-    "url": "https://news.ycombinator.com/item?id=50583761",
-    "source": "HackerNews",
-    "topic": "技术圈",
-    "region": "intl",
-    "published": "2026-11-20T23:18:32",
-    "author": "LetThingsBeDiff · 613 pts · 683 comments"
-  },
-  {
-    "title": "Hurried Announcement: Alessandro Masullo GRH",
-    "url": "https://math216.wordpress.com/2026/11/20/hurried-announcement-alessandro-masullo-grh/",
-    "source": "HackerNews",
-    "topic": "技术圈",
-    "region": "intl",
-    "published": "2026-11-20T18:33:14",
-    "author": "jasondavies · 2391 pts · 1160 comments"
+    "author": "gdgghhhhh · 250 pts · 99 comments"
   },
   {
     "title": "huggingface/transformers 发布 Release v5.24.0",
@@ -1276,6 +1294,15 @@
     "region": "intl",
     "published": "2026-11-21T12:28:26",
     "author": "Cyrilvallez"
+  },
+  {
+    "title": "siyuan-note/siyuan 发布 v3.8.12-alpha.2",
+    "url": "https://github.com/siyuan-note/siyuan/releases/tag/v3.8.12-alpha.2",
+    "source": "GitHubRelease",
+    "topic": "GitHub 动态",
+    "region": "intl",
+    "published": "2026-11-22T05:29:49",
+    "author": "github-actions[bot]"
   },
   {
     "title": "siyuan-note/siyuan 发布 v3.8.12-alpha.1",
@@ -1296,49 +1323,49 @@
     "author": "next-js-bot[bot]"
   },
   {
-    "title": "Chatbots and Social Media-Embedded AI Assistants Provide Inconsistent Information on the Use of Unregulated Peptides Marketed for Musculoskeletal Recovery.",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/43065586/",
+    "title": "Integrated dynamic fault-tolerant control allocation for NSV against multi-type actuator faults.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/43067597/",
     "source": "PubMed",
     "topic": "心理学",
     "region": "intl",
     "published": "2026",
-    "author": "Dipankar Yettapu, Mahan Miryala, Varshal Patel, Tracey L Bonfield"
+    "author": "Hongyu Jing, Kemao Ma, Denggao Ji"
   },
   {
-    "title": "Revascularisation Strategies in Dialysis-Dependent Chronic Limb-Threatening Ischaemia.",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/43065305/",
+    "title": "Neuron-derived NRG3 Promotes ERBB4-RUNX2 Signaling and Invasive Phenotypes in Glioblastoma.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/43067522/",
     "source": "PubMed",
     "topic": "心理学",
     "region": "intl",
     "published": "2026",
-    "author": "Zongtai Li, Lefan Hu, Yongquan Gu"
+    "author": "Jianzhong Yu, Jichang Han, Meng Yu, Yachao Liu"
   },
   {
-    "title": "Visible mesh after hernia repair.",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/43065298/",
+    "title": "2026 updated recommendations of the Psoriasis Working Group (GPS) of the Spanish Academy of Dermatology and Venereology for biologic therapy in moderate-to-severe psoriasis: Management of special populations, comorbidities, and treatment-related risks-Part 2.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/43067471/",
     "source": "PubMed",
     "topic": "心理学",
     "region": "intl",
     "published": "2026",
-    "author": "Vishal G Shelat"
+    "author": "A López-Ferrer, L Puig, J M Carrascosa, I Belinchón"
   },
   {
-    "title": "Cost effectiveness of exome and chromosomal microarray analysis in cases of severe central nervous system structural anomalies.",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/43065241/",
+    "title": "Transient hippocampal CA1 responses follow the end of a treadmill delay during rat navigation.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/43067433/",
     "source": "PubMed",
     "topic": "心理学",
     "region": "intl",
     "published": "2026",
-    "author": "Michal Rosenberg-Friedman, Sharon Maslovitz, Omri Dominsky, Adi Reches"
+    "author": "Kana Mieno, Kaoru Ide, Hirotsugu Azechi, Susumu Takahashi"
   },
   {
-    "title": "Emotion regulation diversity and recovery from negative emotions: the moderating role of negative emotion differentiation.",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/43065207/",
+    "title": "Long-term heading exposure in relation to structural MRI markers and neurocognitive function in retired professional soccer players.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/43067430/",
     "source": "PubMed",
     "topic": "心理学",
     "region": "intl",
     "published": "2026",
-    "author": "Asaf Rephael Shimoni, Shimrit Daches"
+    "author": "Lucile Philippine Hausser, Hans Rolf Jäger, Julien Godet, Jean-Philippe Dillenseger"
   },
   {
     "title": "Technology-Enabled Fuel Supply Chain Resilience: An Integrated Information System for Real-Time Monitoring and Decision Support",
