@@ -72,13 +72,40 @@
     "author": "Tingrui Huang, Yuanyuan Deng, Qingren Yao, Joaquin Vanschoren, Mykola Pechenizkiy, Songgaojun Deng"
   },
   {
+    "title": "Unkernel: Real Linux kernel, compiled to WebAssembly",
+    "url": "https://unkernel.dev",
+    "source": "HackerNews",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-11-28T03:19:20",
+    "author": "nreece · 258 pts · 51 comments"
+  },
+  {
+    "title": "Google's DeepCrossAttention achieves comparable model quality up to 3x faster",
+    "url": "https://research.google/blog/supercharging-transformer-residual-connections/",
+    "source": "HackerNews",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-11-27T23:06:29",
+    "author": "ComputedCamp995 · 363 pts · 139 comments"
+  },
+  {
+    "title": "The Balatro Timeline",
+    "url": "https://localthunk.com/blog/balatro-timeline-3aarh",
+    "source": "HackerNews",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-11-26T17:20:27",
+    "author": "sheepscreek · 324 pts · 72 comments"
+  },
+  {
     "title": "Credit card skimming scripts using WebRTC found on popular shopping sites",
     "url": "https://www.infohawk.com/news/2026-11-27-black-friday-webrtc-skimmer",
     "source": "HackerNews",
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-11-27T15:40:31",
-    "author": "scanr · 422 pts · 222 comments"
+    "author": "scanr · 515 pts · 269 comments"
   },
   {
     "title": "Convex skills send the user's app idea to a remote server without telling them",
@@ -87,7 +114,7 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-11-27T18:02:45",
-    "author": "MickyTheMouse · 225 pts · 73 comments"
+    "author": "MickyTheMouse · 298 pts · 95 comments"
   },
   {
     "title": "Show HN: bouncemarket – a live prediction market game for a bouncing ball",
@@ -96,7 +123,16 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-11-27T15:01:50",
-    "author": "mday404 · 326 pts · 113 comments"
+    "author": "mday404 · 372 pts · 124 comments"
+  },
+  {
+    "title": "First images of the impact of DART asteroid deflection experiment",
+    "url": "https://arstechnica.com/space/2026/11/europes-hera-mission-returns-to-the-chaotic-scene-of-a-cosmic-smashup/",
+    "source": "HackerNews",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-11-26T17:24:37",
+    "author": "Bender · 211 pts · 64 comments"
   },
   {
     "title": "States sue SpaceX to stop Grok from generating child sex images, revenge porn",
@@ -105,7 +141,7 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-11-27T19:42:25",
-    "author": "DeepLogin · 263 pts · 144 comments"
+    "author": "DeepLogin · 375 pts · 224 comments"
   },
   {
     "title": "Michael Nielsen took down his book on neural nets",
@@ -114,7 +150,34 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-11-27T19:31:01",
-    "author": "brandonb · 380 pts · 253 comments"
+    "author": "brandonb · 519 pts · 320 comments"
+  },
+  {
+    "title": "False computer-checked proofs",
+    "url": "https://cr.yp.to/proofs/falseccp.html",
+    "source": "HackerNews",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-11-27T15:26:09",
+    "author": "_tk_ · 226 pts · 87 comments"
+  },
+  {
+    "title": "十年：谷歌更新 SRE 著作，拥抱 AI 时代",
+    "url": "https://www.infoq.cn/article/vD2gdB9ER7QgjD0W5wds?utm_source=rss&utm_medium=article",
+    "source": "InfoQ 中文",
+    "topic": "AI大事",
+    "region": "cn",
+    "published": "2026-11-28T11:00:00",
+    "author": "作者：Matt Saunders"
+  },
+  {
+    "title": "华映资本董事总经理李岩已确认出席 AICon北京，分享AI 落地中值得持续积累的能力",
+    "url": "https://www.infoq.cn/article/SfAOlgtjHYikEQUKrRVT?utm_source=rss&utm_medium=article",
+    "source": "InfoQ 中文",
+    "topic": "AI大事",
+    "region": "cn",
+    "published": "2026-11-28T10:00:00",
+    "author": "AICon 全球人工智能开发与应用大会"
   },
   {
     "title": "股价破发、用户抱怨、创始人套现，Anthropic CEO 深夜回应：我从没想过让 AI 统治人类",
@@ -189,22 +252,13 @@
     "author": "褚杏娟"
   },
   {
-    "title": "Snowflake CoCo 再进化：让数据开发进入 Agent 自主执行时代 ｜ 技术趋势",
-    "url": "https://www.infoq.cn/article/vfmBDlfQRRfHq4Jyi5b6?utm_source=rss&utm_medium=article",
-    "source": "InfoQ 中文",
+    "title": "亏贼！卡帕西用Claude搓出“美国版《文明》”，网友直接玩成全球接力赛",
+    "url": "https://www.qbitai.com/2026/11/513428.html",
+    "source": "量子位",
     "topic": "AI大事",
     "region": "cn",
-    "published": "2026-11-26T14:56:46",
-    "author": "Siddharth Dwivedi"
-  },
-  {
-    "title": "Uber 推出安全 AI 框架：对 AI 智能体进行全生命周期治理",
-    "url": "https://www.infoq.cn/article/xA3g2i0VtTZIOVePMedY?utm_source=rss&utm_medium=article",
-    "source": "InfoQ 中文",
-    "topic": "AI大事",
-    "region": "cn",
-    "published": "2026-11-26T14:00:00",
-    "author": "Sergio De Simone"
+    "published": "2026-11-28T05:54:46",
+    "author": "henry"
   },
   {
     "title": "DeepSeek APP突然更新账单，网友：要收费了？",
@@ -232,15 +286,6 @@
     "region": "cn",
     "published": "2026-11-27T03:53:49",
     "author": "思邈"
-  },
-  {
-    "title": "具身公司抱团回应：通用大模型跨维打击？没那么简单",
-    "url": "https://www.qbitai.com/2026/11/513125.html",
-    "source": "量子位",
-    "topic": "AI大事",
-    "region": "cn",
-    "published": "2026-11-27T03:33:11",
-    "author": "林, 方舟"
   },
   {
     "title": "elementalsouls/Claude-BugHunter",
@@ -549,6 +594,15 @@
     "author": "山宗"
   },
   {
+    "title": "[AINews] Inside the exploding Coding Data Market",
+    "url": "https://latent.space/p/ainews-inside-the-exploding-coding-data-market/",
+    "source": "Latent Space",
+    "topic": "AI大事",
+    "region": "intl",
+    "published": "2026-11-28T03:45:59",
+    "author": "swyx .ai"
+  },
+  {
     "title": "Inside the AI Training Data Market — Gabe Greenberg, G2i",
     "url": "https://latent.space/p/inside_the_ai_training_data_market_gabe_greenberg_g2i/",
     "source": "Latent Space",
@@ -591,15 +645,6 @@
     "topic": "AI大事",
     "region": "intl",
     "published": "2026-11-25T04:29:07",
-    "author": "swyx .ai"
-  },
-  {
-    "title": "[AINews] Jensen Is Back! and OpenAI Shows Its Pretraining Curve, joined by Microsoft",
-    "url": "https://latent.space/p/ainews-jensen-is-back-and-openai-shows-its-pretraining-curve-joined-by-microsoft/",
-    "source": "Latent Space",
-    "topic": "AI大事",
-    "region": "intl",
-    "published": "2026-11-24T04:14:16",
     "author": "swyx .ai"
   },
   {
@@ -963,6 +1008,24 @@
     "author": "Ben Tossell"
   },
   {
+    "title": "零跑徐军：新能源车市趋于成熟 车企需加快规模扩张",
+    "url": "https://www.caixin.com/2026-11-28/102509540.html",
+    "source": "财新网",
+    "topic": "世界时事",
+    "region": "cn",
+    "published": "2026-11-28T03:44:50",
+    "author": ""
+  },
+  {
+    "title": "世卫：全球近三成少女曾遭遇身体与性暴力，如何预防与保护？",
+    "url": "https://www.caixin.com/2026-11-28/102509506.html",
+    "source": "财新网",
+    "topic": "世界时事",
+    "region": "cn",
+    "published": "2026-11-28T01:32:46",
+    "author": ""
+  },
+  {
     "title": "央行完善贷款罚息规则：从“加收30%—50%”改为“协商确定”",
     "url": "https://finance.caixin.com/2026-11-28/102509472.html",
     "source": "财新网",
@@ -981,34 +1044,52 @@
     "author": ""
   },
   {
-    "title": "大额存单认购门槛减半：个人10万元、机构500万元",
-    "url": "https://finance.caixin.com/2026-11-27/102509400.html",
-    "source": "财新网",
+    "title": "荷兰大臣：如果美国立法加强对华出口管制，将要求其不执行",
+    "url": "https://www.guancha.cn/GuoJi%C2%B7ZhanLue/2026_11_27_910116_s.shtml",
+    "source": "观察者网",
     "topic": "世界时事",
     "region": "cn",
-    "published": "2026-11-27T14:29:07",
+    "published": "2026-11-27T03:49:36",
+    "author": "陈言丁仁方潘锡堂世界科先声赵熙京杰弗里·萨克斯苏恒王骁翁德热伊·多斯塔尔南极土著韩吉元秦测皓江宇舟沈逸科工力量李翔张逸华雁默薛亮王腾飞盖伊·克里斯滕森观·世音沈逸世界科先声贾敏松岛泰胜诺伊里·罗塞托 斯蒂芬妮·布里托李昀常洛闻迈克尔·沙克尔顿世界科先声杨建初沈晓敏柳金财文少卿王广涛王世纯张维为范勇鹏贾卫列林明正吴心伯刘军星期六书房杰弗里·辛顿唐湘龙王丰沈逸心智观察所刘宗义高志凯图观中国世界科先声阿提拉·格朗皮埃尔刘秉叡张维为"
+  },
+  {
+    "title": "“2028年，中国AI芯片将占国内市场88%”",
+    "url": "https://www.guancha.cn/ChanJing/2026_11_26_910044_s.shtml",
+    "source": "观察者网",
+    "topic": "世界时事",
+    "region": "cn",
+    "published": "2026-11-26T08:24:00",
     "author": ""
   },
   {
-    "title": "下周前瞻：国际刑事法院审理杜特尔特案；黄仁勋出席国会参院听证会",
-    "url": "https://china.caixin.com/2026-11-27/102509363.html",
-    "source": "财新网",
+    "title": "意大利急了：乌克兰打到“家门口”",
+    "url": "https://www.guancha.cn/GuoJi%C2%B7ZhanLue/2026_11_25_909900_s.shtml",
+    "source": "观察者网",
     "topic": "世界时事",
     "region": "cn",
-    "published": "2026-11-27T11:05:06",
+    "published": "2026-11-25T13:19:00",
     "author": ""
   },
   {
-    "title": "电诈赃款变“黑黄金” 珠澳警方破获千万洗钱案",
-    "url": "https://international.caixin.com/2026-11-27/102509332.html",
-    "source": "财新网",
+    "title": "马来西亚总理安瓦尔：中国在南海谈判中“很讲道理”",
+    "url": "https://www.guancha.cn/GuoJi%C2%B7ZhanLue/2026_11_24_909773_s.shtml",
+    "source": "观察者网",
     "topic": "世界时事",
     "region": "cn",
-    "published": "2026-11-27T09:41:09",
+    "published": "2026-11-24T14:42:00",
     "author": ""
   },
   {
-    "title": "台灣「九合一」選舉開始投票 核電政策公投同步舉行",
+    "title": "台灣「九合一」選舉與核電公投：開票結果實時更新",
+    "url": "https://www.bbc.com/zhongwen/articles/ck0jxz70e4z5o/trad?at_medium=RSS&at_campaign=rss",
+    "source": "BBC 中文",
+    "topic": "世界时事",
+    "region": "cn",
+    "published": "2026-11-28T08:31:23",
+    "author": ""
+  },
+  {
+    "title": "台灣「九合一」選舉：投票結束 全台各地投票所隨即開票",
     "url": "https://www.bbc.com/zhongwen/live/c60evlqlpx32t/trad?at_medium=RSS&at_campaign=rss",
     "source": "BBC 中文",
     "topic": "世界时事",
@@ -1071,13 +1152,40 @@
     "author": ""
   },
   {
+    "title": "Unkernel: Real Linux kernel, compiled to WebAssembly",
+    "url": "https://unkernel.dev",
+    "source": "HackerNews",
+    "topic": "技术圈",
+    "region": "intl",
+    "published": "2026-11-28T03:19:20",
+    "author": "nreece · 258 pts · 51 comments"
+  },
+  {
+    "title": "Google's DeepCrossAttention achieves comparable model quality up to 3x faster",
+    "url": "https://research.google/blog/supercharging-transformer-residual-connections/",
+    "source": "HackerNews",
+    "topic": "技术圈",
+    "region": "intl",
+    "published": "2026-11-27T23:06:29",
+    "author": "ComputedCamp995 · 364 pts · 139 comments"
+  },
+  {
+    "title": "The Balatro Timeline",
+    "url": "https://localthunk.com/blog/balatro-timeline-3aarh",
+    "source": "HackerNews",
+    "topic": "技术圈",
+    "region": "intl",
+    "published": "2026-11-26T17:20:27",
+    "author": "sheepscreek · 325 pts · 72 comments"
+  },
+  {
     "title": "Credit card skimming scripts using WebRTC found on popular shopping sites",
     "url": "https://www.infohawk.com/news/2026-11-27-black-friday-webrtc-skimmer",
     "source": "HackerNews",
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-11-27T15:40:31",
-    "author": "scanr · 422 pts · 222 comments"
+    "author": "scanr · 515 pts · 269 comments"
   },
   {
     "title": "Convex skills send the user's app idea to a remote server without telling them",
@@ -1086,7 +1194,7 @@
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-11-27T18:02:45",
-    "author": "MickyTheMouse · 225 pts · 74 comments"
+    "author": "MickyTheMouse · 298 pts · 95 comments"
   },
   {
     "title": "Show HN: bouncemarket – a live prediction market game for a bouncing ball",
@@ -1095,7 +1203,16 @@
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-11-27T15:01:50",
-    "author": "mday404 · 326 pts · 113 comments"
+    "author": "mday404 · 372 pts · 124 comments"
+  },
+  {
+    "title": "First images of the impact of DART asteroid deflection experiment",
+    "url": "https://arstechnica.com/space/2026/11/europes-hera-mission-returns-to-the-chaotic-scene-of-a-cosmic-smashup/",
+    "source": "HackerNews",
+    "topic": "技术圈",
+    "region": "intl",
+    "published": "2026-11-26T17:24:37",
+    "author": "Bender · 211 pts · 64 comments"
   },
   {
     "title": "States sue SpaceX to stop Grok from generating child sex images, revenge porn",
@@ -1104,7 +1221,7 @@
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-11-27T19:42:25",
-    "author": "DeepLogin · 264 pts · 145 comments"
+    "author": "DeepLogin · 376 pts · 224 comments"
   },
   {
     "title": "Michael Nielsen took down his book on neural nets",
@@ -1113,7 +1230,25 @@
     "topic": "技术圈",
     "region": "intl",
     "published": "2026-11-27T19:31:01",
-    "author": "brandonb · 381 pts · 253 comments"
+    "author": "brandonb · 519 pts · 320 comments"
+  },
+  {
+    "title": "False computer-checked proofs",
+    "url": "https://cr.yp.to/proofs/falseccp.html",
+    "source": "HackerNews",
+    "topic": "技术圈",
+    "region": "intl",
+    "published": "2026-11-27T15:26:09",
+    "author": "_tk_ · 226 pts · 87 comments"
+  },
+  {
+    "title": "siyuan-note/siyuan 发布 v3.9.0-alpha.7",
+    "url": "https://github.com/siyuan-note/siyuan/releases/tag/v3.9.0-alpha.7",
+    "source": "GitHubRelease",
+    "topic": "GitHub 动态",
+    "region": "intl",
+    "published": "2026-11-28T06:42:36",
+    "author": "github-actions[bot]"
   },
   {
     "title": "siyuan-note/siyuan 发布 v3.9.0-alpha.6",
@@ -1134,30 +1269,12 @@
     "author": "github-actions[bot]"
   },
   {
-    "title": "siyuan-note/siyuan 发布 v3.9.0-alpha.4",
-    "url": "https://github.com/siyuan-note/siyuan/releases/tag/v3.9.0-alpha.4",
-    "source": "GitHubRelease",
-    "topic": "GitHub 动态",
-    "region": "intl",
-    "published": "2026-11-27T03:08:48",
-    "author": "github-actions[bot]"
-  },
-  {
     "title": "vercel/next.js 发布 v16.5.0-canary.71",
     "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.71",
     "source": "GitHubRelease",
     "topic": "GitHub 动态",
     "region": "intl",
     "published": "2026-11-28T00:04:30",
-    "author": "next-js-bot[bot]"
-  },
-  {
-    "title": "vercel/next.js 发布 v16.5.0-canary.70",
-    "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.70",
-    "source": "GitHubRelease",
-    "topic": "GitHub 动态",
-    "region": "intl",
-    "published": "2026-11-27T07:47:58",
     "author": "next-js-bot[bot]"
   },
   {
@@ -1249,6 +1366,15 @@
     "region": "intl",
     "published": "2026-11-17T16:48:33",
     "author": ""
+  },
+  {
+    "title": "[AINews] Inside the exploding Coding Data Market",
+    "url": "https://latent.space/p/ainews-inside-the-exploding-coding-data-market/",
+    "source": "Latent Space",
+    "topic": "供应链",
+    "region": "intl",
+    "published": "2026-11-28T03:45:59",
+    "author": "swyx .ai"
   },
   {
     "title": "[AINews] Gemini 4 Neon: GDM's Opus/Sol Contender",
